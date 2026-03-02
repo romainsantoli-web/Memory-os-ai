@@ -1,12 +1,13 @@
 """MCP Server for Memory OS AI.
 
-Exposes document ingestion, semantic search, and transcription as MCP tools
-consumable by VS Code Copilot. Replaces the local Mistral-7B LLM entirely —
-all generation is delegated to Copilot via the MCP protocol.
+Universal semantic memory for AI models — works with ANY MCP-compatible client:
+VS Code Copilot, Claude Desktop, Claude Code, Codex CLI, ChatGPT, Cursor, etc.
 
 Usage:
-    python -m memory_os_ai.server          # stdio transport (VS Code default)
-    python -m memory_os_ai.server --sse    # SSE transport (HTTP)
+    python -m memory_os_ai.server              # stdio transport (default)
+    python -m memory_os_ai.server --sse        # SSE transport (HTTP)
+    python -m memory_os_ai.server --http       # Streamable HTTP transport
+    MEMORY_API_KEY=secret python -m memory_os_ai.server --http  # with auth
 """
 
 from __future__ import annotations
@@ -45,6 +46,7 @@ from .models import (
     ChatSaveInput,
 )
 from .chat_extractor import ChatExtractor
+from .instructions import MEMORY_INSTRUCTIONS
 
 # ---------------------------------------------------------------------------
 # Global engine instance (singleton per process)
@@ -59,9 +61,12 @@ _chat_extractor = ChatExtractor(
 )
 
 # ---------------------------------------------------------------------------
-# MCP Server setup
+# MCP Server setup — instructions teach ANY model how to use memory tools
 # ---------------------------------------------------------------------------
-server = Server("memory-os-ai")
+server = Server(
+    "memory-os-ai",
+    instructions=MEMORY_INSTRUCTIONS,
+)
 
 
 # --- Tool definitions ---
@@ -452,10 +457,10 @@ def _dispatch(name: str, args: dict) -> Any:
 
 
 # ---------------------------------------------------------------------------
-# Main entry point
+# Main entry points — stdio / SSE / Streamable HTTP
 # ---------------------------------------------------------------------------
-async def main():
-    """Run the MCP server (stdio transport)."""
+async def main_stdio():
+    """Run the MCP server over stdio (default for VS Code, Claude Desktop, Codex)."""
     async with stdio_server() as (read_stream, write_stream):
         await server.run(
             read_stream,
@@ -464,10 +469,110 @@ async def main():
         )
 
 
+def _check_api_key(request) -> bool:
+    """Validate API key from request headers if MEMORY_API_KEY is set."""
+    expected = os.environ.get("MEMORY_API_KEY")
+    if not expected:
+        return True  # no auth configured
+    auth = request.headers.get("authorization", "")
+    if auth.startswith("Bearer "):
+        return auth[7:] == expected
+    return request.headers.get("x-api-key", "") == expected
+
+
+def run_sse(host: str = "0.0.0.0", port: int = 8765):
+    """Run MCP server over SSE transport (for ChatGPT, remote clients)."""
+    import uvicorn
+    from starlette.applications import Starlette
+    from starlette.responses import JSONResponse
+    from starlette.routing import Mount, Route
+    from mcp.server.sse import SseServerTransport
+
+    sse = SseServerTransport("/messages/")
+
+    async def handle_sse(request):
+        if not _check_api_key(request):
+            return JSONResponse({"error": "unauthorized"}, status_code=401)
+        async with sse.connect_sse(
+            request.scope, request.receive, request._send
+        ) as streams:
+            await server.run(
+                streams[0], streams[1],
+                server.create_initialization_options(),
+            )
+
+    async def handle_messages(request):
+        if not _check_api_key(request):
+            return JSONResponse({"error": "unauthorized"}, status_code=401)
+        await sse.handle_post_message(request.scope, request.receive, request._send)
+
+    async def health(request):
+        return JSONResponse({"ok": True, "server": "memory-os-ai", "transport": "sse"})
+
+    app = Starlette(
+        routes=[
+            Route("/health", health),
+            Route("/sse", handle_sse),
+            Route("/messages/", handle_messages, methods=["POST"]),
+        ],
+    )
+    print(f"Memory OS AI — SSE transport on http://{host}:{port}")
+    print(f"  Health: http://{host}:{port}/health")
+    print(f"  SSE:    http://{host}:{port}/sse")
+    if os.environ.get("MEMORY_API_KEY"):
+        print("  Auth:   API key required (Bearer token or x-api-key header)")
+    uvicorn.run(app, host=host, port=port)
+
+
+def run_http(host: str = "0.0.0.0", port: int = 8765):
+    """Run MCP server over Streamable HTTP transport."""
+    import uvicorn
+    from starlette.applications import Starlette
+    from starlette.responses import JSONResponse
+    from starlette.routing import Mount, Route
+    from mcp.server.streamable_http import StreamableHTTPServerTransport
+
+    transport = StreamableHTTPServerTransport("/mcp/")
+
+    async def handle_mcp(request):
+        if not _check_api_key(request):
+            return JSONResponse({"error": "unauthorized"}, status_code=401)
+        await transport.handle_request(request.scope, request.receive, request._send)
+
+    async def health(request):
+        return JSONResponse({"ok": True, "server": "memory-os-ai", "transport": "http"})
+
+    app = Starlette(
+        routes=[
+            Route("/health", health),
+            Mount("/mcp", app=transport.app),
+        ],
+    )
+    print(f"Memory OS AI — Streamable HTTP on http://{host}:{port}")
+    print(f"  Health:   http://{host}:{port}/health")
+    print(f"  MCP:      http://{host}:{port}/mcp/")
+    if os.environ.get("MEMORY_API_KEY"):
+        print("  Auth:     API key required (Bearer token or x-api-key header)")
+    uvicorn.run(app, host=host, port=port)
+
+
 def run():
-    """Synchronous entry point."""
+    """Entry point — detect transport from CLI args."""
     import asyncio
-    asyncio.run(main())
+
+    host = os.environ.get("MEMORY_HOST", "0.0.0.0")
+    port = int(os.environ.get("MEMORY_PORT", "8765"))
+
+    if "--sse" in sys.argv:
+        run_sse(host=host, port=port)
+    elif "--http" in sys.argv:
+        run_http(host=host, port=port)
+    else:
+        asyncio.run(main_stdio())
+
+
+# Keep backward compat
+main = main_stdio
 
 
 if __name__ == "__main__":
