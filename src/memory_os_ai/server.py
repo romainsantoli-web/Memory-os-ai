@@ -14,6 +14,9 @@ from __future__ import annotations
 import json
 import os
 import sys
+import time
+from datetime import datetime, timezone
+from pathlib import Path
 from typing import Any
 
 from mcp.server import Server
@@ -39,6 +42,7 @@ from .models import (
     ChatStatusInput,
     ChatAutoDetectInput,
     SessionBriefInput,
+    ChatSaveInput,
 )
 from .chat_extractor import ChatExtractor
 
@@ -177,12 +181,29 @@ TOOLS: list[dict[str, Any]] = [
         "title": "Session Brief",
         "description": (
             "CALL THIS TOOL AT THE START OF EVERY CONVERSATION. "
+            "Also call it whenever you feel you have lost context or the user "
+            "mentions something you should remember but don't. "
             "Generates a comprehensive session briefing from the semantic memory: "
             "project overview, recent activity, pending tasks, key context, "
             "and chat history. Optionally syncs chat sources first and accepts "
             "a focus query to prioritise specific topics."
         ),
         "inputSchema": SessionBriefInput.model_json_schema(),
+    },
+    {
+        "name": "memory_chat_save",
+        "title": "Save Conversation to Memory",
+        "description": (
+            "CALL THIS TOOL REGULARLY during the conversation to persist the "
+            "current exchange into semantic memory. Call it: "
+            "(1) after completing a significant task, "
+            "(2) every ~10 exchanges, "
+            "(3) when the user asks you to remember something, "
+            "(4) before ending a session. "
+            "Messages are indexed in FAISS AND saved to a persistent JSONL log "
+            "so they survive process restarts. Include a summary for fast recall."
+        ),
+        "inputSchema": ChatSaveInput.model_json_schema(),
     },
 ]
 
@@ -378,6 +399,53 @@ def _dispatch(name: str, args: dict) -> Any:
             brief["chat_sync"] = chat_sync_result
 
         return brief
+
+    elif name == "memory_chat_save":
+        messages = args["messages"]
+        summary = args.get("summary")
+        project_label = args.get("project_label", "conversation")
+        ts = datetime.now(timezone.utc).isoformat()
+
+        # 1. Build segments for FAISS indexing
+        segments: list[str] = []
+        for msg in messages:
+            prefix = f"[{msg['role']}]"
+            segments.append(f"{prefix} {msg['content']}")
+
+        # Add summary as a high-priority segment
+        if summary:
+            segments.insert(0, f"[summary:{project_label}] {summary}")
+
+        # 2. Ingest into FAISS
+        ingest_result = _engine.ingest_segments(
+            segments, source_label=f"save_{project_label}"
+        )
+
+        # 3. Persist to JSONL log (survives process restart)
+        log_dir = os.environ.get("MEMORY_CACHE_DIR", ".")
+        log_path = os.path.join(log_dir, "_conversation_log.jsonl")
+        try:
+            with open(log_path, "a", encoding="utf-8") as f:
+                record = {
+                    "timestamp": ts,
+                    "project": project_label,
+                    "summary": summary,
+                    "message_count": len(messages),
+                    "messages": messages,
+                }
+                f.write(json.dumps(record, ensure_ascii=False) + "\n")
+        except OSError:
+            pass  # best-effort persistence
+
+        return {
+            "ok": True,
+            "saved_messages": len(messages),
+            "has_summary": summary is not None,
+            "project": project_label,
+            "timestamp": ts,
+            "ingest": ingest_result,
+            "log_path": log_path,
+        }
 
     else:
         return {"ok": False, "error": f"Unknown tool: {name}"}
