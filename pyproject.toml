@@ -1,0 +1,74 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "memory-os-ai"
+version = "2.0.0"
+description = "Adaptive memory system for AI agents — MCP server for VS Code Copilot"
+readme = "README.md"
+license = {text = "LGPL-3.0-or-later"}
+requires-python = ">=3.10"
+authors = [
+    {name = "Kocupyr Romain", email = "romainsantoli@gmail.com"},
+]
+keywords = ["mcp", "memory", "faiss", "semantic-search", "vscode", "copilot"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = [
+    "mcp>=1.0.0",
+    "pydantic>=2.0",
+    "numpy>=1.26",
+    "faiss-cpu>=1.7",
+    "sentence-transformers>=3.0",
+    "transformers>=4.40",
+    "pymupdf>=1.24",
+    "pytesseract>=0.3",
+    "python-pptx>=1.0",
+    "python-docx>=1.1",
+    "Pillow>=10.0",
+    "huggingface_hub>=0.25",
+    "requests>=2.32",
+]
+
+[project.optional-dependencies]
+audio = [
+    "openai-whisper>=20231117",
+    "torch>=2.4",
+    "torchaudio>=2.4",
+]
+gpu = [
+    "faiss-gpu>=1.7",
+    "torch>=2.4",
+]
+doc-legacy = [
+    "textract>=1.6",
+]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=5.0",
+    "pytest-asyncio>=0.23",
+]
+
+[project.scripts]
+memory-os-ai = "memory_os_ai.server:run"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+asyncio_mode = "auto"
+
+[tool.coverage.run]
+source = ["src/memory_os_ai"]
+branch = true
+
+[tool.coverage.report]
+fail_under = 80
