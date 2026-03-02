@@ -147,6 +147,70 @@ class DocumentStatusInput(BaseModel):
     pass  # No input needed — returns current engine status.
 
 
+class ChatSyncInput(BaseModel):
+    """Input for memory_chat_sync tool."""
+
+    source_id: Optional[str] = Field(
+        default=None,
+        max_length=100,
+        description="Sync only this source. If omitted, sync all registered sources.",
+    )
+
+
+class ChatSourceAddInput(BaseModel):
+    """Input for memory_chat_source_add tool."""
+
+    source_id: str = Field(
+        ...,
+        min_length=1,
+        max_length=100,
+        description="Unique identifier for the source (e.g. 'vscode-main', 'slack-export').",
+    )
+    source_type: str = Field(
+        ...,
+        description="Source type: 'vscode', 'jsonl', 'markdown', or 'folder'.",
+    )
+    path: str = Field(
+        ...,
+        min_length=1,
+        max_length=1000,
+        description="Absolute path to the source (DB dir, file, or folder).",
+    )
+
+    @field_validator("source_type")
+    @classmethod
+    def validate_type(cls, v: str) -> str:
+        allowed = {"vscode", "jsonl", "markdown", "folder"}
+        if v not in allowed:
+            raise ValueError(f"source_type must be one of {allowed}")
+        return v
+
+
+class ChatSourceRemoveInput(BaseModel):
+    """Input for memory_chat_source_remove tool."""
+
+    source_id: str = Field(
+        ...,
+        min_length=1,
+        max_length=100,
+        description="Source identifier to remove.",
+    )
+
+
+class ChatStatusInput(BaseModel):
+    """Input for memory_chat_status tool."""
+    pass
+
+
+class ChatAutoDetectInput(BaseModel):
+    """Input for memory_chat_auto_detect tool."""
+
+    auto_register: bool = Field(
+        default=True,
+        description="Automatically register detected VS Code workspaces as sources.",
+    )
+
+
 # --- Tool models registry (for main.py dispatcher) ---
 TOOL_MODELS: dict[str, type[BaseModel]] = {
     "memory_ingest": IngestInput,
@@ -156,4 +220,9 @@ TOOL_MODELS: dict[str, type[BaseModel]] = {
     "memory_list_documents": ListDocumentsInput,
     "memory_transcribe": TranscribeInput,
     "memory_status": DocumentStatusInput,
+    "memory_chat_sync": ChatSyncInput,
+    "memory_chat_source_add": ChatSourceAddInput,
+    "memory_chat_source_remove": ChatSourceRemoveInput,
+    "memory_chat_status": ChatStatusInput,
+    "memory_chat_auto_detect": ChatAutoDetectInput,
 }

@@ -377,6 +377,55 @@ class MemoryEngine:
             },
         }
 
+    def ingest_segments(
+        self,
+        segments: list[str],
+        source_label: str = "chat",
+    ) -> dict:
+        """Append text segments to the live FAISS index without full re-index.
+
+        Used by the chat extractor to incrementally add new messages.
+        Returns a summary dict.
+        """
+        if not segments:
+            return {"ok": True, "added_segments": 0, "total_segments": self.segment_count}
+
+        start = time.time()
+
+        # Encode new segments
+        embeddings = self._encode(segments)
+
+        with self._lock:
+            # Initialise index if this is the first data
+            if self._index is None:
+                self._build_index(embeddings)
+            else:
+                self._index.add(embeddings)
+
+            # Track as a virtual document
+            offset = len(self._segments)
+            self._segments.extend(segments)
+
+            ts = time.strftime("%Y%m%d_%H%M%S")
+            doc_name = f"_chat_{source_label}_{ts}"
+            self._documents[doc_name] = DocumentInfo(
+                filename=doc_name,
+                nb_pages=1,
+                nb_segments=len(segments),
+                nb_words=sum(len(s.split()) for s in segments),
+                segment_start=offset,
+                segment_end=offset + len(segments),
+            )
+            self._initialized = True
+
+        return {
+            "ok": True,
+            "added_segments": len(segments),
+            "total_segments": len(self._segments),
+            "source": source_label,
+            "elapsed_seconds": round(time.time() - start, 2),
+        }
+
     def search(
         self,
         query: str,

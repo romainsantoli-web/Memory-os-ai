@@ -114,6 +114,11 @@ class TestModels:
             "memory_list_documents",
             "memory_transcribe",
             "memory_status",
+            "memory_chat_sync",
+            "memory_chat_source_add",
+            "memory_chat_source_remove",
+            "memory_chat_status",
+            "memory_chat_auto_detect",
         }
         assert set(TOOL_MODELS.keys()) == expected
 
