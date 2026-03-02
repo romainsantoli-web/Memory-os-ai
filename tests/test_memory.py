@@ -119,8 +119,47 @@ class TestModels:
             "memory_chat_source_remove",
             "memory_chat_status",
             "memory_chat_auto_detect",
+            "memory_session_brief",
         }
         assert set(TOOL_MODELS.keys()) == expected
+
+
+# ---------------------------------------------------------------------------
+# SessionBriefInput model tests
+# ---------------------------------------------------------------------------
+from memory_os_ai.models import SessionBriefInput
+
+
+class TestSessionBriefModel:
+    """Pydantic validation tests for SessionBriefInput."""
+
+    def test_defaults(self):
+        inp = SessionBriefInput()
+        assert inp.max_tokens == 4000
+        assert inp.include_chat_sync is True
+        assert inp.focus_query is None
+
+    def test_custom_values(self):
+        inp = SessionBriefInput(
+            max_tokens=8000,
+            include_chat_sync=False,
+            focus_query="MCP bridge project",
+        )
+        assert inp.max_tokens == 8000
+        assert inp.include_chat_sync is False
+        assert inp.focus_query == "MCP bridge project"
+
+    def test_max_tokens_too_low(self):
+        with pytest.raises(ValueError):
+            SessionBriefInput(max_tokens=10)
+
+    def test_max_tokens_too_high(self):
+        with pytest.raises(ValueError):
+            SessionBriefInput(max_tokens=99999)
+
+    def test_focus_query_too_long(self):
+        with pytest.raises(ValueError):
+            SessionBriefInput(focus_query="x" * 501)
 
 
 # ---------------------------------------------------------------------------
@@ -251,3 +290,47 @@ class TestEngine:
         assert segments[0] != segments[1]
         # First segment length should match segment_size
         assert len(segments[0]) == engine.segment_size
+
+    def test_session_brief_empty(self, engine: MemoryEngine):
+        """Session brief on an empty engine returns ok but no context."""
+        brief = engine.session_brief()
+        assert brief["ok"] is True
+        assert brief["overview"]["total_documents"] == 0
+        assert brief["context"] == ""
+        assert brief["unique_segments_retrieved"] == 0
+
+    def test_session_brief_after_ingest(self, engine: MemoryEngine, tmp_docs: Path):
+        """Session brief after ingesting docs should return relevant context."""
+        engine.ingest(str(tmp_docs), extensions={".txt"})
+        brief = engine.session_brief()
+        assert brief["ok"] is True
+        assert brief["overview"]["total_documents"] == 3
+        assert brief["context_chars"] > 0
+        assert brief["unique_segments_retrieved"] > 0
+        assert len(brief["queries_used"]) >= 6  # default queries
+        assert brief["focus_query"] is None
+
+    def test_session_brief_with_focus(self, engine: MemoryEngine, tmp_docs: Path):
+        """Focus query should appear first in the queries list."""
+        engine.ingest(str(tmp_docs), extensions={".txt"})
+        brief = engine.session_brief(focus_query="FAISS library")
+        assert brief["ok"] is True
+        assert brief["focus_query"] == "FAISS library"
+        assert brief["queries_used"][0] == "FAISS library"
+        assert brief["context_chars"] > 0
+
+    def test_session_brief_max_chars(self, engine: MemoryEngine, tmp_docs: Path):
+        """Context should respect max_chars budget."""
+        engine.ingest(str(tmp_docs), extensions={".txt"})
+        brief = engine.session_brief(max_chars=200)
+        assert brief["context_chars"] <= 250  # small margin for headers
+
+    def test_session_brief_separates_chat_docs(self, engine: MemoryEngine, tmp_docs: Path):
+        """Chat-injected docs should be counted separately."""
+        engine.ingest(str(tmp_docs), extensions={".txt"})
+        # Inject chat segments
+        engine.ingest_segments(["chat message one", "chat message two"], source_label="test")
+        brief = engine.session_brief()
+        assert brief["overview"]["total_documents"] == 3
+        assert brief["overview"]["total_chat_sources"] == 1
+        assert brief["overview"]["total_chat_segments"] == 2

@@ -211,6 +211,26 @@ class ChatAutoDetectInput(BaseModel):
     )
 
 
+class SessionBriefInput(BaseModel):
+    """Input for memory_session_brief tool."""
+
+    max_tokens: int = Field(
+        default=4000,
+        ge=500,
+        le=30000,
+        description="Approximate max tokens for the context returned (~4 chars/token).",
+    )
+    include_chat_sync: bool = Field(
+        default=True,
+        description="Auto-sync all registered chat sources before building the brief.",
+    )
+    focus_query: Optional[str] = Field(
+        default=None,
+        max_length=500,
+        description="Optional focus area to prioritise (e.g. 'MCP bridge project').",
+    )
+
+
 # --- Tool models registry (for main.py dispatcher) ---
 TOOL_MODELS: dict[str, type[BaseModel]] = {
     "memory_ingest": IngestInput,
@@ -225,4 +245,5 @@ TOOL_MODELS: dict[str, type[BaseModel]] = {
     "memory_chat_source_remove": ChatSourceRemoveInput,
     "memory_chat_status": ChatStatusInput,
     "memory_chat_auto_detect": ChatAutoDetectInput,
+    "memory_session_brief": SessionBriefInput,
 }

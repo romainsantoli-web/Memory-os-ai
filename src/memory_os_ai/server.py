@@ -38,6 +38,7 @@ from .models import (
     ChatSourceRemoveInput,
     ChatStatusInput,
     ChatAutoDetectInput,
+    SessionBriefInput,
 )
 from .chat_extractor import ChatExtractor
 
@@ -170,6 +171,18 @@ TOOLS: list[dict[str, Any]] = [
             "Discovers all Copilot chat histories without manual configuration."
         ),
         "inputSchema": ChatAutoDetectInput.model_json_schema(),
+    },
+    {
+        "name": "memory_session_brief",
+        "title": "Session Brief",
+        "description": (
+            "CALL THIS TOOL AT THE START OF EVERY CONVERSATION. "
+            "Generates a comprehensive session briefing from the semantic memory: "
+            "project overview, recent activity, pending tasks, key context, "
+            "and chat history. Optionally syncs chat sources first and accepts "
+            "a focus query to prioritise specific topics."
+        ),
+        "inputSchema": SessionBriefInput.model_json_schema(),
     },
 ]
 
@@ -342,6 +355,29 @@ def _dispatch(name: str, args: dict) -> Any:
             "registered": registered,
             "sources": _chat_extractor.list_sources(),
         }
+
+    elif name == "memory_session_brief":
+        # 1. Optionally sync chat sources first
+        chat_sync_result = None
+        if args.get("include_chat_sync", True):
+            sync_out = _chat_extractor.sync()
+            messages = sync_out.pop("messages", [])
+            if messages:
+                segments = _chat_extractor.messages_to_segments(messages)
+                ingest_out = _engine.ingest_segments(segments, source_label="session_brief")
+                sync_out["ingest"] = ingest_out
+            chat_sync_result = sync_out
+
+        # 2. Build the brief from the full memory index
+        max_chars = args.get("max_tokens", 4000) * 4
+        focus = args.get("focus_query")
+        brief = _engine.session_brief(max_chars=max_chars, focus_query=focus)
+
+        # 3. Attach chat sync summary
+        if chat_sync_result is not None:
+            brief["chat_sync"] = chat_sync_result
+
+        return brief
 
     else:
         return {"ok": False, "error": f"Unknown tool: {name}"}
