@@ -1,13 +1,13 @@
 """Core document processing engine for Memory OS AI.
 
 Handles document ingestion, embedding, FAISS indexing, and search.
-No LLM dependency — all generation is delegated to the caller (Copilot).
+No LLM dependency — all generation is delegated to the caller (any AI model via MCP).
 """
 
 from __future__ import annotations
 
+import logging
 import os
-import pickle
 import re
 import threading
 import time
@@ -16,6 +16,8 @@ from pathlib import Path
 from typing import Optional
 
 import numpy as np
+
+logger = logging.getLogger("memory_os_ai")
 
 # --- Lazy imports for heavy libraries ---
 # These are imported at first use to speed up module load time
@@ -181,7 +183,7 @@ class MemoryEngine:
     """Core engine for document ingestion and semantic search.
 
     This class manages the FAISS index, embeddings, and document metadata.
-    It does NOT include any LLM — generation is delegated to Copilot.
+    It does NOT include any LLM — generation is delegated to the caller via MCP.
     """
 
     def __init__(
@@ -286,7 +288,7 @@ class MemoryEngine:
         if not os.path.isdir(folder_path):
             return {"ok": False, "error": f"Folder not found: {folder_path}"}
 
-        cache_path = os.path.join(folder_path, "embeddings_cache.pkl") if not self.cache_dir else os.path.join(self.cache_dir, "embeddings_cache.pkl")
+        cache_path = os.path.join(folder_path, "embeddings_cache.npy") if not self.cache_dir else os.path.join(self.cache_dir, "embeddings_cache.npy")
 
         start = time.time()
         all_segments: list[str] = []
@@ -336,21 +338,19 @@ class MemoryEngine:
         embeddings = None
         if not force_reindex and os.path.exists(cache_path):
             try:
-                with open(cache_path, "rb") as f:
-                    cached = pickle.load(f)
+                cached = np.load(cache_path, allow_pickle=False)
                 if isinstance(cached, np.ndarray) and cached.shape[0] == len(all_segments):
                     embeddings = cached
             except Exception:
-                pass
+                logger.debug("Cache miss or corrupt: %s", cache_path)
 
         if embeddings is None:
             embeddings = self._encode(all_segments)
             try:
                 os.makedirs(os.path.dirname(cache_path) or ".", exist_ok=True)
-                with open(cache_path, "wb") as f:
-                    pickle.dump(embeddings, f)
+                np.save(cache_path, embeddings)
             except Exception:
-                pass
+                logger.warning("Failed to write embedding cache: %s", cache_path)
 
         # Build index
         with self._lock:
@@ -696,24 +696,50 @@ class MemoryEngine:
             new_embeddings = embeddings[top_indices]
 
         else:  # dedup_merge
-            # 1. Remove near-duplicates
+            # 1. Remove near-duplicates via cosine similarity matrix (vectorized)
             embeddings = self._encode(self._segments)
-            keep = [True] * len(self._segments)
-            # Check pairwise for small index, use FAISS for larger
-            for i in range(len(self._segments)):
-                if not keep[i]:
-                    continue
-                for j in range(i + 1, len(self._segments)):
-                    if not keep[j]:
+            n = len(self._segments)
+            # Compute pairwise L2 distances efficiently via broadcasting
+            # For normalized embeddings: dist_sq = 2 - 2*dot(a,b)
+            # Use chunked dot product to limit memory for very large n
+            keep = [True] * n
+            if n <= 5000:
+                # Vectorized approach: compute full similarity matrix at once
+                sim = embeddings @ embeddings.T  # n×n cosine similarity
+                for i in range(n):
+                    if not keep[i]:
                         continue
-                    dist = float(np.linalg.norm(embeddings[i] - embeddings[j]))
-                    if dist < 0.05:
-                        # Keep the longer one
-                        if len(self._segments[j]) > len(self._segments[i]):
-                            keep[i] = False
-                            break
-                        else:
-                            keep[j] = False
+                    for j in range(i + 1, n):
+                        if not keep[j]:
+                            continue
+                        dist = 2.0 - 2.0 * float(sim[i, j])
+                        if dist < 0.05:
+                            if len(self._segments[j]) > len(self._segments[i]):
+                                keep[i] = False
+                                break
+                            else:
+                                keep[j] = False
+            else:
+                # For very large indices, process in chunks
+                chunk_size = 1000
+                for start in range(0, n, chunk_size):
+                    end = min(start + chunk_size, n)
+                    chunk_emb = embeddings[start:end]
+                    sim_chunk = chunk_emb @ embeddings.T
+                    for local_i in range(end - start):
+                        i = start + local_i
+                        if not keep[i]:
+                            continue
+                        for j in range(i + 1, n):
+                            if not keep[j]:
+                                continue
+                            dist = 2.0 - 2.0 * float(sim_chunk[local_i, j])
+                            if dist < 0.05:
+                                if len(self._segments[j]) > len(self._segments[i]):
+                                    keep[i] = False
+                                    break
+                                else:
+                                    keep[j] = False
 
             deduped = [(self._segments[i], embeddings[i]) for i in range(len(self._segments)) if keep[i]]
 

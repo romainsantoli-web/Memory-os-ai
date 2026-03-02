@@ -32,7 +32,9 @@ mistral-7b/
 
 # Cache
 embeddings_cache.pkl
+embeddings_cache.npy
 *.pkl
+*.npy
 .pytest_cache/
 htmlcov/
 .coverage

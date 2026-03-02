@@ -4,15 +4,15 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "memory-os-ai"
-version = "2.0.0"
-description = "Adaptive memory system for AI agents — MCP server for VS Code Copilot"
+version = "3.0.0"
+description = "Adaptive memory system for AI agents — universal MCP server for Claude, Codex, VS Code, ChatGPT"
 readme = "README.md"
 license = {text = "LGPL-3.0-or-later"}
 requires-python = ">=3.10"
 authors = [
     {name = "Kocupyr Romain", email = "romainsantoli@gmail.com"},
 ]
-keywords = ["mcp", "memory", "faiss", "semantic-search", "vscode", "copilot"]
+keywords = ["mcp", "memory", "faiss", "semantic-search", "vscode", "copilot", "claude", "codex", "chatgpt", "ai-agents"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Programming Language :: Python :: 3",

@@ -13,12 +13,15 @@ Usage:
 from __future__ import annotations
 
 import json
+import logging
 import os
 import sys
 import time
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
+
+import numpy as np
 
 from mcp.server import Server
 from mcp.server.stdio import stdio_server
@@ -54,6 +57,8 @@ from .models import (
 from .chat_extractor import ChatExtractor
 from .instructions import MEMORY_INSTRUCTIONS
 
+logger = logging.getLogger("memory_os_ai")
+
 # ---------------------------------------------------------------------------
 # Global engine instance (singleton per process)
 # ---------------------------------------------------------------------------
@@ -80,10 +85,15 @@ def _load_project_links() -> None:
             with open(_LINKS_FILE, "r") as f:
                 links = json.load(f)
             for alias, path in links.items():
+                if ".." in path:
+                    logger.warning("Skipping linked project %s — path traversal in %s", alias, path)
+                    continue
                 if os.path.isdir(path):
                     _linked_projects[alias] = {"path": path, "engine": None}
-        except Exception:
-            pass
+                else:
+                    logger.info("Linked project %s path missing: %s", alias, path)
+        except Exception as e:
+            logger.warning("Failed to load project links: %s", e)
 
 
 def _save_project_links() -> None:
@@ -107,14 +117,11 @@ def _get_linked_engine(alias: str):
             model_name=os.environ.get("MEMORY_MODEL", "all-MiniLM-L6-v2"),
             cache_dir=info["path"],
         )
-        # Try to load persisted index
-        cache_path = os.path.join(info["path"], "embeddings_cache.pkl")
+        # Try to load persisted index (safe numpy load — no pickle)
+        cache_path = os.path.join(info["path"], "embeddings_cache.npy")
         if os.path.exists(cache_path):
-            import pickle
-            import numpy as np
             try:
-                with open(cache_path, "rb") as f:
-                    embeddings = pickle.load(f)
+                embeddings = np.load(cache_path, allow_pickle=False)
                 if isinstance(embeddings, np.ndarray) and len(embeddings) > 0:
                     eng._build_index(embeddings)
                     # Rebuild segments list from JSONL log if available
@@ -183,11 +190,11 @@ TOOLS: list[dict[str, Any]] = [
     },
     {
         "name": "memory_get_context",
-        "title": "Get Context for Copilot",
+        "title": "Get Context",
         "description": (
             "Retrieve relevant document context for a query. "
-            "Designed to provide context to Copilot for summarization, report generation, "
-            "or Q&A — replaces the local Mistral-7B LLM entirely."
+            "Designed to provide context for summarization, report generation, "
+            "or Q&A — the AI model uses this to ground responses in real documents."
         ),
         "inputSchema": GetContextInput.model_json_schema(),
     },
@@ -335,6 +342,7 @@ async def list_tools() -> list[Tool]:
     return [
         Tool(
             name=t["name"],
+            title=t.get("title"),
             description=t["description"],
             inputSchema=t["inputSchema"],
         )
@@ -440,6 +448,7 @@ async def call_tool(name: str, arguments: dict) -> list[TextContent]:
         return [TextContent(type="text", text=json.dumps(result, ensure_ascii=False, indent=2))]
 
     except Exception as e:
+        logger.error("Tool %s failed: %s", name, e, exc_info=True)
         error_result = {"ok": False, "error": str(e), "tool": name}
         return [TextContent(type="text", text=json.dumps(error_result, ensure_ascii=False))]
 

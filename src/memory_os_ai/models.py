@@ -138,7 +138,10 @@ class TranscribeInput(BaseModel):
     @field_validator("file_path")
     @classmethod
     def validate_file_path(cls, v: str) -> str:
-        return _no_traversal(v)
+        # Allow absolute paths (resolved by dispatcher) but block traversal
+        if ".." in v:
+            raise ValueError("Path traversal detected — no '..' allowed")
+        return v
 
 
 class DocumentStatusInput(BaseModel):
