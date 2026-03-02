@@ -6,6 +6,7 @@
 [![Coverage](https://img.shields.io/badge/coverage-96%25-brightgreen)]()
 [![Python](https://img.shields.io/badge/python-3.10+-blue)]()
 [![MCP](https://img.shields.io/badge/MCP-2025--11--25-purple)]()
+[![VS Code](https://img.shields.io/badge/VS%20Code-MCP%20Ready-007ACC?logo=visualstudiocode)]()
 [![Version](https://img.shields.io/badge/version-3.0.0-orange)]()
 [![License](https://img.shields.io/badge/license-LGPL--3.0-orange)]()
 
@@ -182,6 +183,22 @@ GNU Lesser General Public License v3.0 (LGPL-3.0). See [LICENSE](LICENSE) for de
 
 For commercial licensing, contact romainsantoli@gmail.com.
 
+## Part of the OpenClaw Ecosystem
+
+Memory OS AI is designed to work alongside the **OpenClaw** agent infrastructure:
+
+| Repo | Description |
+|------|-------------|
+| [**setup-vs-agent-firm**](https://github.com/romainsantoli-web/setup-vs-agent-firm) | Factory for AI agent firms — 28 SKILL.md, 5 SOUL.md, 15 sectors |
+| [**mcp-openclaw-extensions**](https://github.com/romainsantoli-web/setup-vs-agent-firm/tree/main/mcp-openclaw-extensions) | 115 MCP tools — security audit, A2A bridge, fleet management |
+| **Memory OS AI** *(this repo)* | Semantic memory + chat persistence — universal MCP bridge |
+
+Together they form a complete stack: **memory** (this repo) → **skills & souls** (setup-vs-agent-firm) → **security & orchestration** (mcp-openclaw-extensions).
+
 ## Contributing
 
 Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+---
+
+⚠️ Contenu généré par IA — validation humaine requise avant utilisation.
