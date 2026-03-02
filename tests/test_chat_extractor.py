@@ -466,4 +466,4 @@ class TestChatModels:
             "memory_chat_auto_detect",
         }
         assert expected_new.issubset(TOOL_MODELS.keys())
-        assert len(TOOL_MODELS) == 12  # 7 original + 5 new
+        assert len(TOOL_MODELS) == 13  # 7 original + 5 chat + 1 session_brief

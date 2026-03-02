@@ -539,6 +539,105 @@ class MemoryEngine:
             docs.append(entry)
         return docs
 
+    def session_brief(
+        self,
+        max_chars: int = 16_000,
+        focus_query: Optional[str] = None,
+    ) -> dict:
+        """Build a comprehensive session briefing from the memory index.
+
+        Runs multiple strategic queries to surface:
+        - project overview (indexed documents)
+        - key context from different angles
+        - recent activity / chat history
+        - pending tasks / TODOs
+
+        Returns a dict with structured sections ready for the LLM.
+        """
+        start = time.time()
+
+        # ── 1. Documents overview ──────────────────────────────────────
+        docs = self.list_documents(include_stats=True)
+        # Separate real docs from chat-injected virtual docs
+        project_docs = [d for d in docs if not d["filename"].startswith("_chat_")]
+        chat_docs = [d for d in docs if d["filename"].startswith("_chat_")]
+
+        total_chat_segments = sum(d.get("segments", 0) for d in chat_docs)
+        total_chat_words = sum(d.get("words", 0) for d in chat_docs)
+
+        # ── 2. Multi-query retrieval (deduplicated) ───────────────────
+        _QUERIES = [
+            "project status progress current state",
+            "TODO pending unfinished remaining tasks next steps",
+            "recent activity latest changes updates new",
+            "important decisions architecture choices design",
+            "errors problems blockers issues bugs",
+            "summary overview objectives goals",
+        ]
+        queries = list(_QUERIES)
+        if focus_query:
+            queries.insert(0, focus_query)
+
+        seen_indices: set[int] = set()
+        all_results: list[SearchResult] = []
+
+        for q in queries:
+            results = self.search(q, top_k=15, threshold=2.0)
+            for r in results:
+                if r.segment_index not in seen_indices:
+                    seen_indices.add(r.segment_index)
+                    all_results.append(r)
+
+        # Sort by relevance (lowest distance first)
+        all_results.sort(key=lambda r: r.distance)
+
+        # ── 3. Build context string (budget-aware) ────────────────────
+        context_parts: list[str] = []
+        total_len = 0
+        seen_files: set[str] = set()
+
+        for r in all_results:
+            header = ""
+            if r.filename not in seen_files:
+                header = f"\n--- [{r.filename}] ---\n"
+                seen_files.add(r.filename)
+            chunk = header + r.segment_text
+            if total_len + len(chunk) > max_chars:
+                remaining = max_chars - total_len
+                if remaining > 50:
+                    context_parts.append(chunk[:remaining])
+                break
+            context_parts.append(chunk)
+            total_len += len(chunk)
+
+        context_text = "".join(context_parts)
+
+        # ── 4. Assemble brief ─────────────────────────────────────────
+        return {
+            "ok": True,
+            "overview": {
+                "total_documents": len(project_docs),
+                "total_chat_sources": len(chat_docs),
+                "total_segments": self.segment_count,
+                "total_chat_segments": total_chat_segments,
+                "total_chat_words": total_chat_words,
+                "documents": [
+                    {
+                        "name": d["filename"],
+                        "segments": d.get("segments", 0),
+                        "words": d.get("words", 0),
+                    }
+                    for d in project_docs
+                ],
+            },
+            "context": context_text,
+            "context_chars": len(context_text),
+            "queries_used": queries,
+            "unique_segments_retrieved": len(all_results),
+            "focus_query": focus_query,
+            "elapsed_seconds": round(time.time() - start, 2),
+        }
+
     def status(self) -> dict:
         """Return current engine status."""
         return {
