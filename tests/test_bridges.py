@@ -35,8 +35,8 @@ class TestInstructions:
         assert "memory_chat_save" in MEMORY_INSTRUCTIONS
         assert "memory_search" in MEMORY_INSTRUCTIONS
 
-    def test_instructions_mentions_14_tools(self):
-        assert "14" in MEMORY_INSTRUCTIONS
+    def test_instructions_mentions_18_tools(self):
+        assert "18" in MEMORY_INSTRUCTIONS
 
     def test_short_instructions_exists(self):
         assert len(MEMORY_INSTRUCTIONS_SHORT) > 50

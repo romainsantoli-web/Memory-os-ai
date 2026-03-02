@@ -25,6 +25,8 @@ from mcp.server.stdio import stdio_server
 from mcp.types import (
     TextContent,
     Tool,
+    Resource,
+    TextResourceContents,
 )
 
 from .engine import MemoryEngine
@@ -44,6 +46,10 @@ from .models import (
     ChatAutoDetectInput,
     SessionBriefInput,
     ChatSaveInput,
+    CompactInput,
+    ProjectLinkInput,
+    ProjectUnlinkInput,
+    ProjectListInput,
 )
 from .chat_extractor import ChatExtractor
 from .instructions import MEMORY_INSTRUCTIONS
@@ -59,6 +65,82 @@ _engine = MemoryEngine(
 _chat_extractor = ChatExtractor(
     state_dir=os.environ.get("MEMORY_CACHE_DIR", "."),
 )
+
+# Cross-project linked memories: alias -> {path, engine}
+_linked_projects: dict[str, dict] = {}
+_LINKS_FILE = os.path.join(
+    os.environ.get("MEMORY_CACHE_DIR", "."), "_project_links.json"
+)
+
+
+def _load_project_links() -> None:
+    """Load persisted project links from disk."""
+    if os.path.exists(_LINKS_FILE):
+        try:
+            with open(_LINKS_FILE, "r") as f:
+                links = json.load(f)
+            for alias, path in links.items():
+                if os.path.isdir(path):
+                    _linked_projects[alias] = {"path": path, "engine": None}
+        except Exception:
+            pass
+
+
+def _save_project_links() -> None:
+    """Persist project links to disk."""
+    try:
+        data = {alias: info["path"] for alias, info in _linked_projects.items()}
+        os.makedirs(os.path.dirname(_LINKS_FILE) or ".", exist_ok=True)
+        with open(_LINKS_FILE, "w") as f:
+            json.dump(data, f, indent=2)
+    except OSError:
+        pass
+
+
+def _get_linked_engine(alias: str):
+    """Lazy-init a MemoryEngine for a linked project."""
+    info = _linked_projects.get(alias)
+    if not info:
+        return None
+    if info["engine"] is None:
+        eng = MemoryEngine(
+            model_name=os.environ.get("MEMORY_MODEL", "all-MiniLM-L6-v2"),
+            cache_dir=info["path"],
+        )
+        # Try to load persisted index
+        cache_path = os.path.join(info["path"], "embeddings_cache.pkl")
+        if os.path.exists(cache_path):
+            import pickle
+            import numpy as np
+            try:
+                with open(cache_path, "rb") as f:
+                    embeddings = pickle.load(f)
+                if isinstance(embeddings, np.ndarray) and len(embeddings) > 0:
+                    eng._build_index(embeddings)
+                    # Rebuild segments list from JSONL log if available
+                    log_path = os.path.join(info["path"], "_conversation_log.jsonl")
+                    if os.path.exists(log_path):
+                        segments = []
+                        with open(log_path, "r") as lf:
+                            for line in lf:
+                                try:
+                                    rec = json.loads(line)
+                                    if rec.get("summary"):
+                                        segments.append(f"[summary] {rec['summary']}")
+                                    for msg in rec.get("messages", []):
+                                        segments.append(f"[{msg.get('role', '?')}] {msg.get('content', '')}")
+                                except Exception:
+                                    pass
+                        eng._segments = segments
+                        eng._initialized = True
+            except Exception:
+                pass
+        info["engine"] = eng
+    return info["engine"]
+
+
+# Load any previously persisted links
+_load_project_links()
 
 # ---------------------------------------------------------------------------
 # MCP Server setup — instructions teach ANY model how to use memory tools
@@ -210,6 +292,40 @@ TOOLS: list[dict[str, Any]] = [
         ),
         "inputSchema": ChatSaveInput.model_json_schema(),
     },
+    {
+        "name": "memory_compact",
+        "title": "Compact Memory",
+        "description": (
+            "Compress the in-memory FAISS index by removing near-duplicate segments "
+            "and merging short fragments. Use when the memory is getting large and "
+            "context retrieval is slow or noisy. Strategies: 'dedup_merge' (default) "
+            "removes duplicates and merges short segments; 'top_k' keeps only the "
+            "most central segments."
+        ),
+        "inputSchema": CompactInput.model_json_schema(),
+    },
+    {
+        "name": "memory_project_link",
+        "title": "Link External Project Memory",
+        "description": (
+            "Link another project's memory cache so that searches and session briefs "
+            "include context from both projects. Enables cross-project knowledge sharing. "
+            "Provide the absolute path to the other project's .memory-os-ai directory."
+        ),
+        "inputSchema": ProjectLinkInput.model_json_schema(),
+    },
+    {
+        "name": "memory_project_unlink",
+        "title": "Unlink External Project",
+        "description": "Remove a previously linked project by its alias.",
+        "inputSchema": ProjectUnlinkInput.model_json_schema(),
+    },
+    {
+        "name": "memory_project_list",
+        "title": "List Linked Projects",
+        "description": "List all currently linked external project memories with their status.",
+        "inputSchema": ProjectListInput.model_json_schema(),
+    },
 ]
 
 
@@ -224,6 +340,88 @@ async def list_tools() -> list[Tool]:
         )
         for t in TOOLS
     ]
+
+
+# ---------------------------------------------------------------------------
+# MCP Resources — expose indexed documents as browsable URIs
+# ---------------------------------------------------------------------------
+@server.list_resources()
+async def list_resources() -> list[Resource]:
+    """Expose all indexed documents + conversation log as memory:// resources."""
+    resources = []
+
+    # 1. Indexed documents
+    for name, doc in _engine._documents.items():
+        resources.append(Resource(
+            uri=f"memory://documents/{name}",
+            name=name,
+            description=f"{doc.nb_segments} segments, {doc.nb_words} words",
+            mimeType="text/plain",
+        ))
+
+    # 2. Conversation log (if exists)
+    log_dir = os.environ.get("MEMORY_CACHE_DIR", ".")
+    log_path = os.path.join(log_dir, "_conversation_log.jsonl")
+    if os.path.exists(log_path):
+        size = os.path.getsize(log_path)
+        resources.append(Resource(
+            uri="memory://logs/conversation",
+            name="Conversation Log",
+            description=f"Persistent JSONL conversation log ({size} bytes)",
+            mimeType="application/jsonl",
+        ))
+
+    # 3. Linked projects
+    for alias in _linked_projects:
+        resources.append(Resource(
+            uri=f"memory://linked/{alias}",
+            name=f"Linked: {alias}",
+            description=f"Cross-project memory link → {_linked_projects[alias]['path']}",
+            mimeType="text/plain",
+        ))
+
+    return resources
+
+
+@server.read_resource()
+async def read_resource(uri: str) -> list[TextResourceContents]:
+    """Read the content of a memory resource."""
+    from urllib.parse import unquote
+
+    uri_str = str(uri)
+
+    if uri_str.startswith("memory://documents/"):
+        doc_name = unquote(uri_str.replace("memory://documents/", "", 1))
+        text = _engine.get_segment_text(doc_name)
+        if text is None:
+            text = f"Document '{doc_name}' not found in index."
+        return [TextResourceContents(uri=uri_str, text=text, mimeType="text/plain")]
+
+    elif uri_str == "memory://logs/conversation":
+        log_dir = os.environ.get("MEMORY_CACHE_DIR", ".")
+        log_path = os.path.join(log_dir, "_conversation_log.jsonl")
+        if os.path.exists(log_path):
+            with open(log_path, "r", encoding="utf-8") as f:
+                text = f.read()
+        else:
+            text = "No conversation log found."
+        return [TextResourceContents(uri=uri_str, text=text, mimeType="application/jsonl")]
+
+    elif uri_str.startswith("memory://linked/"):
+        alias = unquote(uri_str.replace("memory://linked/", "", 1))
+        info = _linked_projects.get(alias)
+        if not info:
+            text = f"Linked project '{alias}' not found."
+        else:
+            eng = _get_linked_engine(alias)
+            if eng and eng.is_initialized:
+                status = eng.status()
+                text = json.dumps(status, indent=2)
+            else:
+                text = f"Linked project '{alias}' at {info['path']} — index not loaded."
+        return [TextResourceContents(uri=uri_str, text=text, mimeType="text/plain")]
+
+    return [TextResourceContents(uri=uri_str, text=f"Unknown resource: {uri_str}", mimeType="text/plain")]
 
 
 @server.call_tool()
@@ -267,17 +465,35 @@ def _dispatch(name: str, args: dict) -> Any:
             top_k=args.get("top_k", 10),
             threshold=args.get("threshold", 0.8),
         )
+        # Also search linked projects
+        linked_results = []
+        for alias, info in _linked_projects.items():
+            eng = _get_linked_engine(alias)
+            if eng and eng.is_initialized:
+                lr = eng.search(
+                    query=args["query"],
+                    top_k=min(args.get("top_k", 10), 5),
+                    threshold=args.get("threshold", 0.8),
+                )
+                for r in lr:
+                    linked_results.append({
+                        "filename": f"[{alias}] {r.filename}",
+                        "text": r.segment_text,
+                        "distance": r.distance,
+                    })
+
+        all_results = [
+            {"filename": r.filename, "text": r.segment_text, "distance": r.distance}
+            for r in results
+        ] + linked_results
+        # Sort by distance
+        all_results.sort(key=lambda x: x["distance"])
+
         return {
             "ok": True,
-            "count": len(results),
-            "results": [
-                {
-                    "filename": r.filename,
-                    "text": r.segment_text,
-                    "distance": r.distance,
-                }
-                for r in results
-            ],
+            "count": len(all_results),
+            "results": all_results[:args.get("top_k", 10)],
+            "linked_projects_searched": len(_linked_projects),
         }
 
     elif name == "memory_search_occurrences":
@@ -403,6 +619,24 @@ def _dispatch(name: str, args: dict) -> Any:
         if chat_sync_result is not None:
             brief["chat_sync"] = chat_sync_result
 
+        # 4. Include linked project summaries
+        if _linked_projects:
+            linked_briefs = {}
+            for alias, info in _linked_projects.items():
+                eng = _get_linked_engine(alias)
+                if eng and eng.is_initialized:
+                    lb = eng.session_brief(
+                        max_chars=min(max_chars // 4, 4000),
+                        focus_query=focus,
+                    )
+                    linked_briefs[alias] = {
+                        "segments": lb.get("unique_segments_retrieved", 0),
+                        "context_chars": lb.get("context_chars", 0),
+                        "context": lb.get("context", "")[:2000],
+                    }
+            if linked_briefs:
+                brief["linked_projects"] = linked_briefs
+
         return brief
 
     elif name == "memory_chat_save":
@@ -450,6 +684,59 @@ def _dispatch(name: str, args: dict) -> Any:
             "timestamp": ts,
             "ingest": ingest_result,
             "log_path": log_path,
+        }
+
+    elif name == "memory_compact":
+        result = _engine.compact(
+            max_segments=args.get("max_segments", 500),
+            keep_recent_hours=args.get("keep_recent_hours", 24),
+            strategy=args.get("strategy", "dedup_merge"),
+        )
+        return result
+
+    elif name == "memory_project_link":
+        project_path = args["project_path"]
+        if not os.path.isdir(project_path):
+            return {"ok": False, "error": f"Directory not found: {project_path}"}
+        alias = args.get("alias") or os.path.basename(project_path.rstrip("/"))
+        if alias in _linked_projects:
+            return {"ok": False, "error": f"Alias '{alias}' already linked"}
+        _linked_projects[alias] = {"path": project_path, "engine": None}
+        _save_project_links()
+        return {
+            "ok": True,
+            "alias": alias,
+            "path": project_path,
+            "linked_count": len(_linked_projects),
+        }
+
+    elif name == "memory_project_unlink":
+        alias = args["alias"]
+        if alias not in _linked_projects:
+            return {"ok": False, "error": f"Alias '{alias}' not found"}
+        del _linked_projects[alias]
+        _save_project_links()
+        return {
+            "ok": True,
+            "removed": alias,
+            "linked_count": len(_linked_projects),
+        }
+
+    elif name == "memory_project_list":
+        projects = []
+        for alias, info in _linked_projects.items():
+            eng = _get_linked_engine(alias)
+            projects.append({
+                "alias": alias,
+                "path": info["path"],
+                "initialized": eng.is_initialized if eng else False,
+                "segments": eng.segment_count if eng and eng.is_initialized else 0,
+                "documents": eng.document_count if eng and eng.is_initialized else 0,
+            })
+        return {
+            "ok": True,
+            "linked_count": len(projects),
+            "projects": projects,
         }
 
     else:

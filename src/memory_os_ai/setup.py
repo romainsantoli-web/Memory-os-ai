@@ -153,6 +153,12 @@ def setup_codex(global_config: bool = True) -> str:
     with open(mcp_file, "w") as f:
         json.dump(existing, f, indent=2)
 
+    # Copy AGENTS.md if not present (Codex instruction file)
+    agents_md = target.parent / "AGENTS.md"
+    source_agents_md = Path(_INSTALL_DIR) / "bridges" / "codex" / "AGENTS.md"
+    if not agents_md.exists() and source_agents_md.exists():
+        shutil.copy2(source_agents_md, agents_md)
+
     return f"✅ Codex CLI configured: {mcp_file}"
 
 

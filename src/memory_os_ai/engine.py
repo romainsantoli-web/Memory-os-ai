@@ -651,6 +651,132 @@ class MemoryEngine:
             "index_type": "FlatL2" if self._index else None,
         }
 
+    def compact(
+        self,
+        max_segments: int = 500,
+        keep_recent_hours: int = 24,
+        strategy: str = "dedup_merge",
+    ) -> dict:
+        """Compact the in-memory index by removing near-duplicates and merging short segments.
+
+        Strategies:
+        - dedup_merge: remove near-duplicate segments (cosine distance < 0.05),
+          then merge consecutive short segments from the same doc.
+        - top_k: keep only the max_segments most central segments.
+
+        Returns a summary with before/after counts.
+        """
+        if not self.is_initialized or not self._segments:
+            return {"ok": True, "before": 0, "after": 0, "removed": 0, "strategy": strategy}
+
+        start = time.time()
+        before = len(self._segments)
+
+        if before <= max_segments:
+            return {
+                "ok": True,
+                "before": before,
+                "after": before,
+                "removed": 0,
+                "strategy": strategy,
+                "note": "Already under target — no compaction needed.",
+            }
+
+        faiss = _ensure_faiss()
+
+        if strategy == "top_k":
+            # Keep the max_segments segments closest to the centroid
+            embeddings = self._encode(self._segments)
+            centroid = embeddings.mean(axis=0, keepdims=True)
+            distances = np.linalg.norm(embeddings - centroid, axis=1)
+            top_indices = np.argsort(distances)[:max_segments]
+            top_indices = sorted(top_indices)  # preserve order
+
+            new_segments = [self._segments[i] for i in top_indices]
+            new_embeddings = embeddings[top_indices]
+
+        else:  # dedup_merge
+            # 1. Remove near-duplicates
+            embeddings = self._encode(self._segments)
+            keep = [True] * len(self._segments)
+            # Check pairwise for small index, use FAISS for larger
+            for i in range(len(self._segments)):
+                if not keep[i]:
+                    continue
+                for j in range(i + 1, len(self._segments)):
+                    if not keep[j]:
+                        continue
+                    dist = float(np.linalg.norm(embeddings[i] - embeddings[j]))
+                    if dist < 0.05:
+                        # Keep the longer one
+                        if len(self._segments[j]) > len(self._segments[i]):
+                            keep[i] = False
+                            break
+                        else:
+                            keep[j] = False
+
+            deduped = [(self._segments[i], embeddings[i]) for i in range(len(self._segments)) if keep[i]]
+
+            # 2. Merge consecutive short segments (< 64 chars)
+            merged_segments: list[str] = []
+            merged_embeddings: list[np.ndarray] = []
+            buf = ""
+            for seg, emb in deduped:
+                if len(seg) < 64 and buf:
+                    buf += " " + seg
+                else:
+                    if buf:
+                        merged_segments.append(buf)
+                        merged_embeddings.append(self._encode([buf])[0])
+                    buf = seg
+            if buf:
+                merged_segments.append(buf)
+                merged_embeddings.append(self._encode([buf])[0])
+
+            # 3. If still over target, keep top-k by centroid distance
+            if len(merged_segments) > max_segments:
+                embs = np.array(merged_embeddings)
+                centroid = embs.mean(axis=0, keepdims=True)
+                distances = np.linalg.norm(embs - centroid, axis=1)
+                top_indices = np.argsort(distances)[:max_segments]
+                top_indices = sorted(top_indices)
+                new_segments = [merged_segments[i] for i in top_indices]
+                new_embeddings = np.array([merged_embeddings[i] for i in top_indices])
+            else:
+                new_segments = merged_segments
+                new_embeddings = np.array(merged_embeddings)
+
+        # Rebuild index
+        with self._lock:
+            self._segments = new_segments
+            self._documents = {
+                "_compacted": DocumentInfo(
+                    filename="_compacted",
+                    nb_pages=1,
+                    nb_segments=len(new_segments),
+                    nb_words=sum(len(s.split()) for s in new_segments),
+                    segment_start=0,
+                    segment_end=len(new_segments),
+                )
+            }
+            self._build_index(new_embeddings.astype("float32"))
+
+        return {
+            "ok": True,
+            "before": before,
+            "after": len(new_segments),
+            "removed": before - len(new_segments),
+            "strategy": strategy,
+            "elapsed_seconds": round(time.time() - start, 2),
+        }
+
+    def get_segment_text(self, doc_name: str) -> str | None:
+        """Return concatenated text for a document (for MCP resources)."""
+        doc = self._documents.get(doc_name)
+        if doc is None:
+            return None
+        return "\n".join(self._segments[doc.segment_start:doc.segment_end])
+
     def transcribe(self, file_path: str, language: str = "fr") -> dict:
         """Transcribe an audio file using Whisper."""
         if not os.path.isfile(file_path):

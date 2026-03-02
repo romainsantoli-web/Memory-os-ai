@@ -275,6 +275,81 @@ class ChatSaveInput(BaseModel):
         return v
 
 
+class CompactInput(BaseModel):
+    """Input for memory_compact tool.
+
+    Compresses the in-memory index by merging related segments and
+    discarding low-value data. Useful when context window is saturating.
+    """
+
+    max_segments: int = Field(
+        default=500,
+        ge=50,
+        le=10000,
+        description="Target maximum number of segments after compaction.",
+    )
+    keep_recent_hours: int = Field(
+        default=24,
+        ge=1,
+        le=720,
+        description="Always keep segments from chat saves within this many hours.",
+    )
+    strategy: str = Field(
+        default="dedup_merge",
+        description=(
+            "Compaction strategy: 'dedup_merge' (remove near-duplicates + merge short segments) "
+            "or 'top_k' (keep only the top-k most relevant segments)."
+        ),
+    )
+
+    @field_validator("strategy")
+    @classmethod
+    def validate_strategy(cls, v: str) -> str:
+        allowed = {"dedup_merge", "top_k"}
+        if v not in allowed:
+            raise ValueError(f"strategy must be one of {allowed}")
+        return v
+
+
+class ProjectLinkInput(BaseModel):
+    """Input for memory_project_link tool.
+
+    Links another project's memory into the current one so that
+    searches and session briefs include context from both.
+    """
+
+    project_path: str = Field(
+        ...,
+        min_length=1,
+        max_length=1000,
+        description=(
+            "Absolute path to another project's memory cache directory "
+            "(e.g. '/Users/me/other-project/.memory-os-ai')."
+        ),
+    )
+    alias: Optional[str] = Field(
+        default=None,
+        max_length=100,
+        description="Friendly name for this linked project (defaults to folder name).",
+    )
+
+
+class ProjectUnlinkInput(BaseModel):
+    """Input for memory_project_unlink tool."""
+
+    alias: str = Field(
+        ...,
+        min_length=1,
+        max_length=100,
+        description="Alias of the linked project to remove.",
+    )
+
+
+class ProjectListInput(BaseModel):
+    """Input for memory_project_list tool."""
+    pass
+
+
 # --- Tool models registry (for main.py dispatcher) ---
 TOOL_MODELS: dict[str, type[BaseModel]] = {
     "memory_ingest": IngestInput,
@@ -291,4 +366,8 @@ TOOL_MODELS: dict[str, type[BaseModel]] = {
     "memory_chat_auto_detect": ChatAutoDetectInput,
     "memory_session_brief": SessionBriefInput,
     "memory_chat_save": ChatSaveInput,
+    "memory_compact": CompactInput,
+    "memory_project_link": ProjectLinkInput,
+    "memory_project_unlink": ProjectUnlinkInput,
+    "memory_project_list": ProjectListInput,
 }
