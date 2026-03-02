@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models (large files — download at runtime)
+emb/
+mistral-7b/
+*.gguf
+*.pt
+*.bin
+*.safetensors
+
+# Cache
+embeddings_cache.pkl
+*.pkl
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Environment
+.env

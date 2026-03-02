@@ -1,0 +1,16 @@
+{
+  "servers": {
+    "memory-os-ai": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["-m", "memory_os_ai"],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}/src",
+        "MEMORY_WORKSPACE": "${workspaceFolder}",
+        "MEMORY_MODEL": "all-MiniLM-L6-v2",
+        "TOKENIZERS_PARALLELISM": "false"
+      }
+    }
+  }
+}
