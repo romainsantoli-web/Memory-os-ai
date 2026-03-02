@@ -39,3 +39,4 @@ htmlcov/
 
 # Environment
 .env
+_chat_sync_state.json

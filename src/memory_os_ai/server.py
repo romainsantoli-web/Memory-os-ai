@@ -33,7 +33,13 @@ from .models import (
     ListDocumentsInput,
     TranscribeInput,
     DocumentStatusInput,
+    ChatSyncInput,
+    ChatSourceAddInput,
+    ChatSourceRemoveInput,
+    ChatStatusInput,
+    ChatAutoDetectInput,
 )
+from .chat_extractor import ChatExtractor
 
 # ---------------------------------------------------------------------------
 # Global engine instance (singleton per process)
@@ -41,6 +47,10 @@ from .models import (
 _engine = MemoryEngine(
     model_name=os.environ.get("MEMORY_MODEL", "all-MiniLM-L6-v2"),
     cache_dir=os.environ.get("MEMORY_CACHE_DIR"),
+)
+
+_chat_extractor = ChatExtractor(
+    state_dir=os.environ.get("MEMORY_CACHE_DIR", "."),
 )
 
 # ---------------------------------------------------------------------------
@@ -115,6 +125,51 @@ TOOLS: list[dict[str, Any]] = [
             "device, model, index size, document count."
         ),
         "inputSchema": DocumentStatusInput.model_json_schema(),
+    },
+    {
+        "name": "memory_chat_sync",
+        "title": "Sync Chat History",
+        "description": (
+            "Incrementally extract new chat messages from all registered sources "
+            "(VS Code Copilot, JSONL, Markdown, folder) and feed them into the "
+            "semantic memory. Only new/changed content is processed."
+        ),
+        "inputSchema": ChatSyncInput.model_json_schema(),
+    },
+    {
+        "name": "memory_chat_source_add",
+        "title": "Add Chat Source",
+        "description": (
+            "Register a new chat source to extract from. Types: "
+            "'vscode' (VS Code Copilot DB), 'jsonl' (JSONL log file), "
+            "'markdown' (MD export), 'folder' (watch folder for new files)."
+        ),
+        "inputSchema": ChatSourceAddInput.model_json_schema(),
+    },
+    {
+        "name": "memory_chat_source_remove",
+        "title": "Remove Chat Source",
+        "description": "Unregister a chat source by its ID.",
+        "inputSchema": ChatSourceRemoveInput.model_json_schema(),
+    },
+    {
+        "name": "memory_chat_status",
+        "title": "Chat Sync Status",
+        "description": (
+            "Show all registered chat sources, their sync state, "
+            "and the number of messages extracted so far."
+        ),
+        "inputSchema": ChatStatusInput.model_json_schema(),
+    },
+    {
+        "name": "memory_chat_auto_detect",
+        "title": "Auto-Detect VS Code Chats",
+        "description": (
+            "Automatically detect all VS Code workspace storage directories "
+            "on this machine and optionally register them as chat sources. "
+            "Discovers all Copilot chat histories without manual configuration."
+        ),
+        "inputSchema": ChatAutoDetectInput.model_json_schema(),
     },
 ]
 
@@ -230,6 +285,63 @@ def _dispatch(name: str, args: dict) -> Any:
 
     elif name == "memory_status":
         return _engine.status()
+
+    elif name == "memory_chat_sync":
+        source_id = args.get("source_id")
+        result = _chat_extractor.sync(source_id=source_id)
+        messages = result.pop("messages", [])
+        if messages:
+            segments = _chat_extractor.messages_to_segments(messages)
+            ingest_result = _engine.ingest_segments(segments, source_label="chat_sync")
+            result["ingest"] = ingest_result
+        return result
+
+    elif name == "memory_chat_source_add":
+        _chat_extractor.add_source(
+            source_id=args["source_id"],
+            source_type=args["source_type"],
+            path=args["path"],
+        )
+        return {
+            "ok": True,
+            "message": f"Source '{args['source_id']}' registered ({args['source_type']})",
+            "sources": _chat_extractor.list_sources(),
+        }
+
+    elif name == "memory_chat_source_remove":
+        removed = _chat_extractor.remove_source(args["source_id"])
+        return {
+            "ok": removed,
+            "message": (
+                f"Source '{args['source_id']}' removed"
+                if removed
+                else f"Source '{args['source_id']}' not found"
+            ),
+            "sources": _chat_extractor.list_sources(),
+        }
+
+    elif name == "memory_chat_status":
+        return {"ok": True, **_chat_extractor.status()}
+
+    elif name == "memory_chat_auto_detect":
+        found = _chat_extractor.auto_detect_vscode()
+        registered = []
+        if args.get("auto_register", True):
+            for i, ws_path in enumerate(found):
+                sid = f"vscode-auto-{i}"
+                _chat_extractor.add_source(
+                    source_id=sid,
+                    source_type="vscode",
+                    path=ws_path,
+                )
+                registered.append(sid)
+        return {
+            "ok": True,
+            "workspaces_found": len(found),
+            "paths": found,
+            "registered": registered,
+            "sources": _chat_extractor.list_sources(),
+        }
 
     else:
         return {"ok": False, "error": f"Unknown tool: {name}"}
