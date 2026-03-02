@@ -48,16 +48,27 @@ before answering from your training data alone.
 - Integrate retrieved context naturally into your responses
 - If memory contradicts your training data, trust the memory (it's more recent)
 
-## Available tools (14)
-memory_session_brief, memory_chat_save, memory_ingest, memory_search, \
+## Available tools (18)
+memory_session_brief, memory_chat_save, memory_compact, memory_project_link, \
+memory_project_unlink, memory_project_list, memory_ingest, memory_search, \
 memory_search_occurrences, memory_get_context, memory_list_documents, \
 memory_transcribe, memory_status, memory_chat_sync, memory_chat_source_add, \
 memory_chat_source_remove, memory_chat_status, memory_chat_auto_detect
+
+## Rule 6: Compact when needed
+If you notice context is getting very large or search results are noisy, \
+call `memory_compact({})` to compress the index. This removes duplicate \
+segments and merges short fragments.
+
+## Rule 7: Cross-project memory
+If the user works on multiple related projects, use `memory_project_link` \
+to connect their memories. Searches and session briefs will then include \
+context from all linked projects automatically.
 """
 
 # -- Shortened version for bandwidth-limited contexts ----------------------
 MEMORY_INSTRUCTIONS_SHORT = """\
-You have persistent semantic memory via Memory OS AI (14 MCP tools).
+You have persistent semantic memory via Memory OS AI (18 MCP tools).
 1. Call memory_session_brief({}) at session start to recall past context.
 2. Call memory_chat_save({...}) regularly to persist important exchanges.
 3. Call memory_search({query: "..."}) before guessing about past work.

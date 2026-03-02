@@ -31,12 +31,16 @@ Call `memory_chat_save` to persist the current conversation:
 
 Include a `summary` — it's what gets retrieved first by `memory_session_brief`.
 
-## Available Tools (14)
+## Available Tools (18)
 
 | Tool | When to Use |
 |------|------------|
 | `memory_session_brief` | **FIRST** + on context loss |
 | `memory_chat_save` | **REGULARLY** — after tasks/decisions |
+| `memory_compact` | Context too long → compress memory |
+| `memory_project_link` | Share memory across projects |
+| `memory_project_unlink` | Remove cross-project link |
+| `memory_project_list` | List linked projects |
 | `memory_ingest` | Index documents (PDF, TXT, DOCX, audio) |
 | `memory_search` | Semantic search in memory |
 | `memory_search_occurrences` | Count keyword occurrences |

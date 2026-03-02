@@ -121,6 +121,10 @@ class TestModels:
             "memory_chat_auto_detect",
             "memory_session_brief",
             "memory_chat_save",
+            "memory_compact",
+            "memory_project_link",
+            "memory_project_unlink",
+            "memory_project_list",
         }
         assert set(TOOL_MODELS.keys()) == expected
 
