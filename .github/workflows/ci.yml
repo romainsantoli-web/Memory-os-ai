@@ -1,0 +1,54 @@
+name: CI — lint + test + secrets
+
+on:
+  push:
+    branches: [main, "feat/**"]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PYTHON_VERSION: "3.11"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python ${{ env.PYTHON_VERSION }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install ".[dev]"
+          pip install ruff
+
+      - name: Lint (ruff)
+        run: ruff check src/ tests/ --output-format=github || true
+
+      - name: Run tests with coverage
+        run: |
+          python -m pytest tests/ -v --tb=short --cov=src/memory_os_ai --cov-report=term-missing --cov-fail-under=80
+
+  secrets-scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: TruffleHog secret scan
+        uses: trufflesecurity/trufflehog@main
+        with:
+          extra_args: --only-verified
