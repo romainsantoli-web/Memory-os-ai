@@ -65,6 +65,11 @@ where = ["src"]
 testpaths = ["tests"]
 pythonpath = ["src"]
 asyncio_mode = "auto"
+filterwarnings = [
+    # faiss-cpu SWIG bindings emit harmless DeprecationWarnings
+    "ignore:builtin type Swig:DeprecationWarning",
+    "ignore:builtin type swigvarlink:DeprecationWarning",
+]
 
 [tool.coverage.run]
 source = ["src/memory_os_ai"]
