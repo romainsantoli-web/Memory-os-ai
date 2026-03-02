@@ -120,6 +120,7 @@ class TestModels:
             "memory_chat_status",
             "memory_chat_auto_detect",
             "memory_session_brief",
+            "memory_chat_save",
         }
         assert set(TOOL_MODELS.keys()) == expected
 
@@ -127,7 +128,84 @@ class TestModels:
 # ---------------------------------------------------------------------------
 # SessionBriefInput model tests
 # ---------------------------------------------------------------------------
-from memory_os_ai.models import SessionBriefInput
+from memory_os_ai.models import SessionBriefInput, ChatSaveInput
+
+
+class TestChatSaveModel:
+    """Pydantic validation tests for ChatSaveInput."""
+
+    def test_valid_messages(self):
+        inp = ChatSaveInput(
+            messages=[
+                {"role": "user", "content": "Hello"},
+                {"role": "assistant", "content": "Hi there!"},
+            ],
+            summary="Greeting exchange",
+            project_label="test-project",
+        )
+        assert len(inp.messages) == 2
+        assert inp.summary == "Greeting exchange"
+        assert inp.project_label == "test-project"
+
+    def test_defaults(self):
+        inp = ChatSaveInput(
+            messages=[{"role": "user", "content": "test"}]
+        )
+        assert inp.summary is None
+        assert inp.project_label is None
+
+    def test_empty_messages_rejected(self):
+        with pytest.raises(ValueError):
+            ChatSaveInput(messages=[])
+
+    def test_too_many_messages_rejected(self):
+        msgs = [{"role": "user", "content": f"msg {i}"} for i in range(201)]
+        with pytest.raises(ValueError):
+            ChatSaveInput(messages=msgs)
+
+    def test_invalid_role_rejected(self):
+        with pytest.raises(ValueError, match="role"):
+            ChatSaveInput(
+                messages=[{"role": "hacker", "content": "pwned"}]
+            )
+
+    def test_empty_content_rejected(self):
+        with pytest.raises(ValueError, match="content"):
+            ChatSaveInput(
+                messages=[{"role": "user", "content": ""}]
+            )
+
+    def test_missing_content_rejected(self):
+        with pytest.raises(ValueError, match="content"):
+            ChatSaveInput(
+                messages=[{"role": "user"}]
+            )
+
+    def test_missing_role_rejected(self):
+        with pytest.raises(ValueError, match="role"):
+            ChatSaveInput(
+                messages=[{"content": "no role"}]
+            )
+
+    def test_summary_too_long_rejected(self):
+        with pytest.raises(ValueError):
+            ChatSaveInput(
+                messages=[{"role": "user", "content": "x"}],
+                summary="x" * 2001,
+            )
+
+    def test_project_label_too_long_rejected(self):
+        with pytest.raises(ValueError):
+            ChatSaveInput(
+                messages=[{"role": "user", "content": "x"}],
+                project_label="x" * 101,
+            )
+
+    def test_system_role_accepted(self):
+        inp = ChatSaveInput(
+            messages=[{"role": "system", "content": "You are helpful"}]
+        )
+        assert inp.messages[0]["role"] == "system"
 
 
 class TestSessionBriefModel:

@@ -231,6 +231,50 @@ class SessionBriefInput(BaseModel):
     )
 
 
+class ChatSaveInput(BaseModel):
+    """Input for memory_chat_save tool.
+
+    Allows the model to persist its current conversation directly into
+    the semantic memory so it survives context resets and can be
+    recalled later via memory_session_brief.
+    """
+
+    messages: list[dict] = Field(
+        ...,
+        min_length=1,
+        max_length=200,
+        description=(
+            "List of messages to save. Each item must have 'role' (user|assistant|system) "
+            "and 'content' (text). Example: [{\"role\": \"user\", \"content\": \"...\"}]"
+        ),
+    )
+    summary: Optional[str] = Field(
+        default=None,
+        max_length=2000,
+        description=(
+            "Optional high-level summary of the conversation so far. "
+            "If provided, this summary is also indexed for faster retrieval."
+        ),
+    )
+    project_label: Optional[str] = Field(
+        default=None,
+        max_length=100,
+        description="Optional project name to tag these messages (e.g. 'Memory-os-ai').",
+    )
+
+    @field_validator("messages")
+    @classmethod
+    def validate_messages(cls, v: list[dict]) -> list[dict]:
+        for i, msg in enumerate(v):
+            if "role" not in msg or "content" not in msg:
+                raise ValueError(f"Message {i}: must have 'role' and 'content' keys")
+            if msg["role"] not in {"user", "assistant", "system"}:
+                raise ValueError(f"Message {i}: role must be user|assistant|system")
+            if not isinstance(msg["content"], str) or len(msg["content"]) == 0:
+                raise ValueError(f"Message {i}: content must be a non-empty string")
+        return v
+
+
 # --- Tool models registry (for main.py dispatcher) ---
 TOOL_MODELS: dict[str, type[BaseModel]] = {
     "memory_ingest": IngestInput,
@@ -246,4 +290,5 @@ TOOL_MODELS: dict[str, type[BaseModel]] = {
     "memory_chat_status": ChatStatusInput,
     "memory_chat_auto_detect": ChatAutoDetectInput,
     "memory_session_brief": SessionBriefInput,
+    "memory_chat_save": ChatSaveInput,
 }
