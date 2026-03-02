@@ -1,0 +1,12 @@
+{
+  "name": "Memory OS AI",
+  "description": "Persistent semantic memory for AI assistants — 14 tools for document indexing, search, chat history, and session continuity",
+  "transport": {
+    "type": "sse",
+    "url": "https://YOUR-SERVER/sse",
+    "headers": {
+      "Authorization": "Bearer YOUR-MEMORY-API-KEY"
+    }
+  },
+  "instructions": "You have persistent semantic memory via Memory OS AI. Call memory_session_brief({}) at session start. Call memory_chat_save({...}) regularly. Use memory_search({query: '...'}) before guessing about past work."
+}

@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "memory-os-ai": {
+      "command": "python3",
+      "args": ["-m", "memory_os_ai.server"],
+      "env": {
+        "PYTHONPATH": "__INSTALL_DIR__/src",
+        "MEMORY_WORKSPACE": "__HOME__",
+        "MEMORY_CACHE_DIR": "__HOME__/.memory-os-ai",
+        "MEMORY_MODEL": "all-MiniLM-L6-v2",
+        "TOKENIZERS_PARALLELISM": "false"
+      }
+    }
+  }
+}
