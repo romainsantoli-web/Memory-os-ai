@@ -2,8 +2,8 @@
 
 > Adaptive memory system for AI agents — universal MCP server for **Claude Code, Codex CLI, VS Code Copilot, ChatGPT**, and any MCP-compatible client.
 
-[![Tests](https://img.shields.io/badge/tests-251%20passed-brightgreen)]()
-[![Coverage](https://img.shields.io/badge/coverage-81%25-green)]()
+[![Tests](https://img.shields.io/badge/tests-348%20passed-brightgreen)]()
+[![Coverage](https://img.shields.io/badge/coverage-96%25-brightgreen)]()
 [![Python](https://img.shields.io/badge/python-3.10+-blue)]()
 [![MCP](https://img.shields.io/badge/MCP-2025--11--25-purple)]()
 [![Version](https://img.shields.io/badge/version-3.0.0-orange)]()
@@ -137,14 +137,15 @@ Memory-os-ai/
 │   ├── codex/               # AGENTS.md for Codex CLI
 │   ├── vscode/              # mcp.json for VS Code
 │   └── chatgpt/             # mcp-connection.json for ChatGPT
-├── tests/                   # 251 tests — 81% coverage
+├── tests/                   # 348 tests — 96% coverage
 │   ├── test_memory.py       # Engine + models (60 tests)
 │   ├── test_chat_extractor.py  # Chat extraction (39 tests)
 │   ├── test_bridges.py      # Bridge configs (22 tests)
 │   ├── test_gaps.py         # Compact, cross-project, resources (34 tests)
 │   ├── test_server_dispatch.py # Server dispatch + async (61 tests)
 │   ├── test_setup.py        # Setup CLI targets
-│   └── test_z_coverage_boost.py # Coverage boost (39 tests)
+│   ├── test_z_coverage_boost.py # Coverage boost (35 tests)
+│   └── test_zz_full_coverage.py # Full coverage (97 tests)
 ├── pyproject.toml           # v3.0.0 — deps, scripts, coverage config
 ├── Dockerfile               # Container deployment
 └── README.md
