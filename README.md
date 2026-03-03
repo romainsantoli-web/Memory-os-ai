@@ -1,3 +1,4 @@
+<!-- mcp-name: io.github.romainsantoli-web/memory-os-ai -->
 # Memory OS AI
 
 > Adaptive memory system for AI agents — universal MCP server for **Claude Code, Codex CLI, VS Code Copilot, ChatGPT**, and any MCP-compatible client.
@@ -7,7 +8,7 @@
 [![Python](https://img.shields.io/badge/python-3.10+-blue)]()
 [![MCP](https://img.shields.io/badge/MCP-2025--11--25-purple)]()
 [![VS Code](https://img.shields.io/badge/VS%20Code-MCP%20Ready-007ACC?logo=visualstudiocode)]()
-[![Version](https://img.shields.io/badge/version-3.0.0-orange)]()
+[![Version](https://img.shields.io/badge/version-3.0.1-orange)]()
 [![License](https://img.shields.io/badge/license-LGPL--3.0-orange)]()
 
 ## Concept

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "memory-os-ai"
-version = "3.0.0"
+version = "3.0.1"
 description = "Adaptive memory system for AI agents — universal MCP server for Claude, Codex, VS Code, ChatGPT"
 readme = "README.md"
 license = {text = "LGPL-3.0-or-later"}
