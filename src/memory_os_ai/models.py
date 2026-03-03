@@ -350,6 +350,80 @@ class ProjectListInput(BaseModel):
     pass
 
 
+# ---------------------------------------------------------------------------
+# Cloud storage models
+# ---------------------------------------------------------------------------
+class CloudConfigureInput(BaseModel):
+    """Input for memory_cloud_configure tool.
+
+    Configure a cloud storage backend for overflow when local disk is low.
+    Supported providers: google-drive, icloud, dropbox, onedrive, s3, azure-blob, box, b2.
+    """
+
+    provider: str = Field(
+        ...,
+        min_length=1,
+        max_length=50,
+        description=(
+            "Cloud provider name: google-drive, icloud, dropbox, onedrive, "
+            "s3, azure-blob, box, b2."
+        ),
+    )
+    credentials: dict = Field(
+        default_factory=dict,
+        description=(
+            "Provider-specific credentials. Examples:\n"
+            "  icloud: {}\n"
+            "  google-drive: {\"credentials_json\": \"/path/to/creds.json\", \"folder_id\": \"...\"}\n"
+            "  dropbox: {\"access_token\": \"...\"}\n"
+            "  onedrive: {} (auto-detects local mount) or {\"access_token\": \"...\"}\n"
+            "  s3: {\"bucket\": \"...\", \"aws_access_key_id\": \"...\", \"aws_secret_access_key\": \"...\"}\n"
+            "  azure-blob: {\"connection_string\": \"...\", \"container\": \"...\"}\n"
+            "  box: {\"access_token\": \"...\"}\n"
+            "  b2: {\"application_key_id\": \"...\", \"application_key\": \"...\", \"bucket_name\": \"...\"}"
+        ),
+    )
+
+    @field_validator("provider")
+    @classmethod
+    def validate_provider(cls, v: str) -> str:
+        allowed = {
+            "google-drive", "icloud", "dropbox", "onedrive",
+            "s3", "azure-blob", "box", "b2",
+        }
+        if v not in allowed:
+            raise ValueError(f"provider must be one of {sorted(allowed)}")
+        return v
+
+
+class CloudStatusInput(BaseModel):
+    """Input for memory_cloud_status tool.
+
+    Returns local disk usage, cloud storage status, and available providers.
+    """
+    pass
+
+
+class CloudSyncInput(BaseModel):
+    """Input for memory_cloud_sync tool.
+
+    Synchronize memory data between local disk and cloud storage.
+    """
+
+    direction: str = Field(
+        default="push",
+        description="Sync direction: 'push' (local→cloud), 'pull' (cloud→local), 'auto' (check disk, offload if needed).",
+    )
+
+    @field_validator("direction")
+    @classmethod
+    def validate_direction(cls, v: str) -> str:
+        allowed = {"push", "pull", "auto"}
+        if v not in allowed:
+            raise ValueError(f"direction must be one of {allowed}")
+        return v
+
+
 # --- Tool models registry (for main.py dispatcher) ---
 TOOL_MODELS: dict[str, type[BaseModel]] = {
     "memory_ingest": IngestInput,
@@ -370,4 +444,7 @@ TOOL_MODELS: dict[str, type[BaseModel]] = {
     "memory_project_link": ProjectLinkInput,
     "memory_project_unlink": ProjectUnlinkInput,
     "memory_project_list": ProjectListInput,
+    "memory_cloud_configure": CloudConfigureInput,
+    "memory_cloud_status": CloudStatusInput,
+    "memory_cloud_sync": CloudSyncInput,
 }

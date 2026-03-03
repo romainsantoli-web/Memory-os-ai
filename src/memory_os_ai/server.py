@@ -51,8 +51,12 @@ from .models import (
     ProjectLinkInput,
     ProjectUnlinkInput,
     ProjectListInput,
+    CloudConfigureInput,
+    CloudStatusInput,
+    CloudSyncInput,
 )
 from .chat_extractor import ChatExtractor
+from .storage_router import StorageRouter
 from .instructions import MEMORY_INSTRUCTIONS
 
 logger = logging.getLogger("memory_os_ai")
@@ -67,6 +71,11 @@ _engine = MemoryEngine(
 
 _chat_extractor = ChatExtractor(
     state_dir=os.environ.get("MEMORY_CACHE_DIR", "."),
+)
+
+# Storage router (local + cloud overflow)
+_storage_router = StorageRouter(
+    local_dir=os.environ.get("MEMORY_CACHE_DIR", ""),
 )
 
 # Cross-project linked memories: alias -> {path, engine}
@@ -330,6 +339,37 @@ TOOLS: list[dict[str, Any]] = [
         "title": "List Linked Projects",
         "description": "List all currently linked external project memories with their status.",
         "inputSchema": ProjectListInput.model_json_schema(),
+    },
+    {
+        "name": "memory_cloud_configure",
+        "title": "Configure Cloud Storage",
+        "description": (
+            "Configure a cloud storage backend for memory overflow when local disk is low. "
+            "Supported providers: Google Drive, iCloud, Dropbox, OneDrive, Amazon S3, "
+            "Azure Blob, Box, Backblaze B2. Once configured, memory data automatically "
+            "syncs to cloud when disk space drops below threshold (default 500 MB)."
+        ),
+        "inputSchema": CloudConfigureInput.model_json_schema(),
+    },
+    {
+        "name": "memory_cloud_status",
+        "title": "Cloud Storage Status",
+        "description": (
+            "Show local disk usage, cloud storage status, quota, and available providers. "
+            "Indicates whether disk is low and whether cloud overflow is active."
+        ),
+        "inputSchema": CloudStatusInput.model_json_schema(),
+    },
+    {
+        "name": "memory_cloud_sync",
+        "title": "Sync Cloud Storage",
+        "description": (
+            "Synchronize memory data between local disk and cloud. "
+            "Directions: 'push' (upload local→cloud), 'pull' (download cloud→local), "
+            "'auto' (check disk, offload if needed). Use 'push' for backup, "
+            "'pull' to restore on a new machine, 'auto' for hands-free overflow."
+        ),
+        "inputSchema": CloudSyncInput.model_json_schema(),
     },
 ]
 
@@ -744,6 +784,33 @@ def _dispatch(name: str, args: dict) -> Any:
             "ok": True,
             "linked_count": len(projects),
             "projects": projects,
+        }
+
+    elif name == "memory_cloud_configure":
+        result = _storage_router.configure_cloud(
+            provider=args["provider"],
+            credentials=args.get("credentials", {}),
+        )
+        return result
+
+    elif name == "memory_cloud_status":
+        return _storage_router.status()
+
+    elif name == "memory_cloud_sync":
+        direction = args.get("direction", "push")
+        if direction == "push":
+            sync_result = _storage_router.sync_to_cloud()
+        elif direction == "pull":
+            sync_result = _storage_router.sync_from_cloud()
+        else:  # auto
+            return _storage_router.check_and_offload()
+        return {
+            "ok": len(sync_result.errors) == 0,
+            "direction": direction,
+            "uploaded": sync_result.uploaded,
+            "downloaded": sync_result.downloaded,
+            "errors": sync_result.errors,
+            "elapsed_seconds": sync_result.elapsed_seconds,
         }
 
     else:

@@ -462,6 +462,9 @@ class TestChatModels:
             "memory_chat_source_remove",
             "memory_chat_status",
             "memory_chat_auto_detect",
+            "memory_cloud_configure",
+            "memory_cloud_status",
+            "memory_cloud_sync",
         }
         assert expected_new.issubset(TOOL_MODELS.keys())
-        assert len(TOOL_MODELS) == 18  # 7 original + 5 chat + 1 session_brief + 1 chat_save + 4 new (compact, project_link/unlink/list)
+        assert len(TOOL_MODELS) == 21  # 7 original + 5 chat + 1 session_brief + 1 chat_save + 4 new (compact, project_link/unlink/list) + 3 cloud storage
