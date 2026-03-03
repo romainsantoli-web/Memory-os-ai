@@ -31,7 +31,7 @@ class TestHelpers:
         assert len(result) > 0
 
     def test_ensure_cache_dir_creates(self, tmp_path):
-        cache = tmp_path / ".memory-os-ai"
+        tmp_path / ".memory-os-ai"
         with patch("memory_os_ai.setup._HOME", str(tmp_path)):
             result = _ensure_cache_dir()
         assert os.path.isdir(result)

@@ -681,7 +681,7 @@ class MemoryEngine:
                 "note": "Already under target — no compaction needed.",
             }
 
-        faiss = _ensure_faiss()
+        _ensure_faiss()
 
         if strategy == "top_k":
             # Keep the max_segments segments closest to the centroid
