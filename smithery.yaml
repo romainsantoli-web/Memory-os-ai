@@ -1,0 +1,32 @@
+# Smithery.ai configuration for Memory OS AI
+# https://smithery.ai/docs/config
+
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties:
+      MEMORY_DATA_DIR:
+        type: string
+        description: "Directory where FAISS indexes and JSONL files are stored"
+        default: "~/.memory-os-ai"
+      MEMORY_MODEL:
+        type: string
+        description: "Sentence-transformer model name for embeddings"
+        default: "all-MiniLM-L6-v2"
+      MEMORY_DEVICE:
+        type: string
+        description: "Device for embeddings (cpu or cuda)"
+        default: "cpu"
+        enum: ["cpu", "cuda"]
+    required: []
+  commandFunction: |
+    (config) => ({
+      command: "memory-os-ai",
+      args: [],
+      env: {
+        MEMORY_DATA_DIR: config.MEMORY_DATA_DIR || "~/.memory-os-ai",
+        MEMORY_MODEL: config.MEMORY_MODEL || "all-MiniLM-L6-v2",
+        MEMORY_DEVICE: config.MEMORY_DEVICE || "cpu"
+      }
+    })

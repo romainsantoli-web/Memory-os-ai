@@ -43,3 +43,4 @@ htmlcov/
 .env
 _chat_sync_state.json
 _conversation_log.jsonl
+.mcpregistry_*

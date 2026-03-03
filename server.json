@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.romainsantoli-web/memory-os-ai",
+  "title": "Memory OS AI",
+  "description": "Adaptive memory for AI agents — FAISS search, chat extraction, cross-project linking",
+  "repository": {
+    "url": "https://github.com/romainsantoli-web/Memory-os-ai",
+    "source": "github"
+  },
+  "version": "3.0.1",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "memory-os-ai",
+      "version": "3.0.1",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
