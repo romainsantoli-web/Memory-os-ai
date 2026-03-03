@@ -16,9 +16,7 @@ import json
 import logging
 import os
 import sys
-import time
 from datetime import datetime, timezone
-from pathlib import Path
 from typing import Any
 
 import numpy as np
@@ -781,7 +779,7 @@ def run_sse(host: str = "0.0.0.0", port: int = 8765):
     import uvicorn
     from starlette.applications import Starlette
     from starlette.responses import JSONResponse
-    from starlette.routing import Mount, Route
+    from starlette.routing import Route
     from mcp.server.sse import SseServerTransport
 
     sse = SseServerTransport("/messages/")

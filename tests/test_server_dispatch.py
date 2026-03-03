@@ -4,10 +4,8 @@ from __future__ import annotations
 import json
 import os
 import tempfile
-from pathlib import Path
 from unittest.mock import patch, MagicMock
 
-import numpy as np
 import pytest
 
 from memory_os_ai.engine import MemoryEngine

@@ -8,7 +8,6 @@ import tempfile
 from pathlib import Path
 from unittest.mock import patch
 
-import pytest
 
 
 # ---------------------------------------------------------------------------
@@ -53,7 +52,6 @@ class TestInstructions:
 from memory_os_ai.setup import (
     _make_config,
     _get_python,
-    _ensure_cache_dir,
     setup_chatgpt,
     check_status,
     TARGETS,

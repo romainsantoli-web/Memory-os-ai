@@ -1,16 +1,15 @@
 {
-  "servers": {
+  "mcpServers": {
     "memory-os-ai": {
-      "type": "stdio",
       "command": "/Users/romain/Memory-os-ai/.venv/bin/python",
       "args": [
         "-m",
         "memory_os_ai.server"
       ],
-      "cwd": "/Users/romain/Memory-os-ai/src",
       "env": {
         "PYTHONPATH": "/Users/romain/Memory-os-ai/src",
-        "MEMORY_WORKSPACE": "${workspaceFolder}",
+        "MEMORY_WORKSPACE": "/Users/romain",
+        "MEMORY_CACHE_DIR": "/Users/romain/.memory-os-ai",
         "MEMORY_MODEL": "all-MiniLM-L6-v2",
         "TOKENIZERS_PARALLELISM": "false"
       }

@@ -8,9 +8,6 @@ All tool inputs are validated via Pydantic with strict constraints:
 
 from __future__ import annotations
 
-import os
-import re
-from enum import Enum
 from typing import Optional
 
 from pydantic import BaseModel, Field, field_validator

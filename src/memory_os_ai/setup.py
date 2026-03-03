@@ -243,11 +243,11 @@ def check_status() -> str:
             if "memory-os-ai" in cfg.get("mcpServers", {}):
                 lines.append(f"  ✅ Claude Desktop  — {path}")
             else:
-                lines.append(f"  ⚠️  Claude Desktop  — config exists but memory-os-ai not found")
+                lines.append("  ⚠️  Claude Desktop  — config exists but memory-os-ai not found")
         else:
-            lines.append(f"  ❌ Claude Desktop  — not configured")
+            lines.append("  ❌ Claude Desktop  — not configured")
     except Exception:
-        lines.append(f"  ❌ Claude Desktop  — not configured")
+        lines.append("  ❌ Claude Desktop  — not configured")
 
     # Codex
     codex_path = Path.home() / ".codex" / "mcp.json"
@@ -257,23 +257,23 @@ def check_status() -> str:
         if "memory-os-ai" in cfg.get("mcpServers", {}):
             lines.append(f"  ✅ Codex CLI       — {codex_path}")
         else:
-            lines.append(f"  ⚠️  Codex CLI       — config exists but memory-os-ai not found")
+            lines.append("  ⚠️  Codex CLI       — config exists but memory-os-ai not found")
     else:
-        lines.append(f"  ❌ Codex CLI       — not configured")
+        lines.append("  ❌ Codex CLI       — not configured")
 
     # VS Code (current project)
     vscode_path = Path(os.getcwd()) / ".vscode" / "mcp.json"
     if vscode_path.exists():
         lines.append(f"  ✅ VS Code Copilot — {vscode_path}")
     else:
-        lines.append(f"  ❌ VS Code Copilot — not configured in current project")
+        lines.append("  ❌ VS Code Copilot — not configured in current project")
 
     # Claude Code (current project)
     mcp_path = Path(os.getcwd()) / ".mcp.json"
     if mcp_path.exists():
         lines.append(f"  ✅ Claude Code     — {mcp_path}")
     else:
-        lines.append(f"  ❌ Claude Code     — not configured in current project")
+        lines.append("  ❌ Claude Code     — not configured in current project")
 
     # Cache dir
     cache = Path.home() / ".memory-os-ai"
@@ -281,7 +281,7 @@ def check_status() -> str:
         files = list(cache.iterdir())
         lines.append(f"\n  📁 Cache: {cache} ({len(files)} files)")
     else:
-        lines.append(f"\n  📁 Cache: not created yet")
+        lines.append("\n  📁 Cache: not created yet")
 
     return "\n".join(lines)
 

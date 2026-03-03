@@ -2,12 +2,9 @@
 
 from __future__ import annotations
 
-import json
-import os
 import tempfile
 from pathlib import Path
 
-import numpy as np
 import pytest
 
 
@@ -184,7 +181,7 @@ class TestProjectLinking:
     """Test cross-project link/unlink/list functionality."""
 
     def test_link_unlink_lifecycle(self):
-        from memory_os_ai.server import _linked_projects, _save_project_links
+        from memory_os_ai.server import _linked_projects
 
         with tempfile.TemporaryDirectory() as tmpdir:
             # Simulate a project dir

@@ -11,8 +11,7 @@ import os
 import re
 import threading
 import time
-from dataclasses import dataclass, field
-from pathlib import Path
+from dataclasses import dataclass
 from typing import Optional
 
 import numpy as np
@@ -312,7 +311,7 @@ class MemoryEngine:
                 text, nb_pages = extractor(filepath)
                 segments = self._segment_text(text)
                 results.append((filename, segments, nb_pages, len(text.split())))
-            except Exception as e:
+            except Exception:
                 results.append((filename, [], 0, 0))
 
         # Build segments map
