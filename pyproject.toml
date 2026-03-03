@@ -77,3 +77,10 @@ branch = true
 
 [tool.coverage.report]
 fail_under = 80
+
+[tool.ruff.lint]
+select = ["E", "F"]
+ignore = ["E501"]  # line-too-long — handled by formatter not linter
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**/*.py" = ["E402"]  # imports after setup are common in tests
