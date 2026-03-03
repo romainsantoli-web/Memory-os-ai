@@ -122,6 +122,9 @@ class TestModels:
             "memory_project_link",
             "memory_project_unlink",
             "memory_project_list",
+            "memory_cloud_configure",
+            "memory_cloud_status",
+            "memory_cloud_sync",
         }
         assert set(TOOL_MODELS.keys()) == expected
 

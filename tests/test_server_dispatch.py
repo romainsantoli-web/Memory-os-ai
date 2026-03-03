@@ -351,12 +351,15 @@ class TestListTools:
     @pytest.mark.asyncio
     async def test_list_tools_returns_all(self):
         tools = await srv.list_tools()
-        assert len(tools) == 18
+        assert len(tools) == 21
         names = {t.name for t in tools}
         assert "memory_ingest" in names
         assert "memory_search" in names
         assert "memory_compact" in names
         assert "memory_project_link" in names
+        assert "memory_cloud_configure" in names
+        assert "memory_cloud_status" in names
+        assert "memory_cloud_sync" in names
 
     @pytest.mark.asyncio
     async def test_list_tools_have_titles(self):

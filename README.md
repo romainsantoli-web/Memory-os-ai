@@ -3,12 +3,12 @@
 
 > Adaptive memory system for AI agents — universal MCP server for **Claude Code, Codex CLI, VS Code Copilot, ChatGPT**, and any MCP-compatible client.
 
-[![Tests](https://img.shields.io/badge/tests-348%20passed-brightgreen)]()
+[![Tests](https://img.shields.io/badge/tests-410%20passed-brightgreen)]()
 [![Coverage](https://img.shields.io/badge/coverage-96%25-brightgreen)]()
 [![Python](https://img.shields.io/badge/python-3.10+-blue)]()
 [![MCP](https://img.shields.io/badge/MCP-2025--11--25-purple)]()
 [![VS Code](https://img.shields.io/badge/VS%20Code-MCP%20Ready-007ACC?logo=visualstudiocode)]()
-[![Version](https://img.shields.io/badge/version-3.0.1-orange)]()
+[![Version](https://img.shields.io/badge/version-3.1.0-orange)]()
 [![License](https://img.shields.io/badge/license-LGPL--3.0-orange)]()
 
 ## Concept
@@ -37,16 +37,17 @@ Memory OS AI transforms your local documents (PDF, DOCX, images, audio) into a *
 
 ## Features
 
-- **18 MCP tools** for memory management, search, chat persistence, and project linking
+- **21 MCP tools** for memory management, search, chat persistence, project linking, and cloud storage
 - **Semantic search** with FAISS + SentenceTransformers (all-MiniLM-L6-v2)
 - **Multi-format ingestion**: PDF, DOCX, TXT, images (OCR), audio (Whisper), PPTX
 - **Chat extraction**: auto-detects Claude, ChatGPT, Copilot, and terminal history
 - **Cross-project linking**: share memory across multiple workspaces
+- **Cloud storage overflow**: auto-backup to Google Drive, iCloud, Dropbox, OneDrive, S3, Azure, Box, B2
 - **3 transports**: stdio (default), SSE (`--sse`), Streamable HTTP (`--http`)
 - **MCP Resources**: `memory://documents/*`, `memory://logs/conversation`, `memory://linked/*`
-- **100% local**: all data stays on your machine — no cloud dependency
+- **Local-first**: all data on your machine by default, cloud only when disk runs low
 
-## 18 MCP Tools
+## 21 MCP Tools
 
 | Tool | Description |
 |------|-------------|
@@ -68,6 +69,9 @@ Memory OS AI transforms your local documents (PDF, DOCX, images, audio) into a *
 | `memory_project_link` | Link another project's memory |
 | `memory_project_unlink` | Unlink a project |
 | `memory_project_list` | List all linked projects |
+| `memory_cloud_configure` | Configure cloud storage backend for overflow |
+| `memory_cloud_status` | Show local disk + cloud storage status |
+| `memory_cloud_sync` | Push/pull/auto-sync between local and cloud |
 
 ## Quick Start
 
@@ -127,9 +131,11 @@ Memory-os-ai/
 ├── src/memory_os_ai/
 │   ├── __init__.py          # Public API: MemoryEngine, ChatExtractor, TOOL_MODELS
 │   ├── __main__.py          # python -m memory_os_ai entry point
-│   ├── server.py            # MCP server — 18 tools, 3 transports, resources
+│   ├── server.py            # MCP server — 21 tools, 3 transports, resources
 │   ├── engine.py            # FAISS engine — indexing, search, compact, session brief
-│   ├── models.py            # 18 Pydantic models + TOOL_MODELS registry
+│   ├── cloud_storage.py     # 8 cloud backends (GDrive, iCloud, Dropbox, OneDrive, S3, Azure, Box, B2)
+│   ├── storage_router.py    # Smart routing: local-first with cloud overflow
+│   ├── models.py            # 21 Pydantic models + TOOL_MODELS registry
 │   ├── chat_extractor.py    # 4 extractors: Claude, ChatGPT, Copilot, terminal
 │   ├── instructions.py      # MEMORY_INSTRUCTIONS for AI clients
 │   └── setup.py             # Auto-setup CLI for 5 AI clients
@@ -139,7 +145,7 @@ Memory-os-ai/
 │   ├── codex/               # AGENTS.md for Codex CLI
 │   ├── vscode/              # mcp.json for VS Code
 │   └── chatgpt/             # mcp-connection.json for ChatGPT
-├── tests/                   # 348 tests — 96% coverage
+├── tests/                   # 410+ tests — 96% coverage
 │   ├── test_memory.py       # Engine + models (60 tests)
 │   ├── test_chat_extractor.py  # Chat extraction (39 tests)
 │   ├── test_bridges.py      # Bridge configs (22 tests)
@@ -148,9 +154,43 @@ Memory-os-ai/
 │   ├── test_setup.py        # Setup CLI targets
 │   ├── test_z_coverage_boost.py # Coverage boost (35 tests)
 │   └── test_zz_full_coverage.py # Full coverage (97 tests)
-├── pyproject.toml           # v3.0.0 — deps, scripts, coverage config
+├── pyproject.toml           # v3.1.0 — deps, scripts, coverage config + cloud optional deps
 ├── Dockerfile               # Container deployment
 └── README.md
+```
+
+## Cloud Storage (v3.1.0)
+
+When local disk runs low (< 500 MB free by default), memory data automatically overflows to a configured cloud backend.
+
+### Supported Providers
+
+| Provider | Install | Credentials |
+|----------|---------|-------------|
+| **Google Drive** | `pip install memory-os-ai[cloud-gdrive]` | `credentials_json` or `token_json` + `folder_id` |
+| **iCloud Drive** | *(macOS native, no extra deps)* | `container` name (default: `memory-os-ai`) |
+| **Dropbox** | `pip install memory-os-ai[cloud-dropbox]` | `access_token` + `folder` |
+| **OneDrive** | *(auto-detects mount)* or Graph API | `mount_path` or `access_token` |
+| **Amazon S3** | `pip install memory-os-ai[cloud-s3]` | `bucket`, `aws_access_key_id`, `aws_secret_access_key` |
+| **Azure Blob** | `pip install memory-os-ai[cloud-azure]` | `connection_string` + `container` |
+| **Box** | `pip install memory-os-ai[cloud-box]` | `access_token` + `folder_id` |
+| **Backblaze B2** | `pip install memory-os-ai[cloud-b2]` | `application_key_id`, `application_key`, `bucket_name` |
+| **All providers** | `pip install memory-os-ai[cloud-all]` | — |
+
+### Usage
+
+```bash
+# Configure via environment (auto-activates on server start)
+export MEMORY_CLOUD_PROVIDER=icloud
+export MEMORY_CLOUD_CONFIG='{"container": "memory-os-ai"}'
+memory-os-ai
+
+# Or configure at runtime via MCP tool:
+#   memory_cloud_configure(provider="s3", credentials={"bucket": "my-bucket", ...})
+#   memory_cloud_status()       → local disk + cloud usage
+#   memory_cloud_sync("push")   → backup to cloud
+#   memory_cloud_sync("pull")   → restore from cloud
+#   memory_cloud_sync("auto")   → offload if disk low
 ```
 
 ## Configuration
@@ -162,6 +202,9 @@ Memory-os-ai/
 | `MEMORY_CACHE_DIR` | `~/.memory-os-ai` | Cache / FAISS index directory |
 | `MEMORY_MODEL` | `all-MiniLM-L6-v2` | SentenceTransformer model name |
 | `MEMORY_API_KEY` | *(none)* | Optional API key for SSE/HTTP auth |
+| `MEMORY_CLOUD_PROVIDER` | *(none)* | Cloud provider name (see table above) |
+| `MEMORY_CLOUD_CONFIG` | *(none)* | JSON credentials or path to JSON file |
+| `MEMORY_DISK_THRESHOLD` | `524288000` | Bytes free before cloud overflow (500 MB) |
 
 ## Development
 

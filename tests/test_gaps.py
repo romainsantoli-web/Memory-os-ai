@@ -95,8 +95,8 @@ class TestProjectListModel:
 class TestToolModelsCount:
     """Verify TOOL_MODELS includes new tools."""
 
-    def test_registry_has_18(self):
-        assert len(TOOL_MODELS) == 18
+    def test_registry_has_21(self):
+        assert len(TOOL_MODELS) == 21
 
     def test_new_tools_registered(self):
         assert "memory_compact" in TOOL_MODELS
