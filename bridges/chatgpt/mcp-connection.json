@@ -1,6 +1,6 @@
 {
   "name": "Memory OS AI",
-  "description": "Persistent semantic memory for AI assistants — 14 tools for document indexing, search, chat history, and session continuity",
+  "description": "Persistent semantic memory for AI assistants — 18 tools for document indexing, search, chat history, cross-project linking, and session continuity",
   "transport": {
     "type": "sse",
     "url": "https://YOUR-SERVER/sse",

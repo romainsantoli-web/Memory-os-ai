@@ -1,132 +1,204 @@
 # Memory OS AI
 
+> Adaptive memory system for AI agents — universal MCP server for **Claude Code, Codex CLI, VS Code Copilot, ChatGPT**, and any MCP-compatible client.
 
-Memory OS AI est un système d'IA avancé pour la gestion et l'analyse de documents localement. Il prend en charge divers formats (PDF, TXT, DOCX, images, audio, etc.) et utilise des technologies comme FAISS, SentenceTransformers, et Mistral-7B pour la recherche sémantique et la génération de rapports. Ce logiciel est conçu pour fonctionner entièrement en local, garantissant la sécurité des données.
+[![Tests](https://img.shields.io/badge/tests-348%20passed-brightgreen)]()
+[![Coverage](https://img.shields.io/badge/coverage-96%25-brightgreen)]()
+[![Python](https://img.shields.io/badge/python-3.10+-blue)]()
+[![MCP](https://img.shields.io/badge/MCP-2025--11--25-purple)]()
+[![VS Code](https://img.shields.io/badge/VS%20Code-MCP%20Ready-007ACC?logo=visualstudiocode)]()
+[![Version](https://img.shields.io/badge/version-3.0.0-orange)]()
+[![License](https://img.shields.io/badge/license-LGPL--3.0-orange)]()
 
-## Fonctionnalités
-- Traitement de documents multi-formats (PDF, TXT, DOCX, images, audio, etc.).
-- Recherche sémantique avec FAISS.
-- Génération de résumés et de rapports avec Mistral-7B.
-- Fonctionnement local pour garantir la sécurité des données.
-- Adaptation automatique CPU/GPU selon la machine de l'utilisateur.
+## Concept
 
-## Structure du projet
-```
-memory-os-ai/
-│
-├── emb/                          # Dossier pour les modèles d'embeddings
-│   ├── all-MiniLM-L6-v2/         # Modèle SentenceTransformers (téléchargé automatiquement)
-│   └── whisper_base.pt           # Modèle Whisper (téléchargé automatiquement)
-│
-├── mistral-7b/                   # Dossier pour le modèle Mistral-7B
-│   └── mistral-7b-instruct-v0.2.Q4_K_M.gguf  # Modèle Mistral-7B (téléchargé automatiquement)
-│
-├── pdfs/                         # Dossier pour les fichiers à traiter (PDFs, images, audio, etc.)
-│
-├── embeddings_cache.pkl          # Cache des embeddings (généré automatiquement)
-│
-├── memory_os_ai.py               # Script principal
-├── memory_os_ai_gui.py           # Script de l'interface GUI
-├── requirements_gpu.txt          # Dépendances pour GPU
-├── requirements_cpu.txt          # Dépendances pour CPU
-├── README.md                     # Instructions
-└── LICENSE                       # Licence LGPL v3
-```
-
-## Installation
-
-### Prérequis
-- Python 3.9 ou supérieur.
-
-- Outils supplémentaires :
-
-  - Tesseract OCR (pour `pytesseract`) : 
-    ```
-    brew install tesseract  # Sur macOS
-    sudo apt-get install tesseract-ocr  # Sur Ubuntu
-FFmpeg (pour whisper) :
+Memory OS AI transforms your local documents (PDF, DOCX, images, audio) into a **semantic memory** queryable by any AI model through the **MCP** (Model Context Protocol).
 
 ```
-brew install ffmpeg  # Sur macOS
-sudo apt-get install ffmpeg  # Sur Ubuntu
+┌──────────────────────────────────┐
+│  AI Client (any MCP-compatible)  │
+│  Claude Code / Codex / Copilot   │
+│  ChatGPT / custom agents         │
+├──────────────────────────────────┤
+│         MCP Protocol             │
+│   stdio / SSE / Streamable HTTP  │
+├──────────────────────────────────┤
+│      Memory OS AI Server         │
+│  ┌────────┐  ┌───────────────┐   │
+│  │ FAISS  │  │ Chat Extractor│   │
+│  │ Index  │  │ (4 sources)   │   │
+│  └────────┘  └───────────────┘   │
+│  ┌────────────────────────────┐  │
+│  │ Cross-Project Linking      │  │
+│  └────────────────────────────┘  │
+└──────────────────────────────────┘
 ```
 
-Antiword (pour textract, si nécessaire) :
+## Features
+
+- **18 MCP tools** for memory management, search, chat persistence, and project linking
+- **Semantic search** with FAISS + SentenceTransformers (all-MiniLM-L6-v2)
+- **Multi-format ingestion**: PDF, DOCX, TXT, images (OCR), audio (Whisper), PPTX
+- **Chat extraction**: auto-detects Claude, ChatGPT, Copilot, and terminal history
+- **Cross-project linking**: share memory across multiple workspaces
+- **3 transports**: stdio (default), SSE (`--sse`), Streamable HTTP (`--http`)
+- **MCP Resources**: `memory://documents/*`, `memory://logs/conversation`, `memory://linked/*`
+- **100% local**: all data stays on your machine — no cloud dependency
+
+## 18 MCP Tools
+
+| Tool | Description |
+|------|-------------|
+| `memory_ingest` | Index a folder of documents into FAISS |
+| `memory_search` | Semantic search across all indexed content |
+| `memory_search_occurrences` | Count keyword occurrences across documents |
+| `memory_get_context` | Get relevant context for the current task |
+| `memory_list_documents` | List all indexed documents with stats |
+| `memory_transcribe` | Transcribe audio files (Whisper) |
+| `memory_status` | Engine status (index size, model, device) |
+| `memory_compact` | Compact/deduplicate the FAISS index |
+| `memory_chat_sync` | Sync messages from configured chat sources |
+| `memory_chat_source_add` | Add a chat source (Claude, ChatGPT, etc.) |
+| `memory_chat_source_remove` | Remove a chat source |
+| `memory_chat_status` | Status of all chat sources |
+| `memory_chat_auto_detect` | Auto-detect chat workspaces on disk |
+| `memory_session_brief` | Full memory briefing for session start |
+| `memory_chat_save` | Persist conversation messages to memory |
+| `memory_project_link` | Link another project's memory |
+| `memory_project_unlink` | Unlink a project |
+| `memory_project_list` | List all linked projects |
+
+## Quick Start
+
+### Prerequisites
+
+- Python 3.10+
+- Optional: `tesseract` (OCR), `ffmpeg` (audio), `antiword` (legacy .doc)
+
+```bash
+# macOS
+brew install tesseract ffmpeg antiword
+
+# Ubuntu/Debian
+sudo apt-get install tesseract-ocr ffmpeg antiword
 ```
-brew install antiword  # Sur macOS
-sudo apt-get install antiword  # Sur Ubuntu
+
+### Install
+
+```bash
+git clone https://github.com/romainsantoli-web/Memory-os-ai.git
+cd Memory-os-ai
+pip install -e ".[dev,audio]"
 ```
 
-Étapes
+### Auto-Setup (recommended)
 
-Clonez le dépôt :
-```
-git clone https://github.com/[ton-utilisateur]/memory-os-ai.git
-```
+```bash
+# Setup for your AI client:
+memory-os-ai setup claude-code    # Claude Code
+memory-os-ai setup codex          # Codex CLI
+memory-os-ai setup vscode         # VS Code Copilot
+memory-os-ai setup claude-desktop # Claude Desktop
+memory-os-ai setup chatgpt        # ChatGPT (manual bridge)
+memory-os-ai setup all            # All of the above
 
-cd memory-os-ai
-Installez les dépendances selon votre machine :
-Sur une machine avec GPU (ex. sur serveur interne avec RTX3090) :
-```
-pip install -r requirements_gpu.txt
-```
-Assurez-vous que CUDA est installé (version 12.1 recommandée). Ajustez les URLs dans requirements_gpu.txt si vous utilisez une version différente de CUDA.
-
-Sur une machine sans GPU (ex. MacBook Pro) :
-```
-pip install -r requirements_cpu.txt
+# Check status:
+memory-os-ai setup status
 ```
 
-Lancez le script principal :
+### Manual Start
+
+```bash
+# stdio (default — Claude Code, VS Code, Codex)
+memory-os-ai
+
+# SSE transport (port 8765)
+memory-os-ai --sse
+
+# Streamable HTTP (port 8765)
+memory-os-ai --http
 ```
-python memory_os_ai.py
+
+## Project Structure
+
+```
+Memory-os-ai/
+├── src/memory_os_ai/
+│   ├── __init__.py          # Public API: MemoryEngine, ChatExtractor, TOOL_MODELS
+│   ├── __main__.py          # python -m memory_os_ai entry point
+│   ├── server.py            # MCP server — 18 tools, 3 transports, resources
+│   ├── engine.py            # FAISS engine — indexing, search, compact, session brief
+│   ├── models.py            # 18 Pydantic models + TOOL_MODELS registry
+│   ├── chat_extractor.py    # 4 extractors: Claude, ChatGPT, Copilot, terminal
+│   ├── instructions.py      # MEMORY_INSTRUCTIONS for AI clients
+│   └── setup.py             # Auto-setup CLI for 5 AI clients
+├── bridges/
+│   ├── claude-code/         # CLAUDE.md with memory rules
+│   ├── claude-desktop/      # config.json for Claude Desktop
+│   ├── codex/               # AGENTS.md for Codex CLI
+│   ├── vscode/              # mcp.json for VS Code
+│   └── chatgpt/             # mcp-connection.json for ChatGPT
+├── tests/                   # 348 tests — 96% coverage
+│   ├── test_memory.py       # Engine + models (60 tests)
+│   ├── test_chat_extractor.py  # Chat extraction (39 tests)
+│   ├── test_bridges.py      # Bridge configs (22 tests)
+│   ├── test_gaps.py         # Compact, cross-project, resources (34 tests)
+│   ├── test_server_dispatch.py # Server dispatch + async (61 tests)
+│   ├── test_setup.py        # Setup CLI targets
+│   ├── test_z_coverage_boost.py # Coverage boost (35 tests)
+│   └── test_zz_full_coverage.py # Full coverage (97 tests)
+├── pyproject.toml           # v3.0.0 — deps, scripts, coverage config
+├── Dockerfile               # Container deployment
+└── README.md
 ```
 
-Note sur les modèles : Lors de la première exécution, le script téléchargera automatiquement les modèles nécessaires :
+## Configuration
 
-SentenceTransformers (all-MiniLM-L6-v2) : 
--Téléchargé dans emb/all-MiniLM-L6-v2/.
-Si le modèle ne fonctionne pas le convertir en sentence avec le script:  
+### Environment Variables
+
+| Variable | Default | Description |
+|----------|---------|-------------|
+| `MEMORY_CACHE_DIR` | `~/.memory-os-ai` | Cache / FAISS index directory |
+| `MEMORY_MODEL` | `all-MiniLM-L6-v2` | SentenceTransformer model name |
+| `MEMORY_API_KEY` | *(none)* | Optional API key for SSE/HTTP auth |
+
+## Development
+
+```bash
+# Install dev dependencies
+pip install -e ".[dev]"
+
+# Run tests
+python -m pytest tests/ -v
+
+# Run with coverage
+python -m pytest tests/ --cov=memory_os_ai --cov-report=term-missing
+
+# Coverage threshold: 80% (enforced in pyproject.toml)
 ```
-convert_to_sentence_models.py
-```
 
-Mistral-7B (mistral-7b-instruct-v0.2.Q4_K_M.gguf) : 
--Téléchargé dans mistral-7b/.
+## License
 
-Whisper (base) : Téléchargé dans emb/whisper_base.pt. (Choisissez le modèle 2 meilleurs compris, moins volumineux)
+GNU Lesser General Public License v3.0 (LGPL-3.0). See [LICENSE](LICENSE) for details.
 
-Ces modèles seront stockés localement et utilisés pour toutes les exécutions suivantes.
+For commercial licensing, contact romainsantoli@gmail.com.
 
-VERIFIER BIEN LES EMPLACEMENTS DES MODELES POUR LE BON FONCTIONNEMENT.
-ILS DOIVENT ETRE COHERENTS AVEC LE SCRIPT :)
+## Part of the OpenClaw Ecosystem
 
+Memory OS AI is designed to work alongside the **OpenClaw** agent infrastructure:
 
-(Optionnel) Lancez l'interface GUI :
-```
-python memory_os_ai_gui.py
-```
-Utilisation:
+| Repo | Description |
+|------|-------------|
+| [**setup-vs-agent-firm**](https://github.com/romainsantoli-web/setup-vs-agent-firm) | Factory for AI agent firms — 28 SKILL.md, 5 SOUL.md, 15 sectors |
+| [**mcp-openclaw-extensions**](https://github.com/romainsantoli-web/setup-vs-agent-firm/tree/main/mcp-openclaw-extensions) | 115 MCP tools — security audit, A2A bridge, fleet management |
+| **Memory OS AI** *(this repo)* | Semantic memory + chat persistence — universal MCP bridge |
 
-Placez vos fichiers (PDFs, images, audio, etc.) dans le dossier pdfs/.
+Together they form a complete stack: **memory** (this repo) → **skills & souls** (setup-vs-agent-firm) → **security & orchestration** (mcp-openclaw-extensions).
 
-Avec le script principal (memory_os_ai.py), suivez les instructions en ligne de commande :
-recherche <mot-clé> : Recherche un mot-clé dans les documents.
-rapport <sujet> : Génère un rapport structuré sur un sujet.
-exit : Quitte le programme.
+## Contributing
 
-Avec l'interface GUI (memory_os_ai_gui.py), utilisez les boutons pour charger les fichiers, rechercher, ou générer des rapports.
-Licence
+Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-Memory OS AI est sous licence GNU Lesser General Public License v3.0 (LGPL v3) pour une utilisation non commerciale. Cela signifie que vous pouvez utiliser, modifier, et redistribuer le logiciel gratuitement pour des usages non commerciaux, à condition de respecter les termes de la LGPL v3 (voir le fichier LICENSE pour plus de détails).
+---
 
-Pour une utilisation commerciale (ex. intégration dans un produit commercial, utilisation en entreprise), vous devez acheter une licence commerciale. Les revenus générés par les licences commerciales contribuent directement au développement et à la maintenance du projet. Contactez-moi à romainsantoli@gmail.com pour plus d'informations sur les tarifs et les conditions.
-
-Support
-Besoin d'aide pour installer ou configurer Memory OS AI ? Je propose des services de support et de personnalisation payants. Contactez-moi à romainsantoli@gmail.com pour plus d'informations.
-
-Sponsor
-Soutenez le développement de Memory OS AI en faisant un don ! [Lien vers Patreon/Open Collective]
-
-Contribution
-Les contributions sont les bienvenues ! Veuillez consulter le fichier CONTRIBUTING.md pour plus d'informations sur la manière de contribuer.
+⚠️ Contenu généré par IA — validation humaine requise avant utilisation.
