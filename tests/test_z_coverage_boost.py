@@ -51,6 +51,11 @@ class TestExtractors:
         expected = {
             ".pdf", ".txt", ".docx", ".doc", ".png", ".jpeg", ".jpg",
             ".pptx", ".ppt", ".mp3", ".wav", ".ogg", ".flac",
+            # Text-based formats (code, config, docs, logs)
+            ".md", ".py", ".ts", ".tsx", ".js", ".jsx", ".json",
+            ".yaml", ".yml", ".toml", ".sh", ".bash", ".css", ".html",
+            ".xml", ".csv", ".sql", ".env", ".ini", ".cfg", ".conf",
+            ".log", ".rst",
         }
         assert SUPPORTED_EXTENSIONS == expected
 
