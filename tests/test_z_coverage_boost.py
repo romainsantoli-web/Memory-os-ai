@@ -8,9 +8,7 @@ from __future__ import annotations
 import json
 import os
 import sys
-import tempfile
-from pathlib import Path
-from unittest.mock import patch, MagicMock, AsyncMock
+from unittest.mock import patch, MagicMock
 
 import numpy as np
 import pytest
@@ -21,8 +19,6 @@ import pytest
 from memory_os_ai.engine import (
     _extract_txt,
     _ensure_faiss,
-    _ensure_torch,
-    _ensure_sentence_transformer,
     MemoryEngine,
     EXTRACTORS,
     SUPPORTED_EXTENSIONS,

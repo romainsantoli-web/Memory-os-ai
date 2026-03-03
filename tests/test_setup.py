@@ -3,12 +3,9 @@ from __future__ import annotations
 
 import json
 import os
-import platform
-import tempfile
 from pathlib import Path
 from unittest.mock import patch
 
-import pytest
 
 from memory_os_ai.setup import (
     _ensure_cache_dir,

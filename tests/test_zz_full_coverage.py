@@ -6,16 +6,11 @@ Naming: test_zz_ ensures this runs after all real-FAISS tests.
 """
 from __future__ import annotations
 
-import hashlib
 import json
 import os
-import platform
-import shutil
 import sqlite3
 import sys
-import time
-from pathlib import Path
-from unittest.mock import patch, MagicMock, AsyncMock, PropertyMock
+from unittest.mock import patch, MagicMock
 
 import numpy as np
 import pytest
@@ -27,12 +22,10 @@ import pytest
 class TestMainEntry:
     def test_main_calls_run(self):
         with patch("memory_os_ai.server.run") as mock_run:
-            import importlib
             import memory_os_ai.__main__  # noqa: F401
             # The module-level run() was already called at import time.
             # If not, we call it explicitly:
             if not mock_run.called:
-                from memory_os_ai.__main__ import run as __main_run  # type: ignore
                 # __main__ just calls run() at module level, already executed
                 pass
 
@@ -41,7 +34,6 @@ class TestMainEntry:
 # 2. engine.py — extractors (L56-130) + transcribe (L815-826)
 # =========================================================================
 from memory_os_ai.engine import (
-    _extract_txt,
     _extract_audio,
     MemoryEngine,
     EXTRACTORS,
@@ -1458,7 +1450,7 @@ class TestServerDispatchSessionBrief:
         eng.ingest_segments.return_value = {"ok": True, "added_segments": 2, "total_segments": 10}
         srv._engine = eng
 
-        from memory_os_ai.chat_extractor import ChatExtractor, ChatMessage
+        from memory_os_ai.chat_extractor import ChatExtractor
         ext = ChatExtractor(state_dir=str(tmp_path))
         srv._chat_extractor = ext
 
