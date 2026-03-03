@@ -35,6 +35,7 @@ class TestMainEntry:
 # =========================================================================
 from memory_os_ai.engine import (
     _extract_audio,
+    _extract_txt,
     MemoryEngine,
     EXTRACTORS,
 )
@@ -181,6 +182,93 @@ class TestExtractAudio:
                 text, pages = _extract_audio("/fake/audio.mp3", language="fr")
                 assert text == "Transcribed audio text"
                 assert pages == 1
+
+
+class TestExtractTextFormats:
+    """Test that all text-based formats (.md, .py, .ts, .log, etc.) use _extract_txt."""
+
+    TEXT_FORMATS = [
+        ".md", ".py", ".ts", ".tsx", ".js", ".jsx", ".json", ".yaml", ".yml",
+        ".toml", ".sh", ".bash", ".css", ".html", ".xml", ".csv", ".sql",
+        ".env", ".ini", ".cfg", ".conf", ".log", ".rst",
+    ]
+
+    def test_all_text_formats_registered(self):
+        """Every text format must be in EXTRACTORS."""
+        for ext in self.TEXT_FORMATS:
+            assert ext in EXTRACTORS, f"{ext} missing from EXTRACTORS"
+            assert EXTRACTORS[ext] is _extract_txt, f"{ext} should map to _extract_txt"
+
+    def test_extract_markdown(self, tmp_path):
+        f = tmp_path / "README.md"
+        f.write_text("# Title\n\nSome **bold** text.\n")
+        text, pages = _extract_txt(str(f))
+        assert "Title" in text
+        assert "bold" in text
+        assert pages == 1
+
+    def test_extract_python(self, tmp_path):
+        f = tmp_path / "script.py"
+        f.write_text("def hello():\n    return 'world'\n")
+        text, pages = _extract_txt(str(f))
+        assert "def hello" in text
+        assert pages == 1
+
+    def test_extract_typescript(self, tmp_path):
+        f = tmp_path / "server.ts"
+        f.write_text("const app = express();\napp.listen(3000);\n")
+        text, pages = _extract_txt(str(f))
+        assert "express()" in text
+        assert pages == 1
+
+    def test_extract_json(self, tmp_path):
+        f = tmp_path / "config.json"
+        f.write_text('{"key": "value", "port": 8012}\n')
+        text, pages = _extract_txt(str(f))
+        assert '"key"' in text
+        assert pages == 1
+
+    def test_extract_yaml(self, tmp_path):
+        f = tmp_path / "config.yaml"
+        f.write_text("server:\n  port: 8012\n  host: localhost\n")
+        text, pages = _extract_txt(str(f))
+        assert "port: 8012" in text
+        assert pages == 1
+
+    def test_extract_log(self, tmp_path):
+        f = tmp_path / "app.log"
+        f.write_text("[2026-03-03 19:00:00] INFO: Server started on port 3000\n[2026-03-03 19:00:01] ERROR: Connection refused\n")
+        text, pages = _extract_txt(str(f))
+        assert "Server started" in text
+        assert "Connection refused" in text
+        assert pages == 1
+
+    def test_extract_shell(self, tmp_path):
+        f = tmp_path / "deploy.sh"
+        f.write_text("#!/bin/bash\ndocker compose up -d\n")
+        text, pages = _extract_txt(str(f))
+        assert "docker compose" in text
+        assert pages == 1
+
+    def test_extract_css(self, tmp_path):
+        f = tmp_path / "style.css"
+        f.write_text(".btn { background: #6366f1; }\n")
+        text, pages = _extract_txt(str(f))
+        assert "#6366f1" in text
+        assert pages == 1
+
+    def test_extract_sql(self, tmp_path):
+        f = tmp_path / "schema.sql"
+        f.write_text("CREATE TABLE users (id TEXT PRIMARY KEY);\n")
+        text, pages = _extract_txt(str(f))
+        assert "CREATE TABLE" in text
+        assert pages == 1
+
+    def test_supported_extensions_includes_text_formats(self):
+        """SUPPORTED_EXTENSIONS must include all text formats."""
+        from memory_os_ai.engine import SUPPORTED_EXTENSIONS
+        for ext in self.TEXT_FORMATS:
+            assert ext in SUPPORTED_EXTENSIONS, f"{ext} not in SUPPORTED_EXTENSIONS"
 
 
 class TestTranscribe:

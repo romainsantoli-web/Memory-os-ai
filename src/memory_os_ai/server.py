@@ -845,8 +845,9 @@ def run_sse(host: str = "0.0.0.0", port: int = 8765):
     """Run MCP server over SSE transport (for ChatGPT, remote clients)."""
     import uvicorn
     from starlette.applications import Starlette
-    from starlette.responses import JSONResponse
-    from starlette.routing import Route
+    from starlette.requests import Request
+    from starlette.responses import JSONResponse, Response
+    from starlette.routing import Mount, Route
     from mcp.server.sse import SseServerTransport
 
     sse = SseServerTransport("/messages/")
@@ -861,11 +862,17 @@ def run_sse(host: str = "0.0.0.0", port: int = 8765):
                 streams[0], streams[1],
                 server.create_initialization_options(),
             )
+        # Return empty response to avoid NoneType error when client disconnects
+        return Response()
 
-    async def handle_messages(request):
+    async def _auth_messages_app(scope, receive, send):
+        """ASGI middleware: check API key then delegate to SSE post handler."""
+        request = Request(scope, receive)
         if not _check_api_key(request):
-            return JSONResponse({"error": "unauthorized"}, status_code=401)
-        await sse.handle_post_message(request.scope, request.receive, request._send)
+            response = JSONResponse({"error": "unauthorized"}, status_code=401)
+            await response(scope, receive, send)
+            return
+        await sse.handle_post_message(scope, receive, send)
 
     async def health(request):
         return JSONResponse({"ok": True, "server": "memory-os-ai", "transport": "sse"})
@@ -874,7 +881,7 @@ def run_sse(host: str = "0.0.0.0", port: int = 8765):
         routes=[
             Route("/health", health),
             Route("/sse", handle_sse),
-            Route("/messages/", handle_messages, methods=["POST"]),
+            Mount("/messages/", app=_auth_messages_app),
         ],
     )
     print(f"Memory OS AI — SSE transport on http://{host}:{port}")

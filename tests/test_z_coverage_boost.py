@@ -51,6 +51,11 @@ class TestExtractors:
         expected = {
             ".pdf", ".txt", ".docx", ".doc", ".png", ".jpeg", ".jpg",
             ".pptx", ".ppt", ".mp3", ".wav", ".ogg", ".flac",
+            # Text-based formats (code, config, docs, logs)
+            ".md", ".py", ".ts", ".tsx", ".js", ".jsx", ".json",
+            ".yaml", ".yml", ".toml", ".sh", ".bash", ".css", ".html",
+            ".xml", ".csv", ".sql", ".env", ".ini", ".cfg", ".conf",
+            ".log", ".rst",
         }
         assert SUPPORTED_EXTENSIONS == expected
 
@@ -456,7 +461,7 @@ class TestMainModule:
     def test_importable(self):
         import memory_os_ai
         assert hasattr(memory_os_ai, "__version__")
-        assert memory_os_ai.__version__ == "3.1.0"
+        assert memory_os_ai.__version__ == "3.2.0"
 
     def test_all_exports(self):
         import memory_os_ai
