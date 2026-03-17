@@ -1,0 +1,87 @@
+{
+  "name": "memory-os-ai",
+  "displayName": "Memory OS AI",
+  "description": "Persistent semantic memory for AI agents — auto-recall, chat extraction, cross-project linking via MCP",
+  "version": "1.0.0",
+  "publisher": "romainsantoli",
+  "license": "LGPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/romainsantoli-web/Memory-os-ai"
+  },
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "AI",
+    "Machine Learning",
+    "Other"
+  ],
+  "keywords": [
+    "mcp",
+    "memory",
+    "ai",
+    "copilot",
+    "claude",
+    "codex",
+    "semantic-search",
+    "faiss"
+  ],
+  "icon": "media/icon.png",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "memory-os-ai.setup",
+        "title": "Memory OS AI: Setup for this workspace"
+      },
+      {
+        "command": "memory-os-ai.status",
+        "title": "Memory OS AI: Show status"
+      },
+      {
+        "command": "memory-os-ai.search",
+        "title": "Memory OS AI: Search memory"
+      },
+      {
+        "command": "memory-os-ai.ingest",
+        "title": "Memory OS AI: Ingest folder into memory"
+      }
+    ],
+    "configuration": {
+      "title": "Memory OS AI",
+      "properties": {
+        "memory-os-ai.autoStart": {
+          "type": "boolean",
+          "default": true,
+          "description": "Automatically configure MCP server for this workspace"
+        },
+        "memory-os-ai.model": {
+          "type": "string",
+          "default": "all-MiniLM-L6-v2",
+          "description": "SentenceTransformer model for embeddings"
+        },
+        "memory-os-ai.cacheDir": {
+          "type": "string",
+          "default": "",
+          "description": "Custom cache directory (default: ~/.memory-os-ai)"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "lint": "eslint src --ext ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/vscode": "^1.95.0",
+    "typescript": "^5.5.0",
+    "eslint": "^9.0.0"
+  }
+}
