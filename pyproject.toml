@@ -37,6 +37,9 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
+ops = [
+    "cryptography>=42",
+]
 audio = [
     "openai-whisper>=20231117",
     "torch>=2.4",
@@ -85,6 +88,8 @@ cloud-all = [
 memory-os-ai = "memory_os_v4.server:run"
 memory-os-v4 = "memory_os_v4.server:run"
 memory-os-ai-v3 = "memory_os_ai.server:run"
+memory-os-relay = "memory_os_v4.ops.relay:main"
+memory-os-admin = "memory_os_v4.ops.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src", "v4/src"]
