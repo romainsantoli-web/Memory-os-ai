@@ -99,13 +99,19 @@ def main() -> None:
         assert not hook.stdout
         (root / "store").mkdir()
         (root / "store/items.jsonl").write_text('{"id":"smoke","kind":"fact","text":"Synthetic"}\n')
-        for arguments in (("backup", "--no-stop"), ("restore-drill", "--no-server")):
+        result = subprocess.run([str(admin), "backup", "--no-stop"], env=env, check=True,
+                                capture_output=True, text=True, timeout=15)
+        snapshot = json.loads(result.stdout)
+        assert snapshot["ok"] and snapshot["verified"] and not snapshot["qualified"]
+        for arguments in (("restore-drill", "--no-server", "--archive",
+                           str(root / "backups" / snapshot["archive"])),):
             result = subprocess.run([str(admin), *arguments], env=env, check=True,
                                     capture_output=True, text=True, timeout=15)
-            assert json.loads(result.stdout)["ok"] is True
+            drill = json.loads(result.stdout)
+            assert drill["ok"] and drill["level"] == "files" and not drill["qualified"]
         unhealthy = subprocess.run([str(admin), "health"], env=env, capture_output=True,
                                    text=True, timeout=10)
-        assert unhealthy.returncode == 1 and "server unreachable" in unhealthy.stdout
+        assert unhealthy.returncode == 1 and "server /health status" in unhealthy.stdout
         unavailable = subprocess.run([str(relay)], input="", env=env, capture_output=True,
                                      text=True, timeout=20)
         assert unavailable.returncode == 1, unavailable.returncode
