@@ -28,7 +28,7 @@ from .llm import LLMClient
 from .idempotency import RequestJournal, sync_sources
 from .writer_lock import WriterLock
 from .migrate import read_v3_log
-from .retrieval import HybridRetriever, SearchHit, cosine_sim, mmr
+from .retrieval import HybridRetriever, SearchHit, mmr
 from .store import MemoryItem, Store, text_hash
 from .temporal import is_valid_at, recency_weight
 from .text import chunk_text, contextual_header, date_str, tokenize
@@ -47,7 +47,7 @@ def _make_embedder(config: Config) -> Embedder | HashEmbedder:
 
 def index_text(item: MemoryItem, config: Config) -> str:
     """The ONE string every signal indexes `item` under: dense embedding,
-    BM25 tokenization, and the `add_facts` near-duplicate probe (production
+    BM25 tokenization (production
     port of the LoCoMo-validated bench mechanism, 2026-09-14 -- see
     `bench/retrievers.py`'s `V4EnrichedRetriever` "facts+keywords" mode).
 
@@ -55,12 +55,8 @@ def index_text(item: MemoryItem, config: Config) -> str:
     ``" | keywords: k1, k2, ..."`` appended when `config.index_keywords` is
     on AND `item.keywords` is non-empty. `item.text` itself is never
     touched -- this only changes what gets embedded/tokenized, never what is
-    displayed or returned to a caller. Using ONE helper everywhere this
-    string is built is deliberate: `add_facts`'s dedup probe must embed the
-    text under the EXACT same string `_index_items` would store the item's
-    own vector under, or dedup silently drifts from what's actually indexed
-    (see the ``A3`` note on `add_facts` below, the same class of bug this
-    helper forecloses for the new `keywords` field). A no-op (byte-identical
+    displayed or returned to a caller. Duplicate decisions use normalized
+    assertion equality, independently of these retrieval signals. A no-op (byte-identical
     to the pre-keywords header+text string) for any item with no keywords,
     so every existing caller is unaffected by default.
     """
@@ -439,21 +435,15 @@ class MemoryV4:
             self._index_items(items)
             return items
 
-    def _find_near_duplicate(self, item: MemoryItem, vec: np.ndarray) -> str | None:
-        tokens_a = set(tokenize(item.text))
+    def _find_duplicate(self, item: MemoryItem) -> str | None:
+        """Cosine similarity never proves duplicate identity.
+
+        An identity names a property, not its value: differing values must reach
+        explicit replacement logic. Equal normalized text is required for all kinds.
+        """
         for it in self.store.all(include_deleted=False):
-            if not duplicate_compatible(it, item):
-                continue
-            other = self.vector_index.get_one(it.id)
-            if other is None or cosine_sim(other, vec) < self.config.dedup_cos:
-                continue
-            if item.kind in {"fact", "belief"}:
-                if equivalent_assertions(it, item):
-                    return it.id
-            else:
-                tokens_b = set(tokenize(it.text))
-                if len(tokens_a & tokens_b) / max(1, len(tokens_a | tokens_b)) >= 0.6:
-                    return it.id
+            if duplicate_compatible(it, item) and equivalent_assertions(it, item):
+                return it.id
         return None
 
     @_requires_open
@@ -499,28 +489,15 @@ class MemoryV4:
                 spec["source"] = source
                 item = self._build_items([spec], kind=kind)[0]
                 validate_replacements(item, self.store)
-                exact_dup = next((it for it in self.store.all(False)
-                                  if it.hash == item.hash and duplicate_compatible(it, item)
-                                  and (kind not in {"fact", "belief"} or equivalent_assertions(it, item))), None)
-                if exact_dup:
-                    deduped.append(exact_dup.id)
+                duplicate_id = self._find_duplicate(item)
+                if duplicate_id:
+                    deduped.append(duplicate_id)
                     continue
 
-                # A3 (adversarial review, 2026-09-12): embed the dedup probe
-                # with the EXACT header `_index_items` would store the
-                # vector under (`contextual_header(item)`), not a different
-                # ad-hoc header (the old `"[?|project: {project}|system]"`)
-                # -- that mismatch made add_facts's own dedup check ~0.10
-                # cosine harsher than consolidate's sweep on the SAME pair
-                # of already-indexed vectors. Reusing this one vector for
-                # indexing also avoids embedding the fact's text twice.
+                # Embeddings serve retrieval, never duplicate decisions. Reuse
+                # this vector for indexing rather than computing it twice.
                 probe_text = index_text(item, self.config)
                 vec = self.embedder.encode([probe_text])[0]
-
-                near_dup_id = self._find_near_duplicate(item, vec)
-                if near_dup_id:
-                    deduped.append(near_dup_id)
-                    continue
 
                 self._index_items([item], vecs=np.asarray([vec]))
                 added.append(item.id)

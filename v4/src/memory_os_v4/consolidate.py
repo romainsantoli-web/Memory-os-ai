@@ -1,7 +1,7 @@
 """Sleep-time consolidation: dedup sweep, deterministic supersession sweep,
 Ebbinghaus-style importance decay/reinforcement, and summary-cluster proposals.
 
-Nothing is ever hard-deleted: dedup marks the newer near-duplicate with
+Nothing is ever hard-deleted: dedup marks the newer normalized-text duplicate with
 ``deleted=True`` (soft, reversible in the log) and episode TTL decay only
 lowers importance.
 """
@@ -16,21 +16,14 @@ from .fact_updates import duplicate_compatible, equivalent_assertions, replaceme
 from .retrieval import cosine_sim
 from .store import Store
 from .temporal import recency_weight
-from .text import tokenize
 from .vector_index import VectorIndex
-
-
-def _jaccard(text_a: str, text_b: str) -> float:
-    a, b = set(tokenize(text_a)), set(tokenize(text_b))
-    union = a | b
-    return len(a & b) / max(1, len(union))
 
 
 def dedup_sweep(
     store: Store, vector_index: VectorIndex, config: Config, dry_run: bool = False, project: str | None = None
 ) -> list[tuple[str, str]]:
-    """Dedup compatible active items within each project. Facts/beliefs require
-    conservative assertion equality; summaries retain cosine/Jaccard dedup. Historical
+    """Dedup compatible active items within each project by conservative text equality.
+    Cosine/Jaccard never establish equality, including for summaries. Historical
     validity windows are preserved. Returns (kept, removed)."""
     candidates = [it for it in store.all(include_deleted=False) if it.kind in {"fact", "belief", "summary"}
                   and it.valid_until is None and it.invalidated_by is None
@@ -41,15 +34,10 @@ def dedup_sweep(
     for i, a in enumerate(candidates):
         if a.id in removed:
             continue
-        va = vector_index.get_one(a.id)
         for b in candidates[i + 1 :]:
             if b.id in removed or not duplicate_compatible(a, b):
                 continue
-            if cosine_sim(va, vector_index.get_one(b.id)) < config.dedup_cos:
-                continue
-            if a.kind in {"fact", "belief"} and not equivalent_assertions(a, b):
-                continue
-            if _jaccard(a.text, b.text) < 0.6:
+            if not equivalent_assertions(a, b):
                 continue
             pairs.append((a.id, b.id))
             removed.add(b.id)
