@@ -14,6 +14,7 @@ import argparse
 import json
 import shlex
 import sys
+from urllib.parse import urlsplit
 from pathlib import Path
 
 from .settings import OpsSettings
@@ -26,8 +27,12 @@ def _print_json(obj) -> None:
 def cmd_token(args, s: OpsSettings) -> int:
     from .auth import create_token
 
-    created = create_token(s.token_file)
-    print(f"{'created' if created else 'already exists'}: {s.token_file} (mode 0600, content never printed)")
+    try:
+        created = create_token(s.token_file)
+    except (ValueError, OSError) as exc:  # unsafe/malformed existing file: never overwritten, never printed
+        print(f"refused: {exc}", file=sys.stderr)
+        return 1
+    print(f"{'created' if created else 'exists and is valid'}: {s.token_file} (mode 0600, content never printed)")
     return 0
 
 
@@ -115,20 +120,46 @@ def _plist(
 
 def cmd_setup(args, s: OpsSettings) -> int:
     py = sys.executable
-    relay = {"command": py, "args": ["-m", "memory_os_v4.ops.relay"]}
+    relay = {"command": py, "args": ["-m", "memory_os_v4.ops.relay"]}  # env added below
+    # Every NON-secret setting is propagated; the token stays in its 0600 file (only its path is written).
     env = {
         "MEMORY_V4_DIR": str(s.store_dir),
+        "MEMORY_V4_URL": s.url,
         "MEMORY_V4_TOKEN_FILE": str(s.token_file),
-        "MEMORY_V4_SUPERSEDE_COS": "1.01",
+        "MEMORY_V4_BACKUP_DIR": str(s.backup_dir),
+        "MEMORY_V4_BACKUP_KEY": str(s.backup_key),
+        "MEMORY_V4_OPS_DIR": str(s.ops_dir),
+        "MEMORY_V4_SUPERSEDE_COS": "1.01",  # INC-001 confinement
+        "MEMORY_V4_DEDUP_COS": "1.01",  # INC-002 confinement
         "HF_HUB_OFFLINE": "1",
         "TOKENIZERS_PARALLELISM": "false",
     }
     label = s.service_label or "local.memory-os-v4"
+    host = urlsplit(s.url).hostname or "127.0.0.1"
+    try:
+        from ..readiness import build_identity
+
+        identity = build_identity()
+    except Exception as exc:  # pragma: no cover - defensive
+        identity = {"commit": None, "error": type(exc).__name__}
+    qualified_build = bool(identity.get("commit")) and not identity.get("source_dirty")
+    if qualified_build:
+        env["MEMORY_V4_BUILD_COMMIT"] = identity["commit"]  # non-secret; launchd does not inherit this process env
+    else:
+        print("# WARNING: no qualified build identity (commit unknown or modified checkout). The generated server "
+              "job is NOT qualified: /ready will answer 503 build_unqualified. Set MEMORY_V4_BUILD_COMMIT to the "
+              "attested release commit (see the release manifest) or install a qualified artifact, then rerun.")
+    relay_env = {k: env[k] for k in ("MEMORY_V4_URL", "MEMORY_V4_TOKEN_FILE")}
+    hook_env = "env " + " ".join(
+        shlex.quote(f"{k}={env[k]}") for k in ("MEMORY_V4_URL", "MEMORY_V4_TOKEN_FILE", "MEMORY_V4_OPS_DIR")
+    )
     print("# 1. Claude Code (~/.mcp.json) and Claude Desktop (claude_desktop_config.json, app closed):")
-    _print_json({"mcpServers": {"memory-os-ai": relay}})
+    _print_json({"mcpServers": {"memory-os-ai": {**relay, "env": relay_env}}})
     print("\n# 2. Codex:")
     print(
-        "codex mcp add memory-os-ai -- "
+        "codex mcp add memory-os-ai "
+        + " ".join(f"--env {shlex.quote(f'{k}={v}')}" for k, v in relay_env.items())
+        + " -- "
         + " ".join(shlex.quote(a) for a in [relay["command"], *relay["args"]])
     )
     print("\n# 3. Claude Code hooks (~/.claude/settings.json, merge into 'hooks'):")
@@ -140,7 +171,7 @@ def cmd_setup(args, s: OpsSettings) -> int:
                         {
                             "type": "command",
                             "timeout": 15,
-                            "command": f"{shlex.quote(py)} -m memory_os_v4.ops.cli hook session-start",
+                            "command": f"{hook_env} {shlex.quote(py)} -m memory_os_v4.ops.cli hook session-start",
                         }
                     ]
                 }
@@ -151,7 +182,7 @@ def cmd_setup(args, s: OpsSettings) -> int:
                         {
                             "type": "command",
                             "timeout": 10,
-                            "command": f"{shlex.quote(py)} -m memory_os_v4.ops.cli hook stop-nudge",
+                            "command": f"{hook_env} {shlex.quote(py)} -m memory_os_v4.ops.cli hook stop-nudge",
                         }
                     ]
                 }
@@ -168,9 +199,9 @@ def cmd_setup(args, s: OpsSettings) -> int:
                 "--transport",
                 "http",
                 "--host",
-                "127.0.0.1",
+                host,
                 "--port",
-                "8765",
+                str(s.port),
                 "--warm",
             ],
             env=env,
