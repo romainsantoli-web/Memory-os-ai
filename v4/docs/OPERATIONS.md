@@ -1,8 +1,11 @@
 # Operating a local memory-os-v4 ALPHA
 
 Scope: one user, one machine, several AI clients (Claude Code, Claude Desktop, Codex…) sharing **one** server.
-The ALPHA has a narrow feature scope but production-grade operations: no acknowledged write lost, one writer,
-authenticated loopback HTTP, encrypted backups with tested restores, a daily health report and runbooks.
+4.0.1 is an **intermediate ALPHA operations candidate**: one writer, authenticated loopback HTTP, encrypted
+backups with read-back verification and restore drills, a daily health report and runbooks. Industrial
+transaction and durability guarantees (no acknowledged write lost under process/system failures) await the
+transactional SQLite store, stages S2–S5 of ADR-001: the JSONL store and request receipts are not atomic across
+files.
 Install the ops extra: `pip install 'memory-os-ai[ops]'` (adds `cryptography` for encrypted backups).
 
 ## 1. Settings (environment variables)
@@ -16,6 +19,7 @@ Install the ops extra: `pip install 'memory-os-ai[ops]'` (adds `cryptography` fo
 | `MEMORY_V4_OPS_DIR` | `~/.local/state/memory-os` | Logs, reports, hook state |
 | `MEMORY_V4_SERVICE_LABEL` | unset | launchd label; required for consistent (server-stopped) backups |
 | `MEMORY_V4_SUPERSEDE_COS` | `0.80` | Set to `1.01` to confine automatic fact supersession (INC-001) |
+| `MEMORY_V4_DEDUP_COS` | `0.92` | Set to `1.01` to confine similarity deduplication on 4.0.0 servers (INC-002) |
 | `MEMORY_NUDGE_THRESHOLD` | `20` | Tool calls without a save before the Stop hook asks for one |
 
 ## 2. Installation (macOS)
@@ -44,13 +48,18 @@ already have applied it). Do not repeat a mutation until its status is resolved.
 ## 3. Daily operations
 | Job | Command | Schedule (setup default) | Evidence |
 |---|---|---|---|
-| Encrypted backup | `memory-os-admin backup` | 04:00 (`<label>.backup`) | `$OPS/logs/backup.jsonl`, archives 7 daily + 4 Sundays |
+| Encrypted backup | `memory-os-admin backup` | 04:00 (`<label>.backup`) | `$OPS/logs/backup.jsonl`; newest archive of 7 distinct days + 4 distinct weeks |
 | Health report | `memory-os-admin health` | 08:30 (`<label>.health`) | `$OPS/reports/YYYY-MM-DD.md`, macOS notification on anomaly |
 | Restore drill | `memory-os-admin restore-drill` | monthly and after every upgrade | `$OPS/logs/restore_drill.jsonl` |
 
-Until the transactional SQLite store (ADR-001) ships an online backup, `backup` stops the launchd service for the
-copy (~20-40 s) and always restarts it. The health report flags: server unreachable, malformed log lines, **new**
-fact supersessions while confined, backup older than 26 h, free disk under 5 GiB.
+Until the transactional SQLite store (ADR-001 S4) ships an online backup, a **qualified** backup needs positive
+evidence that no writer runs: the store's `writer.lock` held by the backup, or the launchd service booted out by
+the backup and verified gone (job, server process, port). Otherwise it refuses; only a service it stopped is
+restarted. `--no-stop` produces a labelled, non-qualified diagnostic snapshot. Every archive is read back
+(decrypt, safe extract, exact inventory, hashes, item counts) before rotation; SQLite stores are refused.
+The health report flags: `/health` or `/ready` not OK (404 on a 4.0.0 server is informational), malformed or
+truncated log, **new** fact supersessions while confined, no verified qualified backup (present, unchanged) in
+26 h, free disk under 5 GiB.
 
 ## 4. Runbooks
 Base commands: `U=gui/$(id -u)`; stop `launchctl bootout $U/<label>`; start `launchctl bootstrap $U <plist>`.
@@ -69,16 +78,20 @@ process environment** (`ps eww -p <pid> | tr ' ' '\n' | grep MEMORY_V4_`).
   `--no-server` under memory pressure). Real restore (S1 incident only): stop; rename the store to
   `.failed-<date>`; extract the chosen archive (`memory_os_v4.ops.backup.extract`); `verify_manifest`; start;
   health + witness search; reconcile writes made after the backup from the failed copy — never overwrite blindly.
-- **RB-05 Abusive supersession / deduplication** — confine (`MEMORY_V4_SUPERSEDE_COS=1.01` in the plist, bootout +
-  bootstrap, check env), list affected items from the health report, repair offline with the maintenance tooling
-  (simulation first, exclusive lock, trace), never by rewriting the log.
+- **RB-05 Abusive supersession / deduplication** — confine both (`MEMORY_V4_SUPERSEDE_COS=1.01` and, on 4.0.0,
+  `MEMORY_V4_DEDUP_COS=1.01` in the plist; bootout + bootstrap; check the process environment). Residual risk on
+  4.0.0: the exact-hash deduplication path remains, and confinement does not recover captures already lost. List
+  affected items from the health report; repair offline with the maintenance tooling (simulation first, exclusive
+  lock, trace), never by rewriting the log.
 - **RB-06 Version rollback** — consistent backup first; point the service back to the previous release; for a
   storage-format change follow ADR-001's rollback (never reopen newer data with older software without
   reconciliation).
 - **RB-07 Secret stored in memory** — `memory_forget` immediately; physical purge with the purge tool when available;
   **rotate the secret at its source** (the only certain protection); check the next backup does not reintroduce it.
-- **RB-08 Truncated log / interrupted migration** — stop; copy the whole store aside; move a truncated last line
-  (unacknowledged write) to a dated `.rejected` file, never delete it; migrations never modify their source —
+- **RB-08 Truncated log / interrupted migration** — a truncated line means an **uncertain result**, not
+  necessarily an unacknowledged write: freeze all writers, preserve a full copy of the store with its hashes,
+  compare with the clients' witness logs / request receipts, then run an authorised recovery. Never delete or
+  move the line automatically, never assume it was not acknowledged. Migrations never modify their source —
   restart from it; drill RB-04 before resuming heavy writes.
 
 Incidents: severity S1 (loss, corruption, leak, abusive invalidation) → confine immediately, freeze writes,
