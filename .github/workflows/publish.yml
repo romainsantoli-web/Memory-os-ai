@@ -1,30 +1,44 @@
-name: Publish to PyPI
+name: Publish qualified distributions to PyPI
 
 on:
   release:
     types: [published]
 
 permissions:
-  id-token: write  # Trusted Publishing (OIDC)
+  contents: read
 
 jobs:
+  qualify:
+    uses: ./.github/workflows/ci.yml
+
   publish:
+    needs: qualify
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
     environment:
       name: pypi
       url: https://pypi.org/project/memory-os-ai/
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
-      - name: Install build tools
-        run: pip install build
-
-      - name: Build package
-        run: python -m build
-
-      - name: Publish to PyPI
-        uses: pypa/gh-action-pypi-publish@release/v1
+      - name: Verify release tag matches package version
+        env:
+          RELEASE_TAG: ${{ github.event.release.tag_name }}
+        run: |
+          python - <<'PY'
+          import os, pathlib, tomllib
+          version = tomllib.loads(pathlib.Path("pyproject.toml").read_text())["project"]["version"]
+          assert os.environ["RELEASE_TAG"] in (version, f"v{version}"), "tag/package version mismatch"
+          PY
+      # Publish precisely the wheel/sdist built and installed by qualification.
+      - uses: actions/download-artifact@v4
+        with:
+          name: qualified-distributions
+          path: dist
+      - name: Record qualified artifact hashes
+        run: sha256sum dist/*
+      - uses: pypa/gh-action-pypi-publish@release/v1

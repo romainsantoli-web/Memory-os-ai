@@ -1,0 +1,80 @@
+{
+  "version": "4.0.1",
+  "source_commit": "0bf2d3f20150186084cdf64d6128fd3fadec1661",
+  "source_date_epoch": 1791541306,
+  "release_ready": false,
+  "open_blockers": [],
+  "checks": {
+    "a6_review": "passed",
+    "adversarial_probe": "passed",
+    "v3": "passed",
+    "v4": "passed",
+    "lint": "passed",
+    "twine_strict": "passed",
+    "wheel_install": "passed",
+    "sdist_install": "passed",
+    "wheel_smoke": "passed",
+    "sdist_smoke": "passed"
+  },
+  "artifacts": [
+    {
+      "name": "memory_os_ai-4.0.1-py3-none-any.whl",
+      "bytes": 299566,
+      "sha256": "343ab2bae898b2458608e6017ed4e5994befdb25322250437b8ce66e63c4412a"
+    },
+    {
+      "name": "memory_os_ai-4.0.1.tar.gz",
+      "bytes": 437935,
+      "sha256": "1f161568f5228cefc6cc46d30f3291678ff5db61cd96a75eb5cb5a29bbc57b2e"
+    }
+  ],
+  "installed_relay_scripts_sha256": {
+    "runner": "ce52cd4047b051330eef42c011e58a0d022700b9af731cf456d0d913bac909ab",
+    "case": "6278f6af1d31ba7ee371a6e39adb5c005f373c2900eb22695903cf39459befee"
+  },
+  "evidence": {
+    "v3": {
+      "passed": 478,
+      "coverage": 82.0
+    },
+    "v4": {
+      "passed": 795,
+      "coverage": 86.72,
+      "cached_semantic_test": true
+    },
+    "ops_unit": 75,
+    "gate_regression_tests": 8,
+    "tcp_source": {
+      "passed_reported_by_claude": 10,
+      "source_commit": "6d3f749602814756822aaaf99ab3a8df7d669338",
+      "report": "/Users/romain/memory-os-local/reviews/claude_response_A6_v2.md",
+      "runtime_sources_unchanged_after_integration": true
+    },
+    "python": "3.11.14",
+    "models_downloaded": false,
+    "production_modified": false,
+    "dependency_downloads": false,
+    "platform": "macOS-15.3-arm64-arm-64bit"
+  },
+  "proof_sha256": {
+    "tests-v4.log": "710d1ae15578254c4481bfa5ae61eded8379b9bbc8304f3c36e1e164ff647b7f",
+    "tests-v3.log": "cfbc8b6444b693dacffd916b876c4744ac39ec0dfadf7a8e78fec2dd44dbd3f7",
+    "environments.json": "d48f8c18d80b21707ac4f85a98aee718f5efa1775920b34de3c227b9435e6ed2",
+    "sdist-smoke.log": "a68b42b8e62d0e9e978f163665d8596af65cdc3b871bb4b60def35e337d1cbcb",
+    "lint.log": "d63ab3df51a50c66f9c57056288c7d4faf9dce413552d89215714320ac2b748e",
+    "wheel-install.log": "19e01de64af296d325f971764322b7406dfeff305ab1ff1d7e1115b9d1271a54",
+    "sdist-install.log": "78c9043a29b0a7684ac7d72590adcec2bb7100a24777b412ce16d1a15d451598",
+    "wheel-smoke.log": "601f73b40ff3ca65ead93fe7398bf01fcfa96c81821246bb93eb6d6c20d76340",
+    "coverage-v3.json": "bd8a1d06f12ee23967ceffcc24670e61234ed2ba7663fa38ed33bc837eedd7f9",
+    ".coverage-v3": "7c25da5501995e53176439dc585b4a5ef9d3585907115f65ab53e441d1b46964",
+    ".coverage-v4": "a4f0e45fabbc6c5a86ab978804a75ce2db757dbb819ab9599f28be978155b0c9",
+    "twine-check.log": "fec3d8b8a16b52ff9b1c73c6968248d955563e641fa95e5cffb4465c3d5ed2dd",
+    "coverage-v4.json": "c06baef71fd4bb3926e81a853ddb7e21a4426e8c253db5143a2e46b6ec81637b",
+    "SHA256SUMS": "1744fe6ba261e2cd6bb86dc9e306b2f4304b4108d547ff82d9a093ed61f35041",
+    "build.log": "9690dc39721093aae1f6ba556e705928e8069083778f3830f7dae4dce7305594"
+  },
+  "pending_at_build": [
+    "installed wheel relay round-trip + failure/reconnection",
+    "installed sdist relay round-trip + failure/reconnection"
+  ]
+}

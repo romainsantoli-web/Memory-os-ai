@@ -1,0 +1,568 @@
+{"turn_id": "D1:1", "facts": [], "keywords": ["greeting"], "entities": ["Calvin", "Dave"]}
+{"turn_id": "D1:2", "facts": ["On 2023-03-23, Dave said he recently attended a car event where many classic cars were on display and he spoke with some of the owners about their cars, finding it inspiring."], "keywords": ["car event", "classic cars", "inspiration"], "entities": ["Dave"]}
+{"turn_id": "D1:3", "facts": ["On 2023-03-23, Calvin said he had a big life change and shared a photo of his new mansion."], "keywords": ["mansion", "life change", "real estate"], "entities": ["Calvin"]}
+{"turn_id": "D1:4", "facts": [], "keywords": ["question"], "entities": ["Dave", "Calvin"]}
+{"turn_id": "D1:5", "facts": ["Calvin said he is excited to learn about Japanese culture as part of a chance to expand."], "keywords": ["japan", "culture", "excitement"], "entities": ["Calvin", "Japan"]}
+{"turn_id": "D1:6", "facts": ["Dave said learning about new cultures is awesome and asked Calvin if he had ever been to Japan."], "keywords": ["japan", "culture"], "entities": ["Dave", "Japan"]}
+{"turn_id": "D1:7", "facts": ["Calvin said he has never been to Japan before but is fascinated by its traditions and excited to experience the culture."], "keywords": ["japan", "travel", "tradition"], "entities": ["Calvin", "Japan"]}
+{"turn_id": "D1:8", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D1:9", "facts": ["On 2023-03-23, Calvin said he is heading to Japan next month (around April 2023) and will be staying in a nice place, sharing a photo of its living room with a couch, table, and television."], "keywords": ["japan", "travel", "accommodation"], "entities": ["Calvin", "Japan"]}
+{"turn_id": "D1:10", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D1:11", "facts": ["Calvin said his agent found him the place he will be staying at in Japan, and he is thankful for it."], "keywords": ["agent", "accommodation", "gratitude"], "entities": ["Calvin"]}
+{"turn_id": "D1:12", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D1:13", "facts": ["Calvin said his plans for the Japan trip include exploring the city, trying different local cuisines, and possibly collaborating with musicians in the area."], "keywords": ["travel plans", "food", "music collaboration", "japan"], "entities": ["Calvin", "Japan"]}
+{"turn_id": "D1:14", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D1:15", "facts": ["Calvin said he will be in Japan for a few months and then travel to Boston afterward."], "keywords": ["japan", "boston", "travel plans"], "entities": ["Calvin", "Japan", "Boston"]}
+{"turn_id": "D1:16", "facts": ["On 2023-03-23, Dave said he has been spending a lot of time lately at a beautiful, calming park with a lake, sharing a photo of the park with boats on the water."], "keywords": ["park", "relaxation", "nature", "lake"], "entities": ["Dave"]}
+{"turn_id": "D1:17", "facts": ["Calvin said he has never been to the park Dave mentioned but plans to check it out when he returns from Japan."], "keywords": ["park", "plans", "travel"], "entities": ["Calvin"]}
+{"turn_id": "D1:18", "facts": [], "keywords": ["farewell"], "entities": ["Dave"]}
+{"turn_id": "D1:19", "facts": [], "keywords": ["farewell"], "entities": ["Calvin", "Dave"]}
+{"turn_id": "D2:1", "facts": ["On 2023-03-26, Calvin said he got a new luxury car, calling it a dream come true."], "keywords": ["car", "luxury", "purchase", "excitement"], "entities": ["Calvin"]}
+{"turn_id": "D2:2", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D2:3", "facts": ["Calvin said his new car is smooth and powerful, describing driving it as feeling like a rockstar."], "keywords": ["car", "driving experience"], "entities": ["Calvin"]}
+{"turn_id": "D2:4", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D2:5", "facts": ["On 2023-03-26, Calvin shared a photo of his new red sports car, saying he feels it is what he deserves after all his hard work."], "keywords": ["car", "red sports car", "reward", "hard work"], "entities": ["Calvin"]}
+{"turn_id": "D2:6", "facts": [], "keywords": ["encouragement"], "entities": ["Dave"]}
+{"turn_id": "D2:7", "facts": ["Calvin said he feels on cloud nine because his hard work paid off with the new car."], "keywords": ["car", "feelings", "hard work"], "entities": ["Calvin"]}
+{"turn_id": "D2:8", "facts": ["On 2023-03-26, Dave said he went to a music festival in Boston the previous weekend (around 2023-03-18) and shared a photo of the large crowd, saying it reminded him why he loves music."], "keywords": ["music festival", "boston", "concert", "crowd"], "entities": ["Dave", "Boston"]}
+{"turn_id": "D2:9", "facts": [], "keywords": ["question"], "entities": ["Calvin"]}
+{"turn_id": "D2:10", "facts": ["Dave said his favorite band at the Boston music festival was Aerosmith, calling their performance incredible, and shared a photo from their set."], "keywords": ["aerosmith", "music festival", "favorite band"], "entities": ["Dave", "Aerosmith", "Boston"]}
+{"turn_id": "D2:11", "facts": ["Calvin said he loves Aerosmith."], "keywords": ["aerosmith", "music"], "entities": ["Calvin", "Aerosmith"]}
+{"turn_id": "D2:12", "facts": ["Dave said he finally saw Aerosmith live for the first time and it was an amazing experience, sharing a photo of the band performing on stage."], "keywords": ["aerosmith", "concert", "live music"], "entities": ["Dave", "Aerosmith"]}
+{"turn_id": "D2:13", "facts": [], "keywords": ["question"], "entities": ["Calvin"]}
+{"turn_id": "D2:14", "facts": ["Dave said he did not get to meet Aerosmith after the show, but seeing them perform live was still a dream come true."], "keywords": ["aerosmith", "concert", "meet and greet"], "entities": ["Dave", "Aerosmith"]}
+{"turn_id": "D2:15", "facts": [], "keywords": ["agreement"], "entities": ["Calvin"]}
+{"turn_id": "D2:16", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D2:17", "facts": ["On 2023-03-26, Calvin said he wrote new songs and had studio sessions the previous week (around 2023-03-19), and is excited to collaborate and share the music."], "keywords": ["songwriting", "studio session", "music", "collaboration"], "entities": ["Calvin"]}
+{"turn_id": "D2:18", "facts": [], "keywords": ["encouragement"], "entities": ["Dave"]}
+{"turn_id": "D2:19", "facts": [], "keywords": ["farewell"], "entities": ["Calvin"]}
+{"turn_id": "D2:20", "facts": [], "keywords": ["farewell"], "entities": ["Dave"]}
+{"turn_id": "D2:21", "facts": [], "keywords": ["farewell"], "entities": ["Calvin"]}
+{"turn_id": "D3:1", "facts": ["On 2023-04-20, Calvin said he recently went to a music event in Tokyo, Japan, which he found awesome."], "keywords": ["tokyo", "music event", "japan"], "entities": ["Calvin", "Tokyo", "Japan"]}
+{"turn_id": "D3:2", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D3:3", "facts": ["Calvin said the Tokyo music festival did not feature performing bands but he met many talented artists and music industry professionals there, calling it enriching."], "keywords": ["tokyo", "festival", "networking", "music industry"], "entities": ["Calvin", "Tokyo"]}
+{"turn_id": "D3:4", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D3:5", "facts": ["Calvin said he received valuable advice from music industry professionals at the Tokyo festival, which he found inspiring."], "keywords": ["advice", "music industry", "inspiration"], "entities": ["Calvin"]}
+{"turn_id": "D3:6", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D3:7", "facts": ["Calvin said a producer at the Tokyo festival advised him to stay true to himself and develop a unique sound, which motivated him to think about the direction of his music."], "keywords": ["producer", "advice", "unique sound", "music career"], "entities": ["Calvin"]}
+{"turn_id": "D3:8", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D3:9", "facts": ["Calvin said he dreams of touring the world, performing for different people, and having his music reach a global audience and make an impact.", "On 2023-04-20, Calvin said he has an upcoming trip to Boston after finishing the Frank Ocean tour, and is excited to check out Boston's music scene."], "keywords": ["touring", "world tour", "boston", "frank ocean", "music career"], "entities": ["Calvin", "Boston", "Frank Ocean"]}
+{"turn_id": "D3:10", "facts": ["On 2023-04-20, Dave said he will show Calvin around Boston's music scene, including venues like Paradise Rock, House of Blues, and Fenway Park, when Calvin visits, and shared a photo of the Boston skyline."], "keywords": ["boston", "music venues", "paradise rock", "house of blues", "fenway park"], "entities": ["Dave", "Boston", "Paradise Rock", "House of Blues", "Fenway Park"]}
+{"turn_id": "D3:11", "facts": [], "keywords": ["thanks"], "entities": ["Calvin"]}
+{"turn_id": "D3:12", "facts": ["On 2023-04-20, Dave said he went to a car show the previous weekend (around 2023-04-15) and shared a photo of a green Ford Mustang, saying his love for restoring classic cars is why he got into auto engineering."], "keywords": ["car show", "classic cars", "mustang", "auto engineering"], "entities": ["Dave", "Ford Mustang"]}
+{"turn_id": "D3:13", "facts": ["Calvin shared a photo of his red sports car on display at a show, saying he put a lot of work into it."], "keywords": ["car", "red sports car", "car show"], "entities": ["Calvin"]}
+{"turn_id": "D3:14", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D3:15", "facts": ["Calvin said he has been busy with rehearsals and traveling but is looking forward to exploring Boston, trying food, and visiting attractions, and suggested grabbing a meal with Dave there."], "keywords": ["boston", "rehearsals", "food", "plans"], "entities": ["Calvin", "Boston"]}
+{"turn_id": "D3:16", "facts": ["Dave agreed to grab food with Calvin and show him his favorite spots in Boston."], "keywords": ["boston", "food", "plans"], "entities": ["Dave", "Boston"]}
+{"turn_id": "D3:17", "facts": [], "keywords": ["agreement"], "entities": ["Calvin"]}
+{"turn_id": "D3:18", "facts": [], "keywords": ["farewell"], "entities": ["Dave"]}
+{"turn_id": "D4:1", "facts": ["On 2023-05-01, Dave said he opened his own car maintenance shop, calling it a dream come true, and shared a photo of the shop."], "keywords": ["car shop", "business", "dream", "entrepreneurship"], "entities": ["Dave"]}
+{"turn_id": "D4:2", "facts": [], "keywords": ["congratulations"], "entities": ["Calvin"]}
+{"turn_id": "D4:3", "facts": ["Dave said opening his own car maintenance shop was his dream and he is happy to see his hard work pay off."], "keywords": ["car shop", "dream", "hard work"], "entities": ["Dave"]}
+{"turn_id": "D4:4", "facts": [], "keywords": ["congratulations"], "entities": ["Calvin"]}
+{"turn_id": "D4:5", "facts": ["Dave said opening his shop is a step toward his other dream of working on classic cars, since he loves their design and engineering."], "keywords": ["classic cars", "career goals", "engineering"], "entities": ["Dave"]}
+{"turn_id": "D4:6", "facts": [], "keywords": ["encouragement"], "entities": ["Calvin"]}
+{"turn_id": "D4:7", "facts": ["On 2023-05-01, Dave said he restored a classic car the previous year (2022) and shared a photo of its engine, saying he loves bringing old cars back to life."], "keywords": ["classic car", "restoration", "engine"], "entities": ["Dave"]}
+{"turn_id": "D4:8", "facts": [], "keywords": ["reaction"], "entities": ["Calvin"]}
+{"turn_id": "D4:9", "facts": ["Dave said restoring the classic car was a labor of love that was challenging but worth it."], "keywords": ["restoration", "hard work"], "entities": ["Dave"]}
+{"turn_id": "D4:10", "facts": [], "keywords": ["agreement"], "entities": ["Calvin"]}
+{"turn_id": "D4:11", "facts": [], "keywords": ["agreement"], "entities": ["Dave"]}
+{"turn_id": "D4:12", "facts": [], "keywords": ["agreement"], "entities": ["Calvin"]}
+{"turn_id": "D4:13", "facts": [], "keywords": ["agreement"], "entities": ["Dave"]}
+{"turn_id": "D4:14", "facts": [], "keywords": ["agreement"], "entities": ["Calvin"]}
+{"turn_id": "D4:15", "facts": [], "keywords": ["agreement"], "entities": ["Dave"]}
+{"turn_id": "D4:16", "facts": [], "keywords": ["encouragement"], "entities": ["Calvin"]}
+{"turn_id": "D4:17", "facts": ["Dave shared a photo of his car shop with a group of people and invited Calvin to visit sometime."], "keywords": ["car shop", "invitation", "group photo"], "entities": ["Dave"]}
+{"turn_id": "D4:18", "facts": [], "keywords": ["question"], "entities": ["Calvin"]}
+{"turn_id": "D4:19", "facts": ["Dave said his shop handles all kinds of cars, from regular maintenance to full restorations of classic cars."], "keywords": ["car shop", "maintenance", "restoration"], "entities": ["Dave"]}
+{"turn_id": "D4:20", "facts": [], "keywords": ["reaction"], "entities": ["Calvin"]}
+{"turn_id": "D4:21", "facts": ["Dave said he finds it rewarding to work on cars every day, seeing the transformation and helping people keep their cars in good condition."], "keywords": ["passion", "career satisfaction", "cars"], "entities": ["Dave"]}
+{"turn_id": "D4:22", "facts": [], "keywords": ["encouragement"], "entities": ["Calvin"]}
+{"turn_id": "D4:23", "facts": [], "keywords": ["thanks"], "entities": ["Dave"]}
+{"turn_id": "D4:24", "facts": ["On 2023-05-01, Calvin shared a photo of a gold necklace with a diamond pendant, calling it stunning."], "keywords": ["necklace", "jewelry", "diamond"], "entities": ["Calvin"]}
+{"turn_id": "D4:25", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D4:26", "facts": ["Calvin said he received the gold necklace with a diamond pendant as a gift from another artist, and it reminds him why he keeps hustling as a musician."], "keywords": ["necklace", "gift", "musician", "motivation"], "entities": ["Calvin"]}
+{"turn_id": "D4:27", "facts": [], "keywords": ["encouragement"], "entities": ["Dave"]}
+{"turn_id": "D4:28", "facts": ["Calvin said the road as a musician can be hard, but remembering why they're doing it keeps them going, and he wants to keep motivating each other with Dave."], "keywords": ["motivation", "musician", "hardship"], "entities": ["Calvin", "Dave"]}
+{"turn_id": "D5:1", "facts": ["On 2023-05-03, Dave said he is teaming up with a local garage and shared a photo of a car they are working on together."], "keywords": ["garage", "car repair", "partnership"], "entities": ["Dave"]}
+{"turn_id": "D5:2", "facts": [], "keywords": ["congratulations"], "entities": ["Calvin"]}
+{"turn_id": "D5:3", "facts": ["Dave said he loves his new job because he gets to work with skilled mechanics and share his knowledge about cars, and is currently working on a challenging but cool project."], "keywords": ["mechanics", "car project", "job satisfaction"], "entities": ["Dave"]}
+{"turn_id": "D5:4", "facts": [], "keywords": ["encouragement"], "entities": ["Calvin"]}
+{"turn_id": "D5:5", "facts": ["Dave said his dream is to build a custom car from scratch someday, and for now he is focused on his current project and assisting customers."], "keywords": ["custom car", "dream", "auto engineering"], "entities": ["Dave"]}
+{"turn_id": "D5:6", "facts": [], "keywords": ["encouragement"], "entities": ["Calvin"]}
+{"turn_id": "D5:7", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D5:8", "facts": ["Calvin said long drives in his car help him relax, feeling the wind and open road helps clear his head."], "keywords": ["driving", "relaxation", "hobby"], "entities": ["Calvin"]}
+{"turn_id": "D5:9", "facts": ["Dave said driving with the wind in his hair is calming, and taking walks to explore sights and sounds is also a great way for him to destress."], "keywords": ["driving", "walking", "relaxation"], "entities": ["Dave"]}
+{"turn_id": "D5:10", "facts": ["On 2023-05-03, Calvin said embracing nature and getting to know Japanese culture has been calming for him, but he is currently feeling creatively stuck with his music and asked Dave for tips."], "keywords": ["creative block", "japan", "music", "nature"], "entities": ["Calvin", "Japan"]}
+{"turn_id": "D5:11", "facts": ["Dave said that when he struggles for ideas he immerses himself in things he loves like concerts or his favorite albums, and suggested Calvin take a break from music and explore other things."], "keywords": ["inspiration", "concerts", "creative block advice"], "entities": ["Dave"]}
+{"turn_id": "D5:12", "facts": ["Calvin said he will take Dave's advice to take a break from music to get his creative mojo back."], "keywords": ["creative block", "advice", "music"], "entities": ["Calvin"]}
+{"turn_id": "D5:13", "facts": [], "keywords": ["encouragement"], "entities": ["Dave"]}
+{"turn_id": "D5:14", "facts": [], "keywords": ["farewell"], "entities": ["Calvin"]}
+{"turn_id": "D5:15", "facts": [], "keywords": ["farewell"], "entities": ["Dave"]}
+{"turn_id": "D6:1", "facts": [], "keywords": ["greeting"], "entities": ["Calvin", "Dave"]}
+{"turn_id": "D6:2", "facts": [], "keywords": ["greeting"], "entities": ["Dave"]}
+{"turn_id": "D6:3", "facts": ["On 2023-05-16, Calvin said his place got flooded the previous week (around 2023-05-09), but he managed to save his music gear and favorite microphone."], "keywords": ["flood", "music gear", "microphone", "incident"], "entities": ["Calvin"]}
+{"turn_id": "D6:4", "facts": [], "keywords": ["sympathy"], "entities": ["Dave"]}
+{"turn_id": "D6:5", "facts": ["Calvin said he is waiting on insurance to start repairs after his place flooded, and shared a photo of his music studio with a keyboard and synthesizer, calling it his creative haven."], "keywords": ["insurance", "flood repair", "music studio", "keyboard", "synthesizer"], "entities": ["Calvin"]}
+{"turn_id": "D6:6", "facts": [], "keywords": ["encouragement"], "entities": ["Dave"]}
+{"turn_id": "D6:7", "facts": [], "keywords": ["question"], "entities": ["Calvin"]}
+{"turn_id": "D6:8", "facts": ["On 2023-05-16, Dave said he opened his car shop the previous week (around 2023-05-09) and invited friends over to celebrate, calling the experience amazing."], "keywords": ["car shop", "opening", "celebration"], "entities": ["Dave"]}
+{"turn_id": "D6:9", "facts": [], "keywords": ["congratulations"], "entities": ["Calvin"]}
+{"turn_id": "D6:10", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D6:11", "facts": ["On 2023-05-16, Calvin said he is excited for his upcoming performance in Tokyo this month (May 2023), hoping to expand his following with a new crowd."], "keywords": ["tokyo", "performance", "music career"], "entities": ["Calvin", "Tokyo"]}
+{"turn_id": "D6:12", "facts": [], "keywords": ["encouragement"], "entities": ["Dave"]}
+{"turn_id": "D6:13", "facts": ["Calvin shared a photo of the Tokyo city skyline at night, calling it a wonderful night."], "keywords": ["tokyo", "night skyline", "photo"], "entities": ["Calvin", "Tokyo"]}
+{"turn_id": "D6:14", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D6:15", "facts": ["Calvin said he took the night skyline photo in Tokyo the previous night (around 2023-05-15), calling the skyline stunning."], "keywords": ["tokyo", "skyline", "photo"], "entities": ["Calvin", "Tokyo"]}
+{"turn_id": "D6:16", "facts": ["Dave said he wants to take a trip to Tokyo soon after seeing Calvin's night skyline photo."], "keywords": ["tokyo", "travel plans"], "entities": ["Dave", "Tokyo"]}
+{"turn_id": "D6:17", "facts": [], "keywords": ["encouragement"], "entities": ["Calvin"]}
+{"turn_id": "D6:18", "facts": [], "keywords": ["agreement"], "entities": ["Dave"]}
+{"turn_id": "D7:1", "facts": ["On 2023-05-31, Calvin said touring with Frank Ocean the previous week (around 2023-05-24) included a wild, unreal show in Tokyo with an insane crowd, and he felt very alive performing."], "keywords": ["frank ocean tour", "tokyo", "performance", "crowd"], "entities": ["Calvin", "Frank Ocean", "Tokyo"]}
+{"turn_id": "D7:2", "facts": ["On 2023-05-31, Dave said he recently fixed his neighbor's car engine by himself, sharing a photo of the work."], "keywords": ["car repair", "neighbor", "engine"], "entities": ["Dave"]}
+{"turn_id": "D7:3", "facts": ["Calvin said working on cars helps him chill and clear his head."], "keywords": ["cars", "relaxation"], "entities": ["Calvin"]}
+{"turn_id": "D7:4", "facts": ["Dave said helping neighbors with their cars comes easily to him and that working on cars is therapeutic for him."], "keywords": ["car repair", "therapy", "neighbors"], "entities": ["Dave"]}
+{"turn_id": "D7:5", "facts": ["Calvin said fixing cars calms him down and gives him a sense of achievement, like meditating."], "keywords": ["cars", "meditation", "achievement"], "entities": ["Calvin"]}
+{"turn_id": "D7:6", "facts": ["Dave said he is passionate about fixing things because it gives him a sense of achievement and purpose, comparing it to giving something a second chance."], "keywords": ["passion", "purpose", "fixing things"], "entities": ["Dave"]}
+{"turn_id": "D7:7", "facts": [], "keywords": ["reflection"], "entities": ["Calvin"]}
+{"turn_id": "D7:8", "facts": ["Dave said giving old things a new life makes him feel powerful and happy, like he achieved something."], "keywords": ["restoration", "achievement", "happiness"], "entities": ["Dave"]}
+{"turn_id": "D7:9", "facts": [], "keywords": ["agreement"], "entities": ["Calvin"]}
+{"turn_id": "D7:10", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D7:11", "facts": ["Calvin said performing live always fuels his soul, and he loves the rush and connection with the crowd."], "keywords": ["live performance", "music", "connection with audience"], "entities": ["Calvin"]}
+{"turn_id": "D7:12", "facts": ["Dave shared a photo of a large concert crowd taking pictures, commenting on the powerful connection between artist and audience."], "keywords": ["concert", "crowd", "photo"], "entities": ["Dave"]}
+{"turn_id": "D7:13", "facts": ["Calvin shared a photo of a concert crowd with bright lights, describing the feeling of unity as one big harmony."], "keywords": ["concert", "crowd", "photo"], "entities": ["Calvin"]}
+{"turn_id": "D7:14", "facts": [], "keywords": ["reflection"], "entities": ["Dave"]}
+{"turn_id": "D7:15", "facts": ["On 2023-05-31, Calvin said he is looking forward to continuing the Frank Ocean tour and performing in Boston, since it will mean playing for people from home."], "keywords": ["frank ocean tour", "boston", "performance"], "entities": ["Calvin", "Frank Ocean", "Boston"]}
+{"turn_id": "D7:16", "facts": ["Dave said Boston's music scene is awesome with lots of talented musicians and cool venues, and he will be there to cheer Calvin on when he performs."], "keywords": ["boston", "music scene", "support"], "entities": ["Dave", "Boston"]}
+{"turn_id": "D7:17", "facts": [], "keywords": ["thanks"], "entities": ["Calvin"]}
+{"turn_id": "D7:18", "facts": [], "keywords": ["farewell"], "entities": ["Dave"]}
+{"turn_id": "D7:19", "facts": [], "keywords": ["farewell"], "entities": ["Calvin"]}
+{"turn_id": "D8:1", "facts": ["On 2023-06-09, Calvin said he met with the creative team for his album the day before (2023-06-08), calling the long session awesome as things came together."], "keywords": ["album", "creative team", "recording session"], "entities": ["Calvin"]}
+{"turn_id": "D8:2", "facts": ["Dave shared a photo of a pond with a boat surrounded by trees."], "keywords": ["pond", "nature", "photo"], "entities": ["Dave"]}
+{"turn_id": "D8:3", "facts": ["Calvin said he feels stoked about his album and shared a photo of the recording studio where he's been making music with his team."], "keywords": ["album", "recording studio", "excitement"], "entities": ["Calvin"]}
+{"turn_id": "D8:4", "facts": ["On 2023-06-09, Dave said he has been exploring parks on weekends to relax, finding it peaceful to be surrounded by nature."], "keywords": ["parks", "relaxation", "nature", "weekends"], "entities": ["Dave"]}
+{"turn_id": "D8:5", "facts": ["Calvin said he has never been to Boston before but has heard the parks are amazing, and he can't wait to visit next month (around July 2023), sharing a photo of a tree with pink flowers."], "keywords": ["boston", "parks", "travel plans"], "entities": ["Calvin", "Boston"]}
+{"turn_id": "D8:6", "facts": ["On 2023-06-09, Dave said he went for a stroll in a Boston park the previous Friday (2023-06-02) and found it serene and magical, and said walks on weekends recharge him for the week."], "keywords": ["boston", "parks", "walking", "relaxation"], "entities": ["Dave", "Boston"]}
+{"turn_id": "D8:7", "facts": ["Calvin shared a photo of a path going up a hill with mountain views and said he's excited to experience the serenity of Boston's parks."], "keywords": ["hiking", "mountains", "boston", "photo"], "entities": ["Calvin", "Boston"]}
+{"turn_id": "D8:8", "facts": ["Dave said he hasn't gone hiking recently but finds being in nature and pushing himself to new heights clears his mind and brings calm."], "keywords": ["hiking", "nature", "calm"], "entities": ["Dave"]}
+{"turn_id": "D8:9", "facts": ["Calvin said he has never been to the mountains but is keen to go as a way to de-stress, sharing a photo of a plane flying over a snowy mountain range."], "keywords": ["mountains", "de-stress", "travel plans"], "entities": ["Calvin"]}
+{"turn_id": "D8:10", "facts": ["On 2023-06-09, Dave said he booked a trip to a mountainous region for next month (around July 2023) to see the peaks."], "keywords": ["mountains", "travel plans", "trip"], "entities": ["Dave"]}
+{"turn_id": "D8:11", "facts": [], "keywords": ["encouragement"], "entities": ["Calvin"]}
+{"turn_id": "D8:12", "facts": [], "keywords": ["agreement"], "entities": ["Dave"]}
+{"turn_id": "D8:13", "facts": [], "keywords": ["farewell"], "entities": ["Calvin"]}
+{"turn_id": "D8:14", "facts": [], "keywords": ["farewell"], "entities": ["Dave"]}
+{"turn_id": "D9:1", "facts": ["On 2023-06-21, Calvin said he had a small car accident the previous Friday (2023-06-16), and although no one was hurt, he has been dealing with insurance and repairs, sharing a photo of his damaged red car."], "keywords": ["car accident", "insurance", "repairs"], "entities": ["Calvin"]}
+{"turn_id": "D9:2", "facts": [], "keywords": ["sympathy", "question"], "entities": ["Dave"]}
+{"turn_id": "D9:3", "facts": ["Calvin said the insurance process after his car accident was a hassle with a lot of paperwork but is now sorted, and shared a photo of a tow truck."], "keywords": ["insurance", "car accident", "paperwork"], "entities": ["Calvin"]}
+{"turn_id": "D9:4", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D9:5", "facts": ["Calvin said it took only a week to sort out the insurance for his car accident and the cost wasn't too bad, sharing a photo from the auto repair shop."], "keywords": ["insurance", "car accident", "auto repair shop"], "entities": ["Calvin"]}
+{"turn_id": "D9:6", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D9:7", "facts": ["Calvin said the mechanic fixing his car after the accident is knowledgeable and doing his best to get the car running again."], "keywords": ["mechanic", "car repair"], "entities": ["Calvin"]}
+{"turn_id": "D9:8", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D9:9", "facts": ["Calvin said he feels more confident and excited to show off his car after trusting the mechanic's expertise."], "keywords": ["car repair", "confidence"], "entities": ["Calvin"]}
+{"turn_id": "D9:10", "facts": [], "keywords": ["encouragement"], "entities": ["Dave"]}
+{"turn_id": "D9:11", "facts": ["Calvin shared a photo of a view from his living room of a small town with a mountain in the background."], "keywords": ["view", "living room", "photo"], "entities": ["Calvin"]}
+{"turn_id": "D9:12", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D9:13", "facts": ["Calvin said the stunning mountain view photo is from a small town in Japan."], "keywords": ["japan", "mountain view", "small town"], "entities": ["Calvin", "Japan"]}
+{"turn_id": "D9:14", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D9:15", "facts": ["On 2023-06-21, Calvin said he hasn't yet visited the small town in Japan with the mountain view, but it's on his to-do list for after his tour with Frank Ocean ends, sharing a photo of a person skiing on a snowy mountain."], "keywords": ["japan", "travel plans", "frank ocean tour", "skiing"], "entities": ["Calvin", "Japan", "Frank Ocean"]}
+{"turn_id": "D9:16", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D9:17", "facts": ["Calvin said he has never tried skiing before but thinks it looks like a lot of fun and might try it sometime."], "keywords": ["skiing", "new experience"], "entities": ["Calvin"]}
+{"turn_id": "D9:18", "facts": ["On 2023-06-21, Dave said he recently joined a rock band and has been practicing guitar, sharing a photo of the band members playing instruments."], "keywords": ["rock band", "guitar", "music"], "entities": ["Dave"]}
+{"turn_id": "D9:19", "facts": [], "keywords": ["encouragement"], "entities": ["Calvin"]}
+{"turn_id": "D9:20", "facts": [], "keywords": ["farewell"], "entities": ["Dave"]}
+{"turn_id": "D9:21", "facts": [], "keywords": ["farewell"], "entities": ["Calvin"]}
+{"turn_id": "D10:1", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D10:2", "facts": ["On 2023-07-07, Calvin said his car has been fixed after the accident and is going strong again, sharing a photo of his red sports car."], "keywords": ["car repair", "fixed", "photo"], "entities": ["Calvin"]}
+{"turn_id": "D10:3", "facts": ["Dave said he arranged with friends to have regular walks together in the park."], "keywords": ["park", "friends", "walking"], "entities": ["Dave"]}
+{"turn_id": "D10:4", "facts": [], "keywords": ["question"], "entities": ["Calvin"]}
+{"turn_id": "D10:5", "facts": ["Dave shared a photo of a city skyline with a river and boats, the spot he and friends were heading to for their walk."], "keywords": ["city skyline", "river", "photo"], "entities": ["Dave"]}
+{"turn_id": "D10:6", "facts": ["On 2023-07-07, Calvin said the river view reminds him of living in his Japanese mansion with an epic cityscape, sharing a photo of a boat docked in a canal at sunset taken from his mansion's backyard."], "keywords": ["japan", "mansion", "sunset", "photo"], "entities": ["Calvin", "Japan"]}
+{"turn_id": "D10:7", "facts": [], "keywords": ["reflection"], "entities": ["Dave"]}
+{"turn_id": "D10:8", "facts": ["Calvin shared a photo of the front of his Japanese mansion, saying the city lights visible from the windows are awe-inspiring."], "keywords": ["mansion", "japan", "city lights", "photo"], "entities": ["Calvin", "Japan"]}
+{"turn_id": "D10:9", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D10:10", "facts": [], "keywords": ["question"], "entities": ["Calvin"]}
+{"turn_id": "D10:11", "facts": ["Dave said he has never been to Japan but is keen to go one day, having heard it has great vibes, food, and technology, and said he's hooked on Japanese music."], "keywords": ["japan", "travel plans", "music"], "entities": ["Dave", "Japan"]}
+{"turn_id": "D10:12", "facts": ["On 2023-07-07, Calvin said he has been working on music collaborations with Japanese artists and is excited to hear how it turns out."], "keywords": ["japan", "music collaboration", "artists"], "entities": ["Calvin", "Japan"]}
+{"turn_id": "D10:13", "facts": [], "keywords": ["encouragement"], "entities": ["Dave"]}
+{"turn_id": "D10:14", "facts": ["Calvin said he will share clips of his collaborations with Japanese artists once everything is ready."], "keywords": ["music collaboration", "japan"], "entities": ["Calvin"]}
+{"turn_id": "D10:15", "facts": [], "keywords": ["encouragement"], "entities": ["Dave"]}
+{"turn_id": "D10:16", "facts": [], "keywords": ["farewell"], "entities": ["Calvin"]}
+{"turn_id": "D10:17", "facts": [], "keywords": ["farewell"], "entities": ["Dave"]}
+{"turn_id": "D11:1", "facts": ["On 2023-07-21, Dave said he just got back from a road trip with friends through stunning countryside, calling it a lovely, recharging break from corporate work that reminded him why he loves cars."], "keywords": ["road trip", "countryside", "cars", "friends"], "entities": ["Dave"]}
+{"turn_id": "D11:2", "facts": [], "keywords": ["reflection"], "entities": ["Calvin"]}
+{"turn_id": "D11:3", "facts": ["Dave shared a photo of a person riding a motorcycle down a dirt road from his road trip, saying the trip reminded him why he's passionate about his work."], "keywords": ["road trip", "motorcycle", "photo"], "entities": ["Dave"]}
+{"turn_id": "D11:4", "facts": ["On 2023-07-21, Calvin said he is working on a project to transform his Japanese mansion into a recording studio, calling it his dream sanctuary for creating music with other artists, and shared a progress photo."], "keywords": ["japan", "mansion", "recording studio", "project"], "entities": ["Calvin", "Japan"]}
+{"turn_id": "D11:5", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D11:6", "facts": ["Calvin said he has been experimenting with different music genres lately, including adding electronic elements to his songs, calling it an exciting process of self-discovery and growth."], "keywords": ["music genres", "electronic music", "self-discovery"], "entities": ["Calvin"]}
+{"turn_id": "D11:7", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D11:8", "facts": ["Calvin said switching between musical styles can be tough but finding the balance between his own sound and new styles keeps him motivated."], "keywords": ["music genres", "balance", "motivation"], "entities": ["Calvin"]}
+{"turn_id": "D11:9", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D11:10", "facts": ["Calvin said he started making music to follow his dreams, and stays motivated by collaborating with others, learning from them, and surrounding himself with positive energy."], "keywords": ["motivation", "music career", "collaboration"], "entities": ["Calvin"]}
+{"turn_id": "D11:11", "facts": [], "keywords": ["encouragement"], "entities": ["Dave"]}
+{"turn_id": "D11:12", "facts": [], "keywords": ["farewell"], "entities": ["Calvin"]}
+{"turn_id": "D11:13", "facts": [], "keywords": ["encouragement"], "entities": ["Dave"]}
+{"turn_id": "D11:14", "facts": [], "keywords": ["farewell"], "entities": ["Calvin"]}
+{"turn_id": "D12:1", "facts": ["On 2023-08-03, Calvin said he took his Ferrari for a service and found the experience stressful because he is attached to the car."], "keywords": ["ferrari", "car service", "attachment"], "entities": ["Calvin", "Ferrari"]}
+{"turn_id": "D12:2", "facts": ["Dave said fixing cars is like therapy for him since he grew up working on cars with his dad, and refurbishing them gives him a sense of fulfillment."], "keywords": ["cars", "therapy", "father", "fulfillment"], "entities": ["Dave"]}
+{"turn_id": "D12:3", "facts": [], "keywords": ["question"], "entities": ["Calvin"]}
+{"turn_id": "D12:4", "facts": ["Dave said he has fond memories of working on cars with his dad as a kid, including spending one summer restoring an old car together, which was hard work but satisfying."], "keywords": ["father", "car restoration", "childhood memories"], "entities": ["Dave"]}
+{"turn_id": "D12:5", "facts": [], "keywords": ["question"], "entities": ["Calvin"]}
+{"turn_id": "D12:6", "facts": ["Dave shared a photo of himself as a child posing with his dad, calling it a wonderful memory."], "keywords": ["father", "childhood", "photo"], "entities": ["Dave"]}
+{"turn_id": "D12:7", "facts": ["Calvin said his trip to the Ferrari dealership showed him many amazing cars, but he considers his own car the best, sharing a photo of his red car lifted on a garage lift, saying it reminds him of his hard work and dedication."], "keywords": ["ferrari", "dealership", "car", "pride"], "entities": ["Calvin", "Ferrari"]}
+{"turn_id": "D12:8", "facts": [], "keywords": ["encouragement"], "entities": ["Dave"]}
+{"turn_id": "D12:9", "facts": [], "keywords": ["reflection"], "entities": ["Calvin"]}
+{"turn_id": "D12:10", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D12:11", "facts": ["On 2023-08-03, Calvin said his current goal is to expand his music brand worldwide, grow his fanbase, and work with artists from around the globe, sharing a photo of a performance with his band the previous night (2023-08-02)."], "keywords": ["music career", "goals", "band performance"], "entities": ["Calvin"]}
+{"turn_id": "D12:12", "facts": [], "keywords": ["encouragement"], "entities": ["Dave"]}
+{"turn_id": "D12:13", "facts": [], "keywords": ["determination"], "entities": ["Calvin"]}
+{"turn_id": "D12:14", "facts": [], "keywords": ["encouragement"], "entities": ["Dave"]}
+{"turn_id": "D12:15", "facts": [], "keywords": ["thanks"], "entities": ["Calvin"]}
+{"turn_id": "D12:16", "facts": [], "keywords": ["encouragement"], "entities": ["Dave"]}
+{"turn_id": "D12:17", "facts": [], "keywords": ["determination"], "entities": ["Calvin"]}
+{"turn_id": "D13:1", "facts": ["On 2023-08-11, Dave said he got picked for a car mod workshop to improve his skills, sharing a photo of himself with a car on a lift."], "keywords": ["car mod workshop", "skills"], "entities": ["Dave"]}
+{"turn_id": "D13:2", "facts": [], "keywords": ["question"], "entities": ["Calvin"]}
+{"turn_id": "D13:3", "facts": ["Dave said being picked for the car mod workshop is a dream come true since he has always wanted to learn auto engineering and build a custom car."], "keywords": ["car mod workshop", "auto engineering", "custom car", "dream"], "entities": ["Dave"]}
+{"turn_id": "D13:4", "facts": [], "keywords": ["question"], "entities": ["Calvin"]}
+{"turn_id": "D13:5", "facts": ["Dave shared a photo from the car mod workshop, saying the most thrilling part is seeing the potential come to life."], "keywords": ["car mod workshop", "photo"], "entities": ["Dave"]}
+{"turn_id": "D13:6", "facts": [], "keywords": ["question"], "entities": ["Calvin"]}
+{"turn_id": "D13:7", "facts": ["Dave said he has been doing engine swaps and suspension modifications on a classic muscle car and is now learning body modifications, giving it a modern twist, sharing a photo of a silver Corvette."], "keywords": ["engine swap", "suspension modification", "muscle car", "corvette"], "entities": ["Dave", "Corvette"]}
+{"turn_id": "D13:8", "facts": [], "keywords": ["reaction"], "entities": ["Calvin"]}
+{"turn_id": "D13:9", "facts": [], "keywords": ["reflection"], "entities": ["Dave"]}
+{"turn_id": "D13:10", "facts": [], "keywords": ["reaction"], "entities": ["Calvin"]}
+{"turn_id": "D13:11", "facts": [], "keywords": ["reflection"], "entities": ["Dave"]}
+{"turn_id": "D13:12", "facts": [], "keywords": ["agreement"], "entities": ["Calvin"]}
+{"turn_id": "D13:13", "facts": [], "keywords": ["reflection"], "entities": ["Dave"]}
+{"turn_id": "D13:14", "facts": [], "keywords": ["encouragement"], "entities": ["Calvin"]}
+{"turn_id": "D13:15", "facts": ["Dave shared a photo of his music studio setup with a high-quality sound system and offered to let Calvin use it for his music."], "keywords": ["music studio", "sound system", "offer"], "entities": ["Dave"]}
+{"turn_id": "D13:16", "facts": ["Calvin said he is super busy with his music at the moment but will keep Dave's studio offer in mind."], "keywords": ["music", "busy", "studio offer"], "entities": ["Calvin"]}
+{"turn_id": "D13:17", "facts": [], "keywords": ["farewell"], "entities": ["Dave"]}
+{"turn_id": "D13:18", "facts": [], "keywords": ["farewell"], "entities": ["Calvin"]}
+{"turn_id": "D13:19", "facts": [], "keywords": ["farewell"], "entities": ["Dave"]}
+{"turn_id": "D14:1", "facts": ["On 2023-08-14, Dave said he went to a car workshop in San Francisco and found the restoration techniques and people's passion truly inspiring."], "keywords": ["car workshop", "san francisco", "restoration"], "entities": ["Dave", "San Francisco"]}
+{"turn_id": "D14:2", "facts": [], "keywords": ["encouragement"], "entities": ["Calvin"]}
+{"turn_id": "D14:3", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D14:4", "facts": ["On 2023-08-14, Calvin said he had an amazing experience touring with a well-known artist, ending with a show in Japan, after which he explored his new place there, calling it a dream come true."], "keywords": ["tour", "japan", "new place"], "entities": ["Calvin", "Japan"]}
+{"turn_id": "D14:5", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D14:6", "facts": ["Calvin said his Tokyo show was awesome, with everyone singing along to one of his songs in a magical moment."], "keywords": ["tokyo", "concert", "magical moment"], "entities": ["Calvin", "Tokyo"]}
+{"turn_id": "D14:7", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D14:8", "facts": ["Calvin shared a photo of a crowd with their hands up at his Tokyo concert, saying moments like that are why he loves his job."], "keywords": ["tokyo", "concert", "crowd", "photo"], "entities": ["Calvin", "Tokyo"]}
+{"turn_id": "D14:9", "facts": [], "keywords": ["reflection"], "entities": ["Dave"]}
+{"turn_id": "D14:10", "facts": [], "keywords": ["reflection"], "entities": ["Calvin"]}
+{"turn_id": "D14:11", "facts": ["On 2023-08-14, Dave shared a photo of a car with a broken engine in the woods that he is restoring, going from a beat-up mess to a real beauty."], "keywords": ["car restoration", "project", "photo"], "entities": ["Dave"]}
+{"turn_id": "D14:12", "facts": [], "keywords": ["question"], "entities": ["Calvin"]}
+{"turn_id": "D14:13", "facts": ["Dave said he hopes to finish restoring the car by the end of next month (around September 2023)."], "keywords": ["car restoration", "timeline"], "entities": ["Dave"]}
+{"turn_id": "D14:14", "facts": [], "keywords": ["encouragement"], "entities": ["Calvin"]}
+{"turn_id": "D14:15", "facts": [], "keywords": ["thanks"], "entities": ["Dave"]}
+{"turn_id": "D14:16", "facts": [], "keywords": ["farewell"], "entities": ["Calvin"]}
+{"turn_id": "D15:1", "facts": ["On 2023-08-22, Dave said he had a card night with friends the previous Friday (2023-08-18) and shared a photo of the group playing cards, calling it a lot of fun."], "keywords": ["card night", "friends", "fun"], "entities": ["Dave"]}
+{"turn_id": "D15:2", "facts": ["On 2023-08-22, Calvin said he scored a deal to continue his collaboration with Frank Ocean, calling it a dream come true he's worked hard for."], "keywords": ["frank ocean", "collaboration", "music career"], "entities": ["Calvin", "Frank Ocean"]}
+{"turn_id": "D15:3", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D15:4", "facts": ["Calvin said he met Frank Ocean at a music festival in Tokyo, and they clicked, later arranging a meeting and recording a song together in the studio at Calvin's mansion."], "keywords": ["frank ocean", "tokyo", "music festival", "recording"], "entities": ["Calvin", "Frank Ocean", "Tokyo"]}
+{"turn_id": "D15:5", "facts": [], "keywords": ["reaction"], "entities": ["Dave"]}
+{"turn_id": "D15:6", "facts": ["Calvin shared a photo of a crowd sitting on the grass at night from the Tokyo music festival, saying the city's energy and the lively crowd fueled his soul."], "keywords": ["tokyo", "music festival", "crowd", "photo"], "entities": ["Calvin", "Tokyo"]}
+{"turn_id": "D15:7", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D15:8", "facts": ["Calvin said playing at the Tokyo festival was a dream come true, with buzzing energy and an upbeat, connected crowd."], "keywords": ["tokyo", "music festival", "performance"], "entities": ["Calvin", "Tokyo"]}
+{"turn_id": "D15:9", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D15:10", "facts": ["On 2023-08-22, Calvin said someone noticed his performance at the Tokyo festival and now they are working together, and his tour ends soon after which he's heading to Boston."], "keywords": ["tokyo", "music festival", "collaboration", "boston", "tour"], "entities": ["Calvin", "Tokyo", "Boston"]}
+{"turn_id": "D15:11", "facts": [], "keywords": ["agreement"], "entities": ["Dave"]}
+{"turn_id": "D15:12", "facts": ["On 2023-08-22, Calvin said he and his friends recorded a podcast the day before (2023-08-21) discussing the rapidly evolving rap industry."], "keywords": ["podcast", "rap industry", "friends"], "entities": ["Calvin"]}
+{"turn_id": "D15:13", "facts": [], "keywords": ["encouragement"], "entities": ["Dave"]}
+{"turn_id": "D15:14", "facts": [], "keywords": ["farewell"], "entities": ["Calvin"]}
+{"turn_id": "D15:15", "facts": [], "keywords": ["farewell"], "entities": ["Dave"]}
+{"turn_id": "D16:1", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D16:2", "facts": ["On 2023-08-31, Calvin said the end of his tour was amazing and he was pumped by the audience's energy, sharing a photo of the crowd watching the concert."], "keywords": ["tour", "concert", "crowd energy"], "entities": ["Calvin"]}
+{"turn_id": "D16:3", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D16:4", "facts": ["Calvin said performing on a big stage at the end of his tour was a dream come true and felt surreal."], "keywords": ["big stage", "performance", "tour"], "entities": ["Calvin"]}
+{"turn_id": "D16:5", "facts": [], "keywords": ["congratulations"], "entities": ["Dave"]}
+{"turn_id": "D16:6", "facts": ["On 2023-08-31, Calvin said he started shooting a music video for his new album the previous weekend (around 2023-08-26), sharing a photo of a camera on a beach."], "keywords": ["music video", "new album", "filming"], "entities": ["Calvin"]}
+{"turn_id": "D16:7", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D16:8", "facts": ["Calvin said the music video shoot is taking place on a beach in Miami with epic visuals planned."], "keywords": ["music video", "miami", "beach"], "entities": ["Calvin", "Miami"]}
+{"turn_id": "D16:9", "facts": [], "keywords": ["reaction"], "entities": ["Dave"]}
+{"turn_id": "D16:10", "facts": [], "keywords": ["reaction"], "entities": ["Calvin"]}
+{"turn_id": "D16:11", "facts": ["Dave offered to help Calvin with props or anything else needed for the Miami music video shoot."], "keywords": ["music video", "support", "offer"], "entities": ["Dave"]}
+{"turn_id": "D16:12", "facts": [], "keywords": ["thanks"], "entities": ["Calvin"]}
+{"turn_id": "D16:13", "facts": ["Dave referenced a guitar photo Calvin previously sent, with an octopus design, saying it shows their different artistic styles, and shared the photo again."], "keywords": ["guitar", "octopus", "art"], "entities": ["Dave"]}
+{"turn_id": "D16:14", "facts": ["On 2023-08-31, Calvin said he had a guitar custom made by a Japanese artist friend, featuring an octopus design that represents his love for art and the sea, calling it one of his favorites."], "keywords": ["guitar", "octopus", "japan", "custom design"], "entities": ["Calvin", "Japan"]}
+{"turn_id": "D16:15", "facts": [], "keywords": ["reaction"], "entities": ["Dave"]}
+{"turn_id": "D16:16", "facts": ["Calvin said his custom octopus guitar means a lot to him as a reminder of his passion for music and the friendships he's made."], "keywords": ["guitar", "passion", "friendship"], "entities": ["Calvin"]}
+{"turn_id": "D16:17", "facts": [], "keywords": ["reflection"], "entities": ["Dave"]}
+{"turn_id": "D16:18", "facts": ["Calvin shared another photo of his guitar showing a purple glow."], "keywords": ["guitar", "photo"], "entities": ["Calvin"]}
+{"turn_id": "D16:19", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D16:20", "facts": ["Calvin said he got his guitar customized with a shiny purple finish because it gives it a unique look that matches his style."], "keywords": ["guitar", "customization", "style"], "entities": ["Calvin"]}
+{"turn_id": "D16:21", "facts": [], "keywords": ["reaction"], "entities": ["Dave"]}
+{"turn_id": "D16:22", "facts": [], "keywords": ["reaction"], "entities": ["Calvin"]}
+{"turn_id": "D16:23", "facts": [], "keywords": ["compliment"], "entities": ["Dave"]}
+{"turn_id": "D16:24", "facts": ["Calvin said staying true to himself and being unique in his music is something he values."], "keywords": ["authenticity", "music style"], "entities": ["Calvin"]}
+{"turn_id": "D16:25", "facts": [], "keywords": ["encouragement"], "entities": ["Dave"]}
+{"turn_id": "D17:1", "facts": ["On 2023-09-02, Dave said he came back the day before (2023-09-01) from San Francisco with new insights and knowledge on car modification, finding it satisfying to give an old car new life."], "keywords": ["san francisco", "car modification", "insights"], "entities": ["Dave", "San Francisco"]}
+{"turn_id": "D17:2", "facts": [], "keywords": ["reflection"], "entities": ["Calvin"]}
+{"turn_id": "D17:3", "facts": ["Dave said fixing up cars is rewarding and gives him a sense of purpose, and it feels like he's making a difference when he fixes someone's car."], "keywords": ["car repair", "purpose", "satisfaction"], "entities": ["Dave"]}
+{"turn_id": "D17:4", "facts": [], "keywords": ["reflection"], "entities": ["Calvin"]}
+{"turn_id": "D17:5", "facts": ["Dave said it feels good to make a difference and see people's relief when their car is fixed, which makes him proud."], "keywords": ["car repair", "pride", "satisfaction"], "entities": ["Dave"]}
+{"turn_id": "D17:6", "facts": ["On 2023-09-02, Calvin said he booked a flight ticket to Boston the previous week (around 2023-08-26) and is excited about his upcoming trip, sharing a photo of a boarding pass."], "keywords": ["boston", "flight", "travel plans"], "entities": ["Calvin", "Boston"]}
+{"turn_id": "D17:7", "facts": [], "keywords": ["agreement"], "entities": ["Dave"]}
+{"turn_id": "D17:8", "facts": [], "keywords": ["agreement"], "entities": ["Calvin"]}
+{"turn_id": "D17:9", "facts": [], "keywords": ["farewell"], "entities": ["Dave"]}
+{"turn_id": "D17:10", "facts": [], "keywords": ["farewell"], "entities": ["Calvin"]}
+{"turn_id": "D18:1", "facts": ["On 2023-09-13, Calvin said his album finally dropped on 2023-09-11 and everyone has been loving it, which motivated him to keep going."], "keywords": ["album release", "music career", "fans"], "entities": ["Calvin"]}
+{"turn_id": "D18:2", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D18:3", "facts": ["Calvin said the response to his album release has been overwhelming but motivating, since it's connecting with people and pushing him to make even better music."], "keywords": ["album release", "fan response", "motivation"], "entities": ["Calvin"]}
+{"turn_id": "D18:4", "facts": [], "keywords": ["reflection"], "entities": ["Dave"]}
+{"turn_id": "D18:5", "facts": ["Calvin said moments like his album's success remind him why he got into music: making a difference and sharing his own story."], "keywords": ["music career", "purpose", "motivation"], "entities": ["Calvin"]}
+{"turn_id": "D18:6", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D18:7", "facts": ["On 2023-09-13, Calvin said he has an upcoming tour next, and after that plans to explore and grow his brand further."], "keywords": ["tour", "music career", "brand growth"], "entities": ["Calvin"]}
+{"turn_id": "D18:8", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D18:9", "facts": [], "keywords": ["excitement"], "entities": ["Calvin"]}
+{"turn_id": "D18:10", "facts": ["Dave offered to show Calvin around his garage and some cool cars whenever Calvin wants."], "keywords": ["garage", "cars", "offer"], "entities": ["Dave"]}
+{"turn_id": "D18:11", "facts": ["Calvin said he will take Dave up on the offer to check out his garage when he's in Boston, hoping to get ideas for future projects."], "keywords": ["garage", "boston", "offer accepted"], "entities": ["Calvin", "Boston"]}
+{"turn_id": "D18:12", "facts": ["On 2023-09-13, Dave shared a photo of his garage with a car and a Coca-Cola sign, saying it looks stunning."], "keywords": ["garage", "car", "photo"], "entities": ["Dave"]}
+{"turn_id": "D18:13", "facts": [], "keywords": ["thanks"], "entities": ["Calvin"]}
+{"turn_id": "D18:14", "facts": [], "keywords": ["farewell"], "entities": ["Dave"]}
+{"turn_id": "D18:15", "facts": [], "keywords": ["farewell"], "entities": ["Calvin"]}
+{"turn_id": "D18:16", "facts": [], "keywords": ["farewell"], "entities": ["Dave"]}
+{"turn_id": "D19:1", "facts": ["On 2023-09-15, Dave said he had a fun band jam session the previous night (2023-09-14), and also attended a rock concert in Boston the previous weekend (around 2023-09-09), sharing a photo of the concert's atmosphere."], "keywords": ["band", "jam session", "rock concert", "boston"], "entities": ["Dave", "Boston"]}
+{"turn_id": "D19:2", "facts": [], "keywords": ["question"], "entities": ["Calvin"]}
+{"turn_id": "D19:3", "facts": ["Dave said he and his band forgot to record their jam session because they were too into it."], "keywords": ["band", "jam session"], "entities": ["Dave"]}
+{"turn_id": "D19:4", "facts": ["Calvin shared a photo of a poster for the Disney movie Ratatouille."], "keywords": ["disney", "ratatouille", "poster"], "entities": ["Calvin", "Ratatouille", "Disney"]}
+{"turn_id": "D19:5", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D19:6", "facts": ["Calvin said Ratatouille is one of his favorite movies because it's about going after what you love regardless of what others say."], "keywords": ["ratatouille", "favorite movie", "inspiration"], "entities": ["Calvin", "Ratatouille"]}
+{"turn_id": "D19:7", "facts": ["On 2023-09-15, Dave said he finished restoring a vintage car, sharing a final photo of himself standing next to it."], "keywords": ["vintage car", "restoration", "photo"], "entities": ["Dave"]}
+{"turn_id": "D19:8", "facts": [], "keywords": ["question"], "entities": ["Calvin"]}
+{"turn_id": "D19:9", "facts": ["Dave said seeing the restored vintage car brought back to life and people's reactions to the finished product make all the hard work worth it."], "keywords": ["restoration", "satisfaction", "reactions"], "entities": ["Dave"]}
+{"turn_id": "D19:10", "facts": [], "keywords": ["encouragement"], "entities": ["Calvin"]}
+{"turn_id": "D19:11", "facts": [], "keywords": ["farewell"], "entities": ["Dave"]}
+{"turn_id": "D19:12", "facts": [], "keywords": ["farewell"], "entities": ["Calvin"]}
+{"turn_id": "D20:1", "facts": ["On 2023-09-22, Dave said he worked on the engine of a vintage Mustang and thought he'd fixed it, but heard a weird noise when starting it up, which was disappointing after all the work."], "keywords": ["mustang", "engine repair", "disappointment"], "entities": ["Dave", "Ford Mustang"]}
+{"turn_id": "D20:2", "facts": ["Calvin shared a photo of his red sports car, saying it's a sign of his hard work and dedication and reminds him how far he's come."], "keywords": ["car", "pride", "hard work"], "entities": ["Calvin"]}
+{"turn_id": "D20:3", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D20:4", "facts": ["Calvin said he had an amazing, unforgettable drive one summer day with the wind in his hair and a feeling of freedom.", "On 2023-09-22, Calvin said his trip to Japan was incredible, loving the culture and people, and he is already longing to go back."], "keywords": ["driving", "freedom", "japan", "reflection"], "entities": ["Calvin", "Japan"]}
+{"turn_id": "D20:5", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D20:6", "facts": ["Calvin said there's a song from his childhood that always makes him smile because it played during a road trip with his dad."], "keywords": ["childhood memory", "road trip", "father", "song"], "entities": ["Calvin"]}
+{"turn_id": "D20:7", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D20:8", "facts": ["Calvin said the song from his childhood road trip with his dad was 'California Love' by Tupac and Dr. Dre."], "keywords": ["california love", "tupac", "dr dre", "childhood memory"], "entities": ["Calvin", "Tupac", "Dr. Dre", "California Love"]}
+{"turn_id": "D20:9", "facts": ["Dave said 'California Love' is a classic and suggested he and Calvin jam some music together sometime."], "keywords": ["california love", "jam session", "offer"], "entities": ["Dave", "California Love"]}
+{"turn_id": "D20:10", "facts": [], "keywords": ["agreement"], "entities": ["Calvin"]}
+{"turn_id": "D20:11", "facts": [], "keywords": ["excitement"], "entities": ["Dave"]}
+{"turn_id": "D20:12", "facts": [], "keywords": ["excitement"], "entities": ["Calvin"]}
+{"turn_id": "D20:13", "facts": [], "keywords": ["excitement"], "entities": ["Dave"]}
+{"turn_id": "D20:14", "facts": [], "keywords": ["excitement"], "entities": ["Calvin"]}
+{"turn_id": "D20:15", "facts": [], "keywords": ["farewell"], "entities": ["Dave"]}
+{"turn_id": "D20:16", "facts": [], "keywords": ["farewell"], "entities": ["Calvin"]}
+{"turn_id": "D20:17", "facts": [], "keywords": ["farewell"], "entities": ["Dave"]}
+{"turn_id": "D21:1", "facts": ["On 2023-10-04, Calvin said he met with incredible artists in Boston the day before (2023-10-03) to discuss collaborating on new music, calling the individual styles inspiring."], "keywords": ["boston", "artists", "collaboration", "music"], "entities": ["Calvin", "Boston"]}
+{"turn_id": "D21:2", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D21:3", "facts": ["Calvin said a mutual friend arranged the meeting with the Boston artists because they'd be a great fit, and shared a photo of a shiny orange car project he works on to chill out."], "keywords": ["boston", "artists", "car project", "relaxation"], "entities": ["Calvin", "Boston"]}
+{"turn_id": "D21:4", "facts": ["Dave said working on cars is therapeutic for him, and he has been restoring a Ford Mustang he found in a junkyard that was in bad shape but had potential."], "keywords": ["ford mustang", "junkyard", "restoration", "therapy"], "entities": ["Dave", "Ford Mustang"]}
+{"turn_id": "D21:5", "facts": [], "keywords": ["question"], "entities": ["Calvin"]}
+{"turn_id": "D21:6", "facts": ["Dave shared a photo of the restored red Mustang parked in a field, saying he put in a lot of work and found it satisfying to bring an old car back to life."], "keywords": ["mustang", "restoration", "photo"], "entities": ["Dave", "Ford Mustang"]}
+{"turn_id": "D21:7", "facts": [], "keywords": ["reflection"], "entities": ["Calvin"]}
+{"turn_id": "D21:8", "facts": ["Dave shared a photo of his hands stained with grease after a day working in the garage, saying it's worth it to see the end result."], "keywords": ["garage", "grease", "hard work", "photo"], "entities": ["Dave"]}
+{"turn_id": "D21:9", "facts": [], "keywords": ["encouragement"], "entities": ["Calvin"]}
+{"turn_id": "D21:10", "facts": ["Dave said transforming something old and beat-up into something beautiful gives him a sense of pride and fulfillment through small successes."], "keywords": ["restoration", "pride", "fulfillment"], "entities": ["Dave"]}
+{"turn_id": "D21:11", "facts": [], "keywords": ["reflection"], "entities": ["Calvin"]}
+{"turn_id": "D21:12", "facts": [], "keywords": ["reflection"], "entities": ["Dave"]}
+{"turn_id": "D21:13", "facts": [], "keywords": ["reflection"], "entities": ["Calvin"]}
+{"turn_id": "D21:14", "facts": [], "keywords": ["reflection"], "entities": ["Dave"]}
+{"turn_id": "D21:15", "facts": [], "keywords": ["motivation"], "entities": ["Calvin"]}
+{"turn_id": "D21:16", "facts": [], "keywords": ["motivation"], "entities": ["Dave"]}
+{"turn_id": "D21:17", "facts": [], "keywords": ["farewell"], "entities": ["Calvin"]}
+{"turn_id": "D21:18", "facts": [], "keywords": ["farewell"], "entities": ["Dave"]}
+{"turn_id": "D22:1", "facts": ["On 2023-10-08, Dave said he went to a car show the previous Friday (2023-10-06) and got to see cool cars and try car mods, sharing a photo of two men looking at a car engine."], "keywords": ["car show", "car mods", "fun"], "entities": ["Dave"]}
+{"turn_id": "D22:2", "facts": [], "keywords": ["reaction"], "entities": ["Calvin"]}
+{"turn_id": "D22:3", "facts": ["Dave said he restored and modified a car himself, adding a custom exhaust and performance upgrades, and is proud of how it turned out."], "keywords": ["car restoration", "custom exhaust", "performance upgrades", "pride"], "entities": ["Dave"]}
+{"turn_id": "D22:4", "facts": [], "keywords": ["compliment"], "entities": ["Calvin"]}
+{"turn_id": "D22:5", "facts": ["Dave said working on cars is a passion and a form of therapy for him, recalling that as a kid he spent hours tinkering with engines in his dad's garage, which was like his own sanctuary."], "keywords": ["passion", "therapy", "childhood", "father", "garage"], "entities": ["Dave"]}
+{"turn_id": "D22:6", "facts": [], "keywords": ["reflection"], "entities": ["Calvin"]}
+{"turn_id": "D22:7", "facts": ["Dave said restoring cars has been his goal since he was a kid, and it's awesome to be able to do something he loves for a living."], "keywords": ["career goal", "childhood dream", "car restoration"], "entities": ["Dave"]}
+{"turn_id": "D22:8", "facts": [], "keywords": ["encouragement"], "entities": ["Calvin"]}
+{"turn_id": "D22:9", "facts": [], "keywords": ["reflection"], "entities": ["Dave"]}
+{"turn_id": "D22:10", "facts": [], "keywords": ["encouragement"], "entities": ["Calvin"]}
+{"turn_id": "D22:11", "facts": [], "keywords": ["thanks"], "entities": ["Dave"]}
+{"turn_id": "D22:12", "facts": [], "keywords": ["encouragement"], "entities": ["Calvin"]}
+{"turn_id": "D22:13", "facts": [], "keywords": ["thanks"], "entities": ["Dave"]}
+{"turn_id": "D22:14", "facts": [], "keywords": ["encouragement"], "entities": ["Calvin"]}
+{"turn_id": "D23:1", "facts": ["On 2023-10-15, Dave said a competing car maintenance shop won a deal his shop had been trying to secure for months, which left him feeling bummed out and questioning if his effort at work was worth it."], "keywords": ["car maintenance shop", "competition", "disappointment"], "entities": ["Dave"]}
+{"turn_id": "D23:2", "facts": [], "keywords": ["encouragement"], "entities": ["Calvin"]}
+{"turn_id": "D23:3", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D23:4", "facts": ["Calvin said when facing setbacks he reminds himself why he's passionate about his goals, relies on helpful people around him, and takes breaks with his favorite activities to recharge."], "keywords": ["setbacks", "motivation", "coping strategy"], "entities": ["Calvin"]}
+{"turn_id": "D23:5", "facts": ["On 2023-10-15, Dave said he just got back from a music festival which was amazing, with great energy, music, and crowd, making him feel alive."], "keywords": ["music festival", "energy", "excitement"], "entities": ["Dave"]}
+{"turn_id": "D23:6", "facts": [], "keywords": ["question"], "entities": ["Calvin"]}
+{"turn_id": "D23:7", "facts": ["Dave shared a photo of the music festival stage, saying the main stage and the headliner's performance were unreal."], "keywords": ["music festival", "stage", "headliner", "photo"], "entities": ["Dave"]}
+{"turn_id": "D23:8", "facts": [], "keywords": ["question"], "entities": ["Calvin"]}
+{"turn_id": "D23:9", "facts": ["Dave said the headliner at the music festival he attended was a band called The Fireworks."], "keywords": ["the fireworks", "headliner", "music festival"], "entities": ["Dave", "The Fireworks"]}
+{"turn_id": "D23:10", "facts": ["Calvin said performing with Frank Ocean recently has been really cool and that connecting with the crowd is why he loves his job."], "keywords": ["frank ocean", "performance", "music career"], "entities": ["Calvin", "Frank Ocean"]}
+{"turn_id": "D23:11", "facts": ["Dave said he loves the feeling of taking something broken and making it whole again, comparing it to how music brings people together."], "keywords": ["restoration", "music", "fulfillment"], "entities": ["Dave"]}
+{"turn_id": "D23:12", "facts": [], "keywords": ["encouragement"], "entities": ["Calvin"]}
+{"turn_id": "D23:13", "facts": [], "keywords": ["thanks"], "entities": ["Dave"]}
+{"turn_id": "D23:14", "facts": [], "keywords": ["encouragement"], "entities": ["Calvin"]}
+{"turn_id": "D23:15", "facts": [], "keywords": ["determination"], "entities": ["Dave"]}
+{"turn_id": "D23:16", "facts": ["On 2023-10-15, Calvin said he got a new Ferrari the previous week (around 2023-10-08), calling it a masterpiece on wheels and sharing a photo of the black sports car."], "keywords": ["ferrari", "new car", "excitement"], "entities": ["Calvin", "Ferrari"]}
+{"turn_id": "D23:17", "facts": [], "keywords": ["congratulations"], "entities": ["Dave"]}
+{"turn_id": "D23:18", "facts": [], "keywords": ["farewell"], "entities": ["Calvin"]}
+{"turn_id": "D24:1", "facts": ["On 2023-10-19, Calvin said he started touring with Frank Ocean and feels amazing energy and connection with the crowd when performing, sharing a photo of himself performing on stage."], "keywords": ["frank ocean tour", "performance", "crowd connection"], "entities": ["Calvin", "Frank Ocean"]}
+{"turn_id": "D24:2", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D24:3", "facts": ["Calvin said jamming with Frank Ocean on tour is a dream come true and the tour has been amazing so far."], "keywords": ["frank ocean tour", "dream come true"], "entities": ["Calvin", "Frank Ocean"]}
+{"turn_id": "D24:4", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D24:5", "facts": ["Calvin said he and Frank Ocean met at a festival around August of the previous year and clicked right away, after which Frank Ocean said he wanted to collaborate, and the chemistry on stage together has been incredible."], "keywords": ["frank ocean", "meeting story", "collaboration", "stage chemistry"], "entities": ["Calvin", "Frank Ocean"]}
+{"turn_id": "D24:6", "facts": [], "keywords": ["reaction"], "entities": ["Dave"]}
+{"turn_id": "D24:7", "facts": [], "keywords": ["excitement"], "entities": ["Calvin"]}
+{"turn_id": "D24:8", "facts": [], "keywords": ["excitement"], "entities": ["Dave"]}
+{"turn_id": "D24:9", "facts": ["Calvin shared a photo of a crowd with their hands in the air, saying the crowd energy always gets him pumped."], "keywords": ["crowd energy", "concert", "photo"], "entities": ["Calvin"]}
+{"turn_id": "D24:10", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D24:11", "facts": ["Calvin said the crowd photo with hands in the air was taken in Tokyo during a concert, where the energy was nuts and felt like the whole city came out."], "keywords": ["tokyo", "concert", "crowd energy"], "entities": ["Calvin", "Tokyo"]}
+{"turn_id": "D24:12", "facts": ["Dave shared a photo of a busy Tokyo street he found online, saying it makes him dream of visiting Tokyo someday."], "keywords": ["tokyo", "travel dream", "photo"], "entities": ["Dave", "Tokyo"]}
+{"turn_id": "D24:13", "facts": [], "keywords": ["reflection"], "entities": ["Calvin"]}
+{"turn_id": "D24:14", "facts": ["Dave said he wants to know everything about Tokyo - the people, culture, and food - and shared a photo of a crowded, colorful Tokyo street at night."], "keywords": ["tokyo", "culture", "food", "curiosity"], "entities": ["Dave", "Tokyo"]}
+{"turn_id": "D24:15", "facts": [], "keywords": ["reaction"], "entities": ["Calvin"]}
+{"turn_id": "D24:16", "facts": [], "keywords": ["hope"], "entities": ["Dave"]}
+{"turn_id": "D24:17", "facts": ["On 2023-10-19, Calvin said he is going to Tokyo next month (around November 2023) after his tour ends, sharing a photo of a Tokyo cityscape at night."], "keywords": ["tokyo", "travel plans", "tour"], "entities": ["Calvin", "Tokyo"]}
+{"turn_id": "D24:18", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D24:19", "facts": ["Calvin said he is excited to visit Shibuya Crossing (which he compared to Tokyo's Times Square) and explore Shinjuku, and is looking forward to the food, sharing a photo of Shibuya Crossing at night."], "keywords": ["shibuya crossing", "shinjuku", "tokyo", "food"], "entities": ["Calvin", "Shibuya Crossing", "Shinjuku", "Tokyo"]}
+{"turn_id": "D24:20", "facts": ["Dave asked if Calvin had tried ramen yet and shared a photo of a ramen bowl he tried in Boston, saying he thinks it will be even better in Tokyo."], "keywords": ["ramen", "boston", "food"], "entities": ["Dave", "Boston"]}
+{"turn_id": "D24:21", "facts": ["Calvin said he has never tried ramen but plans to try it while in Tokyo."], "keywords": ["ramen", "tokyo", "food"], "entities": ["Calvin", "Tokyo"]}
+{"turn_id": "D24:22", "facts": [], "keywords": ["encouragement"], "entities": ["Dave"]}
+{"turn_id": "D24:23", "facts": [], "keywords": ["farewell"], "entities": ["Calvin"]}
+{"turn_id": "D25:1", "facts": ["Dave asked Calvin how he juggles his job and personal life while dealing with the challenges fame brings to relationships."], "keywords": ["fame", "work-life balance", "question"], "entities": ["Dave"]}
+{"turn_id": "D25:2", "facts": ["On 2023-10-23, Calvin said the Frank Ocean tour has been incredible and energizing, but fame has brought challenges balancing everything."], "keywords": ["frank ocean tour", "fame", "balance"], "entities": ["Calvin", "Frank Ocean"]}
+{"turn_id": "D25:3", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D25:4", "facts": ["Calvin said he takes things one day at a time, and although it can be overwhelming with many demands, he pushes on because he enjoys what he does."], "keywords": ["overwhelm", "coping", "music career"], "entities": ["Calvin"]}
+{"turn_id": "D25:5", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D25:6", "facts": ["Calvin said having a strong support system of friends and his team helps him stay on track."], "keywords": ["support system", "friends", "team"], "entities": ["Calvin"]}
+{"turn_id": "D25:7", "facts": ["On 2023-10-23, Dave said he recently had a good conversation with neighbors about current events and politics, which he found cheering and informative."], "keywords": ["neighbors", "current events", "politics", "conversation"], "entities": ["Dave"]}
+{"turn_id": "D25:8", "facts": ["Calvin said staying connected and up-to-date on world events helps his music stand out with unique perspectives and connects him better with his fans."], "keywords": ["current events", "music inspiration", "fans"], "entities": ["Calvin"]}
+{"turn_id": "D25:9", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D25:10", "facts": ["Calvin said he has recently been inspired by struggles people go through, which has pushed him to dig deeper into his music to capture those feelings."], "keywords": ["inspiration", "struggles", "music"], "entities": ["Calvin"]}
+{"turn_id": "D25:11", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D25:12", "facts": ["Calvin said making music is a way for him to express himself and work through his emotions, calling it his own form of therapy."], "keywords": ["music therapy", "self-expression"], "entities": ["Calvin"]}
+{"turn_id": "D25:13", "facts": ["Dave said working on cars gives him an outlet to express himself, like a little oasis of calm, and shared a photo of his garage with tools on the wall."], "keywords": ["cars", "self-expression", "garage", "calm"], "entities": ["Dave"]}
+{"turn_id": "D25:14", "facts": [], "keywords": ["question"], "entities": ["Calvin"]}
+{"turn_id": "D25:15", "facts": ["Dave said his fascination with machines began at age ten when he found an old car in a neighbor's garage and asked to fix it, which sparked his love for car engineering."], "keywords": ["childhood", "car engineering", "origin story"], "entities": ["Dave"]}
+{"turn_id": "D25:16", "facts": [], "keywords": ["question"], "entities": ["Calvin"]}
+{"turn_id": "D25:17", "facts": ["On 2023-10-23, Dave said he restored a car the previous year and sold it to a collector, and is now working on a new, challenging car project, sharing a photo of a black car."], "keywords": ["car restoration", "collector", "new project"], "entities": ["Dave"]}
+{"turn_id": "D25:18", "facts": [], "keywords": ["question"], "entities": ["Calvin"]}
+{"turn_id": "D25:19", "facts": ["Dave said the toughest part of car restoration is having patience and paying extra attention to detail, but the payoff is worth it."], "keywords": ["car restoration", "patience", "attention to detail"], "entities": ["Dave"]}
+{"turn_id": "D25:20", "facts": [], "keywords": ["reflection"], "entities": ["Calvin"]}
+{"turn_id": "D25:21", "facts": [], "keywords": ["reflection"], "entities": ["Dave"]}
+{"turn_id": "D25:22", "facts": ["Calvin said paying attention to small details is what elevates his work from average to extraordinary as an artist."], "keywords": ["attention to detail", "artistry"], "entities": ["Calvin"]}
+{"turn_id": "D25:23", "facts": [], "keywords": ["encouragement"], "entities": ["Dave"]}
+{"turn_id": "D25:24", "facts": [], "keywords": ["thanks"], "entities": ["Calvin"]}
+{"turn_id": "D25:25", "facts": ["Dave said a photo of a concert crowd with hands in the air reminds him of good times at concerts he attended last month (around September 2023)."], "keywords": ["concert", "good memories", "photo"], "entities": ["Dave"]}
+{"turn_id": "D25:26", "facts": [], "keywords": ["reflection"], "entities": ["Calvin"]}
+{"turn_id": "D25:27", "facts": ["Dave shared a photo of a crowd around a concert stage, calling it an unforgettable moment he captured."], "keywords": ["concert", "photo", "memory"], "entities": ["Dave"]}
+{"turn_id": "D25:28", "facts": ["Calvin said concerts are what he lives for because of the indescribable connection between the artist and the crowd."], "keywords": ["concerts", "artist-crowd connection", "passion"], "entities": ["Calvin"]}
+{"turn_id": "D25:29", "facts": [], "keywords": ["reflection"], "entities": ["Dave"]}
+{"turn_id": "D25:30", "facts": [], "keywords": ["reflection"], "entities": ["Calvin"]}
+{"turn_id": "D25:31", "facts": [], "keywords": ["farewell"], "entities": ["Dave"]}
+{"turn_id": "D26:1", "facts": ["On 2023-10-25, Calvin said he visited sights in Boston the day before (2023-10-24) with a high school friend, calling it fun and eye-opening."], "keywords": ["boston", "high school friend", "sightseeing"], "entities": ["Calvin", "Boston"]}
+{"turn_id": "D26:2", "facts": ["On 2023-10-25, Dave said he recently attended a conference in Detroit and learned a lot."], "keywords": ["detroit", "conference", "learning"], "entities": ["Dave", "Detroit"]}
+{"turn_id": "D26:3", "facts": ["Calvin said his time in Boston featured awesome architecture and cool history, and following Dave's advice he visited a peaceful spot there."], "keywords": ["boston", "architecture", "history"], "entities": ["Calvin", "Boston"]}
+{"turn_id": "D26:4", "facts": ["Dave shared a photo of his latest car project with a group washing a car in a garage, saying working on it calms him down."], "keywords": ["car project", "garage", "calm"], "entities": ["Dave"]}
+{"turn_id": "D26:5", "facts": [], "keywords": ["question"], "entities": ["Calvin"]}
+{"turn_id": "D26:6", "facts": ["Dave said his dad took him to his first car show at age 10 and he was hooked, which led him to become an automotive engineer."], "keywords": ["car show", "father", "childhood", "automotive engineer"], "entities": ["Dave"]}
+{"turn_id": "D26:7", "facts": ["On 2023-10-25, Calvin shared a photo of himself performing with a DJ he admires in a nightclub, calling it an amazing experience."], "keywords": ["performance", "dj", "nightclub", "admiration"], "entities": ["Calvin"]}
+{"turn_id": "D26:8", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D26:9", "facts": ["Calvin said performing with someone he admires was a dream come true and made him realize how much music is his passion and purpose."], "keywords": ["performance", "passion", "purpose"], "entities": ["Calvin"]}
+{"turn_id": "D26:10", "facts": [], "keywords": ["reflection"], "entities": ["Dave"]}
+{"turn_id": "D26:11", "facts": [], "keywords": ["reflection"], "entities": ["Calvin"]}
+{"turn_id": "D26:12", "facts": [], "keywords": ["encouragement"], "entities": ["Dave"]}
+{"turn_id": "D26:13", "facts": [], "keywords": ["encouragement"], "entities": ["Calvin"]}
+{"turn_id": "D26:14", "facts": [], "keywords": ["farewell"], "entities": ["Dave"]}
+{"turn_id": "D26:15", "facts": [], "keywords": ["farewell"], "entities": ["Calvin"]}
+{"turn_id": "D27:1", "facts": ["On 2023-10-29, Calvin said he went to a networking event to meet more artists, which he is excited could help him build his fan base."], "keywords": ["networking event", "artists", "fan base"], "entities": ["Calvin"]}
+{"turn_id": "D27:2", "facts": ["Dave said he recently got into photography and has taken shots of some amazing places."], "keywords": ["photography", "hobby"], "entities": ["Dave"]}
+{"turn_id": "D27:3", "facts": [], "keywords": ["agreement"], "entities": ["Calvin"]}
+{"turn_id": "D27:4", "facts": ["Dave shared a photo he took of a breathtaking sunset over a city skyline with a clock tower."], "keywords": ["photography", "sunset", "clock tower"], "entities": ["Dave"]}
+{"turn_id": "D27:5", "facts": [], "keywords": ["question"], "entities": ["Calvin"]}
+{"turn_id": "D27:6", "facts": ["On 2023-10-29, Dave said the sunset photo was taken in Boston, and shared another photo of a clock tower there taken the previous month (around September 2023)."], "keywords": ["boston", "clock tower", "photography"], "entities": ["Dave", "Boston"]}
+{"turn_id": "D27:7", "facts": ["Calvin said he visited the Boston clock tower in the photo a few years back and finds Boston a beautiful city."], "keywords": ["boston", "clock tower", "past visit"], "entities": ["Calvin", "Boston"]}
+{"turn_id": "D27:8", "facts": ["Dave said photography helps him capture and appreciate the beauty of nature and has become an awesome creative outlet for him."], "keywords": ["photography", "creative outlet", "nature"], "entities": ["Dave"]}
+{"turn_id": "D27:9", "facts": [], "keywords": ["question"], "entities": ["Calvin"]}
+{"turn_id": "D27:10", "facts": ["On 2023-10-29, Dave said he just finished restoring his car project and it looks amazing, inviting Calvin to come check it out."], "keywords": ["car restoration", "finished project", "invitation"], "entities": ["Dave"]}
+{"turn_id": "D27:11", "facts": ["Calvin said he has had some great music collaborations recently and his album is almost finished, promising to send Dave previews soon."], "keywords": ["music collaboration", "album", "almost finished"], "entities": ["Calvin"]}
+{"turn_id": "D27:12", "facts": [], "keywords": ["excitement"], "entities": ["Dave"]}
+{"turn_id": "D27:13", "facts": [], "keywords": ["farewell"], "entities": ["Calvin"]}
+{"turn_id": "D28:1", "facts": ["On 2023-11-02, Calvin said he threw a small party at his Japanese house the previous week (around 2023-10-26) to celebrate his new album, sharing a photo of the party in his mansion."], "keywords": ["party", "japan", "mansion", "album celebration"], "entities": ["Calvin", "Japan"]}
+{"turn_id": "D28:2", "facts": [], "keywords": ["congratulations"], "entities": ["Dave"]}
+{"turn_id": "D28:3", "facts": ["Calvin shared a photo of people dancing at his album release party, calling it super rewarding to see everyone come together to celebrate."], "keywords": ["party", "dancing", "album celebration"], "entities": ["Calvin"]}
+{"turn_id": "D28:4", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D28:5", "facts": ["Calvin said the room was buzzing with energy and love during his party, which was a powerful reminder of why he makes music."], "keywords": ["party", "energy", "motivation"], "entities": ["Calvin"]}
+{"turn_id": "D28:6", "facts": [], "keywords": ["reflection"], "entities": ["Dave"]}
+{"turn_id": "D28:7", "facts": ["Calvin said creating something people connect with and that brings them joy is what motivates him to keep growing."], "keywords": ["music career", "motivation", "purpose"], "entities": ["Calvin"]}
+{"turn_id": "D28:8", "facts": ["On 2023-11-02, Dave said he recently started a blog about car mods as a way to share his passion, sharing a photo of the car website design and asking Calvin for blogging tips."], "keywords": ["blog", "car mods", "sharing passion"], "entities": ["Dave"]}
+{"turn_id": "D28:9", "facts": [], "keywords": ["question"], "entities": ["Calvin"]}
+{"turn_id": "D28:10", "facts": ["Dave said he posted about making a car look like a beast on his blog, which inspired others to start their own DIY car projects, sharing a photo of a blue Subaru."], "keywords": ["blog", "diy", "car mods", "inspiration"], "entities": ["Dave", "Subaru"]}
+{"turn_id": "D28:11", "facts": [], "keywords": ["encouragement"], "entities": ["Calvin"]}
+{"turn_id": "D28:12", "facts": ["Dave said it's fulfilling for him to share his knowledge through his blog and help others unleash their creativity."], "keywords": ["blog", "fulfillment", "sharing knowledge"], "entities": ["Dave"]}
+{"turn_id": "D28:13", "facts": [], "keywords": ["encouragement"], "entities": ["Calvin"]}
+{"turn_id": "D28:14", "facts": ["Dave shared another photo of the blue Subaru car mod, saying it was a lot of work but worth it in the end."], "keywords": ["car mod", "subaru", "hard work"], "entities": ["Dave", "Subaru"]}
+{"turn_id": "D28:15", "facts": [], "keywords": ["question"], "entities": ["Calvin"]}
+{"turn_id": "D28:16", "facts": ["Dave said he spent a lot of time cleaning, polishing, and protecting the car's headlights to get them looking enchanting, sharing a night photo of the blue car."], "keywords": ["headlights", "car detailing", "photo"], "entities": ["Dave"]}
+{"turn_id": "D28:17", "facts": [], "keywords": ["compliment"], "entities": ["Calvin"]}
+{"turn_id": "D28:18", "facts": ["Dave shared a photo of a red car with a black engine and red hood."], "keywords": ["car", "engine", "photo"], "entities": ["Dave"]}
+{"turn_id": "D28:19", "facts": [], "keywords": ["question"], "entities": ["Calvin"]}
+{"turn_id": "D28:20", "facts": ["On 2023-11-02, Dave said he found the red car the previous week (around 2023-10-26) in bad shape but saw its potential and spent ages restoring it."], "keywords": ["car restoration", "find", "potential"], "entities": ["Dave"]}
+{"turn_id": "D28:21", "facts": [], "keywords": ["compliment"], "entities": ["Calvin"]}
+{"turn_id": "D28:22", "facts": ["Dave shared a photo of a guitar logo created for his rock band."], "keywords": ["rock band", "logo", "photo"], "entities": ["Dave"]}
+{"turn_id": "D28:23", "facts": [], "keywords": ["question"], "entities": ["Calvin"]}
+{"turn_id": "D28:24", "facts": ["Dave said he had been a fan of his rock band for ages and eventually got the opportunity to join them."], "keywords": ["rock band", "fan", "joining band"], "entities": ["Dave"]}
+{"turn_id": "D28:25", "facts": [], "keywords": ["reflection"], "entities": ["Calvin"]}
+{"turn_id": "D28:26", "facts": [], "keywords": ["reflection"], "entities": ["Dave"]}
+{"turn_id": "D28:27", "facts": ["Calvin shared a photo of his recording studio setup, saying that emotional connection through music is what he's aiming for."], "keywords": ["recording studio", "music connection", "photo"], "entities": ["Calvin"]}
+{"turn_id": "D28:28", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D28:29", "facts": ["Calvin said he only works in his studio and has a separate cozy room with a TV for relaxation, sharing a photo of the living room with a couch and television."], "keywords": ["studio", "living room", "relaxation", "tv"], "entities": ["Calvin"]}
+{"turn_id": "D28:30", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D28:31", "facts": ["Calvin said he usually watches music videos, concerts, and documentaries about artists' creative processes, which serves as inspiration and a way to learn about the industry."], "keywords": ["tv watching", "music videos", "documentaries", "inspiration"], "entities": ["Calvin"]}
+{"turn_id": "D28:32", "facts": ["Dave shared a photo of a notebook and pen."], "keywords": ["notebook", "photo"], "entities": ["Dave"]}
+{"turn_id": "D28:33", "facts": [], "keywords": ["question"], "entities": ["Calvin"]}
+{"turn_id": "D28:34", "facts": ["Dave said writing lyrics and notes in his notebook boosts his motivation, sharing a photo of Pink Floyd headphones on a shelf."], "keywords": ["notebook", "lyrics", "motivation", "pink floyd"], "entities": ["Dave", "Pink Floyd"]}
+{"turn_id": "D28:35", "facts": [], "keywords": ["reflection"], "entities": ["Calvin"]}
+{"turn_id": "D28:36", "facts": ["Dave said he listens to vinyl records to relax and stay on track while doing his car work."], "keywords": ["vinyl", "car work", "relaxation"], "entities": ["Dave"]}
+{"turn_id": "D28:37", "facts": [], "keywords": ["encouragement"], "entities": ["Calvin"]}
+{"turn_id": "D28:38", "facts": ["Dave said listening to music helps him focus and enjoy his car work, sharing a photo of his old record player that still works well."], "keywords": ["record player", "car work", "focus"], "entities": ["Dave"]}
+{"turn_id": "D28:39", "facts": [], "keywords": ["question"], "entities": ["Calvin"]}
+{"turn_id": "D28:40", "facts": ["Dave said he has been getting into classic rock lately, finding the music from that era timeless."], "keywords": ["classic rock", "music taste"], "entities": ["Dave"]}
+{"turn_id": "D28:41", "facts": [], "keywords": ["reflection"], "entities": ["Calvin"]}
+{"turn_id": "D28:42", "facts": [], "keywords": ["farewell"], "entities": ["Dave"]}
+{"turn_id": "D28:43", "facts": [], "keywords": ["farewell"], "entities": ["Calvin"]}
+{"turn_id": "D29:1", "facts": ["On 2023-11-13, Calvin said he invited an old high school buddy to see him perform in Boston, which reminded him how far he's come and how important relationships are in the music business."], "keywords": ["high school friend", "boston", "performance", "reflection"], "entities": ["Calvin", "Boston"]}
+{"turn_id": "D29:2", "facts": [], "keywords": ["reflection"], "entities": ["Dave"]}
+{"turn_id": "D29:3", "facts": ["Calvin shared an old photo of himself and his high school friend freestyling as teenagers and talking about getting famous."], "keywords": ["nostalgia", "freestyling", "teenage years", "photo"], "entities": ["Calvin"]}
+{"turn_id": "D29:4", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D29:5", "facts": ["Calvin said his high school friend has always been supportive and encouraging, and his positivity has made a big difference in Calvin's journey."], "keywords": ["friendship", "support", "encouragement"], "entities": ["Calvin"]}
+{"turn_id": "D29:6", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D29:7", "facts": ["Calvin said having supportive people around him is key to growing as an artist and staying true to himself, especially in the tough music industry."], "keywords": ["support system", "artist development", "music industry"], "entities": ["Calvin"]}
+{"turn_id": "D29:8", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D29:9", "facts": ["On 2023-11-13, Calvin said he has been supporting some young musicians from a music program, finding their passion and enthusiasm inspiring."], "keywords": ["mentorship", "young musicians", "music program"], "entities": ["Calvin"]}
+{"turn_id": "D29:10", "facts": [], "keywords": ["reflection"], "entities": ["Dave"]}
+{"turn_id": "D29:11", "facts": ["Calvin said he plans to support the young musicians he mentors for a long time, comparing it to passing a torch to keep music alive."], "keywords": ["mentorship", "legacy", "young musicians"], "entities": ["Calvin"]}
+{"turn_id": "D29:12", "facts": [], "keywords": ["reflection"], "entities": ["Dave"]}
+{"turn_id": "D29:13", "facts": ["Calvin shared a photo of himself making a beat for a young artist he believes has great potential in music."], "keywords": ["mentorship", "beat making", "young artist", "photo"], "entities": ["Calvin"]}
+{"turn_id": "D29:14", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D29:15", "facts": ["Calvin said he is having fun trying out new sounds and pushing boundaries in his music, wanting to stay ahead in the industry."], "keywords": ["experimentation", "music innovation"], "entities": ["Calvin"]}
+{"turn_id": "D29:16", "facts": [], "keywords": ["encouragement"], "entities": ["Dave"]}
+{"turn_id": "D29:17", "facts": [], "keywords": ["farewell"], "entities": ["Calvin"]}
+{"turn_id": "D29:18", "facts": [], "keywords": ["farewell"], "entities": ["Dave"]}
+{"turn_id": "D30:1", "facts": ["On 2023-11-17, Dave said he has taken up photography and has been taking pictures of the scenery around where he lives."], "keywords": ["photography", "scenery", "hobby"], "entities": ["Dave"]}
+{"turn_id": "D30:2", "facts": ["On 2023-11-17, Calvin said he went to a fancy gala in Boston the day before (2023-11-16) and met interesting people, sharing a photo of himself with the crew by a river."], "keywords": ["gala", "boston", "networking"], "entities": ["Calvin", "Boston"]}
+{"turn_id": "D30:3", "facts": [], "keywords": ["question"], "entities": ["Dave"]}
+{"turn_id": "D30:4", "facts": ["Calvin said he had an inspiring conversation at the Boston gala with a cool artist, connecting over music and art and discussing favorite artists and how music connects people, sharing a photo of the two of them together."], "keywords": ["gala", "artist", "music discussion", "boston"], "entities": ["Calvin", "Boston"]}
+{"turn_id": "D30:5", "facts": ["On 2023-11-17, Dave said he bought a new vintage camera this month that takes great photos, sharing a photo of it on a table."], "keywords": ["vintage camera", "photography", "purchase"], "entities": ["Dave"]}
+{"turn_id": "D30:6", "facts": [], "keywords": ["question"], "entities": ["Calvin"]}
+{"turn_id": "D30:7", "facts": ["Dave said his new vintage camera helps him capture special moments clearly."], "keywords": ["vintage camera", "photography"], "entities": ["Dave"]}
+{"turn_id": "D30:8", "facts": [], "keywords": ["question"], "entities": ["Calvin"]}
+{"turn_id": "D30:9", "facts": ["Dave said he loves capturing the beauty of nature in photos, like sunsets, beaches, and waves, sharing a recent photo of a sunset with a wave crashing on rocks."], "keywords": ["photography", "nature", "sunset", "waves"], "entities": ["Dave"]}
+{"turn_id": "D30:10", "facts": [], "keywords": ["compliment"], "entities": ["Calvin"]}
+{"turn_id": "D30:11", "facts": [], "keywords": ["reflection"], "entities": ["Dave"]}
+{"turn_id": "D30:12", "facts": ["Calvin shared a photo of a pond with rocks and a waterfall, saying nature's beauty helps him appreciate life during tough times."], "keywords": ["nature", "waterfall", "reflection", "photo"], "entities": ["Calvin"]}
+{"turn_id": "D30:13", "facts": ["On 2023-11-17, Dave shared a photo he took the previous week (around 2023-11-10) of a peaceful waterfall scene with rocks."], "keywords": ["waterfall", "photography", "photo"], "entities": ["Dave"]}
+{"turn_id": "D30:14", "facts": [], "keywords": ["question"], "entities": ["Calvin"]}
+{"turn_id": "D30:15", "facts": ["Dave said he found the serene waterfall spot in a nearby park and took the photo there."], "keywords": ["waterfall", "park", "photography"], "entities": ["Dave"]}
+{"turn_id": "D30:16", "facts": ["Calvin shared a photo he shot in a Japanese garden of a bench under a tree with pink flowers."], "keywords": ["japan", "garden", "photography", "photo"], "entities": ["Calvin", "Japan"]}
+{"turn_id": "D30:17", "facts": ["Dave said he found an even better peaceful spot with a bench under a tree with pink flowers, a perfect place to relax."], "keywords": ["photography", "relaxation", "peaceful spot"], "entities": ["Dave"]}
+{"turn_id": "D30:18", "facts": [], "keywords": ["reaction"], "entities": ["Calvin"]}
+{"turn_id": "D30:19", "facts": [], "keywords": ["invitation"], "entities": ["Dave"]}
+{"turn_id": "D30:20", "facts": ["On 2023-11-17, Calvin said he accepted an invitation to perform at an upcoming show in Boston, calling it an unforgettable musical experience to come."], "keywords": ["boston", "performance", "upcoming show"], "entities": ["Calvin", "Boston"]}
+{"turn_id": "D30:21", "facts": [], "keywords": ["congratulations"], "entities": ["Dave"]}
+{"turn_id": "D30:22", "facts": [], "keywords": ["farewell"], "entities": ["Calvin"]}
+{"turn_id": "D30:23", "facts": [], "keywords": ["farewell"], "entities": ["Dave"]}
+{"turn_id": "D30:24", "facts": [], "keywords": ["farewell"], "entities": ["Calvin"]}

@@ -3,9 +3,7 @@ from __future__ import annotations
 
 import json
 import os
-import shutil
-import tempfile
-from unittest.mock import patch, MagicMock, PropertyMock
+from unittest.mock import patch, MagicMock
 
 import pytest
 
@@ -26,7 +24,7 @@ from memory_os_ai.cloud_storage import (
     PROVIDER_NAMES,
     get_backend,
 )
-from memory_os_ai.storage_router import StorageRouter, MEMORY_FILE_PATTERNS, MEMORY_FILE_EXTENSIONS
+from memory_os_ai.storage_router import StorageRouter
 from memory_os_ai.models import CloudConfigureInput, CloudStatusInput, CloudSyncInput
 
 
@@ -414,7 +412,7 @@ class TestB2Backend:
 class TestStorageRouter:
     def test_init_creates_local_dir(self, tmp_path):
         d = tmp_path / "cache"
-        router = StorageRouter(local_dir=str(d))
+        StorageRouter(local_dir=str(d))
         assert d.is_dir()
 
     def test_no_cloud_by_default(self, tmp_path):
@@ -596,6 +594,7 @@ class TestStorageRouter:
             "MEMORY_CACHE_DIR": str(tmp_path),
         }):
             router = StorageRouter(local_dir=str(tmp_path))
+            assert router.local_dir == str(tmp_path)
             # iCloud won't work on CI but the configure path is exercised
 
 

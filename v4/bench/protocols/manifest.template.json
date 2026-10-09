@@ -1,0 +1,108 @@
+{
+  "protocol_version": "1.0",
+  "stage": "final",
+  "run_id": null,
+  "source": {
+    "commit": null,
+    "artifact": {
+      "path": null,
+      "sha256": null
+    }
+  },
+  "environment_lock": {
+    "path": null,
+    "sha256": null
+  },
+  "seed": null,
+  "hardware": {
+    "os": null,
+    "cpu": null,
+    "accelerator": null,
+    "device": null,
+    "python": null,
+    "ram_gib": null
+  },
+  "timing": {
+    "mode": "live",
+    "cache": "both",
+    "repetitions": null,
+    "warmup_queries": null,
+    "scope": "ingest+retrieval+generation"
+  },
+  "models": {
+    "embedding": {
+      "enabled": false
+    },
+    "reranker": {
+      "enabled": false
+    },
+    "planner": {
+      "enabled": false
+    },
+    "response": {
+      "enabled": false
+    },
+    "judge": {
+      "enabled": false
+    }
+  },
+  "tasks": [
+    {
+      "kind": "retrieval",
+      "metrics": [
+        "recall_at_k",
+        "mrr",
+        "ndcg_at_k"
+      ],
+      "scoring_rule": null
+    }
+  ],
+  "top_k": 10,
+  "budgets": {
+    "memory_bytes": null,
+    "ingest_tokens": null,
+    "context_tokens": null,
+    "query_tokens": null,
+    "model_calls": null,
+    "wall_seconds": null,
+    "api_usd": null
+  },
+  "systems": [
+    {
+      "name": "baseline",
+      "revision": null,
+      "command": null,
+      "config": {},
+      "budget_policy": "shared"
+    },
+    {
+      "name": "candidate",
+      "revision": null,
+      "command": null,
+      "config": {},
+      "budget_policy": "shared"
+    }
+  ],
+  "datasets": [
+    {
+      "name": null,
+      "revision": null,
+      "subset": null,
+      "exclusions": null,
+      "data": {
+        "path": null,
+        "sha256": null
+      },
+      "splits": {
+        "path": null,
+        "sha256": null
+      },
+      "group_keys": [
+        "conversation_id"
+      ],
+      "test_count": null
+    }
+  ],
+  "selection_rule": "dev_only_then_freeze",
+  "reporting": "separate_task_families"
+}

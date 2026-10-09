@@ -1,0 +1,81 @@
+{"qid": "conv-30:q0", "facets": [{"subject": "Jon", "predicate": "job_career"}, {"subject": "Jon", "predicate": "challenge_problem"}]}
+{"qid": "conv-30:q1", "facets": [{"subject": "Gina", "predicate": "job_career"}, {"subject": "Gina", "predicate": "challenge_problem"}]}
+{"qid": "conv-30:q2", "facets": [{"subject": "Jon", "predicate": "habit_routine"}, {"subject": "Gina", "predicate": "habit_routine"}]}
+{"qid": "conv-30:q3", "facets": [{"subject": "Jon", "predicate": "job_career"}, {"subject": "Gina", "predicate": "job_career"}]}
+{"qid": "conv-30:q4", "facets": [{"subject": "Jon", "predicate": "job_career"}, {"subject": "Jon", "predicate": "belief_value_opinion"}]}
+{"qid": "conv-30:q5", "facets": [{"subject": "Jon", "predicate": "belief_value_opinion"}, {"subject": "Jon", "predicate": "employer_business"}]}
+{"qid": "conv-30:q6", "facets": [{"subject": "Jon", "predicate": "event_attended"}, {"subject": "Jon", "predicate": "hobby_interest"}]}
+{"qid": "conv-30:q7", "facets": [{"subject": "Gina", "predicate": "employer_business"}, {"subject": "Gina", "predicate": "project_work"}]}
+{"qid": "conv-30:q8", "facets": [{"subject": "Jon", "predicate": "trip_location_visited"}]}
+{"qid": "conv-30:q9", "facets": [{"subject": "Jon", "predicate": "trip_location_visited"}, {"subject": "Gina", "predicate": "trip_location_visited"}]}
+{"qid": "conv-30:q10", "facets": [{"subject": "Gina", "predicate": "employer_business"}, {"subject": "Gina", "predicate": "creative_work"}]}
+{"qid": "conv-30:q11", "facets": [{"subject": "Gina", "predicate": "life_event_milestone"}, {"subject": "Gina", "predicate": "possession_purchase"}]}
+{"qid": "conv-30:q12", "facets": [{"subject": "Jon", "predicate": "sport_exercise"}, {"subject": "Jon", "predicate": "habit_routine"}]}
+{"qid": "conv-30:q13", "facets": [{"subject": "Gina", "predicate": "employer_business"}, {"subject": "Gina", "predicate": "project_work"}]}
+{"qid": "conv-30:q14", "facets": [{"subject": "Jon", "predicate": "employer_business"}, {"subject": "Jon", "predicate": "project_work"}]}
+{"qid": "conv-30:q15", "facets": [{"subject": "Jon", "predicate": "event_attended"}, {"subject": "Jon", "predicate": "employer_business"}]}
+{"qid": "conv-30:q16", "facets": [{"subject": "Jon", "predicate": "event_attended"}, {"subject": "Jon", "predicate": "employer_business"}]}
+{"qid": "conv-30:q17", "facets": [{"subject": "Gina", "predicate": "employer_business"}, {"subject": "Gina", "predicate": "belief_value_opinion"}]}
+{"qid": "conv-30:q18", "facets": [{"subject": "Jon", "predicate": "job_career"}, {"subject": "Gina", "predicate": "job_career"}]}
+{"qid": "conv-30:q19", "facets": [{"subject": "Gina", "predicate": "education_course"}, {"subject": "Gina", "predicate": "job_career"}]}
+{"qid": "conv-30:q20", "facets": [{"subject": "Gina", "predicate": "education_course"}, {"subject": "Gina", "predicate": "achievement_award"}]}
+{"qid": "conv-30:q21", "facets": [{"subject": "Jon", "predicate": "book_read"}]}
+{"qid": "conv-30:q22", "facets": [{"subject": "Gina", "predicate": "project_work"}, {"subject": "Gina", "predicate": "employer_business"}]}
+{"qid": "conv-30:q23", "facets": [{"subject": "Gina", "predicate": "employer_business"}, {"subject": "Gina", "predicate": "project_work"}]}
+{"qid": "conv-30:q24", "facets": [{"subject": "Jon", "predicate": "event_attended"}, {"subject": "Jon", "predicate": "employer_business"}]}
+{"qid": "conv-30:q25", "facets": [{"subject": "Jon", "predicate": "employer_business"}]}
+{"qid": "conv-30:q26", "facets": [{"subject": "Jon", "predicate": "colleague_mentor"}, {"subject": "Jon", "predicate": "employer_business"}]}
+{"qid": "conv-30:q27", "facets": [{"subject": "Jon", "predicate": "event_attended"}, {"subject": "Gina", "predicate": "event_attended"}]}
+{"qid": "conv-30:q28", "facets": [{"subject": "Jon", "predicate": "trip_location_visited"}]}
+{"qid": "conv-30:q29", "facets": [{"subject": "Jon", "predicate": "trip_location_visited"}]}
+{"qid": "conv-30:q30", "facets": [{"subject": "Jon", "predicate": "employer_business"}, {"subject": "Jon", "predicate": "goal_plan"}]}
+{"qid": "conv-30:q31", "facets": [{"subject": "Jon", "predicate": "employer_business"}, {"subject": "Jon", "predicate": "project_work"}]}
+{"qid": "conv-30:q32", "facets": [{"subject": "Gina", "predicate": "creative_work"}, {"subject": "Gina", "predicate": "employer_business"}]}
+{"qid": "conv-30:q33", "facets": [{"subject": "Jon", "predicate": "event_attended"}, {"subject": "Jon", "predicate": "employer_business"}]}
+{"qid": "conv-30:q34", "facets": [{"subject": "Gina", "predicate": "achievement_award"}, {"subject": "Gina", "predicate": "employer_business"}]}
+{"qid": "conv-30:q35", "facets": [{"subject": "Jon", "predicate": "skill_ability"}, {"subject": "Jon", "predicate": "education_course"}]}
+{"qid": "conv-30:q36", "facets": [{"subject": "Jon", "predicate": "project_work"}, {"subject": "Gina", "predicate": "project_work"}]}
+{"qid": "conv-30:q37", "facets": [{"subject": "Gina", "predicate": "movie_show_music"}]}
+{"qid": "conv-30:q38", "facets": [{"subject": "Gina", "predicate": "hobby_interest"}, {"subject": "Gina", "predicate": "friend"}]}
+{"qid": "conv-30:q39", "facets": [{"subject": "Gina", "predicate": "hobby_interest"}, {"subject": "Gina", "predicate": "preference_like"}]}
+{"qid": "conv-30:q40", "facets": [{"subject": "Jon", "predicate": "hobby_interest"}, {"subject": "Jon", "predicate": "preference_like"}]}
+{"qid": "conv-30:q41", "facets": [{"subject": "Gina", "predicate": "hobby_interest"}, {"subject": "Gina", "predicate": "life_event_milestone"}]}
+{"qid": "conv-30:q42", "facets": [{"subject": "Gina", "predicate": "achievement_award"}, {"subject": "Gina", "predicate": "hobby_interest"}]}
+{"qid": "conv-30:q43", "facets": [{"subject": "Gina", "predicate": "belief_value_opinion"}, {"subject": "Gina", "predicate": "hobby_interest"}]}
+{"qid": "conv-30:q44", "facets": [{"subject": "Gina", "predicate": "belief_value_opinion"}, {"subject": "Gina", "predicate": "hobby_interest"}]}
+{"qid": "conv-30:q45", "facets": [{"subject": "Jon", "predicate": "feeling_emotion"}, {"subject": "Jon", "predicate": "event_attended"}]}
+{"qid": "conv-30:q46", "facets": [{"subject": "Jon", "predicate": "employer_business"}, {"subject": "Jon", "predicate": "project_work"}]}
+{"qid": "conv-30:q47", "facets": [{"subject": "Gina", "predicate": "employer_business"}, {"subject": "Gina", "predicate": "possession_purchase"}]}
+{"qid": "conv-30:q48", "facets": [{"subject": "Gina", "predicate": "creative_work"}, {"subject": "Gina", "predicate": "employer_business"}]}
+{"qid": "conv-30:q49", "facets": [{"subject": "Gina", "predicate": "employer_business"}, {"subject": "Gina", "predicate": "belief_value_opinion"}]}
+{"qid": "conv-30:q50", "facets": [{"subject": "Jon", "predicate": "belief_value_opinion"}, {"subject": "Jon", "predicate": "employer_business"}]}
+{"qid": "conv-30:q51", "facets": [{"subject": "Gina", "predicate": "employer_business"}, {"subject": "Gina", "predicate": "belief_value_opinion"}]}
+{"qid": "conv-30:q52", "facets": [{"subject": "Jon", "predicate": "belief_value_opinion"}, {"subject": "Jon", "predicate": "employer_business"}]}
+{"qid": "conv-30:q53", "facets": [{"subject": "Gina", "predicate": "belief_value_opinion"}, {"subject": "Gina", "predicate": "employer_business"}]}
+{"qid": "conv-30:q54", "facets": [{"subject": "Gina", "predicate": "employer_business"}]}
+{"qid": "conv-30:q55", "facets": [{"subject": "Gina", "predicate": "belief_value_opinion"}, {"subject": "Gina", "predicate": "life_event_milestone"}]}
+{"qid": "conv-30:q56", "facets": [{"subject": "Jon", "predicate": "belief_value_opinion"}, {"subject": "Gina", "predicate": "belief_value_opinion"}]}
+{"qid": "conv-30:q57", "facets": [{"subject": "Gina", "predicate": "support_advice"}, {"subject": "Gina", "predicate": "employer_business"}]}
+{"qid": "conv-30:q58", "facets": [{"subject": "Jon", "predicate": "challenge_problem"}, {"subject": "Jon", "predicate": "job_career"}]}
+{"qid": "conv-30:q59", "facets": [{"subject": "Gina", "predicate": "employer_business"}, {"subject": "Gina", "predicate": "hobby_interest"}]}
+{"qid": "conv-30:q60", "facets": [{"subject": "Jon", "predicate": "feeling_emotion"}, {"subject": "Jon", "predicate": "hobby_interest"}]}
+{"qid": "conv-30:q61", "facets": [{"subject": "Gina", "predicate": "achievement_award"}]}
+{"qid": "conv-30:q62", "facets": [{"subject": "Gina", "predicate": "belief_value_opinion"}, {"subject": "Gina", "predicate": "employer_business"}]}
+{"qid": "conv-30:q63", "facets": [{"subject": "Gina", "predicate": "education_course"}, {"subject": "Gina", "predicate": "achievement_award"}]}
+{"qid": "conv-30:q64", "facets": [{"subject": "Gina", "predicate": "education_course"}]}
+{"qid": "conv-30:q65", "facets": [{"subject": "Jon", "predicate": "book_read"}]}
+{"qid": "conv-30:q66", "facets": [{"subject": "Jon", "predicate": "employer_business"}]}
+{"qid": "conv-30:q67", "facets": [{"subject": "Jon", "predicate": "habit_routine"}, {"subject": "Jon", "predicate": "employer_business"}]}
+{"qid": "conv-30:q68", "facets": [{"subject": "Jon", "predicate": "belief_value_opinion"}]}
+{"qid": "conv-30:q69", "facets": [{"subject": "Jon", "predicate": "trip_location_visited"}]}
+{"qid": "conv-30:q70", "facets": [{"subject": "Jon", "predicate": "employer_business"}, {"subject": "Jon", "predicate": "goal_plan"}]}
+{"qid": "conv-30:q71", "facets": [{"subject": "Gina", "predicate": "belief_value_opinion"}, {"subject": "Gina", "predicate": "employer_business"}]}
+{"qid": "conv-30:q72", "facets": [{"subject": "Jon", "predicate": "feeling_emotion"}, {"subject": "Jon", "predicate": "employer_business"}]}
+{"qid": "conv-30:q73", "facets": [{"subject": "Gina", "predicate": "feeling_emotion"}, {"subject": "Gina", "predicate": "hobby_interest"}]}
+{"qid": "conv-30:q74", "facets": [{"subject": "Jon", "predicate": "goal_plan"}, {"subject": "Jon", "predicate": "employer_business"}]}
+{"qid": "conv-30:q75", "facets": [{"subject": "Gina", "predicate": "support_advice"}, {"subject": "Gina", "predicate": "employer_business"}]}
+{"qid": "conv-30:q76", "facets": [{"subject": "Jon", "predicate": "feeling_emotion"}, {"subject": "Gina", "predicate": "feeling_emotion"}]}
+{"qid": "conv-30:q77", "facets": [{"subject": "Gina", "predicate": "creative_work"}, {"subject": "Gina", "predicate": "employer_business"}]}
+{"qid": "conv-30:q78", "facets": [{"subject": "Gina", "predicate": "colleague_mentor"}, {"subject": "Gina", "predicate": "belief_value_opinion"}]}
+{"qid": "conv-30:q80", "facets": [{"subject": "Jon", "predicate": "goal_plan"}, {"subject": "Jon", "predicate": "event_attended"}]}
+{"qid": "conv-30:q81", "facets": [{"subject": "Gina", "predicate": "support_advice"}, {"subject": "Gina", "predicate": "employer_business"}]}

@@ -3,15 +3,35 @@
 
 > Adaptive memory system for AI agents — universal MCP server for **Claude Code, Codex CLI, VS Code Copilot, ChatGPT**, and any MCP-compatible client.
 
-[![Tests](https://img.shields.io/badge/tests-410%20passed-brightgreen)]()
-[![Coverage](https://img.shields.io/badge/coverage-96%25-brightgreen)]()
-[![Python](https://img.shields.io/badge/python-3.10+-blue)]()
+[![CI](https://github.com/romainsantoli-web/Memory-os-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/romainsantoli-web/Memory-os-ai/actions/workflows/ci.yml)
+[![Python](https://img.shields.io/badge/python-3.11+-blue)]()
 [![MCP](https://img.shields.io/badge/MCP-2025--11--25-purple)]()
 [![VS Code](https://img.shields.io/badge/VS%20Code-MCP%20Ready-007ACC?logo=visualstudiocode)]()
-[![Version](https://img.shields.io/badge/version-3.1.0-orange)]()
+[![Version](https://img.shields.io/badge/version-4.0.0-orange)]()
 [![License](https://img.shields.io/badge/license-LGPL--3.0-orange)]()
 
-## Concept
+## What's new in 4.0 — Memory OS v4
+
+`pip install memory-os-ai` now ships **two engines**:
+
+| Command | Engine | Notes |
+|---|---|---|
+| `memory-os-ai` / `memory-os-v4` | **v4** (`memory_os_v4`) — default | typed bi-temporal memory (episodes, facts, summaries, procedures), hybrid dense + BM25 + keyword retrieval with multi-query RRF, core blocks, consolidation, 16 MCP tools |
+| `memory-os-ai-v3` | v3 (`memory_os_ai`) | the previous FAISS document server, unchanged API (21 tools) |
+
+```bash
+memory-os-ai --selfcheck                         # exercise every tool once
+memory-os-ai                                     # stdio MCP server
+memory-os-ai --transport http --port 8765 --warm # one shared HTTP server for all clients
+```
+
+Data lives in `MEMORY_V4_DIR` (default `~/.memory-os-v4`). Existing v3 memories can be imported with the `memory_migrate_v3` tool.
+Exploratory LoCoMo evidence-retrieval Recall@10 (`v4/bench`): v3 0.175 → v4 0.538 with production defaults, 0.815 with offline LLM enrichment and reranking. This is retrieval recall on 1,536 questions after excluding adversarial/empty-evidence items; it does not measure answer accuracy or agent task success. The LongMemEval pilot uses a 150-question **oracle** sample, not the full benchmark. See the [frozen evaluation protocol](v4/bench/protocols/v1.md) before making final comparisons.
+Details: [`v4/README.md`](v4/README.md), [`v4/docs/ARCHITECTURE.md`](v4/docs/ARCHITECTURE.md), [`v4/RESULTS.md`](v4/RESULTS.md).
+
+> **Upgrading from 3.x:** the `memory-os-ai` command now starts v4. To keep v3, point your MCP config at `memory-os-ai-v3`.
+
+## v3 document engine
 
 Memory OS AI transforms your local documents (PDF, DOCX, images, audio) into a **semantic memory** queryable by any AI model through the **MCP** (Model Context Protocol).
 
@@ -35,7 +55,7 @@ Memory OS AI transforms your local documents (PDF, DOCX, images, audio) into a *
 └──────────────────────────────────┘
 ```
 
-## Features
+### v3 features
 
 - **21 MCP tools** for memory management, search, chat persistence, project linking, and cloud storage
 - **Semantic search** with FAISS + SentenceTransformers (all-MiniLM-L6-v2)
@@ -47,7 +67,7 @@ Memory OS AI transforms your local documents (PDF, DOCX, images, audio) into a *
 - **MCP Resources**: `memory://documents/*`, `memory://logs/conversation`, `memory://linked/*`
 - **Local-first**: all data on your machine by default, cloud only when disk runs low
 
-## 21 MCP Tools
+### v3 MCP tools
 
 | Tool | Description |
 |------|-------------|
@@ -96,32 +116,47 @@ cd Memory-os-ai
 pip install -e ".[dev,audio]"
 ```
 
-### Auto-Setup (recommended)
+### Configure v4 in your MCP client
 
-```bash
-# Setup for your AI client:
-memory-os-ai setup claude-code    # Claude Code
-memory-os-ai setup codex          # Codex CLI
-memory-os-ai setup vscode         # VS Code Copilot
-memory-os-ai setup claude-desktop # Claude Desktop
-memory-os-ai setup chatgpt        # ChatGPT (manual bridge)
-memory-os-ai setup all            # All of the above
+Use the installed command in your client's MCP server configuration:
 
-# Check status:
-memory-os-ai setup status
+```json
+{
+  "mcpServers": {
+    "memory-os-ai": {
+      "command": "/absolute/path/to/venv/bin/memory-os-ai",
+      "env": {"MEMORY_V4_DIR": "/absolute/path/to/memory-data"}
+    }
+  }
+}
 ```
 
-### Manual Start
+The default v4 model is `ibm-granite/granite-embedding-97m-multilingual-r2`.
+The first semantic operation downloads model weights; cache them before enabling
+`HF_HUB_OFFLINE=1`. `MEMORY_V4_EMBED_MODEL=hash` is a fast diagnostic option.
 
 ```bash
-# stdio (default — Claude Code, VS Code, Codex)
-memory-os-ai
+memory-os-ai --selfcheck
+memory-os-ai --transport http --host 127.0.0.1 --port 8765 --warm
+```
 
-# SSE transport (port 8765)
-memory-os-ai --sse
+Keep the v4 data directory dedicated to this engine. For a shared HTTP service,
+use one server process for all clients. See [v4 configuration](v4/README.md).
 
-# Streamable HTTP (port 8765)
-memory-os-ai --http
+### Legacy v3 configuration
+
+The setup module configures **v3** clients:
+
+```bash
+python -m memory_os_ai.setup claude-code
+python -m memory_os_ai.setup codex
+python -m memory_os_ai.setup vscode
+python -m memory_os_ai.setup claude-desktop
+python -m memory_os_ai.setup chatgpt
+python -m memory_os_ai.setup status
+memory-os-ai-v3
+memory-os-ai-v3 --sse
+memory-os-ai-v3 --http
 ```
 
 ## Project Structure
@@ -159,7 +194,7 @@ Memory-os-ai/
 └── README.md
 ```
 
-## Cloud Storage (v3.1.0)
+## v3 Cloud Storage (v3.1.0)
 
 When local disk runs low (< 500 MB free by default), memory data automatically overflows to a configured cloud backend.
 
@@ -183,7 +218,7 @@ When local disk runs low (< 500 MB free by default), memory data automatically o
 # Configure via environment (auto-activates on server start)
 export MEMORY_CLOUD_PROVIDER=icloud
 export MEMORY_CLOUD_CONFIG='{"container": "memory-os-ai"}'
-memory-os-ai
+memory-os-ai-v3
 
 # Or configure at runtime via MCP tool:
 #   memory_cloud_configure(provider="s3", credentials={"bucket": "my-bucket", ...})
@@ -193,7 +228,7 @@ memory-os-ai
 #   memory_cloud_sync("auto")   → offload if disk low
 ```
 
-## Configuration
+## v3 Configuration
 
 ### Environment Variables
 
@@ -206,24 +241,32 @@ memory-os-ai
 | `MEMORY_CLOUD_CONFIG` | *(none)* | JSON credentials or path to JSON file |
 | `MEMORY_DISK_THRESHOLD` | `524288000` | Bytes free before cloud overflow (500 MB) |
 
-## Development
+## Development and distribution qualification
+
+Python 3.11 and 3.12 are the CI matrix; package metadata requires Python >=3.11.
 
 ```bash
-# Install dev dependencies
-pip install -e ".[dev]"
-
-# Run tests
-python -m pytest tests/ -v
-
-# Run with coverage
-python -m pytest tests/ --cov=memory_os_ai --cov-report=term-missing
-
-# Coverage threshold: 80% (enforced in pyproject.toml)
+python -m pip install -e ".[dev]"
+ruff check src tests v4/src v4/tests v4/bench scripts --select E9,F
+python -m pytest tests --cov=memory_os_ai --cov-report=xml:coverage-v3.xml
+python -m pytest v4/tests -m "not slow" --cov=memory_os_v4 --cov-report=xml:coverage-v4.xml
+python -m build
+python -m twine check dist/*
 ```
+
+CI blocks on lint, distinct v3/v4 coverage (80% minimum each), and installed
+wheel/sdist MCP startup outside the source checkout. A separate CPU job downloads
+and caches Granite/MiniLM, then runs real semantic retrieval and persistence
+checks offline. It uses no paid API and has a 25-minute timeout. Model downloads
+and CPU inference make its cold run slower than deterministic tests.
+See [release qualification](docs/DISTRIBUTION.md).
 
 ## License
 
-GNU Lesser General Public License v3.0 (LGPL-3.0). See [LICENSE](LICENSE) for details.
+GNU Lesser General Public License v3 or later (`LGPL-3.0-or-later`).
+See [LICENSE](LICENSE) for LGPLv3 and [LICENSE.GPL-3.0](LICENSE.GPL-3.0) for its required GPLv3 companion.
+The maintainer confirmed this license choice on 2026-10-09; the former GPL-only
+license file has been retained as the companion rather than discarded.
 
 For commercial licensing, contact romainsantoli@gmail.com.
 

@@ -1,0 +1,114 @@
+{"tid": "answer_e05e4612:0", "facets": [{"subject": "user", "predicate": "movie_show_music", "object": "likes Tameca Jones' music"}]}
+{"tid": "answer_e05e4612:2", "facets": [{"subject": "user", "predicate": "movie_show_music", "object": "listens to Lo-Fi hip hop and Tameca Jones on repeat"}, {"subject": "user", "predicate": "goal_plan", "object": "wants to create a new relaxing music playlist"}, {"subject": "user", "predicate": "hobby_interest", "object": "has 20 Spotify playlists, wants to organize them"}]}
+{"tid": "answer_e05e4612:4", "facets": [{"subject": "user", "predicate": "hobby_interest", "object": "organizes Spotify playlists by mood (Morning Boost, Focus Flow)"}]}
+{"tid": "answer_e05e4612:6", "facets": [{"subject": "user", "predicate": "habit_routine", "object": "uses Spotify's Discover Weekly and Release Radar"}]}
+{"tid": "answer_e05e4612:8", "facets": [{"subject": "user", "predicate": "event_attended", "object": "going to see Tameca Jones live next month"}]}
+{"tid": "answer_e05e4612:10", "facets": [{"subject": "user", "predicate": "hobby_interest", "object": "recently started collecting vinyl records"}, {"subject": "user", "predicate": "possession_purchase", "object": "bought first vinyl: Fleetwood Mac's Rumours reissue"}, {"subject": "user", "predicate": "possession_purchase", "object": "bought a new turntable"}]}
+{"tid": "answer_d50a8a33_2:0", "facets": [{"subject": "user", "predicate": "pet", "object": "has a puppy named Luna"}, {"subject": "user", "predicate": "possession_purchase", "object": "bought eco-friendly potty pads for Luna from Chewy, $25"}]}
+{"tid": "answer_d50a8a33_2:2", "facets": [{"subject": "user", "predicate": "pet", "object": "has a golden retriever named Max"}, {"subject": "user", "predicate": "possession_purchase", "object": "ordered 6-month generic Frontline flea/tick treatment from Chewy"}]}
+{"tid": "answer_d50a8a33_2:4", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "bought 30lb bag of Acana dog food from PetSmart, $70"}]}
+{"tid": "answer_d50a8a33_2:6", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "bought pet-safe bowl cleaning products from Amazon, ~$20"}]}
+{"tid": "answer_d50a8a33_2:8", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "bought 20 dental chews for Luna from vet's office, $15"}]}
+{"tid": "answer_d50a8a33_2:10", "facets": [{"subject": "user", "predicate": "pet", "object": "has a cat named Whiskers"}, {"subject": "user", "predicate": "possession_purchase", "object": "bought a 5-tier cat tree from Walmart, $40"}]}
+{"tid": "answer_d50a8a33_1:0", "facets": [{"subject": "user", "predicate": "pet", "object": "has a golden retriever named Max"}, {"subject": "user", "predicate": "health_condition", "object": "dog Max has arthritis"}, {"subject": "user", "predicate": "possession_purchase", "object": "bought orthopedic memory foam dog bed from Petco"}]}
+{"tid": "answer_d50a8a33_1:2", "facets": [{"subject": "user", "predicate": "challenge_problem", "object": "trying to help dog Max lose weight"}]}
+{"tid": "answer_d50a8a33_1:4", "facets": [{"subject": "user", "predicate": "challenge_problem", "object": "dog Max is picky about new grain-free food"}]}
+{"tid": "answer_d50a8a33_1:6", "facets": [{"subject": "user", "predicate": "pet", "object": "has a new puppy named Luna"}]}
+{"tid": "answer_d50a8a33_1:8", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "planning to get Max a new chew toy for his teeth"}]}
+{"tid": "answer_d50a8a33_1:10", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "decided to get Max a Kong Toy"}]}
+{"tid": "answer_c65042d7_2:0", "facets": [{"subject": "user", "predicate": "pet", "object": "has a betta fish named Finley in a 5-gallon tank"}, {"subject": "user", "predicate": "challenge_problem", "object": "dealing with high nitrite levels in fish tank"}]}
+{"tid": "answer_c65042d7_2:4", "facets": [{"subject": "user", "predicate": "hobby_interest", "object": "has kept aquariums for about 6 months"}, {"subject": "user", "predicate": "possession_purchase", "object": "set up a new 20-gallon community fish tank"}]}
+{"tid": "answer_c65042d7_2:10", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "planning to set up a quarantine tank for new fish"}]}
+{"tid": "answer_c65042d7_1:0", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "set up a 20-gallon freshwater tank named Amazonia"}]}
+{"tid": "answer_c65042d7_1:2", "facets": [{"subject": "user", "predicate": "pet", "object": "tank Amazonia has neon tetras, harlequin rasboras, and platies"}]}
+{"tid": "answer_c65042d7_1:4", "facets": [{"subject": "user", "predicate": "challenge_problem", "object": "dealing with algae growth on tank Amazonia's glass"}]}
+{"tid": "answer_c65042d7_1:6", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "planning to add more plants to tank Amazonia"}]}
+{"tid": "answer_c65042d7_1:8", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "planning to get driftwood for tank Amazonia"}]}
+{"tid": "answer_c65042d7_1:10", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "planning to set up a trellis for java moss in Amazonia"}]}
+{"tid": "answer_c65042d7_3:0", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "has anacharis and java moss plants in tank"}]}
+{"tid": "answer_c65042d7_3:2", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "considering Amazon Swords and Water Wisteria for tank"}]}
+{"tid": "answer_c65042d7_3:4", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "uses API CO2 booster fertilizer for aquarium plants"}]}
+{"tid": "answer_c65042d7_3:10", "facets": [{"subject": "user", "predicate": "hobby_interest", "object": "maintains a 1-gallon tank with guppies for a friend's kid"}]}
+{"tid": "answer_8748f791_1:0", "facets": [{"subject": "user", "predicate": "job_career", "object": "leads a team of engineers, planning a team outing"}]}
+{"tid": "answer_8748f791_1:4", "facets": [{"subject": "user", "predicate": "colleague_mentor", "object": "manager Rachel is joining the team outing"}]}
+{"tid": "answer_8748f791_1:8", "facets": [{"subject": "user", "predicate": "job_career", "object": "recently started new role as Senior Software Engineer"}]}
+{"tid": "answer_8748f791_1:10", "facets": [{"subject": "user", "predicate": "job_career", "object": "leads a team of 4 engineers as Senior Software Engineer"}]}
+{"tid": "answer_8748f791_2:2", "facets": [{"subject": "user", "predicate": "job_career", "object": "enjoys role as Senior Software Engineer leading five engineers"}]}
+{"tid": "answer_8748f791_2:4", "facets": [{"subject": "user", "predicate": "residence", "object": "lives in the San Francisco Bay Area"}]}
+{"tid": "answer_8748f791_2:6", "facets": [{"subject": "user", "predicate": "challenge_problem", "object": "struggling to delegate tasks to meet project deadlines"}]}
+{"tid": "answer_8748f791_2:8", "facets": [{"subject": "user", "predicate": "feeling_emotion", "object": "proud of team's progress at work"}]}
+{"tid": "answer_8748f791_2:10", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "planning a scavenger hunt for team outing"}]}
+{"tid": "answer_b10dce5e:0", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "owns a portable power bank and wireless charging pad"}]}
+{"tid": "answer_b10dce5e:2", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "owns an Apple Watch"}]}
+{"tid": "answer_b10dce5e:10", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "considering buying a new LG 4K smart TV"}]}
+{"tid": "answer_ultrachat_459954:4", "facets": [{"subject": "user", "predicate": "hobby_interest", "object": "interested in Native American culture"}, {"subject": "user", "predicate": "goal_plan", "object": "wants to attend a powwow"}]}
+{"tid": "answer_94030872:0", "facets": [{"subject": "user", "predicate": "job_career", "object": "has a part-time job while attending school"}]}
+{"tid": "answer_94030872:4", "facets": [{"subject": "user", "predicate": "habit_routine", "object": "uses Google Calendar for classes and work schedule"}]}
+{"tid": "answer_94030872:6", "facets": [{"subject": "user", "predicate": "habit_routine", "object": "started using Todoist for task management"}, {"subject": "user", "predicate": "goal_plan", "object": "planning a trip to the Great Ocean Road, Australia"}]}
+{"tid": "answer_94030872:8", "facets": [{"subject": "user", "predicate": "trip_location_visited", "object": "visited the Great Ocean Road during study abroad in Australia"}, {"subject": "user", "predicate": "education_course", "object": "studied abroad at the University of Melbourne"}]}
+{"tid": "answer_b3070ec4_1:0", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "planning a farm open house event"}, {"subject": "user", "predicate": "pet", "object": "has goats on the farm"}, {"subject": "user", "predicate": "other", "object": "fixed a broken fence on the farm three weeks ago"}]}
+{"tid": "answer_b3070ec4_1:2", "facets": [{"subject": "user", "predicate": "health_condition", "object": "had goats vaccinated against parasites last Thursday"}]}
+{"tid": "answer_b3070ec4_1:6", "facets": [{"subject": "user", "predicate": "pet", "object": "keeps chickens for eggs"}, {"subject": "user", "predicate": "food_drink_recipe", "object": "made a quiche using fresh herbs from own garden"}]}
+{"tid": "answer_b3070ec4_1:8", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "considering buying a new cow (Brown Swiss or Jersey) for milk"}]}
+{"tid": "answer_b3070ec4_2:0", "facets": [{"subject": "user", "predicate": "habit_routine", "object": "regularly trims goats' hooves"}]}
+{"tid": "answer_b3070ec4_2:4", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "planning to buy a new cow for milk and cheese production"}]}
+{"tid": "answer_b3070ec4_2:6", "facets": [{"subject": "user", "predicate": "feeling_emotion", "object": "proud of improving at trimming goats' hooves"}]}
+{"tid": "answer_b3070ec4_2:10", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "planning to set up a farm store on property"}]}
+{"tid": "answer_ef74281f_2:2", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "bought an $800 luxury evening gown for a wedding"}, {"subject": "user", "predicate": "habit_routine", "object": "tends to splurge on luxury items when stressed or celebrating"}]}
+{"tid": "answer_ef74281f_2:4", "facets": [{"subject": "user", "predicate": "challenge_problem", "object": "has irregular income, needs a flexible budget"}]}
+{"tid": "answer_ef74281f_2:8", "facets": [{"subject": "user", "predicate": "habit_routine", "object": "spends a lot on dining out and concerts"}]}
+{"tid": "answer_ef74281f_2:10", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "plans to limit dining out to once or twice a week"}]}
+{"tid": "answer_ef74281f_3:2", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "bought graphic tees from H&M for $20"}, {"subject": "user", "predicate": "possession_purchase", "object": "bought leather boots from a high-end Italian designer, $500"}]}
+{"tid": "answer_ef74281f_1:0", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "bought a $1,200 Gucci handbag"}]}
+{"tid": "answer_ef74281f_1:2", "facets": [{"subject": "user", "predicate": "habit_routine", "object": "splurges on luxury items every few months without budgeting"}]}
+{"tid": "answer_ef74281f_1:6", "facets": [{"subject": "user", "predicate": "belief_value_opinion", "object": "believes luxury purchases are investment pieces despite being emotional"}]}
+{"tid": "answer_ef74281f_1:8", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "wants to set a 'treat yourself' budget"}]}
+{"tid": "answer_766ab8da_1:0", "facets": [{"subject": "user", "predicate": "movie_show_music", "object": "enjoys watching Stranger Things and The Crown"}]}
+{"tid": "answer_766ab8da_1:2", "facets": [{"subject": "user", "predicate": "hobby_interest", "object": "has a to-watch list of 20 TV titles"}]}
+{"tid": "answer_766ab8da_1:4", "facets": [{"subject": "user", "predicate": "preference_like", "object": "enjoys horror TV series"}]}
+{"tid": "answer_766ab8da_1:6", "facets": [{"subject": "user", "predicate": "preference_like", "object": "prefers complex, atmospheric shows with strong character development"}]}
+{"tid": "answer_766ab8da_1:10", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "plans to watch Victoria and The Last Kingdom next"}]}
+{"tid": "answer_766ab8da_2:0", "facets": [{"subject": "user", "predicate": "movie_show_music", "object": "finished watching and loved The Crown"}]}
+{"tid": "answer_766ab8da_2:2", "facets": [{"subject": "user", "predicate": "hobby_interest", "object": "has 25 titles on to-watch list"}]}
+{"tid": "answer_766ab8da_2:6", "facets": [{"subject": "user", "predicate": "preference_like", "object": "interested in Schindler's List and 12 Years a Slave"}]}
+{"tid": "answer_766ab8da_2:8", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "plans to watch Amistad and Hotel Rwanda"}]}
+{"tid": "answer_772472c8:0", "facets": [{"subject": "user", "predicate": "food_drink_recipe", "object": "experimented with turbinado sugar for richer flavor"}]}
+{"tid": "answer_772472c8:4", "facets": [{"subject": "user", "predicate": "food_drink_recipe", "object": "wants to use turbinado sugar in a carrot cake recipe"}]}
+{"tid": "answer_772472c8:12", "facets": [{"subject": "user", "predicate": "food_drink_recipe", "object": "plans to use muscovado sugar in cream cheese frosting"}]}
+{"tid": "answer_f38f679b:0", "facets": [{"subject": "user", "predicate": "job_career", "object": "runs a freelance writing business"}]}
+{"tid": "answer_f38f679b:2", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "got a 10% discount on first purchase from a new clothing brand"}]}
+{"tid": "answer_f38f679b:4", "facets": [{"subject": "user", "predicate": "family_member", "object": "has a cousin who had an art exhibition"}, {"subject": "user", "predicate": "project_work", "object": "created a content calendar for cousin's art exhibition promotion"}]}
+{"tid": "answer_4ffa04a2_1:0", "facets": [{"subject": "user", "predicate": "event_attended", "object": "ran 5K in Run for the Cure event on October 15th"}, {"subject": "user", "predicate": "volunteering_cause", "object": "raised $250 for breast cancer research"}]}
+{"tid": "answer_4ffa04a2_1:2", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "planning to register for a cycling event next month"}]}
+{"tid": "answer_4ffa04a2_1:4", "facets": [{"subject": "user", "predicate": "skill_ability", "object": "not an experienced cyclist, registering for a 10K cycling event"}]}
+{"tid": "answer_4ffa04a2_1:8", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "considering a charity swim event for a children's hospital"}, {"subject": "user", "predicate": "skill_ability", "object": "has never done a swim event before"}]}
+{"tid": "answer_4ffa04a2_6:0", "facets": [{"subject": "user", "predicate": "event_attended", "object": "participated in Dance for a Cause charity event on May 1st"}]}
+{"tid": "answer_4ffa04a2_6:8", "facets": [{"subject": "user", "predicate": "event_attended", "object": "danced 6 hours at Dance for a Cause event for local arts program"}]}
+{"tid": "answer_4ffa04a2_5:0", "facets": [{"subject": "user", "predicate": "volunteering_cause", "object": "volunteered at Walk for Wildlife event in June"}, {"subject": "user", "predicate": "hobby_interest", "object": "interested in wildlife conservation"}]}
+{"tid": "answer_4ffa04a2_5:4", "facets": [{"subject": "user", "predicate": "skill_ability", "object": "has event planning experience from volunteering"}, {"subject": "user", "predicate": "habit_routine", "object": "available to volunteer weekends within 30 minutes of home"}]}
+{"tid": "answer_4ffa04a2_5:10", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "interested in volunteering with the Local Park Conservancy"}]}
+{"tid": "answer_4ffa04a2_4:0", "facets": [{"subject": "user", "predicate": "event_attended", "object": "attended a charity golf tournament on July 17th"}, {"subject": "user", "predicate": "challenge_problem", "object": "wants to improve golf swing as a beginner"}]}
+{"tid": "answer_4ffa04a2_4:2", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "planning to take golf lessons"}]}
+{"tid": "answer_4ffa04a2_4:4", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "planning to organize a charity golf tournament"}]}
+{"tid": "answer_4ffa04a2_2:0", "facets": [{"subject": "user", "predicate": "volunteering_cause", "object": "volunteered at Food for Thought charity gala on September 25th"}]}
+{"tid": "answer_4ffa04a2_3:0", "facets": [{"subject": "user", "predicate": "event_attended", "object": "participated in Bike-a-Thon charity event in November"}]}
+{"tid": "answer_4ffa04a2_3:2", "facets": [{"subject": "user", "predicate": "skill_ability", "object": "considers self not very experienced at cycling"}]}
+{"tid": "answer_4ffa04a2_3:8", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "planning a 10-15 mile group bike ride"}]}
+{"tid": "answer_8d015d9d_3:0", "facets": [{"subject": "user", "predicate": "game_played", "object": "finished playing Assassin's Creed Odyssey"}]}
+{"tid": "answer_8d015d9d_3:4", "facets": [{"subject": "user", "predicate": "preference_like", "object": "leaning towards playing The Witcher 3"}]}
+{"tid": "answer_8d015d9d_3:6", "facets": [{"subject": "user", "predicate": "game_played", "object": "spent about 70 hours playing Assassin's Creed Odyssey"}]}
+{"tid": "answer_8d015d9d_1:0", "facets": [{"subject": "user", "predicate": "game_played", "object": "finished The Last of Us Part II on normal difficulty in 25 hours"}]}
+{"tid": "answer_8d015d9d_1:10", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "considering buying a new gaming keyboard"}]}
+{"tid": "answer_8d015d9d_2:0", "facets": [{"subject": "user", "predicate": "game_played", "object": "completed The Last of Us Part II on hard difficulty in 30 hours"}]}
+{"tid": "answer_8d015d9d_5:0", "facets": [{"subject": "user", "predicate": "game_played", "object": "finished Hyper Light Drifter in 5 hours"}, {"subject": "user", "predicate": "preference_like", "object": "loves atmospheric soundtracks and visuals in indie games"}]}
+{"tid": "answer_8d015d9d_5:2", "facets": [{"subject": "user", "predicate": "game_played", "object": "loved playing Celeste"}]}
+{"tid": "answer_8d015d9d_5:4", "facets": [{"subject": "user", "predicate": "game_played", "object": "completed The Last of Us Part II on normal and hard difficulties"}]}
+{"tid": "answer_8d015d9d_5:10", "facets": [{"subject": "user", "predicate": "preference_like", "object": "has been a PlayStation fan for a while"}, {"subject": "user", "predicate": "goal_plan", "object": "considering buying a PS5"}]}
+{"tid": "answer_8d015d9d_4:0", "facets": [{"subject": "user", "predicate": "game_played", "object": "completed Celeste in 10 hours"}]}
+{"tid": "answer_8d015d9d_4:2", "facets": [{"subject": "user", "predicate": "game_played", "object": "already played Hyper Light Drifter"}]}
+{"tid": "answer_d6d2eba8_1:2", "facets": [{"subject": "user", "predicate": "habit_routine", "object": "wants to stock up on coffee for daily routine"}]}
+{"tid": "answer_d6d2eba8_1:4", "facets": [{"subject": "user", "predicate": "habit_routine", "object": "uses the Starbucks Rewards app"}]}
+{"tid": "answer_d6d2eba8_1:6", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "trying to reach gold level on Starbucks Rewards"}]}
+{"tid": "answer_d6d2eba8_2:2", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "plans to shop at Sephora and Starbucks this weekend"}]}
+{"tid": "answer_d6d2eba8_2:6", "facets": [{"subject": "user", "predicate": "habit_routine", "object": "organizes loyalty cards and rewards points using a spreadsheet"}]}
+{"tid": "answer_d6d2eba8_2:8", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "considering buying a new laptop"}]}

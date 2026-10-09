@@ -1,0 +1,89 @@
+{"tid": "answer_5328c3c2_2:0", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "pre-ordered Dell XPS 13 laptop Jan 28, arrived Feb 25 after delay"}, {"subject": "user", "predicate": "goal_plan", "object": "planning a trip to Hawaii"}]}
+{"tid": "answer_5328c3c2_2:2", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "bought Anker PowerCore 20000 power bank from Amazon Feb 13th"}]}
+{"tid": "answer_5328c3c2_2:4", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "owns a Belkin Boost Up wireless charging pad for phone and smartwatch"}]}
+{"tid": "answer_5328c3c2_2:10", "facets": [{"subject": "user", "predicate": "feeling_emotion", "object": "excited for upcoming Hawaii trip"}]}
+{"tid": "answer_a8b4290f_2:0", "facets": [{"subject": "user", "predicate": "trip_location_visited", "object": "went on a 3-day solo camping trip to Big Sur in early April"}]}
+{"tid": "answer_a8b4290f_2:2", "facets": [{"subject": "user", "predicate": "trip_location_visited", "object": "hiked trails in Yellowstone last month"}]}
+{"tid": "answer_a8b4290f_2:4", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "planning a 10-day trek in New Zealand in November"}]}
+{"tid": "answer_a8b4290f_3:0", "facets": [{"subject": "user", "predicate": "trip_location_visited", "object": "took a 7-day family road trip in Utah in February"}]}
+{"tid": "answer_a8b4290f_1:0", "facets": [{"subject": "user", "predicate": "trip_location_visited", "object": "went on a 5-day camping trip to Yellowstone National Park last month"}]}
+{"tid": "answer_3a6f1e82_1:0", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "in the process of buying a new home"}]}
+{"tid": "answer_3a6f1e82_1:2", "facets": [{"subject": "user", "predicate": "life_event_milestone", "object": "buying a $325,000 house, pre-approved for $350,000 from Wells Fargo"}]}
+{"tid": "answer_3a6f1e82_1:6", "facets": [{"subject": "user", "predicate": "life_event_milestone", "object": "seller agreed to $2,000 credit towards closing costs on home purchase"}]}
+{"tid": "answer_3a6f1e82_2:0", "facets": [{"subject": "user", "predicate": "life_event_milestone", "object": "pre-approved for $400,000 from Wells Fargo for new home"}, {"subject": "user", "predicate": "goal_plan", "object": "moving into new home soon, setting up cable and TV"}]}
+{"tid": "answer_3a6f1e82_2:2", "facets": [{"subject": "user", "predicate": "residence", "object": "lives in zip code 78749"}]}
+{"tid": "answer_3a6f1e82_2:6", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "scheduling a home insurance policy with Liberty Mutual"}]}
+{"tid": "answer_3a6f1e82_2:10", "facets": [{"subject": "user", "predicate": "life_event_milestone", "object": "rented a storage unit on March 1st while closing on new house"}]}
+{"tid": "answer_d586e9cd:18", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "booked the Space Needle Romance Package at The Edgewater Hotel"}]}
+{"tid": "answer_ultrachat_480665:4", "facets": [{"subject": "user", "predicate": "dislike_fear", "object": "doesn't trust buffet restaurants"}]}
+{"tid": "answer_ultrachat_480665:10", "facets": [{"subject": "user", "predicate": "preference_like", "object": "family are dessert fanatics who love trying new things"}]}
+{"tid": "answer_355c48bb:0", "facets": [{"subject": "user", "predicate": "food_drink_recipe", "object": "tried a new Italian restaurant downtown recently"}]}
+{"tid": "answer_355c48bb:2", "facets": [{"subject": "user", "predicate": "event_attended", "object": "attended a play at the local community theater"}, {"subject": "user", "predicate": "friend", "object": "friend Emily is an aspiring actress"}]}
+{"tid": "answer_355c48bb:4", "facets": [{"subject": "user", "predicate": "movie_show_music", "object": "saw a production of The Glass Menagerie at community theater"}, {"subject": "user", "predicate": "friend", "object": "encouraging friend Emily to audition for a role"}]}
+{"tid": "answer_355c48bb:6", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "considering taking acting classes"}]}
+{"tid": "answer_355c48bb:8", "facets": [{"subject": "user", "predicate": "challenge_problem", "object": "recent audition for a role in The Crucible didn't go well"}]}
+{"tid": "answer_355c48bb:10", "facets": [{"subject": "user", "predicate": "skill_ability", "object": "struggles with getting into character in acting, wants to improve"}]}
+{"tid": "answer_e936197f_1:0", "facets": [{"subject": "user", "predicate": "event_attended", "object": "attended 'Effective Communication in the Workplace' workshop on January 10th"}]}
+{"tid": "answer_e936197f_2:0", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "has a team meeting scheduled January 17th, practicing communication skills"}]}
+{"tid": "answer_86c505e7_1:0", "facets": [{"subject": "user", "predicate": "movie_show_music", "object": "watched all 22 Marvel Cinematic Universe movies in two weeks"}]}
+{"tid": "answer_86c505e7_2:0", "facets": [{"subject": "user", "predicate": "movie_show_music", "object": "watched all main Star Wars films in a week and a half"}]}
+{"tid": "answer_86c505e7_2:2", "facets": [{"subject": "user", "predicate": "movie_show_music", "object": "watched Rogue One and Solo"}]}
+{"tid": "answer_86c505e7_2:4", "facets": [{"subject": "user", "predicate": "movie_show_music", "object": "watched all 22 MCU movies in about two weeks"}]}
+{"tid": "answer_86c505e7_2:8", "facets": [{"subject": "user", "predicate": "movie_show_music", "object": "watched Into the Spider-Verse, Shawshank Redemption, Toy Story 4, Midsommar and more"}]}
+{"tid": "answer_86c505e7_2:10", "facets": [{"subject": "user", "predicate": "movie_show_music", "object": "watched Game of Thrones season 1, currently on The Office season 5"}]}
+{"tid": "answer_6a4f8626_1:0", "facets": [{"subject": "user", "predicate": "feeling_emotion", "object": "feels overwhelmed with work tasks"}]}
+{"tid": "answer_6a4f8626_1:2", "facets": [{"subject": "user", "predicate": "project_work", "object": "juggling project report, client email reply, and meeting prep at work"}]}
+{"tid": "answer_6a4f8626_1:4", "facets": [{"subject": "user", "predicate": "habit_routine", "object": "does yoga twice a week to relax and focus"}]}
+{"tid": "answer_6a4f8626_1:6", "facets": [{"subject": "user", "predicate": "habit_routine", "object": "uses meditation to set daily intentions"}, {"subject": "user", "predicate": "health_condition", "object": "working through childhood trauma via journaling exercises"}]}
+{"tid": "answer_6a4f8626_1:8", "facets": [{"subject": "user", "predicate": "health_condition", "object": "has a therapist, dealing with anxiety and depression"}]}
+{"tid": "answer_6a4f8626_1:10", "facets": [{"subject": "user", "predicate": "health_condition", "object": "yoga practice helps manage anxiety, feels more grounded"}]}
+{"tid": "answer_6a4f8626_2:0", "facets": [{"subject": "user", "predicate": "feeling_emotion", "object": "feels overwhelmed with work projects"}]}
+{"tid": "answer_6a4f8626_2:2", "facets": [{"subject": "user", "predicate": "job_career", "object": "works 9am-5pm with a lunch break from 12-1pm"}, {"subject": "user", "predicate": "habit_routine", "object": "attends yoga classes three times a week, helps focus"}]}
+{"tid": "answer_9b182436:0", "facets": [{"subject": "user", "predicate": "hobby_interest", "object": "learning French, wants podcasts to improve listening"}]}
+{"tid": "answer_9b182436:2", "facets": [{"subject": "user", "predicate": "volunteering_cause", "object": "volunteered at a cultural festival last month"}]}
+{"tid": "answer_9b182436:4", "facets": [{"subject": "user", "predicate": "skill_ability", "object": "improving conversational French and Spanish skills"}]}
+{"tid": "answer_3e012175:0", "facets": [{"subject": "user", "predicate": "hobby_interest", "object": "getting back into playing guitar"}]}
+{"tid": "answer_3e012175:2", "facets": [{"subject": "user", "predicate": "movie_show_music", "object": "created a Spotify playlist called Summer Vibes with chill tracks"}]}
+{"tid": "answer_3e012175:4", "facets": [{"subject": "user", "predicate": "hobby_interest", "object": "into podcasts, especially entrepreneurial and business stories"}]}
+{"tid": "answer_3e012175:10", "facets": [{"subject": "user", "predicate": "event_attended", "object": "attended a music festival last month, saw The Lumineers and The 1975"}]}
+{"tid": "answer_6ea1541e_2:0", "facets": [{"subject": "user", "predicate": "event_attended", "object": "attended Ash Wednesday service at the cathedral on February 1st"}, {"subject": "user", "predicate": "goal_plan", "object": "planning to volunteer at a soup kitchen this weekend"}]}
+{"tid": "answer_6ea1541e_2:4", "facets": [{"subject": "user", "predicate": "volunteering_cause", "object": "plans to organize a food drive with Bible study group"}]}
+{"tid": "answer_6ea1541e_2:6", "facets": [{"subject": "user", "predicate": "volunteering_cause", "object": "volunteered at a local soup kitchen recently, organizing food drive"}]}
+{"tid": "answer_6ea1541e_1:0", "facets": [{"subject": "user", "predicate": "event_attended", "object": "attended Sunday mass at St. Mary's Church on January 2nd"}]}
+{"tid": "answer_6ea1541e_1:4", "facets": [{"subject": "user", "predicate": "habit_routine", "object": "attends a Bible study group at church, studying Book of Psalms"}]}
+{"tid": "answer_6ea1541e_1:8", "facets": [{"subject": "user", "predicate": "event_attended", "object": "attended a spiritual retreat at a Buddhist temple"}]}
+{"tid": "answer_c2204106_2:0", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "bought a peace lily and a succulent from the nursery two weeks ago"}]}
+{"tid": "answer_c2204106_2:6", "facets": [{"subject": "user", "predicate": "habit_routine", "object": "uses a plant tracking app for watering and fertilization reminders"}]}
+{"tid": "answer_c2204106_2:10", "facets": [{"subject": "user", "predicate": "habit_routine", "object": "pruned rose bush about a month ago, considering pruning again"}]}
+{"tid": "answer_c2204106_3:8", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "owns African violet plants"}]}
+{"tid": "answer_c2204106_1:0", "facets": [{"subject": "user", "predicate": "habit_routine", "object": "has a basil plant on the balcony struggling with too much sun"}]}
+{"tid": "answer_c2204106_1:4", "facets": [{"subject": "user", "predicate": "gift_given_received", "object": "received a snake plant as a gift from sister last month"}]}
+{"tid": "answer_c2204106_1:8", "facets": [{"subject": "user", "predicate": "challenge_problem", "object": "fern has a tiny unidentified pest infestation"}]}
+{"tid": "answer_eecb10d9_1:4", "facets": [{"subject": "user", "predicate": "habit_routine", "object": "uses a new grocery list app to track ingredients"}]}
+{"tid": "answer_eecb10d9_1:8", "facets": [{"subject": "user", "predicate": "family_member", "object": "mom still uses a paper grocery list, unlike user's app"}]}
+{"tid": "answer_eecb10d9_2:4", "facets": [{"subject": "user", "predicate": "family_member", "object": "mom now uses the same grocery list app, shares lists with user"}]}
+{"tid": "answer_eecb10d9_2:8", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "bought cauliflower gnocchi from Trader Joe's"}]}
+{"tid": "answer_0250ae1c:0", "facets": [{"subject": "user", "predicate": "hobby_interest", "object": "aspiring stand-up comedian working on craft"}]}
+{"tid": "answer_0250ae1c:2", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "plans to record comedy videos for YouTube"}]}
+{"tid": "answer_0250ae1c:8", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "considering attending a comedy writing workshop on Friday"}]}
+{"tid": "answer_0250ae1c:10", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "confirmed plans to attend comedy writing workshop on Friday"}]}
+{"tid": "answer_f6168136:0", "facets": [{"subject": "user", "predicate": "name_alias", "object": "changed last name from Johnson to Winters"}]}
+{"tid": "answer_d39b7977_1:0", "facets": [{"subject": "user", "predicate": "person_met", "object": "working with real estate agent Rachel to find a home"}]}
+{"tid": "answer_d39b7977_1:2", "facets": [{"subject": "user", "predicate": "job_career", "object": "works in Irvine, California"}]}
+{"tid": "answer_d39b7977_1:4", "facets": [{"subject": "user", "predicate": "life_event_milestone", "object": "pre-approved for a mortgage up to $350,000"}]}
+{"tid": "answer_d39b7977_1:8", "facets": [{"subject": "user", "predicate": "person_met", "object": "started working with real estate agent Rachel on 2/15"}]}
+{"tid": "answer_d39b7977_2:0", "facets": [{"subject": "user", "predicate": "life_event_milestone", "object": "found a house loved on 3/1, considering making an offer"}]}
+{"tid": "answer_d39b7977_2:2", "facets": [{"subject": "user", "predicate": "life_event_milestone", "object": "got pre-approved for $350,000 mortgage on February 10th"}]}
+{"tid": "answer_d39b7977_2:4", "facets": [{"subject": "user", "predicate": "life_event_milestone", "object": "planning to offer $320,000 on a house asking $335,000"}]}
+{"tid": "answer_d39b7977_2:10", "facets": [{"subject": "user", "predicate": "life_event_milestone", "object": "submitting an offer on a house today via agent Rachel"}]}
+{"tid": "answer_2880eb6c_3:0", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "planning a road trip to the mountains in June with bike"}]}
+{"tid": "answer_2880eb6c_3:2", "facets": [{"subject": "user", "predicate": "sport_exercise", "object": "tracks bike mileage, at 347 miles since start of year"}]}
+{"tid": "answer_2880eb6c_3:4", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "plans to order a Saris Bones 2-Bike Trunk Rack next week"}]}
+{"tid": "answer_2880eb6c_3:8", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "bought new bike lights for $40 for early morning rides"}]}
+{"tid": "answer_2880eb6c_1:2", "facets": [{"subject": "user", "predicate": "sport_exercise", "object": "biked 347 miles this year so far, goal 1000 miles by end of summer"}]}
+{"tid": "answer_2880eb6c_1:4", "facets": [{"subject": "user", "predicate": "habit_routine", "object": "bike due for a tune-up, last one was a month ago"}]}
+{"tid": "answer_2880eb6c_1:6", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "bought a Bell Zephyr helmet for $120 at local bike shop"}]}
+{"tid": "answer_2880eb6c_4:0", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "planning a road trip to the mountains in June, ordering a bike rack"}]}
+{"tid": "answer_2880eb6c_4:2", "facets": [{"subject": "user", "predicate": "sport_exercise", "object": "biked 347 miles this year, goal 1000 miles by end of summer"}]}
+{"tid": "answer_2880eb6c_4:4", "facets": [{"subject": "user", "predicate": "habit_routine", "object": "commutes to work by bike, about 10 miles round trip"}]}
+{"tid": "answer_2880eb6c_4:8", "facets": [{"subject": "user", "predicate": "habit_routine", "object": "scheduled to lubricate bike chain on May 15th"}]}

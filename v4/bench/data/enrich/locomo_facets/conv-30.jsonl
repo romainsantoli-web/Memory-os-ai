@@ -1,0 +1,173 @@
+{"fid": "D1:2#0", "facets": [{"subject": "Jon", "predicate": "job_career", "object": "banker (lost job)"}, {"subject": "Jon", "predicate": "life_event_milestone", "object": "job loss"}], "implications": ["Jon's sudden job loss may have created financial uncertainty for him.", "Losing his job could prompt Jon to consider a major career change."]}
+{"fid": "D1:2#1", "facets": [{"subject": "Jon", "predicate": "goal_plan", "object": "start own business"}], "implications": ["Jon's decision to start a business may be a direct response to his recent job loss."]}
+{"fid": "D1:3#0", "facets": [{"subject": "Gina", "predicate": "job_career", "object": "Door Dash (lost job)"}, {"subject": "Gina", "predicate": "life_event_milestone", "object": "job loss"}], "implications": ["Gina's job loss may create financial pressure for her."]}
+{"fid": "D1:3#1", "facets": [{"subject": "Jon", "predicate": "goal_plan", "object": "dance studio (start)"}, {"subject": "Jon", "predicate": "project_work", "object": "dance studio"}], "implications": ["Jon's plan to open a dance studio suggests he wants to turn a personal passion into a career."]}
+{"fid": "D1:4#0", "facets": [{"subject": "Jon", "predicate": "hobby_interest", "object": "dancing"}, {"subject": "Jon", "predicate": "goal_plan", "object": "dance studio (share passion)"}], "implications": ["Jon likely values teaching and community as much as the craft of dance itself."]}
+{"fid": "D1:6#0", "facets": [{"subject": "Jon", "predicate": "hobby_interest", "object": "dancing (since childhood)"}, {"subject": "Jon", "predicate": "feeling_emotion", "object": "dance as escape"}], "implications": ["Jon may use dance as a coping mechanism for stress or difficult emotions."]}
+{"fid": "D1:6#1", "facets": [{"subject": "Jon", "predicate": "goal_plan", "object": "open dance studio to teach others"}], "implications": ["Jon seems to find fulfillment in mentoring others through dance."]}
+{"fid": "D1:7#0", "facets": [{"subject": "Gina", "predicate": "hobby_interest", "object": "dancing (stress relief)"}, {"subject": "Gina", "predicate": "habit_routine", "object": "dancing for stress relief"}], "implications": ["Gina may experience regular stress that she manages through physical activity."]}
+{"fid": "D1:8#0", "facets": [{"subject": "Jon", "predicate": "preference_like", "object": "contemporary dance"}], "implications": ["Jon likely values emotional expression in his creative pursuits."]}
+{"fid": "D1:9#0", "facets": [{"subject": "Gina", "predicate": "preference_like", "object": "contemporary dance"}], "implications": ["Gina and Jon share similar taste in dance, which may strengthen their friendship."]}
+{"fid": "D1:10#0", "facets": [{"subject": "Jon", "predicate": "friend", "object": "Gina (dance class invite)"}, {"subject": "Jon", "predicate": "hobby_interest", "object": "dance class"}], "implications": ["Jon and Gina appear to have a close, friendly relationship allowing shared activities."]}
+{"fid": "D1:11#0", "facets": [{"subject": "Gina", "predicate": "friend", "object": "Jon (dance session plans)"}], "implications": []}
+{"fid": "D1:12#0", "facets": [{"subject": "Jon", "predicate": "event_attended", "object": "dance performance (planned, invited Gina, 2023-01-27)"}], "implications": []}
+{"fid": "D1:13#0", "facets": [{"subject": "Gina", "predicate": "event_attended", "object": "Jon's dance performance (planned 2023-01-27)"}], "implications": []}
+{"fid": "D1:14#0", "facets": [{"subject": "Jon", "predicate": "feeling_emotion", "object": "excited (dance photo)"}], "implications": ["Jon appears enthusiastic about showcasing his dancing to others."]}
+{"fid": "D1:16#0", "facets": [{"subject": "Jon", "predicate": "achievement_award", "object": "first place, local dance competition (2022)"}], "implications": ["Jon's competition win suggests strong skill and dedication to dance."]}
+{"fid": "D1:16#1", "facets": [{"subject": "Jon", "predicate": "other", "object": "asked Gina about her dance competition history"}], "implications": []}
+{"fid": "D1:17#0", "facets": [{"subject": "Gina", "predicate": "event_attended", "object": "dance competitions and shows (past)"}, {"subject": "Gina", "predicate": "hobby_interest", "object": "competitive dance"}], "implications": ["Gina likely has significant dance training and experience from competing."]}
+{"fid": "D1:17#1", "facets": [{"subject": "Gina", "predicate": "achievement_award", "object": "first place, regionals dance competition (age 15)"}], "implications": ["This early competitive success may have shaped Gina's lasting passion for dance."]}
+{"fid": "D1:19#0", "facets": [{"subject": "Gina", "predicate": "creative_work", "object": "'Finding Freedom' (contemporary dance piece)"}], "implications": []}
+{"fid": "D1:20#0", "facets": [{"subject": "Jon", "predicate": "goal_plan", "object": "dance studio by the water (ideal vision)"}], "implications": ["Jon may find a location by water aesthetically or personally meaningful."]}
+{"fid": "D1:24#0", "facets": [{"subject": "Jon", "predicate": "habit_routine", "object": "rehearsing with dance group after work"}], "implications": []}
+{"fid": "D1:24#1", "facets": [{"subject": "Jon", "predicate": "skill_ability", "object": "dance styles (contemporary to hip-hop)"}], "implications": []}
+{"fid": "D1:24#2", "facets": [{"subject": "Jon", "predicate": "project_work", "object": "choreography for festival performance (Feb 2023)"}, {"subject": "Jon", "predicate": "event_attended", "object": "festival performance (planned)"}], "implications": []}
+{"fid": "D1:26#0", "facets": [{"subject": "Jon", "predicate": "project_work", "object": "festival performance (dancers practicing hard)"}], "implications": []}
+{"fid": "D2:1#0", "facets": [{"subject": "Gina", "predicate": "project_work", "object": "ad campaign (clothing store)"}], "implications": ["Gina is actively investing in marketing to grow her business."]}
+{"fid": "D2:1#1", "facets": [{"subject": "Gina", "predicate": "employer_business", "object": "clothing store (owner)"}], "implications": []}
+{"fid": "D2:4#0", "facets": [{"subject": "Jon", "predicate": "goal_plan", "object": "dance studio location search"}], "implications": []}
+{"fid": "D2:4#1", "facets": [{"subject": "Jon", "predicate": "goal_plan", "object": "potential dance studio location (natural light)"}], "implications": []}
+{"fid": "D2:4#2", "facets": [{"subject": "Jon", "predicate": "trip_location_visited", "object": "Paris"}], "implications": ["Jon may enjoy traveling internationally even while busy launching his business."]}
+{"fid": "D2:5#0", "facets": [{"subject": "Gina", "predicate": "trip_location_visited", "object": "Paris (never visited)"}], "implications": ["Gina may aspire to visit Paris someday."]}
+{"fid": "D2:5#1", "facets": [{"subject": "Gina", "predicate": "trip_location_visited", "object": "Rome"}], "implications": []}
+{"fid": "D2:6#0", "facets": [{"subject": "Jon", "predicate": "goal_plan", "object": "dance studio location (downtown)"}], "implications": []}
+{"fid": "D2:6#1", "facets": [{"subject": "Jon", "predicate": "challenge_problem", "object": "dance studio space evaluation (size, floor safety)"}], "implications": ["Jon is being careful and detail-oriented in preparing a safe environment for dancers."]}
+{"fid": "D2:8#0", "facets": [{"subject": "Jon", "predicate": "preference_like", "object": "Marley flooring (dance studio)"}], "implications": []}
+{"fid": "D3:1#0", "facets": [{"subject": "Jon", "predicate": "challenge_problem", "object": "finding dance studio location"}, {"subject": "Jon", "predicate": "feeling_emotion", "object": "determined"}], "implications": ["Jon's persistence despite setbacks suggests strong resilience."]}
+{"fid": "D3:2#0", "facets": [{"subject": "Gina", "predicate": "project_work", "object": "clothing store expansion (wholesaler deal)"}], "implications": []}
+{"fid": "D3:4#0", "facets": [{"subject": "Gina", "predicate": "creative_work", "object": "clothing store design (cozy, trendy)"}], "implications": ["Gina likely has an eye for interior design and customer experience."]}
+{"fid": "D3:6#0", "facets": [{"subject": "Gina", "predicate": "creative_work", "object": "store furniture and decor (personal style)"}], "implications": []}
+{"fid": "D3:6#1", "facets": [{"subject": "Gina", "predicate": "possession_purchase", "object": "chandelier (store decor)"}], "implications": []}
+{"fid": "D3:8#0", "facets": [{"subject": "Gina", "predicate": "goal_plan", "object": "store customer experience (oasis feel)"}], "implications": ["Gina prioritizes customer retention and brand experience over just sales."]}
+{"fid": "D4:3#0", "facets": [{"subject": "Jon", "predicate": "challenge_problem", "object": "business obstacles"}, {"subject": "Jon", "predicate": "habit_routine", "object": "working hard on business"}], "implications": []}
+{"fid": "D4:9#0", "facets": [{"subject": "Jon", "predicate": "challenge_problem", "object": "dance studio location search"}], "implications": []}
+{"fid": "D4:11#0", "facets": [{"subject": "Jon", "predicate": "event_attended", "object": "dance show (rehearsing)"}], "implications": []}
+{"fid": "D4:11#1", "facets": [{"subject": "Jon", "predicate": "feeling_emotion", "object": "joy and fulfillment from dancing"}], "implications": []}
+{"fid": "D4:13#0", "facets": [{"subject": "Jon", "predicate": "event_attended", "object": "dance competition (planned, March 2023)"}], "implications": []}
+{"fid": "D5:1#0", "facets": [{"subject": "Gina", "predicate": "project_work", "object": "new fashion piece (clothing store)"}], "implications": []}
+{"fid": "D5:2#0", "facets": [{"subject": "Jon", "predicate": "event_attended", "object": "festival performance"}, {"subject": "Jon", "predicate": "achievement_award", "object": "compliments on dance moves"}], "implications": ["Jon's positive reception at the festival may boost his confidence in his dance studio venture."]}
+{"fid": "D5:4#0", "facets": [{"subject": "Jon", "predicate": "employer_business", "object": "dance studio (owner)"}, {"subject": "Jon", "predicate": "belief_value_opinion", "object": "values helping dancers express themselves"}], "implications": []}
+{"fid": "D5:5#0", "facets": [{"subject": "Gina", "predicate": "project_work", "object": "online store growth"}, {"subject": "Gina", "predicate": "colleague_mentor", "object": "local artist (collaboration)"}], "implications": []}
+{"fid": "D5:7#0", "facets": [{"subject": "Gina", "predicate": "creative_work", "object": "clothing designs (with local artist)"}], "implications": []}
+{"fid": "D5:9#0", "facets": [{"subject": "Gina", "predicate": "belief_value_opinion", "object": "taking risks necessary for growth"}], "implications": []}
+{"fid": "D5:10#0", "facets": [{"subject": "Jon", "predicate": "belief_value_opinion", "object": "risk-taking led to career change"}, {"subject": "Jon", "predicate": "job_career", "object": "banker (former, secure 9-to-5)"}], "implications": []}
+{"fid": "D5:13#0", "facets": [{"subject": "Gina", "predicate": "possession_purchase", "object": "tattoo (fear quote reminder)"}, {"subject": "Gina", "predicate": "belief_value_opinion", "object": "quote about fear kept her positive"}], "implications": ["Gina values visible, permanent reminders of her personal philosophy, suggesting the quote holds deep meaning for her."]}
+{"fid": "D5:15#0", "facets": [{"subject": "Gina", "predicate": "possession_purchase", "object": "tattoo (freedom symbol)"}, {"subject": "Gina", "predicate": "belief_value_opinion", "object": "self-expression over others' judgment"}], "implications": ["Gina may have previously struggled with self-consciousness about dancing or self-expression."]}
+{"fid": "D5:16#0", "facets": [{"subject": "Jon", "predicate": "feeling_emotion", "object": "dance as escape (be himself)"}], "implications": []}
+{"fid": "D5:18#0", "facets": [{"subject": "Jon", "predicate": "hobby_interest", "object": "dance (passion)"}], "implications": []}
+{"fid": "D5:20#0", "facets": [{"subject": "Jon", "predicate": "challenge_problem", "object": "balancing dance and business"}], "implications": ["Jon seems to find synergy between his creative and professional pursuits, which may help sustain his motivation."]}
+{"fid": "D6:1#0", "facets": [{"subject": "Jon", "predicate": "sport_exercise", "object": "gym (started ~2023-03-09)"}, {"subject": "Jon", "predicate": "habit_routine", "object": "gym for focus and discipline"}], "implications": ["Jon may use physical exercise as a way to manage stress and maintain discipline during a challenging business period."]}
+{"fid": "D6:2#0", "facets": [{"subject": "Gina", "predicate": "feeling_emotion", "object": "tough times"}], "implications": ["Gina's tough times may relate to ongoing financial or emotional stress since her job loss."]}
+{"fid": "D6:4#0", "facets": [{"subject": "Gina", "predicate": "job_career", "object": "Door Dash (job loss aftermath)"}], "implications": []}
+{"fid": "D6:6#0", "facets": [{"subject": "Gina", "predicate": "life_event_milestone", "object": "online clothing store opening"}, {"subject": "Gina", "predicate": "employer_business", "object": "online clothing store"}], "implications": ["This opening likely represents a major turning point for Gina after her job loss."]}
+{"fid": "D6:8#0", "facets": [{"subject": "Gina", "predicate": "belief_value_opinion", "object": "passion for fashion trends"}, {"subject": "Gina", "predicate": "hobby_interest", "object": "blending dance and fashion"}], "implications": []}
+{"fid": "D6:11#0", "facets": [{"subject": "Jon", "predicate": "challenge_problem", "object": "starting business is tough"}], "implications": []}
+{"fid": "D7:2#0", "facets": [{"subject": "Gina", "predicate": "feeling_emotion", "object": "roller coaster (business ups and downs)"}], "implications": []}
+{"fid": "D7:4#0", "facets": [{"subject": "Gina", "predicate": "habit_routine", "object": "following fashion trends"}], "implications": []}
+{"fid": "D7:4#1", "facets": [{"subject": "Gina", "predicate": "support_advice", "object": "asked Jon for business advice"}], "implications": ["Gina values Jon's perspective and trusts him as a peer entrepreneur."]}
+{"fid": "D7:5#0", "facets": [{"subject": "Jon", "predicate": "support_advice", "object": "business advice to Gina (brand identity, customer relationships, positivity)"}], "implications": []}
+{"fid": "D7:6#0", "facets": [{"subject": "Gina", "predicate": "support_advice", "object": "asked Jon about staying motivated"}], "implications": []}
+{"fid": "D7:7#0", "facets": [{"subject": "Jon", "predicate": "belief_value_opinion", "object": "motivated by students' success"}], "implications": ["Jon likely finds deep personal fulfillment in mentoring others, beyond just running a business."]}
+{"fid": "D8:1#0", "facets": [{"subject": "Jon", "predicate": "challenge_problem", "object": "shut down bank account for business funding"}], "implications": ["Jon may be facing significant financial strain from funding his dance studio."]}
+{"fid": "D8:4#0", "facets": [{"subject": "Gina", "predicate": "project_work", "object": "promotions (online store)"}], "implications": []}
+{"fid": "D8:6#0", "facets": [{"subject": "Gina", "predicate": "hobby_interest", "object": "dance (stress relief)"}, {"subject": "Gina", "predicate": "hobby_interest", "object": "fashion trends (creativity)"}], "implications": []}
+{"fid": "D8:8#0", "facets": [{"subject": "Gina", "predicate": "goal_plan", "object": "dance-inspired clothing items"}, {"subject": "Gina", "predicate": "creative_work", "object": "combining dance and fashion"}], "implications": []}
+{"fid": "D8:10#0", "facets": [{"subject": "Gina", "predicate": "goal_plan", "object": "growing customer base"}, {"subject": "Gina", "predicate": "achievement_award", "object": "increased sales from promotions"}], "implications": []}
+{"fid": "D8:12#0", "facets": [{"subject": "Gina", "predicate": "goal_plan", "object": "influencer collaborations and ads for store growth"}], "implications": []}
+{"fid": "D8:13#0", "facets": [{"subject": "Jon", "predicate": "project_work", "object": "dance studio social media expansion"}, {"subject": "Jon", "predicate": "event_attended", "object": "dance competition hosting (planned May 2023)"}], "implications": []}
+{"fid": "D8:15#0", "facets": [{"subject": "Jon", "predicate": "event_attended", "object": "dance competition (invited Gina)"}], "implications": []}
+{"fid": "D8:17#0", "facets": [{"subject": "Jon", "predicate": "event_attended", "object": "dance competition (studio performing and judged)"}], "implications": []}
+{"fid": "D8:18#0", "facets": [{"subject": "Gina", "predicate": "event_attended", "object": "Jon's dance competition (planned attendance)"}], "implications": ["Gina's continued support suggests a strong, ongoing friendship with Jon."]}
+{"fid": "D9:1#0", "facets": [{"subject": "Jon", "predicate": "habit_routine", "object": "time invested in dance studio"}], "implications": []}
+{"fid": "D9:3#0", "facets": [{"subject": "Jon", "predicate": "life_event_milestone", "object": "job loss as catalyst for dance studio"}], "implications": []}
+{"fid": "D9:5#0", "facets": [{"subject": "Jon", "predicate": "feeling_emotion", "object": "happiness from dancing and teaching"}], "implications": []}
+{"fid": "D9:7#0", "facets": [{"subject": "Jon", "predicate": "dislike_fear", "object": "past fear of others' judgment (dancing)"}, {"subject": "Jon", "predicate": "belief_value_opinion", "object": "own happiness over others' opinions"}], "implications": ["Jon appears to have grown more self-confident and less concerned with social judgment over time."]}
+{"fid": "D9:8#0", "facets": [{"subject": "Gina", "predicate": "friend", "object": "Jon (dance classes together, past)"}], "implications": ["Gina and Jon likely have a long-standing friendship rooted in shared dance history."]}
+{"fid": "D9:9#0", "facets": [{"subject": "Jon", "predicate": "friend", "object": "dance lessons with friends (younger years)"}], "implications": []}
+{"fid": "D9:10#0", "facets": [{"subject": "Gina", "predicate": "achievement_award", "object": "trophy (dance contest)"}], "implications": []}
+{"fid": "D10:1#0", "facets": [{"subject": "Jon", "predicate": "event_attended", "object": "fair (showcasing dance studio)"}], "implications": []}
+{"fid": "D10:1#1", "facets": [{"subject": "Jon", "predicate": "belief_value_opinion", "object": "self-confidence important for business success"}], "implications": []}
+{"fid": "D10:2#0", "facets": [{"subject": "Gina", "predicate": "employer_business", "object": "online clothing store (recently started)"}], "implications": []}
+{"fid": "D10:4#0", "facets": [{"subject": "Gina", "predicate": "belief_value_opinion", "object": "take control of own destiny"}, {"subject": "Gina", "predicate": "life_event_milestone", "object": "job loss led to entrepreneurship"}], "implications": ["Gina's job loss may have been a turning point that pushed her toward greater independence and self-determination."]}
+{"fid": "D10:5#0", "facets": [{"subject": "Jon", "predicate": "challenge_problem", "object": "business troubles"}, {"subject": "Jon", "predicate": "support_advice", "object": "asked Gina for motivation advice"}], "implications": []}
+{"fid": "D10:6#0", "facets": [{"subject": "Gina", "predicate": "support_advice", "object": "motivation strategies (goal focus, support, dance)"}], "implications": []}
+{"fid": "D10:7#0", "facets": [{"subject": "Jon", "predicate": "feeling_emotion", "object": "low confidence"}, {"subject": "Jon", "predicate": "support_advice", "object": "asked Gina for confidence tips"}], "implications": ["Jon may be experiencing self-doubt as the difficulties of running a new business accumulate."]}
+{"fid": "D10:8#0", "facets": [{"subject": "Gina", "predicate": "support_advice", "object": "motivation via successes and support system"}], "implications": []}
+{"fid": "D11:1#0", "facets": [{"subject": "Jon", "predicate": "feeling_emotion", "object": "optimism (things looking up)"}], "implications": []}
+{"fid": "D11:3#0", "facets": [{"subject": "Jon", "predicate": "life_event_milestone", "object": "job loss as catalyst for dream business"}], "implications": []}
+{"fid": "D11:5#0", "facets": [{"subject": "Jon", "predicate": "hobby_interest", "object": "dance (stress-buster since childhood)"}], "implications": []}
+{"fid": "D11:6#0", "facets": [{"subject": "Gina", "predicate": "hobby_interest", "object": "dance (stress fix)"}], "implications": []}
+{"fid": "D11:7#0", "facets": [{"subject": "Jon", "predicate": "feeling_emotion", "object": "feels most alive dancing"}], "implications": []}
+{"fid": "D11:8#0", "facets": [{"subject": "Gina", "predicate": "belief_value_opinion", "object": "dance as essential to life"}], "implications": ["Gina's comparison of dance to air suggests it is central to her identity and well-being."]}
+{"fid": "D11:9#0", "facets": [{"subject": "Jon", "predicate": "belief_value_opinion", "object": "dancing as second nature"}, {"subject": "Jon", "predicate": "life_event_milestone", "object": "living his dream (dance studio)"}], "implications": []}
+{"fid": "D11:11#0", "facets": [{"subject": "Jon", "predicate": "goal_plan", "object": "create space for self-expression through dance"}], "implications": []}
+{"fid": "D11:14#0", "facets": [{"subject": "Gina", "predicate": "education_course", "object": "design internship (interview)"}], "implications": ["Gina may be pursuing a career path in design alongside her clothing business."]}
+{"fid": "D11:15#0", "facets": [{"subject": "Jon", "predicate": "friend", "object": "Gina (asked about internship interview)"}], "implications": []}
+{"fid": "D11:16#0", "facets": [{"subject": "Gina", "predicate": "education_course", "object": "design internship interview (went great)"}], "implications": []}
+{"fid": "D11:17#0", "facets": [{"subject": "Jon", "predicate": "habit_routine", "object": "practicing dance routines"}], "implications": []}
+{"fid": "D11:18#0", "facets": [{"subject": "Gina", "predicate": "friend", "object": "Jon (asked to see dance routine)"}], "implications": []}
+{"fid": "D11:19#0", "facets": [{"subject": "Jon", "predicate": "friend", "object": "Gina (offered dance routine video)"}], "implications": []}
+{"fid": "D12:1#0", "facets": [{"subject": "Gina", "predicate": "achievement_award", "object": "fashion internship (accepted)"}, {"subject": "Gina", "predicate": "education_course", "object": "fashion internship"}], "implications": ["This acceptance suggests Gina's design and fashion skills are gaining external recognition."]}
+{"fid": "D12:2#0", "facets": [{"subject": "Jon", "predicate": "friend", "object": "Gina (asked about fashion internship)"}], "implications": []}
+{"fid": "D12:3#0", "facets": [{"subject": "Gina", "predicate": "education_course", "object": "fashion internship (international company, part-time)"}, {"subject": "Gina", "predicate": "feeling_emotion", "object": "excited but nervous"}], "implications": []}
+{"fid": "D12:5#0", "facets": [{"subject": "Gina", "predicate": "feeling_emotion", "object": "excited and scared (fashion career)"}], "implications": []}
+{"fid": "D12:6#0", "facets": [{"subject": "Jon", "predicate": "book_read", "object": "'The Lean Startup'"}], "implications": ["Jon is proactively seeking structured business knowledge, suggesting he takes his entrepreneurial venture seriously."]}
+{"fid": "D12:8#0", "facets": [{"subject": "Jon", "predicate": "book_read", "object": "'The Lean Startup' (influenced his thinking)"}], "implications": []}
+{"fid": "D12:10#0", "facets": [{"subject": "Jon", "predicate": "habit_routine", "object": "whiteboard for tracking milestones"}], "implications": ["Jon appears to be a highly organized, methodical planner."]}
+{"fid": "D12:12#0", "facets": [{"subject": "Jon", "predicate": "project_work", "object": "business plan and investor search"}], "implications": []}
+{"fid": "D12:14#0", "facets": [{"subject": "Jon", "predicate": "challenge_problem", "object": "investor search"}], "implications": []}
+{"fid": "D13:3#0", "facets": [{"subject": "Jon", "predicate": "habit_routine", "object": "prepping for dance studio launch"}], "implications": []}
+{"fid": "D13:4#0", "facets": [{"subject": "Gina", "predicate": "creative_work", "object": "video presentation (styling fashion pieces)"}], "implications": []}
+{"fid": "D13:5#0", "facets": [{"subject": "Jon", "predicate": "belief_value_opinion", "object": "studio as place of support and encouragement"}], "implications": []}
+{"fid": "D13:5#1", "facets": [{"subject": "Jon", "predicate": "friend", "object": "Gina (asked to see styling video)"}], "implications": []}
+{"fid": "D13:6#0", "facets": [{"subject": "Gina", "predicate": "friend", "object": "Jon (agreed to send styling video)"}], "implications": []}
+{"fid": "D13:6#1", "facets": [{"subject": "Gina", "predicate": "belief_value_opinion", "object": "business as means to help others"}], "implications": ["Gina appears motivated by purpose and community impact, not just profit."]}
+{"fid": "D13:7#0", "facets": [{"subject": "Jon", "predicate": "project_work", "object": "one-on-one mentoring at dance studio"}], "implications": []}
+{"fid": "D13:8#0", "facets": [{"subject": "Gina", "predicate": "colleague_mentor", "object": "dance mentor (past)"}], "implications": []}
+{"fid": "D13:9#0", "facets": [{"subject": "Jon", "predicate": "belief_value_opinion", "object": "value of mentorship for dancers"}], "implications": []}
+{"fid": "D13:11#0", "facets": [{"subject": "Jon", "predicate": "habit_routine", "object": "goal-tracking system"}], "implications": []}
+{"fid": "D13:13#0", "facets": [{"subject": "Jon", "predicate": "habit_routine", "object": "whiteboard for goals and successes"}], "implications": []}
+{"fid": "D13:15#0", "facets": [{"subject": "Jon", "predicate": "habit_routine", "object": "color-coding achievements on whiteboard"}], "implications": ["Jon's detailed organizational system suggests a methodical, visually-oriented approach to self-motivation."]}
+{"fid": "D14:1#0", "facets": [{"subject": "Jon", "predicate": "colleague_mentor", "object": "business mentor (2023-06-15)"}], "implications": ["Jon is actively seeking guidance from experienced professionals to strengthen his business."]}
+{"fid": "D14:2#0", "facets": [{"subject": "Gina", "predicate": "challenge_problem", "object": "growing online store customer base"}], "implications": []}
+{"fid": "D14:3#0", "facets": [{"subject": "Jon", "predicate": "support_advice", "object": "asked Gina for marketing tips"}], "implications": []}
+{"fid": "D14:4#0", "facets": [{"subject": "Gina", "predicate": "support_advice", "object": "marketing advice to Jon (social media, influencers)"}], "implications": []}
+{"fid": "D14:5#0", "facets": [{"subject": "Jon", "predicate": "project_work", "object": "dance videos on social media"}], "implications": ["Jon's growing social media traction may help attract new students or investors to his dance studio."]}
+{"fid": "D14:7#0", "facets": [{"subject": "Jon", "predicate": "friend", "object": "Gina (asked about entrepreneurship)"}], "implications": []}
+{"fid": "D14:8#0", "facets": [{"subject": "Gina", "predicate": "job_career", "object": "entrepreneur (online clothing store)"}], "implications": []}
+{"fid": "D14:9#0", "facets": [{"subject": "Jon", "predicate": "support_advice", "object": "asked Gina for entrepreneur advice"}], "implications": []}
+{"fid": "D14:10#0", "facets": [{"subject": "Gina", "predicate": "support_advice", "object": "advice for new entrepreneurs"}], "implications": []}
+{"fid": "D14:14#0", "facets": [{"subject": "Gina", "predicate": "hobby_interest", "object": "dancing (past, tough but worth it)"}], "implications": ["Gina's dance journey likely involved significant hardship or sacrifice that shaped her character."]}
+{"fid": "D15:1#0", "facets": [{"subject": "Jon", "predicate": "trip_location_visited", "object": "Rome"}], "implications": ["Jon may be experiencing stress from his business that prompted a need to mentally recharge."]}
+{"fid": "D15:3#0", "facets": [{"subject": "Jon", "predicate": "project_work", "object": "opening dance studio (ongoing)"}], "implications": []}
+{"fid": "D15:5#0", "facets": [{"subject": "Jon", "predicate": "life_event_milestone", "object": "dance studio grand opening (2023-06-20)"}], "implications": []}
+{"fid": "D15:12#0", "facets": [{"subject": "Gina", "predicate": "event_attended", "object": "Jon's dance studio grand opening (2023-06-20)"}], "implications": ["Gina's presence at the opening reflects strong, supportive friendship with Jon."]}
+{"fid": "D16:1#0", "facets": [{"subject": "Gina", "predicate": "possession_purchase", "object": "unique pieces (clothing store inventory)"}], "implications": []}
+{"fid": "D16:3#0", "facets": [{"subject": "Gina", "predicate": "creative_work", "object": "limited edition hoodie line (personal collection)"}], "implications": []}
+{"fid": "D16:5#0", "facets": [{"subject": "Gina", "predicate": "creative_work", "object": "camouflage hoodie design"}, {"subject": "Gina", "predicate": "belief_value_opinion", "object": "grit to face challenges"}], "implications": []}
+{"fid": "D16:6#0", "facets": [{"subject": "Jon", "predicate": "event_attended", "object": "networking events"}], "implications": []}
+{"fid": "D16:8#0", "facets": [{"subject": "Jon", "predicate": "belief_value_opinion", "object": "investing time in business will pay off"}], "implications": []}
+{"fid": "D16:10#0", "facets": [{"subject": "Jon", "predicate": "habit_routine", "object": "writing down business plans"}], "implications": []}
+{"fid": "D16:14#0", "facets": [{"subject": "Jon", "predicate": "possession_purchase", "object": "'never give up' sign"}, {"subject": "Jon", "predicate": "belief_value_opinion", "object": "perseverance"}], "implications": ["Jon likely relies on motivational reminders to sustain resilience during difficult periods."]}
+{"fid": "D17:1#0", "facets": [{"subject": "Gina", "predicate": "achievement_award", "object": "noticed by fashion editors"}, {"subject": "Gina", "predicate": "feeling_emotion", "object": "amazing but scary (pressure)"}], "implications": ["Gina's growing visibility in the fashion industry suggests her brand or work is gaining traction."]}
+{"fid": "D17:2#0", "facets": [{"subject": "Jon", "predicate": "goal_plan", "object": "go full-time with dance studio"}], "implications": []}
+{"fid": "D17:4#0", "facets": [{"subject": "Jon", "predicate": "skill_ability", "object": "marketing and analytics tools (learning)"}], "implications": []}
+{"fid": "D17:6#0", "facets": [{"subject": "Jon", "predicate": "colleague_mentor", "object": "mentoring aspiring dancers"}], "implications": []}
+{"fid": "D17:8#0", "facets": [{"subject": "Jon", "predicate": "belief_value_opinion", "object": "dance brings people together"}], "implications": []}
+{"fid": "D18:1#0", "facets": [{"subject": "Gina", "predicate": "project_work", "object": "new website (online orders)"}], "implications": []}
+{"fid": "D18:2#0", "facets": [{"subject": "Jon", "predicate": "challenge_problem", "object": "dance studio financial troubles"}, {"subject": "Jon", "predicate": "job_career", "object": "temp job (covering expenses)"}], "implications": ["Jon's financial situation suggests his dance studio business may not yet be self-sustaining."]}
+{"fid": "D18:4#0", "facets": [{"subject": "Jon", "predicate": "support_advice", "object": "asked Gina about tackling business challenges"}], "implications": []}
+{"fid": "D18:5#0", "facets": [{"subject": "Gina", "predicate": "challenge_problem", "object": "sourcing trendy pieces"}, {"subject": "Gina", "predicate": "support_advice", "object": "advice to network without fear"}], "implications": []}
+{"fid": "D18:6#0", "facets": [{"subject": "Jon", "predicate": "event_attended", "object": "networking event (good results)"}], "implications": []}
+{"fid": "D18:8#0", "facets": [{"subject": "Jon", "predicate": "person_met", "object": "investors (networking event)"}], "implications": ["Jon's networking success may improve his odds of securing funding for the dance studio."]}
+{"fid": "D18:10#0", "facets": [{"subject": "Jon", "predicate": "project_work", "object": "business plan and investor pitch"}], "implications": []}
+{"fid": "D18:12#0", "facets": [{"subject": "Jon", "predicate": "support_advice", "object": "asked Gina for marketing help"}], "implications": []}
+{"fid": "D18:13#0", "facets": [{"subject": "Gina", "predicate": "support_advice", "object": "social media strategy advice to Jon"}], "implications": []}
+{"fid": "D18:14#0", "facets": [{"subject": "Jon", "predicate": "colleague_mentor", "object": "Gina (social media collaboration)"}], "implications": ["Jon and Gina's business collaboration suggests their friendship now extends into mutual professional support."]}
+{"fid": "D18:18#0", "facets": [{"subject": "Jon", "predicate": "friend", "object": "Gina (content collaboration)"}, {"subject": "Gina", "predicate": "friend", "object": "Jon (content collaboration)"}], "implications": []}
+{"fid": "D19:1#0", "facets": [{"subject": "Jon", "predicate": "feeling_emotion", "object": "stress (business and rehearsal)"}], "implications": []}
+{"fid": "D19:2#0", "facets": [{"subject": "Gina", "predicate": "support_advice", "object": "'Just do it' encouragement to Jon"}], "implications": []}
+{"fid": "D19:3#0", "facets": [{"subject": "Jon", "predicate": "friend", "object": "Gina (asked about quote origin)"}], "implications": []}
+{"fid": "D19:4#0", "facets": [{"subject": "Gina", "predicate": "belief_value_opinion", "object": "'Just do it' attributed to Shia LaBeouf"}], "implications": []}
+{"fid": "D19:6#0", "facets": [{"subject": "Gina", "predicate": "event_attended", "object": "dance class with friends (2023-07-21)"}, {"subject": "Gina", "predicate": "belief_value_opinion", "object": "importance of creative space for dancers"}], "implications": []}
+{"fid": "D19:7#0", "facets": [{"subject": "Jon", "predicate": "belief_value_opinion", "object": "inclusivity (all ages and backgrounds)"}], "implications": ["Jon's inclusive vision suggests he values diversity and accessibility in his dance studio."]}

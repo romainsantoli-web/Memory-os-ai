@@ -1,0 +1,369 @@
+{"turn_id": "D1:1", "facts": [], "keywords": ["greeting", "check-in"], "entities": ["Gina", "Jon"]}
+{"turn_id": "D1:2", "facts": ["On 2023-01-20, Jon said he lost his job as a banker the previous day (around 2023-01-19).", "Jon said he is going to start his own business."], "keywords": ["job loss", "banker", "starting a business"], "entities": ["Jon"]}
+{"turn_id": "D1:3", "facts": ["On 2023-01-20, Gina said she lost her job at Door Dash this month (January 2023).", "Jon is starting a dance studio."], "keywords": ["job loss", "door dash", "dance studio"], "entities": ["Gina", "Jon", "Door Dash"]}
+{"turn_id": "D1:4", "facts": ["Jon is starting a dance studio because he is passionate about dancing and wants to share it with others."], "keywords": ["dance studio", "passion", "business idea"], "entities": ["Jon"]}
+{"turn_id": "D1:5", "facts": [], "keywords": ["dance studio", "motivation"], "entities": ["Jon", "Gina"]}
+{"turn_id": "D1:6", "facts": ["Jon has been into dancing since he was a kid, and dance has been his passion and escape.", "Jon wants to open a dance studio so he can teach others the joy that dancing brings him."], "keywords": ["dancing", "childhood", "passion", "teaching"], "entities": ["Jon"]}
+{"turn_id": "D1:7", "facts": ["Gina said dance is her go-to activity for stress relief."], "keywords": ["dance", "stress relief"], "entities": ["Gina"]}
+{"turn_id": "D1:8", "facts": ["Jon said he loves all dances, but contemporary is his top pick because it is expressive and powerful."], "keywords": ["contemporary dance", "favorite style"], "entities": ["Jon"]}
+{"turn_id": "D1:9", "facts": ["Gina said her favorite dance style is also contemporary because it is expressive and graceful."], "keywords": ["contemporary dance", "favorite style"], "entities": ["Gina"]}
+{"turn_id": "D1:10", "facts": ["Jon suggested going to a dance class with Gina."], "keywords": ["dance class", "plan"], "entities": ["Jon", "Gina"]}
+{"turn_id": "D1:11", "facts": ["Gina agreed to plan a dance session with Jon soon."], "keywords": ["dance session", "plan"], "entities": ["Gina", "Jon"]}
+{"turn_id": "D1:12", "facts": ["On 2023-01-20, Jon invited Gina to watch him dance the following Friday (2023-01-27)."], "keywords": ["dance", "invitation", "plan"], "entities": ["Jon", "Gina"]}
+{"turn_id": "D1:13", "facts": ["Gina agreed to meet Jon the following Friday (2023-01-27) to see him dance."], "keywords": ["plan", "friday", "dance"], "entities": ["Gina", "Jon"]}
+{"turn_id": "D1:14", "facts": ["Jon shared a photo of a man in a suit dancing and said he was excited."], "keywords": ["dance photo", "excitement"], "entities": ["Jon"]}
+{"turn_id": "D1:15", "facts": [], "keywords": ["question", "dance photo"], "entities": ["Gina"]}
+{"turn_id": "D1:16", "facts": ["Jon said the photo was from when his dance crew took home first place in a local dance competition last year (2022).", "Jon asked Gina whether she had ever been in any dance competitions or shows."], "keywords": ["dance crew", "competition", "first place"], "entities": ["Jon"]}
+{"turn_id": "D1:17", "facts": ["Gina used to compete in dance competitions and shows.", "Gina's favorite memory is when her team won first place at a regionals dance competition when she was fifteen years old."], "keywords": ["dance competition", "regionals", "first place", "memory"], "entities": ["Gina"]}
+{"turn_id": "D1:18", "facts": [], "keywords": ["question", "dance"], "entities": ["Jon", "Gina"]}
+{"turn_id": "D1:19", "facts": ["Gina said the winning dance piece at the regionals competition was a contemporary piece called 'Finding Freedom', which was emotional and powerful."], "keywords": ["contemporary dance", "finding freedom", "regionals"], "entities": ["Gina", "Finding Freedom"]}
+{"turn_id": "D1:20", "facts": ["Jon shared a photo of his ideal dance studio located by the water."], "keywords": ["dance studio", "ideal location", "water view"], "entities": ["Jon"]}
+{"turn_id": "D1:21", "facts": [], "keywords": ["dance studio", "rehearsal"], "entities": ["Gina", "Jon"]}
+{"turn_id": "D1:22", "facts": [], "keywords": ["dance studio", "inspiration"], "entities": ["Jon"]}
+{"turn_id": "D1:23", "facts": [], "keywords": ["question", "dance", "projects"], "entities": ["Gina", "Jon"]}
+{"turn_id": "D1:24", "facts": ["Jon rehearses with a small group of dancers after work.", "Jon's dance group practices various styles ranging from contemporary to hip-hop.", "On 2023-01-20, Jon said he is finishing choreography to perform at a nearby festival the following month (around February 2023)."], "keywords": ["rehearsal", "hip-hop", "contemporary", "choreography", "festival"], "entities": ["Jon"]}
+{"turn_id": "D1:25", "facts": [], "keywords": ["festival", "dancers", "question"], "entities": ["Gina", "Jon"]}
+{"turn_id": "D1:26", "facts": ["Jon said his dancers performing at the upcoming festival have been practicing hard."], "keywords": ["festival", "dancers", "practice"], "entities": ["Jon"]}
+{"turn_id": "D1:27", "facts": [], "keywords": ["encouragement", "festival"], "entities": ["Gina"]}
+{"turn_id": "D1:28", "facts": [], "keywords": ["encouragement", "festival"], "entities": ["Jon"]}
+{"turn_id": "D2:1", "facts": ["On 2023-01-29, Gina said she launched an ad campaign for her clothing store to grow the business.", "Gina owns a clothing store."], "keywords": ["ad campaign", "clothing store", "business"], "entities": ["Gina"]}
+{"turn_id": "D2:2", "facts": [], "keywords": ["compliment", "clothing store"], "entities": ["Jon", "Gina"]}
+{"turn_id": "D2:3", "facts": [], "keywords": ["question", "dance studio"], "entities": ["Gina", "Jon"]}
+{"turn_id": "D2:4", "facts": ["Jon is searching for the ideal location for his dance studio.", "Jon found a potential dance studio location with great natural light.", "On 2023-01-29, Jon said he went to Paris the previous day (around 2023-01-28)."], "keywords": ["dance studio location", "natural light", "paris", "travel"], "entities": ["Jon", "Paris"]}
+{"turn_id": "D2:5", "facts": ["Gina has never had a chance to visit Paris.", "Gina has been to Rome once."], "keywords": ["paris", "rome", "travel"], "entities": ["Gina", "Paris", "Rome"]}
+{"turn_id": "D2:6", "facts": ["Jon's potential dance studio location is downtown, which is easy to get to and has natural light.", "Jon said he needs to check the size and floor quality of the dance studio space, including a dance floor with enough bounce for safety."], "keywords": ["downtown", "dance floor", "studio location"], "entities": ["Jon"]}
+{"turn_id": "D2:7", "facts": [], "keywords": ["dance floor", "question"], "entities": ["Gina", "Jon"]}
+{"turn_id": "D2:8", "facts": ["Jon said he wants Marley flooring for his dance studio because it is grippy, tough, and easy to clean, and is what dance studios usually use."], "keywords": ["marley flooring", "dance studio", "flooring"], "entities": ["Jon", "Marley flooring"]}
+{"turn_id": "D2:9", "facts": [], "keywords": ["marley flooring", "agreement"], "entities": ["Gina"]}
+{"turn_id": "D2:10", "facts": [], "keywords": ["dance studio", "progress"], "entities": ["Jon"]}
+{"turn_id": "D2:11", "facts": [], "keywords": ["encouragement", "stress relief"], "entities": ["Gina", "Jon"]}
+{"turn_id": "D2:12", "facts": [], "keywords": ["encouragement", "support"], "entities": ["Jon", "Gina"]}
+{"turn_id": "D2:13", "facts": [], "keywords": ["gratitude"], "entities": ["Gina", "Jon"]}
+{"turn_id": "D2:14", "facts": [], "keywords": ["motivation"], "entities": ["Jon"]}
+{"turn_id": "D2:15", "facts": [], "keywords": ["motivation", "goals"], "entities": ["Gina"]}
+{"turn_id": "D2:16", "facts": [], "keywords": ["motivation"], "entities": ["Jon"]}
+{"turn_id": "D3:1", "facts": ["On 2023-02-01, Jon said he is still searching for a place to open his dance studio and that the process has been bumpy but he is determined."], "keywords": ["dance studio", "search", "determination"], "entities": ["Jon"]}
+{"turn_id": "D3:2", "facts": ["On 2023-02-01, Gina said a wholesaler she emailed replied yes, allowing her to expand her clothing store and get closer to her customers."], "keywords": ["wholesaler", "clothing store", "expansion"], "entities": ["Gina"]}
+{"turn_id": "D3:3", "facts": [], "keywords": ["compliment", "store location"], "entities": ["Jon", "Gina"]}
+{"turn_id": "D3:4", "facts": ["Gina designed her clothing store space to be cozy and inviting, featuring trendy pieces for customers."], "keywords": ["store design", "clothing store", "trendy"], "entities": ["Gina"]}
+{"turn_id": "D3:5", "facts": [], "keywords": ["question", "furniture", "decor"], "entities": ["Jon", "Gina"]}
+{"turn_id": "D3:6", "facts": ["Gina chose furniture and decor for her store that reflects her own style and makes customers feel comfortable.", "Gina added a chandelier to her store for a glam feel that matches the store's style."], "keywords": ["furniture", "decor", "chandelier", "store style"], "entities": ["Gina"]}
+{"turn_id": "D3:7", "facts": [], "keywords": ["compliment", "store"], "entities": ["Jon"]}
+{"turn_id": "D3:8", "facts": ["Gina wants her store to feel like a cool oasis, creating an experience that makes customers want to come back."], "keywords": ["customer experience", "store atmosphere"], "entities": ["Gina"]}
+{"turn_id": "D3:9", "facts": [], "keywords": ["encouragement", "customer experience"], "entities": ["Jon"]}
+{"turn_id": "D3:10", "facts": [], "keywords": ["gratitude", "challenge"], "entities": ["Gina"]}
+{"turn_id": "D3:11", "facts": [], "keywords": ["support", "encouragement"], "entities": ["Jon"]}
+{"turn_id": "D3:12", "facts": [], "keywords": ["gratitude", "encouragement"], "entities": ["Gina", "Jon"]}
+{"turn_id": "D3:13", "facts": [], "keywords": ["motivation", "dreams"], "entities": ["Jon"]}
+{"turn_id": "D3:14", "facts": [], "keywords": ["motivation"], "entities": ["Gina"]}
+{"turn_id": "D4:1", "facts": [], "keywords": ["greeting", "business"], "entities": ["Jon", "Gina"]}
+{"turn_id": "D4:2", "facts": [], "keywords": ["greeting", "store"], "entities": ["Gina", "Jon"]}
+{"turn_id": "D4:3", "facts": ["On 2023-02-04, Jon said he is putting in a lot of work on his business despite obstacles."], "keywords": ["business", "obstacles", "hard work"], "entities": ["Jon"]}
+{"turn_id": "D4:4", "facts": [], "keywords": ["encouragement", "drive"], "entities": ["Gina"]}
+{"turn_id": "D4:5", "facts": [], "keywords": ["gratitude", "perseverance"], "entities": ["Jon"]}
+{"turn_id": "D4:6", "facts": [], "keywords": ["encouragement", "setbacks", "support"], "entities": ["Gina"]}
+{"turn_id": "D4:7", "facts": [], "keywords": ["gratitude", "support"], "entities": ["Jon"]}
+{"turn_id": "D4:8", "facts": [], "keywords": ["support", "question"], "entities": ["Gina"]}
+{"turn_id": "D4:9", "facts": ["On 2023-02-04, Jon said searching for a dance studio location has been tricky, but he is determined to find the right spot."], "keywords": ["dance studio", "location search"], "entities": ["Jon"]}
+{"turn_id": "D4:10", "facts": [], "keywords": ["encouragement", "dance studio"], "entities": ["Gina"]}
+{"turn_id": "D4:11", "facts": ["On 2023-02-04, Jon said he is rehearsing hard for an upcoming dance show.", "Jon said dancing brings him joy and fulfillment."], "keywords": ["rehearsal", "dance show", "joy"], "entities": ["Jon"]}
+{"turn_id": "D4:12", "facts": [], "keywords": ["question", "dance show"], "entities": ["Gina"]}
+{"turn_id": "D4:13", "facts": ["On 2023-02-04, Jon said he is preparing for a dance competition near him happening the following month (around March 2023)."], "keywords": ["dance competition", "preparation"], "entities": ["Jon"]}
+{"turn_id": "D4:14", "facts": [], "keywords": ["encouragement", "competition"], "entities": ["Gina"]}
+{"turn_id": "D4:15", "facts": [], "keywords": ["gratitude"], "entities": ["Jon"]}
+{"turn_id": "D4:16", "facts": [], "keywords": ["encouragement", "passion"], "entities": ["Gina"]}
+{"turn_id": "D4:17", "facts": [], "keywords": ["motivation", "dreams"], "entities": ["Jon"]}
+{"turn_id": "D4:18", "facts": [], "keywords": ["encouragement", "support"], "entities": ["Gina"]}
+{"turn_id": "D4:19", "facts": [], "keywords": ["gratitude", "perseverance"], "entities": ["Jon"]}
+{"turn_id": "D5:1", "facts": ["On 2023-02-08, Gina said she found a new fashion piece for her clothing store to share with her customers."], "keywords": ["fashion", "clothing store", "new item"], "entities": ["Gina"]}
+{"turn_id": "D5:2", "facts": ["On 2023-02-08, Jon said he performed at the festival he had previously mentioned and it was awesome, with many people complimenting his dance moves."], "keywords": ["festival performance", "dance moves", "compliments"], "entities": ["Jon"]}
+{"turn_id": "D5:3", "facts": [], "keywords": ["question", "dance studio"], "entities": ["Gina", "Jon"]}
+{"turn_id": "D5:4", "facts": ["Jon said he loves running his own dance studio because it gives him the freedom to create a space and help dancers of all ages and levels express themselves."], "keywords": ["dance studio", "freedom", "students", "fulfillment"], "entities": ["Jon"]}
+{"turn_id": "D5:5", "facts": ["On 2023-02-08, Gina said she has been working hard on her online store and teamed up with a local artist for some new clothing designs."], "keywords": ["online store", "local artist", "clothing designs"], "entities": ["Gina"]}
+{"turn_id": "D5:6", "facts": [], "keywords": ["question", "designs", "creativity"], "entities": ["Jon", "Gina"]}
+{"turn_id": "D5:7", "facts": ["Gina got the idea for her new clothing designs from a fashion magazine and worked with a local artist to create something different for her customers."], "keywords": ["fashion magazine", "clothing designs", "collaboration"], "entities": ["Gina"]}
+{"turn_id": "D5:8", "facts": [], "keywords": ["compliment", "risk-taking"], "entities": ["Jon", "Gina"]}
+{"turn_id": "D5:9", "facts": ["Gina said taking risks is scary but is the only way to grow and is part of the journey to success."], "keywords": ["risk-taking", "growth", "success"], "entities": ["Gina"]}
+{"turn_id": "D5:10", "facts": ["Jon said taking risks got him out of his secure 9-to-5 job as a banker and that he is now aiming to turn his dancing passion into a business."], "keywords": ["risk-taking", "banker", "career change", "dance business"], "entities": ["Jon"]}
+{"turn_id": "D5:11", "facts": [], "keywords": ["encouragement", "support"], "entities": ["Gina", "Jon"]}
+{"turn_id": "D5:12", "facts": [], "keywords": ["gratitude", "optimism"], "entities": ["Jon"]}
+{"turn_id": "D5:13", "facts": ["Gina said a quote about fear kept her positive through tough times and that she got a tattoo to remind herself of it."], "keywords": ["quote", "tattoo", "positivity"], "entities": ["Gina"]}
+{"turn_id": "D5:14", "facts": [], "keywords": ["question", "tattoo"], "entities": ["Jon"]}
+{"turn_id": "D5:15", "facts": ["Gina got her tattoo a few years before 2023-02-08, and it stands for freedom - dancing without worrying what people think, and is a reminder to follow her passions and express herself."], "keywords": ["tattoo", "freedom", "dance", "self-expression"], "entities": ["Gina"]}
+{"turn_id": "D5:16", "facts": ["Jon said dance gives him an escape to be himself."], "keywords": ["dance", "escape", "self-expression"], "entities": ["Jon"]}
+{"turn_id": "D5:17", "facts": [], "keywords": ["encouragement", "dedication"], "entities": ["Gina", "Jon"]}
+{"turn_id": "D5:18", "facts": ["Jon said dance is his passion and he is going to keep working hard to make it a success."], "keywords": ["dance", "passion", "hard work"], "entities": ["Jon"]}
+{"turn_id": "D5:19", "facts": [], "keywords": ["question", "juggling goals"], "entities": ["Gina"]}
+{"turn_id": "D5:20", "facts": ["Jon said juggling his dancing and his business is tricky but rewarding, since his dance moves energize him for business goals and his business successes boost his drive to keep dancing."], "keywords": ["juggling", "dance", "business", "balance"], "entities": ["Jon"]}
+{"turn_id": "D5:21", "facts": [], "keywords": ["compliment", "balance"], "entities": ["Gina"]}
+{"turn_id": "D5:22", "facts": [], "keywords": ["gratitude", "dreams"], "entities": ["Jon"]}
+{"turn_id": "D5:23", "facts": [], "keywords": ["support", "motivation"], "entities": ["Gina"]}
+{"turn_id": "D6:1", "facts": ["On 2023-03-16, Jon said he started hitting the gym the previous week (around 2023-03-09) to stay on track with his business venture."], "keywords": ["gym", "exercise", "business"], "entities": ["Jon"]}
+{"turn_id": "D6:2", "facts": ["On 2023-03-16, Gina said she has been having some tough times lately."], "keywords": ["tough times", "check-in"], "entities": ["Gina"]}
+{"turn_id": "D6:3", "facts": [], "keywords": ["concern", "offer to help"], "entities": ["Jon"]}
+{"turn_id": "D6:4", "facts": ["Gina said things have been tough since she lost her job at Door Dash."], "keywords": ["job loss", "door dash", "hardship"], "entities": ["Gina", "Door Dash"]}
+{"turn_id": "D6:5", "facts": [], "keywords": ["anticipation"], "entities": ["Jon"]}
+{"turn_id": "D6:6", "facts": ["On 2023-03-16, Gina said her online clothes store officially opened, something she had been dreaming of for a while."], "keywords": ["online store", "launch", "clothing"], "entities": ["Gina"]}
+{"turn_id": "D6:7", "facts": [], "keywords": ["congratulations", "question"], "entities": ["Jon"]}
+{"turn_id": "D6:8", "facts": ["Gina said she started her online store because she is passionate about fashion trends and unique pieces, and wanted to blend her love for dance and fashion."], "keywords": ["online store", "fashion", "dance", "motivation"], "entities": ["Gina"]}
+{"turn_id": "D6:9", "facts": [], "keywords": ["compliment", "combining interests"], "entities": ["Jon"]}
+{"turn_id": "D6:10", "facts": [], "keywords": ["question", "business"], "entities": ["Gina"]}
+{"turn_id": "D6:11", "facts": ["On 2023-03-16, Jon said losing his job was hard, but starting his business has been tough though he is determined to make it work."], "keywords": ["job loss", "business", "perseverance"], "entities": ["Jon"]}
+{"turn_id": "D6:12", "facts": [], "keywords": ["business", "ups and downs"], "entities": ["Gina"]}
+{"turn_id": "D6:13", "facts": [], "keywords": ["inspiration", "determination"], "entities": ["Jon"]}
+{"turn_id": "D6:14", "facts": [], "keywords": ["gratitude", "inspiration"], "entities": ["Gina"]}
+{"turn_id": "D6:15", "facts": [], "keywords": ["shared challenges", "motivation"], "entities": ["Jon"]}
+{"turn_id": "D6:16", "facts": [], "keywords": ["support", "different paths"], "entities": ["Gina"]}
+{"turn_id": "D6:17", "facts": [], "keywords": ["support", "success"], "entities": ["Jon"]}
+{"turn_id": "D6:18", "facts": [], "keywords": ["dreams", "support", "achievements"], "entities": ["Gina"]}
+{"turn_id": "D6:19", "facts": [], "keywords": ["gratitude", "celebration"], "entities": ["Jon"]}
+{"turn_id": "D7:1", "facts": [], "keywords": ["greeting", "check-in"], "entities": ["Jon", "Gina"]}
+{"turn_id": "D7:2", "facts": ["On 2023-03-23, Gina said her online clothing store has been a roller coaster but rewarding."], "keywords": ["online clothing store", "business journey"], "entities": ["Gina"]}
+{"turn_id": "D7:3", "facts": [], "keywords": ["encouragement", "business"], "entities": ["Jon"]}
+{"turn_id": "D7:4", "facts": ["On 2023-03-23, Gina said her store's business is going good and she has been keeping up with fashion trends to offer the best pieces to customers.", "Gina asked Jon for advice or tips on running a successful business."], "keywords": ["fashion trends", "store", "business advice"], "entities": ["Gina"]}
+{"turn_id": "D7:5", "facts": ["Jon advised Gina that brand identity is key, to build relationships with customers, and to stay positive to motivate others."], "keywords": ["brand identity", "customer relationships", "advice"], "entities": ["Jon"]}
+{"turn_id": "D7:6", "facts": ["Gina asked Jon what helps him stay motivated with his dance studio business."], "keywords": ["motivation", "dance studio", "question"], "entities": ["Gina"]}
+{"turn_id": "D7:7", "facts": ["Jon said seeing his students succeed motivates him, and that it's awesome to help them learn and reach their goals."], "keywords": ["students", "motivation", "dance classes"], "entities": ["Jon"]}
+{"turn_id": "D7:8", "facts": [], "keywords": ["compliment", "students"], "entities": ["Gina"]}
+{"turn_id": "D7:9", "facts": [], "keywords": ["gratitude", "support"], "entities": ["Jon"]}
+{"turn_id": "D7:10", "facts": [], "keywords": ["support", "positivity"], "entities": ["Gina"]}
+{"turn_id": "D7:11", "facts": [], "keywords": ["gratitude"], "entities": ["Jon"]}
+{"turn_id": "D7:12", "facts": [], "keywords": ["support"], "entities": ["Gina"]}
+{"turn_id": "D7:13", "facts": [], "keywords": ["gratitude", "motivation"], "entities": ["Jon"]}
+{"turn_id": "D7:14", "facts": [], "keywords": ["encouragement"], "entities": ["Gina"]}
+{"turn_id": "D7:15", "facts": [], "keywords": ["gratitude", "perseverance"], "entities": ["Jon"]}
+{"turn_id": "D7:16", "facts": [], "keywords": ["encouragement", "belief"], "entities": ["Gina"]}
+{"turn_id": "D7:17", "facts": [], "keywords": ["gratitude", "self-belief"], "entities": ["Jon"]}
+{"turn_id": "D8:1", "facts": ["On 2023-04-03, Jon said he had to shut down his bank account, a tough decision he made for his business."], "keywords": ["bank account", "business decision"], "entities": ["Jon"]}
+{"turn_id": "D8:2", "facts": [], "keywords": ["sympathy", "question"], "entities": ["Gina"]}
+{"turn_id": "D8:3", "facts": [], "keywords": ["business", "staying positive"], "entities": ["Jon"]}
+{"turn_id": "D8:4", "facts": ["On 2023-04-03, Gina said she has new offers and promotions going on her online store to try to bring in new customers."], "keywords": ["promotions", "online store", "new customers"], "entities": ["Gina"]}
+{"turn_id": "D8:5", "facts": [], "keywords": ["compliment", "question", "motivation"], "entities": ["Jon"]}
+{"turn_id": "D8:6", "facts": ["Gina said dance is her stress relief and fashion fuels her creativity, and she loves finding new trends for her store."], "keywords": ["dance", "stress relief", "fashion", "creativity"], "entities": ["Gina"]}
+{"turn_id": "D8:7", "facts": [], "keywords": ["question", "combining interests"], "entities": ["Jon"]}
+{"turn_id": "D8:8", "facts": ["Gina combined her clothing business and dance because she is passionate about both, and plans to add dance-inspired items to her store."], "keywords": ["dance-inspired", "clothing", "passion"], "entities": ["Gina"]}
+{"turn_id": "D8:9", "facts": [], "keywords": ["compliment", "question"], "entities": ["Jon"]}
+{"turn_id": "D8:10", "facts": ["On 2023-04-03, Gina said customers love her new offers and promotions, resulting in more sales, and that growing her customer base is her main focus."], "keywords": ["sales", "customer base", "promotions"], "entities": ["Gina"]}
+{"turn_id": "D8:11", "facts": [], "keywords": ["question", "growth plans"], "entities": ["Jon"]}
+{"turn_id": "D8:12", "facts": ["Gina plans to work with fashion bloggers and influencers in the next few months and run more ads to grow her customer base and make her store a top destination for fashion fans."], "keywords": ["fashion bloggers", "influencers", "ads", "customer base"], "entities": ["Gina"]}
+{"turn_id": "D8:13", "facts": ["On 2023-04-03, Jon said he is expanding his dance studio's social media presence, offering workshops and classes to local schools and centers, and hosting a dance competition the following month (around May 2023) to showcase local talent."], "keywords": ["social media", "workshops", "dance competition", "expansion"], "entities": ["Jon"]}
+{"turn_id": "D8:14", "facts": [], "keywords": ["compliment", "progress"], "entities": ["Gina"]}
+{"turn_id": "D8:15", "facts": ["Jon invited Gina to the dance competition event he is hosting the following month."], "keywords": ["invitation", "dance event"], "entities": ["Jon"]}
+{"turn_id": "D8:16", "facts": [], "keywords": ["question", "excitement"], "entities": ["Gina"]}
+{"turn_id": "D8:17", "facts": ["Jon said his dance studio and other schools will be performing and being judged at the event, with an evening of performances."], "keywords": ["dance event", "performances", "judging"], "entities": ["Jon"]}
+{"turn_id": "D8:18", "facts": ["Gina said she will attend Jon's dance event."], "keywords": ["attendance", "dance event"], "entities": ["Gina"]}
+{"turn_id": "D8:19", "facts": [], "keywords": ["anticipation"], "entities": ["Jon"]}
+{"turn_id": "D8:20", "facts": [], "keywords": ["anticipation", "dance event"], "entities": ["Gina"]}
+{"turn_id": "D8:21", "facts": [], "keywords": ["encouragement", "store"], "entities": ["Jon"]}
+{"turn_id": "D8:22", "facts": [], "keywords": ["gratitude"], "entities": ["Gina"]}
+{"turn_id": "D8:23", "facts": [], "keywords": ["support"], "entities": ["Jon"]}
+{"turn_id": "D8:24", "facts": [], "keywords": ["gratitude", "goals"], "entities": ["Gina"]}
+{"turn_id": "D8:25", "facts": [], "keywords": ["gratitude", "farewell", "dreams"], "entities": ["Jon"]}
+{"turn_id": "D8:26", "facts": [], "keywords": ["farewell", "encouragement"], "entities": ["Gina"]}
+{"turn_id": "D9:1", "facts": ["On 2023-04-09, Jon said he has been putting a lot of time into his dance studio lately and that his students are doing well and he is learning alongside them."], "keywords": ["dance studio", "students", "learning"], "entities": ["Jon"]}
+{"turn_id": "D9:2", "facts": [], "keywords": ["compliment", "dance studio"], "entities": ["Gina"]}
+{"turn_id": "D9:3", "facts": ["Jon said losing his job was tough but gave him the push he needed to pursue his dance studio."], "keywords": ["job loss", "motivation", "dance studio"], "entities": ["Jon"]}
+{"turn_id": "D9:4", "facts": [], "keywords": ["encouragement", "courage"], "entities": ["Gina"]}
+{"turn_id": "D9:5", "facts": ["Jon said dancing makes him happy, and seeing his students get better at dancing brings him joy."], "keywords": ["dancing", "happiness", "students", "joy"], "entities": ["Jon"]}
+{"turn_id": "D9:6", "facts": [], "keywords": ["compliment", "dance"], "entities": ["Gina"]}
+{"turn_id": "D9:7", "facts": ["Jon said dancing is a way for him to express himself and find his happy place, and he used to be scared of what people would think but learned his own happiness is most important."], "keywords": ["self-expression", "happiness", "confidence"], "entities": ["Jon"]}
+{"turn_id": "D9:8", "facts": ["Gina said she used to attend dance classes with Jon and loved spending time in the studio."], "keywords": ["dance classes", "memories", "studio"], "entities": ["Gina", "Jon"]}
+{"turn_id": "D9:9", "facts": ["Jon said he loved taking dance lessons with his friends when he was younger and treasures those memories."], "keywords": ["dance lessons", "childhood", "friends", "memories"], "entities": ["Jon"]}
+{"turn_id": "D9:10", "facts": ["Gina shared a photo of one of her trophies from a dance contest as a reminder of the hard work, dedication, and joy dance brings."], "keywords": ["trophy", "dance contest", "dedication"], "entities": ["Gina"]}
+{"turn_id": "D9:11", "facts": [], "keywords": ["gratitude", "support"], "entities": ["Jon"]}
+{"turn_id": "D9:12", "facts": [], "keywords": ["encouragement", "hard work"], "entities": ["Gina"]}
+{"turn_id": "D9:13", "facts": [], "keywords": ["perseverance", "motivation"], "entities": ["Jon"]}
+{"turn_id": "D9:14", "facts": [], "keywords": ["encouragement"], "entities": ["Gina"]}
+{"turn_id": "D10:1", "facts": ["On 2023-04-25, Jon said he went to a fair the previous day (around 2023-04-24) to showcase his dance studio and got some possible leads.", "Jon said this business is no cakewalk and that having confidence in yourself is important for making it successful."], "keywords": ["fair", "dance studio", "leads", "confidence"], "entities": ["Jon"]}
+{"turn_id": "D10:2", "facts": ["On 2023-04-25, Gina said she started her own online clothing store not long before this date."], "keywords": ["online clothing store", "congratulations"], "entities": ["Gina"]}
+{"turn_id": "D10:3", "facts": [], "keywords": ["gratitude", "support"], "entities": ["Jon"]}
+{"turn_id": "D10:4", "facts": ["Gina said after losing her job, she wanted to take control of her own destiny, which is why she started her online clothing store."], "keywords": ["job loss", "destiny", "online store"], "entities": ["Gina"]}
+{"turn_id": "D10:5", "facts": ["On 2023-04-25, Jon said he is having trouble with his business project and asked Gina for advice on staying motivated when times are tough."], "keywords": ["business trouble", "motivation", "advice"], "entities": ["Jon"]}
+{"turn_id": "D10:6", "facts": ["Gina said to stay motivated she thinks of her big goal and why she's doing it, gets help from supportive people, and dances it out."], "keywords": ["motivation", "support system", "dance"], "entities": ["Gina"]}
+{"turn_id": "D10:7", "facts": ["On 2023-04-25, Jon said he has been feeling low on confidence lately and asked Gina for tips on staying confident in business."], "keywords": ["low confidence", "business", "advice"], "entities": ["Jon"]}
+{"turn_id": "D10:8", "facts": ["Gina said she stays motivated by reminding herself of her successes and progress and having a good support system."], "keywords": ["confidence", "motivation", "support system"], "entities": ["Gina"]}
+{"turn_id": "D10:9", "facts": [], "keywords": ["gratitude", "confidence"], "entities": ["Jon"]}
+{"turn_id": "D10:10", "facts": [], "keywords": ["encouragement", "self-belief"], "entities": ["Gina"]}
+{"turn_id": "D10:11", "facts": [], "keywords": ["gratitude", "perseverance"], "entities": ["Jon"]}
+{"turn_id": "D10:12", "facts": [], "keywords": ["encouragement", "teamwork"], "entities": ["Gina"]}
+{"turn_id": "D10:13", "facts": [], "keywords": ["gratitude", "support"], "entities": ["Jon"]}
+{"turn_id": "D10:14", "facts": [], "keywords": ["support", "teamwork"], "entities": ["Gina"]}
+{"turn_id": "D11:1", "facts": ["On 2023-05-11, Jon said he is still working on the dance studio and things are looking up."], "keywords": ["dance studio", "progress"], "entities": ["Jon"]}
+{"turn_id": "D11:2", "facts": [], "keywords": ["compliment", "studio"], "entities": ["Gina"]}
+{"turn_id": "D11:3", "facts": ["Jon said losing his job gave him the push to finally start his dream business, his own dance studio."], "keywords": ["job loss", "dream business", "dance studio"], "entities": ["Jon"]}
+{"turn_id": "D11:4", "facts": [], "keywords": ["encouragement", "determination"], "entities": ["Gina"]}
+{"turn_id": "D11:5", "facts": ["Jon said dance has been his stress-buster since childhood."], "keywords": ["dance", "stress relief", "childhood"], "entities": ["Jon"]}
+{"turn_id": "D11:6", "facts": ["Gina said dance is her stress fix too, and all her worries vanish as soon as she starts dancing."], "keywords": ["dance", "stress relief", "mental health"], "entities": ["Gina"]}
+{"turn_id": "D11:7", "facts": ["Jon said dancing helps him de-stress and is where he feels most alive."], "keywords": ["dance", "de-stress", "alive"], "entities": ["Jon"]}
+{"turn_id": "D11:8", "facts": ["Gina said she can't picture her life without dance, comparing it to air."], "keywords": ["dance", "identity", "importance"], "entities": ["Gina"]}
+{"turn_id": "D11:9", "facts": ["Jon said dancing is like second nature to him and he is living his dream by having his own dance studio and teaching others."], "keywords": ["dance", "dream", "teaching"], "entities": ["Jon"]}
+{"turn_id": "D11:10", "facts": [], "keywords": ["encouragement", "impact"], "entities": ["Gina"]}
+{"turn_id": "D11:11", "facts": ["Jon said his dream is to create a place for people to dance and express themselves through his dance studio."], "keywords": ["dream", "dance studio", "self-expression"], "entities": ["Jon"]}
+{"turn_id": "D11:12", "facts": [], "keywords": ["encouragement", "dream"], "entities": ["Gina"]}
+{"turn_id": "D11:13", "facts": [], "keywords": ["gratitude", "update"], "entities": ["Jon"]}
+{"turn_id": "D11:14", "facts": ["On 2023-05-11, Gina said she had an interview for a design internship the previous day (around 2023-05-10) and it was cool."], "keywords": ["design internship", "interview"], "entities": ["Gina"]}
+{"turn_id": "D11:15", "facts": ["Jon asked Gina how her design internship interview went."], "keywords": ["design internship", "question", "risk"], "entities": ["Jon"]}
+{"turn_id": "D11:16", "facts": ["Gina said her design internship interview went great."], "keywords": ["design internship", "interview result"], "entities": ["Gina"]}
+{"turn_id": "D11:17", "facts": ["Jon said he has been practicing dance routines lately, which keeps his mind focused and motivated."], "keywords": ["dance routines", "practice", "focus"], "entities": ["Jon"]}
+{"turn_id": "D11:18", "facts": ["Gina asked Jon to show her one of his dance routines sometime."], "keywords": ["dance routine", "request"], "entities": ["Gina"]}
+{"turn_id": "D11:19", "facts": ["Jon offered to send Gina a video of one of his dance routines."], "keywords": ["dance routine", "video", "offer"], "entities": ["Jon"]}
+{"turn_id": "D11:20", "facts": [], "keywords": ["encouragement", "pride"], "entities": ["Gina"]}
+{"turn_id": "D11:21", "facts": [], "keywords": ["gratitude", "video"], "entities": ["Jon"]}
+{"turn_id": "D11:22", "facts": [], "keywords": ["anticipation", "support"], "entities": ["Gina"]}
+{"turn_id": "D12:1", "facts": ["On 2023-05-27, Gina said she just got accepted for a fashion internship."], "keywords": ["fashion internship", "acceptance", "news"], "entities": ["Gina"]}
+{"turn_id": "D12:2", "facts": ["Jon asked Gina where her fashion internship is and how she feels about it."], "keywords": ["fashion internship", "question", "excitement"], "entities": ["Jon"]}
+{"turn_id": "D12:3", "facts": ["On 2023-05-27, Gina said her fashion internship is a part-time position in the fashion department of an international company, and she is excited but nervous about it."], "keywords": ["fashion internship", "part-time", "international company"], "entities": ["Gina"]}
+{"turn_id": "D12:4", "facts": [], "keywords": ["compliment", "future plans"], "entities": ["Jon"]}
+{"turn_id": "D12:5", "facts": ["Gina said she feels a mix of excited and scared about getting into fashion, but is trying to stay upbeat and learn as much as she can."], "keywords": ["fashion", "excitement", "nerves", "learning"], "entities": ["Gina"]}
+{"turn_id": "D12:6", "facts": ["On 2023-05-27, Jon said he is currently reading 'The Lean Startup' hoping it will give him tips for his business."], "keywords": ["the lean startup", "reading", "business tips"], "entities": ["Jon", "The Lean Startup"]}
+{"turn_id": "D12:7", "facts": [], "keywords": ["question", "book", "dance studio"], "entities": ["Gina"]}
+{"turn_id": "D12:8", "facts": ["Jon said 'The Lean Startup' got him thinking about building a focused and efficient business and adapting from customer feedback."], "keywords": ["the lean startup", "business strategy", "customer feedback"], "entities": ["Jon", "The Lean Startup"]}
+{"turn_id": "D12:9", "facts": [], "keywords": ["whiteboard", "schedule", "question"], "entities": ["Gina"]}
+{"turn_id": "D12:10", "facts": ["Jon uses a whiteboard with a list of dates to keep track of ideas and milestones and stay organized for his dance studio business."], "keywords": ["whiteboard", "organization", "milestones"], "entities": ["Jon"]}
+{"turn_id": "D12:11", "facts": [], "keywords": ["question", "current work"], "entities": ["Gina"]}
+{"turn_id": "D12:12", "facts": ["On 2023-05-27, Jon said he is wrapping up his business plan and looking for investors for his dance studio."], "keywords": ["business plan", "investors", "dance studio"], "entities": ["Jon"]}
+{"turn_id": "D12:13", "facts": [], "keywords": ["compliment", "investors"], "entities": ["Gina"]}
+{"turn_id": "D12:14", "facts": ["Jon said searching for investors has been tough, but he is staying hopeful and learning a lot in the process."], "keywords": ["investors", "challenge", "learning"], "entities": ["Jon"]}
+{"turn_id": "D12:15", "facts": [], "keywords": ["encouragement", "growth"], "entities": ["Gina"]}
+{"turn_id": "D12:16", "facts": [], "keywords": ["gratitude", "perseverance"], "entities": ["Jon"]}
+{"turn_id": "D12:17", "facts": [], "keywords": ["encouragement"], "entities": ["Gina"]}
+{"turn_id": "D12:18", "facts": [], "keywords": ["gratitude", "resilience"], "entities": ["Jon"]}
+{"turn_id": "D12:19", "facts": [], "keywords": ["encouragement", "obstacles"], "entities": ["Gina"]}
+{"turn_id": "D13:1", "facts": [], "keywords": ["gratitude", "support"], "entities": ["Jon"]}
+{"turn_id": "D13:2", "facts": [], "keywords": ["check-in", "support"], "entities": ["Gina"]}
+{"turn_id": "D13:3", "facts": ["On 2023-06-13, Jon said he is prepping for his dance studio more than ever."], "keywords": ["dance studio", "preparation"], "entities": ["Jon"]}
+{"turn_id": "D13:4", "facts": ["On 2023-06-13, Gina said she developed a video presentation to teach how to style her fashion pieces."], "keywords": ["video presentation", "fashion styling"], "entities": ["Gina"]}
+{"turn_id": "D13:5", "facts": ["Jon said opening the dance studio has been a great experience, and he wants it to be a place of support and encouragement for all the dancers.", "Jon asked Gina to show him her fashion styling video presentation."], "keywords": ["dance studio", "support", "encouragement"], "entities": ["Jon"]}
+{"turn_id": "D13:6", "facts": ["Gina agreed to send Jon her fashion styling video presentation later.", "Gina said starting her clothing business isn't just a business, it's meant to help others too."], "keywords": ["video presentation", "clothing business"], "entities": ["Gina"]}
+{"turn_id": "D13:7", "facts": ["On 2023-06-13, Jon said besides dance classes and workshops, he is offering one-on-one mentoring and training at his dance studio to help dancers reach their full potential."], "keywords": ["mentoring", "training", "dance studio"], "entities": ["Jon"]}
+{"turn_id": "D13:8", "facts": ["Gina said she had a mentor too when she was learning how to dance."], "keywords": ["mentor", "dance", "learning"], "entities": ["Gina"]}
+{"turn_id": "D13:9", "facts": ["Jon said a mentor can do wonders and that guidance and support can help dancers really shine."], "keywords": ["mentor", "guidance", "support"], "entities": ["Jon"]}
+{"turn_id": "D13:10", "facts": [], "keywords": ["question", "system"], "entities": ["Gina"]}
+{"turn_id": "D13:11", "facts": ["Jon uses a system that sets goals, tracks his achievements, and helps him find areas to improve, to stay organized and motivated."], "keywords": ["goal tracking", "organization", "motivation"], "entities": ["Jon"]}
+{"turn_id": "D13:12", "facts": [], "keywords": ["organization", "question"], "entities": ["Gina"]}
+{"turn_id": "D13:13", "facts": ["Jon uses a whiteboard to stay on track, visualize goals, and track successes, which keeps him motivated and focused."], "keywords": ["whiteboard", "goals", "motivation"], "entities": ["Jon"]}
+{"turn_id": "D13:14", "facts": [], "keywords": ["question", "color-coding"], "entities": ["Gina"]}
+{"turn_id": "D13:15", "facts": ["Jon color-codes his achievements on his whiteboard so he can easily track his progress and stay motivated."], "keywords": ["color-coding", "progress tracking"], "entities": ["Jon"]}
+{"turn_id": "D13:16", "facts": [], "keywords": ["compliment", "progress tracking"], "entities": ["Gina"]}
+{"turn_id": "D13:17", "facts": [], "keywords": ["gratitude", "motivation"], "entities": ["Jon"]}
+{"turn_id": "D13:18", "facts": [], "keywords": ["agreement"], "entities": ["Gina"]}
+{"turn_id": "D13:19", "facts": [], "keywords": ["gratitude"], "entities": ["Jon"]}
+{"turn_id": "D13:20", "facts": [], "keywords": ["positivity", "encouragement"], "entities": ["Gina"]}
+{"turn_id": "D13:21", "facts": [], "keywords": ["gratitude", "support"], "entities": ["Jon"]}
+{"turn_id": "D13:22", "facts": [], "keywords": ["encouragement", "dreams"], "entities": ["Gina"]}
+{"turn_id": "D13:23", "facts": [], "keywords": ["perseverance", "gratitude"], "entities": ["Jon"]}
+{"turn_id": "D14:1", "facts": ["On 2023-06-16, Jon said he was mentored by an amazing business person the previous day (around 2023-06-15), which was inspiring."], "keywords": ["mentorship", "business advice", "inspiration"], "entities": ["Jon"]}
+{"turn_id": "D14:2", "facts": ["On 2023-06-16, Gina said she is working on growing her online store's customer base, which is tough but she is determined."], "keywords": ["online store", "customer base", "determination"], "entities": ["Gina"]}
+{"turn_id": "D14:3", "facts": ["Jon asked Gina for marketing tips for his business."], "keywords": ["marketing", "promotion", "question"], "entities": ["Jon"]}
+{"turn_id": "D14:4", "facts": ["Gina advised Jon to use social media channels and work with influencers for a bigger marketing reach."], "keywords": ["social media", "influencers", "marketing advice"], "entities": ["Gina"]}
+{"turn_id": "D14:5", "facts": ["Jon started posting dance videos on social media following Gina's marketing advice, and it's creating a bit of a stir."], "keywords": ["social media", "dance videos", "marketing"], "entities": ["Jon"]}
+{"turn_id": "D14:6", "facts": [], "keywords": ["encouragement", "dance videos"], "entities": ["Gina"]}
+{"turn_id": "D14:7", "facts": ["Jon asked Gina if she had thought about being an entrepreneur."], "keywords": ["entrepreneur", "question"], "entities": ["Jon"]}
+{"turn_id": "D14:8", "facts": ["Gina said she became an entrepreneur after losing her job, opening an online clothing store, and that being her own boss and doing something she loves is awesome."], "keywords": ["entrepreneur", "online clothing store", "being her own boss"], "entities": ["Gina"]}
+{"turn_id": "D14:9", "facts": ["Jon asked Gina for advice for someone just starting out as an entrepreneur."], "keywords": ["advice", "entrepreneur", "question"], "entities": ["Jon"]}
+{"turn_id": "D14:10", "facts": ["Gina's advice for new entrepreneurs is to stay passionate, focused, and resilient, believe in yourself, and stay open to learning and improving."], "keywords": ["entrepreneur advice", "resilience", "passion"], "entities": ["Gina"]}
+{"turn_id": "D14:11", "facts": [], "keywords": ["gratitude", "resilience"], "entities": ["Jon"]}
+{"turn_id": "D14:12", "facts": [], "keywords": ["encouragement", "perseverance"], "entities": ["Gina"]}
+{"turn_id": "D14:13", "facts": [], "keywords": ["gratitude", "motivation"], "entities": ["Jon"]}
+{"turn_id": "D14:14", "facts": ["Gina shared an old photo from when she used to dance, saying it was a tough road but worth it."], "keywords": ["dance photo", "memories", "perseverance"], "entities": ["Gina"]}
+{"turn_id": "D14:15", "facts": [], "keywords": ["compliment", "dance photo"], "entities": ["Jon"]}
+{"turn_id": "D14:16", "facts": [], "keywords": ["dreams", "encouragement"], "entities": ["Gina"]}
+{"turn_id": "D14:17", "facts": [], "keywords": ["gratitude", "perseverance"], "entities": ["Jon"]}
+{"turn_id": "D14:18", "facts": [], "keywords": ["encouragement", "support"], "entities": ["Gina"]}
+{"turn_id": "D14:19", "facts": [], "keywords": ["gratitude", "support"], "entities": ["Jon"]}
+{"turn_id": "D14:20", "facts": [], "keywords": ["compliment", "determination"], "entities": ["Gina"]}
+{"turn_id": "D15:1", "facts": ["On 2023-06-19, Jon said he took a short trip to Rome the previous week (around mid-June 2023) to clear his mind while working on his business."], "keywords": ["rome", "trip", "business"], "entities": ["Jon", "Rome"]}
+{"turn_id": "D15:2", "facts": [], "keywords": ["support", "focus"], "entities": ["Gina"]}
+{"turn_id": "D15:3", "facts": ["On 2023-06-19, Jon said he is still working on opening his dance studio."], "keywords": ["dance studio", "progress"], "entities": ["Jon"]}
+{"turn_id": "D15:4", "facts": [], "keywords": ["question", "opening date"], "entities": ["Gina"]}
+{"turn_id": "D15:5", "facts": ["Jon said the official opening night of his dance studio is 2023-06-20 (the day after 2023-06-19)."], "keywords": ["opening night", "dance studio", "launch"], "entities": ["Jon"]}
+{"turn_id": "D15:6", "facts": [], "keywords": ["congratulations", "launch"], "entities": ["Gina"]}
+{"turn_id": "D15:7", "facts": [], "keywords": ["excitement", "readiness"], "entities": ["Jon"]}
+{"turn_id": "D15:8", "facts": [], "keywords": ["excitement", "support"], "entities": ["Gina"]}
+{"turn_id": "D15:9", "facts": [], "keywords": ["gratitude", "anticipation"], "entities": ["Jon"]}
+{"turn_id": "D15:10", "facts": [], "keywords": ["pride", "support"], "entities": ["Gina"]}
+{"turn_id": "D15:11", "facts": [], "keywords": ["gratitude"], "entities": ["Jon"]}
+{"turn_id": "D15:12", "facts": ["Gina said she will be by Jon's side at the dance studio's grand opening on 2023-06-20."], "keywords": ["grand opening", "attendance", "memories"], "entities": ["Gina"]}
+{"turn_id": "D15:13", "facts": [], "keywords": ["excitement", "grand opening"], "entities": ["Jon"]}
+{"turn_id": "D15:14", "facts": [], "keywords": ["anticipation", "memories"], "entities": ["Gina"]}
+{"turn_id": "D15:15", "facts": [], "keywords": ["anticipation"], "entities": ["Jon"]}
+{"turn_id": "D15:16", "facts": [], "keywords": ["friendship", "excitement"], "entities": ["Gina"]}
+{"turn_id": "D15:17", "facts": [], "keywords": ["agreement"], "entities": ["Jon"]}
+{"turn_id": "D15:18", "facts": [], "keywords": ["anticipation", "grand opening"], "entities": ["Gina"]}
+{"turn_id": "D15:19", "facts": [], "keywords": ["excitement", "grand opening"], "entities": ["Jon"]}
+{"turn_id": "D15:20", "facts": [], "keywords": ["anticipation"], "entities": ["Gina"]}
+{"turn_id": "D15:21", "facts": [], "keywords": ["farewell", "grand opening"], "entities": ["Jon"]}
+{"turn_id": "D15:22", "facts": [], "keywords": ["farewell"], "entities": ["Gina"]}
+{"turn_id": "D16:1", "facts": ["On 2023-06-21, Gina said she acquired some new unique pieces for her clothing store."], "keywords": ["clothing store", "new pieces"], "entities": ["Gina"]}
+{"turn_id": "D16:2", "facts": [], "keywords": ["compliment", "question"], "entities": ["Jon"]}
+{"turn_id": "D16:3", "facts": ["Gina said she made a limited edition hoodie line the previous week (around mid-June 2023) from her own collection to show off her style and creativity, and it is not for sale."], "keywords": ["limited edition", "hoodie", "personal collection"], "entities": ["Gina"]}
+{"turn_id": "D16:4", "facts": [], "keywords": ["question", "design idea"], "entities": ["Jon"]}
+{"turn_id": "D16:5", "facts": ["Gina said her camouflage hoodie design reminds her of the grit it takes to stand out and face challenges."], "keywords": ["design inspiration", "camouflage", "grit"], "entities": ["Gina"]}
+{"turn_id": "D16:6", "facts": ["On 2023-06-21, Jon said he went to networking events the previous day (around 2023-06-20) to make things happen for his business."], "keywords": ["networking events", "business"], "entities": ["Jon"]}
+{"turn_id": "D16:7", "facts": [], "keywords": ["encouragement", "networking"], "entities": ["Gina"]}
+{"turn_id": "D16:8", "facts": ["Jon said it's been tough since he lost his job, but he believes investing time in his business will pay off eventually."], "keywords": ["job loss", "business investment", "perseverance"], "entities": ["Jon"]}
+{"turn_id": "D16:9", "facts": [], "keywords": ["support", "offer to help"], "entities": ["Gina"]}
+{"turn_id": "D16:10", "facts": ["Jon said he is writing all his business plans down."], "keywords": ["planning", "writing down goals"], "entities": ["Jon"]}
+{"turn_id": "D16:11", "facts": [], "keywords": ["planning", "progress tracking"], "entities": ["Gina"]}
+{"turn_id": "D16:12", "facts": [], "keywords": ["gratitude", "motivation"], "entities": ["Jon"]}
+{"turn_id": "D16:13", "facts": [], "keywords": ["perseverance", "encouragement"], "entities": ["Gina"]}
+{"turn_id": "D16:14", "facts": ["Jon said a sign reading 'never give up' reminds him to keep going no matter how hard things get."], "keywords": ["never give up", "sign", "motivation"], "entities": ["Jon"]}
+{"turn_id": "D16:15", "facts": [], "keywords": ["self-belief", "encouragement"], "entities": ["Gina"]}
+{"turn_id": "D16:16", "facts": [], "keywords": ["confidence", "gratitude"], "entities": ["Jon"]}
+{"turn_id": "D17:1", "facts": ["On 2023-07-09, Gina said the previous week (around early July 2023) she got noticed by fashion editors, which has been amazing but scary and a lot of pressure."], "keywords": ["fashion editors", "recognition", "pressure"], "entities": ["Gina"]}
+{"turn_id": "D17:2", "facts": ["On 2023-07-09, Jon said he is determined to go full-time with his dance studio business idea."], "keywords": ["full-time", "business decision", "determination"], "entities": ["Jon"]}
+{"turn_id": "D17:3", "facts": [], "keywords": ["encouragement", "perspective"], "entities": ["Gina"]}
+{"turn_id": "D17:4", "facts": ["Jon said losing his job pushed him to take the plunge on his business dreams, and he started learning marketing and analytics tools on 2023-07-09 to push the business forward."], "keywords": ["job loss", "marketing tools", "analytics"], "entities": ["Jon"]}
+{"turn_id": "D17:5", "facts": [], "keywords": ["encouragement"], "entities": ["Gina"]}
+{"turn_id": "D17:6", "facts": ["Jon said he is excited to guide and mentor aspiring dancers on their dreams."], "keywords": ["mentoring", "aspiring dancers"], "entities": ["Jon"]}
+{"turn_id": "D17:7", "facts": [], "keywords": ["compliment", "mentorship"], "entities": ["Gina"]}
+{"turn_id": "D17:8", "facts": ["Jon said dance has the power to bring people together and create meaningful moments, which reminds him why he's chasing his dream."], "keywords": ["dance", "connection", "dream"], "entities": ["Jon"]}
+{"turn_id": "D17:9", "facts": [], "keywords": ["community", "support"], "entities": ["Gina"]}
+{"turn_id": "D17:10", "facts": [], "keywords": ["gratitude", "support"], "entities": ["Jon"]}
+{"turn_id": "D17:11", "facts": [], "keywords": ["encouragement", "potential"], "entities": ["Gina"]}
+{"turn_id": "D17:12", "facts": [], "keywords": ["gratitude", "dreams"], "entities": ["Jon"]}
+{"turn_id": "D17:13", "facts": [], "keywords": ["encouragement", "dreams"], "entities": ["Gina"]}
+{"turn_id": "D17:14", "facts": [], "keywords": ["perseverance", "gratitude"], "entities": ["Jon"]}
+{"turn_id": "D17:15", "facts": [], "keywords": ["encouragement", "support"], "entities": ["Gina"]}
+{"turn_id": "D17:16", "facts": [], "keywords": ["gratitude", "friendship"], "entities": ["Jon"]}
+{"turn_id": "D17:17", "facts": [], "keywords": ["support"], "entities": ["Gina"]}
+{"turn_id": "D17:18", "facts": [], "keywords": ["gratitude"], "entities": ["Jon"]}
+{"turn_id": "D17:19", "facts": [], "keywords": ["farewell"], "entities": ["Gina"]}
+{"turn_id": "D17:20", "facts": [], "keywords": ["farewell"], "entities": ["Jon"]}
+{"turn_id": "D17:21", "facts": [], "keywords": ["farewell"], "entities": ["Gina"]}
+{"turn_id": "D18:1", "facts": ["On 2023-07-21, Gina said she built a new website for customers to make orders the previous week (around mid-July 2023)."], "keywords": ["website", "online orders", "clothing store"], "entities": ["Gina"]}
+{"turn_id": "D18:2", "facts": ["On 2023-07-21, Jon said his dance studio is on tenuous financial grounds and he got a temp job to help cover expenses while he looks for investors."], "keywords": ["dance studio", "financial trouble", "temp job", "investors"], "entities": ["Jon"]}
+{"turn_id": "D18:3", "facts": [], "keywords": ["encouragement", "setbacks"], "entities": ["Gina"]}
+{"turn_id": "D18:4", "facts": ["Jon asked Gina how she has tackled challenges in her business and for advice."], "keywords": ["business challenges", "advice", "question"], "entities": ["Jon"]}
+{"turn_id": "D18:5", "facts": ["Gina said sourcing trendy pieces for her store was a big hurdle that required a lot of research and networking, and her advice is to not be scared to reach out to people in your field for help and contacts."], "keywords": ["sourcing", "networking", "business advice"], "entities": ["Gina"]}
+{"turn_id": "D18:6", "facts": ["On 2023-07-21, Jon said networking has gotten him good results and shared a photo from his last networking event."], "keywords": ["networking", "event", "connections"], "entities": ["Jon"]}
+{"turn_id": "D18:7", "facts": [], "keywords": ["networking", "question"], "entities": ["Gina"]}
+{"turn_id": "D18:8", "facts": ["Jon said at the networking event he met some investors, got good advice, and found the energy motivating."], "keywords": ["networking event", "investors", "motivation"], "entities": ["Jon"]}
+{"turn_id": "D18:9", "facts": [], "keywords": ["congratulations", "question"], "entities": ["Gina"]}
+{"turn_id": "D18:10", "facts": ["On 2023-07-21, Jon said he is sprucing up his business plan, tweaking his pitch to investors, and working on an online platform to showcase his dance studio."], "keywords": ["business plan", "investor pitch", "online platform"], "entities": ["Jon"]}
+{"turn_id": "D18:11", "facts": [], "keywords": ["offer to help", "online platform"], "entities": ["Gina"]}
+{"turn_id": "D18:12", "facts": ["Jon asked Gina for help with marketing strategies to reach his target audience and raise awareness for the dance studio."], "keywords": ["marketing strategy", "target audience", "request for help"], "entities": ["Jon"]}
+{"turn_id": "D18:13", "facts": ["Gina suggested Jon use Instagram and TikTok to reach a younger crowd, post dance clips, and collaborate with local influencers or dance communities, and offered to help make content or manage his accounts."], "keywords": ["instagram", "tiktok", "influencers", "social media marketing"], "entities": ["Gina", "Instagram", "TikTok"]}
+{"turn_id": "D18:14", "facts": ["Jon accepted Gina's offer to help with making content and managing his social media for the dance studio."], "keywords": ["social media", "collaboration", "content"], "entities": ["Jon"]}
+{"turn_id": "D18:15", "facts": [], "keywords": ["collaboration", "content creation"], "entities": ["Gina"]}
+{"turn_id": "D18:16", "facts": [], "keywords": ["gratitude"], "entities": ["Jon"]}
+{"turn_id": "D18:17", "facts": [], "keywords": ["encouragement", "collaboration"], "entities": ["Gina"]}
+{"turn_id": "D18:18", "facts": ["Jon and Gina agreed to collaborate on bringing dance content to a wider audience for the dance studio."], "keywords": ["collaboration", "dance studio", "excitement"], "entities": ["Jon", "Gina"]}
+{"turn_id": "D18:19", "facts": [], "keywords": ["collaboration", "excitement"], "entities": ["Gina"]}
+{"turn_id": "D18:20", "facts": [], "keywords": ["dance", "impact", "dreams"], "entities": ["Jon"]}
+{"turn_id": "D18:21", "facts": [], "keywords": ["collaboration", "impact"], "entities": ["Gina"]}
+{"turn_id": "D18:22", "facts": [], "keywords": ["gratitude", "support"], "entities": ["Jon"]}
+{"turn_id": "D19:1", "facts": ["On 2023-07-23, Jon said he has been rehearsing hard and working on business plans, which has been stressful, but dancing has kept him going."], "keywords": ["rehearsal", "business plans", "stress", "dancing"], "entities": ["Jon"]}
+{"turn_id": "D19:2", "facts": ["Gina quoted the phrase 'Just do it' to encourage Jon to keep pushing forward with his dance studio."], "keywords": ["motivation", "just do it", "encouragement"], "entities": ["Gina"]}
+{"turn_id": "D19:3", "facts": ["Jon asked Gina who originally said the 'Just do it' quote."], "keywords": ["question", "quote origin"], "entities": ["Jon"]}
+{"turn_id": "D19:4", "facts": ["Gina said the 'Just do it' quote/phrase is associated with Shia LaBeouf."], "keywords": ["shia labeouf", "quote"], "entities": ["Gina", "Shia LaBeouf"]}
+{"turn_id": "D19:5", "facts": [], "keywords": ["agreement", "humor"], "entities": ["Jon"]}
+{"turn_id": "D19:6", "facts": ["On 2023-07-23, Gina said she felt the importance of a creative space for dancers at dance class with a group of friends the previous Friday (2023-07-21)."], "keywords": ["dance class", "friends", "creative space"], "entities": ["Gina"]}
+{"turn_id": "D19:7", "facts": ["Jon said he can't wait for his dance studio to start welcoming dancers of all ages and backgrounds."], "keywords": ["dance studio", "inclusivity", "anticipation"], "entities": ["Jon"]}
+{"turn_id": "D19:8", "facts": [], "keywords": ["happiness", "encouragement"], "entities": ["Gina"]}
+{"turn_id": "D19:9", "facts": [], "keywords": ["gratitude", "support"], "entities": ["Jon"]}
+{"turn_id": "D19:10", "facts": [], "keywords": ["support", "encouragement"], "entities": ["Gina"]}
+{"turn_id": "D19:11", "facts": [], "keywords": ["perseverance"], "entities": ["Jon"]}
+{"turn_id": "D19:12", "facts": [], "keywords": ["motivation", "just do it"], "entities": ["Gina"]}
+{"turn_id": "D19:13", "facts": [], "keywords": ["motivation", "humor"], "entities": ["Jon"]}
+{"turn_id": "D19:14", "facts": [], "keywords": ["farewell", "encouragement"], "entities": ["Gina"]}

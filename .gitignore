@@ -44,3 +44,12 @@ htmlcov/
 _chat_sync_state.json
 _conversation_log.jsonl
 .mcpregistry_*
+
+# v4 benchmark: third-party datasets (download separately) and large candidate dumps
+v4/bench/data/dumps/
+v4/bench/data/locomo10.json
+v4/bench/data/longmemeval_oracle.json
+.ruff_cache/
+
+# Private, disposable repair copies and qualification evidence
+.local-qualification/

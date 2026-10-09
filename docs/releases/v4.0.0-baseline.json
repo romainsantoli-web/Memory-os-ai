@@ -1,0 +1,19 @@
+{
+  "version": "4.0.0",
+  "source_commit": "7bd5c78e2827e5211e7f7baa2928b0ce2179e345",
+  "pypi_url": "https://pypi.org/project/memory-os-ai/4.0.0/",
+  "wheel": "memory_os_ai-4.0.0-py3-none-any.whl",
+  "wheel_sha256": "55ec911a42082dbb0280ce2e36064859cdbc6c78f2b4b8990613c954adb407b5",
+  "audit_date": "2026-10-09",
+  "python": "3.11.14",
+  "platform": "macOS-15.3-arm64-arm-64bit",
+  "reproduction_command": "PYTHONPATH=/path/to/extracted/wheel python tools/reproduce_v400_incidents.py",
+  "embedding_model": "hash (offline deterministic regression only)",
+  "source_package_python_files_compared": 32,
+  "scope": "T01 baseline for corrective candidate; no semantic benchmark rerun",
+  "original_checkout_dirty_files_preserved": [
+    "v4/RESULTS.md",
+    "v4/bench/lme_facets_eval.py",
+    "v4/bench/embed_cache.py"
+  ]
+}

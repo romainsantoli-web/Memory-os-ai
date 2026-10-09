@@ -1,0 +1,354 @@
+{"fid": "D1:2#0", "facets": [{"subject": "Evan", "predicate": "trip_location_visited", "object": "family trip (in new Prius)"}, {"subject": "Evan", "predicate": "vehicle", "object": "Prius (new)"}], "implications": ["Evan's family trip suggests he values spending active time together with his family."]}
+{"fid": "D1:3#0", "facets": [{"subject": "Evan", "predicate": "vehicle", "object": "old Prius (mentioned)"}, {"subject": "Sam", "predicate": "other", "object": "asked about Evan's old Prius and trip destination"}], "implications": []}
+{"fid": "D1:3#1", "facets": [{"subject": "Sam", "predicate": "other", "object": "shared photo of feet on car dashboard at sunset"}], "implications": []}
+{"fid": "D1:4#0", "facets": [{"subject": "Evan", "predicate": "vehicle", "object": "old Prius (broke down, repaired, then sold)"}], "implications": ["The breakdown of Evan's old Prius may have been serious enough that he preferred to sell it rather than keep driving it."]}
+{"fid": "D1:4#1", "facets": [{"subject": "Evan", "predicate": "trip_location_visited", "object": "Rockies (family trip)"}], "implications": []}
+{"fid": "D1:4#2", "facets": [{"subject": "Evan", "predicate": "trip_location_visited", "object": "Rockies (lake and mountains photo)"}], "implications": []}
+{"fid": "D1:6#0", "facets": [{"subject": "Evan", "predicate": "outdoor_activity", "object": "hiking (Rockies trails)"}, {"subject": "Evan", "predicate": "trip_location_visited", "object": "Rockies"}], "implications": ["Evan may value spending active, outdoor time together with his family."]}
+{"fid": "D1:7#0", "facets": [{"subject": "Sam", "predicate": "hobby_interest", "object": "hiking (loves, hasn't done in a long time)"}], "implications": ["Sam's long gap since hiking may suggest a busy or less active recent lifestyle."]}
+{"fid": "D1:7#1", "facets": [{"subject": "Sam", "predicate": "family_member", "object": "dad (childhood hiking memory)"}], "implications": ["Sam may have a close, fond bond with her father."]}
+{"fid": "D1:7#2", "facets": [{"subject": "Sam", "predicate": "family_member", "object": "dad (childhood hike photo)"}], "implications": []}
+{"fid": "D1:9#0", "facets": [{"subject": "Sam", "predicate": "family_member", "object": "dad (long-distance childhood hike)"}, {"subject": "Sam", "predicate": "achievement_award", "object": "childhood hike (a feat at the time)"}], "implications": []}
+{"fid": "D1:11#0", "facets": [{"subject": "Sam", "predicate": "hobby_interest", "object": "painting (considering, no hobby yet)"}], "implications": ["Sam may feel a lack of engaging personal activities in her life at this time."]}
+{"fid": "D1:11#1", "facets": [{"subject": "Sam", "predicate": "hobby_interest", "object": "painting (photo of paint set, considering)"}], "implications": []}
+{"fid": "D1:12#0", "facets": [{"subject": "Evan", "predicate": "hobby_interest", "object": "painting (loves)"}], "implications": []}
+{"fid": "D1:13#0", "facets": [{"subject": "Sam", "predicate": "hobby_interest", "object": "painting (keen to try, for relaxation)"}], "implications": ["Sam may be seeking ways to relieve stress in her daily life."]}
+{"fid": "D1:14#0", "facets": [{"subject": "Evan", "predicate": "hobby_interest", "object": "painting (since around 2020, stress relief)"}], "implications": ["Evan may experience everyday stress that he manages partly through painting."]}
+{"fid": "D1:14#1", "facets": [{"subject": "Evan", "predicate": "creative_work", "object": "cactus painting (desert scene)"}], "implications": []}
+{"fid": "D1:15#0", "facets": [{"subject": "Evan", "predicate": "hobby_interest", "object": "watercolor painting"}], "implications": []}
+{"fid": "D1:16#0", "facets": [{"subject": "Evan", "predicate": "friend", "object": "friend (introduced him to watercolor painting)"}, {"subject": "Evan", "predicate": "hobby_interest", "object": "watercolor painting (got hooked quickly)"}], "implications": []}
+{"fid": "D2:1#0", "facets": [{"subject": "Evan", "predicate": "trip_location_visited", "object": "Jasper (Icefields Parkway road trip)"}], "implications": ["Evan likely values family travel and exploring the outdoors, given he organized this trip for the whole family."]}
+{"fid": "D2:1#1", "facets": [{"subject": "Evan", "predicate": "trip_location_visited", "object": "Jasper (lake photo)"}], "implications": []}
+{"fid": "D2:2#0", "facets": [{"subject": "Sam", "predicate": "trip_location_visited", "object": "Jasper (never visited)"}], "implications": []}
+{"fid": "D2:3#0", "facets": [{"subject": "Evan", "predicate": "trip_location_visited", "object": "Jasper (relaxing retreat)"}, {"subject": "Evan", "predicate": "feeling_emotion", "object": "peaceful, relaxed (on trip)"}], "implications": ["Evan may feel a need to escape from a busy or stressful daily routine."]}
+{"fid": "D2:4#0", "facets": [{"subject": "Sam", "predicate": "feeling_emotion", "object": "tough week"}, {"subject": "Sam", "predicate": "belief_value_opinion", "object": "importance of taking time for oneself"}], "implications": ["Sam may be under stress from work or personal life that week."]}
+{"fid": "D2:6#0", "facets": [{"subject": "Sam", "predicate": "health_condition", "object": "weight (concerning check-up result)"}], "implications": ["This check-up result may be the beginning of Sam's motivation to pursue a healthier lifestyle."]}
+{"fid": "D2:8#0", "facets": [{"subject": "Sam", "predicate": "habit_routine", "object": "old habits (trying to break)"}, {"subject": "Sam", "predicate": "support_advice", "object": "asked Evan for tips on healthier changes"}], "implications": ["Sam may see Evan as a trusted source of guidance on health matters."]}
+{"fid": "D2:9#0", "facets": [{"subject": "Evan", "predicate": "habit_routine", "object": "enjoyable fitness routine and smarter diet choices"}, {"subject": "Evan", "predicate": "support_advice", "object": "shared what worked for him with Sam"}], "implications": []}
+{"fid": "D2:10#0", "facets": [{"subject": "Sam", "predicate": "hobby_interest", "object": "painting (considering, to de-stress)"}], "implications": []}
+{"fid": "D2:11#0", "facets": [{"subject": "Evan", "predicate": "support_advice", "object": "recommended Sam also exercise, not just paint"}, {"subject": "Evan", "predicate": "hobby_interest", "object": "painting (years, stress relief and creativity)"}], "implications": []}
+{"fid": "D2:12#0", "facets": [{"subject": "Sam", "predicate": "goal_plan", "object": "try painting and report back to Evan"}], "implications": []}
+{"fid": "D3:1#0", "facets": [{"subject": "Evan", "predicate": "health_condition", "object": "heart palpitation incident (health scare)"}], "implications": ["Evan may feel some anxiety about his heart health following this scare."]}
+{"fid": "D3:1#1", "facets": [{"subject": "Evan", "predicate": "health_condition", "object": "medicine (for heart palpitation scare)"}], "implications": []}
+{"fid": "D3:2#0", "facets": [{"subject": "Sam", "predicate": "habit_routine", "object": "eating healthier (recent effort)"}], "implications": []}
+{"fid": "D3:2#1", "facets": [{"subject": "Sam", "predicate": "food_drink_recipe", "object": "vegetables and milk (healthy meal photo)"}], "implications": []}
+{"fid": "D3:3#0", "facets": [{"subject": "Evan", "predicate": "habit_routine", "object": "diet (less processed food and sugar)"}, {"subject": "Evan", "predicate": "preference_like", "object": "ginger snaps (loves)"}], "implications": ["Evan may find it challenging to resist ginger snaps despite his health-conscious diet."]}
+{"fid": "D3:4#0", "facets": [{"subject": "Sam", "predicate": "habit_routine", "object": "soda and candy (unchanged diet)"}, {"subject": "Sam", "predicate": "challenge_problem", "object": "not yet changing unhealthy eating habits"}], "implications": ["Sam may feel some internal conflict or guilt about her eating habits."]}
+{"fid": "D3:5#0", "facets": [{"subject": "Evan", "predicate": "support_advice", "object": "suggested seltzer water and dark chocolate swaps for Sam"}], "implications": []}
+{"fid": "D3:6#0", "facets": [{"subject": "Sam", "predicate": "goal_plan", "object": "swap soda/candy for seltzer water/dark chocolate"}], "implications": []}
+{"fid": "D3:12#0", "facets": [{"subject": "Sam", "predicate": "support_advice", "object": "appreciates Evan's support on her health journey"}], "implications": ["Sam may consider Evan a close and trusted friend."]}
+{"fid": "D3:13#0", "facets": [{"subject": "Evan", "predicate": "belief_value_opinion", "object": "exercise clears the mind, is amazing"}, {"subject": "Evan", "predicate": "sport_exercise", "object": "exercise (general)"}], "implications": []}
+{"fid": "D3:13#1", "facets": [{"subject": "Evan", "predicate": "sport_exercise", "object": "weightlifting/dumbbell (photo)"}], "implications": []}
+{"fid": "D3:14#0", "facets": [{"subject": "Sam", "predicate": "goal_plan", "object": "start exercising (seeking help)"}, {"subject": "Sam", "predicate": "support_advice", "object": "asked Evan for help with exercise"}], "implications": []}
+{"fid": "D3:15#0", "facets": [{"subject": "Evan", "predicate": "support_advice", "object": "agreed to teach Sam basic exercises in person"}], "implications": ["Evan and Sam's plan to meet in person suggests their relationship extends beyond online conversation."]}
+{"fid": "D3:16#0", "facets": [{"subject": "Sam", "predicate": "feeling_emotion", "object": "frustration, terrible mood (self-checkout broken)"}, {"subject": "Sam", "predicate": "challenge_problem", "object": "broken self-checkout machines"}], "implications": []}
+{"fid": "D4:1#0", "facets": [{"subject": "Sam", "predicate": "challenge_problem", "object": "friends mocked her weight"}, {"subject": "Sam", "predicate": "feeling_emotion", "object": "hurt"}], "implications": ["This incident may have damaged Sam's self-esteem regarding her body image."]}
+{"fid": "D4:3#0", "facets": [{"subject": "Sam", "predicate": "goal_plan", "object": "working on health and getting active"}], "implications": []}
+{"fid": "D4:4#0", "facets": [{"subject": "Evan", "predicate": "health_condition", "object": "past health struggle (a few years earlier)"}, {"subject": "Evan", "predicate": "belief_value_opinion", "object": "diet and lifestyle matter as much as exercise"}], "implications": ["Evan's own past struggle with health may be a source of empathy that shapes the advice he gives Sam."]}
+{"fid": "D4:4#1", "facets": [{"subject": "Evan", "predicate": "possession_purchase", "object": "gym membership card"}, {"subject": "Evan", "predicate": "goal_plan", "object": "health commitment reminder"}], "implications": []}
+{"fid": "D4:6#0", "facets": [{"subject": "Evan", "predicate": "habit_routine", "object": "diet (less sugar, more veggies and fruit)"}], "implications": []}
+{"fid": "D4:6#1", "facets": [{"subject": "Evan", "predicate": "food_drink_recipe", "object": "fresh produce and vegetables (photo)"}], "implications": []}
+{"fid": "D4:7#0", "facets": [{"subject": "Sam", "predicate": "habit_routine", "object": "reducing soda and candy intake"}], "implications": []}
+{"fid": "D4:8#0", "facets": [{"subject": "Evan", "predicate": "support_advice", "object": "suggested seltzer water instead of soda"}], "implications": []}
+{"fid": "D4:8#1", "facets": [{"subject": "Evan", "predicate": "book_read", "object": "mystery novel (gripping, new)"}], "implications": ["Evan may be an avid reader who enjoys getting absorbed in fiction."]}
+{"fid": "D4:8#2", "facets": [{"subject": "Evan", "predicate": "food_drink_recipe", "object": "sodas and water bottles (photo)"}], "implications": []}
+{"fid": "D4:9#0", "facets": [{"subject": "Sam", "predicate": "goal_plan", "object": "seeking low-calorie snack ideas"}, {"subject": "Sam", "predicate": "other", "object": "asked what novel Evan was reading"}], "implications": []}
+{"fid": "D4:10#0", "facets": [{"subject": "Evan", "predicate": "support_advice", "object": "suggested popcorn or fruit with seltzer as healthy snack"}], "implications": []}
+{"fid": "D4:10#1", "facets": [{"subject": "Evan", "predicate": "book_read", "object": "The Great Gatsby"}], "implications": []}
+{"fid": "D4:10#2", "facets": [{"subject": "Evan", "predicate": "food_drink_recipe", "object": "fruit and alcohol bottle (photo)"}], "implications": []}
+{"fid": "D4:11#0", "facets": [{"subject": "Sam", "predicate": "book_read", "object": "The Great Gatsby (plans to read)"}], "implications": []}
+{"fid": "D4:12#0", "facets": [{"subject": "Evan", "predicate": "support_advice", "object": "encouraged healthy swaps and small steps"}], "implications": []}
+{"fid": "D4:13#0", "facets": [{"subject": "Sam", "predicate": "belief_value_opinion", "object": "progress over perfection (health journey)"}], "implications": []}
+{"fid": "D4:14#0", "facets": [{"subject": "Evan", "predicate": "support_advice", "object": "asked Sam about exercising"}, {"subject": "Evan", "predicate": "belief_value_opinion", "object": "exercise as important as eating right"}], "implications": []}
+{"fid": "D4:14#1", "facets": [{"subject": "Evan", "predicate": "other", "object": "shared photo of woman with backpack hiking on a mountain"}], "implications": []}
+{"fid": "D4:15#0", "facets": [{"subject": "Sam", "predicate": "goal_plan", "object": "start going to the gym and exercising regularly"}], "implications": []}
+{"fid": "D5:1#0", "facets": [{"subject": "Evan", "predicate": "trip_location_visited", "object": "Canada (trip)"}, {"subject": "Evan", "predicate": "person_met", "object": "Canadian woman (awesome, makes him feel alive)"}], "implications": ["Evan may be developing romantic feelings for this woman."]}
+{"fid": "D5:1#1", "facets": [{"subject": "Evan", "predicate": "person_met", "object": "Canadian woman (photo, walking in snow holding hands)"}], "implications": []}
+{"fid": "D5:2#0", "facets": [{"subject": "Sam", "predicate": "support_advice", "object": "congratulated Evan and expressed sympathy about his health issues"}], "implications": []}
+{"fid": "D5:2#1", "facets": [{"subject": "Sam", "predicate": "other", "object": "shared photo of person with surfboard on beach"}], "implications": []}
+{"fid": "D5:3#0", "facets": [{"subject": "Evan", "predicate": "person_met", "object": "Canadian woman (fun, energizing)"}, {"subject": "Evan", "predicate": "feeling_emotion", "object": "energized"}], "implications": ["The contrast Evan draws with his health issues suggests this woman brings him joy during a difficult period."]}
+{"fid": "D5:3#1", "facets": [{"subject": "Evan", "predicate": "food_drink_recipe", "object": "cookies (photo)"}], "implications": []}
+{"fid": "D5:5#0", "facets": [{"subject": "Evan", "predicate": "preference_like", "object": "ginger snaps (weakness)"}, {"subject": "Evan", "predicate": "health_condition", "object": "ongoing health issues"}], "implications": []}
+{"fid": "D5:5#1", "facets": [{"subject": "Evan", "predicate": "child", "object": "kids (photo, playing on swing set)"}], "implications": []}
+{"fid": "D5:6#0", "facets": [{"subject": "Sam", "predicate": "other", "object": "asked how long Evan had been prioritizing his health"}], "implications": []}
+{"fid": "D5:7#0", "facets": [{"subject": "Evan", "predicate": "health_condition", "object": "health journey (two years, ups and downs)"}], "implications": ["Evan's health journey has not been a straight line, suggesting persistence despite setbacks."]}
+{"fid": "D5:7#1", "facets": [{"subject": "Evan", "predicate": "possession_purchase", "object": "fitness watch (new, boxed)"}], "implications": []}
+{"fid": "D5:8#0", "facets": [{"subject": "Sam", "predicate": "goal_plan", "object": "order a fitness watch like Evan's"}], "implications": ["Evan's approach to health may be an inspiration or model for Sam's own habits."]}
+{"fid": "D5:9#0", "facets": [{"subject": "Evan", "predicate": "family_member", "object": "family (motivates him to stay healthy)"}, {"subject": "Evan", "predicate": "possession_purchase", "object": "fitness watch (tracks progress)"}], "implications": []}
+{"fid": "D5:9#1", "facets": [{"subject": "Evan", "predicate": "possession_purchase", "object": "smart watch (worn on wrist)"}], "implications": []}
+{"fid": "D5:11#0", "facets": [{"subject": "Evan", "predicate": "possession_purchase", "object": "fitness watch (motivating visual reminder)"}], "implications": []}
+{"fid": "D5:13#0", "facets": [{"subject": "Evan", "predicate": "hobby_interest", "object": "hiking (thirst for adventure)"}], "implications": []}
+{"fid": "D5:13#1", "facets": [{"subject": "Evan", "predicate": "other", "object": "shared photo of small island with lone boat"}], "implications": []}
+{"fid": "D5:15#0", "facets": [{"subject": "Evan", "predicate": "possession_purchase", "object": "bonsai tree (photo)"}, {"subject": "Evan", "predicate": "belief_value_opinion", "object": "finding what motivates/makes you happy helps conquer struggles"}], "implications": []}
+{"fid": "D5:17#0", "facets": [{"subject": "Evan", "predicate": "possession_purchase", "object": "bonsai tree (symbol of strength and resilience)"}, {"subject": "Evan", "predicate": "belief_value_opinion", "object": "caring for the bonsai motivates him through tough times"}], "implications": ["Evan may be dealing with ongoing personal challenges that this ritual helps him cope with."]}
+{"fid": "D6:1#0", "facets": [{"subject": "Evan", "predicate": "partner", "object": "new significant other (Canada vacation)"}, {"subject": "Evan", "predicate": "trip_location_visited", "object": "Canada (vacation)"}, {"subject": "Evan", "predicate": "outdoor_activity", "object": "hiking and biking"}], "implications": ["Evan's relationship with his new partner has progressed to taking vacations together, suggesting it is becoming serious."]}
+{"fid": "D6:1#1", "facets": [{"subject": "Evan", "predicate": "trip_location_visited", "object": "Canada (camping photo, tent)"}], "implications": []}
+{"fid": "D6:2#0", "facets": [{"subject": "Sam", "predicate": "health_condition", "object": "ongoing health issues (challenging lately)"}], "implications": []}
+{"fid": "D6:4#0", "facets": [{"subject": "Sam", "predicate": "support_advice", "object": "Evan's support means a lot, helps her stay positive"}], "implications": []}
+{"fid": "D6:4#1", "facets": [{"subject": "Sam", "predicate": "other", "object": "shared photo of notepad with pen and a note"}], "implications": []}
+{"fid": "D6:6#0", "facets": [{"subject": "Sam", "predicate": "belief_value_opinion", "object": "progress over perfection (motivational quote)"}], "implications": []}
+{"fid": "D6:8#0", "facets": [{"subject": "Sam", "predicate": "belief_value_opinion", "object": "\"Don't fear it, just take the first step\" (motivational quote)"}], "implications": []}
+{"fid": "D6:9#0", "facets": [{"subject": "Evan", "predicate": "belief_value_opinion", "object": "Sam's quote also helps him"}], "implications": ["Evan may also be facing his own challenges where he needs extra motivation."]}
+{"fid": "D6:12#0", "facets": [{"subject": "Sam", "predicate": "belief_value_opinion", "object": "celebrating small wins is crucial for motivation"}], "implications": []}
+{"fid": "D6:13#0", "facets": [{"subject": "Evan", "predicate": "habit_routine", "object": "loses his keys regularly (about weekly)"}, {"subject": "Evan", "predicate": "challenge_problem", "object": "searching for keys with no luck"}], "implications": ["Evan may be somewhat forgetful or disorganized with small daily items."]}
+{"fid": "D6:14#0", "facets": [{"subject": "Sam", "predicate": "other", "object": "dream about soaring over skyscrapers (incredible)"}], "implications": []}
+{"fid": "D6:15#0", "facets": [{"subject": "Evan", "predicate": "support_advice", "object": "suggested a dream interpretation book to Sam"}], "implications": []}
+{"fid": "D6:16#0", "facets": [{"subject": "Sam", "predicate": "feeling_emotion", "object": "health journey feels endless at times"}, {"subject": "Sam", "predicate": "belief_value_opinion", "object": "convinced it will be rewarding in the end"}], "implications": []}
+{"fid": "D7:1#0", "facets": [{"subject": "Evan", "predicate": "child", "object": "son (soccer accident, hurt ankle)"}, {"subject": "Evan", "predicate": "support_advice", "object": "looking after son, taking him to the doctor"}], "implications": ["Evan is likely devoting extra time and attention to his son during this recovery."]}
+{"fid": "D7:1#1", "facets": [{"subject": "Evan", "predicate": "child", "object": "son (cast on foot, injury photo)"}], "implications": []}
+{"fid": "D7:2#0", "facets": [{"subject": "Sam", "predicate": "health_condition", "object": "doctor's appointment (wake-up call)"}, {"subject": "Sam", "predicate": "feeling_emotion", "object": "tough week"}], "implications": []}
+{"fid": "D7:2#1", "facets": [{"subject": "Sam", "predicate": "education_course", "object": "cooking class (healthier meals)"}], "implications": []}
+{"fid": "D7:4#0", "facets": [{"subject": "Sam", "predicate": "food_drink_recipe", "object": "grilled salmon and vegetables"}, {"subject": "Sam", "predicate": "education_course", "object": "cooking class (going great)"}], "implications": []}
+{"fid": "D7:4#1", "facets": [{"subject": "Sam", "predicate": "food_drink_recipe", "object": "salmon and vegetables (photo)"}], "implications": []}
+{"fid": "D7:6#0", "facets": [{"subject": "Sam", "predicate": "food_drink_recipe", "object": "marinated grilled dish with veggies (recipe)"}], "implications": []}
+{"fid": "D7:7#0", "facets": [{"subject": "Evan", "predicate": "goal_plan", "object": "add more vegetables to his meals"}], "implications": []}
+{"fid": "D7:8#0", "facets": [{"subject": "Sam", "predicate": "food_drink_recipe", "object": "roasted vegetable recipe (easy, tasty)"}], "implications": []}
+{"fid": "D7:9#0", "facets": [{"subject": "Evan", "predicate": "child", "object": "son's ankle (recovering, minor injury)"}], "implications": []}
+{"fid": "D7:12#0", "facets": [{"subject": "Sam", "predicate": "feeling_emotion", "object": "mixed emotions (concerned but motivated about health)"}], "implications": []}
+{"fid": "D8:1#0", "facets": [{"subject": "Sam", "predicate": "habit_routine", "object": "on a diet, living healthier (tough but determined)"}], "implications": []}
+{"fid": "D8:1#1", "facets": [{"subject": "Sam", "predicate": "food_drink_recipe", "object": "spinach, avocado, and strawberries (bowl)"}], "implications": []}
+{"fid": "D8:5#0", "facets": [{"subject": "Sam", "predicate": "health_condition", "object": "more energy, less sluggishness (diet benefit)"}], "implications": []}
+{"fid": "D8:7#0", "facets": [{"subject": "Sam", "predicate": "food_drink_recipe", "object": "grilled chicken and veggie stir-fry recipe (loves)"}], "implications": []}
+{"fid": "D8:7#1", "facets": [{"subject": "Sam", "predicate": "food_drink_recipe", "object": "stir-fry (photo, chopsticks and sauce)"}], "implications": []}
+{"fid": "D8:9#0", "facets": [{"subject": "Sam", "predicate": "food_drink_recipe", "object": "homemade stir-fry sauce"}], "implications": []}
+{"fid": "D8:11#0", "facets": [{"subject": "Sam", "predicate": "food_drink_recipe", "object": "stir-fry recipe card (shared with Evan)"}], "implications": []}
+{"fid": "D8:12#0", "facets": [{"subject": "Evan", "predicate": "education_course", "object": "painting classes (started, enjoying)"}], "implications": []}
+{"fid": "D8:13#0", "facets": [{"subject": "Evan", "predicate": "skill_ability", "object": "drawing (already good at)"}], "implications": []}
+{"fid": "D8:14#0", "facets": [{"subject": "Evan", "predicate": "gift_given_received", "object": "a painting (gift from friend, inspired him)"}, {"subject": "Evan", "predicate": "education_course", "object": "painting classes (to find like-minded people)"}], "implications": ["Evan may be seeking a sense of community or social connection through his hobby."]}
+{"fid": "D8:14#1", "facets": [{"subject": "Evan", "predicate": "creative_work", "object": "forest scene painting (on easel)"}], "implications": []}
+{"fid": "D8:16#0", "facets": [{"subject": "Evan", "predicate": "education_course", "object": "painting classes (might take more)"}, {"subject": "Evan", "predicate": "hobby_interest", "object": "painting (helps him find peace and express himself)"}], "implications": []}
+{"fid": "D8:16#1", "facets": [{"subject": "Evan", "predicate": "creative_work", "object": "painting supplies (brush, pencil, eyeliners photo)"}], "implications": []}
+{"fid": "D8:18#0", "facets": [{"subject": "Evan", "predicate": "education_course", "object": "painting classes (watercolors, observing nature)"}, {"subject": "Evan", "predicate": "hobby_interest", "object": "painting (relaxing break from stress)"}], "implications": []}
+{"fid": "D8:18#1", "facets": [{"subject": "Evan", "predicate": "creative_work", "object": "watercolors (supplies photo)"}], "implications": []}
+{"fid": "D8:20#0", "facets": [{"subject": "Evan", "predicate": "hobby_interest", "object": "painting landscapes (nature's beauty, peace)"}, {"subject": "Evan", "predicate": "preference_like", "object": "landscape painting (loves)"}], "implications": []}
+{"fid": "D8:20#1", "facets": [{"subject": "Evan", "predicate": "creative_work", "object": "sunset over ocean painting"}], "implications": []}
+{"fid": "D8:22#0", "facets": [{"subject": "Evan", "predicate": "creative_work", "object": "capturing nature's peacefulness in paintings"}, {"subject": "Evan", "predicate": "belief_value_opinion", "object": "aims to convey outdoor peacefulness in art"}], "implications": []}
+{"fid": "D8:22#1", "facets": [{"subject": "Evan", "predicate": "other", "object": "shared photo of tree with pink flowers in a field"}], "implications": []}
+{"fid": "D8:24#0", "facets": [{"subject": "Evan", "predicate": "vehicle", "object": "trusty car (road trip memories)"}], "implications": ["Evan may associate road trips with some of his happiest memories."]}
+{"fid": "D8:24#1", "facets": [{"subject": "Evan", "predicate": "vehicle", "object": "truck (parked in forest, photo)"}], "implications": []}
+{"fid": "D8:26#0", "facets": [{"subject": "Evan", "predicate": "trip_location_visited", "object": "a scenic drive with amazing views (July 2023)"}], "implications": []}
+{"fid": "D8:26#1", "facets": [{"subject": "Evan", "predicate": "sport_exercise", "object": "skiing (photo, snowy trail)"}], "implications": []}
+{"fid": "D8:27#0", "facets": [{"subject": "Evan", "predicate": "trip_location_visited", "object": "Banff (asked about skiing there)"}], "implications": []}
+{"fid": "D8:28#0", "facets": [{"subject": "Evan", "predicate": "sport_exercise", "object": "skiing (great trip, amazing snow)"}, {"subject": "Evan", "predicate": "goal_plan", "object": "go skiing again next year"}], "implications": []}
+{"fid": "D8:28#1", "facets": [{"subject": "Evan", "predicate": "sport_exercise", "object": "skiing (group photo, snow-covered slope)"}], "implications": []}
+{"fid": "D8:29#0", "facets": [{"subject": "Sam", "predicate": "hobby_interest", "object": "skiing (would love to try)"}, {"subject": "Sam", "predicate": "dislike_fear", "object": "unsure her body can handle skiing"}], "implications": ["Sam may have a physical limitation or health concern affecting her ability to do certain sports."]}
+{"fid": "D8:30#0", "facets": [{"subject": "Evan", "predicate": "sport_exercise", "object": "skiing, snowboarding, and ice skating (winter activities enjoyed)"}], "implications": []}
+{"fid": "D8:33#0", "facets": [{"subject": "Sam", "predicate": "health_condition", "object": "physical condition (limits winter sports like skiing)"}], "implications": ["Sam may appreciate friends who are patient and accommodating about her physical limitations."]}
+{"fid": "D9:1#0", "facets": [{"subject": "Sam", "predicate": "habit_routine", "object": "new diet and exercise routine (feeling great)"}], "implications": []}
+{"fid": "D9:2#0", "facets": [{"subject": "Evan", "predicate": "health_condition", "object": "twisted knee (painful)"}, {"subject": "Evan", "predicate": "challenge_problem", "object": "fitness routine disrupted by knee injury"}], "implications": []}
+{"fid": "D9:4#0", "facets": [{"subject": "Evan", "predicate": "book_read", "object": "The Great Gatsby (keeps getting better)"}], "implications": []}
+{"fid": "D9:5#0", "facets": [{"subject": "Sam", "predicate": "support_advice", "object": "suggested low-impact exercise or physical therapy for Evan's knee"}], "implications": []}
+{"fid": "D9:6#0", "facets": [{"subject": "Evan", "predicate": "health_condition", "object": "knee (physical therapy planned)"}, {"subject": "Evan", "predicate": "sport_exercise", "object": "swimming (staying active meanwhile)"}], "implications": []}
+{"fid": "D9:8#0", "facets": [{"subject": "Evan", "predicate": "trip_location_visited", "object": "road trip (July 2023, relaxing scenery)"}], "implications": []}
+{"fid": "D9:8#1", "facets": [{"subject": "Evan", "predicate": "trip_location_visited", "object": "lake and mountains (road trip photo)"}], "implications": []}
+{"fid": "D9:10#0", "facets": [{"subject": "Evan", "predicate": "trip_location_visited", "object": "Rocky Mountains (refreshing road trip)"}], "implications": []}
+{"fid": "D9:11#0", "facets": [{"subject": "Sam", "predicate": "preference_like", "object": "being surrounded by nature (loves)"}, {"subject": "Sam", "predicate": "goal_plan", "object": "become healthier to hike and road-trip more"}], "implications": ["Sam may see improved health as a means to reclaim outdoor activities she used to enjoy."]}
+{"fid": "D9:12#0", "facets": [{"subject": "Evan", "predicate": "outdoor_activity", "object": "hiking (calming, fun)"}, {"subject": "Evan", "predicate": "other", "object": "suggested hiking together with Sam"}], "implications": []}
+{"fid": "D9:12#1", "facets": [{"subject": "Evan", "predicate": "outdoor_activity", "object": "lake and mountain (hiking-related photo)"}], "implications": []}
+{"fid": "D9:13#0", "facets": [{"subject": "Sam", "predicate": "other", "object": "asked Evan to recommend a lake and local trails"}], "implications": []}
+{"fid": "D9:14#0", "facets": [{"subject": "Evan", "predicate": "outdoor_activity", "object": "recommended a lake with nearby trails"}], "implications": []}
+{"fid": "D9:16#0", "facets": [{"subject": "Evan", "predicate": "trip_location_visited", "object": "recommended lake (two-hour drive, peaceful)"}], "implications": []}
+{"fid": "D9:17#0", "facets": [{"subject": "Sam", "predicate": "goal_plan", "object": "day trip to the lake Evan recommended"}], "implications": []}
+{"fid": "D10:1#0", "facets": [{"subject": "Evan", "predicate": "creative_work", "object": "sunset over water painting"}], "implications": []}
+{"fid": "D10:2#0", "facets": [{"subject": "Sam", "predicate": "achievement_award", "object": "before-and-after diet photo (posted to motivate others)"}], "implications": ["Sam may feel proud of her progress and want to inspire others facing similar struggles."]}
+{"fid": "D10:2#1", "facets": [{"subject": "Sam", "predicate": "food_drink_recipe", "object": "beef and vegetables with Healthy Choice meal"}], "implications": []}
+{"fid": "D10:4#0", "facets": [{"subject": "Sam", "predicate": "challenge_problem", "object": "occasional cravings for sugary drinks and snacks"}], "implications": []}
+{"fid": "D10:5#0", "facets": [{"subject": "Evan", "predicate": "other", "object": "asked Sam what triggers her cravings"}], "implications": []}
+{"fid": "D10:6#0", "facets": [{"subject": "Sam", "predicate": "challenge_problem", "object": "cravings triggered by stress, boredom, or wanting comfort"}], "implications": ["Sam may use food as a coping mechanism for difficult emotions."]}
+{"fid": "D10:7#0", "facets": [{"subject": "Evan", "predicate": "habit_routine", "object": "copes with stress via painting or going for a drive"}], "implications": []}
+{"fid": "D10:7#1", "facets": [{"subject": "Evan", "predicate": "creative_work", "object": "mountain range with horse painting"}], "implications": []}
+{"fid": "D10:8#0", "facets": [{"subject": "Sam", "predicate": "hobby_interest", "object": "painting or another calming hobby (considering, to de-stress)"}], "implications": []}
+{"fid": "D10:9#0", "facets": [{"subject": "Evan", "predicate": "support_advice", "object": "offered to help Sam get started with painting"}], "implications": []}
+{"fid": "D10:10#0", "facets": [{"subject": "Sam", "predicate": "goal_plan", "object": "try painting (asked for basic supply suggestions)"}], "implications": []}
+{"fid": "D10:11#0", "facets": [{"subject": "Evan", "predicate": "support_advice", "object": "recommended acrylic paints, brushes, canvas, palette for Sam"}, {"subject": "Evan", "predicate": "goal_plan", "object": "plan a painting session with Sam"}], "implications": []}
+{"fid": "D10:12#0", "facets": [{"subject": "Sam", "predicate": "feeling_emotion", "object": "excited (about painting with Evan)"}, {"subject": "Sam", "predicate": "goal_plan", "object": "plan a painting session with Evan"}], "implications": []}
+{"fid": "D10:13#0", "facets": [{"subject": "Evan", "predicate": "event_attended", "object": "planned painting session with Sam"}, {"subject": "Sam", "predicate": "event_attended", "object": "planned painting session with Evan"}], "implications": ["This planned activity suggests Evan and Sam's friendship involves regular in-person time together."]}
+{"fid": "D11:1#0", "facets": [{"subject": "Sam", "predicate": "habit_routine", "object": "eating healthier (started)"}], "implications": []}
+{"fid": "D11:1#1", "facets": [{"subject": "Sam", "predicate": "food_drink_recipe", "object": "bowl of fruit (photo)"}], "implications": []}
+{"fid": "D11:2#0", "facets": [{"subject": "Evan", "predicate": "health_condition", "object": "knee injury (from basketball with his kids)"}, {"subject": "Evan", "predicate": "child", "object": "kids (played basketball with)"}], "implications": []}
+{"fid": "D11:2#1", "facets": [{"subject": "Evan", "predicate": "health_condition", "object": "leg cast (knee injury photo)"}], "implications": []}
+{"fid": "D11:4#0", "facets": [{"subject": "Evan", "predicate": "health_condition", "object": "knee (physical therapy, easy exercises)"}], "implications": []}
+{"fid": "D11:6#0", "facets": [{"subject": "Evan", "predicate": "hobby_interest", "object": "watercolor painting (relaxing during knee recovery)"}], "implications": []}
+{"fid": "D11:6#1", "facets": [{"subject": "Evan", "predicate": "event_attended", "object": "helped a lost tourist, ended up on an impromptu city tour"}], "implications": ["Evan may enjoy spontaneous experiences and helping strangers he meets."]}
+{"fid": "D11:8#0", "facets": [{"subject": "Evan", "predicate": "hobby_interest", "object": "painting (great stress reliever)"}], "implications": []}
+{"fid": "D11:8#1", "facets": [{"subject": "Evan", "predicate": "creative_work", "object": "cactus painting (recent)"}], "implications": []}
+{"fid": "D11:10#0", "facets": [{"subject": "Evan", "predicate": "creative_work", "object": "sunset painting (inspired by past vacation) and cactus painting (inspired by recent road trip)"}], "implications": []}
+{"fid": "D11:12#0", "facets": [{"subject": "Evan", "predicate": "creative_work", "object": "paints his feelings, memories, or places he wants to go"}], "implications": []}
+{"fid": "D11:14#0", "facets": [{"subject": "Evan", "predicate": "belief_value_opinion", "object": "painting is a wordless way to express his emotions"}], "implications": []}
+{"fid": "D11:15#0", "facets": [{"subject": "Sam", "predicate": "skill_ability", "object": "drawing (still learning)"}, {"subject": "Sam", "predicate": "creative_work", "object": "writing (therapeutic self-expression)"}], "implications": []}
+{"fid": "D11:15#1", "facets": [{"subject": "Sam", "predicate": "possession_purchase", "object": "new phone (navigation app malfunctioning)"}, {"subject": "Sam", "predicate": "challenge_problem", "object": "navigation app kept malfunctioning"}], "implications": []}
+{"fid": "D11:16#0", "facets": [{"subject": "Evan", "predicate": "support_advice", "object": "suggested Sam update her phone to fix navigation issue"}], "implications": []}
+{"fid": "D11:17#0", "facets": [{"subject": "Sam", "predicate": "creative_work", "object": "journaling and creative writing (self-expression)"}], "implications": []}
+{"fid": "D11:19#0", "facets": [{"subject": "Sam", "predicate": "creative_work", "object": "writing (helps her make sense of things)"}], "implications": ["Sam may process her emotions best through solitary reflection rather than talking to others."]}
+{"fid": "D12:1#0", "facets": [{"subject": "Sam", "predicate": "health_condition", "object": "weight (serious health risk per doctor)"}, {"subject": "Sam", "predicate": "feeling_emotion", "object": "hard emotionally (doctor's warning)"}], "implications": ["Sam may feel scared or overwhelmed about her long-term health prospects."]}
+{"fid": "D12:2#0", "facets": [{"subject": "Evan", "predicate": "sport_exercise", "object": "weightlifting (since around Oct 2022, struggle then gains)"}], "implications": []}
+{"fid": "D12:2#1", "facets": [{"subject": "Evan", "predicate": "sport_exercise", "object": "weightlifting (squat photo, gym)"}], "implications": []}
+{"fid": "D12:3#0", "facets": [{"subject": "Sam", "predicate": "goal_plan", "object": "get into weightlifting (seeking Evan's advice)"}], "implications": []}
+{"fid": "D12:4#0", "facets": [{"subject": "Evan", "predicate": "support_advice", "object": "weightlifting advice for Sam (form, trainer, consistency)"}], "implications": []}
+{"fid": "D12:5#0", "facets": [{"subject": "Sam", "predicate": "goal_plan", "object": "find a trainer for weightlifting"}], "implications": []}
+{"fid": "D12:10#0", "facets": [{"subject": "Evan", "predicate": "support_advice", "object": "encouraged Sam to keep progressing and stay positive"}], "implications": []}
+{"fid": "D13:1#0", "facets": [{"subject": "Evan", "predicate": "creative_work", "object": "painting of a person on a cliff"}], "implications": []}
+{"fid": "D13:2#0", "facets": [{"subject": "Sam", "predicate": "challenge_problem", "object": "bought unhealthy snacks during a rough week"}, {"subject": "Sam", "predicate": "feeling_emotion", "object": "guilt (about buying unhealthy snacks)"}], "implications": []}
+{"fid": "D13:2#1", "facets": [{"subject": "Sam", "predicate": "food_drink_recipe", "object": "box of sodas (photo)"}], "implications": []}
+{"fid": "D13:3#0", "facets": [{"subject": "Evan", "predicate": "creative_work", "object": "sunset painting (just finished, relaxing)"}], "implications": []}
+{"fid": "D13:4#0", "facets": [{"subject": "Sam", "predicate": "challenge_problem", "object": "work stress"}], "implications": []}
+{"fid": "D13:6#0", "facets": [{"subject": "Sam", "predicate": "goal_plan", "object": "try something new outdoors to de-stress"}], "implications": []}
+{"fid": "D13:7#0", "facets": [{"subject": "Evan", "predicate": "support_advice", "object": "suggested kayaking to Sam"}], "implications": []}
+{"fid": "D13:8#0", "facets": [{"subject": "Sam", "predicate": "hobby_interest", "object": "kayaking (considering trying)"}], "implications": []}
+{"fid": "D13:9#0", "facets": [{"subject": "Evan", "predicate": "support_advice", "object": "offered to recommend a kayaking spot"}], "implications": []}
+{"fid": "D13:10#0", "facets": [{"subject": "Sam", "predicate": "friend", "object": "friend (kayaking together)"}, {"subject": "Sam", "predicate": "outdoor_activity", "object": "kayaking (about to try)"}], "implications": []}
+{"fid": "D13:11#0", "facets": [{"subject": "Evan", "predicate": "other", "object": "suggested planning a kayaking trip together with Sam"}], "implications": []}
+{"fid": "D13:12#0", "facets": [{"subject": "Sam", "predicate": "outdoor_activity", "object": "kayaks lined up on shore (photo)"}], "implications": []}
+{"fid": "D13:14#0", "facets": [{"subject": "Sam", "predicate": "trip_location_visited", "object": "Lake Tahoe (kayaking trip)"}], "implications": []}
+{"fid": "D13:15#0", "facets": [{"subject": "Evan", "predicate": "belief_value_opinion", "object": "Lake Tahoe is an awesome pick for kayaking"}], "implications": []}
+{"fid": "D14:1#0", "facets": [{"subject": "Sam", "predicate": "health_condition", "object": "gastritis (ER visit, health scare)"}], "implications": []}
+{"fid": "D14:1#1", "facets": [{"subject": "Sam", "predicate": "possession_purchase", "object": "phone (giving her trouble)"}, {"subject": "Sam", "predicate": "challenge_problem", "object": "phone trouble adding to stress"}], "implications": []}
+{"fid": "D14:2#0", "facets": [{"subject": "Evan", "predicate": "habit_routine", "object": "focusing on fitness (beneficial for well-being)"}, {"subject": "Evan", "predicate": "event_attended", "object": "another encounter with a lost tourist"}], "implications": []}
+{"fid": "D14:3#0", "facets": [{"subject": "Sam", "predicate": "goal_plan", "object": "get into fitness (seeking motivation tips)"}], "implications": []}
+{"fid": "D14:4#0", "facets": [{"subject": "Evan", "predicate": "support_advice", "object": "fitness motivation advice (concrete goals, accountability buddy)"}], "implications": []}
+{"fid": "D14:5#0", "facets": [{"subject": "Sam", "predicate": "goal_plan", "object": "set fitness goals and find an exercise buddy"}], "implications": []}
+{"fid": "D14:6#0", "facets": [{"subject": "Evan", "predicate": "other", "object": "suggested planning a hike with Sam soon"}], "implications": []}
+{"fid": "D14:8#0", "facets": [{"subject": "Evan", "predicate": "sport_exercise", "object": "gym (gaining strength)"}], "implications": []}
+{"fid": "D14:9#0", "facets": [{"subject": "Sam", "predicate": "feeling_emotion", "object": "excited to hit the trails with Evan"}, {"subject": "Sam", "predicate": "outdoor_activity", "object": "hiking (planned with Evan)"}], "implications": []}
+{"fid": "D14:11#0", "facets": [{"subject": "Sam", "predicate": "belief_value_opinion", "object": "connecting with nature is exactly what she needs"}], "implications": []}
+{"fid": "D15:1#0", "facets": [{"subject": "Sam", "predicate": "habit_routine", "object": "new health routine"}, {"subject": "Sam", "predicate": "family_member", "object": "family (pushing her, feels pressured)"}], "implications": ["Sam may feel her health choices are not fully her own, creating tension with her family."]}
+{"fid": "D15:2#0", "facets": [{"subject": "Evan", "predicate": "habit_routine", "object": "morning walk (starts his day actively)"}], "implications": []}
+{"fid": "D15:5#0", "facets": [{"subject": "Sam", "predicate": "feeling_emotion", "object": "impatience (wanting fast health results)"}], "implications": []}
+{"fid": "D15:8#0", "facets": [{"subject": "Evan", "predicate": "habit_routine", "object": "changed diet and started walking regularly (around 2021)"}], "implications": []}
+{"fid": "D15:8#1", "facets": [{"subject": "Evan", "predicate": "food_drink_recipe", "object": "fruits and vegetables (photo)"}], "implications": []}
+{"fid": "D15:10#0", "facets": [{"subject": "Evan", "predicate": "belief_value_opinion", "object": "focus on well-being over quick results"}], "implications": []}
+{"fid": "D15:12#0", "facets": [{"subject": "Evan", "predicate": "feeling_emotion", "object": "liberated (letting go of unrealistic expectations)"}], "implications": []}
+{"fid": "D15:15#0", "facets": [{"subject": "Sam", "predicate": "goal_plan", "object": "focus on small wins, one day at a time"}], "implications": []}
+{"fid": "D16:1#0", "facets": [{"subject": "Sam", "predicate": "achievement_award", "object": "became a Weight Watchers coach (proud accomplishment)"}], "implications": ["This role may give Sam a renewed sense of purpose tied to her own health journey."]}
+{"fid": "D16:3#0", "facets": [{"subject": "Sam", "predicate": "achievement_award", "object": "Weight Watchers coach (a great step in her health quest)"}], "implications": []}
+{"fid": "D16:5#0", "facets": [{"subject": "Sam", "predicate": "goal_plan", "object": "Weight Watchers coach role (stay motivated, help others)"}], "implications": []}
+{"fid": "D16:8#0", "facets": [{"subject": "Evan", "predicate": "challenge_problem", "object": "personal challenges (recent, unspecified)"}], "implications": []}
+{"fid": "D16:8#1", "facets": [{"subject": "Evan", "predicate": "possession_purchase", "object": "guitar (photo, on the floor)"}], "implications": []}
+{"fid": "D16:9#0", "facets": [{"subject": "Sam", "predicate": "other", "object": "asked about Evan's guitar model and how he's been doing"}], "implications": []}
+{"fid": "D16:10#0", "facets": [{"subject": "Evan", "predicate": "possession_purchase", "object": "1968 Kustom K-200A vintage guitar"}, {"subject": "Evan", "predicate": "gift_given_received", "object": "guitar (gift from a close friend)"}], "implications": []}
+{"fid": "D16:10#1", "facets": [{"subject": "Evan", "predicate": "job_career", "object": "lost his job (around October 2023)"}, {"subject": "Evan", "predicate": "feeling_emotion", "object": "tough time (job loss)"}], "implications": ["Evan may be experiencing financial or emotional stress due to being unemployed."]}
+{"fid": "D16:12#0", "facets": [{"subject": "Evan", "predicate": "job_career", "object": "laid off due to company downsizing, currently job hunting"}], "implications": []}
+{"fid": "D16:16#0", "facets": [{"subject": "Evan", "predicate": "belief_value_opinion", "object": "plans to stay positive despite losing his job"}], "implications": []}
+{"fid": "D16:18#0", "facets": [{"subject": "Evan", "predicate": "habit_routine", "object": "peaceful sunset-watching spot near home (relax, unwind)"}], "implications": []}
+{"fid": "D16:20#0", "facets": [{"subject": "Evan", "predicate": "habit_routine", "object": "favorite beach sunset spot (finds peace during tough times)"}], "implications": []}
+{"fid": "D16:24#0", "facets": [{"subject": "Evan", "predicate": "event_attended", "object": "planned beach sunset visit with Sam"}, {"subject": "Sam", "predicate": "event_attended", "object": "planned beach sunset visit with Evan"}], "implications": ["This planned outing suggests Evan and Sam's friendship is close enough to share personally meaningful places."]}
+{"fid": "D17:2#0", "facets": [{"subject": "Evan", "predicate": "health_condition", "object": "hospital visit (suspicious check-up finding, turned out fine)"}], "implications": []}
+{"fid": "D17:3#0", "facets": [{"subject": "Sam", "predicate": "health_condition", "object": "discomfort limiting her movement"}, {"subject": "Sam", "predicate": "habit_routine", "object": "trying to make dietary changes"}], "implications": []}
+{"fid": "D17:5#0", "facets": [{"subject": "Sam", "predicate": "movie_show_music", "object": "new movie/book (go-to 'feel good' pick)"}], "implications": []}
+{"fid": "D17:5#1", "facets": [{"subject": "Sam", "predicate": "book_read", "object": "book with a picture of a man on it (photo)"}], "implications": []}
+{"fid": "D17:6#0", "facets": [{"subject": "Evan", "predicate": "belief_value_opinion", "object": "values life more, wants to enjoy the moment (after health scare)"}], "implications": []}
+{"fid": "D17:12#0", "facets": [{"subject": "Evan", "predicate": "event_attended", "object": "gathering around a fire pit (photo)"}], "implications": []}
+{"fid": "D17:13#0", "facets": [{"subject": "Sam", "predicate": "other", "object": "asked Evan how he stays fit and healthy"}], "implications": []}
+{"fid": "D17:14#0", "facets": [{"subject": "Evan", "predicate": "sport_exercise", "object": "gym (stays in shape)"}, {"subject": "Evan", "predicate": "habit_routine", "object": "driving his car for leisure"}], "implications": []}
+{"fid": "D17:15#0", "facets": [{"subject": "Sam", "predicate": "challenge_problem", "object": "fitness goals hard to reach"}], "implications": []}
+{"fid": "D17:16#0", "facets": [{"subject": "Evan", "predicate": "other", "object": "shared photo of a small island with a lone boat"}], "implications": []}
+{"fid": "D17:18#0", "facets": [{"subject": "Evan", "predicate": "origin_hometown", "object": "small island (where he grew up, his happy place)"}], "implications": []}
+{"fid": "D17:18#1", "facets": [{"subject": "Evan", "predicate": "other", "object": "shared photo of sun shining through clouds over water"}], "implications": []}
+{"fid": "D17:20#0", "facets": [{"subject": "Evan", "predicate": "origin_hometown", "object": "childhood island (shaped him, special place in his heart)"}], "implications": []}
+{"fid": "D17:22#0", "facets": [{"subject": "Evan", "predicate": "origin_hometown", "object": "childhood island (serene and calming)"}], "implications": []}
+{"fid": "D17:24#0", "facets": [{"subject": "Evan", "predicate": "origin_hometown", "object": "childhood island (a slice of paradise, peaceful and serene)"}], "implications": []}
+{"fid": "D18:1#0", "facets": [{"subject": "Evan", "predicate": "vehicle", "object": "new Prius (broke down, stressful)"}], "implications": ["Evan's active lifestyle may be significantly disrupted without reliable transportation."]}
+{"fid": "D18:5#0", "facets": [{"subject": "Evan", "predicate": "belief_value_opinion", "object": "sees the car breakdown as a chance to explore other ways of staying active"}], "implications": ["Evan may have a generally optimistic or resilient outlook when facing setbacks."]}
+{"fid": "D18:6#0", "facets": [{"subject": "Sam", "predicate": "event_attended", "object": "Weight Watchers meeting (learned great tips)"}], "implications": []}
+{"fid": "D18:6#1", "facets": [{"subject": "Sam", "predicate": "food_drink_recipe", "object": "smoothie bowl (fruit and yogurt)"}], "implications": []}
+{"fid": "D18:7#0", "facets": [{"subject": "Evan", "predicate": "goal_plan", "object": "try yoga (for stress relief and flexibility)"}], "implications": []}
+{"fid": "D18:8#0", "facets": [{"subject": "Sam", "predicate": "sport_exercise", "object": "yoga (great for flexibility and stress)"}, {"subject": "Sam", "predicate": "support_advice", "object": "recommended yoga to Evan"}], "implications": []}
+{"fid": "D18:9#0", "facets": [{"subject": "Evan", "predicate": "goal_plan", "object": "try yoga"}], "implications": []}
+{"fid": "D19:1#0", "facets": [{"subject": "Evan", "predicate": "partner", "object": "wife (pregnant)"}, {"subject": "Evan", "predicate": "life_event_milestone", "object": "pregnancy announcement"}], "implications": ["Evan's phrasing suggests his existing child (or children) are now past early childhood."]}
+{"fid": "D19:3#0", "facets": [{"subject": "Evan", "predicate": "feeling_emotion", "object": "excited and a bit nervous about the new pregnancy"}, {"subject": "Evan", "predicate": "child", "object": "first child (recalled joy of his birth)"}], "implications": []}
+{"fid": "D19:5#0", "facets": [{"subject": "Evan", "predicate": "family_member", "object": "family memories collage (birthdays, holidays, vacations)"}], "implications": []}
+{"fid": "D19:7#0", "facets": [{"subject": "Evan", "predicate": "possession_purchase", "object": "'Bring it on Home' sign (family motto, from Banff trip)"}, {"subject": "Evan", "predicate": "belief_value_opinion", "object": "importance of family togetherness"}], "implications": []}
+{"fid": "D19:9#0", "facets": [{"subject": "Evan", "predicate": "belief_value_opinion", "object": "family means the world to him"}, {"subject": "Evan", "predicate": "goal_plan", "object": "expand his family and create more memories"}], "implications": []}
+{"fid": "D19:11#0", "facets": [{"subject": "Evan", "predicate": "event_attended", "object": "big family reunion planned (summer 2024)"}], "implications": []}
+{"fid": "D19:12#0", "facets": [{"subject": "Sam", "predicate": "support_advice", "object": "offered tips on organizing Evan's family reunion"}], "implications": []}
+{"fid": "D20:3#0", "facets": [{"subject": "Evan", "predicate": "child", "object": "son (bike accident, recovering)"}], "implications": []}
+{"fid": "D20:3#1", "facets": [{"subject": "Evan", "predicate": "child", "object": "son (crutches, injury photo)"}], "implications": []}
+{"fid": "D20:4#0", "facets": [{"subject": "Sam", "predicate": "challenge_problem", "object": "tough recent period (looking for ways to cope)"}], "implications": []}
+{"fid": "D20:6#0", "facets": [{"subject": "Sam", "predicate": "hobby_interest", "object": "hiking (used to love, hasn't done it in a while)"}], "implications": []}
+{"fid": "D20:7#0", "facets": [{"subject": "Evan", "predicate": "other", "object": "suggested planning a hike with Sam soon"}], "implications": []}
+{"fid": "D20:8#0", "facets": [{"subject": "Sam", "predicate": "health_condition", "object": "struggling with her weight (affecting confidence)"}, {"subject": "Sam", "predicate": "challenge_problem", "object": "lacking motivation to overcome challenges"}], "implications": ["Sam may feel stuck in a cycle where low motivation and low confidence reinforce each other."]}
+{"fid": "D20:8#1", "facets": [{"subject": "Sam", "predicate": "other", "object": "shared photo of a beach with people walking"}], "implications": []}
+{"fid": "D20:9#0", "facets": [{"subject": "Evan", "predicate": "support_advice", "object": "told Sam her worth isn't defined by her weight"}], "implications": ["Evan may see himself as a source of emotional support and reassurance for Sam beyond fitness advice."]}
+{"fid": "D20:10#0", "facets": [{"subject": "Sam", "predicate": "challenge_problem", "object": "tough for her to break out of her comfort zone"}], "implications": []}
+{"fid": "D20:13#0", "facets": [{"subject": "Evan", "predicate": "support_advice", "object": "encouraged Sam to try new things (photo)"}], "implications": []}
+{"fid": "D20:15#0", "facets": [{"subject": "Evan", "predicate": "creative_work", "object": "contemporary figurative painting (introspective, proud of it)"}], "implications": ["Evan may have been going through a period of self-reflection that inspired this introspective piece."]}
+{"fid": "D20:17#0", "facets": [{"subject": "Evan", "predicate": "friend", "object": "close friend (helped him get his painting into an exhibition)"}, {"subject": "Evan", "predicate": "achievement_award", "object": "painting published in an exhibition"}], "implications": []}
+{"fid": "D21:2#0", "facets": [{"subject": "Evan", "predicate": "life_event_milestone", "object": "got married (December 2023)"}], "implications": []}
+{"fid": "D21:2#1", "facets": [{"subject": "Evan", "predicate": "life_event_milestone", "object": "wedding photo (bride and groom kissing)"}], "implications": []}
+{"fid": "D21:3#0", "facets": [{"subject": "Sam", "predicate": "other", "object": "asked if Evan married the Canadian woman he met"}], "implications": []}
+{"fid": "D21:4#0", "facets": [{"subject": "Evan", "predicate": "partner", "object": "wife (the Canadian woman he met, love at first sight)"}], "implications": []}
+{"fid": "D21:6#0", "facets": [{"subject": "Evan", "predicate": "belief_value_opinion", "object": "believes in love at first sight"}], "implications": []}
+{"fid": "D21:8#0", "facets": [{"subject": "Evan", "predicate": "feeling_emotion", "object": "happiness and fulfillment (from being in love)"}], "implications": []}
+{"fid": "D21:9#0", "facets": [{"subject": "Sam", "predicate": "sport_exercise", "object": "morning running (clears her head)"}], "implications": []}
+{"fid": "D21:10#0", "facets": [{"subject": "Evan", "predicate": "support_advice", "object": "encouraged Sam to keep trying new things"}, {"subject": "Evan", "predicate": "creative_work", "object": "minimalist painting (photo)"}], "implications": []}
+{"fid": "D21:12#0", "facets": [{"subject": "Evan", "predicate": "creative_work", "object": "minimalist painting (made while feeling sad, mad, and hopeful)"}], "implications": ["Evan may have been going through an emotionally turbulent period when he created this piece."]}
+{"fid": "D21:14#0", "facets": [{"subject": "Evan", "predicate": "creative_work", "object": "bird painting (gives him a rush of joy)"}], "implications": []}
+{"fid": "D21:16#0", "facets": [{"subject": "Evan", "predicate": "creative_work", "object": "bird painting (joy, freedom, spontaneous strokes)"}], "implications": []}
+{"fid": "D21:17#0", "facets": [{"subject": "Sam", "predicate": "event_attended", "object": "art exhibit (visited, inspired by a painting there)"}], "implications": []}
+{"fid": "D21:19#0", "facets": [{"subject": "Sam", "predicate": "creative_work", "object": "sketching (occasional, nothing remarkable yet)"}], "implications": []}
+{"fid": "D21:20#0", "facets": [{"subject": "Evan", "predicate": "habit_routine", "object": "loses his keys weekly (recurring joke)"}], "implications": []}
+{"fid": "D21:21#0", "facets": [{"subject": "Sam", "predicate": "support_advice", "object": "suggested a GPS sensor for Evan's keys"}], "implications": []}
+{"fid": "D21:22#0", "facets": [{"subject": "Evan", "predicate": "goal_plan", "object": "get a GPS sensor for his keys"}], "implications": []}
+{"fid": "D22:1#0", "facets": [{"subject": "Sam", "predicate": "outdoor_activity", "object": "epic hiking trip with friends"}, {"subject": "Sam", "predicate": "friend", "object": "friends (hiking trip)"}], "implications": ["Sam organizing this trip suggests she has reconnected with her love of hiking and feels comfortable leading group activities."]}
+{"fid": "D22:1#1", "facets": [{"subject": "Sam", "predicate": "outdoor_activity", "object": "hiking trip (photo, valley view)"}], "implications": []}
+{"fid": "D22:2#0", "facets": [{"subject": "Evan", "predicate": "vehicle", "object": "Prius (minor accident on mountain drive)"}], "implications": []}
+{"fid": "D22:2#1", "facets": [{"subject": "Evan", "predicate": "trip_location_visited", "object": "forest stream (mountain drive photo)"}], "implications": []}
+{"fid": "D22:4#0", "facets": [{"subject": "Evan", "predicate": "colleague_mentor", "object": "work friends (delayed telling them about his marriage)"}, {"subject": "Evan", "predicate": "life_event_milestone", "object": "marriage announcement to coworkers"}], "implications": []}
+{"fid": "D22:4#1", "facets": [{"subject": "Evan", "predicate": "colleague_mentor", "object": "work friends (great support)"}], "implications": []}
+{"fid": "D22:10#0", "facets": [{"subject": "Evan", "predicate": "food_drink_recipe", "object": "new healthy snacks (trying)"}], "implications": []}
+{"fid": "D22:12#0", "facets": [{"subject": "Evan", "predicate": "food_drink_recipe", "object": "cookies (offered recipe to Sam)"}], "implications": []}
+{"fid": "D22:13#0", "facets": [{"subject": "Sam", "predicate": "goal_plan", "object": "seeking healthier snack ideas"}], "implications": []}
+{"fid": "D22:14#0", "facets": [{"subject": "Evan", "predicate": "food_drink_recipe", "object": "energy balls recipe (coconut and oats)"}, {"subject": "Evan", "predicate": "habit_routine", "object": "trying to eat healthier"}], "implications": []}
+{"fid": "D22:14#1", "facets": [{"subject": "Evan", "predicate": "food_drink_recipe", "object": "coconut balls and oats (photo)"}], "implications": []}
+{"fid": "D22:16#0", "facets": [{"subject": "Evan", "predicate": "preference_like", "object": "energy balls (enjoys, satisfies sweet tooth)"}], "implications": []}
+{"fid": "D22:19#0", "facets": [{"subject": "Sam", "predicate": "challenge_problem", "object": "self-checkout issues (regular annoyance)"}], "implications": []}
+{"fid": "D22:20#0", "facets": [{"subject": "Evan", "predicate": "other", "object": "has never had a problem with self-checkout"}], "implications": []}
+{"fid": "D23:1#0", "facets": [{"subject": "Evan", "predicate": "life_event_milestone", "object": "told extended family about marriage (overwhelmed by their support)"}], "implications": []}
+{"fid": "D23:1#1", "facets": [{"subject": "Evan", "predicate": "partner", "object": "wife (photo, on a rocky beach)"}], "implications": []}
+{"fid": "D23:3#0", "facets": [{"subject": "Evan", "predicate": "partner", "object": "wife (feels lucky, she 'gets him')"}, {"subject": "Evan", "predicate": "feeling_emotion", "object": "feels lucky about his marriage"}], "implications": []}
+{"fid": "D23:7#0", "facets": [{"subject": "Evan", "predicate": "belief_value_opinion", "object": "family bond keeps getting stronger, means a lot to him"}], "implications": []}
+{"fid": "D23:8#0", "facets": [{"subject": "Sam", "predicate": "belief_value_opinion", "object": "family is everything to her"}, {"subject": "Sam", "predicate": "family_member", "object": "family (grateful for their love and support)"}], "implications": []}
+{"fid": "D23:12#0", "facets": [{"subject": "Sam", "predicate": "family_member", "object": "family (has been her rock through everything)"}], "implications": ["Sam may have gone through significant hardships during which her family provided crucial support."]}
+{"fid": "D23:13#0", "facets": [{"subject": "Evan", "predicate": "event_attended", "object": "gathering at a table with food (photo)"}], "implications": []}
+{"fid": "D23:15#0", "facets": [{"subject": "Evan", "predicate": "event_attended", "object": "family get-together that night (homemade lasagna)"}], "implications": []}
+{"fid": "D23:15#1", "facets": [{"subject": "Evan", "predicate": "habit_routine", "object": "new diet limiting himself to two ginger snaps a day"}], "implications": []}
+{"fid": "D23:16#0", "facets": [{"subject": "Sam", "predicate": "family_member", "object": "family dinner (homemade lasagna)"}], "implications": []}
+{"fid": "D23:16#1", "facets": [{"subject": "Sam", "predicate": "food_drink_recipe", "object": "plate with bread and meat (photo)"}], "implications": []}
+{"fid": "D23:18#0", "facets": [{"subject": "Sam", "predicate": "food_drink_recipe", "object": "raspberry and lime pie (had for dessert)"}], "implications": []}
+{"fid": "D23:20#0", "facets": [{"subject": "Sam", "predicate": "family_member", "object": "cousin (wedding, source of the pie photo)"}], "implications": []}
+{"fid": "D23:21#0", "facets": [{"subject": "Evan", "predicate": "belief_value_opinion", "object": "weddings are special"}], "implications": []}
+{"fid": "D23:23#0", "facets": [{"subject": "Evan", "predicate": "trip_location_visited", "object": "Canada (honeymoon, planned for February 2024)"}], "implications": []}
+{"fid": "D23:25#0", "facets": [{"subject": "Evan", "predicate": "goal_plan", "object": "honeymoon plans (skiing, local cuisine, views in Canada)"}], "implications": []}
+{"fid": "D23:26#0", "facets": [{"subject": "Sam", "predicate": "food_drink_recipe", "object": "caramel-covered french fries (photo)"}, {"subject": "Sam", "predicate": "support_advice", "object": "wished Evan an incredible honeymoon"}], "implications": []}
+{"fid": "D23:27#0", "facets": [{"subject": "Evan", "predicate": "goal_plan", "object": "try poutine during his honeymoon in Canada"}], "implications": []}
+{"fid": "D23:28#0", "facets": [{"subject": "Sam", "predicate": "other", "object": "asked Evan about trying poutine, a Canadian dish"}], "implications": []}
+{"fid": "D24:3#0", "facets": [{"subject": "Evan", "predicate": "friend", "object": "friends (night out drinking)"}, {"subject": "Evan", "predicate": "challenge_problem", "object": "did something he regretted involving someone's roses"}], "implications": []}
+{"fid": "D24:5#0", "facets": [{"subject": "Evan", "predicate": "challenge_problem", "object": "had a pee accident near someone's roses while drunk"}, {"subject": "Evan", "predicate": "feeling_emotion", "object": "embarrassed"}], "implications": []}
+{"fid": "D24:7#0", "facets": [{"subject": "Evan", "predicate": "challenge_problem", "object": "apologized for the rose incident, person was understanding"}], "implications": []}
+{"fid": "D24:9#0", "facets": [{"subject": "Evan", "predicate": "outdoor_activity", "object": "snowshoeing (new, fun adventure with his wife)"}], "implications": []}
+{"fid": "D24:10#0", "facets": [{"subject": "Sam", "predicate": "goal_plan", "object": "made a meal plan and workout schedule (starting that day)"}], "implications": ["Sam may have been inspired by something she saw in media or from someone else's example to renew her fitness commitment."]}
+{"fid": "D24:10#1", "facets": [{"subject": "Sam", "predicate": "goal_plan", "object": "meal plan and workout schedule (whiteboard photo)"}], "implications": []}
+{"fid": "D24:11#0", "facets": [{"subject": "Evan", "predicate": "support_advice", "object": "suggested Sam ask her doctor for diet and exercise advice"}], "implications": []}
+{"fid": "D24:12#0", "facets": [{"subject": "Sam", "predicate": "goal_plan", "object": "make a doctor's appointment (hasn't seen one in a while)"}], "implications": []}
+{"fid": "D24:14#0", "facets": [{"subject": "Sam", "predicate": "goal_plan", "object": "ask her doctor about a balanced diet plan and low-impact exercises"}], "implications": []}
+{"fid": "D24:15#0", "facets": [{"subject": "Evan", "predicate": "support_advice", "object": "encouraged Sam's balanced diet and low-impact exercise plan (salad photo)"}], "implications": []}
+{"fid": "D24:16#0", "facets": [{"subject": "Sam", "predicate": "other", "object": "asked Evan about the salad idea and low-impact exercise suggestions"}], "implications": []}
+{"fid": "D24:17#0", "facets": [{"subject": "Evan", "predicate": "food_drink_recipe", "object": "salad idea (from a nearby restaurant)"}, {"subject": "Evan", "predicate": "support_advice", "object": "recommended swimming, yoga, and walking"}], "implications": []}
+{"fid": "D24:18#0", "facets": [{"subject": "Sam", "predicate": "movie_show_music", "object": "The Godfather (watched, motivated her fitness routine)"}], "implications": []}
+{"fid": "D24:18#1", "facets": [{"subject": "Sam", "predicate": "other", "object": "shared photo of a young boy playing in a pool"}], "implications": []}
+{"fid": "D24:19#0", "facets": [{"subject": "Evan", "predicate": "sport_exercise", "object": "yoga (helps with stress and flexibility)"}], "implications": []}
+{"fid": "D24:21#0", "facets": [{"subject": "Evan", "predicate": "habit_routine", "object": "watching beach sunsets (favorite low-impact activity)"}], "implications": []}
+{"fid": "D24:21#1", "facets": [{"subject": "Evan", "predicate": "habit_routine", "object": "beach sunset (photo)"}], "implications": []}
+{"fid": "D24:22#0", "facets": [{"subject": "Sam", "predicate": "other", "object": "recurring dream of flying over skyscrapers"}], "implications": ["The recurring nature of this dream may reflect an ongoing desire in Sam for freedom or escape from her current struggles."]}
+{"fid": "D25:1#0", "facets": [{"subject": "Sam", "predicate": "health_condition", "object": "weight (feels it's keeping her from fully living)"}, {"subject": "Sam", "predicate": "feeling_emotion", "object": "trying to stay positive, though it isn't easy"}], "implications": ["Sam may feel her weight limits her ability to fully participate in activities she enjoys."]}
+{"fid": "D25:2#0", "facets": [{"subject": "Evan", "predicate": "partner", "object": "wife (apologized for the drunken rose incident)"}, {"subject": "Evan", "predicate": "feeling_emotion", "object": "embarrassed"}], "implications": []}
+{"fid": "D25:3#0", "facets": [{"subject": "Sam", "predicate": "other", "object": "asked how Evan's wife reacted to the rose bush incident"}], "implications": []}
+{"fid": "D25:4#0", "facets": [{"subject": "Evan", "predicate": "partner", "object": "wife (not thrilled but understanding about the rose incident)"}], "implications": []}
+{"fid": "D25:5#0", "facets": [{"subject": "Sam", "predicate": "habit_routine", "object": "car rides (to relax and enjoy the view)"}, {"subject": "Sam", "predicate": "challenge_problem", "object": "hasn't found low-impact exercises she likes yet"}], "implications": []}
+{"fid": "D25:5#1", "facets": [{"subject": "Sam", "predicate": "trip_location_visited", "object": "countryside drive (field, fence, dirt road)"}], "implications": []}
+{"fid": "D25:7#0", "facets": [{"subject": "Sam", "predicate": "preference_like", "object": "being in nature (relaxing, fresh air)"}, {"subject": "Sam", "predicate": "residence", "object": "city (implied, wants to get away from it)"}], "implications": ["Sam's need to get away from the city suggests she may find urban life stressful or overwhelming at times."]}
+{"fid": "D25:8#0", "facets": [{"subject": "Evan", "predicate": "trip_location_visited", "object": "camping trip (last summer, sunset photo)"}], "implications": []}
+{"fid": "D25:8#1", "facets": [{"subject": "Evan", "predicate": "outdoor_activity", "object": "kayak (photo, seen from the boat)"}], "implications": []}
+{"fid": "D25:10#0", "facets": [{"subject": "Evan", "predicate": "outdoor_activity", "object": "kayaking last summer (peaceful, unforgettable)"}], "implications": []}
+{"fid": "D25:13#0", "facets": [{"subject": "Sam", "predicate": "goal_plan", "object": "spend more time in nature"}], "implications": []}
+{"fid": "D25:14#0", "facets": [{"subject": "Evan", "predicate": "feeling_emotion", "object": "felt down last spring, cheered up by flowers"}], "implications": ["Evan may find comfort and mood relief in small, everyday moments of natural beauty."]}

@@ -1,0 +1,106 @@
+{"tid": "answer_7c0ade93:2", "facets": [{"subject": "user", "predicate": "food_drink_recipe", "object": "made a lemon poppyseed cake for a colleague's going-away party"}, {"subject": "user", "predicate": "goal_plan", "object": "planning to make a cake for a friend's birthday"}]}
+{"tid": "answer_7c0ade93:12", "facets": [{"subject": "user", "predicate": "food_drink_recipe", "object": "plans to make chocolate chip cookies for a party"}]}
+{"tid": "answer_ultrachat_275993:8", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "planning a trip to Moncayo mountain natural park in autumn"}]}
+{"tid": "answer_ultrachat_275993:12", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "considering renting a rural cottage for a trip"}]}
+{"tid": "answer_c63c0458:2", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "assembled an IKEA bookshelf in about 4 hours"}]}
+{"tid": "answer_c63c0458:4", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "planning to shop for a coffee table at West Elm this weekend"}]}
+{"tid": "answer_c63c0458:10", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "plans to visit West Elm, Crate & Barrel, and IKEA for coffee tables"}]}
+{"tid": "answer_e5131a1b_1:0", "facets": [{"subject": "user", "predicate": "challenge_problem", "object": "working long hours on a high-priority project with a longer commute"}]}
+{"tid": "answer_e5131a1b_1:2", "facets": [{"subject": "user", "predicate": "job_career", "object": "has worked professionally for 9 years"}, {"subject": "user", "predicate": "habit_routine", "object": "uses a physical notebook to track tasks and reminders"}]}
+{"tid": "answer_e5131a1b_1:4", "facets": [{"subject": "user", "predicate": "job_career", "object": "does freelance work, tracks projects and income via spreadsheet"}]}
+{"tid": "answer_e5131a1b_1:6", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "wants to grow freelance business to the next level"}]}
+{"tid": "answer_e5131a1b_1:8", "facets": [{"subject": "user", "predicate": "job_career", "object": "freelances in web development, expanding into project management and consulting"}]}
+{"tid": "answer_e5131a1b_2:0", "facets": [{"subject": "user", "predicate": "employer_business", "object": "works on a project at NovaTech"}]}
+{"tid": "answer_e5131a1b_2:2", "facets": [{"subject": "user", "predicate": "challenge_problem", "object": "struggling with profiling and benchmarking their API"}]}
+{"tid": "answer_e5131a1b_2:4", "facets": [{"subject": "user", "predicate": "job_career", "object": "works as a backend software engineer"}, {"subject": "user", "predicate": "education_course", "object": "graduated with a Computer Science degree from UC Berkeley"}, {"subject": "user", "predicate": "employer_business", "object": "has worked at NovaTech for about 4 years and 3 months"}]}
+{"tid": "answer_e7b0637e_1:0", "facets": [{"subject": "user", "predicate": "life_event_milestone", "object": "getting married soon"}, {"subject": "user", "predicate": "family_member", "object": "cousin got married at a vineyard in August"}]}
+{"tid": "answer_e7b0637e_1:2", "facets": [{"subject": "user", "predicate": "family_member", "object": "cousin Rachel's wedding was at a vineyard"}]}
+{"tid": "answer_e7b0637e_1:4", "facets": [{"subject": "user", "predicate": "family_member", "object": "was a bridesmaid at cousin Rachel's wedding"}]}
+{"tid": "answer_e7b0637e_1:6", "facets": [{"subject": "user", "predicate": "family_member", "object": "cousin Emily got married in the city at a rooftop garden"}]}
+{"tid": "answer_e7b0637e_1:8", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "considering a wine and cheese pairing station at own wedding"}]}
+{"tid": "answer_e7b0637e_1:10", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "considering a custom wine blend for own wedding"}]}
+{"tid": "answer_e7b0637e_3:0", "facets": [{"subject": "user", "predicate": "life_event_milestone", "object": "planning own wedding"}, {"subject": "user", "predicate": "friend", "object": "attended friend Jen's wedding at a rustic barn last weekend"}]}
+{"tid": "answer_e7b0637e_3:2", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "considering a small outdoor wedding ceremony at a beach or park"}]}
+{"tid": "answer_e7b0637e_3:4", "facets": [{"subject": "user", "predicate": "hobby_interest", "object": "loves literature, wants to incorporate it into wedding ceremony"}]}
+{"tid": "answer_e7b0637e_3:6", "facets": [{"subject": "user", "predicate": "friend", "object": "has a friend named Jen from book club"}, {"subject": "user", "predicate": "hobby_interest", "object": "belongs to a book club"}]}
+{"tid": "answer_e7b0637e_3:10", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "planning to write own wedding vows"}]}
+{"tid": "answer_e7b0637e_2:0", "facets": [{"subject": "user", "predicate": "life_event_milestone", "object": "planning own outdoor wedding"}, {"subject": "user", "predicate": "friend", "object": "college roommate got married in a rooftop garden ceremony"}, {"subject": "user", "predicate": "friend", "object": "friend Emily married her partner Sarah"}]}
+{"tid": "answer_e7b0637e_2:2", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "wants an intimate wedding guest list of about 50"}]}
+{"tid": "answer_e7b0637e_2:4", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "considering a post-wedding brunch for uninvited friends"}]}
+{"tid": "answer_cdbe2250_1:0", "facets": [{"subject": "user", "predicate": "hobby_interest", "object": "does yoga using Yoga with Adriene YouTube videos"}]}
+{"tid": "answer_cdbe2250_1:2", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "has used a Fitbit Charge 3 for 6 months"}]}
+{"tid": "answer_cdbe2250_1:6", "facets": [{"subject": "user", "predicate": "health_condition", "object": "has knee issues"}]}
+{"tid": "answer_cdbe2250_1:10", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "decided to buy a Hugger Mugger ParaMat yoga mat"}]}
+{"tid": "answer_cdbe2250_2:0", "facets": [{"subject": "user", "predicate": "health_condition", "object": "has been having trouble sleeping"}]}
+{"tid": "answer_cdbe2250_2:2", "facets": [{"subject": "user", "predicate": "habit_routine", "object": "has used a Fitbit Charge 3 for 9 months"}]}
+{"tid": "answer_cdbe2250_2:4", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "uses a portable massage roller for relaxation and muscle recovery"}]}
+{"tid": "answer_cdbe2250_2:8", "facets": [{"subject": "user", "predicate": "preference_like", "object": "enjoys non-fiction books about health and wellness"}]}
+{"tid": "answer_cdbe2250_2:10", "facets": [{"subject": "user", "predicate": "book_read", "object": "enjoys Dan Harris's book '10% Happier'"}, {"subject": "user", "predicate": "book_read", "object": "read a book about the benefits of intermittent fasting"}]}
+{"tid": "answer_1bde8d3b:0", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "planning to buy a mid-century modern bedroom dresser"}]}
+{"tid": "answer_1bde8d3b:10", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "decided on a walnut dresser with satin finish and brass hardware"}]}
+{"tid": "answer_fea2e4d3:2", "facets": [{"subject": "user", "predicate": "family_member", "object": "has a sister, mom, and brother"}, {"subject": "user", "predicate": "gift_given_received", "object": "bought gifts for sister's birthday, mom, coworkers, a baby shower, brother's new apartment"}, {"subject": "user", "predicate": "friend", "object": "has a neighbor named Mrs. Johnson"}]}
+{"tid": "answer_fea2e4d3:4", "facets": [{"subject": "user", "predicate": "gift_given_received", "object": "gave sister a yellow dress and matching earrings for her birthday"}]}
+{"tid": "answer_fea2e4d3:6", "facets": [{"subject": "user", "predicate": "gift_given_received", "object": "gave mom silver hoop earrings with a pearl"}]}
+{"tid": "answer_fea2e4d3:8", "facets": [{"subject": "user", "predicate": "gift_given_received", "object": "gave neighbor Mrs. Johnson groceries and flowers during her recovery from surgery"}]}
+{"tid": "answer_fea2e4d3:10", "facets": [{"subject": "user", "predicate": "gift_given_received", "object": "gave coworkers snacks and drinks at a team-building event"}, {"subject": "user", "predicate": "gift_given_received", "object": "gave coworker Rachel a journal and pens for her going-away party"}]}
+{"tid": "answer_3e11e0ae_2:0", "facets": [{"subject": "user", "predicate": "book_read", "object": "read The Seven Husbands of Evelyn Hugo, The Silent Patient, and The Nightingale"}]}
+{"tid": "answer_3e11e0ae_2:2", "facets": [{"subject": "user", "predicate": "book_read", "object": "listened to and loved the audiobook Daisy Jones and The Six"}]}
+{"tid": "answer_3e11e0ae_2:4", "facets": [{"subject": "user", "predicate": "habit_routine", "object": "keeps a reading log to track books and reflections"}]}
+{"tid": "answer_3e11e0ae_2:6", "facets": [{"subject": "user", "predicate": "habit_routine", "object": "listens to audiobooks during daily commute"}, {"subject": "user", "predicate": "book_read", "object": "finished audiobooks Sapiens and Daisy Jones and The Six"}]}
+{"tid": "answer_3e11e0ae_2:8", "facets": [{"subject": "user", "predicate": "hobby_interest", "object": "runs a bookstagram account for book reviews"}]}
+{"tid": "answer_3e11e0ae_1:0", "facets": [{"subject": "user", "predicate": "book_read", "object": "read The Hate U Give for book club"}, {"subject": "user", "predicate": "hobby_interest", "object": "is a member of a book club"}]}
+{"tid": "answer_3e11e0ae_1:6", "facets": [{"subject": "user", "predicate": "preference_like", "object": "prefers full-cast audiobook narrations"}]}
+{"tid": "answer_fa526fc0_3:0", "facets": [{"subject": "user", "predicate": "family_member", "object": "aunt had twins named Ava and Lily born in April"}]}
+{"tid": "answer_fa526fc0_4:0", "facets": [{"subject": "user", "predicate": "friend", "object": "college friend David had a baby boy named Jasper"}]}
+{"tid": "answer_fa526fc0_4:2", "facets": [{"subject": "user", "predicate": "habit_routine", "object": "uses Google Calendar for work and personal appointments"}]}
+{"tid": "answer_fa526fc0_4:8", "facets": [{"subject": "user", "predicate": "family_member", "object": "cousin Rachel had a son named Max born in March"}, {"subject": "user", "predicate": "friend", "object": "friends Mike and Emma had a daughter named Charlotte"}]}
+{"tid": "answer_fa526fc0_4:10", "facets": [{"subject": "user", "predicate": "friend", "object": "friend Sarah adopted a daughter named Aaliyah"}]}
+{"tid": "answer_fa526fc0_1:0", "facets": [{"subject": "user", "predicate": "family_member", "object": "cousin Rachel had a baby boy named Max in March"}, {"subject": "user", "predicate": "event_attended", "object": "attended cousin Rachel's baby shower in February"}]}
+{"tid": "answer_fa526fc0_2:2", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "planning to host a potluck dinner for friends with new parents"}]}
+{"tid": "answer_fa526fc0_2:4", "facets": [{"subject": "user", "predicate": "friend", "object": "friend David had his third child, a son named Jasper"}]}
+{"tid": "answer_fa526fc0_2:10", "facets": [{"subject": "user", "predicate": "colleague_mentor", "object": "colleague Sarah adopted a daughter from Ethiopia named Aaliyah"}]}
+{"tid": "answer_b191df5b_1:2", "facets": [{"subject": "user", "predicate": "challenge_problem", "object": "went through a tough time and attended a bereavement support group"}]}
+{"tid": "answer_b191df5b_1:4", "facets": [{"subject": "user", "predicate": "challenge_problem", "object": "attended three sessions of a bereavement support group"}]}
+{"tid": "answer_b191df5b_1:6", "facets": [{"subject": "user", "predicate": "family_member", "object": "has grandmother's locket and handwritten recipe book"}, {"subject": "user", "predicate": "goal_plan", "object": "wants to create a memory box for grandmother"}]}
+{"tid": "answer_b191df5b_2:0", "facets": [{"subject": "user", "predicate": "challenge_problem", "object": "getting back into a routine after a tough few months"}]}
+{"tid": "answer_b191df5b_2:4", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "wants to get back into reading"}]}
+{"tid": "answer_b191df5b_2:6", "facets": [{"subject": "user", "predicate": "book_read", "object": "plans to read Wild by Cheryl Strayed"}, {"subject": "user", "predicate": "hobby_interest", "object": "interested in memoirs"}, {"subject": "user", "predicate": "challenge_problem", "object": "attended five sessions of a bereavement support group last year"}]}
+{"tid": "answer_b191df5b_2:10", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "considering seeing a therapist and starting a journal for grief"}]}
+{"tid": "answer_5e613445:0", "facets": [{"subject": "user", "predicate": "hobby_interest", "object": "plays guitar, owns a Fender Stratocaster"}]}
+{"tid": "answer_679840f8:4", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "upgraded home internet to 500 Mbps three weeks ago"}]}
+{"tid": "answer_679840f8:10", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "bought a Western Digital 2TB external hard drive"}]}
+{"tid": "answer_30dfe889_2:0", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "set up a new smart thermostat to reduce energy bills"}, {"subject": "user", "predicate": "challenge_problem", "object": "desktop computer keeps freezing randomly"}]}
+{"tid": "answer_30dfe889_2:2", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "has a ~5-year-old Windows desktop for browsing, office work, light video editing"}]}
+{"tid": "answer_30dfe889_2:4", "facets": [{"subject": "user", "predicate": "skill_ability", "object": "uses iMovie and Adobe Premiere Elements for light video editing"}]}
+{"tid": "answer_30dfe889_2:10", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "decided to buy an HP Pavilion 24-inch All-in-One Desktop"}]}
+{"tid": "answer_30dfe889_1:0", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "upgraded home Wi-Fi router to a new mesh network system"}]}
+{"tid": "answer_30dfe889_1:8", "facets": [{"subject": "user", "predicate": "preference_like", "object": "prefers a traditional desktop over an all-in-one PC"}]}
+{"tid": "answer_30dfe889_1:10", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "budgeting $800-$1,200 for a new desktop computer"}]}
+{"tid": "answer_8858d9dc_3:0", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "ordered a new mattress from Casper, arriving next Wednesday"}, {"subject": "user", "predicate": "possession_purchase", "object": "got a new coffee table and rearranged living room"}]}
+{"tid": "answer_8858d9dc_2:0", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "assembled an IKEA bookshelf for home office two months ago"}]}
+{"tid": "answer_8858d9dc_1:0", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "bought a wooden coffee table with metal legs from West Elm three weeks ago"}]}
+{"tid": "answer_8858d9dc_1:4", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "wants to add navy accents to living room"}]}
+{"tid": "answer_8858d9dc_1:6", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "decided to buy Navy Grid Velvet pillow covers"}]}
+{"tid": "answer_8858d9dc_4:2", "facets": [{"subject": "user", "predicate": "other", "object": "fixed a wobbly kitchen table leg last weekend"}]}
+{"tid": "answer_8858d9dc_4:10", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "wants to reorganize kitchen cabinets for more storage"}]}
+{"tid": "answer_c7ddc051_1:0", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "considering a Lowepro or Think Tank camera bag"}]}
+{"tid": "answer_c7ddc051_1:2", "facets": [{"subject": "user", "predicate": "hobby_interest", "object": "does portrait and low-light photography"}, {"subject": "user", "predicate": "possession_purchase", "object": "recently got a 50mm prime lens"}, {"subject": "user", "predicate": "possession_purchase", "object": "owns a Nikon D5600 camera"}]}
+{"tid": "answer_c7ddc051_1:4", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "owns a worn Manfrotto BeFree tripod, considering a replacement"}]}
+{"tid": "answer_c7ddc051_1:6", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "planning to upgrade to a Nikon Z6 full-frame camera in the future"}]}
+{"tid": "answer_c7ddc051_2:0", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "recently got a 70-200mm zoom lens"}]}
+{"tid": "answer_c7ddc051_2:2", "facets": [{"subject": "user", "predicate": "education_course", "object": "attended a photography workshop and got remote flash triggers"}]}
+{"tid": "answer_c7ddc051_2:8", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "decided to buy a Think Tank Urban Disguise 40L camera bag"}, {"subject": "user", "predicate": "hobby_interest", "object": "does street and travel photography"}]}
+{"tid": "answer_c7ddc051_2:10", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "considering buying a wide-angle lens (14-24mm or 16-35mm)"}]}
+{"tid": "answer_f3164f2c:0", "facets": [{"subject": "user", "predicate": "food_drink_recipe", "object": "makes own flavored creamer with almond milk, vanilla, and honey"}, {"subject": "user", "predicate": "goal_plan", "object": "trying to reduce sugar intake and save money"}]}
+{"tid": "answer_f3164f2c:4", "facets": [{"subject": "user", "predicate": "food_drink_recipe", "object": "made homemade granola with rolled oats, almonds, and honey"}]}
+{"tid": "answer_f3164f2c:8", "facets": [{"subject": "user", "predicate": "habit_routine", "object": "craves sweet treats in the afternoon around 3-4pm"}]}
+{"tid": "answer_f3164f2c:10", "facets": [{"subject": "user", "predicate": "habit_routine", "object": "has been skipping breakfast more frequently"}]}
+{"tid": "answer_ultrachat_348449:2", "facets": [{"subject": "user", "predicate": "belief_value_opinion", "object": "believes companies don't need to protect their data since it isn't valuable"}]}
+{"tid": "answer_ultrachat_348449:4", "facets": [{"subject": "user", "predicate": "belief_value_opinion", "object": "thinks password and security steps are too much hassle"}]}
+{"tid": "answer_82a04f59:0", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "planning a 3-day business trip"}]}
+{"tid": "answer_82a04f59:6", "facets": [{"subject": "user", "predicate": "trip_location_visited", "object": "took a trip to Costa Rica, tends to overpack clothes"}]}
+{"tid": "answer_82a04f59:8", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "bought travel-sized toiletry bottles and a packing cube"}]}
+{"tid": "answer_ab603dd5_2:0", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "planning a trip to San Francisco next month"}, {"subject": "user", "predicate": "friend", "object": "attended best friend's wedding in San Francisco two months ago, a 5-day trip"}]}
+{"tid": "answer_ab603dd5_2:4", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "bought a navy blue suit from a local tailor for a friend's wedding"}]}
+{"tid": "answer_ab603dd5_2:6", "facets": [{"subject": "user", "predicate": "trip_location_visited", "object": "took a 3-day family road trip/camping trip to nearby mountains"}]}
+{"tid": "answer_ab603dd5_2:10", "facets": [{"subject": "user", "predicate": "family_member", "object": "sister recently moved to a new apartment 2 hours from hometown"}]}

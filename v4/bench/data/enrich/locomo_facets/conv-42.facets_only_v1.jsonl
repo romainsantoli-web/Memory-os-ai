@@ -1,0 +1,305 @@
+{"fid": "D1:2#0", "facets": [{"subject": "Joanna", "predicate": "project_work", "object": "unspecified project she finds cool"}], "implications": ["Joanna's enthusiasm suggests she feels engaged and motivated by her current work."]}
+{"fid": "D1:3#0", "facets": [{"subject": "Nate", "predicate": "achievement_award", "object": "first video game tournament win"}], "implications": ["Nate's win suggests he is a skilled and competitive gamer."]}
+{"fid": "D1:5#0", "facets": [{"subject": "Nate", "predicate": "game_played", "object": "team shooter game (tournament game)"}], "implications": []}
+{"fid": "D1:7#0", "facets": [{"subject": "Nate", "predicate": "game_played", "object": "Counter-Strike: Global Offensive"}], "implications": []}
+{"fid": "D1:7#1", "facets": [{"subject": "Nate", "predicate": "feeling_emotion", "object": "enjoyed tournament with teammates until the end"}], "implications": ["Suggests Nate has good camaraderie with his teammates."]}
+{"fid": "D1:8#0", "facets": [{"subject": "Joanna", "predicate": "dislike_fear", "object": "video games"}], "implications": []}
+{"fid": "D1:10#0", "facets": [{"subject": "Joanna", "predicate": "hobby_interest", "object": "writing and reading"}, {"subject": "Joanna", "predicate": "hobby_interest", "object": "watching movies"}, {"subject": "Joanna", "predicate": "outdoor_activity", "object": "exploring nature"}], "implications": []}
+{"fid": "D1:11#0", "facets": [{"subject": "Nate", "predicate": "hobby_interest", "object": "playing video games"}, {"subject": "Nate", "predicate": "hobby_interest", "object": "watching movies"}], "implications": []}
+{"fid": "D1:13#0", "facets": [{"subject": "Nate", "predicate": "preference_like", "object": "action and sci-fi movies"}], "implications": []}
+{"fid": "D1:14#0", "facets": [{"subject": "Joanna", "predicate": "preference_like", "object": "dramas and romantic comedies"}], "implications": []}
+{"fid": "D1:16#0", "facets": [{"subject": "Joanna", "predicate": "movie_show_music", "object": "romantic drama movie about memory and relationships (recommended to Nate)"}], "implications": []}
+{"fid": "D1:17#0", "facets": [{"subject": "Nate", "predicate": "preference_like", "object": "classic movies"}], "implications": []}
+{"fid": "D1:18#0", "facets": [{"subject": "Joanna", "predicate": "movie_show_music", "object": "romantic drama movie (first watched around 2019)"}], "implications": []}
+{"fid": "D1:18#1", "facets": [{"subject": "Joanna", "predicate": "possession_purchase", "object": "DVD of the romantic drama movie"}], "implications": []}
+{"fid": "D1:20#0", "facets": [{"subject": "Joanna", "predicate": "preference_like", "object": "romantic drama movie (favorite, rewatched)"}], "implications": []}
+{"fid": "D1:20#1", "facets": [{"subject": "Joanna", "predicate": "belief_value_opinion", "object": "praises the story idea and acting in the romantic drama movie"}], "implications": []}
+{"fid": "D2:3#0", "facets": [{"subject": "Joanna", "predicate": "creative_work", "object": "first full screenplay (finished and printed)"}, {"subject": "Joanna", "predicate": "life_event_milestone", "object": "finished first full screenplay"}], "implications": ["Finishing a first full screenplay suggests a major milestone in Joanna's writing career."]}
+{"fid": "D2:5#0", "facets": [{"subject": "Joanna", "predicate": "creative_work", "object": "screenplay genre: drama and romance"}], "implications": []}
+{"fid": "D2:7#0", "facets": [{"subject": "Joanna", "predicate": "feeling_emotion", "object": "relief, excitement, and anxiety after finishing screenplay"}], "implications": []}
+{"fid": "D2:7#1", "facets": [{"subject": "Joanna", "predicate": "goal_plan", "object": "submit screenplay to film festivals"}], "implications": []}
+{"fid": "D2:10#0", "facets": [{"subject": "Nate", "predicate": "pet", "object": "pet turtles"}, {"subject": "Nate", "predicate": "feeling_emotion", "object": "turtles help him stay calm during stress"}], "implications": []}
+{"fid": "D2:12#0", "facets": [{"subject": "Nate", "predicate": "pet", "object": "turtles (owned since around 2019)"}], "implications": []}
+{"fid": "D2:14#0", "facets": [{"subject": "Nate", "predicate": "support_advice", "object": "recommended pets like turtles to cope with stress"}], "implications": []}
+{"fid": "D2:14#1", "facets": [{"subject": "Nate", "predicate": "pet", "object": "turtles (small, with big personalities)"}], "implications": []}
+{"fid": "D2:15#0", "facets": [{"subject": "Joanna", "predicate": "goal_plan", "object": "get a pet if a non-allergenic one is found"}], "implications": []}
+{"fid": "D2:16#0", "facets": [{"subject": "Nate", "predicate": "person_met", "object": "new people met at gaming tournament"}], "implications": []}
+{"fid": "D2:18#0", "facets": [{"subject": "Nate", "predicate": "preference_like", "object": "laid-back tournament friends over competitive ones"}], "implications": []}
+{"fid": "D2:20#0", "facets": [{"subject": "Nate", "predicate": "belief_value_opinion", "object": "plays gaming tournaments for fun, not to win big"}], "implications": []}
+{"fid": "D2:21#0", "facets": [{"subject": "Joanna", "predicate": "health_condition", "object": "allergies causing facial puffiness and itchiness around animals"}], "implications": []}
+{"fid": "D2:23#0", "facets": [{"subject": "Joanna", "predicate": "health_condition", "object": "allergic to most reptiles and fur-bearing animals"}], "implications": []}
+{"fid": "D2:25#0", "facets": [{"subject": "Joanna", "predicate": "feeling_emotion", "object": "writing and friends bring her joy"}], "implications": []}
+{"fid": "D2:27#0", "facets": [{"subject": "Joanna", "predicate": "creative_work", "object": "writing as a way to create fictional worlds and express feelings"}], "implications": []}
+{"fid": "D2:27#1", "facets": [{"subject": "Joanna", "predicate": "belief_value_opinion", "object": "writing is essential; can't imagine life without it"}], "implications": []}
+{"fid": "D3:1#0", "facets": [{"subject": "Joanna", "predicate": "feeling_emotion", "object": "relief, excitement, and worry over submitted screenplay"}], "implications": []}
+{"fid": "D3:4#0", "facets": [{"subject": "Nate", "predicate": "food_drink_recipe", "object": "coconut milk ice cream (first attempt, turned out well)"}], "implications": []}
+{"fid": "D3:6#0", "facets": [{"subject": "Nate", "predicate": "preference_like", "object": "coconut milk ice cream (possible new favorite snack)"}], "implications": []}
+{"fid": "D3:8#0", "facets": [{"subject": "Nate", "predicate": "goal_plan", "object": "try making ice cream again with new flavors and toppings"}], "implications": []}
+{"fid": "D3:10#0", "facets": [{"subject": "Nate", "predicate": "preference_like", "object": "favorite dairy-free dessert flavors: coconut, chocolate, mixed berry"}], "implications": []}
+{"fid": "D3:11#0", "facets": [{"subject": "Joanna", "predicate": "preference_like", "object": "tempted by chocolate and mixed berry dairy-free desserts"}], "implications": []}
+{"fid": "D3:12#0", "facets": [{"subject": "Nate", "predicate": "food_drink_recipe", "object": "dairy-free chocolate cake topped with berries"}], "implications": []}
+{"fid": "D3:13#0", "facets": [{"subject": "Joanna", "predicate": "goal_plan", "object": "try Nate's desserts or visit him to try them"}], "implications": []}
+{"fid": "D3:17#0", "facets": [{"subject": "Joanna", "predicate": "movie_show_music", "object": "Little Women (loved it)"}], "implications": []}
+{"fid": "D4:1#0", "facets": [{"subject": "Nate", "predicate": "food_drink_recipe", "object": "ice cream made for a friend (well received)"}, {"subject": "Nate", "predicate": "friend", "object": "friend who loved his ice cream"}], "implications": []}
+{"fid": "D4:3#0", "facets": [{"subject": "Nate", "predicate": "food_drink_recipe", "object": "chocolate and vanilla swirl ice cream"}], "implications": []}
+{"fid": "D4:4#0", "facets": [{"subject": "Joanna", "predicate": "health_condition", "object": "cannot have dairy"}], "implications": []}
+{"fid": "D4:4#1", "facets": [{"subject": "Joanna", "predicate": "food_drink_recipe", "object": "asked Nate for a dairy-free ice cream recipe"}], "implications": []}
+{"fid": "D4:5#0", "facets": [{"subject": "Nate", "predicate": "support_advice", "object": "offered to share his coconut milk dairy-free ice cream recipe"}], "implications": []}
+{"fid": "D4:6#0", "facets": [{"subject": "Joanna", "predicate": "feeling_emotion", "object": "eager to try Nate's dairy-free ice cream recipe"}], "implications": []}
+{"fid": "D4:10#0", "facets": [{"subject": "Joanna", "predicate": "creative_work", "object": "second screenplay (started while awaiting news on the first)"}], "implications": []}
+{"fid": "D4:12#0", "facets": [{"subject": "Joanna", "predicate": "creative_work", "object": "screenplay about a 30-year-old woman's self-discovery after a loss"}], "implications": []}
+{"fid": "D4:14#0", "facets": [{"subject": "Joanna", "predicate": "creative_work", "object": "screenplay character's road trip to heal and grow after loss"}], "implications": []}
+{"fid": "D4:16#0", "facets": [{"subject": "Joanna", "predicate": "creative_work", "object": "screenplay inspired by her own personal experiences"}], "implications": ["Suggests Joanna has personally gone through a period of loss or self-discovery."]}
+{"fid": "D4:18#0", "facets": [{"subject": "Joanna", "predicate": "goal_plan", "object": "hopes her first screenplay gets noticed and produced"}], "implications": []}
+{"fid": "D5:1#0", "facets": [{"subject": "Joanna", "predicate": "feeling_emotion", "object": "relief, anxiety, excitement, and terror after finishing second script"}], "implications": []}
+{"fid": "D5:3#0", "facets": [{"subject": "Joanna", "predicate": "feeling_emotion", "object": "tug-of-war between hope and doubt after finishing second script"}], "implications": []}
+{"fid": "D5:4#0", "facets": [{"subject": "Nate", "predicate": "pet", "object": "two tortoises"}, {"subject": "Nate", "predicate": "feeling_emotion", "object": "walking his tortoises reminds him to enjoy the small stuff"}], "implications": []}
+{"fid": "D5:6#0", "facets": [{"subject": "Nate", "predicate": "preference_like", "object": "turtles (unique, low-maintenance, calming)"}], "implications": []}
+{"fid": "D5:8#0", "facets": [{"subject": "Nate", "predicate": "habit_routine", "object": "turtle care routine (cleaning area, feeding, lighting)"}], "implications": []}
+{"fid": "D5:11#0", "facets": [{"subject": "Joanna", "predicate": "health_condition", "object": "allergic to cockroaches (in addition to reptiles and fur)"}], "implications": []}
+{"fid": "D5:11#1", "facets": [{"subject": "Joanna", "predicate": "preference_like", "object": "would get two turtles if she weren't allergic"}], "implications": []}
+{"fid": "D5:12#0", "facets": [{"subject": "Nate", "predicate": "support_advice", "object": "offered to keep sending turtle photos so Joanna can watch them grow without getting close"}], "implications": []}
+{"fid": "D5:15#0", "facets": [{"subject": "Joanna", "predicate": "project_work", "object": "research and networking for her screenplay's next steps"}], "implications": []}
+{"fid": "D5:19#0", "facets": [{"subject": "Joanna", "predicate": "friend", "object": "values Nate's support during her screenplay process"}, {"subject": "Joanna", "predicate": "support_advice", "object": "Nate's support motivates her to keep pushing forward"}], "implications": []}
+{"fid": "D6:2#0", "facets": [{"subject": "Joanna", "predicate": "event_attended", "object": "audition for a writing gig"}], "implications": []}
+{"fid": "D6:4#0", "facets": [{"subject": "Joanna", "predicate": "feeling_emotion", "object": "excitement and anxiety about her writing gig audition"}], "implications": []}
+{"fid": "D6:7#0", "facets": [{"subject": "Nate", "predicate": "event_attended", "object": "video game tournament (found it intense)"}], "implications": []}
+{"fid": "D6:8#0", "facets": [{"subject": "Joanna", "predicate": "habit_routine", "object": "uses her bookshelf of books and magazines for writing inspiration"}], "implications": []}
+{"fid": "D6:10#0", "facets": [{"subject": "Joanna", "predicate": "support_advice", "object": "advised Nate on becoming a better writer (read widely, share work, practice with feedback)"}], "implications": []}
+{"fid": "D7:1#0", "facets": [{"subject": "Nate", "predicate": "other", "object": "dyed his hair (around early April 2022)"}], "implications": []}
+{"fid": "D7:3#0", "facets": [{"subject": "Nate", "predicate": "other", "object": "selfie showing purple dyed hair and glasses"}], "implications": []}
+{"fid": "D7:5#0", "facets": [{"subject": "Nate", "predicate": "belief_value_opinion", "object": "chose bold purple hair color because it reflects who he is and helps him stand out"}], "implications": []}
+{"fid": "D7:6#0", "facets": [{"subject": "Joanna", "predicate": "outdoor_activity", "object": "hiking (recalled seeing a gorgeous sunset)"}, {"subject": "Joanna", "predicate": "belief_value_opinion", "object": "values showing the world who we truly are"}], "implications": []}
+{"fid": "D7:8#0", "facets": [{"subject": "Joanna", "predicate": "goal_plan", "object": "no vacation planned; focused on writing while awaiting screenplay news"}], "implications": []}
+{"fid": "D8:2#0", "facets": [{"subject": "Joanna", "predicate": "hobby_interest", "object": "reading (rediscovering old books she forgot she owned)"}], "implications": []}
+{"fid": "D8:4#0", "facets": [{"subject": "Joanna", "predicate": "trip_location_visited", "object": "new hiking trail found in her hometown"}], "implications": []}
+{"fid": "D8:5#0", "facets": [{"subject": "Nate", "predicate": "dislike_fear", "object": "hiking"}], "implications": []}
+{"fid": "D8:7#0", "facets": [{"subject": "Nate", "predicate": "preference_like", "object": "likes nature; might enjoy hiking with company"}], "implications": []}
+{"fid": "D8:8#0", "facets": [{"subject": "Joanna", "predicate": "preference_like", "object": "huge fan of nature (reason she hikes)"}], "implications": []}
+{"fid": "D8:10#0", "facets": [{"subject": "Joanna", "predicate": "belief_value_opinion", "object": "nature is a calming haven that eases her worries and stress"}], "implications": []}
+{"fid": "D8:11#0", "facets": [{"subject": "Nate", "predicate": "belief_value_opinion", "object": "spending time with pets and hobbies brings him peace and escape"}], "implications": []}
+{"fid": "D8:13#0", "facets": [{"subject": "Nate", "predicate": "pet", "object": "turtle (photo with a strawberry in a bowl)"}], "implications": []}
+{"fid": "D8:15#0", "facets": [{"subject": "Nate", "predicate": "habit_routine", "object": "brings his turtles into the kitchen to watch him cook"}], "implications": []}
+{"fid": "D8:17#0", "facets": [{"subject": "Nate", "predicate": "support_advice", "object": "offered to share his easy dairy-free ice cream recipe"}], "implications": []}
+{"fid": "D8:18#0", "facets": [{"subject": "Joanna", "predicate": "health_condition", "object": "lactose intolerant"}], "implications": []}
+{"fid": "D8:19#0", "facets": [{"subject": "Nate", "predicate": "food_drink_recipe", "object": "dairy-free ice cream recipe (coconut milk, vanilla, sugar, salt)"}], "implications": []}
+{"fid": "D8:20#0", "facets": [{"subject": "Joanna", "predicate": "goal_plan", "object": "try making Nate's dairy-free ice cream recipe that night"}], "implications": []}
+{"fid": "D9:1#0", "facets": [{"subject": "Joanna", "predicate": "hobby_interest", "object": "joined a writers group"}, {"subject": "Joanna", "predicate": "feeling_emotion", "object": "feels motivated, supported, and like she belongs in the writers group"}], "implications": []}
+{"fid": "D9:3#0", "facets": [{"subject": "Joanna", "predicate": "creative_work", "object": "script 'Finding Home' with her writers group, about a girl's journey to find her true home"}], "implications": []}
+{"fid": "D9:4#0", "facets": [{"subject": "Nate", "predicate": "goal_plan", "object": "4th gaming tournament coming up next month"}], "implications": []}
+{"fid": "D9:5#0", "facets": [{"subject": "Joanna", "predicate": "challenge_problem", "object": "forgot her lines during her first play, learned about preparation"}], "implications": ["Suggests Joanna has stage or performance experience beyond writing."]}
+{"fid": "D9:7#0", "facets": [{"subject": "Joanna", "predicate": "belief_value_opinion", "object": "acting was her first passion, but writing is now her main form of expression"}], "implications": []}
+{"fid": "D9:9#0", "facets": [{"subject": "Joanna", "predicate": "preference_like", "object": "dramas and emotionally-driven films"}], "implications": []}
+{"fid": "D9:10#0", "facets": [{"subject": "Nate", "predicate": "preference_like", "object": "fantasy and sci-fi movies as an escape for his imagination"}, {"subject": "Nate", "predicate": "hobby_interest", "object": "video games as an outlet for creativity and passion"}], "implications": []}
+{"fid": "D9:12#0", "facets": [{"subject": "Nate", "predicate": "movie_show_music", "object": "fantasy/sci-fi movie trilogy (favorite for its world-building and storytelling)"}], "implications": []}
+{"fid": "D9:14#0", "facets": [{"subject": "Nate", "predicate": "book_read", "object": "fantasy book series recommended to Joanna"}], "implications": []}
+{"fid": "D9:15#0", "facets": [{"subject": "Joanna", "predicate": "goal_plan", "object": "plans to read Nate's recommended fantasy book series"}], "implications": []}
+{"fid": "D10:1#0", "facets": [{"subject": "Joanna", "predicate": "movie_show_music", "object": "The Lord of the Rings trilogy (watched and loved on Nate's recommendation)"}], "implications": []}
+{"fid": "D10:2#0", "facets": [{"subject": "Nate", "predicate": "belief_value_opinion", "object": "thinks The Lord of the Rings is the greatest trilogy of all time"}], "implications": []}
+{"fid": "D10:4#0", "facets": [{"subject": "Nate", "predicate": "achievement_award", "object": "second gaming tournament win"}], "implications": []}
+{"fid": "D10:6#0", "facets": [{"subject": "Nate", "predicate": "game_played", "object": "Street Fighter (won a local tournament, though he usually plays CS:GO)"}], "implications": []}
+{"fid": "D10:8#0", "facets": [{"subject": "Nate", "predicate": "feeling_emotion", "object": "excited about winning; exchanged a handshake with the finalist"}], "implications": []}
+{"fid": "D10:9#0", "facets": [{"subject": "Joanna", "predicate": "food_drink_recipe", "object": "testing dairy-free dessert recipes for friends and family"}], "implications": []}
+{"fid": "D10:11#0", "facets": [{"subject": "Joanna", "predicate": "food_drink_recipe", "object": "dairy-free vanilla cake with strawberry filling and coconut cream frosting"}], "implications": []}
+{"fid": "D10:13#0", "facets": [{"subject": "Joanna", "predicate": "hobby_interest", "object": "cooking and baking as creative outlets"}], "implications": []}
+{"fid": "D11:3#0", "facets": [{"subject": "Joanna", "predicate": "outdoor_activity", "object": "hiking (found more trails, considers herself an expert hiker)"}], "implications": []}
+{"fid": "D11:5#0", "facets": [{"subject": "Joanna", "predicate": "trip_location_visited", "object": "waterfall seen on a hike (soothing sound)"}], "implications": []}
+{"fid": "D11:7#0", "facets": [{"subject": "Joanna", "predicate": "trip_location_visited", "object": "Whispering Falls (peaceful and serene)"}], "implications": []}
+{"fid": "D11:9#0", "facets": [{"subject": "Joanna", "predicate": "feeling_emotion", "object": "calm and peaceful at Whispering Falls"}], "implications": []}
+{"fid": "D11:11#0", "facets": [{"subject": "Joanna", "predicate": "life_event_milestone", "object": "hiking has opened a new world for her; feels like a different person"}], "implications": []}
+{"fid": "D11:13#0", "facets": [{"subject": "Joanna", "predicate": "creative_work", "object": "feels inspired to write a whole movie while hiking"}], "implications": []}
+{"fid": "D11:14#0", "facets": [{"subject": "Nate", "predicate": "habit_routine", "object": "reflects deeply on life or new recipes when out"}], "implications": []}
+{"fid": "D11:15#0", "facets": [{"subject": "Joanna", "predicate": "creative_work", "object": "inspired to write a drama by recent hiking trails"}], "implications": []}
+{"fid": "D11:16#0", "facets": [{"subject": "Nate", "predicate": "goal_plan", "object": "suggested going hiking with Joanna sometime"}], "implications": []}
+{"fid": "D11:17#0", "facets": [{"subject": "Joanna", "predicate": "friend", "object": "invited Nate to join her hiking trails"}], "implications": []}
+{"fid": "D12:3#0", "facets": [{"subject": "Nate", "predicate": "pet", "object": "new adopted dog named Max"}], "implications": []}
+{"fid": "D12:5#0", "facets": [{"subject": "Nate", "predicate": "pet", "object": "Max (adopted, energetic, brings joy, keeps other pets active)"}], "implications": []}
+{"fid": "D12:8#0", "facets": [{"subject": "Joanna", "predicate": "health_condition", "object": "allergies discourage her from getting a pet"}], "implications": []}
+{"fid": "D12:10#0", "facets": [{"subject": "Joanna", "predicate": "challenge_problem", "object": "copes with tough times through writing/creative projects and supportive friends"}], "implications": []}
+{"fid": "D12:12#0", "facets": [{"subject": "Joanna", "predicate": "creative_work", "object": "third screenplay (in progress)"}, {"subject": "Joanna", "predicate": "friend", "object": "values friends who understand and appreciate her work"}], "implications": []}
+{"fid": "D12:14#0", "facets": [{"subject": "Joanna", "predicate": "creative_work", "object": "third screenplay: a personal story about loss, identity, and connection"}], "implications": []}
+{"fid": "D12:15#0", "facets": [{"subject": "Joanna", "predicate": "belief_value_opinion", "object": "tends to write about sadness and loss (per Nate's observation)"}], "implications": []}
+{"fid": "D12:16#0", "facets": [{"subject": "Joanna", "predicate": "belief_value_opinion", "object": "writes best when being true to herself, even when it's scary and vulnerable"}], "implications": []}
+{"fid": "D13:1#0", "facets": [{"subject": "Nate", "predicate": "person_met", "object": "neighbor couple with a dog, met while walking Max"}], "implications": []}
+{"fid": "D13:3#0", "facets": [{"subject": "Nate", "predicate": "pet", "object": "Max now has a walking buddy (neighbor's dog)"}], "implications": []}
+{"fid": "D13:5#0", "facets": [{"subject": "Nate", "predicate": "friend", "object": "became good friends with neighbor couple, bonded over love of animals"}], "implications": []}
+{"fid": "D13:7#0", "facets": [{"subject": "Nate", "predicate": "feeling_emotion", "object": "joy watching his pets play together"}], "implications": []}
+{"fid": "D13:9#0", "facets": [{"subject": "Nate", "predicate": "gift_given_received", "object": "gave Joanna a stuffed animal puppy as a gift"}], "implications": []}
+{"fid": "D13:12#0", "facets": [{"subject": "Joanna", "predicate": "gift_given_received", "object": "will cherish the stuffed animal Nate gave her"}], "implications": []}
+{"fid": "D13:18#0", "facets": [{"subject": "Joanna", "predicate": "belief_value_opinion", "object": "small joyful moments make the hard journey worthwhile"}], "implications": []}
+{"fid": "D13:20#0", "facets": [{"subject": "Joanna", "predicate": "friend", "object": "values Nate's opinion; can't wait to show him her screenplay"}], "implications": []}
+{"fid": "D14:1#0", "facets": [{"subject": "Joanna", "predicate": "challenge_problem", "object": "received a rejection letter from a major company for her screenplay"}], "implications": []}
+{"fid": "D14:5#0", "facets": [{"subject": "Joanna", "predicate": "feeling_emotion", "object": "disheartened by a generic rejection with no feedback"}], "implications": []}
+{"fid": "D14:8#0", "facets": [{"subject": "Nate", "predicate": "achievement_award", "object": "won another regional gaming tournament"}, {"subject": "Nate", "predicate": "person_met", "object": "new people met at the regional tournament"}], "implications": []}
+{"fid": "D14:10#0", "facets": [{"subject": "Nate", "predicate": "feeling_emotion", "object": "confidence boost from winning the tournament"}], "implications": []}
+{"fid": "D14:14#0", "facets": [{"subject": "Nate", "predicate": "person_met", "object": "tournament acquaintances who asked to hang out later"}], "implications": []}
+{"fid": "D14:16#0", "facets": [{"subject": "Nate", "predicate": "support_advice", "object": "agreed to give gaming tips to his new gamer friends"}], "implications": []}
+{"fid": "D14:19#0", "facets": [{"subject": "Joanna", "predicate": "goal_plan", "object": "plans to hike with friends to a new trail with a waterfall"}], "implications": []}
+{"fid": "D14:20#0", "facets": [{"subject": "Nate", "predicate": "goal_plan", "object": "organizing a gaming party for mid-June 2022"}], "implications": []}
+{"fid": "D14:22#0", "facets": [{"subject": "Nate", "predicate": "friend", "object": "plans to invite tournament friends and old teammates to his gaming party"}], "implications": []}
+{"fid": "D14:24#0", "facets": [{"subject": "Nate", "predicate": "gift_given_received", "object": "getting custom controller decorations as gifts for gaming party guests"}], "implications": []}
+{"fid": "D15:1#0", "facets": [{"subject": "Joanna", "predicate": "achievement_award", "object": "screenplay contribution appeared on the big screen"}, {"subject": "Joanna", "predicate": "feeling_emotion", "object": "nerve-wracking but inspiring to see her work on screen"}], "implications": []}
+{"fid": "D15:2#0", "facets": [{"subject": "Joanna", "predicate": "possession_purchase", "object": "Spider-Man pin on her purse"}], "implications": []}
+{"fid": "D15:3#0", "facets": [{"subject": "Joanna", "predicate": "preference_like", "object": "Spider-Man (favorite superhero, relates to Peter Parker's struggle)"}], "implications": []}
+{"fid": "D15:4#0", "facets": [{"subject": "Nate", "predicate": "preference_like", "object": "Iron Man (favorite superhero, loves his tech and humor)"}, {"subject": "Nate", "predicate": "possession_purchase", "object": "Iron Man toy figure"}], "implications": []}
+{"fid": "D15:6#0", "facets": [{"subject": "Nate", "predicate": "goal_plan", "object": "keeps Iron Man figure as a reminder to keep working on his goals"}], "implications": []}
+{"fid": "D15:7#0", "facets": [{"subject": "Joanna", "predicate": "possession_purchase", "object": "cork board with inspiring quotes and pictures"}], "implications": []}
+{"fid": "D15:9#0", "facets": [{"subject": "Joanna", "predicate": "family_member", "object": "family picture displayed on her cork board"}], "implications": []}
+{"fid": "D15:11#0", "facets": [{"subject": "Joanna", "predicate": "family_member", "object": "family's love and encouragement (source of daily motivation)"}], "implications": []}
+{"fid": "D15:14#0", "facets": [{"subject": "Nate", "predicate": "goal_plan", "object": "considering starting his own cork board, inspired by Joanna's"}], "implications": []}
+{"fid": "D16:1#0", "facets": [{"subject": "Joanna", "predicate": "goal_plan", "object": "submitted her recent screenplay to a film contest"}], "implications": []}
+{"fid": "D16:2#0", "facets": [{"subject": "Nate", "predicate": "event_attended", "object": "gaming party (a great success)"}, {"subject": "Nate", "predicate": "game_played", "object": "chess (played after the gaming party)"}], "implications": []}
+{"fid": "D16:4#0", "facets": [{"subject": "Nate", "predicate": "gift_given_received", "object": "custom controller accessories well-received by gaming party guests"}], "implications": []}
+{"fid": "D16:6#0", "facets": [{"subject": "Nate", "predicate": "event_attended", "object": "gaming party (7 attendees, 6 wanted to repeat it)"}], "implications": []}
+{"fid": "D16:8#0", "facets": [{"subject": "Nate", "predicate": "food_drink_recipe", "object": "vegan ice cream made and shared with his vegan diet group"}], "implications": []}
+{"fid": "D16:9#0", "facets": [{"subject": "Joanna", "predicate": "food_drink_recipe", "object": "asked Nate for his vegan ice cream recipe"}], "implications": []}
+{"fid": "D16:10#0", "facets": [{"subject": "Nate", "predicate": "support_advice", "object": "agreed to give Joanna his vegan ice cream recipe"}], "implications": []}
+{"fid": "D16:11#0", "facets": [{"subject": "Joanna", "predicate": "goal_plan", "object": "plans to make Nate's vegan ice cream for her family"}], "implications": []}
+{"fid": "D16:13#0", "facets": [{"subject": "Joanna", "predicate": "family_member", "object": "family loves when she makes new food creations"}], "implications": []}
+{"fid": "D17:1#0", "facets": [{"subject": "Nate", "predicate": "achievement_award", "object": "won his 4th video game tournament (online, earned money)"}], "implications": []}
+{"fid": "D17:2#0", "facets": [{"subject": "Joanna", "predicate": "trip_location_visited", "object": "road trip taken for research on her next movie"}], "implications": []}
+{"fid": "D17:4#0", "facets": [{"subject": "Joanna", "predicate": "trip_location_visited", "object": "Woodhaven, a small Midwest town"}], "implications": []}
+{"fid": "D17:6#0", "facets": [{"subject": "Joanna", "predicate": "book_read", "object": "1900s book about Woodhaven's history found at the town library"}], "implications": []}
+{"fid": "D17:8#0", "facets": [{"subject": "Joanna", "predicate": "creative_work", "object": "next script inspired by Woodhaven's history"}], "implications": []}
+{"fid": "D17:10#0", "facets": [{"subject": "Joanna", "predicate": "feeling_emotion", "object": "excited about her new Woodhaven-inspired script"}], "implications": []}
+{"fid": "D17:14#0", "facets": [{"subject": "Joanna", "predicate": "creative_work", "object": "started writing a book after her movie did well"}], "implications": []}
+{"fid": "D17:16#0", "facets": [{"subject": "Joanna", "predicate": "creative_work", "object": "new book explores themes of loss, redemption, and forgiveness"}], "implications": []}
+{"fid": "D17:18#0", "facets": [{"subject": "Joanna", "predicate": "goal_plan", "object": "first attempt at publishing a book"}], "implications": []}
+{"fid": "D18:1#0", "facets": [{"subject": "Joanna", "predicate": "habit_routine", "object": "keeps a journal that has become her rock through highs and lows"}], "implications": []}
+{"fid": "D18:3#0", "facets": [{"subject": "Joanna", "predicate": "belief_value_opinion", "object": "writing is an escape and a way to heal"}], "implications": []}
+{"fid": "D18:5#0", "facets": [{"subject": "Joanna", "predicate": "support_advice", "object": "her blog post about a hard moment comforted a reader who wrote her a letter"}], "implications": []}
+{"fid": "D18:8#0", "facets": [{"subject": "Nate", "predicate": "skill_ability", "object": "teaching people to make dairy-free desserts"}], "implications": []}
+{"fid": "D18:10#0", "facets": [{"subject": "Nate", "predicate": "food_drink_recipe", "object": "new creamy, rich dairy-free dessert recipe in development"}], "implications": []}
+{"fid": "D18:12#0", "facets": [{"subject": "Nate", "predicate": "gift_given_received", "object": "sent Joanna his new dairy-free dessert recipe"}], "implications": []}
+{"fid": "D18:13#0", "facets": [{"subject": "Joanna", "predicate": "goal_plan", "object": "plans to surprise her family with Nate's new dessert recipe"}], "implications": []}
+{"fid": "D19:1#0", "facets": [{"subject": "Nate", "predicate": "achievement_award", "object": "won an international gaming tournament"}, {"subject": "Nate", "predicate": "job_career", "object": "makes a living from gaming"}], "implications": []}
+{"fid": "D19:3#0", "facets": [{"subject": "Nate", "predicate": "pet", "object": "fish (got a new, bigger tank)"}], "implications": []}
+{"fid": "D19:5#0", "facets": [{"subject": "Nate", "predicate": "pet", "object": "fish are calm and peaceful, make coming home after gaming better"}], "implications": []}
+{"fid": "D19:6#0", "facets": [{"subject": "Joanna", "predicate": "achievement_award", "object": "got great feedback sharing her book with her writers group"}], "implications": []}
+{"fid": "D19:8#0", "facets": [{"subject": "Joanna", "predicate": "habit_routine", "object": "celebrates good news by making a dessert treat"}], "implications": []}
+{"fid": "D19:9#0", "facets": [{"subject": "Nate", "predicate": "goal_plan", "object": "taking a weekend off to relax with his pets"}], "implications": []}
+{"fid": "D19:10#0", "facets": [{"subject": "Joanna", "predicate": "goal_plan", "object": "plans to relax and recharge with a long walk and reading"}], "implications": []}
+{"fid": "D19:12#0", "facets": [{"subject": "Joanna", "predicate": "belief_value_opinion", "object": "values taking breaks and self-care for inspiration and mental health"}], "implications": []}
+{"fid": "D19:14#0", "facets": [{"subject": "Joanna", "predicate": "book_read", "object": "recommended a fantasy book series to Nate to help him relax"}], "implications": []}
+{"fid": "D19:17#0", "facets": [{"subject": "Nate", "predicate": "book_read", "object": "recommended a book series with battles and interesting characters to Joanna"}], "implications": []}
+{"fid": "D20:1#0", "facets": [{"subject": "Nate", "predicate": "challenge_problem", "object": "had a letdown in a recent video game tournament"}], "implications": []}
+{"fid": "D20:2#0", "facets": [{"subject": "Joanna", "predicate": "food_drink_recipe", "object": "revised an old recipe into a strawberry and chocolate cake"}], "implications": []}
+{"fid": "D20:4#0", "facets": [{"subject": "Joanna", "predicate": "belief_value_opinion", "object": "tinkering with dessert recipes brings comfort and creativity"}], "implications": []}
+{"fid": "D20:6#0", "facets": [{"subject": "Joanna", "predicate": "food_drink_recipe", "object": "tweaking a dessert recipe to be yummier and more accessible"}], "implications": []}
+{"fid": "D20:8#0", "facets": [{"subject": "Joanna", "predicate": "food_drink_recipe", "object": "experimenting with chocolate, raspberry, and coconut flavors"}], "implications": []}
+{"fid": "D20:10#0", "facets": [{"subject": "Joanna", "predicate": "food_drink_recipe", "object": "dairy-free chocolate coconut cupcakes with raspberry frosting"}], "implications": []}
+{"fid": "D20:12#0", "facets": [{"subject": "Joanna", "predicate": "food_drink_recipe", "object": "makes dairy-free cookies, pies, and cakes for various diets"}], "implications": []}
+{"fid": "D20:13#0", "facets": [{"subject": "Nate", "predicate": "friend", "object": "asked to join Joanna baking, saying it brings them together"}], "implications": []}
+{"fid": "D20:15#0", "facets": [{"subject": "Nate", "predicate": "support_advice", "object": "suggested dairy-free baking substitutes like margarine or coconut oil"}], "implications": []}
+{"fid": "D21:1#0", "facets": [{"subject": "Joanna", "predicate": "challenge_problem", "object": "laptop crashed and she lost all her writing work"}], "implications": ["Suggests Joanna did not have a backup system in place before this incident."]}
+{"fid": "D21:3#0", "facets": [{"subject": "Joanna", "predicate": "possession_purchase", "object": "external hard drive bought for backups"}], "implications": []}
+{"fid": "D21:4#0", "facets": [{"subject": "Nate", "predicate": "project_work", "object": "taught vegan ice cream recipes on his own cooking show"}], "implications": []}
+{"fid": "D21:6#0", "facets": [{"subject": "Nate", "predicate": "preference_like", "object": "coconut milk ice cream (favorite dish from his cooking show)"}], "implications": []}
+{"fid": "D21:9#0", "facets": [{"subject": "Joanna", "predicate": "food_drink_recipe", "object": "made a dessert with almond milk"}], "implications": []}
+{"fid": "D21:10#0", "facets": [{"subject": "Nate", "predicate": "preference_like", "object": "dairy-free chocolate mousse (favorite besides coconut ice cream)"}], "implications": []}
+{"fid": "D21:11#0", "facets": [{"subject": "Joanna", "predicate": "preference_like", "object": "chocolate raspberry tart (favorite dairy-free treat)"}], "implications": []}
+{"fid": "D21:13#0", "facets": [{"subject": "Joanna", "predicate": "food_drink_recipe", "object": "dairy-free chocolate cake with raspberries"}], "implications": []}
+{"fid": "D21:15#0", "facets": [{"subject": "Joanna", "predicate": "food_drink_recipe", "object": "chocolate raspberry cake recipe (almond flour, coconut oil), favorite for birthdays"}], "implications": []}
+{"fid": "D21:17#0", "facets": [{"subject": "Joanna", "predicate": "food_drink_recipe", "object": "dairy-free blueberry dessert with a gluten-free crust"}], "implications": []}
+{"fid": "D22:1#0", "facets": [{"subject": "Joanna", "predicate": "food_drink_recipe", "object": "newest dairy-free recipe was a hit with her family"}], "implications": []}
+{"fid": "D22:2#0", "facets": [{"subject": "Nate", "predicate": "achievement_award", "object": "won a big video game tournament and made a lot of money"}], "implications": []}
+{"fid": "D22:4#0", "facets": [{"subject": "Nate", "predicate": "belief_value_opinion", "object": "content with life; no big spending plans for his winnings"}], "implications": []}
+{"fid": "D22:6#0", "facets": [{"subject": "Nate", "predicate": "feeling_emotion", "object": "less stressed thanks to extra cash from winnings"}], "implications": []}
+{"fid": "D22:8#0", "facets": [{"subject": "Nate", "predicate": "movie_show_music", "object": "Little Women (thought the acting was awesome and story captivating)"}], "implications": []}
+{"fid": "D22:9#0", "facets": [{"subject": "Joanna", "predicate": "achievement_award", "object": "finished writing her book after many late nights and edits"}], "implications": []}
+{"fid": "D22:14#0", "facets": [{"subject": "Nate", "predicate": "gift_given_received", "object": "made Joanna a whiteboard drawing with encouraging words"}], "implications": []}
+{"fid": "D22:16#0", "facets": [{"subject": "Nate", "predicate": "support_advice", "object": "made the whiteboard drawing so Joanna could look back on it for encouragement"}], "implications": []}
+{"fid": "D22:18#0", "facets": [{"subject": "Nate", "predicate": "belief_value_opinion", "object": "encouragement was key to getting him far in his gaming career"}], "implications": []}
+{"fid": "D22:19#0", "facets": [{"subject": "Joanna", "predicate": "gift_given_received", "object": "made a bookmark with a plant design as a gift for a writing club member"}], "implications": []}
+{"fid": "D22:21#0", "facets": [{"subject": "Joanna", "predicate": "hobby_interest", "object": "DIY projects"}], "implications": []}
+{"fid": "D23:1#0", "facets": [{"subject": "Nate", "predicate": "event_attended", "object": "game convention"}, {"subject": "Nate", "predicate": "person_met", "object": "new people met at the game convention"}], "implications": []}
+{"fid": "D23:3#0", "facets": [{"subject": "Nate", "predicate": "friend", "object": "made new friends at the convention, planned a gaming session together"}], "implications": []}
+{"fid": "D23:5#0", "facets": [{"subject": "Nate", "predicate": "person_met", "object": "fellow board game fans met at the convention"}], "implications": []}
+{"fid": "D23:7#0", "facets": [{"subject": "Nate", "predicate": "game_played", "object": "Catan (strategy board game he loves)"}], "implications": []}
+{"fid": "D23:9#0", "facets": [{"subject": "Nate", "predicate": "feeling_emotion", "object": "found playing Catan at the convention both competitive and fun"}], "implications": []}
+{"fid": "D23:11#0", "facets": [{"subject": "Nate", "predicate": "belief_value_opinion", "object": "games are an escape from life struggles, so he doesn't get overly competitive"}], "implications": []}
+{"fid": "D23:13#0", "facets": [{"subject": "Nate", "predicate": "support_advice", "object": "suggested Joanna attend a writing convention"}], "implications": []}
+{"fid": "D23:14#0", "facets": [{"subject": "Joanna", "predicate": "goal_plan", "object": "plans to look into whether writing conventions exist"}], "implications": []}
+{"fid": "D23:15#0", "facets": [{"subject": "Nate", "predicate": "habit_routine", "object": "unwinds at home mostly by playing video games or watching movies"}], "implications": []}
+{"fid": "D23:17#0", "facets": [{"subject": "Nate", "predicate": "movie_show_music", "object": "Inception (found it mind-blowing)"}], "implications": []}
+{"fid": "D23:17#1", "facets": [{"subject": "Nate", "predicate": "game_played", "object": "Cyberpunk 2077 (playing nonstop, loves it)"}], "implications": []}
+{"fid": "D23:18#0", "facets": [{"subject": "Joanna", "predicate": "movie_show_music", "object": "a classic movie with a gripping story and great acting"}], "implications": []}
+{"fid": "D23:20#0", "facets": [{"subject": "Joanna", "predicate": "preference_like", "object": "rated a classic movie 9 or 10 out of 10"}], "implications": []}
+{"fid": "D23:24#0", "facets": [{"subject": "Joanna", "predicate": "preference_like", "object": "prefers watching movies at home on the couch over the theater"}], "implications": []}
+{"fid": "D23:26#0", "facets": [{"subject": "Joanna", "predicate": "support_advice", "object": "recommended Nate get a comfy couch, weighted blanket, and dimmable lights"}], "implications": []}
+{"fid": "D23:28#0", "facets": [{"subject": "Joanna", "predicate": "hobby_interest", "object": "home decorating (gets invested in small details)"}], "implications": []}
+{"fid": "D24:2#0", "facets": [{"subject": "Joanna", "predicate": "food_drink_recipe", "object": "revised a family recipe that turned out tasty"}], "implications": []}
+{"fid": "D24:3#0", "facets": [{"subject": "Nate", "predicate": "feeling_emotion", "object": "stressed by tough competitors; turtles cheer him up"}], "implications": []}
+{"fid": "D24:4#0", "facets": [{"subject": "Joanna", "predicate": "possession_purchase", "object": "stuffed animal named Tilly, kept as a companion while writing"}], "implications": []}
+{"fid": "D24:6#0", "facets": [{"subject": "Joanna", "predicate": "pet", "object": "had a real dog named Tilly in Michigan, gave her up due to a new allergy"}, {"subject": "Joanna", "predicate": "origin_hometown", "object": "Michigan"}], "implications": ["Suggests Joanna developed her animal allergies later in life rather than from birth."]}
+{"fid": "D24:8#0", "facets": [{"subject": "Joanna", "predicate": "habit_routine", "object": "keeps stuffed animal Tilly nearby for focus and joy while writing"}], "implications": []}
+{"fid": "D24:9#0", "facets": [{"subject": "Nate", "predicate": "feeling_emotion", "object": "happiness watching his turtles slowly walk around"}], "implications": []}
+{"fid": "D24:11#0", "facets": [{"subject": "Nate", "predicate": "habit_routine", "object": "practicing for his next gaming tournament"}], "implications": []}
+{"fid": "D24:12#0", "facets": [{"subject": "Joanna", "predicate": "challenge_problem", "object": "received another rejection from a production company"}], "implications": []}
+{"fid": "D24:14#0", "facets": [{"subject": "Joanna", "predicate": "belief_value_opinion", "object": "won't let rejection slow her down; keeps pushing forward"}], "implications": []}
+{"fid": "D25:2#0", "facets": [{"subject": "Joanna", "predicate": "achievement_award", "object": "a movie script she contributed to was shown on the big screen"}], "implications": []}
+{"fid": "D25:4#0", "facets": [{"subject": "Joanna", "predicate": "achievement_award", "object": "third script to make it to the big screen"}], "implications": []}
+{"fid": "D25:6#0", "facets": [{"subject": "Joanna", "predicate": "feeling_emotion", "object": "joy seeing her characters come alive on screen"}], "implications": []}
+{"fid": "D25:8#0", "facets": [{"subject": "Joanna", "predicate": "skill_ability", "object": "draws visuals of her characters to help write them"}], "implications": []}
+{"fid": "D25:10#0", "facets": [{"subject": "Joanna", "predicate": "creative_work", "object": "draws character ideas from people, things seen, and imagination"}], "implications": []}
+{"fid": "D25:12#0", "facets": [{"subject": "Joanna", "predicate": "other", "object": "kept character details secret, told Nate to watch the movie"}], "implications": []}
+{"fid": "D25:15#0", "facets": [{"subject": "Nate", "predicate": "pet", "object": "took his turtles for a walk when bored"}], "implications": []}
+{"fid": "D25:17#0", "facets": [{"subject": "Nate", "predicate": "pet", "object": "turtles were tired and relaxing in the tank after their walk"}], "implications": []}
+{"fid": "D25:19#0", "facets": [{"subject": "Nate", "predicate": "pet", "object": "turtles eat a varied diet of vegetables, fruits, and insects"}], "implications": []}
+{"fid": "D25:21#0", "facets": [{"subject": "Nate", "predicate": "pet", "object": "turtles get excited when eating fruit"}], "implications": []}
+{"fid": "D25:23#0", "facets": [{"subject": "Nate", "predicate": "hobby_interest", "object": "enjoys holding his turtles and watching them eat"}], "implications": []}
+{"fid": "D25:25#0", "facets": [{"subject": "Nate", "predicate": "pet", "object": "two turtles with distinct personalities (adventurous and reserved)"}], "implications": []}
+{"fid": "D25:27#0", "facets": [{"subject": "Nate", "predicate": "hobby_interest", "object": "has liked turtles since he was a boy and knows a lot about them"}], "implications": []}
+{"fid": "D26:1#0", "facets": [{"subject": "Joanna", "predicate": "project_work", "object": "set up meetings with movie producers"}], "implications": []}
+{"fid": "D26:3#0", "facets": [{"subject": "Joanna", "predicate": "achievement_award", "object": "producers were interested and excited about her script's self-discovery themes"}], "implications": []}
+{"fid": "D26:5#0", "facets": [{"subject": "Joanna", "predicate": "life_event_milestone", "object": "found old notebooks with her early writings, reflected on her growth"}], "implications": []}
+{"fid": "D26:7#0", "facets": [{"subject": "Joanna", "predicate": "creative_work", "object": "wrote a childhood story at age 10 about a brave little turtle"}], "implications": ["Suggests themes of courage in Joanna's childhood writing have shaped her lifelong creative voice."]}
+{"fid": "D26:9#0", "facets": [{"subject": "Joanna", "predicate": "belief_value_opinion", "object": "turtles symbolize strength and perseverance for her"}], "implications": []}
+{"fid": "D26:11#0", "facets": [{"subject": "Joanna", "predicate": "project_work", "object": "working on a challenging but fulfilling project besides producer meetings"}], "implications": []}
+{"fid": "D26:12#0", "facets": [{"subject": "Nate", "predicate": "support_advice", "object": "helping friends reset their high scores at the international tournament"}], "implications": []}
+{"fid": "D26:16#0", "facets": [{"subject": "Nate", "predicate": "friend", "object": "invited Joanna over to try ice cream he made"}], "implications": []}
+{"fid": "D26:18#0", "facets": [{"subject": "Nate", "predicate": "food_drink_recipe", "object": "lactose-free ice cream made with coconut milk"}], "implications": []}
+{"fid": "D26:19#0", "facets": [{"subject": "Joanna", "predicate": "friend", "object": "agreed to visit Nate to try his ice cream"}], "implications": []}
+{"fid": "D26:21#0", "facets": [{"subject": "Joanna", "predicate": "food_drink_recipe", "object": "brought her own dessert recipes to share with Nate"}], "implications": []}
+{"fid": "D26:22#0", "facets": [{"subject": "Nate", "predicate": "preference_like", "object": "wants to try Joanna's chocolate and raspberry cake"}], "implications": []}
+{"fid": "D27:1#0", "facets": [{"subject": "Nate", "predicate": "achievement_award", "object": "won the final of a big Valorant tournament"}, {"subject": "Nate", "predicate": "game_played", "object": "Valorant"}], "implications": []}
+{"fid": "D27:2#0", "facets": [{"subject": "Joanna", "predicate": "project_work", "object": "finished a tough presentation for producers"}], "implications": []}
+{"fid": "D27:3#0", "facets": [{"subject": "Nate", "predicate": "goal_plan", "object": "preparing for upcoming gaming tournaments after his Valorant win"}], "implications": []}
+{"fid": "D27:6#0", "facets": [{"subject": "Joanna", "predicate": "creative_work", "object": "writing another movie script, a love story with challenges"}], "implications": []}
+{"fid": "D27:8#0", "facets": [{"subject": "Joanna", "predicate": "creative_work", "object": "idea for her love story script came from a dream"}], "implications": []}
+{"fid": "D27:9#0", "facets": [{"subject": "Nate", "predicate": "pet", "object": "turtles bring him calming, fascinating joy"}], "implications": []}
+{"fid": "D27:10#0", "facets": [{"subject": "Joanna", "predicate": "feeling_emotion", "object": "happiness and fulfillment from creating stories that come alive"}], "implications": []}
+{"fid": "D27:12#0", "facets": [{"subject": "Joanna", "predicate": "goal_plan", "object": "submitted more scripts and is awaiting responses, expecting rejections"}], "implications": []}
+{"fid": "D27:15#0", "facets": [{"subject": "Nate", "predicate": "possession_purchase", "object": "upgraded some of his gaming equipment"}], "implications": []}
+{"fid": "D27:17#0", "facets": [{"subject": "Nate", "predicate": "possession_purchase", "object": "upgraded computer setup for practicing and competing"}], "implications": []}
+{"fid": "D27:19#0", "facets": [{"subject": "Nate", "predicate": "belief_value_opinion", "object": "gaming setup is his own haven to escape into the virtual world"}], "implications": []}
+{"fid": "D27:21#0", "facets": [{"subject": "Nate", "predicate": "job_career", "object": "good gaming setup important for his gaming career"}], "implications": []}
+{"fid": "D27:23#0", "facets": [{"subject": "Nate", "predicate": "game_played", "object": "Xenoblade Chronicles (fantasy RPG he recommends)"}], "implications": []}
+{"fid": "D27:25#0", "facets": [{"subject": "Nate", "predicate": "preference_like", "object": "big fan of Nintendo games"}], "implications": []}
+{"fid": "D27:27#0", "facets": [{"subject": "Nate", "predicate": "preference_like", "object": "enjoys and trusts Joanna's movie recommendations"}], "implications": []}
+{"fid": "D27:28#0", "facets": [{"subject": "Joanna", "predicate": "creative_work", "object": "included a handwritten letter at the start of her next script"}], "implications": []}
+{"fid": "D27:30#0", "facets": [{"subject": "Joanna", "predicate": "family_member", "object": "handwritten letter reminds her of childhood notes from her brother"}], "implications": []}
+{"fid": "D27:33#0", "facets": [{"subject": "Nate", "predicate": "pet", "object": "had a special day taking his pets to the park"}], "implications": []}
+{"fid": "D27:34#0", "facets": [{"subject": "Joanna", "predicate": "habit_routine", "object": "started writing down some of her favorite memories"}], "implications": []}
+{"fid": "D27:37#0", "facets": [{"subject": "Nate", "predicate": "friend", "object": "will start writing down his favorite memories with Joanna"}], "implications": []}
+{"fid": "D28:1#0", "facets": [{"subject": "Nate", "predicate": "food_drink_recipe", "object": "coconut ice cream with color-changing sprinkles"}], "implications": []}
+{"fid": "D28:3#0", "facets": [{"subject": "Nate", "predicate": "challenge_problem", "object": "last tournament was tough; didn't make the finals"}], "implications": []}
+{"fid": "D28:5#0", "facets": [{"subject": "Nate", "predicate": "goal_plan", "object": "considering offers to join a new gaming team"}], "implications": []}
+{"fid": "D28:8#0", "facets": [{"subject": "Joanna", "predicate": "achievement_award", "object": "pitched a new script and movie plan to producers, well received"}], "implications": []}
+{"fid": "D28:12#0", "facets": [{"subject": "Joanna", "predicate": "creative_work", "object": "new project: a suspenseful thriller set in a small Midwestern town"}], "implications": []}
+{"fid": "D28:13#0", "facets": [{"subject": "Nate", "predicate": "creative_work", "object": "started creating gaming content for YouTube between tournaments"}], "implications": []}
+{"fid": "D28:15#0", "facets": [{"subject": "Nate", "predicate": "hobby_interest", "object": "big fan of gaming YouTube videos; started making his own"}], "implications": []}
+{"fid": "D28:18#0", "facets": [{"subject": "Joanna", "predicate": "support_advice", "object": "advised Nate to study other gaming YouTubers before posting his own"}], "implications": []}
+{"fid": "D28:20#0", "facets": [{"subject": "Joanna", "predicate": "trip_location_visited", "object": "photo of a sunflower field at sunset"}], "implications": []}
+{"fid": "D28:22#0", "facets": [{"subject": "Joanna", "predicate": "trip_location_visited", "object": "hike near Fort Wayne in summer 2022"}], "implications": []}
+{"fid": "D28:23#0", "facets": [{"subject": "Nate", "predicate": "pet", "object": "got his turtles a new, third friend"}], "implications": []}
+{"fid": "D28:25#0", "facets": [{"subject": "Nate", "predicate": "pet", "object": "third turtle bought after seeing one at a pet store"}], "implications": []}
+{"fid": "D28:28#0", "facets": [{"subject": "Joanna", "predicate": "friend", "object": "asked to visit Nate to watch his turtles from a distance"}], "implications": []}
+{"fid": "D28:29#0", "facets": [{"subject": "Nate", "predicate": "friend", "object": "invited Joanna over to watch a movie together or go to the park"}], "implications": []}
+{"fid": "D28:31#0", "facets": [{"subject": "Nate", "predicate": "pet", "object": "planned to bathe his turtles before Joanna's visit"}], "implications": []}
+{"fid": "D29:1#0", "facets": [{"subject": "Joanna", "predicate": "achievement_award", "object": "finally filming her own movie based on her Woodhaven-inspired script"}], "implications": []}
+{"fid": "D29:3#0", "facets": [{"subject": "Joanna", "predicate": "feeling_emotion", "object": "loves being able to show her vision on the film set"}], "implications": []}
+{"fid": "D29:5#0", "facets": [{"subject": "Joanna", "predicate": "feeling_emotion", "object": "thrilled by an actor's praise of her script"}], "implications": []}
+{"fid": "D29:6#0", "facets": [{"subject": "Nate", "predicate": "trip_location_visited", "object": "took his turtles to a beach in Tampa"}], "implications": []}
+{"fid": "D29:8#0", "facets": [{"subject": "Nate", "predicate": "pet", "object": "loves having his turtles around; calm and low maintenance"}], "implications": []}
+{"fid": "D29:10#0", "facets": [{"subject": "Nate", "predicate": "belief_value_opinion", "object": "turtles remind him to slow down and appreciate the small things"}, {"subject": "Nate", "predicate": "food_drink_recipe", "object": "experimenting with colorful coconut milk ice cream flavors"}], "implications": []}

@@ -1,0 +1,419 @@
+{"turn_id": "D1:1", "facts": [], "keywords": ["greeting", "catching up"], "entities": ["Caroline", "Melanie"]}
+{"turn_id": "D1:2", "facts": ["Melanie said she was swamped with her kids and work."], "keywords": ["family", "work", "busy"], "entities": ["Melanie", "Caroline"]}
+{"turn_id": "D1:3", "facts": ["On 2023-05-08, Caroline said she attended an LGBTQ support group the previous day (around 2023-05-07) and found it powerful."], "keywords": ["lgbtq", "support group", "community"], "entities": ["Caroline", "LGBTQ"]}
+{"turn_id": "D1:4", "facts": [], "keywords": ["curiosity", "support group"], "entities": ["Melanie", "Caroline"]}
+{"turn_id": "D1:5", "facts": ["Caroline said the transgender stories she heard at the support group were inspiring and that she felt happy and thankful for the support she received.", "Caroline shared a photo of a dog walking past a wall with a painting of a woman."], "keywords": ["transgender", "inspiration", "gratitude", "support"], "entities": ["Caroline"]}
+{"turn_id": "D1:6", "facts": [], "keywords": ["painting", "support group"], "entities": ["Melanie"]}
+{"turn_id": "D1:7", "facts": ["Caroline said the LGBTQ support group made her feel accepted and gave her courage to embrace herself."], "keywords": ["acceptance", "courage", "self-embrace", "support group"], "entities": ["Caroline"]}
+{"turn_id": "D1:8", "facts": [], "keywords": ["encouragement"], "entities": ["Melanie", "Caroline"]}
+{"turn_id": "D1:9", "facts": ["Caroline said she planned to continue her education and explore career options."], "keywords": ["education", "career", "plans"], "entities": ["Caroline"]}
+{"turn_id": "D1:10", "facts": [], "keywords": ["career"], "entities": ["Melanie", "Caroline"]}
+{"turn_id": "D1:11", "facts": ["Caroline said she was interested in pursuing a career in counseling or mental health to support people with issues similar to her own."], "keywords": ["counseling", "mental health", "career", "support"], "entities": ["Caroline"]}
+{"turn_id": "D1:12", "facts": ["Melanie shared a photo of a painting of a sunset over a lake."], "keywords": ["painting", "sunset", "lake", "encouragement"], "entities": ["Melanie"]}
+{"turn_id": "D1:13", "facts": [], "keywords": ["painting"], "entities": ["Caroline", "Melanie"]}
+{"turn_id": "D1:14", "facts": ["Melanie said she painted a lake sunrise painting in 2022 (the year before this 2023-05-08 conversation) and that it is special to her."], "keywords": ["painting", "art", "lake", "sunrise"], "entities": ["Melanie"]}
+{"turn_id": "D1:15", "facts": [], "keywords": ["painting", "self-expression"], "entities": ["Caroline", "Melanie"]}
+{"turn_id": "D1:16", "facts": ["Melanie said painting is a fun way for her to express her feelings, be creative, and relax after a long day."], "keywords": ["painting", "relaxation", "creativity", "hobby"], "entities": ["Melanie"]}
+{"turn_id": "D1:17", "facts": ["Caroline said she was going to go do some research."], "keywords": ["research"], "entities": ["Caroline"]}
+{"turn_id": "D1:18", "facts": ["Melanie said she was going swimming with her kids."], "keywords": ["swimming", "kids", "self-care"], "entities": ["Melanie"]}
+{"turn_id": "D2:1", "facts": ["On 2023-05-25, Melanie said she ran a charity race for mental health the previous Saturday (around 2023-05-20) and found it rewarding."], "keywords": ["charity race", "mental health", "running"], "entities": ["Melanie"]}
+{"turn_id": "D2:2", "facts": [], "keywords": ["charity race", "mental health"], "entities": ["Caroline", "Melanie"]}
+{"turn_id": "D2:3", "facts": ["Melanie said she was realizing that self-care is important and that taking care of herself helps her better care for her family."], "keywords": ["self-care", "family", "wellbeing"], "entities": ["Melanie"]}
+{"turn_id": "D2:4", "facts": [], "keywords": ["self-care"], "entities": ["Caroline", "Melanie"]}
+{"turn_id": "D2:5", "facts": ["Melanie said she carves out daily me-time doing activities like running, reading, or playing violin to refresh herself and stay present for her family."], "keywords": ["me-time", "running", "reading", "violin", "self-care"], "entities": ["Melanie"]}
+{"turn_id": "D2:6", "facts": [], "keywords": ["self-care", "family"], "entities": ["Caroline", "Melanie"]}
+{"turn_id": "D2:7", "facts": ["On 2023-05-25, Melanie said her kids were excited about summer break and that her family was considering going camping the following month (around June 2023)."], "keywords": ["summer break", "camping", "kids", "plans"], "entities": ["Melanie"]}
+{"turn_id": "D2:8", "facts": ["Caroline said she was researching adoption agencies because it had long been her dream to have a family and give a loving home to kids in need."], "keywords": ["adoption", "family", "dream"], "entities": ["Caroline"]}
+{"turn_id": "D2:9", "facts": [], "keywords": ["adoption", "encouragement"], "entities": ["Melanie", "Caroline"]}
+{"turn_id": "D2:10", "facts": ["Caroline said her goal was to give kids a loving home and that she was grateful for support from friends and mentors as she began the adoption process.", "Caroline shared a photo of a sign for an adoption agency she was considering."], "keywords": ["adoption", "goal", "gratitude", "hope"], "entities": ["Caroline"]}
+{"turn_id": "D2:11", "facts": [], "keywords": ["adoption agency"], "entities": ["Melanie"]}
+{"turn_id": "D2:12", "facts": ["Caroline said she chose her adoption agency because it helps LGBTQ+ people with adoption and she valued its inclusivity and support."], "keywords": ["adoption agency", "lgbtq", "inclusivity"], "entities": ["Caroline"]}
+{"turn_id": "D2:13", "facts": [], "keywords": ["adoption"], "entities": ["Melanie"]}
+{"turn_id": "D2:14", "facts": ["Caroline said she planned to adopt as a single parent and was excited despite the challenges."], "keywords": ["adoption", "single parent", "family"], "entities": ["Caroline"]}
+{"turn_id": "D2:15", "facts": [], "keywords": ["adoption", "encouragement"], "entities": ["Melanie"]}
+{"turn_id": "D2:16", "facts": [], "keywords": ["adoption", "family"], "entities": ["Caroline"]}
+{"turn_id": "D2:17", "facts": [], "keywords": ["adoption", "support"], "entities": ["Melanie"]}
+{"turn_id": "D3:1", "facts": ["On 2023-06-09, Caroline said she spoke at a school event the previous week (around 2023-06-02) about her transgender journey and encouraged students to get involved in the LGBTQ community.", "Caroline said she began transitioning around 2020, three years before 2023-06-09."], "keywords": ["transgender", "school event", "lgbtq", "transition"], "entities": ["Caroline"]}
+{"turn_id": "D3:2", "facts": [], "keywords": ["encouragement", "transition"], "entities": ["Melanie", "Caroline"]}
+{"turn_id": "D3:3", "facts": ["Caroline said she shared her own struggles and growth since coming out during her talk, and felt it inspired the audience to be better allies."], "keywords": ["coming out", "allies", "gender identity", "talk"], "entities": ["Caroline"]}
+{"turn_id": "D3:4", "facts": [], "keywords": ["inclusivity", "acceptance"], "entities": ["Melanie", "Caroline"]}
+{"turn_id": "D3:5", "facts": [], "keywords": ["community", "support", "acceptance"], "entities": ["Caroline"]}
+{"turn_id": "D3:6", "facts": [], "keywords": ["encouragement", "storytelling"], "entities": ["Melanie"]}
+{"turn_id": "D3:7", "facts": [], "keywords": ["community", "hope"], "entities": ["Caroline"]}
+{"turn_id": "D3:8", "facts": [], "keywords": ["support", "friendship"], "entities": ["Melanie", "Caroline"]}
+{"turn_id": "D3:9", "facts": [], "keywords": ["encouragement"], "entities": ["Caroline", "Melanie"]}
+{"turn_id": "D3:10", "facts": ["Melanie said her family motivates her and gives her love, and that she wants to be courageous for them."], "keywords": ["family", "motivation", "courage"], "entities": ["Melanie"]}
+{"turn_id": "D3:11", "facts": ["Caroline said her friends, family, and mentors motivate her and give her strength.", "On 2023-06-09, Caroline shared a photo from meeting up with her support system the previous week (around 2023-06-02)."], "keywords": ["friends", "family", "mentors", "support"], "entities": ["Caroline"]}
+{"turn_id": "D3:12", "facts": [], "keywords": ["support system"], "entities": ["Melanie"]}
+{"turn_id": "D3:13", "facts": ["Caroline said she has known her close friends for 4 years, since she moved from her home country (around 2019).", "Caroline said her friends' love and help were especially important to her after a tough breakup."], "keywords": ["friendship", "immigration", "breakup", "support"], "entities": ["Caroline"]}
+{"turn_id": "D3:14", "facts": ["Melanie said she is lucky to have her husband and kids who keep her motivated.", "Melanie shared a photo of a man and a little girl standing in front of a waterfall."], "keywords": ["husband", "kids", "family", "motivation"], "entities": ["Melanie"]}
+{"turn_id": "D3:15", "facts": [], "keywords": ["marriage"], "entities": ["Caroline"]}
+{"turn_id": "D3:16", "facts": ["On 2023-06-09, Melanie said she has been married for 5 years, meaning she got married around 2018.", "Melanie shared a photo of herself in a wedding dress holding a bouquet."], "keywords": ["marriage", "wedding", "anniversary"], "entities": ["Melanie"]}
+{"turn_id": "D3:17", "facts": [], "keywords": ["wedding", "congratulations"], "entities": ["Caroline", "Melanie"]}
+{"turn_id": "D3:18", "facts": ["Melanie shared a photo of a man and a woman having a picnic on a blanket."], "keywords": ["family", "picnic"], "entities": ["Melanie"]}
+{"turn_id": "D3:19", "facts": [], "keywords": ["family day"], "entities": ["Caroline"]}
+{"turn_id": "D3:20", "facts": ["Melanie said her family played games, ate good food, and hung out together, and that family moments make life awesome to her."], "keywords": ["family time", "games", "food"], "entities": ["Melanie"]}
+{"turn_id": "D3:21", "facts": [], "keywords": ["family"], "entities": ["Caroline"]}
+{"turn_id": "D3:22", "facts": ["Melanie said she feels most alive and happy when spending time with her family."], "keywords": ["family", "happiness"], "entities": ["Melanie"]}
+{"turn_id": "D3:23", "facts": [], "keywords": ["family", "gratitude"], "entities": ["Caroline"]}
+{"turn_id": "D4:1", "facts": ["Caroline shared a photo of a necklace with a cross and a heart pendant."], "keywords": ["necklace", "jewelry"], "entities": ["Caroline"]}
+{"turn_id": "D4:2", "facts": [], "keywords": ["necklace"], "entities": ["Melanie"]}
+{"turn_id": "D4:3", "facts": ["Caroline said her home country is Sweden.", "Caroline said her grandmother gave her a necklace symbolizing love, faith and strength when she was young, as a gift from Sweden."], "keywords": ["sweden", "grandmother", "necklace", "heritage"], "entities": ["Caroline", "Sweden"]}
+{"turn_id": "D4:4", "facts": ["Melanie shared a photo of a stack of bowls with different designs."], "keywords": ["bowls", "sentimental objects"], "entities": ["Melanie"]}
+{"turn_id": "D4:5", "facts": ["Caroline said a friend hand-painted a bowl for her 18th birthday about ten years before 2023-06-27 (around 2013), which she treasures.", "Caroline was likely born around 1995, based on turning 18 around 2013."], "keywords": ["birthday", "bowl", "friendship", "sentimental"], "entities": ["Caroline"]}
+{"turn_id": "D4:6", "facts": ["On 2023-06-27, Melanie said she took her family camping in the mountains the previous week (around 2023-06-20) and had a nice time."], "keywords": ["camping", "mountains", "family"], "entities": ["Melanie"]}
+{"turn_id": "D4:7", "facts": [], "keywords": ["camping"], "entities": ["Caroline"]}
+{"turn_id": "D4:8", "facts": ["Melanie said her family went camping, hiked, and roasted marshmallows around a campfire, and that her two younger kids love nature.", "Melanie has at least two younger kids, implying she has more than two children in total."], "keywords": ["camping", "hiking", "kids", "nature"], "entities": ["Melanie"]}
+{"turn_id": "D4:9", "facts": [], "keywords": ["family"], "entities": ["Caroline"]}
+{"turn_id": "D4:10", "facts": [], "keywords": ["family time"], "entities": ["Melanie"]}
+{"turn_id": "D4:11", "facts": ["Caroline said she was continuing to look into a career in counseling and mental health to help people who had gone through experiences similar to her own.", "Caroline shared a photo of a bookshelf with many books."], "keywords": ["counseling", "mental health", "career", "books"], "entities": ["Caroline"]}
+{"turn_id": "D4:12", "facts": [], "keywords": ["counseling"], "entities": ["Melanie"]}
+{"turn_id": "D4:13", "facts": ["Caroline said she was considering working with trans people as a counselor to help them accept themselves and support their mental health.", "On 2023-06-27, Caroline said she attended an LGBTQ+ counseling workshop the previous Friday (around 2023-06-23) that covered therapeutic methods for working with trans people."], "keywords": ["counseling workshop", "trans people", "therapy", "lgbtq"], "entities": ["Caroline"]}
+{"turn_id": "D4:14", "facts": [], "keywords": ["motivation"], "entities": ["Melanie"]}
+{"turn_id": "D4:15", "facts": ["Caroline said her own experience with counseling and support groups improving her life motivated her to pursue a career helping others with mental health."], "keywords": ["mental health", "motivation", "support groups"], "entities": ["Caroline"]}
+{"turn_id": "D4:16", "facts": [], "keywords": ["encouragement"], "entities": ["Melanie"]}
+{"turn_id": "D4:17", "facts": [], "keywords": ["gratitude"], "entities": ["Caroline"]}
+{"turn_id": "D4:18", "facts": ["Melanie shared a photo of a bookshelf filled with books."], "keywords": ["books", "encouragement"], "entities": ["Melanie"]}
+{"turn_id": "D5:1", "facts": ["On 2023-07-03, Caroline said she attended an LGBTQ+ pride parade the previous week (around 2023-06-26) and felt a strong sense of belonging."], "keywords": ["pride parade", "lgbtq", "belonging"], "entities": ["Caroline"]}
+{"turn_id": "D5:2", "facts": [], "keywords": ["pride parade"], "entities": ["Melanie"]}
+{"turn_id": "D5:3", "facts": [], "keywords": ["counseling", "community", "motivation"], "entities": ["Caroline"]}
+{"turn_id": "D5:4", "facts": ["On 2023-07-03, Melanie said she signed up for a pottery class the previous day (2023-07-02), calling it therapeutic and creative for her."], "keywords": ["pottery", "class", "creativity", "therapy"], "entities": ["Melanie"]}
+{"turn_id": "D5:5", "facts": ["Caroline said she was learning to play the piano."], "keywords": ["piano", "music", "creativity"], "entities": ["Caroline"]}
+{"turn_id": "D5:6", "facts": ["Melanie shared a photo of a bowl she made with a black and white flower design."], "keywords": ["pottery", "bowl", "calming"], "entities": ["Melanie"]}
+{"turn_id": "D5:7", "facts": [], "keywords": ["pottery"], "entities": ["Caroline"]}
+{"turn_id": "D5:8", "facts": [], "keywords": ["pottery class", "pride"], "entities": ["Melanie"]}
+{"turn_id": "D5:9", "facts": [], "keywords": ["encouragement"], "entities": ["Caroline"]}
+{"turn_id": "D5:10", "facts": ["Melanie said pottery is a huge part of her life that helps her express her emotions and brings her joy."], "keywords": ["pottery", "emotions", "joy"], "entities": ["Melanie"]}
+{"turn_id": "D5:11", "facts": [], "keywords": ["encouragement"], "entities": ["Caroline"]}
+{"turn_id": "D5:12", "facts": [], "keywords": ["pottery"], "entities": ["Melanie"]}
+{"turn_id": "D5:13", "facts": ["On 2023-07-03, Caroline said she planned to attend a transgender conference that month (July 2023) to meet community members and learn about advocacy."], "keywords": ["transgender conference", "advocacy", "community"], "entities": ["Caroline"]}
+{"turn_id": "D5:14", "facts": [], "keywords": ["conference"], "entities": ["Melanie"]}
+{"turn_id": "D5:15", "facts": [], "keywords": ["farewell"], "entities": ["Caroline"]}
+{"turn_id": "D5:16", "facts": [], "keywords": ["farewell"], "entities": ["Melanie"]}
+{"turn_id": "D6:1", "facts": [], "keywords": ["greeting"], "entities": ["Caroline"]}
+{"turn_id": "D6:2", "facts": [], "keywords": ["greeting"], "entities": ["Melanie"]}
+{"turn_id": "D6:3", "facts": [], "keywords": ["counseling", "mental health"], "entities": ["Caroline"]}
+{"turn_id": "D6:4", "facts": ["On 2023-07-06, Melanie said she took her kids to the museum the previous day (2023-07-05) and enjoyed watching them light up with excitement.", "Melanie shared a photo of two children playing in a water play area."], "keywords": ["museum", "kids", "family outing"], "entities": ["Melanie"]}
+{"turn_id": "D6:5", "facts": [], "keywords": ["museum"], "entities": ["Caroline"]}
+{"turn_id": "D6:6", "facts": ["Melanie said her kids were most excited about the dinosaur exhibit at the museum and love learning about animals."], "keywords": ["dinosaurs", "museum", "kids", "motherhood"], "entities": ["Melanie"]}
+{"turn_id": "D6:7", "facts": ["Caroline said she was creating a library of books in anticipation of having kids, looking forward to reading to them.", "Caroline shared a photo of a bookcase filled with books and toys."], "keywords": ["library", "books", "future kids", "parenting"], "entities": ["Caroline"]}
+{"turn_id": "D6:8", "facts": [], "keywords": ["books"], "entities": ["Melanie"]}
+{"turn_id": "D6:9", "facts": [], "keywords": ["kids books", "culture"], "entities": ["Caroline"]}
+{"turn_id": "D6:10", "facts": ["Melanie said her favorite childhood book was \"Charlotte's Web\", which taught her about friendship and compassion."], "keywords": ["charlotte's web", "childhood", "books"], "entities": ["Melanie", "Charlotte's Web"]}
+{"turn_id": "D6:11", "facts": ["On 2023-07-06, Caroline said she had a picnic with a group of women friends the previous week (around 2023-06-29)."], "keywords": ["picnic", "friends", "support"], "entities": ["Caroline"]}
+{"turn_id": "D6:12", "facts": [], "keywords": ["support", "transition"], "entities": ["Melanie"]}
+{"turn_id": "D6:13", "facts": [], "keywords": ["support network"], "entities": ["Caroline"]}
+{"turn_id": "D6:14", "facts": [], "keywords": ["support"], "entities": ["Melanie"]}
+{"turn_id": "D6:15", "facts": [], "keywords": ["support system", "transition"], "entities": ["Caroline"]}
+{"turn_id": "D6:16", "facts": ["Melanie shared a photo of her family camping at the beach around a campfire, saying it brings them closer."], "keywords": ["camping", "beach", "family"], "entities": ["Melanie"]}
+{"turn_id": "D7:1", "facts": ["On 2023-07-12, Caroline said she attended an LGBTQ conference two days earlier (2023-07-10) and felt welcomed and accepted there.", "Caroline said the LGBTQ conference reinforced the importance of fighting for trans rights and spreading awareness."], "keywords": ["lgbtq conference", "trans rights", "community", "advocacy"], "entities": ["Caroline"]}
+{"turn_id": "D7:2", "facts": [], "keywords": ["community"], "entities": ["Melanie"]}
+{"turn_id": "D7:3", "facts": [], "keywords": ["lgbtq rights", "progress"], "entities": ["Caroline"]}
+{"turn_id": "D7:4", "facts": [], "keywords": ["motivation"], "entities": ["Melanie"]}
+{"turn_id": "D7:5", "facts": [], "keywords": ["counseling", "mental health jobs"], "entities": ["Caroline"]}
+{"turn_id": "D7:6", "facts": [], "keywords": ["motivation"], "entities": ["Melanie"]}
+{"turn_id": "D7:7", "facts": ["Caroline said she personally struggled with mental health and that the support she received motivated her to pursue a career in counseling to help others."], "keywords": ["mental health struggles", "support", "career motivation"], "entities": ["Caroline"]}
+{"turn_id": "D7:8", "facts": ["Melanie said she read a book in 2022 (the year before this 2023-07-12 conversation) that reminds her to always pursue her dreams."], "keywords": ["book", "dreams", "inspiration"], "entities": ["Melanie"]}
+{"turn_id": "D7:9", "facts": ["Caroline said books guide and motivate her and help her discover who she is, and are a huge part of her personal journey."], "keywords": ["reading", "books", "motivation", "self-discovery"], "entities": ["Caroline"]}
+{"turn_id": "D7:10", "facts": [], "keywords": ["books"], "entities": ["Melanie"]}
+{"turn_id": "D7:11", "facts": ["Caroline said her favorite guiding book is \"Becoming Nicole\" by Amy Ellis Nutt, a true story about a trans girl and her family that gave her hope."], "keywords": ["becoming nicole", "book", "trans", "inspiration"], "entities": ["Caroline", "Becoming Nicole", "Amy Ellis Nutt"]}
+{"turn_id": "D7:12", "facts": [], "keywords": ["book"], "entities": ["Melanie"]}
+{"turn_id": "D7:13", "facts": ["Caroline said \"Becoming Nicole\" taught her self-acceptance and that tough times don't last."], "keywords": ["self-acceptance", "hope", "book lessons"], "entities": ["Caroline"]}
+{"turn_id": "D7:14", "facts": [], "keywords": ["pets", "joy"], "entities": ["Melanie"]}
+{"turn_id": "D7:15", "facts": [], "keywords": ["pets"], "entities": ["Caroline"]}
+{"turn_id": "D7:16", "facts": ["Melanie said she has a dog and a cat as pets."], "keywords": ["dog", "cat", "pets"], "entities": ["Melanie"]}
+{"turn_id": "D7:17", "facts": [], "keywords": ["pets"], "entities": ["Caroline"]}
+{"turn_id": "D7:18", "facts": ["Melanie said her pets are named Luna and Oliver.", "Melanie shared a photo of new pink sneakers she got."], "keywords": ["luna", "oliver", "pets", "sneakers"], "entities": ["Melanie", "Luna", "Oliver"]}
+{"turn_id": "D7:19", "facts": [], "keywords": ["sneakers"], "entities": ["Caroline"]}
+{"turn_id": "D7:20", "facts": ["Melanie said she bought new pink running sneakers and had been running longer distances to destress and clear her mind."], "keywords": ["running", "sneakers", "destress"], "entities": ["Melanie"]}
+{"turn_id": "D7:21", "facts": [], "keywords": ["running"], "entities": ["Caroline"]}
+{"turn_id": "D7:22", "facts": [], "keywords": ["running", "mental health"], "entities": ["Melanie"]}
+{"turn_id": "D7:23", "facts": [], "keywords": ["running", "mood"], "entities": ["Caroline"]}
+{"turn_id": "D7:24", "facts": [], "keywords": ["mental health"], "entities": ["Melanie"]}
+{"turn_id": "D7:25", "facts": [], "keywords": ["mental health"], "entities": ["Caroline"]}
+{"turn_id": "D7:26", "facts": [], "keywords": ["mental health", "improvement"], "entities": ["Melanie"]}
+{"turn_id": "D7:27", "facts": [], "keywords": ["support"], "entities": ["Caroline"]}
+{"turn_id": "D8:1", "facts": [], "keywords": ["greeting"], "entities": ["Caroline"]}
+{"turn_id": "D8:2", "facts": ["On 2023-07-15, Melanie said she took her kids to a pottery workshop the previous Friday (around 2023-07-14), and the whole family made their own pots."], "keywords": ["pottery workshop", "kids", "family activity"], "entities": ["Melanie"]}
+{"turn_id": "D8:3", "facts": [], "keywords": ["pottery"], "entities": ["Caroline"]}
+{"turn_id": "D8:4", "facts": ["Melanie shared a photo of a cup with a dog face on it that her kids made at the pottery workshop."], "keywords": ["pottery", "kids craft", "creativity"], "entities": ["Melanie"]}
+{"turn_id": "D8:5", "facts": [], "keywords": ["kids art"], "entities": ["Caroline"]}
+{"turn_id": "D8:6", "facts": ["On 2023-07-15, Melanie said she and her kids love painting together, especially nature-inspired pieces, and shared a sunset-with-palm-tree painting they made the previous weekend (around 2023-07-08)."], "keywords": ["painting", "family bonding", "nature"], "entities": ["Melanie"]}
+{"turn_id": "D8:7", "facts": [], "keywords": ["painting"], "entities": ["Caroline"]}
+{"turn_id": "D8:8", "facts": ["Melanie shared a photo of a field of purple flowers she and Caroline discussed appreciating."], "keywords": ["flowers", "nature", "gratitude"], "entities": ["Melanie"]}
+{"turn_id": "D8:9", "facts": ["On 2023-07-15, Caroline said she attended an adoption council meeting the previous Friday (around 2023-07-14), which made her even more determined to adopt."], "keywords": ["adoption", "council meeting", "determination"], "entities": ["Caroline"]}
+{"turn_id": "D8:10", "facts": [], "keywords": ["adoption", "encouragement"], "entities": ["Melanie"]}
+{"turn_id": "D8:11", "facts": ["Caroline said blue is her favorite color because it makes her feel relaxed."], "keywords": ["favorite color", "blue", "flowers"], "entities": ["Caroline"]}
+{"turn_id": "D8:12", "facts": ["Melanie said flowers were an important part of her wedding decor and always remind her of her wedding day."], "keywords": ["flowers", "wedding", "memories"], "entities": ["Melanie"]}
+{"turn_id": "D8:13", "facts": [], "keywords": ["wedding"], "entities": ["Caroline"]}
+{"turn_id": "D8:14", "facts": ["Melanie said her wedding ceremony took place in a greenhouse."], "keywords": ["wedding", "greenhouse", "celebration"], "entities": ["Melanie"]}
+{"turn_id": "D8:15", "facts": [], "keywords": ["wedding"], "entities": ["Caroline"]}
+{"turn_id": "D8:16", "facts": ["Melanie said the best part of her wedding was marrying her partner and promising to be together forever."], "keywords": ["wedding", "marriage", "partner"], "entities": ["Melanie"]}
+{"turn_id": "D8:17", "facts": ["On 2023-07-15, Caroline said one of her special memories was a pride parade she attended a few weeks earlier (around late June 2023)."], "keywords": ["pride parade", "memory"], "entities": ["Caroline"]}
+{"turn_id": "D8:18", "facts": [], "keywords": ["pride parade"], "entities": ["Melanie"]}
+{"turn_id": "D8:19", "facts": [], "keywords": ["pride parade", "acceptance"], "entities": ["Caroline"]}
+{"turn_id": "D8:20", "facts": [], "keywords": ["experience"], "entities": ["Melanie"]}
+{"turn_id": "D8:21", "facts": [], "keywords": ["pride", "community", "gratitude"], "entities": ["Caroline"]}
+{"turn_id": "D8:22", "facts": [], "keywords": ["acceptance"], "entities": ["Melanie"]}
+{"turn_id": "D8:23", "facts": [], "keywords": ["community", "support"], "entities": ["Caroline"]}
+{"turn_id": "D8:24", "facts": [], "keywords": ["community"], "entities": ["Melanie"]}
+{"turn_id": "D8:25", "facts": ["Caroline said the best part of her pride parade experience was realizing she could be herself without fear and having the courage to transition."], "keywords": ["self-acceptance", "transition", "authenticity"], "entities": ["Caroline"]}
+{"turn_id": "D8:26", "facts": [], "keywords": ["peace", "mental health"], "entities": ["Melanie"]}
+{"turn_id": "D8:27", "facts": [], "keywords": ["journey"], "entities": ["Caroline"]}
+{"turn_id": "D8:28", "facts": ["Melanie said creativity and family keep her at peace."], "keywords": ["peace", "creativity", "family"], "entities": ["Melanie"]}
+{"turn_id": "D8:29", "facts": ["Caroline asked Melanie how her family had been supportive during her recent move."], "keywords": ["move", "family support"], "entities": ["Caroline", "Melanie"]}
+{"turn_id": "D8:30", "facts": ["Melanie said her family helped her out and showed love and support during her recent move."], "keywords": ["family support", "move"], "entities": ["Melanie"]}
+{"turn_id": "D8:31", "facts": [], "keywords": ["family"], "entities": ["Caroline"]}
+{"turn_id": "D8:32", "facts": ["Melanie said her family went on another camping trip in the forest."], "keywords": ["camping", "forest", "family"], "entities": ["Melanie"]}
+{"turn_id": "D8:33", "facts": ["Melanie's family includes a toddler, shown in a photo of the family walking through a forest with a toddler."], "keywords": ["family", "toddler", "forest"], "entities": ["Caroline", "Melanie"]}
+{"turn_id": "D8:34", "facts": ["Melanie said her family enjoys hiking in the mountains and exploring forests together."], "keywords": ["hiking", "mountains", "family bonding"], "entities": ["Melanie"]}
+{"turn_id": "D8:35", "facts": [], "keywords": ["nature"], "entities": ["Caroline"]}
+{"turn_id": "D8:36", "facts": [], "keywords": ["memories", "happiness"], "entities": ["Melanie"]}
+{"turn_id": "D8:37", "facts": [], "keywords": ["friendship"], "entities": ["Caroline"]}
+{"turn_id": "D8:38", "facts": [], "keywords": ["friendship"], "entities": ["Melanie"]}
+{"turn_id": "D8:39", "facts": [], "keywords": ["friendship"], "entities": ["Caroline"]}
+{"turn_id": "D9:1", "facts": ["On 2023-07-17, Melanie said she went camping with her family two weekends earlier (around 2023-07-08) and had a quiet weekend since."], "keywords": ["camping", "weekend", "family"], "entities": ["Melanie"]}
+{"turn_id": "D9:2", "facts": ["On 2023-07-17, Caroline said she joined a mentorship program for LGBTQ youth the previous weekend (around 2023-07-15)."], "keywords": ["mentorship", "lgbtq youth", "volunteering"], "entities": ["Caroline"]}
+{"turn_id": "D9:3", "facts": [], "keywords": ["mentorship"], "entities": ["Melanie"]}
+{"turn_id": "D9:4", "facts": [], "keywords": ["mentoring", "youth"], "entities": ["Caroline"]}
+{"turn_id": "D9:5", "facts": [], "keywords": ["resilience"], "entities": ["Melanie"]}
+{"turn_id": "D9:6", "facts": ["Caroline said she mentors a transgender teen, working with them on building confidence and positive coping strategies.", "On 2023-07-17, Caroline said she and her mentee had a great time at an LGBT pride event the previous month (around June 2023)."], "keywords": ["mentee", "transgender teen", "confidence", "pride event"], "entities": ["Caroline"]}
+{"turn_id": "D9:7", "facts": [], "keywords": ["mentee"], "entities": ["Melanie"]}
+{"turn_id": "D9:8", "facts": [], "keywords": ["pride event"], "entities": ["Caroline"]}
+{"turn_id": "D9:9", "facts": [], "keywords": ["memories"], "entities": ["Melanie"]}
+{"turn_id": "D9:10", "facts": ["Caroline said the best part of the pride event was seeing her mentee's face light up seeing the support."], "keywords": ["mentee", "pride event", "special moment"], "entities": ["Caroline"]}
+{"turn_id": "D9:11", "facts": [], "keywords": ["advocacy"], "entities": ["Melanie"]}
+{"turn_id": "D9:12", "facts": ["On 2023-07-17, Caroline said she planned to have an LGBTQ art show featuring her paintings the following month (around August 2023)."], "keywords": ["art show", "lgbtq", "paintings"], "entities": ["Caroline"]}
+{"turn_id": "D9:13", "facts": [], "keywords": ["art show"], "entities": ["Melanie"]}
+{"turn_id": "D9:14", "facts": ["Caroline shared a painting of a tree with a bright sun that she made for her upcoming art show."], "keywords": ["painting", "art show", "tree"], "entities": ["Caroline"]}
+{"turn_id": "D9:15", "facts": [], "keywords": ["painting"], "entities": ["Melanie"]}
+{"turn_id": "D9:16", "facts": ["Caroline said she painted the tree painting after visiting an LGBTQ center, wanting to capture everyone's unity and strength."], "keywords": ["lgbtq center", "painting inspiration", "unity"], "entities": ["Caroline"]}
+{"turn_id": "D9:17", "facts": ["Melanie said she and her kids just finished another painting similar to their previous one."], "keywords": ["painting", "kids", "family art"], "entities": ["Melanie"]}
+{"turn_id": "D10:1", "facts": [], "keywords": ["greeting"], "entities": ["Caroline"]}
+{"turn_id": "D10:2", "facts": [], "keywords": ["greeting"], "entities": ["Melanie"]}
+{"turn_id": "D10:3", "facts": ["On 2023-07-20, Caroline said she joined a new LGBTQ activist group the previous Tuesday (around 2023-07-18)."], "keywords": ["activist group", "lgbtq", "community"], "entities": ["Caroline"]}
+{"turn_id": "D10:4", "facts": [], "keywords": ["activism"], "entities": ["Melanie"]}
+{"turn_id": "D10:5", "facts": ["Caroline said her new LGBTQ activist group is called \"Connected LGBTQ Activists\" and holds regular meetings, events, and campaigns."], "keywords": ["connected lgbtq activists", "group name", "meetings"], "entities": ["Caroline", "Connected LGBTQ Activists"]}
+{"turn_id": "D10:6", "facts": [], "keywords": ["events"], "entities": ["Melanie"]}
+{"turn_id": "D10:7", "facts": ["On 2023-07-20, Caroline said her city held a pride parade the previous weekend (around 2023-07-15) but that she missed it."], "keywords": ["pride parade", "city event", "equality"], "entities": ["Caroline"]}
+{"turn_id": "D10:8", "facts": ["Melanie said she recently took her three kids to the beach and they had a blast."], "keywords": ["beach", "kids", "family outing"], "entities": ["Melanie"]}
+{"turn_id": "D10:9", "facts": [], "keywords": ["beach"], "entities": ["Caroline"]}
+{"turn_id": "D10:10", "facts": ["Melanie said her family only goes to the beach once or twice a year."], "keywords": ["beach", "family tradition"], "entities": ["Melanie"]}
+{"turn_id": "D10:11", "facts": [], "keywords": ["traditions"], "entities": ["Caroline"]}
+{"turn_id": "D10:12", "facts": ["Melanie said her family's annual camping trip, with marshmallow roasting and campfire stories, is the highlight of their summer."], "keywords": ["camping trip", "summer tradition", "campfire"], "entities": ["Melanie"]}
+{"turn_id": "D10:13", "facts": [], "keywords": ["camping memory"], "entities": ["Caroline"]}
+{"turn_id": "D10:14", "facts": ["Melanie said her favorite camping memory was watching the Perseid meteor shower with her family in 2022 (the year before this 2023-07-20 conversation)."], "keywords": ["perseid meteor shower", "camping memory", "family"], "entities": ["Melanie", "Perseid meteor shower"]}
+{"turn_id": "D10:15", "facts": [], "keywords": ["meteor shower"], "entities": ["Caroline"]}
+{"turn_id": "D10:16", "facts": [], "keywords": ["stars", "meteor shower"], "entities": ["Melanie"]}
+{"turn_id": "D10:17", "facts": [], "keywords": ["awe"], "entities": ["Caroline"]}
+{"turn_id": "D10:18", "facts": [], "keywords": ["gratitude", "life"], "entities": ["Melanie"]}
+{"turn_id": "D10:19", "facts": [], "keywords": ["memories"], "entities": ["Caroline"]}
+{"turn_id": "D10:20", "facts": ["Melanie said one of her most treasured memories is the day her youngest daughter took her first steps."], "keywords": ["youngest daughter", "first steps", "milestone"], "entities": ["Melanie"]}
+{"turn_id": "D10:21", "facts": [], "keywords": ["milestones"], "entities": ["Caroline"]}
+{"turn_id": "D10:22", "facts": [], "keywords": ["family", "gratitude"], "entities": ["Melanie"]}
+{"turn_id": "D10:23", "facts": [], "keywords": ["family"], "entities": ["Caroline"]}
+{"turn_id": "D10:24", "facts": [], "keywords": ["family", "gratitude"], "entities": ["Melanie"]}
+{"turn_id": "D11:1", "facts": ["On 2023-08-14, Melanie said she celebrated her daughter's birthday the previous night (2023-08-13) with a concert."], "keywords": ["daughter's birthday", "concert", "celebration"], "entities": ["Melanie"]}
+{"turn_id": "D11:2", "facts": ["Caroline said she attended an advocacy event that involved a lot of love and support."], "keywords": ["advocacy event", "concert"], "entities": ["Caroline"]}
+{"turn_id": "D11:3", "facts": ["Melanie said the concert for her daughter's birthday featured the performer Matt Patterson."], "keywords": ["matt patterson", "concert", "performer"], "entities": ["Melanie", "Matt Patterson"]}
+{"turn_id": "D11:4", "facts": ["On 2023-08-14, Caroline said she attended a pride parade the previous Friday (around 2023-08-11) full of energy and love."], "keywords": ["pride parade", "equality", "energy"], "entities": ["Caroline"]}
+{"turn_id": "D11:5", "facts": [], "keywords": ["community"], "entities": ["Melanie"]}
+{"turn_id": "D11:6", "facts": [], "keywords": ["lgbtq rights", "crowd"], "entities": ["Caroline"]}
+{"turn_id": "D11:7", "facts": ["Melanie asked Caroline how she stays inclusive in her work as an artist, referencing Caroline's art."], "keywords": ["art", "inclusivity"], "entities": ["Melanie", "Caroline"]}
+{"turn_id": "D11:8", "facts": ["Caroline said representing inclusivity and diversity is important to her art, which she uses to speak up for the LGBTQ+ community."], "keywords": ["art", "inclusivity", "lgbtq advocacy"], "entities": ["Caroline"]}
+{"turn_id": "D11:9", "facts": [], "keywords": ["art"], "entities": ["Melanie"]}
+{"turn_id": "D11:10", "facts": ["Caroline said her art is about expressing her trans experience and helping people understand the trans community."], "keywords": ["art", "trans experience", "storytelling"], "entities": ["Caroline"]}
+{"turn_id": "D11:11", "facts": [], "keywords": ["art appreciation"], "entities": ["Melanie"]}
+{"turn_id": "D11:12", "facts": ["Caroline said she created a painting titled \"Embracing Identity\" about finding comfort and love in being yourself, depicting a woman representing the journey of acceptance."], "keywords": ["embracing identity", "painting", "self-acceptance"], "entities": ["Caroline", "Embracing Identity"]}
+{"turn_id": "D11:13", "facts": [], "keywords": ["self-discovery"], "entities": ["Melanie"]}
+{"turn_id": "D11:14", "facts": ["Caroline said art has allowed her to explore her transition and changing body, and taught her to accept the beauty of imperfections."], "keywords": ["art", "transition", "body image", "self-acceptance"], "entities": ["Caroline"]}
+{"turn_id": "D11:15", "facts": [], "keywords": ["healing", "art"], "entities": ["Melanie"]}
+{"turn_id": "D11:16", "facts": [], "keywords": ["gratitude"], "entities": ["Caroline"]}
+{"turn_id": "D11:17", "facts": [], "keywords": ["farewell"], "entities": ["Melanie"]}
+{"turn_id": "D12:1", "facts": ["Caroline said she had an upsetting encounter with a group of religious conservatives while on a hike, which made her reflect on the work still needed for LGBTQ rights."], "keywords": ["hike", "religious conservatives", "lgbtq rights", "upsetting encounter"], "entities": ["Caroline"]}
+{"turn_id": "D12:2", "facts": ["Melanie said she finished another pottery project."], "keywords": ["pottery project"], "entities": ["Melanie"]}
+{"turn_id": "D12:3", "facts": [], "keywords": ["pottery"], "entities": ["Caroline"]}
+{"turn_id": "D12:4", "facts": ["Melanie shared a photo of a colorful bowl she made, and said she was proud of it."], "keywords": ["bowl", "pottery", "pride"], "entities": ["Melanie"]}
+{"turn_id": "D12:5", "facts": [], "keywords": ["design"], "entities": ["Caroline"]}
+{"turn_id": "D12:6", "facts": [], "keywords": ["creativity", "self-expression"], "entities": ["Melanie"]}
+{"turn_id": "D12:7", "facts": [], "keywords": ["encouragement"], "entities": ["Caroline"]}
+{"turn_id": "D12:8", "facts": ["Melanie said art is both a sanctuary and a source of comfort for her, bringing her happiness and fulfillment."], "keywords": ["art", "sanctuary", "comfort", "fulfillment"], "entities": ["Melanie"]}
+{"turn_id": "D12:9", "facts": [], "keywords": ["happiness"], "entities": ["Caroline"]}
+{"turn_id": "D12:10", "facts": [], "keywords": ["happiness"], "entities": ["Melanie"]}
+{"turn_id": "D12:11", "facts": [], "keywords": ["gratitude"], "entities": ["Caroline"]}
+{"turn_id": "D12:12", "facts": [], "keywords": ["friendship"], "entities": ["Melanie"]}
+{"turn_id": "D12:13", "facts": [], "keywords": ["friendship"], "entities": ["Caroline"]}
+{"turn_id": "D12:14", "facts": [], "keywords": ["friendship"], "entities": ["Melanie"]}
+{"turn_id": "D12:15", "facts": ["Caroline said she and Melanie had a blast at a Pride fest together in 2022 (the year before this 2023-08-17 conversation)."], "keywords": ["pride fest", "friendship", "memory"], "entities": ["Caroline", "Melanie"]}
+{"turn_id": "D12:16", "facts": [], "keywords": ["family outing"], "entities": ["Melanie"]}
+{"turn_id": "D12:17", "facts": ["Caroline suggested she and Melanie plan a just-the-two-of-them outing in nature for summer 2023."], "keywords": ["plans", "nature outing", "friendship"], "entities": ["Caroline", "Melanie"]}
+{"turn_id": "D12:18", "facts": [], "keywords": ["plans"], "entities": ["Melanie"]}
+{"turn_id": "D12:19", "facts": [], "keywords": ["plans"], "entities": ["Caroline"]}
+{"turn_id": "D12:20", "facts": [], "keywords": ["plans"], "entities": ["Melanie"]}
+{"turn_id": "D12:21", "facts": [], "keywords": ["memories"], "entities": ["Caroline"]}
+{"turn_id": "D13:1", "facts": ["On 2023-08-23, Caroline said she applied to adoption agencies that week, taking her first concrete step toward becoming a mom.", "Caroline said she attended an adoption advice/assistance group that was helpful."], "keywords": ["adoption", "application", "support group"], "entities": ["Caroline"]}
+{"turn_id": "D13:2", "facts": [], "keywords": ["pets"], "entities": ["Melanie"]}
+{"turn_id": "D13:3", "facts": ["Caroline said she has a pet guinea pig named Oscar."], "keywords": ["oscar", "guinea pig", "pet"], "entities": ["Caroline", "Oscar"]}
+{"turn_id": "D13:4", "facts": ["Melanie said she got another cat named Bailey, in addition to her dog Oliver."], "keywords": ["bailey", "cat", "pets"], "entities": ["Melanie", "Bailey"]}
+{"turn_id": "D13:5", "facts": ["Caroline said her guinea pig Oscar's favorite food is vegetables, especially parsley."], "keywords": ["oscar", "guinea pig", "food"], "entities": ["Caroline", "Oscar"]}
+{"turn_id": "D13:6", "facts": ["Melanie said her dog Oliver once hid his bone in her slipper.", "Melanie said she once got to feed a horse a carrot."], "keywords": ["oliver", "dog", "horse", "funny moment"], "entities": ["Melanie", "Oliver"]}
+{"turn_id": "D13:7", "facts": ["Caroline said she used to go horseback riding with her dad as a child and has always loved horses."], "keywords": ["horseback riding", "childhood", "father", "horses"], "entities": ["Caroline"]}
+{"turn_id": "D13:8", "facts": ["Melanie shared a recent painting of a horse she made on a wooden wall."], "keywords": ["horse painting", "art"], "entities": ["Melanie"]}
+{"turn_id": "D13:9", "facts": [], "keywords": ["painting"], "entities": ["Caroline"]}
+{"turn_id": "D13:10", "facts": [], "keywords": ["painting", "horses"], "entities": ["Melanie"]}
+{"turn_id": "D13:11", "facts": ["On 2023-08-23, Caroline shared a self-portrait painting with a blue face that she made the previous week (around 2023-08-16)."], "keywords": ["self-portrait", "painting", "art"], "entities": ["Caroline"]}
+{"turn_id": "D13:12", "facts": [], "keywords": ["self-portrait"], "entities": ["Melanie"]}
+{"turn_id": "D13:13", "facts": ["Caroline said painting her self-portrait made her feel liberated and empowered, and that painting helps her explore her identity."], "keywords": ["self-portrait", "liberation", "identity", "therapeutic"], "entities": ["Caroline"]}
+{"turn_id": "D13:14", "facts": [], "keywords": ["self-discovery"], "entities": ["Melanie"]}
+{"turn_id": "D13:15", "facts": [], "keywords": ["freedom", "authenticity", "lgbtq rights"], "entities": ["Caroline"]}
+{"turn_id": "D13:16", "facts": [], "keywords": ["adoption", "encouragement"], "entities": ["Melanie"]}
+{"turn_id": "D13:17", "facts": [], "keywords": ["farewell"], "entities": ["Caroline"]}
+{"turn_id": "D13:18", "facts": [], "keywords": ["farewell"], "entities": ["Melanie"]}
+{"turn_id": "D14:1", "facts": ["On 2023-08-25, Caroline said she went hiking the previous week (around 2023-08-18) and had a conflict with some people, which she then tried to apologize for."], "keywords": ["hiking", "conflict", "apology"], "entities": ["Caroline"]}
+{"turn_id": "D14:2", "facts": ["Melanie shared a photo of a plate decorated with flowers."], "keywords": ["plate", "pottery", "flowers"], "entities": ["Melanie"]}
+{"turn_id": "D14:3", "facts": [], "keywords": ["plate"], "entities": ["Caroline"]}
+{"turn_id": "D14:4", "facts": ["On 2023-08-25, Melanie said she made a flower-decorated plate in pottery class the previous day (2023-08-24)."], "keywords": ["pottery class", "plate"], "entities": ["Melanie"]}
+{"turn_id": "D14:5", "facts": ["Caroline said she has not tried pottery and has been busy painting instead."], "keywords": ["painting", "sunset"], "entities": ["Caroline"]}
+{"turn_id": "D14:6", "facts": [], "keywords": ["painting"], "entities": ["Melanie"]}
+{"turn_id": "D14:7", "facts": ["On 2023-08-25, Caroline said she visited the beach the previous week (around 2023-08-18) and painted a sunset-over-the-ocean piece inspired by that visit."], "keywords": ["beach", "sunset painting", "inspiration"], "entities": ["Caroline"]}
+{"turn_id": "D14:8", "facts": [], "keywords": ["art appreciation"], "entities": ["Melanie"]}
+{"turn_id": "D14:9", "facts": [], "keywords": ["gratitude"], "entities": ["Caroline"]}
+{"turn_id": "D14:10", "facts": ["On 2023-08-25, Melanie said she and her family volunteered at a homeless shelter the previous day (2023-08-24)."], "keywords": ["volunteering", "homeless shelter", "family"], "entities": ["Melanie"]}
+{"turn_id": "D14:11", "facts": [], "keywords": ["volunteering", "encouragement"], "entities": ["Caroline"]}
+{"turn_id": "D14:12", "facts": [], "keywords": ["transition", "transgender community"], "entities": ["Melanie"]}
+{"turn_id": "D14:13", "facts": ["Caroline said finding an accepting, loving, and supportive community made a huge difference in her transition journey."], "keywords": ["community", "transition", "acceptance"], "entities": ["Caroline"]}
+{"turn_id": "D14:14", "facts": [], "keywords": ["community"], "entities": ["Melanie"]}
+{"turn_id": "D14:15", "facts": ["Caroline said a rainbow flag mural with an eagle is special to her because it symbolizes the courage, strength, freedom, and resilience of the trans community."], "keywords": ["rainbow flag mural", "eagle", "symbolism"], "entities": ["Caroline"]}
+{"turn_id": "D14:16", "facts": [], "keywords": ["courage"], "entities": ["Melanie"]}
+{"turn_id": "D14:17", "facts": ["Caroline said she made a stained glass window artwork to remind herself and others that everyone holds the key to discovering their true potential."], "keywords": ["stained glass", "art", "symbolism"], "entities": ["Caroline"]}
+{"turn_id": "D14:18", "facts": [], "keywords": ["stained glass"], "entities": ["Melanie"]}
+{"turn_id": "D14:19", "facts": ["Caroline said she made the stained glass window for a local church to depict her own journey as a transgender woman and the theme of accepting growth and change."], "keywords": ["stained glass", "church", "transgender journey"], "entities": ["Caroline"]}
+{"turn_id": "D14:20", "facts": [], "keywords": ["admiration"], "entities": ["Melanie"]}
+{"turn_id": "D14:21", "facts": [], "keywords": ["togetherness", "art"], "entities": ["Caroline"]}
+{"turn_id": "D14:22", "facts": [], "keywords": ["rainbow sidewalk"], "entities": ["Melanie"]}
+{"turn_id": "D14:23", "facts": ["Caroline said she found a rainbow-painted sidewalk for Pride Month in her neighborhood and took a picture of it."], "keywords": ["rainbow sidewalk", "pride month", "neighborhood"], "entities": ["Caroline"]}
+{"turn_id": "D14:24", "facts": [], "keywords": ["art", "acceptance"], "entities": ["Melanie"]}
+{"turn_id": "D14:25", "facts": ["Caroline said she saw someone drawing on the ground recently, which made her happy."], "keywords": ["street art", "mood", "creativity"], "entities": ["Caroline"]}
+{"turn_id": "D14:26", "facts": [], "keywords": ["art appreciation"], "entities": ["Melanie"]}
+{"turn_id": "D14:27", "facts": [], "keywords": ["art", "joy"], "entities": ["Caroline"]}
+{"turn_id": "D14:28", "facts": [], "keywords": ["drawing"], "entities": ["Melanie"]}
+{"turn_id": "D14:29", "facts": ["Caroline said drawing flowers is one of her favorite art activities."], "keywords": ["drawing flowers", "art", "nature"], "entities": ["Caroline"]}
+{"turn_id": "D14:30", "facts": ["Melanie said her favorite type of art is painting landscapes and still life."], "keywords": ["landscapes", "still life", "painting", "favorite"], "entities": ["Melanie"]}
+{"turn_id": "D14:31", "facts": [], "keywords": ["paintings"], "entities": ["Caroline"]}
+{"turn_id": "D14:32", "facts": [], "keywords": ["autumn", "art plans"], "entities": ["Melanie"]}
+{"turn_id": "D14:33", "facts": ["On 2023-08-25, Caroline said she was putting together an LGBTQ art show planned for the following month (around September 2023) to show her paintings."], "keywords": ["lgbtq art show", "paintings", "event planning"], "entities": ["Caroline"]}
+{"turn_id": "D14:34", "facts": [], "keywords": ["art show", "encouragement"], "entities": ["Melanie"]}
+{"turn_id": "D14:35", "facts": ["Caroline said her LGBTQ art show would feature multiple LGBTQ artists and aims to spread understanding and acceptance."], "keywords": ["lgbtq artists", "art show", "acceptance"], "entities": ["Caroline"]}
+{"turn_id": "D15:1", "facts": [], "keywords": ["greeting"], "entities": ["Caroline"]}
+{"turn_id": "D15:2", "facts": ["On 2023-08-28, Melanie said she took her kids to a park the previous day (2023-08-27) and they had fun playing outdoors."], "keywords": ["park", "kids", "outdoors"], "entities": ["Melanie"]}
+{"turn_id": "D15:3", "facts": ["Caroline said she volunteered at an LGBTQ+ youth center and found it gratifying to talk to young people there."], "keywords": ["lgbtq youth center", "volunteering", "kindness"], "entities": ["Caroline"]}
+{"turn_id": "D15:4", "facts": [], "keywords": ["volunteering"], "entities": ["Melanie"]}
+{"turn_id": "D15:5", "facts": [], "keywords": ["youth center", "support", "fulfillment"], "entities": ["Caroline"]}
+{"turn_id": "D15:6", "facts": [], "keywords": ["connection"], "entities": ["Melanie"]}
+{"turn_id": "D15:7", "facts": [], "keywords": ["personal struggles", "support"], "entities": ["Caroline"]}
+{"turn_id": "D15:8", "facts": [], "keywords": ["future plans"], "entities": ["Melanie"]}
+{"turn_id": "D15:9", "facts": ["Caroline said she planned to continue volunteering at the LGBTQ+ youth center, calling it an important part of her life."], "keywords": ["volunteering", "youth center", "commitment"], "entities": ["Caroline"]}
+{"turn_id": "D15:10", "facts": [], "keywords": ["projects"], "entities": ["Melanie"]}
+{"turn_id": "D15:11", "facts": ["On 2023-08-28, Caroline said the youth center was putting together a talent show for the kids planned for the following month (around September 2023)."], "keywords": ["talent show", "youth center", "kids"], "entities": ["Caroline"]}
+{"turn_id": "D15:12", "facts": [], "keywords": ["music", "encouragement"], "entities": ["Melanie"]}
+{"turn_id": "D15:13", "facts": [], "keywords": ["band"], "entities": ["Caroline"]}
+{"turn_id": "D15:14", "facts": ["Melanie said she went to a concert that reminded her of how music brings people together."], "keywords": ["concert", "music", "togetherness"], "entities": ["Melanie"]}
+{"turn_id": "D15:15", "facts": [], "keywords": ["band"], "entities": ["Caroline"]}
+{"turn_id": "D15:16", "facts": ["Melanie said the band she saw was called \"Summer Sounds\"."], "keywords": ["summer sounds", "band", "concert"], "entities": ["Melanie", "Summer Sounds"]}
+{"turn_id": "D15:17", "facts": ["Caroline said playing and singing music lets her express herself and connect with others."], "keywords": ["music", "self-expression"], "entities": ["Caroline"]}
+{"turn_id": "D15:18", "facts": [], "keywords": ["music"], "entities": ["Melanie"]}
+{"turn_id": "D15:19", "facts": ["Caroline said playing guitar is mostly her thing and helps her release her emotions."], "keywords": ["guitar", "music", "emotions"], "entities": ["Caroline"]}
+{"turn_id": "D15:20", "facts": [], "keywords": ["guitar"], "entities": ["Melanie"]}
+{"turn_id": "D15:21", "facts": ["Caroline said she started playing acoustic guitar about five years before 2023-08-28 (around 2018)."], "keywords": ["acoustic guitar", "music", "self-expression"], "entities": ["Caroline"]}
+{"turn_id": "D15:22", "facts": [], "keywords": ["music meaning"], "entities": ["Melanie"]}
+{"turn_id": "D15:23", "facts": ["Caroline said the song \"Brave\" by Sara Bareilles has deep significance to her, reminding her of the courageous path she has taken."], "keywords": ["brave", "sara bareilles", "song meaning"], "entities": ["Caroline", "Brave", "Sara Bareilles"]}
+{"turn_id": "D15:24", "facts": [], "keywords": ["music", "inspiration"], "entities": ["Melanie"]}
+{"turn_id": "D15:25", "facts": [], "keywords": ["instruments"], "entities": ["Caroline"]}
+{"turn_id": "D15:26", "facts": ["Melanie said she plays the clarinet, having started when she was young."], "keywords": ["clarinet", "music", "childhood"], "entities": ["Melanie"]}
+{"turn_id": "D15:27", "facts": [], "keywords": ["favorite songs"], "entities": ["Caroline"]}
+{"turn_id": "D15:28", "facts": ["Melanie said she likes both classical music (Bach and Mozart) and modern music like Ed Sheeran's \"Perfect\"."], "keywords": ["bach", "mozart", "ed sheeran", "music taste"], "entities": ["Melanie", "Bach", "Mozart", "Ed Sheeran", "Perfect"]}
+{"turn_id": "D16:1", "facts": ["On 2023-09-13, Caroline said she went biking with friends the previous weekend (around 2023-09-09)."], "keywords": ["biking", "friends", "weekend"], "entities": ["Caroline"]}
+{"turn_id": "D16:2", "facts": ["On 2023-09-13, Melanie said she went camping with her kids a few weeks earlier (around late August 2023), exploring the forest and hiking."], "keywords": ["camping", "forest", "hiking", "kids"], "entities": ["Melanie"]}
+{"turn_id": "D16:3", "facts": [], "keywords": ["nature", "fall"], "entities": ["Caroline"]}
+{"turn_id": "D16:4", "facts": [], "keywords": ["campfire", "family memories"], "entities": ["Melanie"]}
+{"turn_id": "D16:5", "facts": [], "keywords": ["volunteering inspiration", "lgbtq community"], "entities": ["Caroline"]}
+{"turn_id": "D16:6", "facts": [], "keywords": ["art"], "entities": ["Melanie"]}
+{"turn_id": "D16:7", "facts": ["Caroline said she has been creating art since she was around 17 years old."], "keywords": ["art history", "empowerment"], "entities": ["Caroline"]}
+{"turn_id": "D16:8", "facts": ["On 2023-09-13, Melanie said she has been doing art for seven years (since around 2016), with painting and pottery as her main mediums."], "keywords": ["art history", "painting", "pottery"], "entities": ["Melanie"]}
+{"turn_id": "D16:9", "facts": ["Caroline said painting and drawing helped her explore her gender identity and were important to her during her transition."], "keywords": ["art", "gender identity", "transition"], "entities": ["Caroline"]}
+{"turn_id": "D16:10", "facts": [], "keywords": ["therapy", "art"], "entities": ["Melanie"]}
+{"turn_id": "D16:11", "facts": [], "keywords": ["painting", "red and blue"], "entities": ["Caroline"]}
+{"turn_id": "D16:12", "facts": [], "keywords": ["painting"], "entities": ["Melanie"]}
+{"turn_id": "D16:13", "facts": ["Caroline said she made a red-and-blue painting symbolizing the binary gender system and smashing rigid thinking about it, as a reminder to love her authentic self."], "keywords": ["painting symbolism", "gender binary", "authenticity"], "entities": ["Caroline"]}
+{"turn_id": "D16:14", "facts": [], "keywords": ["relationships"], "entities": ["Melanie"]}
+{"turn_id": "D16:15", "facts": ["Caroline said her transition changed her relationships - some friends stayed supportive while a few could not handle it, leaving her relationships feeling more genuine now."], "keywords": ["relationships", "transition", "friendship"], "entities": ["Caroline"]}
+{"turn_id": "D16:16", "facts": ["On 2023-09-13, Melanie said she had a good time at a café the previous weekend (around 2023-09-09)."], "keywords": ["cafe", "weekend"], "entities": ["Melanie"]}
+{"turn_id": "D16:17", "facts": [], "keywords": ["sign"], "entities": ["Caroline"]}
+{"turn_id": "D16:18", "facts": [], "keywords": ["reassurance"], "entities": ["Melanie"]}
+{"turn_id": "D16:19", "facts": [], "keywords": ["relief"], "entities": ["Caroline"]}
+{"turn_id": "D16:20", "facts": [], "keywords": ["joy"], "entities": ["Melanie"]}
+{"turn_id": "D17:1", "facts": ["On 2023-10-13, Caroline said she contacted her mentor for adoption advice, feeling ready to become a mom."], "keywords": ["adoption", "mentor", "motherhood"], "entities": ["Caroline"]}
+{"turn_id": "D17:2", "facts": [], "keywords": ["congratulations"], "entities": ["Melanie"]}
+{"turn_id": "D17:3", "facts": [], "keywords": ["adoption dream"], "entities": ["Caroline"]}
+{"turn_id": "D17:4", "facts": ["Melanie said a friend of hers adopted a child in 2022 (the year before this 2023-10-13 conversation) after a long process, and that this made her consider adoption herself."], "keywords": ["adoption", "friend", "considering"], "entities": ["Melanie"]}
+{"turn_id": "D17:5", "facts": [], "keywords": ["encouragement", "adoption"], "entities": ["Caroline"]}
+{"turn_id": "D17:6", "facts": [], "keywords": ["adoption tips"], "entities": ["Melanie"]}
+{"turn_id": "D17:7", "facts": ["Caroline advised Melanie to research adoption agencies or lawyers, gather documents, and prepare emotionally for the adoption process."], "keywords": ["adoption advice", "process"], "entities": ["Caroline"]}
+{"turn_id": "D17:8", "facts": ["On 2023-10-13, Melanie said she got hurt the previous month (around September 2023) and had to take a break from pottery."], "keywords": ["injury", "pottery break", "setback"], "entities": ["Melanie"]}
+{"turn_id": "D17:9", "facts": [], "keywords": ["concern"], "entities": ["Caroline"]}
+{"turn_id": "D17:10", "facts": ["Melanie said she has been reading a book Caroline recommended and painting to keep busy while recovering from her injury."], "keywords": ["reading", "painting", "recovery"], "entities": ["Melanie", "Caroline"]}
+{"turn_id": "D17:11", "facts": [], "keywords": ["creative outlets"], "entities": ["Caroline"]}
+{"turn_id": "D17:12", "facts": ["On 2023-10-13, Melanie shared a sunset painting with a pink sky she made the previous week (around 2023-10-06), inspired by sunsets."], "keywords": ["sunset painting", "calm"], "entities": ["Melanie"]}
+{"turn_id": "D17:13", "facts": ["Caroline said she has recently been trying abstract painting, finding it freeing to put her feelings on canvas without much of a plan."], "keywords": ["abstract painting", "self-expression"], "entities": ["Caroline"]}
+{"turn_id": "D17:14", "facts": ["Melanie shared an abstract painting with a blue background that she made."], "keywords": ["abstract painting", "blue"], "entities": ["Melanie"]}
+{"turn_id": "D17:15", "facts": [], "keywords": ["abstract art"], "entities": ["Caroline"]}
+{"turn_id": "D17:16", "facts": ["Melanie said blue calms her and she wanted her abstract painting to convey tranquility."], "keywords": ["blue", "tranquility", "painting meaning"], "entities": ["Melanie"]}
+{"turn_id": "D17:17", "facts": ["On 2023-10-13, Caroline said she went to a powerful poetry reading the previous Friday (around 2023-10-06)."], "keywords": ["poetry reading", "event"], "entities": ["Caroline"]}
+{"turn_id": "D17:18", "facts": [], "keywords": ["poetry"], "entities": ["Melanie"]}
+{"turn_id": "D17:19", "facts": ["Caroline said the poetry reading she attended was a transgender poetry reading where trans people shared their stories, which felt empowering."], "keywords": ["transgender poetry reading", "empowerment", "identity"], "entities": ["Caroline"]}
+{"turn_id": "D17:20", "facts": [], "keywords": ["event"], "entities": ["Melanie"]}
+{"turn_id": "D17:21", "facts": ["Caroline said the poetry reading inspired her to make a new drawing of a woman in a dress."], "keywords": ["inspiration", "drawing"], "entities": ["Caroline"]}
+{"turn_id": "D17:22", "facts": [], "keywords": ["drawing meaning"], "entities": ["Melanie"]}
+{"turn_id": "D17:23", "facts": ["Caroline said her drawing of a woman in a dress stands for freedom, authenticity, and embracing her womanhood."], "keywords": ["drawing symbolism", "womanhood", "authenticity"], "entities": ["Caroline"]}
+{"turn_id": "D17:24", "facts": [], "keywords": ["authenticity"], "entities": ["Melanie"]}
+{"turn_id": "D17:25", "facts": [], "keywords": ["growth"], "entities": ["Caroline"]}
+{"turn_id": "D17:26", "facts": [], "keywords": ["friendship"], "entities": ["Melanie"]}
+{"turn_id": "D18:1", "facts": ["On 2023-10-20, Melanie said her son was in a car accident during a family road trip the previous weekend (around 2023-10-14) but was okay."], "keywords": ["car accident", "son", "road trip", "scare"], "entities": ["Melanie"]}
+{"turn_id": "D18:2", "facts": [], "keywords": ["sympathy"], "entities": ["Caroline"]}
+{"turn_id": "D18:3", "facts": [], "keywords": ["accident", "relief"], "entities": ["Melanie"]}
+{"turn_id": "D18:4", "facts": [], "keywords": ["family"], "entities": ["Caroline"]}
+{"turn_id": "D18:5", "facts": ["Melanie said her family visited the Grand Canyon during their road trip and her kids enjoyed it a lot."], "keywords": ["grand canyon", "road trip", "kids"], "entities": ["Melanie", "Grand Canyon"]}
+{"turn_id": "D18:6", "facts": [], "keywords": ["kids"], "entities": ["Caroline"]}
+{"turn_id": "D18:7", "facts": [], "keywords": ["kids resilience"], "entities": ["Melanie"]}
+{"turn_id": "D18:8", "facts": [], "keywords": ["resilience"], "entities": ["Caroline"]}
+{"turn_id": "D18:9", "facts": [], "keywords": ["strength"], "entities": ["Melanie"]}
+{"turn_id": "D18:10", "facts": [], "keywords": ["strength"], "entities": ["Caroline"]}
+{"turn_id": "D18:11", "facts": [], "keywords": ["motivation"], "entities": ["Melanie"]}
+{"turn_id": "D18:12", "facts": [], "keywords": ["family love"], "entities": ["Caroline"]}
+{"turn_id": "D18:13", "facts": [], "keywords": ["gratitude"], "entities": ["Melanie"]}
+{"turn_id": "D18:14", "facts": [], "keywords": ["support"], "entities": ["Caroline"]}
+{"turn_id": "D18:15", "facts": ["Melanie shared a photo of herself and one of her children walking on a trail."], "keywords": ["family", "trail", "support"], "entities": ["Melanie"]}
+{"turn_id": "D18:16", "facts": [], "keywords": ["photo"], "entities": ["Caroline"]}
+{"turn_id": "D18:17", "facts": ["On 2023-10-20, Melanie said she took her kids on a trail walk the previous day (2023-10-19) to relax after their road trip."], "keywords": ["trail walk", "relaxation"], "entities": ["Melanie"]}
+{"turn_id": "D18:18", "facts": [], "keywords": ["nature"], "entities": ["Caroline"]}
+{"turn_id": "D18:19", "facts": [], "keywords": ["camping", "nature", "peace"], "entities": ["Melanie"]}
+{"turn_id": "D18:20", "facts": [], "keywords": ["camping"], "entities": ["Caroline"]}
+{"turn_id": "D18:21", "facts": [], "keywords": ["camping", "bonding", "peace"], "entities": ["Melanie"]}
+{"turn_id": "D18:22", "facts": [], "keywords": ["tranquility"], "entities": ["Caroline"]}
+{"turn_id": "D18:23", "facts": [], "keywords": ["quality time"], "entities": ["Melanie"]}
+{"turn_id": "D18:24", "facts": [], "keywords": ["gratitude"], "entities": ["Caroline"]}
+{"turn_id": "D19:1", "facts": ["On 2023-10-22, Caroline said she passed her adoption agency interviews the previous Friday (around 2023-10-20), a big step toward her goal of having a family."], "keywords": ["adoption interview", "milestone", "family goal"], "entities": ["Caroline"]}
+{"turn_id": "D19:2", "facts": ["On 2023-10-22, Melanie said she bought wooden figurines the previous day (2023-10-21) that remind her of family love."], "keywords": ["figurines", "family love"], "entities": ["Melanie"]}
+{"turn_id": "D19:3", "facts": [], "keywords": ["adoption philosophy", "family vision"], "entities": ["Caroline"]}
+{"turn_id": "D19:4", "facts": [], "keywords": ["encouragement"], "entities": ["Melanie"]}
+{"turn_id": "D19:5", "facts": [], "keywords": ["dream", "safe home"], "entities": ["Caroline"]}
+{"turn_id": "D19:6", "facts": [], "keywords": ["agreement"], "entities": ["Melanie"]}
+{"turn_id": "D19:7", "facts": [], "keywords": ["self-acceptance", "empowerment"], "entities": ["Caroline"]}
+{"turn_id": "D19:8", "facts": [], "keywords": ["respect"], "entities": ["Melanie"]}
+{"turn_id": "D19:9", "facts": [], "keywords": ["gratitude", "support", "transition"], "entities": ["Caroline"]}
+{"turn_id": "D19:10", "facts": [], "keywords": ["encouragement"], "entities": ["Melanie"]}
+{"turn_id": "D19:11", "facts": [], "keywords": ["gratitude"], "entities": ["Caroline"]}
+{"turn_id": "D19:12", "facts": [], "keywords": ["support"], "entities": ["Melanie"]}
+{"turn_id": "D19:13", "facts": [], "keywords": ["gratitude"], "entities": ["Caroline"]}
+{"turn_id": "D19:14", "facts": [], "keywords": ["support"], "entities": ["Melanie"]}
+{"turn_id": "D19:15", "facts": ["Caroline shared a photo of a painting with the word \"happiness\" painted on it."], "keywords": ["painting", "happiness", "self-acceptance"], "entities": ["Caroline"]}

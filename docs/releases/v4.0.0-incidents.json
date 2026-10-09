@@ -1,0 +1,20 @@
+{
+  "imported_package": "extracted published wheel / memory_os_v4/__init__.py",
+  "purpose": "historical reproduction; true indicates an incident exists",
+  "incidents": {
+    "cross_project_exact_dedup": {
+      "reproduced": true,
+      "alpha_added": 1,
+      "beta_added": 0,
+      "beta_deduped_to_alpha": true
+    },
+    "cross_project_consolidation": {
+      "reproduced": true,
+      "alpha_invalidated_by_beta": true
+    },
+    "unscoped_block_in_project_brief": {
+      "reproduced": true,
+      "beta_receives_unscoped_block": true
+    }
+  }
+}

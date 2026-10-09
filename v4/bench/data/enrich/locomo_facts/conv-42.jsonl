@@ -1,0 +1,629 @@
+{"turn_id": "D1:1", "facts": [], "keywords": ["greeting", "catching up"], "entities": ["Nate", "Joanna"]}
+{"turn_id": "D1:2", "facts": ["Joanna said she has been working on a project lately that she finds pretty cool, as of 2022-01-21."], "keywords": ["project", "hobbies", "work"], "entities": ["Joanna"]}
+{"turn_id": "D1:3", "facts": ["Nate said he won his first video game tournament in the week before 2022-01-21 (around mid-January 2022)."], "keywords": ["video games", "tournament", "competition", "achievement"], "entities": ["Nate"]}
+{"turn_id": "D1:4", "facts": [], "keywords": ["video games", "question"], "entities": ["Nate"]}
+{"turn_id": "D1:5", "facts": ["Nate said the game he won a tournament in is a team shooter game."], "keywords": ["video games", "team shooter"], "entities": ["Nate"]}
+{"turn_id": "D1:6", "facts": [], "keywords": ["video games", "question"], "entities": []}
+{"turn_id": "D1:7", "facts": ["Nate said the video game he won a tournament in was Counter-Strike: Global Offensive.", "Nate said he and his team had a great time playing until the very end of the tournament."], "keywords": ["video games", "counter-strike", "tournament", "team"], "entities": ["Nate", "Counter-Strike: Global Offensive"]}
+{"turn_id": "D1:8", "facts": ["Joanna said she is not into video games."], "keywords": ["video games", "preferences"], "entities": ["Joanna"]}
+{"turn_id": "D1:9", "facts": [], "keywords": ["hobbies", "question"], "entities": ["Nate"]}
+{"turn_id": "D1:10", "facts": ["Joanna said her hobbies include writing, reading, watching movies, and exploring nature."], "keywords": ["hobbies", "writing", "reading", "movies", "nature"], "entities": ["Joanna"]}
+{"turn_id": "D1:11", "facts": ["Nate said his main hobbies are playing video games and watching movies."], "keywords": ["hobbies", "video games", "movies"], "entities": ["Nate"]}
+{"turn_id": "D1:12", "facts": [], "keywords": ["hobbies", "movies", "question"], "entities": []}
+{"turn_id": "D1:13", "facts": ["Nate said his favorite movie genres are action and sci-fi."], "keywords": ["movies", "genres", "preferences"], "entities": ["Nate"]}
+{"turn_id": "D1:14", "facts": ["Joanna said her favorite movie genres are dramas and romantic comedies."], "keywords": ["movies", "genres", "preferences"], "entities": ["Joanna"]}
+{"turn_id": "D1:15", "facts": [], "keywords": ["movies", "question"], "entities": ["Nate"]}
+{"turn_id": "D1:16", "facts": ["Joanna recommended a romantic drama movie about memory and relationships to Nate."], "keywords": ["movies", "recommendation", "romance", "drama"], "entities": ["Joanna", "Nate"]}
+{"turn_id": "D1:17", "facts": ["Nate said he loves watching classic movies."], "keywords": ["movies", "classics", "preferences"], "entities": ["Nate"]}
+{"turn_id": "D1:18", "facts": ["Joanna said she first watched the romantic drama movie she recommended around 2019 (about 3 years before 2022-01-21).", "Joanna said she bought a physical DVD copy of the romantic drama movie."], "keywords": ["movies", "dvd", "memory"], "entities": ["Joanna"]}
+{"turn_id": "D1:19", "facts": [], "keywords": ["movies", "question"], "entities": ["Nate"]}
+{"turn_id": "D1:20", "facts": ["Joanna said the romantic drama movie is one of her favorite movies and she has watched it a few times.", "Joanna said she likes the idea and the acting in the romantic drama movie."], "keywords": ["movies", "favorites", "acting"], "entities": ["Joanna"]}
+{"turn_id": "D1:21", "facts": [], "keywords": ["movies", "thanks"], "entities": ["Nate"]}
+{"turn_id": "D1:22", "facts": [], "keywords": ["farewell"], "entities": ["Joanna"]}
+{"turn_id": "D2:1", "facts": [], "keywords": ["catching up", "greeting"], "entities": ["Joanna", "Nate"]}
+{"turn_id": "D2:2", "facts": [], "keywords": ["greeting", "question"], "entities": ["Nate"]}
+{"turn_id": "D2:3", "facts": ["Joanna said she finished writing her first full screenplay and printed it on Friday, 2022-01-21 (the Friday before 2022-01-23)."], "keywords": ["screenplay", "writing", "achievement"], "entities": ["Joanna"]}
+{"turn_id": "D2:4", "facts": [], "keywords": ["screenplay", "question"], "entities": ["Nate"]}
+{"turn_id": "D2:5", "facts": ["Joanna said her screenplay is a mix of drama and romance genres."], "keywords": ["screenplay", "genres", "drama", "romance"], "entities": ["Joanna"]}
+{"turn_id": "D2:6", "facts": [], "keywords": ["screenplay", "question"], "entities": ["Nate"]}
+{"turn_id": "D2:7", "facts": ["Joanna said she felt a mix of relief, excitement, and anxiety after finishing her screenplay, as of 2022-01-23.", "Joanna said she plans to submit her screenplay to film festivals to try to get producers and directors interested in it."], "keywords": ["screenplay", "film festival", "emotions", "plans"], "entities": ["Joanna"]}
+{"turn_id": "D2:8", "facts": [], "keywords": ["encouragement", "screenplay"], "entities": ["Nate"]}
+{"turn_id": "D2:9", "facts": [], "keywords": ["emotions", "thanks"], "entities": ["Joanna"]}
+{"turn_id": "D2:10", "facts": ["Nate said he has pet turtles that help keep him calm during stressful and important times."], "keywords": ["pets", "turtles", "stress relief"], "entities": ["Nate"]}
+{"turn_id": "D2:11", "facts": [], "keywords": ["pets", "question"], "entities": ["Joanna"]}
+{"turn_id": "D2:12", "facts": ["Nate said he has had his pet turtles for 3 years as of 2022-01-23 (since around 2019)."], "keywords": ["pets", "turtles"], "entities": ["Nate"]}
+{"turn_id": "D2:13", "facts": [], "keywords": ["pets", "compliment"], "entities": ["Joanna"]}
+{"turn_id": "D2:14", "facts": ["Nate recommended having pets like turtles to help cope with times of stress.", "Nate said his turtles are small but have big personalities."], "keywords": ["pets", "turtles", "stress relief", "recommendation"], "entities": ["Nate"]}
+{"turn_id": "D2:15", "facts": ["Joanna said she might get pets of her own soon if she can find ones she isn't allergic to."], "keywords": ["pets", "allergies", "plans"], "entities": ["Joanna"]}
+{"turn_id": "D2:16", "facts": ["Nate said he started hanging out with people outside his usual circle whom he met at the gaming tournament."], "keywords": ["friends", "gaming tournament", "socializing"], "entities": ["Nate"]}
+{"turn_id": "D2:17", "facts": [], "keywords": ["friends", "question"], "entities": ["Joanna"]}
+{"turn_id": "D2:18", "facts": ["Nate said he prefers to stick with the more laid-back people among his new tournament friends because some others are very competitive."], "keywords": ["friends", "competition", "gaming tournament"], "entities": ["Nate"]}
+{"turn_id": "D2:19", "facts": [], "keywords": ["question", "sportsmanship"], "entities": ["Joanna"]}
+{"turn_id": "D2:20", "facts": ["Nate said he plays in gaming tournaments just for fun and does not expect to win big."], "keywords": ["gaming tournament", "attitude", "fun"], "entities": ["Nate"]}
+{"turn_id": "D2:21", "facts": ["Joanna said she has bad allergies that make her face puffy and itchy when she is around certain animals."], "keywords": ["allergies", "health"], "entities": ["Joanna"]}
+{"turn_id": "D2:22", "facts": [], "keywords": ["allergies", "question"], "entities": ["Nate"]}
+{"turn_id": "D2:23", "facts": ["Joanna said she is allergic to most reptiles and animals with fur."], "keywords": ["allergies", "reptiles", "pets", "health"], "entities": ["Joanna"]}
+{"turn_id": "D2:24", "facts": [], "keywords": ["joy", "question"], "entities": ["Nate"]}
+{"turn_id": "D2:25", "facts": ["Joanna said writing and spending time with friends bring her joy."], "keywords": ["writing", "friends", "joy"], "entities": ["Joanna"]}
+{"turn_id": "D2:26", "facts": [], "keywords": ["encouragement"], "entities": ["Nate"]}
+{"turn_id": "D2:27", "facts": ["Joanna said writing helps her create fictional worlds and characters and express her feelings.", "Joanna said she can't imagine her life without writing."], "keywords": ["writing", "creativity", "emotions"], "entities": ["Joanna"]}
+{"turn_id": "D2:28", "facts": [], "keywords": ["encouragement"], "entities": ["Nate"]}
+{"turn_id": "D2:29", "facts": [], "keywords": ["writing", "commitment"], "entities": ["Joanna"]}
+{"turn_id": "D3:1", "facts": ["On 2022-02-07, Joanna said the screenplay she submitted to a film festival was constantly on her mind and she felt a mix of relief, excitement, and worry about it."], "keywords": ["screenplay", "film festival", "emotions"], "entities": ["Joanna"]}
+{"turn_id": "D3:2", "facts": [], "keywords": ["encouragement", "screenplay"], "entities": ["Nate"]}
+{"turn_id": "D3:3", "facts": [], "keywords": ["screenplay", "question"], "entities": ["Joanna", "Nate"]}
+{"turn_id": "D3:4", "facts": ["On 2022-02-07, Nate said he discovered he could make coconut milk ice cream and tried making it for the first time, and it turned out pretty good."], "keywords": ["cooking", "ice cream", "coconut milk", "dairy-free"], "entities": ["Nate"]}
+{"turn_id": "D3:5", "facts": [], "keywords": ["ice cream", "question"], "entities": ["Joanna"]}
+{"turn_id": "D3:6", "facts": ["Nate said his coconut milk ice cream was rich and creamy and might be his new favorite snack."], "keywords": ["ice cream", "coconut milk", "food"], "entities": ["Nate"]}
+{"turn_id": "D3:7", "facts": [], "keywords": ["ice cream", "question"], "entities": ["Joanna"]}
+{"turn_id": "D3:8", "facts": ["Nate said he plans to try making coconut milk ice cream again with different flavors and toppings."], "keywords": ["ice cream", "cooking", "plans"], "entities": ["Nate"]}
+{"turn_id": "D3:9", "facts": [], "keywords": ["dairy-free", "question"], "entities": ["Joanna"]}
+{"turn_id": "D3:10", "facts": ["Nate said his favorite dairy-free dessert flavors are coconut milk, chocolate, and mixed berry."], "keywords": ["dairy-free", "dessert", "flavors", "preferences"], "entities": ["Nate"]}
+{"turn_id": "D3:11", "facts": ["Joanna said she is tempted to try dairy-free dessert flavors like chocolate and mixed berry."], "keywords": ["dairy-free", "dessert", "food"], "entities": ["Joanna"]}
+{"turn_id": "D3:12", "facts": ["Nate said he made a dairy-free chocolate cake topped with berries."], "keywords": ["baking", "cake", "dairy-free", "chocolate", "berries"], "entities": ["Nate"]}
+{"turn_id": "D3:13", "facts": ["Joanna said she would like to try one of Nate's desserts or visit him to try them herself."], "keywords": ["dessert", "visit", "friendship"], "entities": ["Joanna", "Nate"]}
+{"turn_id": "D3:14", "facts": [], "keywords": ["cooking", "hobbies"], "entities": ["Nate"]}
+{"turn_id": "D3:15", "facts": [], "keywords": ["cooking", "movies", "question"], "entities": ["Joanna"]}
+{"turn_id": "D3:16", "facts": [], "keywords": ["movies", "question"], "entities": ["Nate"]}
+{"turn_id": "D3:17", "facts": ["Joanna said she recently watched the movie \"Little Women\" and loved it, describing it as a story about sisterhood, love, and reaching for your dreams."], "keywords": ["movies", "little women", "recommendation"], "entities": ["Joanna", "Little Women"]}
+{"turn_id": "D3:18", "facts": [], "keywords": ["movies", "thanks"], "entities": ["Nate"]}
+{"turn_id": "D3:19", "facts": [], "keywords": ["movies", "recommendation"], "entities": ["Joanna"]}
+{"turn_id": "D3:20", "facts": [], "keywords": ["movies", "future plans"], "entities": ["Nate"]}
+{"turn_id": "D3:21", "facts": [], "keywords": ["movies", "farewell"], "entities": ["Joanna"]}
+{"turn_id": "D3:22", "facts": [], "keywords": ["farewell"], "entities": ["Nate"]}
+{"turn_id": "D3:23", "facts": [], "keywords": ["farewell"], "entities": ["Joanna"]}
+{"turn_id": "D3:24", "facts": [], "keywords": ["farewell"], "entities": ["Nate"]}
+{"turn_id": "D3:25", "facts": [], "keywords": ["farewell"], "entities": ["Joanna"]}
+{"turn_id": "D4:1", "facts": ["On 2022-02-25, Nate said he made ice cream for a friend and the friend loved it."], "keywords": ["ice cream", "friends", "cooking"], "entities": ["Nate"]}
+{"turn_id": "D4:2", "facts": [], "keywords": ["ice cream", "question"], "entities": ["Joanna"]}
+{"turn_id": "D4:3", "facts": ["Nate said he made a chocolate and vanilla swirl ice cream for his friend."], "keywords": ["ice cream", "chocolate", "vanilla", "cooking"], "entities": ["Nate"]}
+{"turn_id": "D4:4", "facts": ["Joanna said she can't have dairy.", "Joanna asked Nate if he had a dairy-free ice cream recipe she could try."], "keywords": ["dairy-free", "allergies", "ice cream", "recipe"], "entities": ["Joanna"]}
+{"turn_id": "D4:5", "facts": ["Nate offered to send Joanna a coconut milk based dairy-free ice cream recipe."], "keywords": ["ice cream", "recipe", "coconut milk"], "entities": ["Nate"]}
+{"turn_id": "D4:6", "facts": ["Joanna said she is keen to try Nate's dairy-free ice cream recipe."], "keywords": ["ice cream", "recipe", "dessert"], "entities": ["Joanna"]}
+{"turn_id": "D4:7", "facts": [], "keywords": ["dessert", "cooking"], "entities": ["Nate"]}
+{"turn_id": "D4:8", "facts": [], "keywords": ["compliment", "dessert"], "entities": ["Joanna"]}
+{"turn_id": "D4:9", "facts": [], "keywords": ["thanks", "baking"], "entities": ["Nate"]}
+{"turn_id": "D4:10", "facts": ["On 2022-02-25, Joanna said she started writing a second screenplay while waiting to hear back about her first one."], "keywords": ["screenplay", "writing", "second script"], "entities": ["Joanna"]}
+{"turn_id": "D4:11", "facts": [], "keywords": ["screenplay", "question"], "entities": ["Nate"]}
+{"turn_id": "D4:12", "facts": ["Joanna said her new screenplay is about a thirty-year-old woman on a journey of self-discovery after a loss."], "keywords": ["screenplay", "writing", "self-discovery", "loss"], "entities": ["Joanna"]}
+{"turn_id": "D4:13", "facts": [], "keywords": ["screenplay", "interest"], "entities": ["Nate"]}
+{"turn_id": "D4:14", "facts": ["Joanna said her new screenplay's main character deals with loss and identity, and goes on a road trip to heal and grow."], "keywords": ["screenplay", "plot", "road trip", "healing"], "entities": ["Joanna"]}
+{"turn_id": "D4:15", "facts": [], "keywords": ["screenplay", "question"], "entities": ["Nate"]}
+{"turn_id": "D4:16", "facts": ["Joanna said her new screenplay was inspired by her own personal experiences and journey of self-discovery."], "keywords": ["screenplay", "inspiration", "personal experience"], "entities": ["Joanna"]}
+{"turn_id": "D4:17", "facts": [], "keywords": ["encouragement", "screenplay"], "entities": ["Nate"]}
+{"turn_id": "D4:18", "facts": ["Joanna said she is hoping her first screenplay gets noticed and makes it to the screen."], "keywords": ["screenplay", "hope", "film"], "entities": ["Joanna"]}
+{"turn_id": "D4:19", "facts": [], "keywords": ["encouragement", "screenplay"], "entities": ["Nate"]}
+{"turn_id": "D5:1", "facts": ["On 2022-03-18, Joanna said she finished writing her second script and felt a mix of relief, anxiety, excitement, and terror about it getting noticed."], "keywords": ["screenplay", "second script", "emotions"], "entities": ["Joanna"]}
+{"turn_id": "D5:2", "facts": [], "keywords": ["encouragement", "screenplay"], "entities": ["Nate"]}
+{"turn_id": "D5:3", "facts": ["Joanna said she has been decompressing after finishing her second script but finds it hard to switch off, feeling a tug-of-war between hope and doubt."], "keywords": ["screenplay", "stress", "emotions"], "entities": ["Joanna"]}
+{"turn_id": "D5:4", "facts": ["Nate shared a photo of two tortoises and said walking them reminds him to enjoy the small stuff."], "keywords": ["turtles", "pets", "mindfulness"], "entities": ["Nate"]}
+{"turn_id": "D5:5", "facts": [], "keywords": ["pets", "question"], "entities": ["Joanna"]}
+{"turn_id": "D5:6", "facts": ["Nate said he is drawn to turtles because they are unique, low-maintenance, calming, and their slow pace is a nice change from the rush of life."], "keywords": ["turtles", "pets", "preferences"], "entities": ["Nate"]}
+{"turn_id": "D5:7", "facts": [], "keywords": ["pets", "question"], "entities": ["Joanna"]}
+{"turn_id": "D5:8", "facts": ["Nate said taking care of his turtles isn't tough - just keeping their area clean, feeding them properly, and giving them enough light."], "keywords": ["turtles", "pet care"], "entities": ["Nate"]}
+{"turn_id": "D5:9", "facts": [], "keywords": ["pets", "comment"], "entities": ["Joanna"]}
+{"turn_id": "D5:10", "facts": [], "keywords": ["pets", "joy"], "entities": ["Nate"]}
+{"turn_id": "D5:11", "facts": ["Joanna said she recently found out she is also allergic to cockroaches, in addition to reptiles and animals with fur.", "Joanna said she would get two turtles if she weren't allergic to them."], "keywords": ["allergies", "cockroaches", "pets"], "entities": ["Joanna"]}
+{"turn_id": "D5:12", "facts": ["Nate offered to keep sending Joanna pictures of his turtles so she can watch them grow without getting too close."], "keywords": ["turtles", "pets", "friendship"], "entities": ["Nate"]}
+{"turn_id": "D5:13", "facts": [], "keywords": ["pets", "appreciation"], "entities": ["Joanna"]}
+{"turn_id": "D5:14", "facts": [], "keywords": ["pets", "screenplay", "question"], "entities": ["Nate"]}
+{"turn_id": "D5:15", "facts": ["Joanna said she has been doing research and networking non-stop for her screenplay's next steps."], "keywords": ["screenplay", "networking", "research"], "entities": ["Joanna"]}
+{"turn_id": "D5:16", "facts": [], "keywords": ["encouragement", "screenplay"], "entities": ["Nate"]}
+{"turn_id": "D5:17", "facts": [], "keywords": ["thanks", "screenplay"], "entities": ["Joanna"]}
+{"turn_id": "D5:18", "facts": [], "keywords": ["encouragement"], "entities": ["Nate"]}
+{"turn_id": "D5:19", "facts": ["Joanna said having Nate's support throughout her screenplay process is a blessing that motivates her to keep pushing forward."], "keywords": ["support", "motivation", "friendship"], "entities": ["Joanna", "Nate"]}
+{"turn_id": "D5:20", "facts": [], "keywords": ["support", "friendship"], "entities": ["Nate"]}
+{"turn_id": "D5:21", "facts": [], "keywords": ["farewell", "cinema"], "entities": ["Joanna"]}
+{"turn_id": "D6:1", "facts": [], "keywords": ["greeting", "catching up"], "entities": ["Nate", "Joanna"]}
+{"turn_id": "D6:2", "facts": ["On 2022-03-24, Joanna said she had an audition the day before (2022-03-23) for a writing gig."], "keywords": ["audition", "writing job", "career"], "entities": ["Joanna"]}
+{"turn_id": "D6:3", "facts": [], "keywords": ["audition", "question"], "entities": ["Nate"]}
+{"turn_id": "D6:4", "facts": ["Joanna said her writing gig audition went alright, though she felt a mix of excitement and anxiety about it."], "keywords": ["audition", "emotions", "writing job"], "entities": ["Joanna"]}
+{"turn_id": "D6:5", "facts": [], "keywords": ["encouragement"], "entities": ["Nate"]}
+{"turn_id": "D6:6", "facts": [], "keywords": ["thanks", "support"], "entities": ["Joanna"]}
+{"turn_id": "D6:7", "facts": ["Nate said he is participating in a video game tournament again as of 2022-03-24 and finds it intense."], "keywords": ["video games", "tournament", "gaming"], "entities": ["Nate"]}
+{"turn_id": "D6:8", "facts": ["Joanna said her bookshelf full of books and magazines is her go-to place for writing inspiration that keeps her sharp and motivated."], "keywords": ["writing", "books", "inspiration"], "entities": ["Joanna"]}
+{"turn_id": "D6:9", "facts": [], "keywords": ["writing", "question"], "entities": ["Nate"]}
+{"turn_id": "D6:10", "facts": ["Joanna advised Nate to read widely across different genres, build a solid understanding of literature, write and share work even just with friends, and practice and gather feedback to improve as a writer."], "keywords": ["writing advice", "literature", "practice"], "entities": ["Joanna", "Nate"]}
+{"turn_id": "D6:11", "facts": [], "keywords": ["thanks", "writing"], "entities": ["Nate"]}
+{"turn_id": "D6:12", "facts": [], "keywords": ["encouragement", "farewell"], "entities": ["Joanna"]}
+{"turn_id": "D6:13", "facts": [], "keywords": ["farewell"], "entities": ["Nate"]}
+{"turn_id": "D7:1", "facts": ["On 2022-04-15, Nate said he dyed his hair the week before (around early April 2022)."], "keywords": ["hair", "appearance", "change"], "entities": ["Nate"]}
+{"turn_id": "D7:2", "facts": [], "keywords": ["hair", "question"], "entities": ["Joanna"]}
+{"turn_id": "D7:3", "facts": ["Nate shared a selfie showing he dyed his hair purple and wears glasses."], "keywords": ["hair", "purple", "selfie", "glasses"], "entities": ["Nate"]}
+{"turn_id": "D7:4", "facts": [], "keywords": ["hair", "compliment", "question"], "entities": ["Joanna"]}
+{"turn_id": "D7:5", "facts": ["Nate said he chose a bright and bold purple hair color because it reflects who he is and helps him stand out."], "keywords": ["hair", "purple", "self-expression"], "entities": ["Nate"]}
+{"turn_id": "D7:6", "facts": ["Joanna said Nate's boldness in dyeing his hair reminded her of a gorgeous sunset she saw while hiking recently, and made her realize the importance of showing the world who we are."], "keywords": ["hiking", "sunset", "self-expression"], "entities": ["Joanna"]}
+{"turn_id": "D7:7", "facts": [], "keywords": ["hiking", "travel", "question"], "entities": ["Nate"]}
+{"turn_id": "D7:8", "facts": ["Joanna said she doesn't have a vacation planned because her writing is currently consuming her time, and she is hoping for good news soon about her screenplay."], "keywords": ["writing", "vacation", "screenplay"], "entities": ["Joanna"]}
+{"turn_id": "D7:9", "facts": [], "keywords": ["support", "writing"], "entities": ["Nate"]}
+{"turn_id": "D7:10", "facts": [], "keywords": ["thanks", "support"], "entities": ["Joanna"]}
+{"turn_id": "D7:11", "facts": [], "keywords": ["farewell"], "entities": ["Nate"]}
+{"turn_id": "D7:12", "facts": [], "keywords": ["farewell"], "entities": ["Joanna"]}
+{"turn_id": "D7:13", "facts": [], "keywords": ["farewell"], "entities": ["Nate"]}
+{"turn_id": "D8:1", "facts": [], "keywords": ["greeting", "catching up"], "entities": ["Nate"]}
+{"turn_id": "D8:2", "facts": ["On 2022-04-17, Joanna said she had been reading a lot in the past week, rediscovering good books she forgot she owned."], "keywords": ["reading", "books"], "entities": ["Joanna"]}
+{"turn_id": "D8:3", "facts": [], "keywords": ["reading", "books"], "entities": ["Nate"]}
+{"turn_id": "D8:4", "facts": ["Joanna said she found an awesome hiking trail in her hometown the day before (2022-04-16) and found it gorgeous and inspiring."], "keywords": ["hiking", "nature", "hometown"], "entities": ["Joanna"]}
+{"turn_id": "D8:5", "facts": ["Nate said he isn't really into hiking but heard there's a nice trail just north of where he lives."], "keywords": ["hiking", "preferences"], "entities": ["Nate"]}
+{"turn_id": "D8:6", "facts": [], "keywords": ["hiking", "invitation"], "entities": ["Joanna"]}
+{"turn_id": "D8:7", "facts": ["Nate said he does like nature and might enjoy hiking if he went with someone else."], "keywords": ["hiking", "nature", "preferences"], "entities": ["Nate"]}
+{"turn_id": "D8:8", "facts": ["Joanna said she is a huge fan of nature, which is why she goes hiking."], "keywords": ["nature", "hiking", "preferences"], "entities": ["Joanna"]}
+{"turn_id": "D8:9", "facts": [], "keywords": ["nature", "support"], "entities": ["Nate"]}
+{"turn_id": "D8:10", "facts": ["Joanna said nature has always been her haven, and that walking in it, feeling it, and hearing its sounds is calming and makes her worries and stress vanish."], "keywords": ["nature", "calm", "stress relief"], "entities": ["Joanna"]}
+{"turn_id": "D8:11", "facts": ["Nate said spending time with his pets and doing his hobbies lets him take a break from reality and find peace."], "keywords": ["pets", "hobbies", "mindfulness"], "entities": ["Nate"]}
+{"turn_id": "D8:12", "facts": [], "keywords": ["mindfulness", "appreciation"], "entities": ["Joanna"]}
+{"turn_id": "D8:13", "facts": ["Nate shared a photo of his turtle with a strawberry in a bowl."], "keywords": ["turtles", "pets", "photo"], "entities": ["Nate"]}
+{"turn_id": "D8:14", "facts": [], "keywords": ["pets", "turtles", "compliment"], "entities": ["Joanna"]}
+{"turn_id": "D8:15", "facts": ["Nate said he sometimes brings his turtles into the kitchen so they can watch him cook, such as making ice cream."], "keywords": ["turtles", "pets", "cooking", "ice cream"], "entities": ["Nate"]}
+{"turn_id": "D8:16", "facts": [], "keywords": ["ice cream", "compliment"], "entities": ["Joanna"]}
+{"turn_id": "D8:17", "facts": ["Nate said his ice cream recipe is dairy-free and easy to make, and offered to share it with Joanna."], "keywords": ["ice cream", "recipe", "dairy-free"], "entities": ["Nate"]}
+{"turn_id": "D8:18", "facts": ["Joanna said she is lactose intolerant and asked Nate for the dairy-free ice cream recipe."], "keywords": ["lactose intolerance", "dairy-free", "recipe"], "entities": ["Joanna"]}
+{"turn_id": "D8:19", "facts": ["Nate said he makes his dairy-free ice cream with coconut milk, vanilla extract, sugar, and a pinch of salt, chilled then churned in an ice cream maker."], "keywords": ["ice cream", "recipe", "coconut milk", "dairy-free"], "entities": ["Nate"]}
+{"turn_id": "D8:20", "facts": ["Joanna said she planned to try making Nate's dairy-free ice cream recipe that night (2022-04-17)."], "keywords": ["ice cream", "recipe", "plans"], "entities": ["Joanna"]}
+{"turn_id": "D8:21", "facts": [], "keywords": ["ice cream", "support"], "entities": ["Nate"]}
+{"turn_id": "D8:22", "facts": [], "keywords": ["thanks", "recipe"], "entities": ["Joanna"]}
+{"turn_id": "D9:1", "facts": ["On 2022-04-21, Joanna said she recently joined a writers group and feels motivated, supported, and like she finally belongs somewhere."], "keywords": ["writers group", "writing", "community", "belonging"], "entities": ["Joanna"]}
+{"turn_id": "D9:2", "facts": [], "keywords": ["writers group", "question"], "entities": ["Nate"]}
+{"turn_id": "D9:3", "facts": ["Joanna said she is working on a script called \"Finding Home\" with her writers group, about a girl on a journey to find her true home."], "keywords": ["screenplay", "finding home", "writers group"], "entities": ["Joanna", "Finding Home"]}
+{"turn_id": "D9:4", "facts": ["Nate said he has a gaming tournament next month (around May 2022) that will be his 4th tournament."], "keywords": ["gaming tournament", "video games"], "entities": ["Nate"]}
+{"turn_id": "D9:5", "facts": ["Joanna said that during her first play she was so nervous she forgot her lines, which taught her the importance of preparation and staying in the moment."], "keywords": ["acting", "theater", "nervousness", "lessons"], "entities": ["Joanna"]}
+{"turn_id": "D9:6", "facts": [], "keywords": ["acting", "question"], "entities": ["Nate"]}
+{"turn_id": "D9:7", "facts": ["Joanna said acting was her first passion, but writing is now where she really shines and helps her express herself in a new way."], "keywords": ["acting", "writing", "passion"], "entities": ["Joanna"]}
+{"turn_id": "D9:8", "facts": [], "keywords": ["encouragement", "movies", "question"], "entities": ["Nate"]}
+{"turn_id": "D9:9", "facts": ["Joanna said she really enjoys dramas and emotionally-driven films."], "keywords": ["movies", "drama", "preferences"], "entities": ["Joanna"]}
+{"turn_id": "D9:10", "facts": ["Nate said he loves fantasy and sci-fi movies because they're a great escape for his imagination, and playing video games is how he expresses his creativity and passion."], "keywords": ["movies", "fantasy", "sci-fi", "video games", "creativity"], "entities": ["Nate"]}
+{"turn_id": "D9:11", "facts": [], "keywords": ["movies", "video games", "question"], "entities": ["Joanna"]}
+{"turn_id": "D9:12", "facts": ["Nate said a certain fantasy/sci-fi movie trilogy is one of his favorites for its world building, battles, and storytelling."], "keywords": ["movies", "trilogy", "fantasy"], "entities": ["Nate"]}
+{"turn_id": "D9:13", "facts": [], "keywords": ["books", "question"], "entities": ["Joanna"]}
+{"turn_id": "D9:14", "facts": ["Nate recommended a fantasy book series with adventures, magic, and great characters as a must-read."], "keywords": ["books", "fantasy", "recommendation"], "entities": ["Nate"]}
+{"turn_id": "D9:15", "facts": ["Joanna said Nate's recommended book series has been on her reading list for a long time and she plans to check it out."], "keywords": ["books", "reading", "plans"], "entities": ["Joanna"]}
+{"turn_id": "D9:16", "facts": [], "keywords": ["books", "farewell"], "entities": ["Nate"]}
+{"turn_id": "D9:17", "facts": [], "keywords": ["farewell"], "entities": ["Joanna"]}
+{"turn_id": "D9:18", "facts": [], "keywords": ["farewell"], "entities": ["Nate"]}
+{"turn_id": "D10:1", "facts": ["On 2022-05-02, Joanna said she watched \"The Lord of the Rings\" trilogy the night before (2022-05-01) on Nate's recommendation and loved it."], "keywords": ["movies", "lord of the rings", "recommendation"], "entities": ["Joanna", "The Lord of the Rings"]}
+{"turn_id": "D10:2", "facts": ["Nate said he thinks \"The Lord of the Rings\" is probably the greatest trilogy of all time."], "keywords": ["movies", "lord of the rings", "opinion"], "entities": ["Nate", "The Lord of the Rings"]}
+{"turn_id": "D10:3", "facts": [], "keywords": ["gaming room", "question"], "entities": ["Joanna"]}
+{"turn_id": "D10:4", "facts": ["Nate said he won his second gaming tournament the week before 2022-05-02 (around late April 2022)."], "keywords": ["gaming tournament", "achievement", "video games"], "entities": ["Nate"]}
+{"turn_id": "D10:5", "facts": [], "keywords": ["gaming tournament", "question"], "entities": ["Joanna"]}
+{"turn_id": "D10:6", "facts": ["Nate said he usually plays CS:GO but won a local Street Fighter tournament this time, a game he plays a lot with friends."], "keywords": ["street fighter", "cs:go", "video games", "tournament"], "entities": ["Nate", "Street Fighter", "Counter-Strike: Global Offensive"]}
+{"turn_id": "D10:7", "facts": [], "keywords": ["gaming tournament", "question"], "entities": ["Joanna"]}
+{"turn_id": "D10:8", "facts": ["Nate said winning his gaming tournament was exciting and the other finalist shook his hand afterward."], "keywords": ["gaming tournament", "sportsmanship", "excitement"], "entities": ["Nate"]}
+{"turn_id": "D10:9", "facts": ["Joanna said she has been testing out dairy-free dessert recipes for friends and family, and shared a photo of a cake she recently made."], "keywords": ["dairy-free", "dessert", "cake", "baking"], "entities": ["Joanna"]}
+{"turn_id": "D10:10", "facts": [], "keywords": ["cake", "compliment"], "entities": ["Nate"]}
+{"turn_id": "D10:11", "facts": ["Joanna said the cake she made is dairy-free vanilla with strawberry filling and coconut cream frosting, using a coconut recommendation Nate gave her a while back."], "keywords": ["cake", "dairy-free", "coconut", "recipe"], "entities": ["Joanna"]}
+{"turn_id": "D10:12", "facts": [], "keywords": ["compliment", "baking"], "entities": ["Nate"]}
+{"turn_id": "D10:13", "facts": ["Joanna said cooking and baking are her creative outlets, and she finds it rewarding to make dairy-free desserts that are just as delicious as regular ones, especially seeing others' smiles when they try them."], "keywords": ["cooking", "baking", "dairy-free", "creativity"], "entities": ["Joanna"]}
+{"turn_id": "D10:14", "facts": [], "keywords": ["encouragement", "baking"], "entities": ["Nate"]}
+{"turn_id": "D10:15", "facts": [], "keywords": ["farewell", "cooking"], "entities": ["Joanna"]}
+{"turn_id": "D10:16", "facts": [], "keywords": ["farewell"], "entities": ["Nate"]}
+{"turn_id": "D11:1", "facts": [], "keywords": ["greeting", "catching up"], "entities": ["Joanna"]}
+{"turn_id": "D11:2", "facts": [], "keywords": ["question"], "entities": ["Nate"]}
+{"turn_id": "D11:3", "facts": ["On 2022-05-12, Joanna said she went hiking and found more amazing trails in her town, and now considers herself an expert hiker."], "keywords": ["hiking", "nature", "trails"], "entities": ["Joanna"]}
+{"turn_id": "D11:4", "facts": [], "keywords": ["hiking", "question"], "entities": ["Nate"]}
+{"turn_id": "D11:5", "facts": ["Joanna shared a photo of a waterfall she saw on her hike, saying the sound of the water was soothing."], "keywords": ["hiking", "waterfall", "nature"], "entities": ["Joanna"]}
+{"turn_id": "D11:6", "facts": [], "keywords": ["hiking", "photo", "question"], "entities": ["Nate"]}
+{"turn_id": "D11:7", "facts": ["Joanna said she took her waterfall photo at a location called Whispering Falls, which was peaceful and serene."], "keywords": ["hiking", "whispering falls", "waterfall"], "entities": ["Joanna", "Whispering Falls"]}
+{"turn_id": "D11:8", "facts": [], "keywords": ["hiking", "compliment"], "entities": ["Nate"]}
+{"turn_id": "D11:9", "facts": ["Joanna said the sound and beauty of nature at Whispering Falls made her calm and peaceful, and everything else faded away."], "keywords": ["nature", "calm", "mindfulness"], "entities": ["Joanna"]}
+{"turn_id": "D11:10", "facts": [], "keywords": ["nature", "support"], "entities": ["Nate"]}
+{"turn_id": "D11:11", "facts": ["Joanna said hiking has opened up a whole new world for her and she feels like a different person now."], "keywords": ["hiking", "nature", "personal growth"], "entities": ["Joanna"]}
+{"turn_id": "D11:12", "facts": [], "keywords": ["creativity", "support"], "entities": ["Nate"]}
+{"turn_id": "D11:13", "facts": ["Joanna said she feels like she could write a whole movie when she's out hiking in cool places."], "keywords": ["hiking", "writing", "inspiration"], "entities": ["Joanna"]}
+{"turn_id": "D11:14", "facts": ["Nate said when he is out he gets deep in thought about his life or new recipes."], "keywords": ["reflection", "recipes"], "entities": ["Nate"]}
+{"turn_id": "D11:15", "facts": ["Joanna said something special about the recent hiking trails made her feel like writing a drama."], "keywords": ["hiking", "writing", "drama", "inspiration"], "entities": ["Joanna"]}
+{"turn_id": "D11:16", "facts": ["Nate suggested he and Joanna go hiking together sometime, and joked he might write and publish his own screenplay."], "keywords": ["hiking", "plans", "screenplay"], "entities": ["Nate"]}
+{"turn_id": "D11:17", "facts": ["Joanna invited Nate to join her on the hiking trails sometime."], "keywords": ["hiking", "invitation", "friendship"], "entities": ["Joanna", "Nate"]}
+{"turn_id": "D11:18", "facts": [], "keywords": ["plans", "thanks"], "entities": ["Nate"]}
+{"turn_id": "D11:19", "facts": [], "keywords": ["farewell"], "entities": ["Joanna"]}
+{"turn_id": "D11:20", "facts": [], "keywords": ["farewell"], "entities": ["Nate"]}
+{"turn_id": "D12:1", "facts": [], "keywords": ["greeting", "catching up"], "entities": ["Nate"]}
+{"turn_id": "D12:2", "facts": [], "keywords": ["greeting", "update"], "entities": ["Joanna"]}
+{"turn_id": "D12:3", "facts": ["On 2022-05-20, Nate said he got a new dog named Max, sharing a photo of Max on the couch."], "keywords": ["dog", "pet", "max", "adoption"], "entities": ["Nate", "Max"]}
+{"turn_id": "D12:4", "facts": [], "keywords": ["dog", "question"], "entities": ["Joanna"]}
+{"turn_id": "D12:5", "facts": ["Nate said his new dog Max was adopted, is full of energy, brings him a lot of joy, and keeps his other pets active."], "keywords": ["dog", "max", "adoption", "pets"], "entities": ["Nate", "Max"]}
+{"turn_id": "D12:6", "facts": [], "keywords": ["pets", "joy"], "entities": ["Joanna"]}
+{"turn_id": "D12:7", "facts": [], "keywords": ["pets", "question"], "entities": ["Nate"]}
+{"turn_id": "D12:8", "facts": ["Joanna said her allergies make her not really want to get a pet, and she's too lazy to research alternative pets for her allergies."], "keywords": ["allergies", "pets"], "entities": ["Joanna"]}
+{"turn_id": "D12:9", "facts": [], "keywords": ["pets", "empathy", "question"], "entities": ["Nate"]}
+{"turn_id": "D12:10", "facts": ["Joanna said writing and creative projects, along with her supportive friends, help her get through tough times."], "keywords": ["writing", "creativity", "friends", "coping"], "entities": ["Joanna"]}
+{"turn_id": "D12:11", "facts": [], "keywords": ["support", "therapeutic"], "entities": ["Nate"]}
+{"turn_id": "D12:12", "facts": ["Joanna said she values having friends who understand and appreciate her work, and shared a photo of what she has been working on (her third screenplay)."], "keywords": ["writing", "friends", "screenplay", "feedback"], "entities": ["Joanna"]}
+{"turn_id": "D12:13", "facts": [], "keywords": ["screenplay", "question"], "entities": ["Nate"]}
+{"turn_id": "D12:14", "facts": ["Joanna said her third screenplay is a personal story about loss, identity, and connection that she'd had in mind for a long time before finally writing it."], "keywords": ["screenplay", "loss", "identity", "connection"], "entities": ["Joanna"]}
+{"turn_id": "D12:15", "facts": ["Nate observed that Joanna likes writing about sadness and loss."], "keywords": ["writing", "themes", "sadness", "loss"], "entities": ["Nate", "Joanna"]}
+{"turn_id": "D12:16", "facts": ["Joanna said she writes best when being true to herself and drawing on personal experiences and feelings, even when it's scary and vulnerable."], "keywords": ["writing", "vulnerability", "authenticity"], "entities": ["Joanna"]}
+{"turn_id": "D12:17", "facts": [], "keywords": ["encouragement", "support"], "entities": ["Nate"]}
+{"turn_id": "D12:18", "facts": [], "keywords": ["thanks", "support"], "entities": ["Joanna"]}
+{"turn_id": "D12:19", "facts": [], "keywords": ["encouragement"], "entities": ["Nate"]}
+{"turn_id": "D13:1", "facts": ["On 2022-05-25, Nate said he took his dog Max for a walk recently and met a nice couple with a dog who live close by, and they decided to set up doggy playdates."], "keywords": ["dog", "max", "walk", "playdate", "neighbors"], "entities": ["Nate", "Max"]}
+{"turn_id": "D13:2", "facts": [], "keywords": ["pets", "socializing"], "entities": ["Joanna"]}
+{"turn_id": "D13:3", "facts": ["Nate said his dog Max really likes the other dog from the couple they met, and is glad Max will have a walking buddy."], "keywords": ["dog", "max", "playdate"], "entities": ["Nate", "Max"]}
+{"turn_id": "D13:4", "facts": [], "keywords": ["neighbors", "question"], "entities": ["Joanna"]}
+{"turn_id": "D13:5", "facts": ["Nate said he and the neighbor couple didn't have a lot in common besides a love of animals, but felt that was enough to become good friends."], "keywords": ["friendship", "neighbors", "animals"], "entities": ["Nate"]}
+{"turn_id": "D13:6", "facts": [], "keywords": ["encouragement", "socializing"], "entities": ["Joanna"]}
+{"turn_id": "D13:7", "facts": ["Nate said he enjoys watching his pets play together and it's like a dream come true seeing his dog happy."], "keywords": ["pets", "dog", "joy"], "entities": ["Nate"]}
+{"turn_id": "D13:8", "facts": [], "keywords": ["stress relief", "pets"], "entities": ["Joanna"]}
+{"turn_id": "D13:9", "facts": ["Nate gave Joanna a stuffed animal puppy as a gift to remind her of good vibes."], "keywords": ["gift", "stuffed animal", "friendship"], "entities": ["Nate", "Joanna"]}
+{"turn_id": "D13:10", "facts": [], "keywords": ["gift", "gratitude"], "entities": ["Joanna"]}
+{"turn_id": "D13:11", "facts": [], "keywords": ["gift"], "entities": ["Nate"]}
+{"turn_id": "D13:12", "facts": ["Joanna said she will cherish the stuffed animal Nate gave her."], "keywords": ["gift", "sentimental"], "entities": ["Joanna"]}
+{"turn_id": "D13:13", "facts": [], "keywords": ["joy", "gift"], "entities": ["Nate"]}
+{"turn_id": "D13:14", "facts": [], "keywords": ["appreciation", "small joys"], "entities": ["Joanna"]}
+{"turn_id": "D13:15", "facts": [], "keywords": ["small joys"], "entities": ["Nate"]}
+{"turn_id": "D13:16", "facts": [], "keywords": ["happiness", "reflection"], "entities": ["Joanna"]}
+{"turn_id": "D13:17", "facts": [], "keywords": ["mindset", "small joys"], "entities": ["Nate"]}
+{"turn_id": "D13:18", "facts": ["Joanna said reflecting on the tough times finishing her screenplay made her realize it's the small joyful moments that make the journey worthwhile."], "keywords": ["screenplay", "reflection", "joy"], "entities": ["Joanna"]}
+{"turn_id": "D13:19", "facts": [], "keywords": ["encouragement", "journey"], "entities": ["Nate"]}
+{"turn_id": "D13:20", "facts": ["Joanna said she can't wait to show Nate her (third) screenplay because she values his opinion."], "keywords": ["screenplay", "friendship", "opinion"], "entities": ["Joanna", "Nate"]}
+{"turn_id": "D13:21", "facts": [], "keywords": ["support", "screenplay"], "entities": ["Nate"]}
+{"turn_id": "D13:22", "facts": [], "keywords": ["thanks", "support"], "entities": ["Joanna"]}
+{"turn_id": "D13:23", "facts": [], "keywords": ["encouragement"], "entities": ["Nate"]}
+{"turn_id": "D14:1", "facts": ["On 2022-06-03, Joanna said she got a rejection letter from a major company for her screenplay, which really bummed her out."], "keywords": ["screenplay", "rejection", "emotions"], "entities": ["Joanna"]}
+{"turn_id": "D14:2", "facts": [], "keywords": ["encouragement", "rejection"], "entities": ["Nate"]}
+{"turn_id": "D14:3", "facts": [], "keywords": ["thanks", "screenplay"], "entities": ["Joanna"]}
+{"turn_id": "D14:4", "facts": [], "keywords": ["support", "question"], "entities": ["Nate"]}
+{"turn_id": "D14:5", "facts": ["Joanna said the company sent her a generic rejection letter without feedback, which was disheartening because she doesn't know why it didn't work out."], "keywords": ["screenplay", "rejection", "feedback"], "entities": ["Joanna"]}
+{"turn_id": "D14:6", "facts": [], "keywords": ["encouragement"], "entities": ["Nate"]}
+{"turn_id": "D14:7", "facts": [], "keywords": ["resilience", "screenplay"], "entities": ["Joanna"]}
+{"turn_id": "D14:8", "facts": ["On 2022-06-03, Nate said he won another regional video game tournament the week before and met new people there."], "keywords": ["video games", "tournament", "achievement"], "entities": ["Nate"]}
+{"turn_id": "D14:9", "facts": [], "keywords": ["congratulations", "tournament"], "entities": ["Joanna"]}
+{"turn_id": "D14:10", "facts": ["Nate said winning his latest tournament was a huge confidence boost showing his hard work paid off."], "keywords": ["video games", "tournament", "confidence"], "entities": ["Nate"]}
+{"turn_id": "D14:11", "facts": [], "keywords": ["support", "tournaments"], "entities": ["Joanna"]}
+{"turn_id": "D14:12", "facts": [], "keywords": ["reflection", "tournaments"], "entities": ["Nate"]}
+{"turn_id": "D14:13", "facts": [], "keywords": ["support"], "entities": ["Joanna"]}
+{"turn_id": "D14:14", "facts": ["Nate said some guys he met at his latest gaming tournament asked to hang out later."], "keywords": ["gaming", "friends", "tournament"], "entities": ["Nate"]}
+{"turn_id": "D14:15", "facts": [], "keywords": ["friends", "gaming"], "entities": ["Joanna"]}
+{"turn_id": "D14:16", "facts": ["Nate said his new gamer friends asked him for tips to improve their game and he agreed to help."], "keywords": ["gaming", "mentoring", "friends"], "entities": ["Nate"]}
+{"turn_id": "D14:17", "facts": [], "keywords": ["encouragement", "helping"], "entities": ["Joanna"]}
+{"turn_id": "D14:18", "facts": [], "keywords": ["helping", "question"], "entities": ["Nate"]}
+{"turn_id": "D14:19", "facts": ["Joanna said she plans to go hiking with friends the coming weekend to check out a new trail with a waterfall."], "keywords": ["hiking", "plans", "waterfall", "friends"], "entities": ["Joanna"]}
+{"turn_id": "D14:20", "facts": ["Nate said he is organizing a gaming party two weekends after 2022-06-03 (around mid-June 2022)."], "keywords": ["gaming party", "plans"], "entities": ["Nate"]}
+{"turn_id": "D14:21", "facts": [], "keywords": ["gaming party", "question"], "entities": ["Joanna"]}
+{"turn_id": "D14:22", "facts": ["Nate said he plans to invite his tournament friends as well as old friends and teammates from other tournaments to his gaming party."], "keywords": ["gaming party", "friends", "tournament"], "entities": ["Nate"]}
+{"turn_id": "D14:23", "facts": [], "keywords": ["encouragement", "gaming party"], "entities": ["Joanna"]}
+{"turn_id": "D14:24", "facts": ["Nate said he is getting everyone custom controller decorations as a gift for attending his gaming party."], "keywords": ["gaming party", "gifts", "controller"], "entities": ["Nate"]}
+{"turn_id": "D14:25", "facts": [], "keywords": ["compliment", "gift idea"], "entities": ["Joanna"]}
+{"turn_id": "D14:26", "facts": [], "keywords": ["farewell", "hiking"], "entities": ["Nate"]}
+{"turn_id": "D14:27", "facts": [], "keywords": ["farewell"], "entities": ["Joanna"]}
+{"turn_id": "D15:1", "facts": ["On 2022-06-04 (the day before 2022-06-05), Joanna said a screenplay she wrote some bits for appeared on the big screen, which was nerve-wracking but inspiring."], "keywords": ["screenplay", "film", "achievement", "emotions"], "entities": ["Joanna"]}
+{"turn_id": "D15:2", "facts": ["Nate said he noticed a Spider-Man pin on Joanna's purse the last time they saw each other and asked if Spider-Man is her favorite superhero."], "keywords": ["spider-man", "superheroes", "observation"], "entities": ["Nate", "Joanna", "Spider-Man"]}
+{"turn_id": "D15:3", "facts": ["Joanna said Spider-Man has always been one of her favorite superheroes because she relates to Peter Parker's struggle between being a hero and being a person, though she likes most superheroes."], "keywords": ["spider-man", "superheroes", "peter parker", "preferences"], "entities": ["Joanna", "Spider-Man", "Peter Parker"]}
+{"turn_id": "D15:4", "facts": ["Nate said Iron Man is his top favorite superhero because he loves his tech and sarcastic humor, and shared a photo of an Iron Man toy figure."], "keywords": ["iron man", "superheroes", "preferences", "toy"], "entities": ["Nate", "Iron Man"]}
+{"turn_id": "D15:5", "facts": [], "keywords": ["iron man", "question"], "entities": ["Joanna"]}
+{"turn_id": "D15:6", "facts": ["Nate said his Iron Man figure reminds him of something he loves and its presence in his room reminds him to keep working on his goals."], "keywords": ["iron man", "motivation", "goals"], "entities": ["Nate", "Iron Man"]}
+{"turn_id": "D15:7", "facts": ["Joanna said she has a cork board full of inspiring quotes and pictures for motivation and creativity in her room."], "keywords": ["cork board", "inspiration", "creativity"], "entities": ["Joanna"]}
+{"turn_id": "D15:8", "facts": [], "keywords": ["cork board", "question"], "entities": ["Nate"]}
+{"turn_id": "D15:9", "facts": ["Joanna shared a photo of her cork board, which has quotes, photos, and little keepsakes, including a family picture."], "keywords": ["cork board", "family", "keepsakes"], "entities": ["Joanna"]}
+{"turn_id": "D15:10", "facts": [], "keywords": ["family photo", "question"], "entities": ["Nate"]}
+{"turn_id": "D15:11", "facts": ["Joanna said the family picture on her cork board reminds her of the love and encouragement she gets from her family every day."], "keywords": ["family", "cork board", "support"], "entities": ["Joanna"]}
+{"turn_id": "D15:12", "facts": [], "keywords": ["family", "support"], "entities": ["Nate"]}
+{"turn_id": "D15:13", "facts": [], "keywords": ["family", "gratitude"], "entities": ["Joanna"]}
+{"turn_id": "D15:14", "facts": ["Nate said he was considering starting his own cork board after hearing about Joanna's."], "keywords": ["cork board", "plans"], "entities": ["Nate"]}
+{"turn_id": "D15:15", "facts": [], "keywords": ["cork board", "recommendation"], "entities": ["Joanna"]}
+{"turn_id": "D15:16", "facts": [], "keywords": ["farewell"], "entities": ["Nate"]}
+{"turn_id": "D15:17", "facts": [], "keywords": ["farewell"], "entities": ["Joanna"]}
+{"turn_id": "D16:1", "facts": ["On 2022-06-24, Joanna said she just submitted her recent screenplay to a film contest to see how others might like it."], "keywords": ["screenplay", "film contest", "submission"], "entities": ["Joanna"]}
+{"turn_id": "D16:2", "facts": ["Nate said his gaming party was a great success and they played chess afterward for fun."], "keywords": ["gaming party", "chess", "success"], "entities": ["Nate"]}
+{"turn_id": "D16:3", "facts": [], "keywords": ["gaming party", "question"], "entities": ["Joanna"]}
+{"turn_id": "D16:4", "facts": ["Nate said most of his gaming party guests liked the custom controller accessories he gave out."], "keywords": ["gaming party", "controller accessories"], "entities": ["Nate"]}
+{"turn_id": "D16:5", "facts": [], "keywords": ["gaming party", "reflection"], "entities": ["Joanna"]}
+{"turn_id": "D16:6", "facts": ["Nate said 7 people attended his gaming party and 6 of them said they wanted to do it again next month."], "keywords": ["gaming party", "attendance", "success"], "entities": ["Nate"]}
+{"turn_id": "D16:7", "facts": [], "keywords": ["congratulations", "gaming party"], "entities": ["Joanna"]}
+{"turn_id": "D16:8", "facts": ["Nate said he made vegan ice cream last Friday (2022-06-17) and shared it with people in his vegan diet group."], "keywords": ["vegan", "ice cream", "vegan diet group"], "entities": ["Nate"]}
+{"turn_id": "D16:9", "facts": ["Joanna asked Nate for his vegan ice cream recipe."], "keywords": ["vegan", "ice cream", "recipe"], "entities": ["Joanna"]}
+{"turn_id": "D16:10", "facts": ["Nate agreed to give Joanna his vegan ice cream recipe the next day."], "keywords": ["vegan", "ice cream", "recipe"], "entities": ["Nate"]}
+{"turn_id": "D16:11", "facts": ["Joanna said she plans to make Nate's vegan ice cream for her family that weekend (around 2022-06-25 or 2022-06-26)."], "keywords": ["vegan", "ice cream", "family", "plans"], "entities": ["Joanna"]}
+{"turn_id": "D16:12", "facts": [], "keywords": ["encouragement", "ice cream"], "entities": ["Nate"]}
+{"turn_id": "D16:13", "facts": ["Joanna said her family loves it when she makes them new food creations."], "keywords": ["family", "cooking"], "entities": ["Joanna"]}
+{"turn_id": "D16:14", "facts": [], "keywords": ["confidence", "ice cream"], "entities": ["Nate"]}
+{"turn_id": "D16:15", "facts": [], "keywords": ["thanks", "support"], "entities": ["Joanna"]}
+{"turn_id": "D16:16", "facts": [], "keywords": ["farewell"], "entities": ["Nate"]}
+{"turn_id": "D17:1", "facts": ["Nate said he won his fourth video game tournament on Friday, 2022-07-08, and this one was online, letting him make money doing what he loves."], "keywords": ["video games", "tournament", "achievement", "online"], "entities": ["Nate"]}
+{"turn_id": "D17:2", "facts": ["Joanna said she took a road trip for research for her next movie around early July 2022, calling it a much-needed break that let her explore new places and get inspired."], "keywords": ["road trip", "research", "movie", "inspiration"], "entities": ["Joanna"]}
+{"turn_id": "D17:3", "facts": [], "keywords": ["road trip", "question"], "entities": ["Nate"]}
+{"turn_id": "D17:4", "facts": ["Joanna said she went to Woodhaven, a small town in the Midwest, and saw lovely scenery, historic buildings, and a library with a cool old book collection."], "keywords": ["woodhaven", "road trip", "library"], "entities": ["Joanna", "Woodhaven"]}
+{"turn_id": "D17:5", "facts": [], "keywords": ["books", "question"], "entities": ["Nate"]}
+{"turn_id": "D17:6", "facts": ["Joanna said she found a book from the 1900s with stories and sketches about Woodhaven and its people at the town's library."], "keywords": ["woodhaven", "book", "history"], "entities": ["Joanna", "Woodhaven"]}
+{"turn_id": "D17:7", "facts": [], "keywords": ["woodhaven", "question"], "entities": ["Nate"]}
+{"turn_id": "D17:8", "facts": ["Joanna said Woodhaven's interesting past and how much it changed sparked ideas for her next script."], "keywords": ["woodhaven", "screenplay", "inspiration"], "entities": ["Joanna", "Woodhaven"]}
+{"turn_id": "D17:9", "facts": [], "keywords": ["encouragement", "writing"], "entities": ["Nate"]}
+{"turn_id": "D17:10", "facts": ["Joanna said she is excited about her new script inspired by Woodhaven, which is different from her previous work."], "keywords": ["screenplay", "woodhaven", "writing"], "entities": ["Joanna", "Woodhaven"]}
+{"turn_id": "D17:11", "facts": [], "keywords": ["encouragement", "screenplay"], "entities": ["Nate"]}
+{"turn_id": "D17:12", "facts": [], "keywords": ["thanks", "support"], "entities": ["Joanna"]}
+{"turn_id": "D17:13", "facts": [], "keywords": ["encouragement"], "entities": ["Nate"]}
+{"turn_id": "D17:14", "facts": ["On 2022-07-10, Joanna said she started writing a book recently since her movie did well."], "keywords": ["book", "writing", "new project"], "entities": ["Joanna"]}
+{"turn_id": "D17:15", "facts": [], "keywords": ["book", "question"], "entities": ["Nate"]}
+{"turn_id": "D17:16", "facts": ["Joanna said her new book explores themes of loss, redemption, and forgiveness, and is a deep and emotional story she's excited about."], "keywords": ["book", "themes", "loss", "redemption", "forgiveness"], "entities": ["Joanna"]}
+{"turn_id": "D17:17", "facts": [], "keywords": ["encouragement", "book"], "entities": ["Nate"]}
+{"turn_id": "D17:18", "facts": ["Joanna said she has never tried publishing a book before, but this one might be her first."], "keywords": ["book", "publishing", "first time"], "entities": ["Joanna"]}
+{"turn_id": "D17:19", "facts": [], "keywords": ["encouragement", "book"], "entities": ["Nate"]}
+{"turn_id": "D17:20", "facts": [], "keywords": ["thanks", "support"], "entities": ["Joanna"]}
+{"turn_id": "D17:21", "facts": [], "keywords": ["encouragement", "turtles"], "entities": ["Nate"]}
+{"turn_id": "D18:1", "facts": ["On 2022-08-14, Joanna said she has been very busy with writing projects and that her journal has become like her rock through the highs and lows."], "keywords": ["writing", "journal", "emotions"], "entities": ["Joanna"]}
+{"turn_id": "D18:2", "facts": [], "keywords": ["writing", "encouragement", "question"], "entities": ["Nate"]}
+{"turn_id": "D18:3", "facts": ["Joanna said writing has become an escape for her, a way to express her feelings, and that words have a magical way of healing."], "keywords": ["writing", "escape", "emotions", "healing"], "entities": ["Joanna"]}
+{"turn_id": "D18:4", "facts": [], "keywords": ["writing", "encouragement", "question"], "entities": ["Nate"]}
+{"turn_id": "D18:5", "facts": ["On 2022-08-14, Joanna said that last week someone wrote her a letter after reading her online blog post about a hard moment in her life, saying her story brought them comfort."], "keywords": ["blog", "writing", "impact", "feedback"], "entities": ["Joanna"]}
+{"turn_id": "D18:6", "facts": [], "keywords": ["encouragement", "writing"], "entities": ["Nate"]}
+{"turn_id": "D18:7", "facts": [], "keywords": ["gratitude", "writing", "question"], "entities": ["Joanna"]}
+{"turn_id": "D18:8", "facts": ["Nate said he started teaching people how to make dairy-free desserts since he and Joanna last talked, and finds it fun and rewarding."], "keywords": ["dairy-free", "desserts", "teaching"], "entities": ["Nate"]}
+{"turn_id": "D18:9", "facts": [], "keywords": ["ice cream", "coconut milk"], "entities": ["Joanna"]}
+{"turn_id": "D18:10", "facts": ["Nate said he has been making a new creamy, rich, dairy-free dessert recipe lately and offered to share it with Joanna."], "keywords": ["dairy-free", "dessert", "recipe"], "entities": ["Nate"]}
+{"turn_id": "D18:11", "facts": [], "keywords": ["dessert", "gratitude"], "entities": ["Joanna"]}
+{"turn_id": "D18:12", "facts": ["Nate sent Joanna his new dairy-free dessert recipe."], "keywords": ["dairy-free", "recipe"], "entities": ["Nate", "Joanna"]}
+{"turn_id": "D18:13", "facts": ["Joanna said she plans to surprise her family with Nate's new dairy-free dessert recipe."], "keywords": ["dairy-free", "family", "dessert", "plans"], "entities": ["Joanna"]}
+{"turn_id": "D18:14", "facts": [], "keywords": ["encouragement", "baking"], "entities": ["Nate"]}
+{"turn_id": "D18:15", "facts": [], "keywords": ["farewell"], "entities": ["Joanna"]}
+{"turn_id": "D18:16", "facts": [], "keywords": ["farewell"], "entities": ["Nate"]}
+{"turn_id": "D19:1", "facts": ["On 2022-08-22, Nate said he won an international gaming tournament the day before (2022-08-21) and said gaming allows him to make a living doing what he's passionate about."], "keywords": ["video games", "tournament", "international", "career"], "entities": ["Nate"]}
+{"turn_id": "D19:2", "facts": [], "keywords": ["congratulations", "career"], "entities": ["Joanna"]}
+{"turn_id": "D19:3", "facts": ["Nate said his fish got a new, bigger tank."], "keywords": ["fish", "pets", "tank"], "entities": ["Nate"]}
+{"turn_id": "D19:4", "facts": [], "keywords": ["pets", "fish", "compliment"], "entities": ["Joanna"]}
+{"turn_id": "D19:5", "facts": ["Nate said his fish are calm and peaceful and make coming home after a long day of gaming better, and that the new tank made them happy."], "keywords": ["fish", "pets", "calm"], "entities": ["Nate"]}
+{"turn_id": "D19:6", "facts": ["On 2022-08-22, Joanna said she was nervous last week sharing her book with her writers group but got great feedback."], "keywords": ["book", "writers group", "feedback"], "entities": ["Joanna"]}
+{"turn_id": "D19:7", "facts": [], "keywords": ["writing", "compliment", "question"], "entities": ["Nate"]}
+{"turn_id": "D19:8", "facts": ["Joanna said she celebrated getting good feedback on her book by making a dessert treat."], "keywords": ["celebration", "dessert", "book"], "entities": ["Joanna"]}
+{"turn_id": "D19:9", "facts": ["Nate said he is taking time off that weekend (around 2022-08-27/28) to relax with his pets."], "keywords": ["pets", "relaxation", "plans"], "entities": ["Nate"]}
+{"turn_id": "D19:10", "facts": ["Joanna said she plans to relax and recharge that weekend with a long walk and some reading."], "keywords": ["relaxation", "walking", "reading", "plans"], "entities": ["Joanna"]}
+{"turn_id": "D19:11", "facts": [], "keywords": ["balance", "support"], "entities": ["Nate"]}
+{"turn_id": "D19:12", "facts": ["Joanna said taking breaks and self-care are important for her inspiration and mental health."], "keywords": ["self-care", "mental health", "balance"], "entities": ["Joanna"]}
+{"turn_id": "D19:13", "facts": [], "keywords": ["balance", "books", "question"], "entities": ["Nate"]}
+{"turn_id": "D19:14", "facts": ["Joanna recommended Nate read a fantasy book series to relax."], "keywords": ["fantasy", "books", "recommendation"], "entities": ["Joanna"]}
+{"turn_id": "D19:15", "facts": [], "keywords": ["books", "recommendation"], "entities": ["Nate"]}
+{"turn_id": "D19:16", "facts": [], "keywords": ["books", "recommendation"], "entities": ["Joanna"]}
+{"turn_id": "D19:17", "facts": ["Nate recommended a book series to Joanna with awesome battles and interesting characters."], "keywords": ["books", "recommendation", "fantasy"], "entities": ["Nate"]}
+{"turn_id": "D19:18", "facts": [], "keywords": ["books", "interest"], "entities": ["Joanna"]}
+{"turn_id": "D19:19", "facts": [], "keywords": ["books", "recommendation"], "entities": ["Nate"]}
+{"turn_id": "D19:20", "facts": [], "keywords": ["books", "thanks"], "entities": ["Joanna"]}
+{"turn_id": "D19:21", "facts": [], "keywords": ["farewell"], "entities": ["Nate"]}
+{"turn_id": "D19:22", "facts": [], "keywords": ["farewell"], "entities": ["Joanna"]}
+{"turn_id": "D20:1", "facts": ["On 2022-09-05, Nate said he had a letdown in a video game tournament recently, not doing well despite trying, but is trying to stay positive."], "keywords": ["video games", "tournament", "setback"], "entities": ["Nate"]}
+{"turn_id": "D20:2", "facts": ["Joanna said she revised one of her old dessert recipes and made a cake with strawberries and chocolate."], "keywords": ["dessert", "cake", "recipe", "strawberries", "chocolate"], "entities": ["Joanna"]}
+{"turn_id": "D20:3", "facts": [], "keywords": ["setback", "compliment"], "entities": ["Nate"]}
+{"turn_id": "D20:4", "facts": ["Joanna said tinkering with dessert recipes has been helping her find comfort and get creative."], "keywords": ["dessert", "recipe", "comfort", "creativity"], "entities": ["Joanna"]}
+{"turn_id": "D20:5", "facts": [], "keywords": ["baking", "question"], "entities": ["Nate"]}
+{"turn_id": "D20:6", "facts": ["Joanna said she has been tweaking a dessert recipe to make it yummier and more accessible."], "keywords": ["dessert", "recipe", "accessibility"], "entities": ["Joanna"]}
+{"turn_id": "D20:7", "facts": [], "keywords": ["flavors", "question"], "entities": ["Nate"]}
+{"turn_id": "D20:8", "facts": ["Joanna said she has been experimenting with chocolate, raspberry, and coconut flavors."], "keywords": ["flavors", "chocolate", "raspberry", "coconut"], "entities": ["Joanna"]}
+{"turn_id": "D20:9", "facts": [], "keywords": ["dairy-free", "question"], "entities": ["Nate"]}
+{"turn_id": "D20:10", "facts": ["Joanna said she is lactose intolerant and uses dairy-free options like coconut or almond milk, and made dairy-free chocolate coconut cupcakes with raspberry frosting."], "keywords": ["lactose intolerance", "dairy-free", "cupcakes", "recipe"], "entities": ["Joanna"]}
+{"turn_id": "D20:11", "facts": [], "keywords": ["compliment", "desserts"], "entities": ["Nate"]}
+{"turn_id": "D20:12", "facts": ["Joanna said she has been making all sorts of desserts that work for everyone's diets, including cookies, pies, and cakes."], "keywords": ["desserts", "dietary needs", "baking"], "entities": ["Joanna"]}
+{"turn_id": "D20:13", "facts": ["Nate asked if he could join Joanna baking sometime, saying baking and cooking really bring them together."], "keywords": ["baking", "friendship", "invitation"], "entities": ["Nate", "Joanna"]}
+{"turn_id": "D20:14", "facts": [], "keywords": ["baking", "question"], "entities": ["Joanna"]}
+{"turn_id": "D20:15", "facts": ["Nate suggested using dairy-free margarine or coconut oil instead of butter for dairy-free baking, and checking labels to ensure ingredients are dairy-free."], "keywords": ["dairy-free", "baking tips", "margarine", "coconut oil"], "entities": ["Nate"]}
+{"turn_id": "D20:16", "facts": [], "keywords": ["thanks", "baking tips"], "entities": ["Joanna"]}
+{"turn_id": "D20:17", "facts": [], "keywords": ["helping", "support"], "entities": ["Nate"]}
+{"turn_id": "D20:18", "facts": [], "keywords": ["farewell"], "entities": ["Joanna"]}
+{"turn_id": "D20:19", "facts": [], "keywords": ["farewell"], "entities": ["Nate"]}
+{"turn_id": "D21:1", "facts": ["On 2022-09-14, Joanna said her laptop crashed the week before and she lost all her work, calling it a major blow since her laptop is like half her lifeline as a writer."], "keywords": ["laptop crash", "data loss", "writing"], "entities": ["Joanna"]}
+{"turn_id": "D21:2", "facts": [], "keywords": ["sympathy", "backup", "question"], "entities": ["Nate"]}
+{"turn_id": "D21:3", "facts": ["Joanna said nothing was recoverable from her crashed laptop, but she now has an external drive for backups."], "keywords": ["laptop crash", "backup", "data loss"], "entities": ["Joanna"]}
+{"turn_id": "D21:4", "facts": ["On 2022-09-14, Nate said that the previous Monday (2022-09-12) he taught people vegan ice cream recipes on his own cooking show, which was nerve-wracking but fun, and he picked up a few new recipes."], "keywords": ["cooking show", "vegan", "ice cream", "teaching"], "entities": ["Nate"]}
+{"turn_id": "D21:5", "facts": [], "keywords": ["cooking show", "congratulations", "question"], "entities": ["Joanna"]}
+{"turn_id": "D21:6", "facts": ["Nate said coconut milk ice cream is his favorite dish from his cooking show, describing it as smooth, creamy, with a tropical coconut twist, and dairy-free/vegan."], "keywords": ["coconut milk", "ice cream", "dairy-free", "vegan"], "entities": ["Nate"]}
+{"turn_id": "D21:7", "facts": [], "keywords": ["ice cream", "compliment", "recipe request"], "entities": ["Joanna"]}
+{"turn_id": "D21:8", "facts": [], "keywords": ["recipe sharing"], "entities": ["Nate"]}
+{"turn_id": "D21:9", "facts": ["Joanna said dairy-free is a must for her, especially for desserts, and that last Friday (2022-09-09) she made a delicious dessert with almond milk."], "keywords": ["dairy-free", "almond milk", "dessert"], "entities": ["Joanna"]}
+{"turn_id": "D21:10", "facts": ["Nate said besides coconut milk ice cream, he also loves a dairy-free chocolate mousse that is super creamy and tastes like the real thing."], "keywords": ["dairy-free", "chocolate mousse", "dessert"], "entities": ["Nate"]}
+{"turn_id": "D21:11", "facts": ["Joanna said her favorite dairy-free treat is a chocolate raspberry tart with an almond flour crust, chocolate ganache, and fresh raspberries."], "keywords": ["dairy-free", "chocolate raspberry tart", "dessert", "recipe"], "entities": ["Joanna"]}
+{"turn_id": "D21:12", "facts": [], "keywords": ["dessert", "question"], "entities": ["Nate"]}
+{"turn_id": "D21:13", "facts": ["Joanna said she loves making a dairy-free chocolate cake with raspberries that is moist and delicious."], "keywords": ["dairy-free", "chocolate cake", "raspberries", "recipe"], "entities": ["Joanna"]}
+{"turn_id": "D21:14", "facts": [], "keywords": ["cake", "question"], "entities": ["Nate"]}
+{"turn_id": "D21:15", "facts": ["Joanna said she makes her dairy-free chocolate raspberry cake with almond flour, coconut oil, chocolate, and raspberries, and it's her favorite for birthdays and special days."], "keywords": ["dairy-free", "cake", "recipe", "birthdays"], "entities": ["Joanna"]}
+{"turn_id": "D21:16", "facts": [], "keywords": ["dessert", "recipe"], "entities": ["Nate"]}
+{"turn_id": "D21:17", "facts": ["Joanna shared another dairy-free dessert recipe made with blueberries, coconut milk, and a gluten-free crust."], "keywords": ["dairy-free", "blueberries", "gluten-free", "dessert"], "entities": ["Joanna"]}
+{"turn_id": "D21:18", "facts": [], "keywords": ["dessert", "thanks"], "entities": ["Nate"]}
+{"turn_id": "D21:19", "facts": [], "keywords": ["farewell"], "entities": ["Joanna"]}
+{"turn_id": "D21:20", "facts": [], "keywords": ["farewell"], "entities": ["Nate"]}
+{"turn_id": "D22:1", "facts": ["On 2022-10-05 (the day before 2022-10-06), Joanna said she tried her newest dairy-free recipe and it was a winner with her family."], "keywords": ["dairy-free", "recipe", "family"], "entities": ["Joanna"]}
+{"turn_id": "D22:2", "facts": ["On 2022-10-06, Nate said he won a really big video game tournament the week before and made a lot of money from it."], "keywords": ["video games", "tournament", "money", "achievement"], "entities": ["Nate"]}
+{"turn_id": "D22:3", "facts": [], "keywords": ["congratulations", "tournament winnings"], "entities": ["Joanna"]}
+{"turn_id": "D22:4", "facts": ["Nate said he saved some of his tournament winnings but doesn't have big plans for it since he's already content."], "keywords": ["tournament winnings", "savings", "contentment"], "entities": ["Nate"]}
+{"turn_id": "D22:5", "facts": [], "keywords": ["money", "freedom"], "entities": ["Joanna"]}
+{"turn_id": "D22:6", "facts": ["Nate said having extra cash means he doesn't have to stress and can just enjoy his movies and games."], "keywords": ["money", "stress relief", "movies", "games"], "entities": ["Nate"]}
+{"turn_id": "D22:7", "facts": [], "keywords": ["movies", "question"], "entities": ["Joanna"]}
+{"turn_id": "D22:8", "facts": ["Nate said he recently watched \"Little Women\" and thought the acting was awesome and the story captivating."], "keywords": ["movies", "little women"], "entities": ["Nate", "Little Women"]}
+{"turn_id": "D22:9", "facts": ["Joanna said she finished writing her book last week (around late September 2022) after many late nights and edits, and is very proud of it."], "keywords": ["book", "writing", "achievement"], "entities": ["Joanna"]}
+{"turn_id": "D22:10", "facts": [], "keywords": ["congratulations", "book"], "entities": ["Nate"]}
+{"turn_id": "D22:11", "facts": [], "keywords": ["thanks", "dedication"], "entities": ["Joanna"]}
+{"turn_id": "D22:12", "facts": [], "keywords": ["support", "pride"], "entities": ["Nate"]}
+{"turn_id": "D22:13", "facts": [], "keywords": ["goals", "support"], "entities": ["Joanna"]}
+{"turn_id": "D22:14", "facts": ["Nate made Joanna a whiteboard drawing with arrows and encouraging words as a gift."], "keywords": ["gift", "encouragement", "whiteboard"], "entities": ["Nate", "Joanna"]}
+{"turn_id": "D22:15", "facts": [], "keywords": ["gift", "question"], "entities": ["Joanna"]}
+{"turn_id": "D22:16", "facts": ["Nate said he made Joanna the whiteboard drawing so she could look back on it whenever she needs encouragement, inspired by how inspirational her life path is."], "keywords": ["gift", "encouragement", "inspiration"], "entities": ["Nate", "Joanna"]}
+{"turn_id": "D22:17", "facts": [], "keywords": ["gratitude", "gift"], "entities": ["Joanna"]}
+{"turn_id": "D22:18", "facts": ["Nate said encouragement is what got him so far in his gaming career, so he wanted to share that with Joanna."], "keywords": ["encouragement", "gaming career"], "entities": ["Nate"]}
+{"turn_id": "D22:19", "facts": ["Joanna said she finished making a bookmark with a plant design as a gift for a lady at her writing club."], "keywords": ["bookmark", "diy", "writing club", "gift"], "entities": ["Joanna"]}
+{"turn_id": "D22:20", "facts": [], "keywords": ["compliment", "bookmark"], "entities": ["Nate"]}
+{"turn_id": "D22:21", "facts": ["Joanna said she loves DIY projects."], "keywords": ["diy", "hobbies", "preferences"], "entities": ["Joanna"]}
+{"turn_id": "D22:22", "facts": [], "keywords": ["support"], "entities": ["Nate"]}
+{"turn_id": "D22:23", "facts": [], "keywords": ["farewell"], "entities": ["Joanna"]}
+{"turn_id": "D23:1", "facts": ["On 2022-10-07 (last Friday before 2022-10-09), Nate said he went to a game convention and met new people outside his normal circle, which was a bit overwhelming but reminded him of the good times gaming brings."], "keywords": ["game convention", "gaming", "new people"], "entities": ["Nate"]}
+{"turn_id": "D23:2", "facts": [], "keywords": ["encouragement", "comfort zone"], "entities": ["Joanna"]}
+{"turn_id": "D23:3", "facts": ["Nate said he made new friends at the game convention who love games like he does, and they already planned a gaming session together."], "keywords": ["game convention", "friends", "gaming session"], "entities": ["Nate"]}
+{"turn_id": "D23:4", "facts": [], "keywords": ["friendship", "gaming"], "entities": ["Joanna"]}
+{"turn_id": "D23:5", "facts": ["Nate said at the convention he met people who played a board game he loves and they hit it off."], "keywords": ["board game", "game convention", "friendship"], "entities": ["Nate"]}
+{"turn_id": "D23:6", "facts": [], "keywords": ["board games", "bonding", "question"], "entities": ["Joanna"]}
+{"turn_id": "D23:7", "facts": ["Nate said he played the board game Catan at the convention, a strategy game about building settlements and trading resources, which he loves."], "keywords": ["catan", "board game", "strategy"], "entities": ["Nate", "Catan"]}
+{"turn_id": "D23:8", "facts": [], "keywords": ["catan", "question"], "entities": ["Joanna"]}
+{"turn_id": "D23:9", "facts": ["Nate said playing Catan at the convention was both competitive and fun/chill."], "keywords": ["catan", "board game", "competition"], "entities": ["Nate", "Catan"]}
+{"turn_id": "D23:10", "facts": [], "keywords": ["board games", "competition"], "entities": ["Joanna"]}
+{"turn_id": "D23:11", "facts": ["Nate said playing games is his escape from life struggles, so he generally doesn't get overly competitive over them."], "keywords": ["gaming", "escapism", "mindset"], "entities": ["Nate"]}
+{"turn_id": "D23:12", "facts": [], "keywords": ["encouragement", "stress relief"], "entities": ["Joanna"]}
+{"turn_id": "D23:13", "facts": ["Nate suggested Joanna go to a writing convention sometime, saying the game convention experience was unforgettable."], "keywords": ["writing convention", "suggestion", "game convention"], "entities": ["Nate"]}
+{"turn_id": "D23:14", "facts": ["Joanna said she'd never heard of writing conventions before and wants to look into whether they exist."], "keywords": ["writing convention", "curiosity"], "entities": ["Joanna"]}
+{"turn_id": "D23:15", "facts": ["Nate said he unwinds at home mostly by playing video games or watching movies."], "keywords": ["video games", "movies", "relaxation"], "entities": ["Nate"]}
+{"turn_id": "D23:16", "facts": [], "keywords": ["movies", "games", "question"], "entities": ["Joanna"]}
+{"turn_id": "D23:17", "facts": ["Nate said he recently watched the movie \"Inception\" and thought it was mind-blowing with twists and dream elements.", "Nate said he has been playing the video game \"Cyberpunk 2077\" nonstop and loves its futuristic setting and gameplay."], "keywords": ["inception", "cyberpunk 2077", "movies", "video games"], "entities": ["Nate", "Inception", "Cyberpunk 2077"]}
+{"turn_id": "D23:18", "facts": ["Joanna said she recently watched a classic movie with a gripping story and great acting that really stuck with her."], "keywords": ["movies", "classic film"], "entities": ["Joanna"]}
+{"turn_id": "D23:19", "facts": [], "keywords": ["movies", "question"], "entities": ["Nate"]}
+{"turn_id": "D23:20", "facts": ["Joanna rated the classic movie she recently watched 9 or 10 out of 10."], "keywords": ["movies", "rating"], "entities": ["Joanna"]}
+{"turn_id": "D23:21", "facts": [], "keywords": ["movies", "escapism"], "entities": ["Nate"]}
+{"turn_id": "D23:22", "facts": [], "keywords": ["movies", "escapism"], "entities": ["Joanna"]}
+{"turn_id": "D23:23", "facts": [], "keywords": ["living room", "comfort"], "entities": ["Nate"]}
+{"turn_id": "D23:24", "facts": ["Joanna said watching movies at home on a comfy couch with a good blanket makes her feel at peace, more than watching in a theater."], "keywords": ["living room", "comfort", "movies"], "entities": ["Joanna"]}
+{"turn_id": "D23:25", "facts": [], "keywords": ["living room", "question"], "entities": ["Nate"]}
+{"turn_id": "D23:26", "facts": ["Joanna recommended Nate get a couch that fits multiple people and is fluffy, a weighted blanket, and dimmable lights to make his living room cozy."], "keywords": ["living room", "couch", "blanket", "lighting", "recommendation"], "entities": ["Joanna"]}
+{"turn_id": "D23:27", "facts": [], "keywords": ["thanks", "living room"], "entities": ["Nate"]}
+{"turn_id": "D23:28", "facts": ["Joanna said she gets really invested in small things like decorating, and finds it worth it when it makes life nicer."], "keywords": ["hobbies", "personality", "home decor"], "entities": ["Joanna"]}
+{"turn_id": "D23:29", "facts": [], "keywords": ["farewell"], "entities": ["Nate"]}
+{"turn_id": "D23:30", "facts": [], "keywords": ["farewell"], "entities": ["Joanna"]}
+{"turn_id": "D24:1", "facts": [], "keywords": ["greeting", "catching up"], "entities": ["Nate"]}
+{"turn_id": "D24:2", "facts": ["On 2022-10-21, Joanna said she has been revising and perfecting a recipe she made for her family and it turned out really tasty."], "keywords": ["recipe", "family", "cooking"], "entities": ["Joanna"]}
+{"turn_id": "D24:3", "facts": ["Nate said he has been stressed lately because of tough competitors in his tournament progress, but his turtles always cheer him up."], "keywords": ["stress", "tournament", "turtles", "pets"], "entities": ["Nate"]}
+{"turn_id": "D24:4", "facts": ["Joanna said she still has the stuffed animal dog Nate gave her, and named her Tilly; Tilly is always with her while she writes."], "keywords": ["stuffed animal", "tilly", "writing", "gift"], "entities": ["Joanna", "Tilly"]}
+{"turn_id": "D24:5", "facts": [], "keywords": ["tilly", "question"], "entities": ["Nate"]}
+{"turn_id": "D24:6", "facts": ["Joanna said she used to have a real dog named Tilly back in Michigan, but became allergic and they had to get rid of her; naming the stuffed animal Tilly helps her remember when she could hold animals without an allergic reaction."], "keywords": ["tilly", "dog", "michigan", "allergies", "childhood"], "entities": ["Joanna", "Tilly", "Michigan"]}
+{"turn_id": "D24:7", "facts": [], "keywords": ["sentimental", "stuffed animal"], "entities": ["Nate"]}
+{"turn_id": "D24:8", "facts": ["Joanna said Tilly the stuffed animal helps her stay focused and brings her a lot of joy while writing."], "keywords": ["tilly", "writing", "joy"], "entities": ["Joanna", "Tilly"]}
+{"turn_id": "D24:9", "facts": ["Nate said watching his turtles slowly walk around makes him happy even though he doesn't fully understand why."], "keywords": ["turtles", "pets", "happiness"], "entities": ["Nate"]}
+{"turn_id": "D24:10", "facts": [], "keywords": ["catching up"], "entities": ["Joanna"]}
+{"turn_id": "D24:11", "facts": ["Nate said he has been practicing for his next video game tournament as of 2022-10-21."], "keywords": ["video games", "tournament", "practice"], "entities": ["Nate"]}
+{"turn_id": "D24:12", "facts": ["On 2022-10-21, Joanna said she received another rejection from a production company."], "keywords": ["screenplay", "rejection", "production company"], "entities": ["Joanna"]}
+{"turn_id": "D24:13", "facts": [], "keywords": ["encouragement", "rejection"], "entities": ["Nate"]}
+{"turn_id": "D24:14", "facts": ["Joanna said she won't let the rejection slow her down and will keep grinding forward."], "keywords": ["resilience", "screenplay"], "entities": ["Joanna"]}
+{"turn_id": "D24:15", "facts": [], "keywords": ["respect", "resilience"], "entities": ["Nate"]}
+{"turn_id": "D24:16", "facts": [], "keywords": ["thanks", "encouragement"], "entities": ["Joanna"]}
+{"turn_id": "D24:17", "facts": [], "keywords": ["support"], "entities": ["Nate"]}
+{"turn_id": "D24:18", "facts": [], "keywords": ["farewell"], "entities": ["Joanna"]}
+{"turn_id": "D24:19", "facts": [], "keywords": ["farewell"], "entities": ["Nate"]}
+{"turn_id": "D25:1", "facts": [], "keywords": ["greeting", "catching up"], "entities": ["Nate"]}
+{"turn_id": "D25:2", "facts": ["On 2022-10-23 (last Sunday before 2022-10-25), a movie script Joanna contributed to was shown on the big screen for the first time, which felt surreal and satisfying to Joanna."], "keywords": ["screenplay", "movie", "premiere", "emotions"], "entities": ["Joanna"]}
+{"turn_id": "D25:3", "facts": [], "keywords": ["congratulations", "question"], "entities": ["Nate"]}
+{"turn_id": "D25:4", "facts": ["Joanna said seeing her characters and dialogue acted out on the big screen was an amazing, rewarding experience, and that this was the third time one of her scripts made it to the screen."], "keywords": ["screenplay", "movie", "characters", "achievement"], "entities": ["Joanna"]}
+{"turn_id": "D25:5", "facts": [], "keywords": ["favorite part", "question"], "entities": ["Nate"]}
+{"turn_id": "D25:6", "facts": ["Joanna said her favorite part of seeing her movie was watching the characters she worked hard on come alive, feeling like they jumped off the page."], "keywords": ["screenplay", "characters", "movie"], "entities": ["Joanna"]}
+{"turn_id": "D25:7", "facts": [], "keywords": ["drawings", "compliment", "question"], "entities": ["Nate"]}
+{"turn_id": "D25:8", "facts": ["Joanna said she draws visuals of her characters to help bring them alive in her head so she can write them better."], "keywords": ["writing", "character design", "drawing", "process"], "entities": ["Joanna"]}
+{"turn_id": "D25:9", "facts": [], "keywords": ["characters", "question"], "entities": ["Nate"]}
+{"turn_id": "D25:10", "facts": ["Joanna said she gets her character ideas from everywhere: people she knows, things she's seen, and her imagination."], "keywords": ["writing", "character inspiration", "creativity"], "entities": ["Joanna"]}
+{"turn_id": "D25:11", "facts": [], "keywords": ["characters", "question"], "entities": ["Nate"]}
+{"turn_id": "D25:12", "facts": ["Joanna declined to reveal details about one of her characters, telling Nate to watch the movie to find out."], "keywords": ["characters", "movie", "secrecy"], "entities": ["Joanna"]}
+{"turn_id": "D25:13", "facts": [], "keywords": ["movies", "anticipation"], "entities": ["Nate"]}
+{"turn_id": "D25:14", "facts": [], "keywords": ["catching up"], "entities": ["Joanna"]}
+{"turn_id": "D25:15", "facts": ["Nate said he was bored on 2022-10-25 so he took his turtles out for a walk."], "keywords": ["turtles", "pets", "walk"], "entities": ["Nate"]}
+{"turn_id": "D25:16", "facts": [], "keywords": ["turtles", "question"], "entities": ["Joanna"]}
+{"turn_id": "D25:17", "facts": ["Nate said his turtles seemed tired from their walk and were relaxing in the tank afterward."], "keywords": ["turtles", "pets"], "entities": ["Nate"]}
+{"turn_id": "D25:18", "facts": [], "keywords": ["turtles", "question"], "entities": ["Joanna"]}
+{"turn_id": "D25:19", "facts": ["Nate said his turtles eat a varied diet of vegetables, fruits, and insects."], "keywords": ["turtles", "diet", "pets"], "entities": ["Nate"]}
+{"turn_id": "D25:20", "facts": [], "keywords": ["turtles", "diet", "question"], "entities": ["Joanna"]}
+{"turn_id": "D25:21", "facts": ["Nate said his turtles get very excited/hyped when eating fruit."], "keywords": ["turtles", "diet", "fruit"], "entities": ["Nate"]}
+{"turn_id": "D25:22", "facts": [], "keywords": ["turtles", "cute"], "entities": ["Joanna"]}
+{"turn_id": "D25:23", "facts": ["Nate said he also likes holding his turtles and enjoys watching them eat their favorite snacks."], "keywords": ["turtles", "pets", "affection"], "entities": ["Nate"]}
+{"turn_id": "D25:24", "facts": [], "keywords": ["turtles", "personality", "question"], "entities": ["Joanna"]}
+{"turn_id": "D25:25", "facts": ["Nate said his two turtles have different personalities: one is more adventurous and the other more reserved, and that they bring him joy as companions."], "keywords": ["turtles", "personality", "pets"], "entities": ["Nate"]}
+{"turn_id": "D25:26", "facts": [], "keywords": ["turtles", "surprise"], "entities": ["Joanna"]}
+{"turn_id": "D25:27", "facts": ["Nate said he has liked turtles since he was a boy and knows a lot about them."], "keywords": ["turtles", "childhood", "interest"], "entities": ["Nate"]}
+{"turn_id": "D25:28", "facts": [], "keywords": ["farewell", "turtles"], "entities": ["Joanna"]}
+{"turn_id": "D25:29", "facts": [], "keywords": ["farewell"], "entities": ["Nate"]}
+{"turn_id": "D26:1", "facts": ["On 2022-11-04, Joanna said she just set up meetings with movie producers."], "keywords": ["movie producers", "screenplay", "career"], "entities": ["Joanna"]}
+{"turn_id": "D26:2", "facts": [], "keywords": ["meetings", "question"], "entities": ["Nate"]}
+{"turn_id": "D26:3", "facts": ["Joanna said her meetings with movie producers went really well; they seemed interested and excited, and loved the elements of self-discovery in her script."], "keywords": ["movie producers", "screenplay", "self-discovery"], "entities": ["Joanna"]}
+{"turn_id": "D26:4", "facts": [], "keywords": ["encouragement", "pride"], "entities": ["Nate"]}
+{"turn_id": "D26:5", "facts": ["Joanna said last week (around late October 2022) she found her old notebooks with her early writings and found it cool to see how far she's come."], "keywords": ["old notebooks", "early writing", "growth"], "entities": ["Joanna"]}
+{"turn_id": "D26:6", "facts": [], "keywords": ["early writing", "question"], "entities": ["Nate"]}
+{"turn_id": "D26:7", "facts": ["Joanna said she remembers a story she wrote when she was 10 years old about a brave little turtle who was scared but explored the world anyway, and that themes of courage and taking risks still influence her writing today."], "keywords": ["childhood writing", "turtle story", "courage", "themes"], "entities": ["Joanna"]}
+{"turn_id": "D26:8", "facts": [], "keywords": ["writing", "turtles", "encouragement"], "entities": ["Nate"]}
+{"turn_id": "D26:9", "facts": ["Joanna said turtles make her think of strength and perseverance and help motivate her in tough times."], "keywords": ["turtles", "motivation", "perseverance"], "entities": ["Joanna"]}
+{"turn_id": "D26:10", "facts": [], "keywords": ["turtles", "question"], "entities": ["Nate"]}
+{"turn_id": "D26:11", "facts": ["Joanna said besides producer meetings, she is working on a project that is challenging but fulfilling."], "keywords": ["project", "work"], "entities": ["Joanna"]}
+{"turn_id": "D26:12", "facts": ["Nate said he has been helping friends reset their high scores at the international tournament."], "keywords": ["gaming", "high scores", "tournament", "helping friends"], "entities": ["Nate"]}
+{"turn_id": "D26:13", "facts": [], "keywords": ["gaming", "encouragement"], "entities": ["Joanna"]}
+{"turn_id": "D26:14", "facts": [], "keywords": ["helping", "satisfaction"], "entities": ["Nate"]}
+{"turn_id": "D26:15", "facts": [], "keywords": ["excitement"], "entities": ["Joanna"]}
+{"turn_id": "D26:16", "facts": ["Nate invited Joanna to come over and try ice cream he made the day before (2022-11-03)."], "keywords": ["ice cream", "invitation"], "entities": ["Nate", "Joanna"]}
+{"turn_id": "D26:17", "facts": [], "keywords": ["ice cream", "lactose-free", "question"], "entities": ["Joanna"]}
+{"turn_id": "D26:18", "facts": ["Nate said the ice cream he made is lactose-free because he made it with coconut milk."], "keywords": ["ice cream", "coconut milk", "lactose-free"], "entities": ["Nate"]}
+{"turn_id": "D26:19", "facts": ["Joanna agreed to come over to Nate's the next day (2022-11-05) to try his ice cream."], "keywords": ["plans", "visit", "ice cream"], "entities": ["Joanna", "Nate"]}
+{"turn_id": "D26:20", "facts": [], "keywords": ["invitation"], "entities": ["Nate"]}
+{"turn_id": "D26:21", "facts": ["Joanna said she would bring some of her own dessert recipes to share with Nate."], "keywords": ["dessert", "recipes", "sharing"], "entities": ["Joanna"]}
+{"turn_id": "D26:22", "facts": ["Nate said he has been wanting to try Joanna's chocolate and raspberry cake for a while."], "keywords": ["dessert", "chocolate raspberry cake"], "entities": ["Nate"]}
+{"turn_id": "D26:23", "facts": [], "keywords": ["farewell", "plans"], "entities": ["Joanna"]}
+{"turn_id": "D26:24", "facts": [], "keywords": ["farewell"], "entities": ["Nate"]}
+{"turn_id": "D27:1", "facts": ["On 2022-11-07, Nate said he won the final of a big Valorant tournament the previous Saturday (2022-11-05)."], "keywords": ["valorant", "tournament", "victory"], "entities": ["Nate", "Valorant"]}
+{"turn_id": "D27:2", "facts": ["Joanna said last Friday (2022-11-04) she finished a presentation for producers that was tough but is looking good."], "keywords": ["presentation", "producers", "screenplay"], "entities": ["Joanna"]}
+{"turn_id": "D27:3", "facts": ["Nate said he has been busy preparing for other tournaments after his Valorant win."], "keywords": ["tournament", "valorant", "preparation"], "entities": ["Nate", "Valorant"]}
+{"turn_id": "D27:4", "facts": [], "keywords": ["encouragement", "busy life"], "entities": ["Joanna"]}
+{"turn_id": "D27:5", "facts": [], "keywords": ["gratitude", "career"], "entities": ["Nate"]}
+{"turn_id": "D27:6", "facts": ["Joanna said she is writing another movie script, a love story with lots of challenges, that she hopes to get onto the big screen."], "keywords": ["screenplay", "love story", "new project"], "entities": ["Joanna"]}
+{"turn_id": "D27:7", "facts": [], "keywords": ["writing", "question"], "entities": ["Nate"]}
+{"turn_id": "D27:8", "facts": ["Joanna said the idea for her new love story script came from a dream."], "keywords": ["screenplay", "dream", "inspiration"], "entities": ["Joanna"]}
+{"turn_id": "D27:9", "facts": ["Nate said his turtles bring him joy and he has grown fond of watching them, finding it calming and fascinating."], "keywords": ["turtles", "pets", "joy"], "entities": ["Nate"]}
+{"turn_id": "D27:10", "facts": ["Joanna said creating stories and watching them come alive gives her happiness and fulfillment."], "keywords": ["writing", "happiness", "fulfillment"], "entities": ["Joanna"]}
+{"turn_id": "D27:11", "facts": [], "keywords": ["dedication", "question"], "entities": ["Nate"]}
+{"turn_id": "D27:12", "facts": ["Joanna said she submitted a few more scripts the week before (around late October/early November 2022) and is waiting to hear back, expecting some rejections."], "keywords": ["screenplay", "submission", "rejection"], "entities": ["Joanna"]}
+{"turn_id": "D27:13", "facts": [], "keywords": ["encouragement", "screenplay"], "entities": ["Nate"]}
+{"turn_id": "D27:14", "facts": [], "keywords": ["thanks", "persistence"], "entities": ["Joanna"]}
+{"turn_id": "D27:15", "facts": ["Nate said he just upgraded some of his gaming equipment at home."], "keywords": ["gaming setup", "equipment", "upgrade"], "entities": ["Nate"]}
+{"turn_id": "D27:16", "facts": [], "keywords": ["gaming setup", "question"], "entities": ["Joanna"]}
+{"turn_id": "D27:17", "facts": ["Nate said his upgraded computer setup is where he practices and competes in gaming, and sometimes plays with friends."], "keywords": ["gaming setup", "practice", "competition"], "entities": ["Nate"]}
+{"turn_id": "D27:18", "facts": [], "keywords": ["gaming setup", "focus"], "entities": ["Joanna"]}
+{"turn_id": "D27:19", "facts": ["Nate said his gaming setup is like his own little haven to escape into the virtual world."], "keywords": ["gaming setup", "escape"], "entities": ["Nate"]}
+{"turn_id": "D27:20", "facts": [], "keywords": ["gaming setup", "compliment"], "entities": ["Joanna"]}
+{"turn_id": "D27:21", "facts": ["Nate said having a good gaming setup is important for his gaming career and beating his competition."], "keywords": ["gaming setup", "career", "competition"], "entities": ["Nate"]}
+{"turn_id": "D27:22", "facts": [], "keywords": ["practice", "question"], "entities": ["Joanna"]}
+{"turn_id": "D27:23", "facts": ["Nate said he is currently playing a fantasy RPG called Xenoblade Chronicles and recommends it."], "keywords": ["xenoblade chronicles", "rpg", "video games"], "entities": ["Nate", "Xenoblade Chronicles"]}
+{"turn_id": "D27:24", "facts": [], "keywords": ["xenoblade chronicles", "question"], "entities": ["Joanna"]}
+{"turn_id": "D27:25", "facts": ["Nate said he is a big fan of Nintendo games and started playing Xenoblade Chronicles because his friends recommended it."], "keywords": ["nintendo", "xenoblade chronicles", "friends", "recommendation"], "entities": ["Nate", "Xenoblade Chronicles", "Nintendo"]}
+{"turn_id": "D27:26", "facts": [], "keywords": ["recommendations", "observation"], "entities": ["Joanna"]}
+{"turn_id": "D27:27", "facts": ["Nate said he loves getting movie recommendations from Joanna because he usually likes them more than random movies he'd pick himself."], "keywords": ["movies", "recommendation", "friendship"], "entities": ["Nate", "Joanna"]}
+{"turn_id": "D27:28", "facts": ["On 2022-11-07, Joanna said she just finished the intro to her next movie script and included a handwritten letter at the beginning."], "keywords": ["screenplay", "intro", "new project"], "entities": ["Joanna"]}
+{"turn_id": "D27:29", "facts": [], "keywords": ["letter", "childhood", "question"], "entities": ["Nate"]}
+{"turn_id": "D27:30", "facts": ["Joanna said the handwritten letter in her script's intro reminds her of childhood notes her brother used to write her when they were kids."], "keywords": ["brother", "childhood", "letters", "family"], "entities": ["Joanna"]}
+{"turn_id": "D27:31", "facts": [], "keywords": ["childhood memories"], "entities": ["Nate"]}
+{"turn_id": "D27:32", "facts": [], "keywords": ["memories", "growing up"], "entities": ["Joanna"]}
+{"turn_id": "D27:33", "facts": ["Nate said he had a special day taking his pets to the park and treasures mixing new memories with old ones."], "keywords": ["pets", "park", "memories"], "entities": ["Nate"]}
+{"turn_id": "D27:34", "facts": ["Joanna said she started writing down some of her favorite memories."], "keywords": ["memories", "writing", "journaling"], "entities": ["Joanna"]}
+{"turn_id": "D27:35", "facts": [], "keywords": ["ideas", "compliment"], "entities": ["Nate"]}
+{"turn_id": "D27:36", "facts": [], "keywords": ["encouragement", "memories"], "entities": ["Joanna"]}
+{"turn_id": "D27:37", "facts": ["Nate said he will start writing down his favorite memories with Joanna from now on."], "keywords": ["memories", "friendship", "journaling"], "entities": ["Nate", "Joanna"]}
+{"turn_id": "D27:38", "facts": [], "keywords": ["friendship", "dreams", "support"], "entities": ["Joanna"]}
+{"turn_id": "D28:1", "facts": ["On 2022-11-09, Nate said his game tournament got pushed back so he tried cooking, making homemade coconut ice cream with sprinkles that changed its color."], "keywords": ["coconut ice cream", "cooking", "tournament postponed"], "entities": ["Nate"]}
+{"turn_id": "D28:2", "facts": [], "keywords": ["ice cream", "tournament", "question"], "entities": ["Joanna"]}
+{"turn_id": "D28:3", "facts": ["Nate said his last tournament was tough and he didn't make it to the finals."], "keywords": ["tournament", "setback"], "entities": ["Nate"]}
+{"turn_id": "D28:4", "facts": [], "keywords": ["encouragement", "positivity"], "entities": ["Joanna"]}
+{"turn_id": "D28:5", "facts": ["Nate said he is considering joining a new gaming team after his next tournament, having received a few offers he hasn't decided on yet."], "keywords": ["gaming team", "offers", "career decision"], "entities": ["Nate"]}
+{"turn_id": "D28:6", "facts": [], "keywords": ["encouragement", "gaming team"], "entities": ["Joanna"]}
+{"turn_id": "D28:7", "facts": [], "keywords": ["excitement", "question"], "entities": ["Nate"]}
+{"turn_id": "D28:8", "facts": ["Joanna said she pitched a new script and a plan for turning it into a movie to producers the day before (2022-11-08), and they really liked it, giving her a big confidence boost."], "keywords": ["screenplay", "pitch", "producers", "confidence"], "entities": ["Joanna"]}
+{"turn_id": "D28:9", "facts": [], "keywords": ["congratulations", "pitch"], "entities": ["Nate"]}
+{"turn_id": "D28:10", "facts": [], "keywords": ["thanks", "writing momentum"], "entities": ["Joanna"]}
+{"turn_id": "D28:11", "facts": [], "keywords": ["notebook", "question"], "entities": ["Nate"]}
+{"turn_id": "D28:12", "facts": ["Joanna said she is working on a new project: a suspenseful thriller set in a small Midwestern town."], "keywords": ["thriller", "screenplay", "new project", "midwest"], "entities": ["Joanna"]}
+{"turn_id": "D28:13", "facts": ["Nate said he has started creating gaming content for YouTube as an entertaining way to satisfy his video game cravings between tournaments."], "keywords": ["youtube", "gaming content", "new project"], "entities": ["Nate", "YouTube"]}
+{"turn_id": "D28:14", "facts": [], "keywords": ["youtube", "question"], "entities": ["Joanna"]}
+{"turn_id": "D28:15", "facts": ["Nate said he is a big fan of gaming YouTube videos and started making his own to share his love of gaming and connect with others."], "keywords": ["youtube", "gaming content", "motivation"], "entities": ["Nate"]}
+{"turn_id": "D28:16", "facts": [], "keywords": ["encouragement", "youtube"], "entities": ["Joanna"]}
+{"turn_id": "D28:17", "facts": [], "keywords": ["thanks", "excitement"], "entities": ["Nate"]}
+{"turn_id": "D28:18", "facts": ["Joanna advised Nate to watch other people's gaming videos first to understand what his audience likes before posting his own."], "keywords": ["youtube", "advice", "audience"], "entities": ["Joanna"]}
+{"turn_id": "D28:19", "facts": [], "keywords": ["thanks", "youtube"], "entities": ["Nate"]}
+{"turn_id": "D28:20", "facts": ["Joanna shared a photo of a sunflower field at sunset that she took a while back."], "keywords": ["sunflower", "sunset", "photo"], "entities": ["Joanna"]}
+{"turn_id": "D28:21", "facts": [], "keywords": ["sunset", "question"], "entities": ["Nate"]}
+{"turn_id": "D28:22", "facts": ["Joanna said she took the sunflower/sunset photo on a hike last summer (2022) near Fort Wayne."], "keywords": ["fort wayne", "hiking", "sunset", "photo"], "entities": ["Joanna", "Fort Wayne"]}
+{"turn_id": "D28:23", "facts": ["On 2022-11-09, Nate said he got his turtles a new (third) friend."], "keywords": ["turtles", "pets", "new addition"], "entities": ["Nate"]}
+{"turn_id": "D28:24", "facts": [], "keywords": ["turtles", "question"], "entities": ["Joanna"]}
+{"turn_id": "D28:25", "facts": ["Nate said he got a third turtle after seeing one at a pet store, since his tank was now big enough for three."], "keywords": ["turtles", "pet store", "tank"], "entities": ["Nate"]}
+{"turn_id": "D28:26", "facts": [], "keywords": ["surprise", "life"], "entities": ["Joanna"]}
+{"turn_id": "D28:27", "facts": [], "keywords": ["happiness", "decision"], "entities": ["Nate"]}
+{"turn_id": "D28:28", "facts": ["Joanna asked if she could come over sometime to watch Nate play with his turtles from a distance, since she is allergic."], "keywords": ["turtles", "allergies", "visit"], "entities": ["Joanna"]}
+{"turn_id": "D28:29", "facts": ["Nate invited Joanna over again and suggested they could watch one of her movies together or go to the park."], "keywords": ["invitation", "movies", "park"], "entities": ["Nate", "Joanna"]}
+{"turn_id": "D28:30", "facts": [], "keywords": ["plans", "friendship"], "entities": ["Joanna"]}
+{"turn_id": "D28:31", "facts": ["Nate said he would give his turtles a bath before Joanna's visit so they'd be ready to play."], "keywords": ["turtles", "visit preparation"], "entities": ["Nate"]}
+{"turn_id": "D28:32", "facts": [], "keywords": ["farewell", "plans"], "entities": ["Joanna"]}
+{"turn_id": "D28:33", "facts": [], "keywords": ["farewell"], "entities": ["Nate"]}
+{"turn_id": "D29:1", "facts": ["On 2022-11-11, Joanna said she is finally filming her own movie based on the script inspired by her Woodhaven road trip."], "keywords": ["filming", "movie", "road trip", "screenplay"], "entities": ["Joanna"]}
+{"turn_id": "D29:2", "facts": [], "keywords": ["congratulations", "filming", "question"], "entities": ["Nate"]}
+{"turn_id": "D29:3", "facts": ["Joanna said every day on the film set is awesome and full of potential, and she loves being able to show her vision."], "keywords": ["filming", "movie set", "vision"], "entities": ["Joanna"]}
+{"turn_id": "D29:4", "facts": [], "keywords": ["filming", "question"], "entities": ["Nate"]}
+{"turn_id": "D29:5", "facts": ["Joanna said one of the actors on her film set told her how much she liked Joanna's script, which excited and thrilled her."], "keywords": ["filming", "actor", "screenplay", "feedback"], "entities": ["Joanna"]}
+{"turn_id": "D29:6", "facts": ["Nate said he took his turtles to a beach in Tampa the day before (2022-11-10)."], "keywords": ["turtles", "tampa", "beach"], "entities": ["Nate", "Tampa"]}
+{"turn_id": "D29:7", "facts": [], "keywords": ["turtles", "question"], "entities": ["Joanna"]}
+{"turn_id": "D29:8", "facts": ["Nate said he loves having his turtles around because they make him feel calm and don't require much looking after."], "keywords": ["turtles", "pets", "calm", "low-maintenance"], "entities": ["Nate"]}
+{"turn_id": "D29:9", "facts": [], "keywords": ["turtles", "serenity"], "entities": ["Joanna"]}
+{"turn_id": "D29:10", "facts": ["Nate said turtles remind him to slow down and appreciate the small things in life, and shared that he has been experimenting with colorful coconut milk ice cream flavors."], "keywords": ["turtles", "mindfulness", "coconut milk ice cream", "flavors"], "entities": ["Nate"]}
+{"turn_id": "D29:11", "facts": [], "keywords": ["ice cream", "compliment"], "entities": ["Joanna"]}
+{"turn_id": "D29:12", "facts": [], "keywords": ["ice cream", "recipe", "offer"], "entities": ["Nate"]}
+{"turn_id": "D29:13", "facts": [], "keywords": ["ice cream", "thanks"], "entities": ["Joanna"]}
+{"turn_id": "D29:14", "facts": [], "keywords": ["farewell"], "entities": ["Nate"]}
+{"turn_id": "D29:15", "facts": [], "keywords": ["farewell", "catching up"], "entities": ["Joanna"]}
