@@ -5,7 +5,7 @@ Claude Code, Codex CLI, VS Code Copilot, ChatGPT, and any MCP-compatible client.
 Document ingestion, FAISS search, chat extraction, cross-project linking.
 """
 
-__version__ = "4.0.1rc1"
+__version__ = "4.0.1"
 
 __all__ = [
     "__version__",

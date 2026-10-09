@@ -1,6 +1,6 @@
 [project]
 name = "memory-os-v4"
-version = "4.0.1rc1"
+version = "4.0.1"
 description = "Memory OS v4: a local-first long-term memory engine for LLM agents."
 requires-python = ">=3.11"
 

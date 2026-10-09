@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "memory-os-ai"
-version = "4.0.1rc1"
+version = "4.0.1"
 description = "Adaptive memory system for AI agents — universal MCP server for Claude, Codex, VS Code, ChatGPT"
 readme = "README.md"
 license = "LGPL-3.0-or-later"
@@ -94,6 +94,10 @@ memory-os-admin = "memory_os_v4.ops.cli:main"
 [tool.setuptools.packages.find]
 where = ["src", "v4/src"]
 include = ["memory_os_ai*", "memory_os_v4*"]
+
+[tool.setuptools.data-files]
+"share/doc/memory-os-ai" = ["AGENTS.md", "CLAUDE.md", "CHANGELOG.md", "docs/releases/v4.0.1.md"]
+"share/doc/memory-os-ai/v4" = ["v4/docs/*.md"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

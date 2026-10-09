@@ -6,6 +6,7 @@ from __future__ import annotations
 
 import asyncio
 import importlib.metadata
+import json
 import os
 from pathlib import Path
 import subprocess
@@ -38,6 +39,7 @@ async def smoke(command: Path, data_dir: str) -> None:
 
 def main() -> None:
     distribution = importlib.metadata.distribution("memory-os-ai")
+    assert distribution.version == "4.0.1", distribution.version
     assert distribution.metadata["License-Expression"] == "LGPL-3.0-or-later"
     files = {str(path): path for path in distribution.files or ()}
     for name, header in (("LICENSE", "GNU LESSER GENERAL PUBLIC LICENSE"),
@@ -49,6 +51,8 @@ def main() -> None:
         "memory-os-ai": "memory_os_v4.server:run",
         "memory-os-v4": "memory_os_v4.server:run",
         "memory-os-ai-v3": "memory_os_ai.server:run",
+        "memory-os-relay": "memory_os_v4.ops.relay:main",
+        "memory-os-admin": "memory_os_v4.ops.cli:main",
     }
     entry_points = {ep.name: ep.value for ep in distribution.entry_points if ep.group == "console_scripts"}
     assert expected.items() <= entry_points.items(), entry_points
@@ -56,7 +60,14 @@ def main() -> None:
     assert "site-packages" in package_root.parts, package_root
     for module in ("memory_os_ai", "memory_os_v4"):
         assert (package_root / module / "__init__.py").is_file(), module
-    for name in expected:
+    for module in ("memory_os_ai", "memory_os_v4", "memory_os_v4.ops"):
+        imported = __import__(module, fromlist=["__file__"])
+        assert package_root in Path(imported.__file__).resolve().parents, imported.__file__
+    docs = Path(sys.executable).parent.parent / "share/doc/memory-os-ai"
+    for document in ("AGENTS.md", "CLAUDE.md", "CHANGELOG.md", "v4.0.1.md", "v4/OPERATIONS.md",
+                     "v4/A6_REVIEW_966eca5.md"):
+        assert (docs / document).is_file(), document
+    for name in ("memory-os-ai", "memory-os-v4", "memory-os-ai-v3"):
         command = Path(sys.executable).parent / name
         assert command.is_file(), command
         with tempfile.TemporaryDirectory(prefix="memory-package-smoke-") as data_dir:
@@ -64,7 +75,44 @@ def main() -> None:
         if name != "memory-os-ai-v3":
             subprocess.run([str(command), "--help"], check=True, timeout=15)
             subprocess.run([str(command), "--selfcheck"], check=True, timeout=45)
-    print("Built distribution: all three installed entry points passed MCP startup.")
+    admin = Path(sys.executable).parent / "memory-os-admin"
+    relay = Path(sys.executable).parent / "memory-os-relay"
+    assert admin.is_file() and relay.is_file()
+    with tempfile.TemporaryDirectory(prefix="memory-ops-smoke-") as directory:
+        root = Path(directory)
+        env = {**os.environ, "MEMORY_V4_TOKEN_FILE": str(root / "http.token"),
+               "MEMORY_V4_DIR": str(root / "store"), "MEMORY_V4_OPS_DIR": str(root / "ops"),
+               "MEMORY_V4_BACKUP_DIR": str(root / "backups"), "MEMORY_V4_BACKUP_KEY": str(root / "backup.key"),
+               "MEMORY_V4_URL": "http://127.0.0.1:9/mcp/", "MEMORY_V4_EMBED_MODEL": "hash",
+               "HF_HUB_OFFLINE": "1", "TRANSFORMERS_OFFLINE": "1"}
+        env.pop("PYTHONPATH", None)
+        created = subprocess.run([str(admin), "token", "create"], env=env, check=True,
+                                 capture_output=True, text=True, timeout=10)
+        token = (root / "http.token").read_text().strip()
+        assert token not in created.stdout + created.stderr
+        assert (root / "http.token").stat().st_mode & 0o777 == 0o600
+        setup = subprocess.run([str(admin), "setup", "--write-launchd", str(root / "plists")],
+                               env=env, check=True, capture_output=True, text=True, timeout=10)
+        assert token not in setup.stdout + setup.stderr and len(list((root / "plists").glob("*.plist"))) == 3
+        hook = subprocess.run([str(admin), "hook", "stop-nudge"], input=json.dumps({}), env=env,
+                              check=True, capture_output=True, text=True, timeout=10)
+        assert not hook.stdout
+        (root / "store").mkdir()
+        (root / "store/items.jsonl").write_text('{"id":"smoke","kind":"fact","text":"Synthetic"}\n')
+        for arguments in (("backup", "--no-stop"), ("restore-drill", "--no-server")):
+            result = subprocess.run([str(admin), *arguments], env=env, check=True,
+                                    capture_output=True, text=True, timeout=15)
+            assert json.loads(result.stdout)["ok"] is True
+        unhealthy = subprocess.run([str(admin), "health"], env=env, capture_output=True,
+                                   text=True, timeout=10)
+        assert unhealthy.returncode == 1 and "server unreachable" in unhealthy.stdout
+        unavailable = subprocess.run([str(relay)], input="", env=env, capture_output=True,
+                                     text=True, timeout=20)
+        assert unavailable.returncode == 1, unavailable.returncode
+        assert "cannot reach" in unavailable.stderr and token not in unavailable.stderr + unavailable.stdout
+    print("4.0.1: three installed servers passed MCP startup; six admin commands and relay-unavailable passed.")
+    print("Five entry points and installed docs/licenses verified; relay TCP/reconnection NOT qualified here.")
+    print("Backup/drill CLI smoke is diagnostic only, not A6 durability/consistency qualification.")
 
 
 if __name__ == "__main__":

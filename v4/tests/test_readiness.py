@@ -38,7 +38,7 @@ async def test_authenticated_ready_after_write_and_dirty_access_counter(app_engi
     result = await response(app)
     assert result.status_code == 200
     assert result.json()["ready"] is True
-    assert result.json()["version"] == "4.0.1rc1" and result.json()["commit"] == COMMIT
+    assert result.json()["version"] == "4.0.1" and result.json()["commit"] == COMMIT
     assert result.json()["commit_source"] == "deployment_manifest"
 
 
@@ -126,7 +126,7 @@ async def test_missing_model_returns_non_ready(app_engine):
 async def test_unknown_build_commit_does_not_claim_ready(app_engine, monkeypatch):
     _, _engine = app_engine
     monkeypatch.setattr("memory_os_v4.readiness.build_identity", lambda: {
-        "version": "4.0.1rc1", "commit": None, "commit_source": "unknown", "source_dirty": None})
+        "version": "4.0.1", "commit": None, "commit_source": "unknown", "source_dirty": None})
     app = server._build_http_app("127.0.0.1", 8765)
     assert (await response(app)).json()["reason"] == "build_unqualified"
 
@@ -134,7 +134,7 @@ async def test_unknown_build_commit_does_not_claim_ready(app_engine, monkeypatch
 @pytest.mark.asyncio
 async def test_dirty_build_does_not_claim_ready(app_engine, monkeypatch):
     monkeypatch.setattr("memory_os_v4.readiness.build_identity", lambda: {
-        "version": "4.0.1rc1", "commit": COMMIT, "commit_source": "checkout", "source_dirty": True})
+        "version": "4.0.1", "commit": COMMIT, "commit_source": "checkout", "source_dirty": True})
     app = server._build_http_app("127.0.0.1", 8765)
     assert (await response(app)).json()["reason"] == "build_unqualified"
 

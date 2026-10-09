@@ -214,7 +214,7 @@ class MemoryV4:
 
         self.store.meta["embed_model"] = self.config.embed_model
         self.store.meta["dim"] = dim
-        self.store.meta["version"] = "4.0.1rc1"
+        self.store.meta["version"] = "4.0.1"
 
     def _reconcile_indexes(self) -> None:
         """A1 (adversarial review, 2026-09-12): after loading whatever was
@@ -813,7 +813,7 @@ class MemoryV4:
             meta = dict(self.store.meta)
             meta["embed_model"] = self.config.embed_model
             meta["dim"] = self.embedder.dim
-            meta["version"] = "4.0.1rc1"
+            meta["version"] = "4.0.1"
             if self.last_consolidated is not None:
                 meta["last_consolidated"] = self.last_consolidated
             self.store.save_meta(meta)
