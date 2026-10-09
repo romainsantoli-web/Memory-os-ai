@@ -30,6 +30,7 @@ from pathlib import Path, PurePosixPath
 
 from .auth import SecretFileError, read_secret_file, write_secret_file
 from .settings import OpsSettings
+from .storecheck import StoreCheckError, check_dir, check_files
 
 MAGIC = b"MOSB1"  # MAGIC | nonce(12) | AESGCM(tar.gz, aad=MAGIC)
 ROOT = "memory-os-v4"
@@ -90,26 +91,6 @@ def sha256(path: Path) -> str:
 
 
 # ---------------------------------------------------------------------------------------------- snapshot
-def parse_items(data: bytes) -> dict:
-    """Strict JSONL: every line a JSON object with a string ``id``; non-empty data ends with a newline."""
-    if data and not data.endswith(b"\n"):
-        raise BackupError("items.jsonl does not end with a newline (truncated write: result uncertain)")
-    last: dict[str, dict] = {}
-    for n, line in enumerate(data.splitlines(), 1):
-        try:
-            row = json.loads(line)
-        except ValueError:
-            raise BackupError(f"items.jsonl line {n} is not valid JSON") from None
-        if not isinstance(row, dict) or not isinstance(row.get("id"), str):
-            raise BackupError(f"items.jsonl line {n} has no string id")
-        last[row["id"]] = row
-    by_kind: dict[str, int] = {}
-    for row in last.values():
-        if not row.get("deleted"):
-            by_kind[row.get("kind", "?")] = by_kind.get(row.get("kind", "?"), 0) + 1
-    return {"live_by_kind": by_kind, "live_total": sum(by_kind.values()), "ids": len(last)}
-
-
 def snapshot(store: Path) -> dict[str, bytes]:
     store = store.resolve(strict=True)
     files: dict[str, bytes] = {}
@@ -155,26 +136,56 @@ def extract(archive: Path, key: bytes, target: Path) -> Path:
     return target / ROOT
 
 
+def _safe_rel(key) -> bool:
+    if not isinstance(key, str) or not key or key == "MANIFEST.json" or "\\" in key or "\x00" in key:
+        return False
+    p = PurePosixPath(key)
+    return not p.is_absolute() and str(p) == key and all(part not in ("", ".", "..") for part in p.parts)
+
+
+def loads_manifest(data: bytes) -> dict:
+    from .storecheck import loads_strict
+
+    manifest = loads_strict(data)
+    if not isinstance(manifest, dict):
+        raise BackupError("manifest is not an object")
+    return manifest
+
+
 def verify_manifest(root: Path) -> tuple[dict, list[str]]:
-    """Exact inventory: every manifested file present with its size and hash, no extra file, item counts match."""
-    manifest = json.loads((root / "MANIFEST.json").read_text())
-    expected = manifest["files"]
-    actual = {p.relative_to(root).as_posix() for p in root.rglob("*") if p.is_file() or p.is_symlink()}
-    actual.discard("MANIFEST.json")
-    problems = sorted(f"extra:{f}" for f in actual - set(expected))
-    for rel, meta in expected.items():
-        p = root / rel
-        if p.is_symlink() or not p.is_file():
-            problems.append(f"missing:{rel}")
-        elif p.stat().st_size != meta["bytes"] or sha256(p) != meta["sha256"]:
+    """Exact inventory. Manifest keys are validated BEFORE any filesystem access (canonical relative POSIX paths,
+    no traversal); the set of regular files under ``root`` must equal the manifest; links or special files are
+    refused; sizes, hashes and the strict store check must match."""
+    manifest = loads_manifest((root / "MANIFEST.json").read_bytes())
+    expected = manifest.get("files")
+    if not isinstance(expected, dict):
+        return manifest, ["manifest:files missing"]
+    bad_keys = [k for k in expected if not _safe_rel(k)]
+    if bad_keys:
+        return manifest, [f"manifest:unsafe path {k!r}" for k in bad_keys]
+    problems: list[str] = []
+    actual: set[str] = set()
+    for p in root.rglob("*"):
+        rel = p.relative_to(root).as_posix()
+        mode = p.lstat().st_mode
+        if stat.S_ISLNK(mode) or not (stat.S_ISREG(mode) or stat.S_ISDIR(mode)):
+            problems.append(f"special:{rel}")
+        elif stat.S_ISREG(mode) and rel != "MANIFEST.json":
+            actual.add(rel)
+    problems += sorted(f"extra:{f}" for f in actual - set(expected))
+    problems += sorted(f"missing:{f}" for f in set(expected) - actual)
+    for rel in sorted(actual & set(expected)):
+        meta, path = expected[rel], root / rel
+        if (not isinstance(meta, dict) or path.stat().st_size != meta.get("bytes")
+                or sha256(path) != meta.get("sha256")):
             problems.append(f"altered:{rel}")
     if not problems:
         try:
-            counts = parse_items((root / "items.jsonl").read_bytes())
-        except BackupError as exc:
-            problems.append(f"items:{exc}")
+            checked = check_dir(root, sorted(actual))
+        except (StoreCheckError, OSError) as exc:
+            problems.append(f"store_check:{exc}")
         else:
-            if counts != manifest["items"]:
+            if checked["items"] != manifest.get("items"):
                 problems.append("items:counts differ from manifest")
     return manifest, problems
 
@@ -244,27 +255,35 @@ def backup(settings: OpsSettings | None = None, *, stop_service: bool = True, no
             label, plist = settings.service_label, settings.launchd_plist
             if not label or plist is None:
                 raise BackupError("a qualified backup needs MEMORY_V4_SERVICE_LABEL")
-            lock = _try_writer_lock(settings.store_dir)
-            if lock is None or lock == "busy":  # need a verified stop of the managed service
-                if not _service_loaded(label):
-                    raise BackupError("service not loaded and no free writer.lock: cannot prove that no writer is "
-                                      "running; use the attested offline maintenance backup")
+            # A free writer.lock is NOT proof: a legacy 4.0.0 writer ignores it (A6 R1b). Establish the service
+            # state first; a loaded service is always stopped and verified gone; an already-stopped one keeps its
+            # state and must show no writer process and a closed port.
+            if _service_loaded(label):
                 if _launchctl("bootout", f"gui/{os.getuid()}/{label}") != 0:
                     raise BackupError("launchctl bootout failed")
                 stopped_by_us = True
                 if not _wait_stopped(settings, label):
                     raise BackupError("service, writer process or port still alive after bootout")
-                if lock == "busy":
-                    lock = _try_writer_lock(settings.store_dir)
-                    if lock in (None, "busy"):
-                        raise BackupError("writer.lock still held after the service stopped")
-            record["evidence"] = "writer_lock" if lock else "verified_bootout"
+                evidence = "verified_bootout"
+            else:
+                if _writer_processes() or _port_open(settings.port):
+                    raise BackupError("service not loaded but a writer process or the port is alive: cannot prove "
+                                      "that no writer is running; use the attested offline maintenance backup")
+                evidence = "verified_no_writer"
+            lock = _try_writer_lock(settings.store_dir)
+            if lock == "busy":
+                raise BackupError("writer.lock is held although no managed writer runs")
+            record["evidence"] = evidence + ("+writer_lock" if lock else "")
             files = snapshot(settings.store_dir)
             record["qualified"] = True
         else:
             files = snapshot(settings.store_dir)
             record["evidence"] = "none (diagnostic snapshot, writers may be running)"
-        items = parse_items(files["items.jsonl"])
+        try:
+            checked = check_files(files)
+        except StoreCheckError as exc:
+            raise BackupError(f"store failed strict validation: {exc}") from None
+        items = checked["items"]
     except Exception as exc:
         record["error"] = f"{type(exc).__name__}: {exc}"
         items = None
@@ -280,7 +299,7 @@ def backup(settings: OpsSettings | None = None, *, stop_service: bool = True, no
     manifest = {"format": "memory-os-v4-backup/2", "created": stamp, "qualified": record["qualified"],
                 "evidence": record["evidence"],
                 "files": {rel: {"sha256": sha256_bytes(b), "bytes": len(b)} for rel, b in files.items()},
-                "items": items}
+                "items": items, "store_check": checked}
     blob = encrypt(build_archive(files, manifest), key)
     name = f"memory-os-v4-{stamp}{'' if record['qualified'] else '-diagnostic'}.mosb"
     try:
@@ -291,9 +310,14 @@ def backup(settings: OpsSettings | None = None, *, stop_service: bool = True, no
         record["verified"] = not problems
         record["verify_problems"] = problems
         if record["verified"] and record["qualified"]:
-            record["rotated_out"] = rotate(settings.backup_dir)
+            eligible = verified_archives(settings)
+            eligible[name] = (record["archive_sha256"], stamp)  # pin the archive just verified
+            record["rotated_out"] = rotate(settings.backup_dir, eligible, pinned=name)
+            if not final.is_file() or sha256(final) != record["archive_sha256"]:
+                raise BackupError("current archive missing or altered after rotation")
     except Exception as exc:
         record["error"] = f"{type(exc).__name__}: {exc}"
+        record["verified"] = False
     record["ok"] = bool(record["verified"] and record.get("server_restarted_healthy", True) is not False)
     _log(settings, "backup.jsonl", record)
     return record
@@ -331,32 +355,52 @@ def _wait_healthy(settings: OpsSettings, timeout: float = 90.0) -> bool:
     return False
 
 
-def _archive_day(path: Path) -> dt.date | None:
-    try:
-        return dt.datetime.strptime(path.name[len("memory-os-v4-"):][:8], "%Y%m%d").date()
-    except ValueError:
-        return None
+def verified_archives(settings: OpsSettings) -> dict[str, tuple[str, str]]:
+    """{archive name: (sha256, stamp)} for archives logged as ok, qualified and verified."""
+    out: dict[str, tuple[str, str]] = {}
+    log = settings.ops_dir / "logs/backup.jsonl"
+    if not log.exists():
+        return out
+    for line in log.read_text().splitlines():
+        try:
+            rec = json.loads(line)
+        except ValueError:
+            continue
+        if (isinstance(rec, dict) and rec.get("ok") and rec.get("qualified") and rec.get("verified")
+                and isinstance(rec.get("archive"), str) and isinstance(rec.get("archive_sha256"), str)):
+            out[rec["archive"]] = (rec["archive_sha256"], str(rec.get("stamp", "")))
+    return out
 
 
-def rotate(dest: Path, days: int = 7, weeks: int = 4) -> list[str]:
-    """Keep the newest qualified archive of the ``days`` most recent distinct days and of the ``weeks`` most
-    recent distinct ISO weeks; never touch diagnostic snapshots or unparsable names."""
-    archives = sorted(p for p in dest.glob(ARCHIVE_GLOB) if "-diagnostic" not in p.name and _archive_day(p))
+def rotate(dest: Path, eligible: dict[str, tuple[str, str]], *, pinned: str, days: int = 7,
+           weeks: int = 4) -> list[str]:
+    """Retention among archives logged as verified AND still intact on disk: keep the newest of the ``days`` most
+    recent distinct days and of the ``weeks`` most recent distinct ISO weeks, plus ``pinned``. Unknown, unverified,
+    altered or diagnostic files are never deleted (and never count as a backup)."""
+    candidates: list[tuple[dt.date, str, Path]] = []
+    for name, (digest, stamp) in eligible.items():
+        path = dest / name
+        try:
+            day = dt.datetime.strptime(stamp, "%Y%m%d-%H%M%S").date()
+        except ValueError:
+            continue
+        if path.is_file() and not path.is_symlink() and sha256(path) == digest:
+            candidates.append((day, stamp, path))
+    candidates.sort(key=lambda c: c[1])
     newest_per_day: dict[dt.date, Path] = {}
-    for p in archives:
-        newest_per_day[_archive_day(p)] = p
+    for day, _, path in candidates:
+        newest_per_day[day] = path
     keep = {newest_per_day[d] for d in sorted(newest_per_day)[-days:]}
     newest_per_week: dict[tuple, Path] = {}
     for d in sorted(newest_per_day):
         newest_per_week[d.isocalendar()[:2]] = newest_per_day[d]
     keep |= {newest_per_week[w] for w in sorted(newest_per_week)[-weeks:]}
-    if archives:
-        keep.add(archives[-1])
+    keep.add(dest / pinned)
     removed = []
-    for p in archives:
-        if p not in keep:
-            p.unlink()
-            removed.append(p.name)
+    for _, _, path in candidates:
+        if path not in keep:
+            path.unlink()
+            removed.append(path.name)
     return removed
 
 
@@ -405,17 +449,34 @@ def _serve_and_count(root: Path, settings: OpsSettings, port: int, expected: int
                              "127.0.0.1", "--port", str(port)], env=env,
                             stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     tmp_settings = OpsSettings(**{**settings.__dict__, "url": f"http://127.0.0.1:{port}/mcp/"})
+    witness = _witness(root)
     try:
+        from .auth import http_get
+
         deadline = time.time() + 120
         while time.time() < deadline:
             if proc.poll() is not None:
                 return {"error": f"temporary server exited ({proc.returncode})"}
             try:
                 status = anyio.run(call_tool, "memory_status", {}, tmp_settings)
-                return {"status_total": status["total"], "expected_total": expected,
-                        "match": status["total"] == expected}
             except Exception:
                 time.sleep(3)
+                continue
+            ready, body = http_get(tmp_settings.ready_url, tmp_settings)
+            try:
+                reason = json.loads(body or b"{}").get("reason")
+            except ValueError:
+                reason = None
+            found = None
+            if witness:
+                hits = anyio.run(call_tool, "memory_search",
+                                 {"query": witness[1], "project": witness[2], "top_k": 5}, tmp_settings)
+                found = witness[0] in {h.get("id") for h in hits.get("hits", [])}
+            # 404: server predates /ready; 503 build_unqualified concerns the code identity, not the restored data
+            ready_ok = ready in (200, 404) or (ready == 503 and reason == "build_unqualified")
+            return {"status_total": status["total"], "expected_total": expected, "ready_status": ready,
+                    "ready_reason": reason, "witness_found": found,
+                    "match": status["total"] == expected and ready_ok and found is not False}
         return {"error": "temporary server did not answer"}
     finally:
         proc.terminate()
@@ -423,6 +484,17 @@ def _serve_and_count(root: Path, settings: OpsSettings, port: int, expected: int
             proc.wait(timeout=20)
         except subprocess.TimeoutExpired:
             proc.kill()
+
+
+def _witness(root: Path) -> tuple[str, str, str] | None:
+    """(id, query, project) of the newest live item with enough text: restore must find it again by search."""
+    best = None
+    for line in (root / "items.jsonl").read_bytes().splitlines():
+        row = json.loads(line)
+        if row.get("deleted") or not isinstance(row.get("text"), str) or len(row["text"].split()) < 4:
+            continue
+        best = (row["id"], " ".join(row["text"].split()[:12]), row.get("project", "default"))
+    return best
 
 
 def _log(settings: OpsSettings, name: str, record: dict) -> None:

@@ -142,10 +142,17 @@ def cmd_setup(args, s: OpsSettings) -> int:
         identity = build_identity()
     except Exception as exc:  # pragma: no cover - defensive
         identity = {"commit": None, "error": type(exc).__name__}
-    if not identity.get("commit") or identity.get("source_dirty"):
-        print("# WARNING: no qualified build identity (commit unknown or modified checkout): /ready will answer "
-              "503 build_unqualified. Install a qualified release artifact before activating this service.")
+    qualified_build = bool(identity.get("commit")) and not identity.get("source_dirty")
+    if qualified_build:
+        env["MEMORY_V4_BUILD_COMMIT"] = identity["commit"]  # non-secret; launchd does not inherit this process env
+    else:
+        print("# WARNING: no qualified build identity (commit unknown or modified checkout). The generated server "
+              "job is NOT qualified: /ready will answer 503 build_unqualified. Set MEMORY_V4_BUILD_COMMIT to the "
+              "attested release commit (see the release manifest) or install a qualified artifact, then rerun.")
     relay_env = {k: env[k] for k in ("MEMORY_V4_URL", "MEMORY_V4_TOKEN_FILE")}
+    hook_env = "env " + " ".join(
+        shlex.quote(f"{k}={env[k]}") for k in ("MEMORY_V4_URL", "MEMORY_V4_TOKEN_FILE", "MEMORY_V4_OPS_DIR")
+    )
     print("# 1. Claude Code (~/.mcp.json) and Claude Desktop (claude_desktop_config.json, app closed):")
     _print_json({"mcpServers": {"memory-os-ai": {**relay, "env": relay_env}}})
     print("\n# 2. Codex:")
@@ -164,7 +171,7 @@ def cmd_setup(args, s: OpsSettings) -> int:
                         {
                             "type": "command",
                             "timeout": 15,
-                            "command": f"{shlex.quote(py)} -m memory_os_v4.ops.cli hook session-start",
+                            "command": f"{hook_env} {shlex.quote(py)} -m memory_os_v4.ops.cli hook session-start",
                         }
                     ]
                 }
@@ -175,7 +182,7 @@ def cmd_setup(args, s: OpsSettings) -> int:
                         {
                             "type": "command",
                             "timeout": 10,
-                            "command": f"{shlex.quote(py)} -m memory_os_v4.ops.cli hook stop-nudge",
+                            "command": f"{hook_env} {shlex.quote(py)} -m memory_os_v4.ops.cli hook stop-nudge",
                         }
                     ]
                 }

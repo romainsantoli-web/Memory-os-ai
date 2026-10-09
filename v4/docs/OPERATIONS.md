@@ -53,9 +53,13 @@ already have applied it). Do not repeat a mutation until its status is resolved.
 | Restore drill | `memory-os-admin restore-drill` | monthly and after every upgrade | `$OPS/logs/restore_drill.jsonl` |
 
 Until the transactional SQLite store (ADR-001 S4) ships an online backup, a **qualified** backup needs positive
-evidence that no writer runs: the store's `writer.lock` held by the backup, or the launchd service booted out by
-the backup and verified gone (job, server process, port). Otherwise it refuses; only a service it stopped is
-restarted. `--no-stop` produces a labelled, non-qualified diagnostic snapshot. Every archive is read back
+evidence that no writer runs. A free `writer.lock` is NOT proof of the absence of a legacy writer (4.0.0 ignores
+it): a loaded service is booted out and verified gone (job, server process, port) before the copy, and the lock is
+then held; an already-stopped service keeps its state and must show no writer process and a closed port. If a
+writer that ignores the lock may be running and this proof is missing, the backup refuses and an attested
+maintenance is required. Only a service stopped by the backup is restarted. The copied store must pass the
+engine's strict structural checks (items, blocks, receipts, metadata) at capture and at read-back; rotation only
+considers archives logged as verified and still intact, and never deletes the archive just verified. `--no-stop` produces a labelled, non-qualified diagnostic snapshot. Every archive is read back
 (decrypt, safe extract, exact inventory, hashes, item counts) before rotation; SQLite stores are refused.
 The health report flags: `/health` or `/ready` not OK (404 on a 4.0.0 server is informational), malformed or
 truncated log, **new** fact supersessions while confined, no verified qualified backup (present, unchanged) in

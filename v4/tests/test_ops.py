@@ -40,7 +40,8 @@ def settings(tmp_path: Path) -> OpsSettings:
                        ops_dir=tmp_path / "ops", service_label="test.memory-os")
 
 
-def _no_service(monkeypatch, loaded: bool = False, bootout_rc: int = 0, stopped: bool = True):
+def _no_service(monkeypatch, loaded: bool = False, bootout_rc: int = 0, stopped: bool = True,
+                writers: bool = False, port_open: bool = False):
     calls: list[tuple] = []
 
     def fake(*args):
@@ -54,6 +55,8 @@ def _no_service(monkeypatch, loaded: bool = False, bootout_rc: int = 0, stopped:
     monkeypatch.setattr(backup, "_launchctl", fake)
     monkeypatch.setattr(backup, "_wait_stopped", lambda *a, **k: stopped)
     monkeypatch.setattr(backup, "_wait_healthy", lambda *a, **k: True)
+    monkeypatch.setattr(backup, "_writer_processes", lambda: ["4242 python -m memory_os_v4.server"] if writers else [])
+    monkeypatch.setattr(backup, "_port_open", lambda port: port_open)
     return calls
 
 
@@ -112,7 +115,7 @@ def test_backup_key_symlink_loose_mode_and_missing_are_refused(settings, tmp_pat
 
 # --- R1: qualified backups need positive evidence -------------------------------------------------------
 def test_unproven_stop_is_refused_without_archive(settings, monkeypatch):
-    calls = _no_service(monkeypatch, loaded=False)
+    calls = _no_service(monkeypatch, loaded=False, writers=True)
     rec = backup.backup(settings)
     assert rec["ok"] is False and rec["qualified"] is False and "cannot prove" in rec["error"]
     assert not settings.backup_dir.exists() or not list(settings.backup_dir.iterdir())
@@ -141,11 +144,29 @@ def test_verified_bootout_gives_qualified_verified_backup(settings, monkeypatch)
     assert rec["items"]["live_total"] == 2 and rec["items"]["ids"] == 3
 
 
-def test_free_writer_lock_is_sufficient_evidence(settings, monkeypatch):
-    calls = _no_service(monkeypatch, loaded=False)
+@pytest.mark.parametrize("writers,port_open", [(True, False), (False, True)])
+def test_free_lock_is_not_proof_against_a_live_legacy_writer(settings, monkeypatch, writers, port_open):
+    """B1/R1b: a free writer.lock with a live 4.0.0 writer (process or port) and no managed service: refuse."""
+    calls = _no_service(monkeypatch, loaded=False, writers=writers, port_open=port_open)
     (settings.store_dir / "writer.lock").write_bytes(b"")
     rec = backup.backup(settings)
-    assert rec["ok"] and rec["evidence"] == "writer_lock" and not any(c[0] == "bootout" for c in calls)
+    assert rec["ok"] is False and rec["qualified"] is False and "cannot prove" in rec["error"]
+    assert not any(c[0] in ("bootout", "bootstrap") for c in calls)
+
+
+def test_loaded_service_is_always_stopped_even_with_free_lock(settings, monkeypatch):
+    calls = _no_service(monkeypatch, loaded=True)
+    (settings.store_dir / "writer.lock").write_bytes(b"")
+    rec = backup.backup(settings)
+    assert rec["ok"] and rec["evidence"] == "verified_bootout+writer_lock"
+    assert [c[0] for c in calls].count("bootout") == 1 and [c[0] for c in calls].count("bootstrap") == 1
+
+
+def test_already_stopped_service_keeps_its_state(settings, monkeypatch):
+    calls = _no_service(monkeypatch, loaded=False)
+    rec = backup.backup(settings)
+    assert rec["ok"] and rec["evidence"] == "verified_no_writer"
+    assert not any(c[0] in ("bootout", "bootstrap") for c in calls)  # not started by the backup
 
 
 def test_busy_writer_lock_without_managed_service_is_refused(settings, monkeypatch):
@@ -165,7 +186,7 @@ def test_busy_writer_lock_without_managed_service_is_refused(settings, monkeypat
 
     monkeypatch.setattr(backup, "_try_writer_lock", busy)
     rec = backup.backup(settings)
-    assert rec["ok"] is False and "cannot prove" in rec["error"] and not any(c[0] == "bootout" for c in calls)
+    assert rec["ok"] is False and "writer.lock is held" in rec["error"] and not any(c[0] == "bootout" for c in calls)
 
 
 # --- R3: archive safety and durability ------------------------------------------------------------------
@@ -238,6 +259,43 @@ def test_malformed_or_truncated_store_never_succeeds(settings, monkeypatch, cont
     assert rec["ok"] is False and "archive" not in rec
 
 
+@pytest.mark.parametrize("name,content", [
+    ("items.jsonl", '{"id":"u","kind":"unknown","text":"t","project":"p"}\n'),
+    ("items.jsonl", '{"id":"u","kind":"fact","text":123,"project":"p"}\n'),
+    ("items.jsonl", '{"id":"u","kind":"fact","text":"t","project":"*"}\n'),
+    ("items.jsonl", '{"id":"","kind":"fact","text":"t","project":"p"}\n'),
+    ("items.jsonl", '{"id":"u","id":"v","kind":"fact","text":"t","project":"p"}\n'),
+    ("items.jsonl", '{"id":"u","kind":"fact","text":"t","project":"p","event_time":NaN}\n'),
+    ("blocks.jsonl", "BROKEN\n"),
+    ("blocks.jsonl", '{"scope":"project","name":"n","text":"t","project":"*"}\n'),
+    ("requests.jsonl", '{"scope":"p"}\n'),
+    ("meta.json", "[1]"),
+    ("bm25.json", "{not json"),
+])
+def test_structurally_invalid_store_is_never_certified(settings, monkeypatch, name, content):
+    """B4/R4b: the copy must be a store the engine would accept, not just a faithful byte copy."""
+    _no_service(monkeypatch, loaded=True)
+    rows = [{**r, "project": "p"} for r in ROWS]
+    (settings.store_dir / "items.jsonl").write_text("".join(json.dumps(r) + "\n" for r in rows))
+    (settings.store_dir / name).write_text(content)
+    rec = backup.backup(settings)
+    assert rec["ok"] is False and rec["verified"] is False and "archive" not in rec
+
+
+def test_valid_store_with_blocks_and_pending_receipt_is_certified(settings, monkeypatch):
+    _no_service(monkeypatch, loaded=True)
+    (settings.store_dir / "blocks.jsonl").write_text(
+        json.dumps({"scope": "project", "project": "p", "name": "project_state", "text": "x", "updated_at": 1.0}) + "\n")
+    (settings.store_dir / "requests.jsonl").write_text(
+        json.dumps({"scope": "p", "request_id": "r1", "status": "pending"}) + "\n")
+    rec = backup.backup(settings)
+    assert rec["ok"] and rec["items"]["live_total"] == 2
+    root = backup.extract(settings.backup_dir / rec["archive"], backup.load_key(settings.backup_key),
+                          settings.ops_dir / "x")
+    check = json.loads((root / "MANIFEST.json").read_text())["store_check"]
+    assert check["blocks"] == 1 and check["requests"] == {"receipts": 1, "uncertain_receipts": 1}
+
+
 def test_sqlite_store_is_refused(settings, monkeypatch):
     _no_service(monkeypatch, loaded=True)
     (settings.store_dir / "memory.sqlite3").write_bytes(b"SQLite format 3\x00")
@@ -270,16 +328,77 @@ def test_restore_drill_files_level(settings, monkeypatch):
 
 def test_rotation_keeps_newest_of_distinct_days_and_weeks(tmp_path):
     start = dt.date(2026, 8, 1)
+    eligible = {}
     for i in range(60):
         day = start + dt.timedelta(days=i)
-        for hour in ("040000", "120000"):  # two archives per day
-            (tmp_path / f"memory-os-v4-{day:%Y%m%d}-{hour}.mosb").write_bytes(b"x")
+        for hour in ("040000", "120000"):  # two verified archives per day
+            name = f"memory-os-v4-{day:%Y%m%d}-{hour}.mosb"
+            (tmp_path / name).write_bytes(name.encode())
+            eligible[name] = (backup.sha256_bytes(name.encode()), f"{day:%Y%m%d}-{hour}")
     (tmp_path / "memory-os-v4-20260801-050000-diagnostic.mosb").write_bytes(b"d")
-    backup.rotate(tmp_path)
-    kept = sorted(p.name for p in tmp_path.glob("*.mosb") if "diagnostic" not in p.name)
+    (tmp_path / "memory-os-v4-20260802-050000.mosb").write_bytes(b"never verified")
+    newest = "memory-os-v4-20260929-120000.mosb"
+    backup.rotate(tmp_path, eligible, pinned=newest)
+    kept = sorted(n for n in eligible if (tmp_path / n).exists())
     days = {n[13:21] for n in kept}
     assert len(kept) == len(days) and 7 <= len(days) <= 11 and all("120000" in n for n in kept)
     assert (tmp_path / "memory-os-v4-20260801-050000-diagnostic.mosb").exists()
+    assert (tmp_path / "memory-os-v4-20260802-050000.mosb").exists()  # unknown files are never deleted
+
+
+def test_rotation_never_deletes_the_archive_just_verified(settings, monkeypatch):
+    """B3/R3c: corrupted future-dated files and a clock moved back must not evict the fresh verified backup."""
+    _no_service(monkeypatch, loaded=True)
+    settings.backup_dir.mkdir(parents=True)
+    for w in range(8):
+        (settings.backup_dir / f"memory-os-v4-2027{w + 1:02d}01-040000.mosb").write_bytes(b"corrupted future")
+    rec = backup.backup(settings, now=dt.datetime(2026, 10, 9, 4, 0, 0))
+    assert rec["ok"] and (settings.backup_dir / rec["archive"]).is_file()
+    assert backup.sha256(settings.backup_dir / rec["archive"]) == rec["archive_sha256"]
+    assert len(list(settings.backup_dir.glob("memory-os-v4-2027*"))) == 8  # untouched, never counted
+
+
+def test_rotation_failure_is_an_explicit_failure(settings, monkeypatch):
+    _no_service(monkeypatch, loaded=True)
+
+    def broken(*a, **k):
+        raise OSError("unlink failed")
+
+    monkeypatch.setattr(backup, "rotate", broken)
+    rec = backup.backup(settings)
+    assert rec["ok"] is False and "unlink failed" in rec["error"]
+    assert list(settings.backup_dir.glob("memory-os-v4-*.mosb"))  # the new safe point is kept
+
+
+@pytest.mark.parametrize("key", ["../outside.txt", "/etc/hosts", "a/../b", "./items.jsonl", "", 5, "x\\y"])
+def test_manifest_paths_are_validated_before_any_file_access(settings, tmp_path, monkeypatch, key):
+    """B2/R3b: an inventory pointing outside the root is refused without reading outside."""
+    _no_service(monkeypatch, loaded=True)
+    rec = backup.backup(settings)
+    root = backup.extract(settings.backup_dir / rec["archive"], backup.load_key(settings.backup_key), tmp_path / "r")
+    (tmp_path / "r" / "outside.txt").write_text("outside")
+    manifest = json.loads((root / "MANIFEST.json").read_text())
+    manifest["files"] = {key if isinstance(key, str) else key: {"sha256": "0", "bytes": 7}} | manifest["files"] \
+        if isinstance(key, str) else manifest["files"]
+    if not isinstance(key, str):
+        raw = json.dumps(manifest).replace('"files": {', '"files": {5: {"sha256": "0", "bytes": 1}, ', 1)
+        (root / "MANIFEST.json").write_text(raw)
+    else:
+        (root / "MANIFEST.json").write_text(json.dumps(manifest))
+    opened = []
+    real_open = Path.open
+
+    def spy(self, *a, **k):
+        opened.append(str(self))
+        return real_open(self, *a, **k)
+
+    monkeypatch.setattr(Path, "open", spy)
+    try:
+        _, problems = backup.verify_manifest(root)
+    except (ValueError, backup.BackupError):
+        problems = ["refused"]
+    assert problems
+    assert not any(o.endswith("outside.txt") or o == "/etc/hosts" for o in opened)
 
 
 # --- health robustness ----------------------------------------------------------------------------------
@@ -325,6 +444,24 @@ def test_setup_propagates_settings_and_both_confinements(settings, tmp_path, mon
     assert env["MEMORY_V4_SUPERSEDE_COS"] == "1.01" and env["MEMORY_V4_DEDUP_COS"] == "1.01"
     assert env["MEMORY_V4_BACKUP_DIR"] == str(settings.backup_dir) and server["ProgramArguments"][-2] == "9"
     assert all("Bearer" not in v for v in env.values())
+    hooks_cmds = [line for line in out.splitlines() if "hook session-start" in line or "hook stop-nudge" in line]
+    assert hooks_cmds and all("MEMORY_V4_URL=" in c and "MEMORY_V4_OPS_DIR=" in c for c in hooks_cmds)
+
+
+def test_setup_carries_attested_build_identity_or_warns(settings, tmp_path, monkeypatch, capsys):
+    """B5/R5b: launchd does not inherit setup's environment: the attested commit must be in the server job."""
+    from memory_os_v4 import readiness
+
+    monkeypatch.setattr(OpsSettings, "from_env", classmethod(lambda cls: settings))
+    sha = "a" * 40
+    monkeypatch.setattr(readiness, "build_identity", lambda: {"commit": sha, "source_dirty": False})
+    assert cli.main(["setup", "--write-launchd", str(tmp_path / "ok")]) == 0
+    job = plistlib.loads((tmp_path / "ok" / "test.memory-os.plist").read_bytes())
+    assert job["EnvironmentVariables"]["MEMORY_V4_BUILD_COMMIT"] == sha and "WARNING" not in capsys.readouterr().out
+    monkeypatch.setattr(readiness, "build_identity", lambda: {"commit": None, "source_dirty": None})
+    assert cli.main(["setup", "--write-launchd", str(tmp_path / "ko")]) == 0
+    job = plistlib.loads((tmp_path / "ko" / "test.memory-os.plist").read_bytes())
+    assert "MEMORY_V4_BUILD_COMMIT" not in job["EnvironmentVariables"] and "NOT qualified" in capsys.readouterr().out
 
 
 def test_token_create_refuses_unsafe_existing_file(settings, capsys, monkeypatch):
