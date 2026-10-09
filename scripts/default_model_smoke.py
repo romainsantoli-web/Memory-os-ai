@@ -32,11 +32,13 @@ def main() -> None:
         assert memory.status()["dim"] > 64
         memory.flush()
         assert any(Path(directory).iterdir()), "flush must persist the memory"
+        dimension = memory.status()["dim"]
+        memory.close()
         reloaded = MemoryV4(config=config)
         hits = reloaded.search(query, top_k=1)
         assert hits and "mechanic" in hits[0].item.text, hits
-        assert reloaded.status()["dim"] == memory.status()["dim"]
-        reloaded.flush()
+        assert reloaded.status()["dim"] == dimension
+        reloaded.close()
         print(f"Real semantic persistence/retrieval passed: {model_name}")
 
 

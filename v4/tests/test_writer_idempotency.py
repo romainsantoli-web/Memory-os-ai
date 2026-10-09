@@ -143,7 +143,7 @@ def test_block_append_and_forget_replay_original_result(bound_engine):
     payload = {"request_id": "append", "name": "project_state", "text": "one", "mode": "append"}
     first = server.dispatch("memory_block_set", payload)
     assert server.dispatch("memory_block_set", payload) == first
-    assert bound_engine.blocks.get("project_state") == "one"
+    assert bound_engine.blocks.get("project_state", project="alpha") == "one"
     item = bound_engine.add_episode("Please forget me", project="alpha")
     forget = {"request_id": "forget", "item_id": item.id, "reason": "test"}
     first = server.dispatch("memory_forget", forget)
@@ -220,3 +220,41 @@ def test_failed_journal_sync_prevents_mutation_and_further_requests(bound_engine
     assert "injected journal sync error" in server.dispatch("memory_chat_save", payload)["error"]
     assert bound_engine.store.all() == []
     assert "journal write failed" in server.dispatch("memory_chat_save", {**payload, "request_id": "other"})["error"]
+
+
+def test_dispatch_consolidate_wildcard_does_not_replay_default_scope(bound_engine):
+    bound_engine.add_episode("Old alpha episode", project="alpha", event_time=0)
+    bound_engine.add_episode("Old beta episode", project="beta", event_time=0)
+    payload = {"request_id": "consolidate-scopes", "dry_run": True}
+    concrete = server.dispatch("memory_consolidate", payload)
+    wildcard = server.dispatch("memory_consolidate", {**payload, "project": "*"})
+    assert "error" not in concrete, concrete
+    assert "error" not in wildcard, wildcard
+    assert concrete["decayed"] == 1
+    assert wildcard["decayed"] == 2
+    assert server.dispatch("memory_consolidate", {**payload, "project": "alpha"}) == concrete
+    assert server.dispatch("memory_consolidate", {**payload, "project": "*"}) == wildcard
+
+
+def test_dispatch_forget_wildcard_does_not_replay_default_scope(bound_engine):
+    item = bound_engine.add_episode("Alpha deletion", project="alpha")
+    payload = {"request_id": "forget-scopes", "item_id": item.id, "reason": "scope regression"}
+    concrete = server.dispatch("memory_forget", payload)
+    wildcard = server.dispatch("memory_forget", {**payload, "project": "*"})
+    assert concrete == {"forgotten": [item.id]}
+    # The all-project request is independently executed against the tombstone.
+    assert wildcard == {"forgotten": []}
+    assert server.dispatch("memory_forget", {**payload, "project": "alpha"}) == concrete
+    assert server.dispatch("memory_forget", {**payload, "project": "*"}) == wildcard
+
+
+def test_dispatch_global_block_retry_survives_default_project_change(bound_engine, monkeypatch):
+    payload = {"request_id": "global-append", "scope": "global", "name": "user_profile",
+               "text": "one", "mode": "append"}
+    first = server.dispatch("memory_block_set", payload)
+    assert "error" not in first, first
+    monkeypatch.setenv("MEMORY_V4_PROJECT", "beta")
+    assert server.dispatch("memory_block_set", payload) == first
+    assert server.dispatch("memory_block_set", {**payload, "project": "beta"}) == first
+    assert bound_engine.blocks.get("user_profile", scope="global") == "one"
+    assert len(bound_engine.blocks.history("user_profile", scope="global")) == 1

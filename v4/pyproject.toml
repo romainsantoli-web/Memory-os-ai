@@ -1,10 +1,12 @@
 [project]
 name = "memory-os-v4"
-version = "4.0.0"
+version = "4.0.1rc1"
 description = "Memory OS v4: a local-first long-term memory engine for LLM agents."
 requires-python = ">=3.11"
 
 [tool.pytest.ini_options]
+pythonpath = ["src", "."]
+asyncio_mode = "auto"
 markers = [
     "slow: uses the real sentence-transformers model (still runs by default)",
 ]

@@ -167,7 +167,7 @@ def test_migrate_v3_duplicated_line_within_one_file_stores_once(tmp_path):
 
     assert result["episodes"] == 1  # not 2: the duplicate line stores once
     assert result["summaries"] == 1
-    assert result["skipped"] == 1  # the duplicate episode line is accounted for
+    assert result["skipped"] == 2  # duplicate episode and summary are both accounted for
 
     episodes = [it for it in m.store.all(include_deleted=False) if it.kind == "episode"]
     assert len(episodes) == 1
@@ -201,3 +201,18 @@ def test_migrate_v3_time_travels_naive_utc(tmp_path):
     m.migrate_v3(str(log_path))
     episode = next(it for it in m.store.all() if it.kind == "episode")
     assert episode.event_time < time.time()
+
+
+def test_migrate_v3_summary_only_duplicate_records_are_counted_once(tmp_path):
+    log_path = tmp_path / "v3_summary_dup.jsonl"
+    rec = {"timestamp": "2020-01-01T00:00:00", "project": "p", "summary": "Session summary", "messages": []}
+    _write_v3_log(log_path, [rec, rec, rec])
+    m = MemoryV4(config=Config(embed_model="hash", data_dir=str(tmp_path / "store")))
+    assert m.migrate_v3(str(log_path)) == {"episodes": 0, "summaries": 1, "skipped": 2}
+    assert m.status()["vector_count"] == m.status()["total"] == 1
+    assert m.migrate_v3(str(log_path)) == {"episodes": 0, "summaries": 0, "skipped": 3}
+    summary = next(it for it in m.store.all(False) if it.kind == "summary")
+    before = (m.data_dir / "items.jsonl").read_bytes()
+    with pytest.raises(ValueError, match="duplicate item id"):
+        m.add_facts([{"item_id": summary.id, "kind": "summary", "text": "Unrelated conflicting summary"}], project="p")
+    assert (m.data_dir / "items.jsonl").read_bytes() == before

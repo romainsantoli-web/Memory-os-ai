@@ -176,8 +176,9 @@ def test_search_dampens_superseded_fact_by_default(tmp_path):
     m = MemoryV4(config=cfg)
     t0 = time.time() - 200000
     t1 = time.time() - 100000
-    m.add_facts([{"text": "Romain lives in Paris."}], project="p1", event_time=t0)
-    result = m.add_facts([{"text": "Romain lives in Lyon."}], project="p1", event_time=t1)
+    residence = {"subject_id": "person:romain", "predicate": "residence", "cardinality": "single"}
+    m.add_facts([{"text": "Romain lives in Paris.", "identity": residence}], project="p1", event_time=t0)
+    result = m.add_facts([{"text": "Romain lives in Lyon.", "identity": residence}], project="p1", event_time=t1)
     assert result["superseded"]
     hits = m.search("Where does Romain live?", top_k=5)
     lyon = next(h for h in hits if "Lyon" in h.item.text)

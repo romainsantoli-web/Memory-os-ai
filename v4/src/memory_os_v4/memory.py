@@ -200,7 +200,7 @@ class MemoryV4:
 
         self.store.meta["embed_model"] = self.config.embed_model
         self.store.meta["dim"] = dim
-        self.store.meta["version"] = "4.0.0"
+        self.store.meta["version"] = "4.0.1rc1"
 
     def _reconcile_indexes(self) -> None:
         """A1 (adversarial review, 2026-09-12): after loading whatever was
@@ -818,7 +818,7 @@ class MemoryV4:
             meta = dict(self.store.meta)
             meta["embed_model"] = self.config.embed_model
             meta["dim"] = self.embedder.dim
-            meta["version"] = "4.0.0"
+            meta["version"] = "4.0.1rc1"
             if self.last_consolidated is not None:
                 meta["last_consolidated"] = self.last_consolidated
             self.store.save_meta(meta)
@@ -844,7 +844,16 @@ class MemoryV4:
                 skipped += len(episode_specs) - n_episodes
 
             n_summaries = 0
+            seen_summary_ids = set(self.store.items)
             for spec in summary_specs:
+                summary_id = spec.get("item_id")
+                # Migration ids identify source records, including duplicate
+                # lines within this batch. Handle replay here; ordinary
+                # add_facts retains strict caller-supplied id collision checks.
+                if summary_id in seen_summary_ids:
+                    skipped += 1
+                    continue
+                seen_summary_ids.add(summary_id)
                 result = self.add_facts(
                     [spec], project=spec.get("project", "default"), event_time=spec.get("event_time")
                 )

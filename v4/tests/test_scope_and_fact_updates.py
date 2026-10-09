@@ -139,6 +139,7 @@ def test_identity_timeline_handles_historical_insertion_and_revert(tmp_path):
     for t, expected in ((150, a), (250, b), (350, c), (450, d)):
         assert [it.id for it in m.store.all(False) if is_valid_at(it, t)] == [expected.id]
     m.flush()
+    m.close()
     reloaded = mem(tmp_path)
     assert reloaded.store.get(a.id).identity == identity()
     assert reloaded.consolidate()["deduped"] == 0
