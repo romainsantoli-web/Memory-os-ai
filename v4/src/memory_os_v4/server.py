@@ -604,10 +604,16 @@ def _run_http(host: str, port: int) -> None:
 
 
 # ---------------------------------------------------------------- selfcheck
-def _selfcheck_architecture_doc() -> str:
-    """A small, always-present, read-only file inside v4 to exercise memory_ingest without
-    creating anything outside the package."""
-    return str(Path(__file__).resolve().parents[2] / "docs" / "ARCHITECTURE.md")
+def _selfcheck_architecture_doc(tmp_dir: str) -> str:
+    """A small read-only file to exercise memory_ingest. In a source checkout this is
+    v4/docs/ARCHITECTURE.md; in an installed wheel (no docs/) a tiny note is written into the
+    throwaway data dir, which the caller whitelists through MEMORY_WORKSPACE."""
+    repo_doc = Path(__file__).resolve().parents[2] / "docs" / "ARCHITECTURE.md"
+    if repo_doc.is_file():
+        return str(repo_doc)
+    note = Path(tmp_dir) / "selfcheck_note.md"
+    note.write_text("# Selfcheck\n\nMemory OS v4 selfcheck document for memory_ingest.\n", encoding="utf-8")
+    return str(note)
 
 
 def _selfcheck() -> int:
@@ -655,7 +661,19 @@ def _selfcheck() -> int:
     call("memory_session_brief", {"project": "selfcheck"})
     call("memory_list_documents", {"project": "selfcheck"})
     call("memory_search_occurrences", {"keyword": "Paris", "project": "selfcheck"})
-    call("memory_ingest", {"path": _selfcheck_architecture_doc(), "project": "selfcheck"})
+    doc_path = _selfcheck_architecture_doc(tmp_dir)
+    in_tmp = doc_path.startswith(tmp_dir)
+    prev_workspace = os.environ.get("MEMORY_WORKSPACE")
+    if in_tmp:
+        os.environ["MEMORY_WORKSPACE"] = tmp_dir
+    try:
+        call("memory_ingest", {"path": doc_path, "project": "selfcheck"})
+    finally:
+        if in_tmp:
+            if prev_workspace is None:
+                os.environ.pop("MEMORY_WORKSPACE", None)
+            else:
+                os.environ["MEMORY_WORKSPACE"] = prev_workspace
     call("memory_migrate_v3", {})
     call("memory_consolidate", {"dry_run": True})
     call("memory_compact", {"dry_run": True})
