@@ -1,70 +1,152 @@
-name: "CI \u2014 lint + test + secrets"
+name: CI — distribution, v3, v4, lint and secrets
 
 on:
   push:
-    branches: [main, "feat/**", "fix/**"]
   pull_request:
-    branches: [main]
+  workflow_dispatch:
+  workflow_call:
 
 permissions:
   contents: read
 
 jobs:
-  test:
+  lint:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
-    strategy:
-      matrix:
-        python-version: ["3.10", "3.11", "3.12"]
-
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python -m pip install ruff
+      # Full production/test correctness gate, including bench adapters. Formatting
+      # debt in research notebooks is intentionally outside the shipping gate.
+      - run: ruff check src tests v4/src v4/tests v4/bench scripts --select E9,F --output-format=github
+      - run: ruff check src tests scripts --output-format=github
 
-      - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v5
+  test:
+    name: ${{ matrix.engine }} / Python ${{ matrix.python-version }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12"]
+        engine: [v3, v4]
+    env:
+      HF_HUB_OFFLINE: "1"
+      TRANSFORMERS_OFFLINE: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
           cache: pip
-
       - name: Install system dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y tesseract-ocr ffmpeg antiword
-
-      - name: Install Python dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -e ".[dev,audio]"
-          pip install ruff
-
-      - name: Lint (ruff)
-        if: matrix.python-version == '3.11'
-        run: ruff check src/ tests/ --output-format=github || true
-
-      - name: Run tests with coverage
-        run: |
-          python -m pytest tests/ -v --tb=short \
-            --cov=memory_os_ai \
-            --cov-report=term-missing \
-            --cov-fail-under=80
-
-      - name: Upload coverage artifact
-        if: matrix.python-version == '3.11'
-        uses: actions/upload-artifact@v4
+      - run: python -m pip install -e ".[dev,audio]"
+      - name: v3 tests and coverage
+        if: matrix.engine == 'v3'
+        run: python -m pytest tests -q --cov=memory_os_ai --cov-report=term-missing --cov-report=xml:coverage-v3.xml --cov-fail-under=80
+      - name: v4 deterministic tests and coverage
+        if: matrix.engine == 'v4'
+        run: python -m pytest v4/tests -m "not slow" -q --cov=memory_os_v4 --cov-report=term-missing --cov-report=xml:coverage-v4.xml --cov-fail-under=80
+      - uses: actions/upload-artifact@v4
         with:
-          name: coverage-report
-          path: coverage.xml
+          name: coverage-${{ matrix.engine }}-py${{ matrix.python-version }}
+          path: coverage-*.xml
+          if-no-files-found: error
+
+  distribution:
+    name: Wheel and sdist installation / Python ${{ matrix.python-version }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - run: python -m pip install build twine
+      - run: python -m build
+      - run: python -m twine check dist/*
+      - name: Install both built artifacts into separate empty environments
+        run: |
+          for artifact in wheel sdist; do
+            python -m venv "$RUNNER_TEMP/package-$artifact"
+            if [ "$artifact" = wheel ]; then
+              "$RUNNER_TEMP/package-$artifact/bin/pip" install dist/*.whl
+            else
+              "$RUNNER_TEMP/package-$artifact/bin/pip" install dist/*.tar.gz
+            fi
+            "$RUNNER_TEMP/package-$artifact/bin/pip" check
+          done
+      - name: Exercise installed entry points outside checkout
+        env:
+          PYTHONPATH: ""
+        working-directory: ${{ runner.temp }}
+        run: |
+          for artifact in wheel sdist; do
+            "$RUNNER_TEMP/package-$artifact/bin/python" "$GITHUB_WORKSPACE/scripts/package_smoke.py"
+          done
+      - uses: actions/upload-artifact@v4
+        if: matrix.python-version == '3.11'
+        with:
+          name: qualified-distributions
+          path: dist/*
+          if-no-files-found: error
+
+  semantic-default:
+    name: Real default embedder / CPU
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      HF_HOME: ${{ github.workspace }}/.hf-ci
+      MEMORY_V4_DEVICE: cpu
+      TOKENIZERS_PARALLELISM: "false"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - uses: actions/cache@v4
+        with:
+          path: .hf-ci
+          key: default-model-granite-minilm-v1
+      - run: python -m pip install -e ".[dev]"
+      - name: Download default Granite and legacy MiniLM weights before offline tests
+        run: |
+          python - <<'PY'
+          from sentence_transformers import SentenceTransformer
+          from memory_os_v4.config import Config
+          for name in (Config().embed_model, "sentence-transformers/all-MiniLM-L6-v2"):
+              SentenceTransformer(name, device="cpu")
+          PY
+      - name: Real semantic tests (no paid APIs)
+        env:
+          HF_HUB_OFFLINE: "1"
+          TRANSFORMERS_OFFLINE: "1"
+        run: python -m pytest v4/tests/test_core_slow_integration.py -q
+      - name: Default model persistence and retrieval smoke
+        env:
+          HF_HUB_OFFLINE: "1"
+          TRANSFORMERS_OFFLINE: "1"
+        run: python scripts/default_model_smoke.py
 
   secrets-scan:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
-      - name: TruffleHog secret scan
-        uses: trufflesecurity/trufflehog@main
+      - uses: trufflesecurity/trufflehog@main
         with:
           extra_args: --only-verified

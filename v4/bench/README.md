@@ -1,3 +1,9 @@
+# Final evaluation protocol
+
+New final comparisons must follow [protocol 1.0](protocols/v1.md) and pass the
+[frozen manifest preflight](evaluation_manifest.py). Existing results remain
+exploratory; recall, response quality and agent task success are separate claims.
+
 # Memory OS v4 — evaluation bench
 
 Model-free retrieval evaluation (Recall@k / MRR / nDCG@k against gold evidence

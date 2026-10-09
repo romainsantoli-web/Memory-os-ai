@@ -23,13 +23,10 @@ import logging
 import os
 import shutil
 import time
-from pathlib import Path
 from typing import Any, Optional
 
 from .cloud_storage import (
-    CloudFile,
     StorageBackend,
-    StorageQuota,
     SyncResult,
     get_backend,
     PROVIDER_NAMES,

@@ -6,17 +6,18 @@ interface contract and `docs/RESEARCH_NOTES.md` for the rationale behind each me
 
 ## Install / run
 
-No new dependencies. Use the parent repo's venv:
+Install the combined package from the repository root:
 
 ```bash
-cd v4
-PYTHONPATH=src /Users/romain/Memory-os-ai/.venv/bin/python -m pytest tests -q
+python -m pip install -e ".[dev]"
+python -m pytest v4/tests -m "not slow" -q
+memory-os-ai --selfcheck
 ```
 
 ```python
 from memory_os_v4 import MemoryV4, Config
 
-m = MemoryV4(config=Config(data_dir="~/.memory-os-v4"))  # defaults to MiniLM
+m = MemoryV4(config=Config(data_dir="~/.memory-os-v4"))  # defaults to IBM Granite multilingual r2
 m.add_episode("We picked FAISS FlatL2 for the vector index.", project="prometheus")
 m.add_facts([{"text": "Romain lives in Paris."}], project="prometheus")
 hits = m.search("vector index choice", top_k=5)
@@ -67,7 +68,7 @@ PYTHONPATH=/Users/romain/Memory-os-ai/v4/src MEMORY_V4_DIR=~/.memory-os-v4 \
 ```
 
 Env vars: `MEMORY_V4_DIR` (data dir, default `~/.memory-os-v4`), `MEMORY_V4_EMBED_MODEL` (default
-MiniLM; use `hash` for ML-free runs), `MEMORY_V4_PROJECT` (default project label substituted for
+`ibm-granite/granite-embedding-97m-multilingual-r2`; use `hash` for ML-free runs), `MEMORY_V4_PROJECT` (default project label substituted for
 any tool call that omits `project`/`project_label`, default `"default"`), `MEMORY_V4_DEVICE`,
 `MEMORY_V4_RERANK_MODEL`, `MEMORY_V4_LLM_URL`/`MEMORY_V4_LLM_MODEL`, `MEMORY_WORKSPACE` (extra
 allowed root for `memory_ingest`/`memory_migrate_v3`, alongside `$HOME`).
