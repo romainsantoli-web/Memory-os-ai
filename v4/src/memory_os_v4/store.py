@@ -155,6 +155,40 @@ class Store:
             return list(self.items.values())
         return [it for it in self.items.values() if not it.deleted]
 
+    def check_integrity(self) -> bool:
+        """Read-only strict source check, unlike the legacy permissive loader.
+
+        Access counters may be dirty in memory. All other persisted known fields
+        and IDs must agree; malformed/truncated sources never count as ready.
+        """
+        try:
+            if self.meta_path.exists() and not isinstance(json.loads(self.meta_path.read_bytes()), dict):
+                return False
+            data = self.items_path.read_bytes() if self.items_path.exists() else b""
+            if data and not data.endswith(b"\n"):
+                return False
+            latest = {}
+            for line in data.splitlines():
+                if not line.strip():
+                    continue
+                record = json.loads(line)
+                item = MemoryItem.from_dict(record)
+                if (not isinstance(item.id, str) or not item.id or item.kind not in VALID_KINDS
+                        or not isinstance(item.text, str) or not isinstance(item.project, str)
+                        or not item.project or item.project == "*"):
+                    return False
+                latest[item.id] = record
+            if set(latest) != set(self.items):
+                return False
+            for item_id, record in latest.items():
+                current = self.items[item_id].to_dict()
+                if any(current[key] != value for key, value in record.items()
+                       if key in current and key not in {"access_count", "last_accessed"}):
+                    return False
+            return True
+        except (OSError, ValueError, TypeError, KeyError, AttributeError):
+            return False
+
     # ------------------------------------------------------------ access log
     def touch(self, item_id: str, t: float | None = None) -> None:
         """Record an access: increments access_count, sets last_accessed.

@@ -35,7 +35,8 @@ def http_server(tmp_path):
     token_file.write_text(TEST_TOKEN + "\n")
     token_file.chmod(0o600)
     env.update(PYTHONPATH=src_dir, MEMORY_V4_DIR=str(tmp_path), MEMORY_V4_EMBED_MODEL="hash",
-               HF_HUB_OFFLINE="1", MEMORY_V4_PROJECT="e2e", MEMORY_V4_TOKEN_FILE=str(token_file))
+               HF_HUB_OFFLINE="1", MEMORY_V4_PROJECT="e2e", MEMORY_V4_TOKEN_FILE=str(token_file),
+               MEMORY_V4_BUILD_COMMIT="a" * 40)
     port = _free_port()
     proc = subprocess.Popen(
         [sys.executable, "-m", "memory_os_v4.server", "--transport", "http", "--port", str(port), "--warm"],
@@ -118,3 +119,19 @@ async def test_rejected_network_requests_leave_store_unchanged(http_server, head
                                      "arguments": {"facts": [{"text": "Must never persist"}]}}})
     assert response.status_code == status
     assert {p.name: p.read_bytes() for p in data_dir.iterdir() if p.is_file()} == before
+
+
+async def test_authenticated_ready_reports_engine_and_build_identity(http_server):
+    url, _ = http_server
+    async with httpx.AsyncClient(headers={"Authorization": f"Bearer {TEST_TOKEN}"}) as client:
+        ready = await client.get(url.replace("/mcp/", "/ready"))
+        health = await client.get(url.replace("/mcp/", "/health"))
+    assert ready.status_code == health.status_code == 200
+    assert ready.json()["ready"] is True and ready.json()["commit"] == "a" * 40
+    assert ready.json()["version"] == health.json()["version"] == "4.0.1rc1"
+
+
+async def test_ready_requires_authorization_over_tcp(http_server):
+    url, _ = http_server
+    async with httpx.AsyncClient() as client:
+        assert (await client.get(url.replace("/mcp/", "/ready"))).status_code == 401

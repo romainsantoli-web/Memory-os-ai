@@ -622,9 +622,11 @@ def _build_http_app(host: str, port: int):
     from starlette.responses import JSONResponse
     from starlette.routing import Mount, Route
     from .http_security import LocalHTTPGuard, load_http_token, local_security_settings
+    from .readiness import build_identity, engine_readiness
 
     settings = local_security_settings(host, port)
     token = load_http_token(os.environ.get("MEMORY_V4_TOKEN_FILE"))
+    identity = build_identity()
     session_manager = StreamableHTTPSessionManager(app=server, stateless=True, security_settings=settings)
 
     async def handle_mcp(scope, receive, send):
@@ -632,7 +634,14 @@ def _build_http_app(host: str, port: int):
 
     async def health(request):
         return JSONResponse({"ok": True, "server": "memory-os-v4", "transport": "http",
-                             "engine_loaded": _engine is not None})
+                             "engine_loaded": _engine is not None, **identity})
+
+    async def ready(request):
+        ok, reason = await anyio.to_thread.run_sync(engine_readiness, _engine)
+        if ok and (identity["commit"] is None or identity["source_dirty"]):
+            ok, reason = False, "build_unqualified"
+        return JSONResponse({"ok": ok, "ready": ok, "reason": reason,
+                             "server": "memory-os-v4", **identity}, status_code=200 if ok else 503)
 
     @contextlib.asynccontextmanager
     async def lifespan(app):
@@ -642,7 +651,8 @@ def _build_http_app(host: str, port: int):
         finally:
             set_engine(None)
 
-    app = Starlette(routes=[Route("/health", health), Mount("/mcp", app=handle_mcp)], lifespan=lifespan)
+    app = Starlette(routes=[Route("/health", health), Route("/ready", ready),
+                           Mount("/mcp", app=handle_mcp)], lifespan=lifespan)
     return LocalHTTPGuard(app, settings=settings, token=token)
 
 

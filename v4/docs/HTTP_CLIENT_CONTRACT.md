@@ -48,7 +48,8 @@ Réponses : 401 + `WWW-Authenticate: Bearer` (jeton absent/invalide), 421 (Host 
 403 (Origin rejetée), 400 (en-têtes ambigus ou POST non JSON). Ces contrôles précèdent
 le routage, les outils et toute mutation. Un client ne doit pas réessayer une mutation
 avec un nouvel identifiant après une coupure : résultat incertain, contrat §5 du plan.
-Il n'existe aucune exception anonyme pour `/health`. `/ready` reste une tâche séparée.
+Il n'existe aucune exception anonyme pour `/health` ou `/ready`.
+Le [contrat readiness](READINESS.md) décrit les états et le commit du build à fournir.
 
 ## Rotation / révocation
 
