@@ -86,6 +86,13 @@ class MemoryV4:
         self._lock = RLock()
 
         self.data_dir = Path(self.config.data_dir).expanduser()
+        if self.config.store_backend not in {"jsonl", "sqlite_s1"}:
+            raise ValueError("Unknown store backend; choose jsonl or experimental sqlite_s1")
+        if self.config.store_backend == "sqlite_s1":
+            from .sqlite_store import validate_sqlite_target
+            validate_sqlite_target(self.data_dir)
+        elif (self.data_dir / "store.sqlite3").exists():
+            raise ValueError("SQLite store present: explicit backend selection required; no implicit downgrade")
         self.data_dir.mkdir(parents=True, exist_ok=True)
 
         self._closed = False
@@ -93,7 +100,11 @@ class MemoryV4:
         self._writer_finalizer = weakref.finalize(self, self._writer_lock.close)
         try:
             self.requests = RequestJournal(self.data_dir)
-            self.store = Store(self.data_dir)
+            if self.config.store_backend == "sqlite_s1":
+                from .sqlite_store import SQLiteStore
+                self.store = SQLiteStore(self.data_dir)
+            else:
+                self.store = Store(self.data_dir)
             self.embedder = _make_embedder(self.config)
             self.blocks = BlockStore(self.data_dir / "blocks.jsonl", self.config.block_char_limit)
             self.llm = LLMClient()
@@ -120,7 +131,11 @@ class MemoryV4:
             self.last_consolidated: float | None = self.store.meta.get("last_consolidated")
         except BaseException:
             self._closed = True
-            self._writer_finalizer()
+            try:
+                if hasattr(self, "store"):
+                    self.store.close()
+            finally:
+                self._writer_finalizer()
             raise
 
     def _ensure_open(self) -> None:
@@ -137,7 +152,10 @@ class MemoryV4:
                 self.flush()
             finally:
                 self._closed = True
-                self._writer_finalizer()
+                try:
+                    self.store.close()
+                finally:
+                    self._writer_finalizer()
 
     def __enter__(self) -> "MemoryV4":
         self._ensure_open()

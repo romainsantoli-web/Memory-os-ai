@@ -155,6 +155,9 @@ class Store:
             return list(self.items.values())
         return [it for it in self.items.values() if not it.deleted]
 
+    def close(self) -> None:
+        """JSONL holds no persistent open handle; SQLite overrides this hook."""
+
     def check_integrity(self) -> bool:
         """Read-only strict source check, unlike the legacy permissive loader.
 

@@ -1,15 +1,17 @@
 # ADR-001 — SQLite transactionnel comme stockage faisant autorité de l'ALPHA
 
 Date : 2026-10-09. Décideur : Romain. Responsable moteur : Codex. Revue adverse : Claude.
-**Statut : décision approuvée ; réalisation et qualification à faire.** Romain a
+**Statut : décision approuvée ; S1 expérimental implémenté, S2–S5 et qualification à faire.** Romain a
 approuvé PLAN_FINAL_v3 (« Ok let's go ») et explicitement retenu SQLite pour l'ALPHA,
 selon son instruction de mise en œuvre et `~/memory-os-local/TASKS.md`. Cette décision
 remplace le report conditionnel de SQLite de l'accord précédent. Les formulations
 « recommandé / décision ouverte » encore présentes dans le plan sont à aligner par
 Claude dans son périmètre ; une seconde approbation du choix de stockage n'est pas requise.
 
-**Cet ADR ne livre ni backend SQLite ni migration exécutable.** Le schéma ci-dessous
-est le contrat de conception à relire, avant implémentation en étapes distinctes.
+Le schéma ci-dessous est le contrat cible, distinct du sous-ensemble actuellement
+livré. **[S1](SQLITE_S1.md) fournit un adaptateur derrière Store, sous drapeau, pour
+magasins neufs uniquement ; aucune migration exécutable ni bascule de production.**
+Les blocs/reçus et transactions moteur complètes attendent S2.
 
 ## Contexte et problème
 
@@ -23,8 +25,9 @@ ne fournit une transaction commune à ces fichiers.
 L'incident 09:41 démontre aussi un défaut sémantique : une transaction pourrait
 valider atomiquement neuf invalidations abusives. SQLite résout l'atomicité et la
 récupération, **pas** les règles de remplacement, l'isolation, la capture ou le rappel.
-Le correctif ciblé A2 et ses neuf versions restaurées doivent être conservés lors
-de la migration, avec leur trace, sans republication de faits.
+Le correctif ciblé A2 et ses douze versions restaurées (neuf INC-001 et trois
+INC-001b) doivent être conservés lors de la migration, avec leur trace, sans
+republication de faits.
 
 Contraintes : un utilisateur, une machine macOS Apple Silicon 16 Go, serveur MCP
 local unique, petits corpus évolutifs, deux clients, maintenance solo. Garder JSONL
@@ -137,7 +140,7 @@ Migration **hors ligne**, sous maintenance autorisée, après A1/A2 et qualifica
    opérations réussies. Reporter les anciens blocs sans portée dans `default`,
    avec trace, conformément à la candidate.
 4. Vérifier `integrity_check`, `foreign_key_check`, inventaires, historique complet,
-   données normalisées/export, têtes, validités, neuf faits A2 et invariants de portée.
+   données normalisées/export, têtes, validités, douze faits A2 et invariants de portée.
    Reconstruire les index ; comparer rappel/brief/chronologie sur corpus fixé.
 5. Fermer/synchroniser la cible et son répertoire, conserver le manifeste. Basculer
    atomiquement un sélecteur de backend/configuration versionné, serveur arrêté.

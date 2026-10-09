@@ -278,6 +278,7 @@ class Config:
     # LoCoMo-equivalent of 2.0 (2.0 / (2.0 + 4.79) = 0.295). `None` falls
     # back to the absolute `facet_weight` (bench reproduction only).
     facet_share: float | None = 0.30
+    store_backend: str = "jsonl"  # "sqlite_s1" = fresh experimental stores only; not production
 
     def half_life_days(self, kind: str) -> float:
         """Recency half-life (days) applicable to a given item kind."""
@@ -297,6 +298,7 @@ class Config:
         d = cls()
         return cls(
             data_dir=_env_str("MEMORY_V4_DIR", d.data_dir),
+            store_backend=_env_str("MEMORY_V4_STORE_BACKEND", d.store_backend),
             embed_model=_env_str("MEMORY_V4_EMBED_MODEL", d.embed_model),
             device=_env_str("MEMORY_V4_DEVICE", d.device),
             hash_dim=_env_int("MEMORY_V4_HASH_DIM", d.hash_dim),
