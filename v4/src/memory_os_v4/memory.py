@@ -8,6 +8,8 @@ import logging
 import re
 import time
 import uuid
+import weakref
+from functools import wraps
 from pathlib import Path
 from threading import RLock
 
@@ -22,6 +24,8 @@ from .entities import EntityIndex, extract_entities
 from .extract import normalize_client_facts
 from .facets import FacetIndex, normalize_facets
 from .llm import LLMClient
+from .idempotency import RequestJournal, sync_sources
+from .writer_lock import WriterLock
 from .migrate import read_v3_log
 from .retrieval import HybridRetriever, SearchHit, cosine_sim, mmr
 from .store import MemoryItem, Store, text_hash
@@ -65,6 +69,16 @@ def index_text(item: MemoryItem, config: Config) -> str:
     return text
 
 
+def _requires_open(method):
+    """Hold the facade lock and reject stale handles after their lease was released."""
+    @wraps(method)
+    def guarded(self, *args, **kwargs):
+        with self._lock:
+            self._ensure_open()
+            return method(self, *args, **kwargs)
+    return guarded
+
+
 class MemoryV4:
     """Local-first long-term memory engine façade. Thread-safe via a single RLock."""
 
@@ -77,31 +91,73 @@ class MemoryV4:
         self.data_dir = Path(self.config.data_dir).expanduser()
         self.data_dir.mkdir(parents=True, exist_ok=True)
 
-        self.store = Store(self.data_dir)
-        self.embedder = _make_embedder(self.config)
-        self.blocks = BlockStore(self.data_dir / "blocks.jsonl", self.config.block_char_limit)
-        self.llm = LLMClient()
+        self._closed = False
+        self._writer_lock = WriterLock(self.data_dir)
+        self._writer_finalizer = weakref.finalize(self, self._writer_lock.close)
+        try:
+            self.requests = RequestJournal(self.data_dir)
+            self.store = Store(self.data_dir)
+            self.embedder = _make_embedder(self.config)
+            self.blocks = BlockStore(self.data_dir / "blocks.jsonl", self.config.block_char_limit)
+            self.llm = LLMClient()
 
-        self._bm25_path = self.data_dir / "bm25.json"
-        self._entities_path = self.data_dir / "entities.json"
-        # facet_channel (2026-09-19): derived state only, never persisted to
-        # its own file (see facets.py's `FacetIndex` docstring) -- always
-        # starts empty and is fully repopulated by `_reconcile_indexes()`
-        # below from the live items' own (already-durable) `.facets`.
-        self.facet_index = FacetIndex()
+            self._bm25_path = self.data_dir / "bm25.json"
+            self._entities_path = self.data_dir / "entities.json"
+            # facet_channel (2026-09-19): derived state only, never persisted to
+            # its own file (see facets.py's `FacetIndex` docstring) -- always
+            # starts empty and is fully repopulated by `_reconcile_indexes()`
+            # below from the live items' own (already-durable) `.facets`.
+            self.facet_index = FacetIndex()
 
-        self._init_indexes()
+            self._init_indexes()
 
-        self.retriever = HybridRetriever(
-            self.store,
-            self.embedder,
-            self.vector_index,
-            self.bm25,
-            self.entities,
-            self.config,
-            facet_index=self.facet_index,
-        )
-        self.last_consolidated: float | None = self.store.meta.get("last_consolidated")
+            self.retriever = HybridRetriever(
+                self.store,
+                self.embedder,
+                self.vector_index,
+                self.bm25,
+                self.entities,
+                self.config,
+                facet_index=self.facet_index,
+            )
+            self.last_consolidated: float | None = self.store.meta.get("last_consolidated")
+        except BaseException:
+            self._closed = True
+            self._writer_finalizer()
+            raise
+
+    def _ensure_open(self) -> None:
+        self._writer_lock.assert_owner()
+        if self._closed:
+            raise RuntimeError("Memory engine is closed; open a new engine or use the shared HTTP server")
+
+    def close(self) -> None:
+        """Flush and release the lifetime writer lease, even when flushing fails."""
+        with self._lock:
+            if self._closed:
+                return
+            try:
+                self.flush()
+            finally:
+                self._closed = True
+                self._writer_finalizer()
+
+    def __enter__(self) -> "MemoryV4":
+        self._ensure_open()
+        return self
+
+    def __exit__(self, *exc) -> None:
+        self.close()
+
+    def execute_request(self, operation: str, scope: str, payload: dict, request_id: str | None,
+                        action) -> dict:
+        """Serialize the whole MCP handler, including direct block/store access."""
+        with self._lock:
+            self._ensure_open()
+            if request_id is None:
+                return action()
+            return self.requests.execute(scope, request_id, operation, payload, action,
+                                         lambda: sync_sources(self.data_dir))
 
     # ------------------------------------------------------------- startup
     def _init_indexes(self) -> None:
@@ -332,6 +388,7 @@ class MemoryV4:
         self.store.append_many(items)
 
     # --------------------------------------------------------------- writes
+    @_requires_open
     def add_episode(
         self,
         text: str,
@@ -370,6 +427,7 @@ class MemoryV4:
             self._index_items(items)
             return items[0]
 
+    @_requires_open
     def add_episodes_bulk(self, episodes: list[dict]) -> list[MemoryItem]:
         with self._lock:
             items = self._build_items(episodes, kind="episode")
@@ -400,6 +458,7 @@ class MemoryV4:
                 return it.id
         return None
 
+    @_requires_open
     def add_facts(
         self,
         facts: list[dict],
@@ -516,6 +575,7 @@ class MemoryV4:
 
             return {"added": added, "deduped": deduped, "superseded": superseded}
 
+    @_requires_open
     def forget(self, item_id: str, reason: str = "") -> bool:
         """Soft-delete ``item_id`` (A5, additive façade method): marks it
         ``deleted=True`` in the store AND removes it from the vector/BM25/
@@ -542,6 +602,7 @@ class MemoryV4:
             logger.info("forget: %s marked deleted (reason=%s)", item_id, reason)
             return True
 
+    @_requires_open
     def add_document(
         self, name: str, text: str, project: str = "default", doc_ref: str | None = None
     ) -> dict:
@@ -564,6 +625,7 @@ class MemoryV4:
             return {"doc_ref": ref, "chunk_ids": [it.id for it in items], "chunks": len(items)}
 
     # -------------------------------------------------------------- reads
+    @_requires_open
     def search(
         self,
         query: str,
@@ -609,6 +671,7 @@ class MemoryV4:
                 query, top_k=top_k, at_time=at_time, kinds=kinds, project=project, rerank=rerank
             )
 
+    @_requires_open
     def get_context(
         self,
         query: str,
@@ -657,6 +720,7 @@ class MemoryV4:
             return True
         return bool(_PENDING_RE.search(item.text))
 
+    @_requires_open
     def session_brief(
         self,
         focus_query: str | None = None,
@@ -741,6 +805,7 @@ class MemoryV4:
         return "\n\n".join(parts)
 
     # ------------------------------------------------------------ upkeep
+    @_requires_open
     def consolidate(self, dry_run: bool = False) -> dict:
         with self._lock:
             deduped = consolidate_mod.dedup_sweep(self.store, self.vector_index, self.config, dry_run)
@@ -764,6 +829,7 @@ class MemoryV4:
                 "summary_proposals": proposals,
             }
 
+    @_requires_open
     def status(self) -> dict:
         counts: dict[str, int] = {}
         for it in self.store.all(include_deleted=False):
@@ -780,6 +846,7 @@ class MemoryV4:
             "last_consolidated": self.last_consolidated,
         }
 
+    @_requires_open
     def flush(self) -> None:
         with self._lock:
             ids, vecs = self.vector_index.export()
@@ -796,6 +863,7 @@ class MemoryV4:
             self.store.save_meta(meta)
             self.store.flush_access()
 
+    @_requires_open
     def migrate_v3(self, log_path: str) -> dict:
         with self._lock:
             episode_specs, summary_specs, skipped = read_v3_log(log_path, self.store.items)

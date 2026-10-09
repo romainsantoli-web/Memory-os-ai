@@ -143,7 +143,18 @@ class SessionBriefIn(BaseModel):
     project: str | None = Field(None, description=_PROJECT_DESC)
 
 
-class ChatSaveIn(BaseModel):
+class MutationIn(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    request_id: str | None = Field(
+        None, min_length=1, max_length=200,
+        description="Unique retry key within the resolved project/scope. Same operation and payload "
+        "replay the completed result, including after restart. Conflicting reuse is rejected; "
+        "an interrupted request has an explicit uncertain outcome and must be inspected.",
+    )
+
+
+class ChatSaveIn(MutationIn):
     model_config = ConfigDict(extra="forbid")
 
     messages: list[MessageIn] = Field(
@@ -163,7 +174,7 @@ class ChatSaveIn(BaseModel):
     )
 
 
-class AddFactsIn(BaseModel):
+class AddFactsIn(MutationIn):
     model_config = ConfigDict(extra="forbid")
 
     facts: list[FactIn] = Field(..., min_length=1, description="Atomic ADD-only facts to add.")
@@ -223,7 +234,7 @@ class BlockGetIn(BaseModel):
     )
 
 
-class BlockSetIn(BaseModel):
+class BlockSetIn(MutationIn):
     model_config = ConfigDict(extra="forbid")
 
     name: str = Field(..., min_length=1, description="Block name, e.g. 'user_profile', 'project_state'.")
@@ -233,7 +244,7 @@ class BlockSetIn(BaseModel):
     )
 
 
-class ConsolidateIn(BaseModel):
+class ConsolidateIn(MutationIn):
     model_config = ConfigDict(extra="forbid")
 
     dry_run: bool = Field(False, description="If true, report what would change without writing anything.")
@@ -243,7 +254,7 @@ class CompactIn(ConsolidateIn):
     """Alias of memory_consolidate."""
 
 
-class ForgetIn(BaseModel):
+class ForgetIn(MutationIn):
     model_config = ConfigDict(extra="forbid")
 
     item_id: str | None = Field(None, description="Exact item id to soft-delete.")
@@ -254,7 +265,7 @@ class ForgetIn(BaseModel):
     reason: str = Field(..., min_length=1, description="Why this item is being forgotten (logged server-side).")
 
 
-class IngestIn(BaseModel):
+class IngestIn(MutationIn):
     model_config = ConfigDict(extra="forbid")
 
     path: str = Field(
@@ -268,7 +279,7 @@ class IngestIn(BaseModel):
     )
 
 
-class MigrateV3In(BaseModel):
+class MigrateV3In(MutationIn):
     model_config = ConfigDict(extra="forbid")
 
     log_path: str | None = Field(

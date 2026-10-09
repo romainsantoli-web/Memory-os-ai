@@ -309,11 +309,13 @@ def test_persistence_roundtrip(tmp_path):
     m1.add_facts([{"text": "Romain works with NQ and ES futures."}], project="p1")
     m1.flush()
 
-    m2 = _mem(tmp_path)
     hits1 = m1.search("mm_cross_v2", top_k=5)
+    counts1 = m1.status()["counts"]
+    m1.close()
+    m2 = _mem(tmp_path)
     hits2 = m2.search("mm_cross_v2", top_k=5)
     assert [h.item.id for h in hits1] == [h.item.id for h in hits2]
-    assert m2.status()["counts"] == m1.status()["counts"]
+    assert m2.status()["counts"] == counts1
 
     # items.jsonl actually contains the records
     lines = (tmp_path / "items.jsonl").read_text().strip().splitlines()
@@ -385,6 +387,7 @@ def test_flush_then_new_instance_search_matches(tmp_path):
     m1 = _mem(tmp_path)
     m1.add_episode("Reload check about Kraken 5-minute bars.", project="p1")
     m1.flush()
+    m1.close()
     m2 = _mem(tmp_path)
     hits = m2.search("Kraken bars", top_k=3)
     assert hits and "Kraken" in hits[0].item.text
@@ -404,6 +407,7 @@ def test_reload_reconciles_unflushed_appended_item(tmp_path):
     m.flush()
     m.add_episode("Bravo document about gamma walls.", item_id="B")  # appended, never flushed
 
+    del m  # Simulate process exit without flushing derived caches.
     reloaded = _mem(tmp_path)
     assert sorted(reloaded.store.items) == ["A", "B"]
     status = reloaded.status()
@@ -427,6 +431,7 @@ def test_reload_drops_orphan_index_entries_from_truncated_log(tmp_path):
     raw = items_path.read_text()
     items_path.write_text(raw[: -len(raw.splitlines()[-1]) - 1])  # drop B's whole line
 
+    del m  # Simulate process exit without flushing derived caches.
     reloaded = _mem(tmp_path)
     assert sorted(reloaded.store.items) == ["A"]
     status = reloaded.status()
@@ -448,6 +453,7 @@ def test_reload_forces_reembed_instead_of_crashing_on_id_vector_count_mismatch(t
     ids_path = tmp_path / "ids.json"
     ids_path.write_text(json.dumps(["A"]))  # ids shorter than the 2-row vecs cache
 
+    del m  # Simulate process exit without flushing derived caches.
     reloaded = _mem(tmp_path)  # must not raise
     status = reloaded.status()
     assert status["vector_count"] == status["total"] == 2
@@ -463,6 +469,7 @@ def test_reload_reembeds_when_stored_dim_differs_from_current_embedder(tmp_path)
     m.add_episode("hello world", item_id="A")
     m.flush()
 
+    del m  # Simulate process exit without flushing derived caches.
     reloaded = _mem(tmp_path, hash_dim=32)  # same "hash" model name, different dim
     assert reloaded.embedder.dim == 32
     assert reloaded.vector_index.get_one("A").shape == (32,)
@@ -481,6 +488,7 @@ def test_reload_reconciles_stale_soft_deleted_index_entries(tmp_path):
     m.store.append(m.store.items["A"])  # tombstone written, but indexes untouched (old-style soft delete)
     m.flush()
 
+    del m  # Simulate process exit without flushing derived caches.
     reloaded = _mem(tmp_path)
     assert reloaded.vector_index.get_one("A") is None
     assert "A" not in reloaded.bm25.doc_len
@@ -498,6 +506,7 @@ def test_multi_vector_chunk_map_persists_across_reload(tmp_path):
     assert m1.store.chunk_owner  # at least one chunk vector was created
     m1.flush()
 
+    m1.close()
     m2 = _mem(tmp_path, multi_vector=True, chunk_tokens=8, chunk_overlap=2)
     assert m2.store.chunk_owner == m1.store.chunk_owner
     hits = m2.search("gamma rollout", top_k=3)
@@ -536,6 +545,7 @@ def test_keywords_persist_across_reload(tmp_path):
     item = m1.add_episode("Trip planning notes.", project="p1", keywords=["travel", "budget"])
     m1.flush()
 
+    m1.close()
     m2 = _mem(tmp_path)
     reloaded = m2.store.get(item.id)
     assert reloaded.keywords == ["travel", "budget"]

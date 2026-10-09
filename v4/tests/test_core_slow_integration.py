@@ -42,8 +42,10 @@ def test_real_embedder_semantic_search_and_supersession(tmp_path):
     assert result["superseded"], "semantic supersession should link the two location facts"
 
     m.flush()
+    dim = m.status()["dim"]
+    m.close()
     reloaded = MemoryV4(config=cfg)
-    assert reloaded.status()["dim"] == m.status()["dim"] == 384
+    assert reloaded.status()["dim"] == dim == 384
     hits2 = reloaded.search("Where does Romain live now?", top_k=3)
     assert hits2
     assert "Lyon" in hits2[0].item.text

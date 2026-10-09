@@ -252,6 +252,7 @@ def test_facets_persist_across_reload(tmp_path):
     )
     m1.flush()
 
+    m1.close()
     m2 = _mem(tmp_path)
     reloaded = m2.store.get(item.id)
     assert reloaded.facets == item.facets
@@ -311,6 +312,7 @@ def test_reconcile_indexes_rebuilds_facet_index_on_fresh_load(tmp_path):
     )
     m1.flush()
 
+    m1.close()
     m2 = _mem(tmp_path)  # fresh engine, same data_dir -- facet_index starts empty
     assert m2.facet_index.pool([{"subject": "Ann", "predicate": "pet"}]) == {item.id}
 

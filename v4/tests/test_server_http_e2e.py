@@ -77,3 +77,17 @@ async def test_two_clients_share_one_engine(http_server):
     assert "OVH" in json.dumps(found, ensure_ascii=False)
     # single writer, persisted where the shared server was told to write
     assert (data_dir / "items.jsonl").exists()
+
+
+async def test_two_http_clients_retry_one_mutation(http_server):
+    url, data_dir = http_server
+    payload = {"request_id": "shared-turn-1", "messages": [{"role": "user", "content": "HTTP retry turn"}]}
+    first, second = await asyncio.gather(_call(url, "memory_chat_save", payload),
+                                         _call(url, "memory_chat_save", payload))
+    assert "error" not in first, first
+    assert second == first
+    rows = [json.loads(line) for line in (data_dir / "items.jsonl").read_text().splitlines()]
+    assert len({row["id"] for row in rows}) == 1
+    conflict = await _call(url, "memory_chat_save", {**payload, "summary": "conflicting reuse"})
+    assert conflict["ok"] is False
+    assert "different operation or payload" in conflict["error"]

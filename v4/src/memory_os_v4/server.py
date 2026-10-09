@@ -64,7 +64,10 @@ def get_engine() -> MemoryV4:
 def set_engine(engine: MemoryV4 | None) -> None:
     """Test/selfcheck hook: inject (or reset, with None) the module-level engine."""
     global _engine
-    _engine = engine
+    with _engine_init_lock:
+        old, _engine = _engine, engine
+        if old is not None and old is not engine:
+            old.close()
 
 
 def default_project() -> str:
@@ -511,6 +514,27 @@ TOOL_DESCRIPTIONS: dict[str, str] = {
 }
 
 
+def _request_scope(name: str, payload: dict) -> str:
+    """Canonicalize actual operation targets, preserving all-project reads/writes."""
+    # Resolve omitted projects before fingerprinting: changing the server default
+    # changes the actual target, while explicit and implicit equal targets retry.
+    project_field = "project_label" if name == "memory_chat_save" else "project"
+    if name in {"memory_chat_save", "memory_add_facts", "memory_ingest", "memory_block_set"}:
+        target = _write_project_of(payload.get(project_field))
+    elif name == "memory_migrate_v3":
+        target = ALL_PROJECTS  # Migration affects the whole store, preserving record projects.
+    else:
+        target = payload.get(project_field) or default_project()
+    if project_field in payload:
+        payload[project_field] = target
+    if payload.get("scope") == "global":
+        target = "global"
+        # Global block operations do not use a project target.
+        payload.pop("project", None)
+    scope = json.dumps([payload.get("scope", "project"), target])
+    return scope
+
+
 def dispatch(name: str, arguments: dict | None) -> dict:
     """Validate ``arguments`` against ``name``'s model, call its handler, and
     normalize any exception into ``{"ok": False, "error": ...}``."""
@@ -530,7 +554,11 @@ def dispatch(name: str, arguments: dict | None) -> dict:
 
     try:
         engine = get_engine()
-        return handler(engine, parsed)
+        payload = parsed.model_dump(mode="json", exclude={"request_id"})
+        scope = _request_scope(name, payload)
+        operation = "memory_consolidate" if name == "memory_compact" else name
+        return engine.execute_request(operation, scope, payload, getattr(parsed, "request_id", None),
+                                      lambda: handler(engine, parsed))
     except Exception as exc:  # noqa: BLE001 - deliberately broad: never leak a traceback to the client
         logger.exception("tool %s failed", name)
         return {"ok": False, "error": str(exc)}
@@ -595,8 +623,11 @@ def _run_http(host: str, port: int) -> None:
 
     @contextlib.asynccontextmanager
     async def lifespan(app):
-        async with session_manager.run():
-            yield
+        try:
+            async with session_manager.run():
+                yield
+        finally:
+            set_engine(None)
 
     app = Starlette(routes=[Route("/health", health), Mount("/mcp", app=handle_mcp)], lifespan=lifespan)
     logger.warning("memory-os-v4 streamable HTTP on http://%s:%d/mcp/", host, port)
@@ -720,8 +751,7 @@ def run() -> None:
         else:
             asyncio.run(_run_stdio())
     finally:
-        if _engine is not None:
-            _engine.flush()
+        set_engine(None)
 
 
 if __name__ == "__main__":

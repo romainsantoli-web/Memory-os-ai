@@ -21,6 +21,7 @@ from memory_os_v4.memory import MemoryV4
 def engine(tmp_path):
     eng = MemoryV4(config=Config(embed_model="hash", data_dir=str(tmp_path)))
     yield eng
+    eng.close()
 
 
 @pytest.fixture
