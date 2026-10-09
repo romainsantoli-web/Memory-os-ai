@@ -159,6 +159,8 @@ def _hit_dict(hit) -> dict:
             "valid_from": _iso(it.valid_from),
             "valid_until": _iso(it.valid_until),
             "entities": it.entities,
+            "identity": it.identity,
+            "replaces": it.replaces,
             "project": it.project,
             "signals": hit.signals,
         }
@@ -167,7 +169,7 @@ def _hit_dict(hit) -> dict:
 
 # -------------------------------------------------------------------- handlers
 def _h_status(engine: MemoryV4, args: models.StatusIn) -> dict:
-    s = dict(engine.status())
+    s = dict(engine.status(project=_project_of(args.project)))
     s["last_consolidated"] = _iso(s.get("last_consolidated"))
     return _round_floats(s)
 
@@ -297,6 +299,8 @@ def _h_timeline(engine: MemoryV4, args: models.TimelineIn) -> dict:
                 "valid_until": _iso(it.valid_until),
                 "invalidated_by": it.invalidated_by,
                 "entities": it.entities,
+                "identity": it.identity,
+                "replaces": it.replaces,
                 "project": it.project,
             }
         )
@@ -304,27 +308,33 @@ def _h_timeline(engine: MemoryV4, args: models.TimelineIn) -> dict:
 
 
 def _h_block_get(engine: MemoryV4, args: models.BlockGetIn) -> dict:
+    blocks = engine.blocks.all(project=_project_of(args.project), scope=args.scope)
     if args.name:
-        return {"blocks": {args.name: engine.blocks.get(args.name)}}
-    return {"blocks": engine.blocks.all()}
+        blocks = {key: text for key, text in blocks.items() if key == args.name or key.endswith("/" + args.name)}
+        if not blocks:
+            blocks = {args.name: ""}
+    return {"blocks": blocks}
 
 
 def _h_block_set(engine: MemoryV4, args: models.BlockSetIn) -> dict:
+    project = _write_project_of(args.project)
+    kwargs = {"project": project, "scope": args.scope}
     limit = engine.blocks.char_limit
     if args.mode == "append":
-        current = engine.blocks.get(args.name)
+        history = engine.blocks.history(args.name, **kwargs)
+        current = history[-1].text if history else ""
         expected_len = len(f"{current}\n{args.text}".strip()) if current else len(args.text)
-        engine.blocks.append(args.name, args.text)
+        engine.blocks.append(args.name, args.text, **kwargs)
     else:
         expected_len = len(args.text)
-        engine.blocks.set(args.name, args.text)
+        engine.blocks.set(args.name, args.text, **kwargs)
     engine.flush()
-    stored = engine.blocks.get(args.name)
+    stored = engine.blocks.get(args.name, **kwargs)
     return {"name": args.name, "chars": len(stored), "truncated": expected_len > limit}
 
 
 def _h_consolidate(engine: MemoryV4, args: models.ConsolidateIn) -> dict:
-    result = engine.consolidate(dry_run=args.dry_run)
+    result = engine.consolidate(dry_run=args.dry_run, project=_project_of(args.project))
     if not args.dry_run:
         engine.flush()
     return _round_floats(
@@ -348,19 +358,20 @@ def _h_forget(engine: MemoryV4, args: models.ForgetIn) -> dict:
     # directly -- that used to leave the item's vector/BM25/entity index
     # entries in place until the next consolidate() rebuild, so it kept
     # consuming candidate slots in every retrieval signal in the meantime.
+    project = _project_of(args.project)
     forgotten: list[str] = []
     if args.item_id:
         item = engine.store.get(args.item_id)
-        if item is None:
-            raise ValueError(f"unknown item_id: {args.item_id}")
-        if engine.forget(args.item_id, reason=args.reason):
+        if item is None or (project is not None and item.project != project):
+            raise ValueError(f"unknown item_id in project scope: {args.item_id}")
+        if engine.forget(args.item_id, reason=args.reason, project=project):
             forgotten.append(args.item_id)
     else:
-        hits = engine.search(args.query, top_k=1)
+        hits = engine.search(args.query, top_k=1, project=project)
         if not hits:
             raise ValueError(f"no item found matching query: {args.query!r}")
         item_id = hits[0].item.id
-        if engine.forget(item_id, reason=args.reason):
+        if engine.forget(item_id, reason=args.reason, project=project):
             forgotten.append(item_id)
 
     engine.flush()
@@ -710,11 +721,11 @@ def _selfcheck() -> int:
     call("memory_compact", {"dry_run": True})
 
     if last_fact_id:
-        call("memory_forget", {"item_id": last_fact_id, "reason": "selfcheck cleanup"})
+        call("memory_forget", {"item_id": last_fact_id, "reason": "selfcheck cleanup", "project": "selfcheck"})
     else:
         call(
             "memory_forget",
-            {"query": "Selfcheck fact about NQ futures", "confirm": True, "reason": "selfcheck cleanup"},
+            {"query": "Selfcheck fact about NQ futures", "confirm": True, "reason": "selfcheck cleanup", "project": "selfcheck"},
         )
 
     engine.flush()

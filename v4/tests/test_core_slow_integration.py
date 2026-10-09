@@ -33,13 +33,13 @@ def test_real_embedder_semantic_search_and_supersession(tmp_path):
     assert hits
     assert "FAISS" in hits[0].item.text
 
-    # Real semantic embeddings should recognize the paraphrase without shared
-    # tokens well enough to link the two location facts via supersession.
+    # An explicit single-valued residence identity permits temporal replacement;
+    # semantic similarity alone is not evidence of contradiction.
     t0 = time.time() - 200000
     t1 = time.time() - 100000
-    m.add_facts([{"text": "Romain lives in Paris."}], project="p1", event_time=t0)
-    result = m.add_facts([{"text": "Romain now lives in Lyon."}], project="p1", event_time=t1)
-    assert result["superseded"], "semantic supersession should link the two location facts"
+    m.add_facts([{"identity": {"subject_id": "person:romain", "predicate": "residence", "cardinality": "single"}, "text": "Romain lives in Paris."}], project="p1", event_time=t0)
+    result = m.add_facts([{"identity": {"subject_id": "person:romain", "predicate": "residence", "cardinality": "single"}, "text": "Romain now lives in Lyon."}], project="p1", event_time=t1)
+    assert result["superseded"], "explicit identity should link the two location facts"
 
     m.flush()
     dim = m.status()["dim"]

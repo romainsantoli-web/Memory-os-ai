@@ -69,8 +69,8 @@ def test_add_facts_supersession_sets_valid_until_and_invalidated_by(tmp_path):
     m = _mem(tmp_path, supersede_cos=0.5)
     t0 = time.time() - 200000
     t1 = time.time() - 100000
-    r1 = m.add_facts([{"text": "Romain lives in Paris."}], project="p1", event_time=t0)
-    r2 = m.add_facts([{"text": "Romain lives in Lyon."}], project="p1", event_time=t1)
+    r1 = m.add_facts([{"identity": {"subject_id": "person:romain", "predicate": "residence", "cardinality": "single"}, "text": "Romain lives in Paris."}], project="p1", event_time=t0)
+    r2 = m.add_facts([{"identity": {"subject_id": "person:romain", "predicate": "residence", "cardinality": "single"}, "text": "Romain lives in Lyon."}], project="p1", event_time=t1)
     assert r2["superseded"] == [(r1["added"][0], r2["added"][0])]
     old = m.store.get(r1["added"][0])
     assert old.valid_until == t1
@@ -100,8 +100,8 @@ def test_add_facts_supersession_equal_event_time_does_not_supersede(tmp_path):
     validity window, never retrievable with any at_time."""
     m = _mem(tmp_path, supersede_cos=0.5)
     T = time.time() - 200000
-    r1 = m.add_facts([{"text": "Romain lives in Paris now."}], event_time=T)
-    r2 = m.add_facts([{"text": "Romain lives in Lyon now."}], event_time=T)
+    r1 = m.add_facts([{"identity": {"subject_id": "person:romain", "predicate": "residence", "cardinality": "single"}, "text": "Romain lives in Paris now."}], event_time=T)
+    r2 = m.add_facts([{"identity": {"subject_id": "person:romain", "predicate": "residence", "cardinality": "single"}, "text": "Romain lives in Lyon now."}], event_time=T)
     assert r2["superseded"] == []
     old = m.store.get(r1["added"][0])
     assert old.valid_until is None
@@ -114,18 +114,18 @@ def test_add_facts_supersession_chain_then_reassert_original(tmp_path):
     supersession rule it can then supersede the currently-valid C."""
     m = _mem(tmp_path, supersede_cos=0.5)
     T = time.time() - 400000
-    ra = m.add_facts([{"text": "Romain lives in Paris now."}], event_time=T)
-    rb = m.add_facts([{"text": "Romain lives in Lyon now."}], event_time=T + 86400)
-    rc = m.add_facts([{"text": "Romain lives in Nice now."}], event_time=T + 2 * 86400)
+    ra = m.add_facts([{"identity": {"subject_id": "person:romain", "predicate": "residence", "cardinality": "single"}, "text": "Romain lives in Paris now."}], event_time=T)
+    rb = m.add_facts([{"identity": {"subject_id": "person:romain", "predicate": "residence", "cardinality": "single"}, "text": "Romain lives in Lyon now."}], event_time=T + 86400)
+    rc = m.add_facts([{"identity": {"subject_id": "person:romain", "predicate": "residence", "cardinality": "single"}, "text": "Romain lives in Nice now."}], event_time=T + 2 * 86400)
     assert rb["superseded"] == [(ra["added"][0], rb["added"][0])]
     assert rc["superseded"] == [(rb["added"][0], rc["added"][0])]
 
-    r_reassert = m.add_facts([{"text": "Romain lives in Paris now."}], event_time=T + 3 * 86400)
+    r_reassert = m.add_facts([{"identity": {"subject_id": "person:romain", "predicate": "residence", "cardinality": "single"}, "text": "Romain lives in Paris now."}], event_time=T + 3 * 86400)
     assert r_reassert["added"], "re-asserting invalidated text must create a NEW valid fact, not dedupe"
     assert r_reassert["deduped"] == []
     new_a_id = r_reassert["added"][0]
     assert new_a_id != ra["added"][0]
-    # by the normal rule: shares entities + cosine >= threshold + later event_time
+    # by the explicit single-valued residence identity and later validity
     # -> supersedes the currently-valid contradicting fact (C, "Nice")
     assert r_reassert["superseded"] == [(rc["added"][0], new_a_id)]
 
@@ -143,12 +143,12 @@ def test_add_facts_dedup_ignores_invalidated_candidates(tmp_path):
     create a fresh valid fact, not dedupe to the dead record."""
     m = _mem(tmp_path, supersede_cos=0.5)
     T = time.time() - 200000
-    r1 = m.add_facts([{"text": "Romain lives in Paris."}], event_time=T)
-    m.add_facts([{"text": "Romain lives in Lyon."}], event_time=T + 86400)
+    r1 = m.add_facts([{"identity": {"subject_id": "person:romain", "predicate": "residence", "cardinality": "single"}, "text": "Romain lives in Paris."}], event_time=T)
+    m.add_facts([{"identity": {"subject_id": "person:romain", "predicate": "residence", "cardinality": "single"}, "text": "Romain lives in Lyon."}], event_time=T + 86400)
     old_paris = m.store.get(r1["added"][0])
     assert old_paris.invalidated_by is not None
 
-    r3 = m.add_facts([{"text": "Romain lives in Paris."}], event_time=T + 2 * 86400)
+    r3 = m.add_facts([{"identity": {"subject_id": "person:romain", "predicate": "residence", "cardinality": "single"}, "text": "Romain lives in Paris."}], event_time=T + 2 * 86400)
     assert r3["deduped"] == []
     assert len(r3["added"]) == 1
     assert r3["added"][0] != r1["added"][0]
@@ -163,7 +163,7 @@ def test_add_facts_probe_vector_matches_indexed_vector(tmp_path):
     to the vector actually stored in the index (same header, same text,
     embedded exactly once) -- not a second, differently-worded encode()."""
     m = _mem(tmp_path)
-    r = m.add_facts([{"text": "Romain lives in Paris."}], project="p1", event_time=1700000000.0)
+    r = m.add_facts([{"identity": {"subject_id": "person:romain", "predicate": "residence", "cardinality": "single"}, "text": "Romain lives in Paris."}], project="p1", event_time=1700000000.0)
     item_id = r["added"][0]
     item = m.store.get(item_id)
     from memory_os_v4.text import contextual_header
@@ -263,8 +263,8 @@ def test_search_at_time_returns_correct_fact_version(tmp_path):
     m = _mem(tmp_path, supersede_cos=0.5)
     t0 = time.time() - 200000
     t1 = time.time() - 100000
-    m.add_facts([{"text": "Romain lives in Paris."}], project="p1", event_time=t0)
-    m.add_facts([{"text": "Romain lives in Lyon."}], project="p1", event_time=t1)
+    m.add_facts([{"identity": {"subject_id": "person:romain", "predicate": "residence", "cardinality": "single"}, "text": "Romain lives in Paris."}], project="p1", event_time=t0)
+    m.add_facts([{"identity": {"subject_id": "person:romain", "predicate": "residence", "cardinality": "single"}, "text": "Romain lives in Lyon."}], project="p1", event_time=t1)
 
     early_hits = m.search("Where does Romain live?", top_k=5, at_time=t0 + 1000)
     assert all("Paris" in h.item.text for h in early_hits)
@@ -329,7 +329,7 @@ def test_session_brief_structure_and_budget(tmp_path):
         m.add_episode(f"Episode {i} about project Falcon.", project="p1")
     m.add_facts([{"text": "Romain prefers Sonnet for coding tasks."}], project="p1", event_time=time.time())
     m.add_facts([{"text": "TODO: finish the v4 migration script."}], project="p1")
-    m.blocks.set("user_profile", "ML/HFT engineer.")
+    m.blocks.set("user_profile", "ML/HFT engineer.", project="p1")
 
     brief = m.session_brief(focus_query="Falcon", max_tokens=500, project="p1")
     for key in ("blocks", "recent_episodes", "key_facts", "procedures", "focus", "pending", "stats", "text"):
@@ -377,8 +377,8 @@ def test_consolidate_supersession_sweep_catches_unlinked_facts(tmp_path):
     t0 = time.time() - 200000
     t1 = time.time() - 100000
     # add_facts already links these at write time; verify consolidate is idempotent
-    m.add_facts([{"text": "Romain lives in Paris."}], project="p1", event_time=t0)
-    m.add_facts([{"text": "Romain lives in Lyon."}], project="p1", event_time=t1)
+    m.add_facts([{"identity": {"subject_id": "person:romain", "predicate": "residence", "cardinality": "single"}, "text": "Romain lives in Paris."}], project="p1", event_time=t0)
+    m.add_facts([{"identity": {"subject_id": "person:romain", "predicate": "residence", "cardinality": "single"}, "text": "Romain lives in Lyon."}], project="p1", event_time=t1)
     result = m.consolidate(dry_run=True)
     assert result["superseded"] == 0  # already superseded at write time, sweep finds nothing new
 

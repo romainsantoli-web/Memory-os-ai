@@ -1,18 +1,18 @@
-"""Letta-style core memory blocks: named, char-limited, always-in-context text
-sections (``user_profile``, ``project_state``, ``working_rules`` by default),
-append-only persisted with "last wins" semantics."""
+"""Append-only core blocks with explicit global sharing and project isolation.
 
+Legacy records without scope are assigned to 'default'; a legacy file cannot
+prove that any particular block was intended to be shared with every project.
+"""
 from __future__ import annotations
 
 import json
 import logging
 import time
 from collections import defaultdict
-from dataclasses import dataclass
+from dataclasses import asdict, dataclass
 from pathlib import Path
 
 logger = logging.getLogger("memory_os_v4")
-
 DEFAULT_BLOCKS = ("user_profile", "project_state", "working_rules")
 
 
@@ -21,67 +21,89 @@ class Block:
     name: str
     text: str
     updated_at: float
+    project: str | None = "default"
+    scope: str = "project"
 
 
 class BlockStore:
-    """Core blocks backed by an append-only ``blocks.jsonl``."""
+    """Global blocks are visible explicitly; project blocks override them."""
 
     def __init__(self, path: Path, char_limit: int = 2000) -> None:
         self.path = Path(path)
         self.char_limit = char_limit
-        self._blocks: dict[str, Block] = {}
-        self._history: dict[str, list[Block]] = defaultdict(list)
+        self._blocks: dict[tuple[str | None, str], Block] = {}
+        self._history: dict[tuple[str | None, str], list[Block]] = defaultdict(list)
         self.load()
 
     def load(self) -> None:
+        self._blocks.clear()
+        self._history.clear()
         if self.path.exists():
-            with self.path.open(encoding="utf-8") as fh:
-                for line in fh:
-                    line = line.strip()
-                    if not line:
+            for line in self.path.read_text(encoding="utf-8").splitlines():
+                if not line.strip():
+                    continue
+                try:
+                    rec = json.loads(line)
+                    scope = rec.get("scope", "project")
+                    if scope not in {"project", "global"}:
                         continue
-                    try:
-                        rec = json.loads(line)
-                        block = Block(rec["name"], rec["text"], rec["updated_at"])
-                    except (json.JSONDecodeError, KeyError):
+                    project = None if scope == "global" else rec.get("project", "default")
+                    if scope == "project" and (not isinstance(project, str) or project == "*"):
                         continue
-                    self._history[block.name].append(block)
-                    self._blocks[block.name] = block
-        for name in DEFAULT_BLOCKS:
-            self._blocks.setdefault(name, Block(name, "", time.time()))
+                    block = Block(rec["name"], rec["text"], rec["updated_at"], project, scope)
+                    if not isinstance(block.name, str) or not isinstance(block.text, str):
+                        continue
+                except (json.JSONDecodeError, KeyError, TypeError):
+                    continue
+                key = (project, block.name)
+                self._history[key].append(block)
+                self._blocks[key] = block
 
-    def get(self, name: str) -> str:
-        block = self._blocks.get(name)
+    @staticmethod
+    def _target(project: str, scope: str) -> str | None:
+        if scope not in {"project", "global"}:
+            raise ValueError("block scope must be project or global")
+        return None if scope == "global" else ("default" if project == "*" else project)
+
+    def get(self, name: str, project: str = "default", scope: str = "project") -> str:
+        target = self._target(project, scope)
+        block = self._blocks.get((target, name))
+        if block is None and scope == "project":
+            block = self._blocks.get((None, name))
         return block.text if block else ""
 
-    def set(self, name: str, text: str) -> None:
+    def set(self, name: str, text: str, project: str = "default", scope: str = "project") -> None:
+        target = self._target(project, scope)
         if len(text) > self.char_limit:
-            logger.warning(
-                "block %r exceeds char limit (%d > %d); truncating", name, len(text), self.char_limit
-            )
-            text = text[: self.char_limit]
-        block = Block(name, text, time.time())
-        self._blocks[name] = block
-        self._history[name].append(block)
-        self._append(block)
-
-    def append(self, name: str, text: str) -> None:
-        current = self.get(name)
-        combined = f"{current}\n{text}".strip() if current else text
-        self.set(name, combined)
-
-    def history(self, name: str) -> list[Block]:
-        return list(self._history.get(name, []))
-
-    def all(self) -> dict[str, str]:
-        return {name: block.text for name, block in self._blocks.items()}
-
-    def _append(self, block: Block) -> None:
+            logger.warning("block %r exceeds char limit; truncating", name)
+            text = text[:self.char_limit]
+        block = Block(name, text, time.time(), target, scope)
+        key = (target, name)
+        self._blocks[key] = block
+        self._history[key].append(block)
+        self.path.parent.mkdir(parents=True, exist_ok=True)
         with self.path.open("a", encoding="utf-8") as fh:
-            fh.write(
-                json.dumps(
-                    {"name": block.name, "text": block.text, "updated_at": block.updated_at},
-                    ensure_ascii=False,
-                )
-                + "\n"
-            )
+            fh.write(json.dumps(asdict(block), ensure_ascii=False) + "\n")
+
+    def append(self, name: str, text: str, project: str = "default", scope: str = "project") -> None:
+        # An append edits the target's own contents, not inherited globals.
+        current = self._blocks.get((self._target(project, scope), name))
+        combined = f"{current.text}\n{text}".strip() if current and current.text else text
+        self.set(name, combined, project=project, scope=scope)
+
+    def history(self, name: str, project: str = "default", scope: str = "project") -> list[Block]:
+        return list(self._history.get((self._target(project, scope), name), []))
+
+    def all(self, project: str | None = "default", scope: str = "project") -> dict[str, str]:
+        if scope not in {"project", "global"}:
+            raise ValueError("block scope must be project or global")
+        result = dict.fromkeys(DEFAULT_BLOCKS, "")
+        result.update({name: block.text for (target, name), block in self._blocks.items() if target is None})
+        if scope == "global":
+            return result
+        if project is None or project == "*":
+            result.update({f"{target}/{name}": block.text for (target, name), block in self._blocks.items()
+                           if target is not None})
+        else:
+            result.update({name: block.text for (target, name), block in self._blocks.items() if target == project})
+        return result

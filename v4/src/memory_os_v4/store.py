@@ -69,6 +69,9 @@ class MemoryItem:
     # compatible exactly like `keywords`: absent in old `items.jsonl`
     # records, `from_dict` then leaves this at its default (empty list).
     facets: list[dict] = field(default_factory=list)
+    # Explicit caller-supplied identity; never inferred from entity names.
+    identity: dict | None = None
+    replaces: list[str] = field(default_factory=list)
     importance: float = 0.5
     confidence: float = 1.0
     access_count: int = 0

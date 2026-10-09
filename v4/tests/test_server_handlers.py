@@ -140,9 +140,7 @@ def test_chat_save_dedupes_facts_on_repeat(server_engine):
 
 
 def test_chat_save_supersedes_with_new_dated_fact(tmp_path, monkeypatch):
-    # HashEmbedder has no semantic generalization (see v4/README.md "Other known
-    # limitations"): use a lower supersede_cos, as the project's own tests do,
-    # so token-overlapping-but-reworded facts still trigger supersession.
+    # Supersession is authorized by explicit single-valued property identity.
     eng = MemoryV4(config=Config(embed_model="hash", data_dir=str(tmp_path), supersede_cos=0.3))
     monkeypatch.setattr(server, "get_engine", lambda: eng)
 
@@ -153,6 +151,7 @@ def test_chat_save_supersedes_with_new_dated_fact(tmp_path, monkeypatch):
             "facts": [
                 {
                     "text": "Romain is a software engineer at Acme.",
+                    "identity": {"subject_id": "person:romain", "predicate": "job", "cardinality": "single"},
                     "entities": ["Romain", "Acme"],
                     "event_time": "2026-01-01",
                 }
@@ -166,6 +165,7 @@ def test_chat_save_supersedes_with_new_dated_fact(tmp_path, monkeypatch):
             "facts": [
                 {
                     "text": "Romain is a senior engineer at Acme now.",
+                    "identity": {"subject_id": "person:romain", "predicate": "job", "cardinality": "single"},
                     "entities": ["Romain", "Acme"],
                     "event_time": "2026-06-01",
                 }
@@ -390,7 +390,7 @@ def test_compact_is_alias_of_consolidate(server_engine):
 # --------------------------------------------------------- memory_forget --
 def test_forget_by_item_id(server_engine):
     item = server_engine.add_episode("Delete me.", project="p1")
-    result = call("memory_forget", {"item_id": item.id, "reason": "test cleanup"})
+    result = call("memory_forget", {"item_id": item.id, "reason": "test cleanup", "project": "p1"})
     assert result["forgotten"] == [item.id]
     assert server_engine.store.get(item.id).deleted is True
     # soft-deleted items are excluded from search
@@ -404,7 +404,7 @@ def test_forget_removes_from_bm25_and_vector_index_immediately(server_engine):
     stored item -- the vector/BM25/entity index entries must be gone right
     away, not just after the next consolidate() rebuild."""
     item = server_engine.add_episode("Delete me from every index.", project="p1")
-    call("memory_forget", {"item_id": item.id, "reason": "test cleanup"})
+    call("memory_forget", {"item_id": item.id, "reason": "test cleanup", "project": "p1"})
     assert server_engine.vector_index.get_one(item.id) is None
     assert item.id not in server_engine.bm25.doc_len
     assert item.id not in server_engine.entities.doc_entities
@@ -425,7 +425,7 @@ def test_forget_by_query_requires_confirm(server_engine):
 def test_forget_by_query_with_confirm_succeeds(server_engine):
     item = server_engine.add_episode("Forget-by-query target two.", project="p1")
     result = call(
-        "memory_forget", {"query": "Forget-by-query target two", "confirm": True, "reason": "test cleanup"}
+        "memory_forget", {"query": "Forget-by-query target two", "confirm": True, "reason": "test cleanup", "project": "p1"}
     )
     assert result["forgotten"] == [item.id]
 

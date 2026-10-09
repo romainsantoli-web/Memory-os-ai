@@ -23,6 +23,7 @@ from .embed import Embedder, HashEmbedder
 from .entities import EntityIndex, extract_entities
 from .extract import normalize_client_facts
 from .facets import FacetIndex, normalize_facets
+from .fact_updates import duplicate_compatible, equivalent_assertions, validate_replacements, replacement_sweep
 from .llm import LLMClient
 from .idempotency import RequestJournal, sync_sources
 from .writer_lock import WriterLock
@@ -222,6 +223,8 @@ class MemoryV4:
         if stale_vec_ids:
             self.vector_index.remove(stale_vec_ids)
             indexed_ids -= set(stale_vec_ids)
+            for sid in stale_vec_ids:
+                self.store.chunk_owner.pop(sid, None)
         represented = {chunk_owner.get(sid, sid) for sid in indexed_ids}
         missing_ids = [iid for iid in live_ids if iid not in represented]
         if missing_ids:
@@ -355,6 +358,8 @@ class MemoryV4:
                 tags=list(spec.get("tags") or []),
                 keywords=list(spec.get("keywords") or []),
                 facets=normalize_facets(spec.get("facets") or []),
+                identity=spec.get("identity"),
+                replaces=list(spec.get("replaces") or []),
                 importance=float(spec.get("importance", 0.5)),
                 confidence=float(spec.get("confidence", 1.0)),
                 hash=text_hash(text),
@@ -434,28 +439,21 @@ class MemoryV4:
             self._index_items(items)
             return items
 
-    def _find_near_duplicate(self, text: str, vec: np.ndarray, kind: str) -> str | None:
-        tokens_a = set(tokenize(text))
+    def _find_near_duplicate(self, item: MemoryItem, vec: np.ndarray) -> str | None:
+        tokens_a = set(tokenize(item.text))
         for it in self.store.all(include_deleted=False):
-            if it.kind != kind:
-                continue
-            # A2(c) (adversarial review, 2026-09-12): an already-invalidated
-            # candidate (superseded, or with a closed validity window) must
-            # never block re-asserting the same text with a later date --
-            # otherwise a fact that was true, then superseded, can never
-            # become true again (re-adding it just gets silently deduped to
-            # the dead record).
-            if it.valid_until is not None or it.invalidated_by is not None:
+            if not duplicate_compatible(it, item):
                 continue
             other = self.vector_index.get_one(it.id)
-            if other is None:
+            if other is None or cosine_sim(other, vec) < self.config.dedup_cos:
                 continue
-            if cosine_sim(other, vec) < self.config.dedup_cos:
-                continue
-            tokens_b = set(tokenize(it.text))
-            jaccard = len(tokens_a & tokens_b) / max(1, len(tokens_a | tokens_b))
-            if jaccard >= 0.6:
-                return it.id
+            if item.kind in {"fact", "belief"}:
+                if equivalent_assertions(it, item):
+                    return it.id
+            else:
+                tokens_b = set(tokenize(it.text))
+                if len(tokens_a & tokens_b) / max(1, len(tokens_a | tokens_b)) >= 0.6:
+                    return it.id
         return None
 
     @_requires_open
@@ -488,26 +486,7 @@ class MemoryV4:
             superseded: list[tuple[str, str]] = []
 
             for nf in normalized:
-                text = nf["text"]
                 kind = nf.get("kind", "fact")
-                h = text_hash(text)
-                # A2(c): exact-hash dedup must also skip invalidated
-                # candidates -- see _find_near_duplicate above.
-                exact_dup = next(
-                    (
-                        it
-                        for it in self.store.all(include_deleted=False)
-                        if it.hash == h
-                        and it.kind == kind
-                        and it.valid_until is None
-                        and it.invalidated_by is None
-                    ),
-                    None,
-                )
-                if exact_dup:
-                    deduped.append(exact_dup.id)
-                    continue
-
                 ev_time = nf.get("event_time")
                 if ev_time is None:
                     ev_time = event_time if event_time is not None else time.time()
@@ -519,6 +498,13 @@ class MemoryV4:
                 spec["event_time"] = ev_time
                 spec["source"] = source
                 item = self._build_items([spec], kind=kind)[0]
+                validate_replacements(item, self.store)
+                exact_dup = next((it for it in self.store.all(False)
+                                  if it.hash == item.hash and duplicate_compatible(it, item)
+                                  and (kind not in {"fact", "belief"} or equivalent_assertions(it, item))), None)
+                if exact_dup:
+                    deduped.append(exact_dup.id)
+                    continue
 
                 # A3 (adversarial review, 2026-09-12): embed the dedup probe
                 # with the EXACT header `_index_items` would store the
@@ -531,52 +517,21 @@ class MemoryV4:
                 probe_text = index_text(item, self.config)
                 vec = self.embedder.encode([probe_text])[0]
 
-                near_dup_id = self._find_near_duplicate(item.text, vec, kind)
+                near_dup_id = self._find_near_duplicate(item, vec)
                 if near_dup_id:
                     deduped.append(near_dup_id)
                     continue
 
                 self._index_items([item], vecs=np.asarray([vec]))
                 added.append(item.id)
-                new_vec = self.vector_index.get_one(item.id)
-
-                if kind == "fact":
-                    for old in self.store.all(include_deleted=False):
-                        if old.id == item.id or old.kind != "fact" or old.deleted:
-                            continue
-                        # A2(a): supersession must never cross projects -- a
-                        # fact in project B has no business invalidating one
-                        # in project A just because the text/entities match.
-                        if old.project != item.project:
-                            continue
-                        if old.valid_until is not None:
-                            continue
-                        if not (set(old.entities) & set(item.entities)):
-                            continue
-                        old_vec = self.vector_index.get_one(old.id)
-                        cos = cosine_sim(old_vec, new_vec)
-                        if cos < self.config.supersede_cos:
-                            continue
-                        toks_old, toks_new = set(tokenize(old.text)), set(tokenize(item.text))
-                        jaccard = len(toks_old & toks_new) / max(1, len(toks_old | toks_new))
-                        if cos >= self.config.dedup_cos and jaccard >= 0.6:
-                            continue  # near-duplicate, not an update
-                        # A2(b): an EQUAL event_time must never supersede --
-                        # `< ` (strict) previously let a tie through, setting
-                        # valid_until == valid_from on the old fact (a
-                        # zero-length validity window, never retrievable
-                        # with any at_time).
-                        if item.event_time <= old.event_time:
-                            continue
-                        old.valid_until = item.event_time
-                        old.invalidated_by = item.id
-                        self.store.append(old)
-                        superseded.append((old.id, item.id))
+                if kind == "fact" and (item.replaces or
+                                       (item.identity and item.identity["cardinality"] == "single")):
+                    superseded.extend(replacement_sweep(self.store, project=project, focus=item))
 
             return {"added": added, "deduped": deduped, "superseded": superseded}
 
     @_requires_open
-    def forget(self, item_id: str, reason: str = "") -> bool:
+    def forget(self, item_id: str, reason: str = "", project: str | None = None) -> bool:
         """Soft-delete ``item_id`` (A5, additive façade method): marks it
         ``deleted=True`` in the store AND removes it from the vector/BM25/
         entity indexes immediately, so it stops consuming candidate slots in
@@ -588,7 +543,7 @@ class MemoryV4:
         """
         with self._lock:
             item = self.store.get(item_id)
-            if item is None or item.deleted:
+            if item is None or item.deleted or (project is not None and item.project != project):
                 return False
             item.deleted = True
             self.store.append(item)
@@ -763,13 +718,13 @@ class MemoryV4:
             pending = [it for it in live if self._is_pending(it)][:6]
 
             sections: dict = {
-                "blocks": self.blocks.all(),
+                "blocks": self.blocks.all(project=project),
                 "recent_episodes": [it.to_dict() for it in recent_episodes],
                 "key_facts": [it.to_dict() for it in key_facts],
                 "procedures": [it.to_dict() for it in procedures],
                 "focus": [h.item.to_dict() for h in focus_hits],
                 "pending": [it.to_dict() for it in pending],
-                "stats": self.status(),
+                "stats": self.status(project=project),
             }
             sections["text"] = self._render_brief(sections, max_tokens)
             return sections
@@ -806,19 +761,20 @@ class MemoryV4:
 
     # ------------------------------------------------------------ upkeep
     @_requires_open
-    def consolidate(self, dry_run: bool = False) -> dict:
+    def consolidate(self, dry_run: bool = False, project: str | None = None) -> dict:
         with self._lock:
-            deduped = consolidate_mod.dedup_sweep(self.store, self.vector_index, self.config, dry_run)
-            superseded = consolidate_mod.supersede_sweep(self.store, self.vector_index, self.config, dry_run)
-            decayed = consolidate_mod.decay(self.store, self.config, time.time(), dry_run)
-            proposals = consolidate_mod.summary_proposals(self.store, self.vector_index)
+            deduped = consolidate_mod.dedup_sweep(self.store, self.vector_index, self.config, dry_run, project=project)
+            superseded = consolidate_mod.supersede_sweep(self.store, self.vector_index, self.config, dry_run, project=project)
+            decayed = consolidate_mod.decay(self.store, self.config, time.time(), dry_run, project=project)
+            proposals = consolidate_mod.summary_proposals(self.store, self.vector_index, project=project)
 
-            if deduped or superseded:
-                self._rebuild_bm25_entities()
+            if not dry_run and (deduped or superseded):
+                self._reconcile_indexes()
 
             if not dry_run:
                 self.last_consolidated = time.time()
                 self.store.meta["last_consolidated"] = self.last_consolidated
+                self.store.meta.setdefault("last_consolidated_by_project", {})[project or "*"] = self.last_consolidated
 
             return {
                 "deduped": len(deduped),
@@ -830,20 +786,25 @@ class MemoryV4:
             }
 
     @_requires_open
-    def status(self) -> dict:
+    def status(self, project: str | None = None) -> dict:
+        items = [it for it in self.store.all(False) if project is None or it.project == project]
+        ids = {it.id for it in items}
         counts: dict[str, int] = {}
-        for it in self.store.all(include_deleted=False):
+        for it in items:
             counts[it.kind] = counts.get(it.kind, 0) + 1
+        vector_count = sum(self.store.chunk_owner.get(vid, vid) in ids for vid in self.vector_index.ids())
+        entity_terms = len({entity for it in items for entity in self.entities.doc_entities.get(it.id, [])})
         return {
             "counts": counts,
             "total": sum(counts.values()),
             "embed_model": getattr(self.embedder, "model_name", "unknown"),
             "dim": self.embedder.dim,
             "data_dir": str(self.data_dir),
-            "bm25_docs": self.bm25.n_docs,
-            "entity_terms": len(self.entities.postings),
-            "vector_count": self.vector_index.ntotal,
-            "last_consolidated": self.last_consolidated,
+            "bm25_docs": sum(iid in ids for iid in self.bm25.doc_len),
+            "entity_terms": entity_terms,
+            "vector_count": vector_count,
+            "last_consolidated": (self.last_consolidated if project is None else
+                                  self.store.meta.get("last_consolidated_by_project", {}).get(project)),
         }
 
     @_requires_open

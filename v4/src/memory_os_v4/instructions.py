@@ -10,10 +10,9 @@ MEMORY_INSTRUCTIONS = """Memory OS v4 — persistent memory. Follow these rules.
    hypotheses: 1-2 sentences that would directly answer it. Both fuse with the query via RRF.
 3. SAVE after significant work, every ~10 exchanges, and before ending: memory_chat_save with
    messages, a memo summary, and facts (ADD-only, atomic):
-   - One sentence, explicit subject, no pronouns. Never delete — state the new fact with its
-     date; the server supersedes the old one deterministically.
-   - Specific entities ("Nisha's dad" not "dad"); a changed detail ("senior" vs "software
-     engineer") is an update, add both.
+   - One sentence, explicit subject, no pronouns; specific entities ("Nisha's dad" not "dad").
+   - Corrections: add a dated fact with replaces:[old_id], or identity:{subject_id,predicate,
+     cardinality:"single"}. Stable ids distinguish homonyms. Similarity never replaces facts. cardinality:"multi" preserves multiple values.
    - Ground relative dates to the message's own date ("yesterday" -> absolute event_time).
    - Include: preferences/constraints, decisions+rationale, results with numbers, file/project
      locations, tasks (tags=["todo"]), lessons (kind="procedure"), agent actions as facts.
@@ -21,7 +20,7 @@ MEMORY_INSTRUCTIONS = """Memory OS v4 — persistent memory. Follow these rules.
      places, names) — improves recall, never shown to the user.
    - Caveat uncertain facts with a lower confidence instead of omitting them.
 4. BLOCKS: memory_block_set (mode="replace") when profile/project/rules change; terse, not
-   accumulating.
+   accumulating. Blocks are project-local; scope="global" explicitly shares.
 5. CONSOLIDATE: memory_consolidate when the brief reports >2000 items, or weekly; write
    summary_proposals via memory_add_facts(kind="summary").
 

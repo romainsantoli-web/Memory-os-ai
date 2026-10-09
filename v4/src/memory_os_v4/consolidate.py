@@ -12,6 +12,7 @@ import math
 from collections import Counter, defaultdict
 
 from .config import Config
+from .fact_updates import duplicate_compatible, equivalent_assertions, replacement_sweep
 from .retrieval import cosine_sim
 from .store import Store
 from .temporal import recency_weight
@@ -26,11 +27,14 @@ def _jaccard(text_a: str, text_b: str) -> float:
 
 
 def dedup_sweep(
-    store: Store, vector_index: VectorIndex, config: Config, dry_run: bool = False
+    store: Store, vector_index: VectorIndex, config: Config, dry_run: bool = False, project: str | None = None
 ) -> list[tuple[str, str]]:
-    """Find near-duplicate fact-like items (cosine >= dedup_cos and token
-    Jaccard >= 0.6); soft-delete the newer of each pair. Returns (kept, removed)."""
-    candidates = [it for it in store.all(include_deleted=False) if it.kind in {"fact", "belief", "summary"}]
+    """Dedup compatible active items within each project. Facts/beliefs require
+    conservative assertion equality; summaries retain cosine/Jaccard dedup. Historical
+    validity windows are preserved. Returns (kept, removed)."""
+    candidates = [it for it in store.all(include_deleted=False) if it.kind in {"fact", "belief", "summary"}
+                  and it.valid_until is None and it.invalidated_by is None
+                  and (project is None or it.project == project)]
     candidates.sort(key=lambda it: it.created_at)
     removed: set[str] = set()
     pairs: list[tuple[str, str]] = []
@@ -39,9 +43,11 @@ def dedup_sweep(
             continue
         va = vector_index.get_one(a.id)
         for b in candidates[i + 1 :]:
-            if b.id in removed or b.kind != a.kind:
+            if b.id in removed or not duplicate_compatible(a, b):
                 continue
             if cosine_sim(va, vector_index.get_one(b.id)) < config.dedup_cos:
+                continue
+            if a.kind in {"fact", "belief"} and not equivalent_assertions(a, b):
                 continue
             if _jaccard(a.text, b.text) < 0.6:
                 continue
@@ -54,45 +60,21 @@ def dedup_sweep(
 
 
 def supersede_sweep(
-    store: Store, vector_index: VectorIndex, config: Config, dry_run: bool = False
+    store: Store, vector_index: VectorIndex, config: Config, dry_run: bool = False, project: str | None = None
 ) -> list[tuple[str, str]]:
-    """Deterministic supersession: for currently-valid facts sharing >=1 entity,
-    cosine >= supersede_cos, not a near-duplicate, the later ``event_time`` fact
-    supersedes the earlier one (``valid_until``/``invalidated_by`` set; never
-    deleted)."""
-    facts = [it for it in store.all(include_deleted=False) if it.kind == "fact" and it.valid_until is None]
-    facts.sort(key=lambda it: it.event_time)
-    pairs: list[tuple[str, str]] = []
-    for i, old in enumerate(facts):
-        if old.valid_until is not None:
-            continue
-        entities_old = set(old.entities)
-        vo = vector_index.get_one(old.id)
-        for new in facts[i + 1 :]:
-            if new.event_time <= old.event_time:
-                continue
-            if not (entities_old & set(new.entities)):
-                continue
-            cos = cosine_sim(vo, vector_index.get_one(new.id))
-            if cos < config.supersede_cos:
-                continue
-            if cos >= config.dedup_cos and _jaccard(old.text, new.text) >= 0.6:
-                continue  # near-duplicate, not a genuine update
-            pairs.append((old.id, new.id))
-            if not dry_run:
-                old.valid_until = new.event_time
-                old.invalidated_by = new.id
-                store.append(old)
-            break
-    return pairs
+    """Only explicit replacements or caller-declared single-valued identities
+    close validity windows. Cosine and shared names cannot prove contradiction."""
+    return replacement_sweep(store, project=project, dry_run=dry_run)
 
 
-def decay(store: Store, config: Config, now: float, dry_run: bool = False) -> int:
+def decay(store: Store, config: Config, now: float, dry_run: bool = False, project: str | None = None) -> int:
     """Ebbinghaus-style importance decay with access reinforcement; episodes past
     ``episode_ttl_days`` with zero accesses are marked low-importance (never
     deleted). Returns the number of items updated."""
     updated = 0
     for item in store.all(include_deleted=False):
+        if project is not None and item.project != project:
+            continue
         if item.kind == "episode":
             age_days = (now - item.event_time) / 86400.0
             if age_days > config.episode_ttl_days and item.access_count == 0 and item.importance > 0.1:
@@ -126,13 +108,13 @@ def _suggest_title(cluster: list, project: str) -> str:
 
 
 def summary_proposals(
-    store: Store, vector_index: VectorIndex, min_cluster: int = 4, cos_threshold: float = 0.75
+    store: Store, vector_index: VectorIndex, min_cluster: int = 4, cos_threshold: float = 0.75, project: str | None = None
 ) -> list[dict]:
     """Greedy cosine clustering of episodes per project (>=min_cluster members)
     so a client LLM can write a summary via ``add_facts(kind="summary")``."""
     by_project: dict[str, list] = defaultdict(list)
     for item in store.all(include_deleted=False):
-        if item.kind == "episode":
+        if item.kind == "episode" and (project is None or item.project == project):
             by_project[item.project].append(item)
 
     proposals: list[dict] = []

@@ -20,8 +20,8 @@ entity extraction, date parsing are implemented in-house.
 | `rerank.py` | optional `CrossEncoderReranker` (lazy; returns None if model missing) |
 | `extract.py` | `facts_from_client(facts)` (validate/normalise), `facts_heuristic(text)` (declarative sentences with entities/numbers), `facts_llm(text)` via `llm.py` if configured |
 | `llm.py` | optional OpenAI-compatible client (llama-server / Ollama / LM Studio); `available()` false by default |
-| `blocks.py` | Letta-style core blocks: `get(name)`, `set(name, text)`, char limit, history in `blocks.jsonl` |
-| `consolidate.py` | dedup (cosine ≥ 0.92 & token-jaccard ≥ 0.6), supersession sweep, decay/reinforce, summary proposals (clusters) |
+| `blocks.py` | Letta-style core blocks: project-scoped `get`/`set`, explicit global sharing, char limit, scoped history in `blocks.jsonl` |
+| `consolidate.py` | project-scoped active dedup (facts/beliefs require conservative assertion equality), explicit replacement/identity sweep, decay/reinforce, summary proposals (clusters) |
 | `memory.py` | façade `MemoryV4`: `add_episode()`, `add_facts()`, `add_document()`, `search()`, `get_context()`, `session_brief()`, `consolidate()`, `status()`, `migrate_v3()` |
 | `server.py` | MCP stdio server: v3 tool names kept (`memory_session_brief`, `memory_chat_save`, `memory_search`, `memory_get_context`, `memory_status`, `memory_compact`→consolidate, `memory_ingest`, `memory_list_documents`) + new (`memory_add_facts`, `memory_block_get`, `memory_block_set`, `memory_consolidate`, `memory_timeline`, `memory_forget`) |
 | `instructions.py` | MCP server instructions: recall at start, **extract atomic ADD-only facts at save**, temporal phrasing, agent facts first-class |
@@ -169,7 +169,7 @@ Transport: stdio (default) via `mcp.server.Server`; entry `python -m memory_os_v
 
 ## MCP instructions (`instructions.py`) — client-side extraction protocol
 1. Start of session: call `memory_session_brief` before answering (blocks + recent + key facts + procedures + pending).
-2. After significant work, every ~10 exchanges, and before ending: call `memory_chat_save` with messages, a memo-style `summary`, AND `facts`: atomic, self-contained statements (one fact = one sentence, subject explicit, no pronouns), ADD-only (never ask the server to delete; if something changed, state the new fact with its date — the server supersedes deterministically), include: user preferences/constraints, decisions with rationale, results with numbers, file/project locations, tasks (tag "todo"), lessons from successes AND failures (kind="procedure", title-like first clause), agent actions as facts ("Claude created ~/x/y.py on 2026-09-12"). Add `entities` (names, projects, files, tickers) and `event_time` when known.
+2. After significant work, every ~10 exchanges, and before ending: call `memory_chat_save` with messages, a memo-style `summary`, AND `facts`: atomic, self-contained statements (one fact = one sentence, subject explicit, no pronouns), ADD-only (never ask the server to delete; if something changed, state the new fact with its date and `replaces` ids or an explicit single-valued `identity` — similarity alone never supersedes), include: user preferences/constraints, decisions with rationale, results with numbers, file/project locations, tasks (tag "todo"), lessons from successes AND failures (kind="procedure", title-like first clause), agent actions as facts ("Claude created ~/x/y.py on 2026-09-12"). Add `entities` (names, projects, files, tickers) and `event_time` when known.
 3. Use `memory_search` with `at_time` for "what was true on <date>" questions and `memory_timeline` for "how did X evolve".
 4. Update core blocks (`memory_block_set`) when the user profile, project state or working rules change; keep each block under its limit; replace, don't accumulate.
 5. Run `memory_consolidate` when the brief reports > 2000 items or weekly; write the proposed summaries back via `memory_add_facts(kind="summary")`.

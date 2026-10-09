@@ -73,6 +73,21 @@ def normalize_client_facts(facts: list[dict]) -> list[dict]:
             "tags": tags,
             "confidence": float(f.get("confidence", 1.0)),
         }
+        identity = f.get("identity")
+        if identity is not None:
+            if not isinstance(identity, dict) or set(identity) != {"subject_id", "predicate", "cardinality"}:
+                raise ValueError("identity requires subject_id, predicate and cardinality")
+            if not all(isinstance(identity[k], str) and identity[k].strip() for k in ("subject_id", "predicate")):
+                raise ValueError("identity subject_id and predicate must be non-empty strings")
+            if identity["cardinality"] not in {"single", "multi"}:
+                raise ValueError("identity cardinality must be single or multi")
+            norm["identity"] = {k: v.strip() for k, v in identity.items()}
+        replaces = f.get("replaces") or []
+        if not isinstance(replaces, list) or not all(isinstance(x, str) and x for x in replaces):
+            raise ValueError("replaces must be a list of item ids")
+        norm["replaces"] = list(dict.fromkeys(replaces))
+        if (identity is not None or replaces) and kind != "fact":
+            raise ValueError("identity and replaces are supported only for facts")
         if f.get("item_id"):
             norm["item_id"] = f["item_id"]
         out.append(norm)

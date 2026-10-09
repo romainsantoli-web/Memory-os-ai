@@ -68,6 +68,14 @@ class QueryFacetIn(BaseModel):
     )
 
 
+class FactIdentityIn(BaseModel):
+    """Opaque, caller-declared subject/property identity; never name inference."""
+    model_config = ConfigDict(extra="forbid")
+    subject_id: str = Field(..., min_length=1, description="Stable unique subject id; distinguish homonyms.")
+    predicate: str = Field(..., min_length=1, description="Property represented by this fact.")
+    cardinality: Literal["single", "multi"] = Field(..., description="single permits temporal state replacement; multi preserves multiple values.")
+
+
 class FactIn(BaseModel):
     """One atomic, self-contained fact/summary/procedure/belief to add (ADD-only)."""
 
@@ -78,8 +86,8 @@ class FactIn(BaseModel):
         min_length=1,
         description=(
             "Atomic, self-contained statement: one sentence, explicit subject, no pronouns. "
-            "Never ask to delete a fact — state the new version with its date and the server "
-            "supersedes the old one automatically."
+            "For corrections, provide replaces or a single-valued identity and validity date. "
+            "Text similarity alone never supersedes another fact."
         ),
     )
     kind: Literal["fact", "summary", "procedure", "belief"] = Field(
@@ -118,6 +126,8 @@ class FactIn(BaseModel):
     )
     keywords: list[str] | None = Field(None, description=_KEYWORDS_DESC)
     facets: list[FacetIn] | None = Field(None, max_length=8, description=_FACETS_DESC)
+    identity: FactIdentityIn | None = Field(None, description="Explicit subject/property identity for facts. Names or retrieval facets alone do not authorize replacement.")
+    replaces: list[str] | None = Field(None, description="Ids of facts explicitly replaced in the same project; new validity must start later.")
 
 
 class MessageIn(BaseModel):
@@ -229,6 +239,10 @@ class TimelineIn(BaseModel):
 class BlockGetIn(BaseModel):
     model_config = ConfigDict(extra="forbid")
 
+    scope: Literal["project", "global"] = Field("project", description="Project-local by default; global explicitly shares across projects.")
+
+    project: str | None = Field(None, description=_PROJECT_DESC)
+
     name: str | None = Field(
         None, description="Block name, e.g. 'user_profile', 'project_state', 'working_rules'; omit for all blocks."
     )
@@ -236,6 +250,10 @@ class BlockGetIn(BaseModel):
 
 class BlockSetIn(MutationIn):
     model_config = ConfigDict(extra="forbid")
+
+    scope: Literal["project", "global"] = Field("project", description="Project-local by default; global explicitly shares across projects.")
+
+    project: str | None = Field(None, description=_PROJECT_DESC)
 
     name: str = Field(..., min_length=1, description="Block name, e.g. 'user_profile', 'project_state'.")
     text: str = Field(..., description="New block text.")
@@ -247,6 +265,8 @@ class BlockSetIn(MutationIn):
 class ConsolidateIn(MutationIn):
     model_config = ConfigDict(extra="forbid")
 
+    project: str | None = Field(None, description=_PROJECT_DESC)
+
     dry_run: bool = Field(False, description="If true, report what would change without writing anything.")
 
 
@@ -256,6 +276,8 @@ class CompactIn(ConsolidateIn):
 
 class ForgetIn(MutationIn):
     model_config = ConfigDict(extra="forbid")
+
+    project: str | None = Field(None, description=_PROJECT_DESC)
 
     item_id: str | None = Field(None, description="Exact item id to soft-delete.")
     query: str | None = Field(
@@ -291,6 +313,8 @@ class MigrateV3In(MutationIn):
 
 class StatusIn(BaseModel):
     model_config = ConfigDict(extra="forbid")
+
+    project: str | None = Field(None, description=_PROJECT_DESC)
 
 
 class ListDocumentsIn(BaseModel):

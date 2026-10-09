@@ -103,9 +103,11 @@ contract.
 teaches the calling model to: recall via `memory_session_brief` at session start; save via
 `memory_chat_save` regularly, passing atomic, self-contained, **ADD-only** facts (one sentence,
 explicit subject, no pronouns, specific entities — "Nisha's dad" not "dad") with absolute dates;
-never ask to delete a fact — a changed fact is added anew and the server supersedes the old one
-deterministically (same/overlapping entities, cosine similarity ≥ `config.supersede_cos`, not a
-near-duplicate); tag tasks `["todo"]`; record lessons from both successes and failures as
+a changed fact is added anew with `replaces: [old_id]`, or with a caller-declared
+`identity: {subject_id, predicate, cardinality: "single"}`. Those explicit declarations
+close the old validity window at the new `valid_from` (default: `event_time`); cosine
+similarity and shared entity names never imply contradiction. Multi-valued identities
+(`cardinality: "multi"`) and facts without update metadata coexist; tag tasks `["todo"]`; record lessons from both successes and failures as
 `kind="procedure"`; and record its own actions as facts too ("Claude created ~/x/y.py on
 2026-09-12"). `memory_forget` is a deliberate escape hatch for the rare true deletion request
 (soft-delete only, by `item_id` or by `query` + `confirm=true`) — it is never used for updates.
@@ -210,12 +212,17 @@ store at this scale (< 100k vectors, FlatIP is brute-force regardless of thread 
 
 ## Other known limitations
 
-- `add_facts` dedup/supersession scans are O(n) over all live facts per new fact (fine at the
-  tested scale; `bench/` measures the hybrid retriever itself at larger corpora separately).
-- `HashEmbedder` is a hashing bag-of-words embedder for fast, ML-free tests — it has no semantic
-  generalization, so paraphrase-level supersession (different wording, same meaning) only works
-  reliably with the real sentence-transformers embedder. Tests that need that use either literal
-  wording overlap or a per-test lower `supersede_cos` with `HashEmbedder`, or the real embedder.
+- `add_facts` duplicate probes scan live items; explicit identity timeline updates sort the
+  affected property timeline; untyped additions skip replacement scans. Consolidation
+  duplicate sweeps remain quadratic in active fact-like items.
+- `HashEmbedder` is a hashing bag-of-words embedder for fast, ML-free tests; it has no semantic
+  generalization. Temporal replacement uses explicit metadata with every embedder.
+- Core blocks default to the resolved project. Set `scope="global"` to share a block explicitly;
+  a project block overrides its global counterpart. Legacy unscoped blocks load under
+  `default` and are never silently shared. `project="*"` reads across projects; block writes
+  with `"*"` use the existing concrete default-project policy. Status, forgetting, and
+  consolidation honor the same resolved read scope; direct engine callers may pass
+  `project=None` for all-project operations.
 - `llm.py`/`extract.llm_facts` are inert unless `MEMORY_V4_LLM_URL` is set to a reachable
   OpenAI-compatible server; never required by tests.
 
