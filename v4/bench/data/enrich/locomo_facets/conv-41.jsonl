@@ -1,0 +1,316 @@
+{"fid": "D1:2#0", "facets": [{"subject": "John", "predicate": "trip_location_visited", "object": "family road trip"}], "implications": ["This suggests John prioritizes spending time with family."]}
+{"fid": "D1:3#0", "facets": [{"subject": "Maria", "predicate": "volunteering_cause", "object": "homeless shelter"}], "implications": ["This suggests Maria is civic-minded and compassionate toward vulnerable people."]}
+{"fid": "D1:3#1", "facets": [{"subject": "Maria", "predicate": "sport_exercise", "object": "aerial yoga"}], "implications": ["This suggests Maria enjoys trying novel forms of fitness and self-care."]}
+{"fid": "D1:4#0", "facets": [{"subject": "John", "predicate": "sport_exercise", "object": "kickboxing"}], "implications": ["This suggests John values physical activity as a source of vitality and stress relief."]}
+{"fid": "D1:6#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "local politics (career aspiration)"}], "implications": ["This suggests John is civically ambitious and community-oriented."]}
+{"fid": "D1:6#1", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "helping community and making it better"}], "implications": ["This suggests John's political motivation is largely altruistic rather than self-interested."]}
+{"fid": "D1:8#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "improving education and infrastructure (political focus)"}, {"subject": "John", "predicate": "belief_value_opinion", "object": "education and infrastructure are priorities"}], "implications": []}
+{"fid": "D1:10#0", "facets": [{"subject": "John", "predicate": "origin_hometown", "object": "neighborhood with underfunded schools/infrastructure (childhood)"}, {"subject": "John", "predicate": "belief_value_opinion", "object": "properly funding schools and infrastructure"}], "implications": []}
+{"fid": "D1:10#1", "facets": [{"subject": "John", "predicate": "project_work", "object": "school funding renovation (photo shared)"}], "implications": []}
+{"fid": "D1:12#0", "facets": [{"subject": "John", "predicate": "project_work", "object": "school funding enabling repairs and renovations"}], "implications": ["This suggests John sees tangible results as validation of his advocacy work."]}
+{"fid": "D1:14#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "meeting local leaders and organizations (next political step)"}], "implications": []}
+{"fid": "D2:1#0", "facets": [{"subject": "Maria", "predicate": "gift_given_received", "object": "old car (donated to homeless shelter)"}, {"subject": "Maria", "predicate": "volunteering_cause", "object": "homeless shelter"}], "implications": ["Donating her car suggests Maria is willing to make significant personal sacrifices for causes she believes in."]}
+{"fid": "D2:2#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "political campaign (progress)"}, {"subject": "John", "predicate": "skill_ability", "object": "networking with constituents"}], "implications": []}
+{"fid": "D2:4#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "passion for improving education reignited"}], "implications": ["This suggests John is emotionally receptive to being motivated by other people's personal stories."]}
+{"fid": "D2:6#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "investing in future generations"}], "implications": []}
+{"fid": "D2:10#0", "facets": [{"subject": "John", "predicate": "family_member", "object": "family picnic in the park"}, {"subject": "John", "predicate": "feeling_emotion", "object": "family as reason he never gives up"}], "implications": []}
+{"fid": "D2:12#0", "facets": [{"subject": "John", "predicate": "family_member", "object": "family as source of grounding"}], "implications": []}
+{"fid": "D2:14#0", "facets": [{"subject": "John", "predicate": "family_member", "object": "family swing ride outing"}, {"subject": "John", "predicate": "feeling_emotion", "object": "family as emotional rock in tough times"}], "implications": []}
+{"fid": "D2:16#0", "facets": [{"subject": "John", "predicate": "outdoor_activity", "object": "playground (climbing, sliding, games with family)"}], "implications": []}
+{"fid": "D2:17#0", "facets": [{"subject": "Maria", "predicate": "family_member", "object": "small family"}], "implications": []}
+{"fid": "D2:17#1", "facets": [{"subject": "Maria", "predicate": "friend", "object": "friends (movies, hiking, game nights)"}, {"subject": "Maria", "predicate": "hobby_interest", "object": "movies, hiking, game nights"}], "implications": ["This suggests Maria leans more on friends than on family for social connection."]}
+{"fid": "D2:20#0", "facets": [{"subject": "John", "predicate": "family_member", "object": "family dinner at kitchen table"}], "implications": []}
+{"fid": "D2:22#0", "facets": [{"subject": "John", "predicate": "habit_routine", "object": "family meal times"}, {"subject": "John", "predicate": "feeling_emotion", "object": "closeness during family meals"}], "implications": []}
+{"fid": "D2:23#0", "facets": [{"subject": "John", "predicate": "food_drink_recipe", "object": "pizzas and salads (family dinner)"}], "implications": []}
+{"fid": "D2:24#0", "facets": [{"subject": "John", "predicate": "food_drink_recipe", "object": "homemade pizza (family activity)"}], "implications": []}
+{"fid": "D2:25#0", "facets": [{"subject": "Maria", "predicate": "food_drink_recipe", "object": "peach cobbler"}], "implications": []}
+{"fid": "D2:28#0", "facets": [{"subject": "John", "predicate": "sport_exercise", "object": "taekwondo"}], "implications": ["John's practice of both kickboxing and taekwondo suggests a broad interest in martial arts and combat sports."]}
+{"fid": "D3:1#0", "facets": [{"subject": "John", "predicate": "volunteering_cause", "object": "service-focused online group"}, {"subject": "John", "predicate": "feeling_emotion", "object": "sense of connection and purpose"}], "implications": []}
+{"fid": "D3:1#1", "facets": [{"subject": "John", "predicate": "other", "object": "online group (laptop photo)"}], "implications": []}
+{"fid": "D3:3#0", "facets": [{"subject": "John", "predicate": "volunteering_cause", "object": "service group (sharing stories and advice)"}], "implications": []}
+{"fid": "D3:4#0", "facets": [{"subject": "John", "predicate": "person_met", "object": "online group members (in-person meeting queried)"}], "implications": []}
+{"fid": "D3:4#1", "facets": [{"subject": "Maria", "predicate": "other", "object": "Santa Claus poster (image shared)"}], "implications": []}
+{"fid": "D3:5#0", "facets": [{"subject": "John", "predicate": "volunteering_cause", "object": "homeless shelter food/supplies drive (via group)"}], "implications": []}
+{"fid": "D3:5#1", "facets": [{"subject": "John", "predicate": "volunteering_cause", "object": "toy drive for kids in need"}], "implications": []}
+{"fid": "D3:7#0", "facets": [{"subject": "John", "predicate": "project_work", "object": "underserved community support (education, mentorship, job training)"}], "implications": []}
+{"fid": "D3:11#0", "facets": [{"subject": "John", "predicate": "challenge_problem", "object": "failed military aptitude test"}, {"subject": "John", "predicate": "feeling_emotion", "object": "stress about test failure"}], "implications": ["This suggests John aspires to join the military himself."]}
+{"fid": "D3:12#0", "facets": [{"subject": "Maria", "predicate": "belief_value_opinion", "object": "nature's beauty as a reminder to slow down"}], "implications": []}
+{"fid": "D3:14#0", "facets": [{"subject": "Maria", "predicate": "trip_location_visited", "object": "beach (sunset photo)"}, {"subject": "Maria", "predicate": "feeling_emotion", "object": "peaceful and connected to nature"}], "implications": []}
+{"fid": "D3:15#0", "facets": [{"subject": "John", "predicate": "hobby_interest", "object": "film camera (childhood photography hobby)"}], "implications": ["This suggests photography and nostalgic childhood memories are meaningful to John."]}
+{"fid": "D3:17#0", "facets": [{"subject": "John", "predicate": "other", "object": "group of people in a field (photo)"}], "implications": []}
+{"fid": "D4:1#0", "facets": [{"subject": "Maria", "predicate": "friend", "object": "fellow shelter volunteer (new friend)"}], "implications": ["This suggests Maria's shelter volunteering is also expanding her social circle beyond her existing friends and family."]}
+{"fid": "D4:2#0", "facets": [{"subject": "John", "predicate": "challenge_problem", "object": "car windshield broken (incident)"}, {"subject": "John", "predicate": "vehicle", "object": "car (windshield damaged)"}], "implications": []}
+{"fid": "D4:3#0", "facets": [{"subject": "Maria", "predicate": "other", "object": "tattoo with quote (image shared)"}], "implications": []}
+{"fid": "D4:4#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "tattoo quote as reminder to stay strong"}], "implications": []}
+{"fid": "D4:6#0", "facets": [{"subject": "John", "predicate": "skill_ability", "object": "staying calm under pressure (car incident)"}], "implications": []}
+{"fid": "D4:8#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "relief and gratitude after car incident"}], "implications": []}
+{"fid": "D4:10#0", "facets": [{"subject": "John", "predicate": "habit_routine", "object": "watching sunsets to calm down"}], "implications": []}
+{"fid": "D4:12#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "community leader outreach (local politics)"}, {"subject": "John", "predicate": "feeling_emotion", "object": "optimism about political pursuit"}], "implications": []}
+{"fid": "D4:13#0", "facets": [{"subject": "Maria", "predicate": "habit_routine", "object": "taking notes on local politics"}], "implications": ["This suggests Maria is actively supportive of and engaged with John's political efforts."]}
+{"fid": "D4:16#0", "facets": [{"subject": "John", "predicate": "event_attended", "object": "community meeting on education/infrastructure (scheduled)"}], "implications": []}
+{"fid": "D4:17#0", "facets": [{"subject": "Maria", "predicate": "support_advice", "object": "wishing John good luck at community meeting"}], "implications": []}
+{"fid": "D4:20#0", "facets": [{"subject": "John", "predicate": "project_work", "object": "community change work (group photo)"}], "implications": []}
+{"fid": "D4:22#0", "facets": [{"subject": "John", "predicate": "project_work", "object": "joining forces for community goals (handshake photo)"}], "implications": []}
+{"fid": "D5:1#0", "facets": [{"subject": "John", "predicate": "event_attended", "object": "community meeting (Jan 2023)"}, {"subject": "John", "predicate": "belief_value_opinion", "object": "education and infrastructure upgrades crucial for kids"}], "implications": []}
+{"fid": "D5:2#0", "facets": [{"subject": "Maria", "predicate": "belief_value_opinion", "object": "fighting for more school funding and awareness"}], "implications": []}
+{"fid": "D5:3#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "education essential for a successful society"}, {"subject": "John", "predicate": "feeling_emotion", "object": "heartbroken over kids lacking resources"}], "implications": []}
+{"fid": "D5:5#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "concern about inequity between his kids and others"}, {"subject": "John", "predicate": "child", "object": "kids (comparatively well-resourced)"}], "implications": []}
+{"fid": "D5:6#0", "facets": [{"subject": "Maria", "predicate": "event_attended", "object": "shelter event for kids"}], "implications": []}
+{"fid": "D5:8#0", "facets": [{"subject": "Maria", "predicate": "family_member", "object": "aunt (inspired volunteering, helped family)"}, {"subject": "Maria", "predicate": "volunteering_cause", "object": "began volunteering to make a difference"}], "implications": []}
+{"fid": "D5:10#0", "facets": [{"subject": "Maria", "predicate": "event_attended", "object": "comforting a lonely 8-year-old girl at the shelter"}], "implications": []}
+{"fid": "D5:13#0", "facets": [{"subject": "John", "predicate": "other", "object": "childhood doll (comfort object)"}, {"subject": "John", "predicate": "belief_value_opinion", "object": "looking out for others who feel down"}], "implications": []}
+{"fid": "D6:1#0", "facets": [{"subject": "Maria", "predicate": "event_attended", "object": "charity event (collective effort)"}], "implications": []}
+{"fid": "D6:3#0", "facets": [{"subject": "Maria", "predicate": "volunteering_cause", "object": "serving meals at charity event"}], "implications": []}
+{"fid": "D6:4#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "serving country and community via politics"}], "implications": []}
+{"fid": "D6:5#0", "facets": [{"subject": "Maria", "predicate": "person_met", "object": "David (met at charity event, shared hardship story)"}], "implications": []}
+{"fid": "D6:7#0", "facets": [{"subject": "Maria", "predicate": "support_advice", "object": "connected David to a housing support organization"}], "implications": ["This suggests Maria proactively uses her volunteer network to help people beyond the shelter itself."]}
+{"fid": "D6:9#0", "facets": [{"subject": "Maria", "predicate": "challenge_problem", "object": "family financial struggles (childhood)"}, {"subject": "Maria", "predicate": "family_member", "object": "aunt (helped family through hardship)"}], "implications": []}
+{"fid": "D6:10#0", "facets": [{"subject": "John", "predicate": "volunteering_cause", "object": "food drive for unemployed people (food bank)"}], "implications": []}
+{"fid": "D6:12#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "unemployment's effect on neighbors inspired action"}], "implications": []}
+{"fid": "D6:14#0", "facets": [{"subject": "John", "predicate": "project_work", "object": "community food drive initiative"}], "implications": []}
+{"fid": "D6:16#0", "facets": [{"subject": "John", "predicate": "achievement_award", "object": "food drive volunteer turnout (overwhelming response)"}], "implications": []}
+{"fid": "D6:17#0", "facets": [{"subject": "Maria", "predicate": "support_advice", "object": "offered help with John's food drive events"}], "implications": []}
+{"fid": "D6:22#0", "facets": [{"subject": "John", "predicate": "friend", "object": "Maria (friendship, shared goals)"}], "implications": []}
+{"fid": "D7:1#0", "facets": [{"subject": "Maria", "predicate": "education_course", "object": "creative writing class"}], "implications": []}
+{"fid": "D7:2#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "running for office again"}, {"subject": "John", "predicate": "feeling_emotion", "object": "excitement about running again"}], "implications": []}
+{"fid": "D7:3#0", "facets": [{"subject": "Maria", "predicate": "volunteering_cause", "object": "homeless shelter (rewarding)"}], "implications": []}
+{"fid": "D7:4#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "political impact motivating a renewed run for office"}], "implications": []}
+{"fid": "D7:5#0", "facets": [{"subject": "Maria", "predicate": "person_met", "object": "Jean (resilient volunteer/shelter contact)"}], "implications": []}
+{"fid": "D7:7#0", "facets": [{"subject": "Maria", "predicate": "person_met", "object": "Jean (divorce, job loss, homelessness, values kindness)"}], "implications": ["Jean's story of resilience likely reinforced Maria's own belief in kindness and gratitude."]}
+{"fid": "D7:16#0", "facets": [{"subject": "John", "predicate": "colleague_mentor", "object": "Rob (colleague, invited John to yoga class)"}], "implications": []}
+{"fid": "D8:1#0", "facets": [{"subject": "Maria", "predicate": "family_member", "object": "grandma (passed away)"}, {"subject": "Maria", "predicate": "life_event_milestone", "object": "grandmother's death"}], "implications": ["This suggests Maria was close to her grandmother and may need extra emotional support while grieving."]}
+{"fid": "D8:2#0", "facets": [{"subject": "John", "predicate": "family_member", "object": "wife and kids (picnic)"}], "implications": []}
+{"fid": "D8:4#0", "facets": [{"subject": "John", "predicate": "child", "object": "Kyle (one-year-old son)"}], "implications": []}
+{"fid": "D8:6#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "parenting (ups and downs, mostly positive)"}], "implications": []}
+{"fid": "D8:8#0", "facets": [{"subject": "John", "predicate": "habit_routine", "object": "family park visits (bonding)"}], "implications": []}
+{"fid": "D8:10#0", "facets": [{"subject": "John", "predicate": "hobby_interest", "object": "planning family activities"}], "implications": []}
+{"fid": "D8:12#0", "facets": [{"subject": "John", "predicate": "event_attended", "object": "violin concert (family outing)"}], "implications": []}
+{"fid": "D8:13#0", "facets": [{"subject": "Maria", "predicate": "family_member", "object": "siblings (childhood memory-making activities)"}], "implications": []}
+{"fid": "D8:15#0", "facets": [{"subject": "Maria", "predicate": "trip_location_visited", "object": "England (castles trip)"}, {"subject": "Maria", "predicate": "creative_work", "object": "castle shadow box and painting of a castle on a hill"}], "implications": []}
+{"fid": "D8:17#0", "facets": [{"subject": "Maria", "predicate": "trip_location_visited", "object": "London (captivating architecture)"}], "implications": []}
+{"fid": "D8:18#0", "facets": [{"subject": "John", "predicate": "achievement_award", "object": "military aptitude test (passed with great results)"}, {"subject": "John", "predicate": "goal_plan", "object": "serving his country (military)"}], "implications": ["This suggests John overcame his earlier test failure through persistence."]}
+{"fid": "D8:20#0", "facets": [{"subject": "John", "predicate": "support_advice", "object": "family and friends supportive of his military volunteering"}], "implications": []}
+{"fid": "D8:21#0", "facets": [{"subject": "Maria", "predicate": "support_advice", "object": "support system while volunteering at the shelter"}], "implications": []}
+{"fid": "D8:23#0", "facets": [{"subject": "Maria", "predicate": "skill_ability", "object": "building trust through listening and compassion"}], "implications": []}
+{"fid": "D8:25#0", "facets": [{"subject": "Maria", "predicate": "belief_value_opinion", "object": "listening as key to building trust and connection"}], "implications": []}
+{"fid": "D9:1#0", "facets": [{"subject": "Maria", "predicate": "education_course", "object": "poetry class"}], "implications": ["This suggests Maria may be processing a difficult emotional period, possibly including grief over her grandmother, through her writing."]}
+{"fid": "D9:2#0", "facets": [{"subject": "John", "predicate": "education_course", "object": "university degree (certificate photo)"}], "implications": []}
+{"fid": "D9:4#0", "facets": [{"subject": "John", "predicate": "achievement_award", "object": "university graduation"}], "implications": []}
+{"fid": "D9:6#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "policymaking career (post-degree)"}], "implications": []}
+{"fid": "D9:8#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "education and infrastructure importance"}], "implications": []}
+{"fid": "D9:10#0", "facets": [{"subject": "John", "predicate": "skill_ability", "object": "understanding community challenges via meetings"}], "implications": []}
+{"fid": "D9:12#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "putting words into action to find solutions"}], "implications": []}
+{"fid": "D9:17#0", "facets": [{"subject": "Maria", "predicate": "volunteering_cause", "object": "volunteered together with John (2022)"}, {"subject": "John", "predicate": "friend", "object": "Maria (volunteered together, fulfilling)"}], "implications": []}
+{"fid": "D9:18#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "collective action making a big impact"}], "implications": []}
+{"fid": "D10:1#0", "facets": [{"subject": "John", "predicate": "sport_exercise", "object": "weekend yoga class"}], "implications": []}
+{"fid": "D10:3#0", "facets": [{"subject": "John", "predicate": "sport_exercise", "object": "yoga class (instructor, relaxed environment)"}], "implications": []}
+{"fid": "D10:5#0", "facets": [{"subject": "John", "predicate": "sport_exercise", "object": "beginner yoga class (fundamentals)"}], "implications": []}
+{"fid": "D10:7#0", "facets": [{"subject": "John", "predicate": "habit_routine", "object": "yoga (daily routine)"}], "implications": []}
+{"fid": "D10:9#0", "facets": [{"subject": "John", "predicate": "preference_like", "object": "yoga for physical benefits and peace of mind"}], "implications": []}
+{"fid": "D10:10#0", "facets": [{"subject": "Maria", "predicate": "event_attended", "object": "5K charity run for homeless shelter"}], "implications": []}
+{"fid": "D10:12#0", "facets": [{"subject": "Maria", "predicate": "event_attended", "object": "5K charity run (photo)"}], "implications": []}
+{"fid": "D10:13#0", "facets": [{"subject": "John", "predicate": "volunteering_cause", "object": "career fair at local school"}], "implications": []}
+{"fid": "D10:13#1", "facets": [{"subject": "John", "predicate": "other", "object": "heart-shaped sign quote (photo)"}], "implications": []}
+{"fid": "D10:15#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "kids can reach dreams with the right help"}], "implications": []}
+{"fid": "D11:1#0", "facets": [{"subject": "John", "predicate": "challenge_problem", "object": "car breakdown (costly repair)"}, {"subject": "John", "predicate": "vehicle", "object": "car (broke down)"}], "implications": ["This suggests John has been under some financial strain from repeated vehicle problems."]}
+{"fid": "D11:3#0", "facets": [{"subject": "John", "predicate": "trip_location_visited", "object": "road trip (2022, mountain sunset memory)"}], "implications": []}
+{"fid": "D11:5#0", "facets": [{"subject": "John", "predicate": "trip_location_visited", "object": "Pacific Northwest coast and national parks (2022 road trip)"}], "implications": []}
+{"fid": "D11:10#0", "facets": [{"subject": "Maria", "predicate": "achievement_award", "object": "compliments for talks given at the shelter"}], "implications": ["This suggests Maria is developing public speaking or leadership skills through her volunteering."]}
+{"fid": "D11:10#1", "facets": [{"subject": "Maria", "predicate": "possession_purchase", "object": "cross necklace"}, {"subject": "Maria", "predicate": "belief_value_opinion", "object": "Christian faith"}], "implications": []}
+{"fid": "D11:12#0", "facets": [{"subject": "Maria", "predicate": "feeling_emotion", "object": "shelter community feels like family"}], "implications": ["This suggests Maria's shelter community may be filling a need for close family connection, since her own family is small."]}
+{"fid": "D11:14#0", "facets": [{"subject": "Maria", "predicate": "volunteering_cause", "object": "shelter meal gathering (hope)"}], "implications": []}
+{"fid": "D11:16#0", "facets": [{"subject": "Maria", "predicate": "volunteering_cause", "object": "organizing and preparing meals for shelter residents"}], "implications": []}
+{"fid": "D11:18#0", "facets": [{"subject": "Maria", "predicate": "belief_value_opinion", "object": "bringing people together creates comfort and community"}], "implications": []}
+{"fid": "D12:1#0", "facets": [{"subject": "John", "predicate": "creative_work", "object": "political blog"}], "implications": []}
+{"fid": "D12:3#0", "facets": [{"subject": "John", "predicate": "project_work", "object": "researching and writing about policy"}], "implications": []}
+{"fid": "D12:5#0", "facets": [{"subject": "John", "predicate": "creative_work", "object": "blog focused on education reform and infrastructure"}], "implications": []}
+{"fid": "D12:7#0", "facets": [{"subject": "John", "predicate": "achievement_award", "object": "positive feedback on blog posts"}], "implications": []}
+{"fid": "D12:7#1", "facets": [{"subject": "John", "predicate": "event_attended", "object": "convention (photo with colleague)"}], "implications": []}
+{"fid": "D12:9#0", "facets": [{"subject": "John", "predicate": "event_attended", "object": "tech-for-good convention"}], "implications": []}
+{"fid": "D12:11#0", "facets": [{"subject": "John", "predicate": "event_attended", "object": "tech-for-change convention (group photo)"}], "implications": []}
+{"fid": "D12:13#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "energized by convention brainstorming"}], "implications": []}
+{"fid": "D12:13#1", "facets": [{"subject": "John", "predicate": "other", "object": "military men group (photo)"}], "implications": []}
+{"fid": "D12:15#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "renewed energy and purpose from convention"}], "implications": []}
+{"fid": "D12:15#1", "facets": [{"subject": "John", "predicate": "other", "object": "city map (photo)"}], "implications": []}
+{"fid": "D12:17#0", "facets": [{"subject": "John", "predicate": "trip_location_visited", "object": "East Coast (planned trip)"}], "implications": []}
+{"fid": "D12:18#0", "facets": [{"subject": "Maria", "predicate": "volunteering_cause", "object": "homeless shelter (fulfilling)"}], "implications": []}
+{"fid": "D12:20#0", "facets": [{"subject": "Maria", "predicate": "challenge_problem", "object": "overwhelming growing need at the shelter"}], "implications": []}
+{"fid": "D13:3#0", "facets": [{"subject": "John", "predicate": "sport_exercise", "object": "family boot camp"}], "implications": []}
+{"fid": "D13:5#0", "facets": [{"subject": "John", "predicate": "family_member", "object": "family fitness gains from boot camp"}], "implications": []}
+{"fid": "D13:7#0", "facets": [{"subject": "John", "predicate": "habit_routine", "object": "family boot camp (three times weekly)"}], "implications": []}
+{"fid": "D13:12#0", "facets": [{"subject": "Maria", "predicate": "family_member", "object": "small family (relies on for strength)"}], "implications": []}
+{"fid": "D13:13#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "family as most important, biggest support"}], "implications": []}
+{"fid": "D13:15#0", "facets": [{"subject": "John", "predicate": "family_member", "object": "family mutual support during boot camp"}], "implications": []}
+{"fid": "D13:16#0", "facets": [{"subject": "Maria", "predicate": "family_member", "object": "mom (made dinner together)"}], "implications": []}
+{"fid": "D13:17#0", "facets": [{"subject": "John", "predicate": "food_drink_recipe", "object": "apple pie (made for his kids)"}], "implications": []}
+{"fid": "D13:18#0", "facets": [{"subject": "Maria", "predicate": "food_drink_recipe", "object": "banana split sundae (favorite treat)"}], "implications": []}
+{"fid": "D13:20#0", "facets": [{"subject": "Maria", "predicate": "habit_routine", "object": "finding balance via exercise, music, loved ones"}], "implications": []}
+{"fid": "D13:22#0", "facets": [{"subject": "Maria", "predicate": "belief_value_opinion", "object": "self-care importance (learned the hard way)"}], "implications": []}
+{"fid": "D13:24#0", "facets": [{"subject": "Maria", "predicate": "trip_location_visited", "object": "Spain (solo trip, 2022)"}], "implications": ["This suggests Maria's solo trip may have been partly a response to a difficult period in her life."]}
+{"fid": "D13:26#0", "facets": [{"subject": "Maria", "predicate": "life_event_milestone", "object": "personal growth from solo trip"}], "implications": []}
+{"fid": "D13:28#0", "facets": [{"subject": "Maria", "predicate": "belief_value_opinion", "object": "value of solitude and letting go"}], "implications": []}
+{"fid": "D13:30#0", "facets": [{"subject": "Maria", "predicate": "sport_exercise", "object": "surfing (first time, Spain trip)"}], "implications": []}
+{"fid": "D14:1#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "running for office again (despite past setbacks)"}], "implications": []}
+{"fid": "D14:8#0", "facets": [{"subject": "Maria", "predicate": "volunteering_cause", "object": "charity work (rewarding)"}], "implications": []}
+{"fid": "D14:10#0", "facets": [{"subject": "Maria", "predicate": "belief_value_opinion", "object": "joined a nearby church for community and faith"}], "implications": []}
+{"fid": "D14:12#0", "facets": [{"subject": "Maria", "predicate": "feeling_emotion", "object": "life feeling rough, seeking balance"}], "implications": []}
+{"fid": "D14:13#0", "facets": [{"subject": "John", "predicate": "challenge_problem", "object": "power cut (infrastructure failure)"}, {"subject": "John", "predicate": "belief_value_opinion", "object": "importance of upgrading infrastructure"}], "implications": []}
+{"fid": "D14:15#0", "facets": [{"subject": "John", "predicate": "challenge_problem", "object": "potholes in local roadways"}], "implications": []}
+{"fid": "D14:17#0", "facets": [{"subject": "John", "predicate": "project_work", "object": "community infrastructure project (planned)"}, {"subject": "Maria", "predicate": "support_advice", "object": "asked to help John's infrastructure project"}], "implications": []}
+{"fid": "D14:21#0", "facets": [{"subject": "John", "predicate": "origin_hometown", "object": "West County (former neighborhood)"}, {"subject": "John", "predicate": "goal_plan", "object": "improving West County alongside current neighborhood"}], "implications": []}
+{"fid": "D14:23#0", "facets": [{"subject": "John", "predicate": "hobby_interest", "object": "gardening (raised bed photo)"}], "implications": []}
+{"fid": "D15:1#0", "facets": [{"subject": "John", "predicate": "project_work", "object": "veterans support petition"}], "implications": []}
+{"fid": "D15:3#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "passionate about veterans' rights"}], "implications": []}
+{"fid": "D15:7#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "veterans deserve support"}], "implications": []}
+{"fid": "D15:9#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "veterans supported and valued in his community"}], "implications": []}
+{"fid": "D15:10#0", "facets": [{"subject": "Maria", "predicate": "support_advice", "object": "offered to help John's veterans support project"}], "implications": []}
+{"fid": "D15:11#0", "facets": [{"subject": "John", "predicate": "project_work", "object": "veterans project (photo with soldier)"}], "implications": []}
+{"fid": "D15:13#0", "facets": [{"subject": "John", "predicate": "event_attended", "object": "party organized for veterans"}], "implications": []}
+{"fid": "D15:15#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "community and togetherness in helping veterans"}], "implications": []}
+{"fid": "D15:18#0", "facets": [{"subject": "Maria", "predicate": "project_work", "object": "ring-toss tournament for shelter fundraiser"}], "implications": []}
+{"fid": "D16:1#0", "facets": [{"subject": "John", "predicate": "project_work", "object": "veterans petition (ongoing)"}, {"subject": "John", "predicate": "friend", "object": "reconnecting with friends for support"}], "implications": []}
+{"fid": "D16:1#1", "facets": [{"subject": "John", "predicate": "colleague_mentor", "object": "workmates (hiking trip at waterfall)"}], "implications": []}
+{"fid": "D16:2#0", "facets": [{"subject": "Maria", "predicate": "project_work", "object": "shelter fundraiser for basic needs"}], "implications": []}
+{"fid": "D16:3#0", "facets": [{"subject": "John", "predicate": "support_advice", "object": "offered to help Maria's chili cook-off fundraiser"}], "implications": []}
+{"fid": "D16:4#0", "facets": [{"subject": "Maria", "predicate": "project_work", "object": "chili cook-off event (needs promotion)"}], "implications": []}
+{"fid": "D16:6#0", "facets": [{"subject": "Maria", "predicate": "support_advice", "object": "asked John for volunteer referrals for fundraiser"}], "implications": []}
+{"fid": "D16:11#0", "facets": [{"subject": "John", "predicate": "family_member", "object": "family beach outing at sunset"}], "implications": []}
+{"fid": "D17:1#0", "facets": [{"subject": "John", "predicate": "pet", "object": "Max (family dog, died after 10 years)"}, {"subject": "John", "predicate": "life_event_milestone", "object": "death of family dog Max"}], "implications": []}
+{"fid": "D17:3#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "grief over Max's death, comfort in memories"}], "implications": []}
+{"fid": "D17:5#0", "facets": [{"subject": "John", "predicate": "pet", "object": "Max (cherished photo)"}], "implications": []}
+{"fid": "D17:7#0", "facets": [{"subject": "John", "predicate": "pet", "object": "Max (taught family love and loyalty)"}], "implications": []}
+{"fid": "D17:9#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "teaching kids love and loyalty via Max's example"}], "implications": []}
+{"fid": "D17:11#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "considering adopting a rescue dog"}], "implications": []}
+{"fid": "D17:12#0", "facets": [{"subject": "Maria", "predicate": "volunteering_cause", "object": "local dog shelter (monthly)"}], "implications": ["This suggests Maria is developing a growing interest in animal welfare alongside her homeless-shelter work."]}
+{"fid": "D18:1#0", "facets": [{"subject": "Maria", "predicate": "outdoor_activity", "object": "camping trip with church friends"}], "implications": ["This suggests Maria's church friends are becoming an important source of emotional support for her."]}
+{"fid": "D18:2#0", "facets": [{"subject": "John", "predicate": "outdoor_activity", "object": "mountaineering trip with workmates"}], "implications": []}
+{"fid": "D18:3#0", "facets": [{"subject": "Maria", "predicate": "trip_location_visited", "object": "Oregon (family road trip, childhood)"}], "implications": []}
+{"fid": "D18:4#0", "facets": [{"subject": "John", "predicate": "achievement_award", "object": "reached mountaineering summit"}], "implications": []}
+{"fid": "D18:5#0", "facets": [{"subject": "Maria", "predicate": "trip_location_visited", "object": "Oregon waterfall (breathtaking)"}], "implications": []}
+{"fid": "D18:7#0", "facets": [{"subject": "Maria", "predicate": "feeling_emotion", "object": "calm and magical feeling at Oregon waterfall"}], "implications": []}
+{"fid": "D18:11#0", "facets": [{"subject": "Maria", "predicate": "outdoor_activity", "object": "camping (some experience)"}, {"subject": "Maria", "predicate": "challenge_problem", "object": "mountain climbing (never tried)"}], "implications": []}
+{"fid": "D18:12#0", "facets": [{"subject": "John", "predicate": "outdoor_activity", "object": "camping (frequent, loves simplicity of nature)"}], "implications": []}
+{"fid": "D18:15#0", "facets": [{"subject": "Maria", "predicate": "habit_routine", "object": "alone time with music and aerial yoga (finding Zen)"}], "implications": []}
+{"fid": "D18:17#0", "facets": [{"subject": "Maria", "predicate": "preference_like", "object": "upside-down yoga poses (favorite)"}], "implications": []}
+{"fid": "D18:19#0", "facets": [{"subject": "Maria", "predicate": "belief_value_opinion", "object": "aerial yoga worth the challenge for freedom and connection"}], "implications": []}
+{"fid": "D18:20#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "playground scene makes him smile"}], "implications": []}
+{"fid": "D18:22#0", "facets": [{"subject": "John", "predicate": "family_member", "object": "family day at the park (playground)"}], "implications": []}
+{"fid": "D19:1#0", "facets": [{"subject": "Maria", "predicate": "sport_exercise", "object": "gym membership (joined)"}], "implications": []}
+{"fid": "D19:3#0", "facets": [{"subject": "Maria", "predicate": "goal_plan", "object": "fitness goals (strength and endurance)"}, {"subject": "Maria", "predicate": "sport_exercise", "object": "kundalini yoga"}], "implications": []}
+{"fid": "D19:4#0", "facets": [{"subject": "John", "predicate": "sport_exercise", "object": "rock climbing (interested in trying)"}], "implications": []}
+{"fid": "D19:6#0", "facets": [{"subject": "John", "predicate": "job_career", "object": "promotion at work"}], "implications": []}
+{"fid": "D19:8#0", "facets": [{"subject": "John", "predicate": "job_career", "object": "assistant manager (promotion)"}], "implications": []}
+{"fid": "D19:8#1", "facets": [{"subject": "John", "predicate": "achievement_award", "object": "trophy commemorating career journey"}], "implications": []}
+{"fid": "D19:10#0", "facets": [{"subject": "John", "predicate": "challenge_problem", "object": "obstacles overcome to reach promotion"}], "implications": []}
+{"fid": "D19:12#0", "facets": [{"subject": "John", "predicate": "challenge_problem", "object": "self-doubt (career hurdle)"}], "implications": []}
+{"fid": "D19:16#0", "facets": [{"subject": "John", "predicate": "family_member", "object": "family support on career journey"}], "implications": []}
+{"fid": "D19:18#0", "facets": [{"subject": "John", "predicate": "job_career", "object": "work schedule (regular hours, occasional overtime)"}], "implications": []}
+{"fid": "D19:20#0", "facets": [{"subject": "John", "predicate": "habit_routine", "object": "balancing work and personal life"}], "implications": []}
+{"fid": "D19:22#0", "facets": [{"subject": "John", "predicate": "trip_location_visited", "object": "California (family vacation)"}], "implications": []}
+{"fid": "D19:23#0", "facets": [{"subject": "Maria", "predicate": "trip_location_visited", "object": "Florida (family vacation)"}], "implications": []}
+{"fid": "D19:24#0", "facets": [{"subject": "John", "predicate": "family_member", "object": "family vacation (kids playing in ocean)"}], "implications": []}
+{"fid": "D19:26#0", "facets": [{"subject": "John", "predicate": "other", "object": "football stadium (photo)"}], "implications": []}
+{"fid": "D20:1#0", "facets": [{"subject": "Maria", "predicate": "feeling_emotion", "object": "struggling but focusing on the positive"}, {"subject": "Maria", "predicate": "support_advice", "object": "relying on friends and family for support"}], "implications": []}
+{"fid": "D20:3#0", "facets": [{"subject": "Maria", "predicate": "family_member", "object": "family as her rock (encouragement)"}], "implications": []}
+{"fid": "D20:4#0", "facets": [{"subject": "John", "predicate": "event_attended", "object": "live music event (family)"}], "implications": []}
+{"fid": "D20:7#0", "facets": [{"subject": "Maria", "predicate": "feeling_emotion", "object": "feels great helping, even briefly"}], "implications": []}
+{"fid": "D20:9#0", "facets": [{"subject": "Maria", "predicate": "event_attended", "object": "memorable shelter moment (person laughed after months of sadness)"}], "implications": []}
+{"fid": "D20:13#0", "facets": [{"subject": "Maria", "predicate": "belief_value_opinion", "object": "volunteering spreads kindness and positivity"}], "implications": []}
+{"fid": "D21:1#0", "facets": [{"subject": "Maria", "predicate": "person_met", "object": "three children met at the shelter"}], "implications": []}
+{"fid": "D21:3#0", "facets": [{"subject": "Maria", "predicate": "challenge_problem", "object": "car accident (damaged car)"}], "implications": []}
+{"fid": "D21:5#0", "facets": [{"subject": "Maria", "predicate": "challenge_problem", "object": "car accident (red light, everyone okay)"}, {"subject": "Maria", "predicate": "vehicle", "object": "car (hit by another driver)"}], "implications": []}
+{"fid": "D21:5#1", "facets": [{"subject": "Maria", "predicate": "family_member", "object": "cousin (going through a tough time)"}, {"subject": "Maria", "predicate": "support_advice", "object": "helping cousin find new housing"}], "implications": []}
+{"fid": "D21:7#0", "facets": [{"subject": "Maria", "predicate": "challenge_problem", "object": "cousin's urgent housing situation (stressful)"}], "implications": ["This suggests Maria is drawing on the resourcefulness and support-network skills from her shelter volunteering to help her own family."]}
+{"fid": "D21:11#0", "facets": [{"subject": "Maria", "predicate": "support_advice", "object": "asked John for housing resources for her cousin"}], "implications": []}
+{"fid": "D21:12#0", "facets": [{"subject": "John", "predicate": "support_advice", "object": "offered to find housing resources for Maria's cousin"}], "implications": []}
+{"fid": "D21:17#0", "facets": [{"subject": "Maria", "predicate": "other", "object": "letter about small acts of kindness (shared)"}], "implications": []}
+{"fid": "D21:19#0", "facets": [{"subject": "Maria", "predicate": "person_met", "object": "Laura (shelter resident, wrote a gratitude letter)"}], "implications": []}
+{"fid": "D21:21#0", "facets": [{"subject": "Maria", "predicate": "belief_value_opinion", "object": "volunteering makes a difference, even if small"}], "implications": []}
+{"fid": "D21:22#0", "facets": [{"subject": "John", "predicate": "event_attended", "object": "veterans' rights march"}], "implications": []}
+{"fid": "D21:24#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "great respect for the military"}], "implications": []}
+{"fid": "D21:26#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "motivated by shared values at the veterans march"}], "implications": []}
+{"fid": "D22:1#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "education and infrastructure shape community growth"}], "implications": []}
+{"fid": "D22:5#0", "facets": [{"subject": "John", "predicate": "family_member", "object": "family train-track photo (source of motivation)"}], "implications": []}
+{"fid": "D22:7#0", "facets": [{"subject": "John", "predicate": "child", "object": "Sara (daughter, birthday trip 2022)"}], "implications": []}
+{"fid": "D22:9#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "family as motivation during hard times"}], "implications": []}
+{"fid": "D22:10#0", "facets": [{"subject": "Maria", "predicate": "hobby_interest", "object": "inspired by conversation, volunteering, and music"}], "implications": []}
+{"fid": "D22:11#0", "facets": [{"subject": "John", "predicate": "hobby_interest", "object": "inspired by family, exercise, and friends"}], "implications": []}
+{"fid": "D22:15#0", "facets": [{"subject": "John", "predicate": "habit_routine", "object": "walks to appreciate sunsets"}], "implications": []}
+{"fid": "D22:17#0", "facets": [{"subject": "John", "predicate": "habit_routine", "object": "weekly walks to disconnect and find peace"}], "implications": []}
+{"fid": "D22:18#0", "facets": [{"subject": "Maria", "predicate": "habit_routine", "object": "regular me-time walks at a nearby park"}], "implications": []}
+{"fid": "D23:1#0", "facets": [{"subject": "John", "predicate": "challenge_problem", "object": "flood in old area (poor infrastructure)"}], "implications": []}
+{"fid": "D23:3#0", "facets": [{"subject": "John", "predicate": "project_work", "object": "organizing a flood-solutions meeting"}], "implications": []}
+{"fid": "D23:4#0", "facets": [{"subject": "Maria", "predicate": "support_advice", "object": "agreed to join John's flood-solutions meeting"}], "implications": []}
+{"fid": "D23:14#0", "facets": [{"subject": "Maria", "predicate": "friend", "object": "gym friends (dinner)"}], "implications": []}
+{"fid": "D24:1#0", "facets": [{"subject": "John", "predicate": "event_attended", "object": "veteran's hospital visit"}], "implications": []}
+{"fid": "D24:3#0", "facets": [{"subject": "John", "predicate": "person_met", "object": "Samuel (elderly veteran at hospital)"}], "implications": []}
+{"fid": "D24:5#0", "facets": [{"subject": "John", "predicate": "volunteering_cause", "object": "veterans support organization (feels like family)"}], "implications": []}
+{"fid": "D24:6#0", "facets": [{"subject": "Maria", "predicate": "event_attended", "object": "picnic with church friends"}], "implications": []}
+{"fid": "D24:8#0", "facets": [{"subject": "Maria", "predicate": "game_played", "object": "charades and scavenger hunt (picnic)"}], "implications": []}
+{"fid": "D24:9#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "planning charades/games for his kids"}], "implications": []}
+{"fid": "D24:11#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "trying arts and crafts activities with family and friends"}], "implications": []}
+{"fid": "D25:1#0", "facets": [{"subject": "John", "predicate": "job_career", "object": "new job (enjoyable, supportive team)"}], "implications": []}
+{"fid": "D25:2#0", "facets": [{"subject": "Maria", "predicate": "outdoor_activity", "object": "hiking with church friends"}], "implications": []}
+{"fid": "D25:4#0", "facets": [{"subject": "Maria", "predicate": "belief_value_opinion", "object": "hiking for connection and nature's beauty"}], "implications": []}
+{"fid": "D25:6#0", "facets": [{"subject": "Maria", "predicate": "feeling_emotion", "object": "peace and connection to something bigger at hike summit"}], "implications": []}
+{"fid": "D25:8#0", "facets": [{"subject": "Maria", "predicate": "goal_plan", "object": "plans to explore more and volunteer at shelters (August 2023)"}], "implications": []}
+{"fid": "D25:11#0", "facets": [{"subject": "John", "predicate": "habit_routine", "object": "frequent yoga studio visits"}], "implications": []}
+{"fid": "D25:13#0", "facets": [{"subject": "John", "predicate": "sport_exercise", "object": "yoga studio classes (yoga, kickboxing, circuit training)"}], "implications": []}
+{"fid": "D25:17#0", "facets": [{"subject": "John", "predicate": "sport_exercise", "object": "weight training"}], "implications": []}
+{"fid": "D25:20#0", "facets": [{"subject": "Maria", "predicate": "food_drink_recipe", "object": "baking cakes"}], "implications": []}
+{"fid": "D26:1#0", "facets": [{"subject": "Maria", "predicate": "volunteering_cause", "object": "dropped off baked goods at the shelter"}], "implications": []}
+{"fid": "D26:2#0", "facets": [{"subject": "John", "predicate": "volunteering_cause", "object": "joined a fire-fighting brigade"}], "implications": []}
+{"fid": "D26:4#0", "facets": [{"subject": "John", "predicate": "skill_ability", "object": "fire brigade training"}, {"subject": "John", "predicate": "event_attended", "object": "first fire brigade call-out"}], "implications": []}
+{"fid": "D26:6#0", "facets": [{"subject": "John", "predicate": "achievement_award", "object": "saved a family from a burning building (fire brigade)"}], "implications": []}
+{"fid": "D26:8#0", "facets": [{"subject": "John", "predicate": "colleague_mentor", "object": "fire brigade team (like family)"}], "implications": []}
+{"fid": "D26:10#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "bond with fire brigade team (like military days)"}], "implications": []}
+{"fid": "D26:12#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "fire brigade work feels fulfilling and meaningful"}], "implications": []}
+{"fid": "D26:13#0", "facets": [{"subject": "Maria", "predicate": "belief_value_opinion", "object": "being kind matters (volunteering event photo)"}], "implications": []}
+{"fid": "D27:1#0", "facets": [{"subject": "John", "predicate": "project_work", "object": "virtual military support group (recruiting advocates)"}], "implications": []}
+{"fid": "D27:2#0", "facets": [{"subject": "Maria", "predicate": "volunteering_cause", "object": "homeless shelter (rewarding)"}], "implications": []}
+{"fid": "D27:4#0", "facets": [{"subject": "Maria", "predicate": "life_event_milestone", "object": "began volunteering at the shelter after witnessing a homeless family (Aug 2022)"}], "implications": []}
+{"fid": "D27:6#0", "facets": [{"subject": "Maria", "predicate": "feeling_emotion", "object": "volunteering tough but motivating"}], "implications": []}
+{"fid": "D27:8#0", "facets": [{"subject": "Maria", "predicate": "person_met", "object": "Cindy (shelter resident, wrote a gratitude note)"}], "implications": []}
+{"fid": "D27:9#0", "facets": [{"subject": "John", "predicate": "event_attended", "object": "military memorial visit (with his kids)"}], "implications": []}
+{"fid": "D27:11#0", "facets": [{"subject": "John", "predicate": "child", "object": "kids (awestruck at military memorial)"}], "implications": []}
+{"fid": "D27:13#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "teaching kids to respect and appreciate military service"}], "implications": []}
+{"fid": "D28:1#0", "facets": [{"subject": "John", "predicate": "job_career", "object": "lost job (mechanical engineering company collapsed)"}, {"subject": "John", "predicate": "challenge_problem", "object": "sudden job loss"}], "implications": ["This suggests John's family may be under increased financial pressure following his job loss."]}
+{"fid": "D28:3#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "exploring tech industry opportunities after job loss"}], "implications": []}
+{"fid": "D28:5#0", "facets": [{"subject": "John", "predicate": "job_career", "object": "potential new job at a tech company (hardware team)"}], "implications": []}
+{"fid": "D28:8#0", "facets": [{"subject": "Maria", "predicate": "volunteering_cause", "object": "community work with church friends"}], "implications": []}
+{"fid": "D28:11#0", "facets": [{"subject": "John", "predicate": "project_work", "object": "renovated a rundown community center (2022)"}], "implications": []}
+{"fid": "D29:1#0", "facets": [{"subject": "Maria", "predicate": "achievement_award", "object": "medal for volunteering at the shelter"}], "implications": []}
+{"fid": "D29:2#0", "facets": [{"subject": "John", "predicate": "event_attended", "object": "community fundraising event (great turnout)"}], "implications": []}
+{"fid": "D29:4#0", "facets": [{"subject": "John", "predicate": "project_work", "object": "5K charity run for veterans and their families"}], "implications": []}
+{"fid": "D29:6#0", "facets": [{"subject": "John", "predicate": "skill_ability", "object": "event organizing (sponsors, city coordination)"}], "implications": []}
+{"fid": "D29:8#0", "facets": [{"subject": "John", "predicate": "challenge_problem", "object": "securing sponsors for the charity run"}], "implications": []}
+{"fid": "D29:10#0", "facets": [{"subject": "John", "predicate": "volunteering_cause", "object": "domestic abuse victims organization (awareness and funds)"}], "implications": []}
+{"fid": "D30:1#0", "facets": [{"subject": "Maria", "predicate": "pet", "object": "Coco (puppy)"}], "implications": []}
+{"fid": "D30:3#0", "facets": [{"subject": "Maria", "predicate": "feeling_emotion", "object": "joy from puppy Coco"}], "implications": []}
+{"fid": "D30:4#0", "facets": [{"subject": "John", "predicate": "pet", "object": "Max (still grieving, shared photo)"}], "implications": ["John's continued thoughts about Max months later suggest the loss had a lasting emotional impact on him."]}
+{"fid": "D30:6#0", "facets": [{"subject": "John", "predicate": "pet", "object": "Max (camping trip together, 2022)"}], "implications": []}
+{"fid": "D30:8#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "camping as a peaceful escape from routine"}], "implications": []}
+{"fid": "D30:10#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "restarted mind and spirit from camping with Max"}], "implications": []}
+{"fid": "D30:12#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "tough times lately, nature photos as coping"}], "implications": []}
+{"fid": "D30:14#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "feeling stumped, questioning his impact"}], "implications": ["This suggests John is experiencing self-doubt about his impact despite being involved in many active projects."]}
+{"fid": "D30:16#0", "facets": [{"subject": "John", "predicate": "challenge_problem", "object": "feeling stuck in finding direction for his passion"}], "implications": []}
+{"fid": "D30:18#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "exploring local organizations or volunteering programs for impact"}], "implications": []}
+{"fid": "D30:20#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "listing organizations that align with his beliefs"}], "implications": []}
+{"fid": "D31:1#0", "facets": [{"subject": "John", "predicate": "volunteering_cause", "object": "mentoring at a local school"}], "implications": []}
+{"fid": "D31:2#0", "facets": [{"subject": "Maria", "predicate": "pet", "object": "adopted puppy from a shelter"}], "implications": []}
+{"fid": "D31:4#0", "facets": [{"subject": "Maria", "predicate": "pet", "object": "Shadow (puppy, energetic, gets along with Coco)"}], "implications": []}
+{"fid": "D31:6#0", "facets": [{"subject": "Maria", "predicate": "pet", "object": "no pets growing up; dogs now brighten her days"}], "implications": ["This suggests adult pet ownership fulfills something Maria missed out on during her childhood."]}
+{"fid": "D31:7#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "looking into shelters for a new dog"}], "implications": []}
+{"fid": "D31:9#0", "facets": [{"subject": "John", "predicate": "achievement_award", "object": "mentoring students improving in confidence and skills"}], "implications": []}
+{"fid": "D31:10#0", "facets": [{"subject": "Maria", "predicate": "pet", "object": "Shadow (learning commands, house training)"}], "implications": []}
+{"fid": "D31:12#0", "facets": [{"subject": "Maria", "predicate": "feeling_emotion", "object": "joy from puppy Shadow"}], "implications": []}
+{"fid": "D31:17#0", "facets": [{"subject": "John", "predicate": "family_member", "object": "wife and kids (always supportive)"}], "implications": []}
+{"fid": "D31:19#0", "facets": [{"subject": "John", "predicate": "hobby_interest", "object": "family outdoor and indoor activities (hikes, picnics, board games, movie nights)"}], "implications": []}
+{"fid": "D32:1#0", "facets": [{"subject": "John", "predicate": "volunteering_cause", "object": "fire-fighting brigade membership"}], "implications": []}
+{"fid": "D32:3#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "inspired by fire brigade's dedication and teamwork"}], "implications": []}
+{"fid": "D32:5#0", "facets": [{"subject": "John", "predicate": "achievement_award", "object": "fire brigade donation drive completed quickly"}], "implications": []}
+{"fid": "D32:7#0", "facets": [{"subject": "John", "predicate": "volunteering_cause", "object": "fire brigade donation drive (food, toiletries, clothes)"}], "implications": []}
+{"fid": "D32:9#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "fire brigade work as his true calling"}], "implications": []}
+{"fid": "D32:11#0", "facets": [{"subject": "John", "predicate": "achievement_award", "object": "fire brigade's new fire truck funded by donations"}], "implications": []}
+{"fid": "D32:12#0", "facets": [{"subject": "Maria", "predicate": "support_advice", "object": "donated toward John's fire brigade's new truck"}], "implications": []}
+{"fid": "D32:14#0", "facets": [{"subject": "Maria", "predicate": "volunteering_cause", "object": "front desk volunteering at the homeless shelter"}], "implications": []}

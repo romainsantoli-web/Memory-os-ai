@@ -1,0 +1,199 @@
+{"qid": "conv-42:q0", "facets": [{"subject": "Nate", "predicate": "friend"}]}
+{"qid": "conv-42:q1", "facets": [{"subject": "Joanna", "predicate": "hobby_interest"}, {"subject": "Nate", "predicate": "hobby_interest"}]}
+{"qid": "conv-42:q2", "facets": [{"subject": "Joanna", "predicate": "movie_show_music"}]}
+{"qid": "conv-42:q3", "facets": [{"subject": "Nate", "predicate": "achievement_award"}, {"subject": "Nate", "predicate": "event_attended"}]}
+{"qid": "conv-42:q4", "facets": [{"subject": "Joanna", "predicate": "health_condition"}, {"subject": "Joanna", "predicate": "preference_like"}]}
+{"qid": "conv-42:q5", "facets": [{"subject": "Joanna", "predicate": "hobby_interest"}]}
+{"qid": "conv-42:q6", "facets": [{"subject": "Nate", "predicate": "pet"}]}
+{"qid": "conv-42:q7", "facets": [{"subject": "Joanna", "predicate": "project_work"}, {"subject": "Joanna", "predicate": "creative_work"}]}
+{"qid": "conv-42:q8", "facets": [{"subject": "Nate", "predicate": "pet"}]}
+{"qid": "conv-42:q9", "facets": [{"subject": "Joanna", "predicate": "achievement_award"}]}
+{"qid": "conv-42:q10", "facets": [{"subject": "Joanna", "predicate": "feeling_emotion"}]}
+{"qid": "conv-42:q11", "facets": [{"subject": "Joanna", "predicate": "health_condition"}]}
+{"qid": "conv-42:q12", "facets": [{"subject": "Joanna", "predicate": "health_condition"}]}
+{"qid": "conv-42:q13", "facets": [{"subject": "Joanna", "predicate": "job_career"}, {"subject": "Joanna", "predicate": "event_attended"}]}
+{"qid": "conv-42:q14", "facets": [{"subject": "Joanna", "predicate": "name_alias"}]}
+{"qid": "conv-42:q15", "facets": [{"subject": "Nate", "predicate": "preference_like"}, {"subject": "Nate", "predicate": "life_event_milestone"}]}
+{"qid": "conv-42:q16", "facets": [{"subject": "Nate", "predicate": "preference_like"}, {"subject": "Nate", "predicate": "life_event_milestone"}]}
+{"qid": "conv-42:q17", "facets": [{"subject": "Joanna", "predicate": "movie_show_music"}]}
+{"qid": "conv-42:q18", "facets": [{"subject": "Joanna", "predicate": "trip_location_visited"}, {"subject": "Joanna", "predicate": "outdoor_activity"}]}
+{"qid": "conv-42:q19", "facets": [{"subject": "Joanna", "predicate": "outdoor_activity"}]}
+{"qid": "conv-42:q20", "facets": [{"subject": "Nate", "predicate": "pet"}]}
+{"qid": "conv-42:q21", "facets": [{"subject": "Nate", "predicate": "pet"}, {"subject": "Nate", "predicate": "family_member"}]}
+{"qid": "conv-42:q22", "facets": [{"subject": "Joanna", "predicate": "project_work"}, {"subject": "Joanna", "predicate": "creative_work"}]}
+{"qid": "conv-42:q23", "facets": [{"subject": "Joanna", "predicate": "challenge_problem"}, {"subject": "Joanna", "predicate": "project_work"}]}
+{"qid": "conv-42:q24", "facets": [{"subject": "Nate", "predicate": "event_attended"}, {"subject": "Nate", "predicate": "game_played"}]}
+{"qid": "conv-42:q25", "facets": [{"subject": "Joanna", "predicate": "outdoor_activity"}, {"subject": "Joanna", "predicate": "friend"}]}
+{"qid": "conv-42:q26", "facets": [{"subject": "Nate", "predicate": "achievement_award"}]}
+{"qid": "conv-42:q27", "facets": [{"subject": "Joanna", "predicate": "project_work"}, {"subject": "Joanna", "predicate": "job_career"}]}
+{"qid": "conv-42:q28", "facets": [{"subject": "Nate", "predicate": "food_drink_recipe"}, {"subject": "Nate", "predicate": "hobby_interest"}]}
+{"qid": "conv-42:q29", "facets": [{"subject": "Joanna", "predicate": "food_drink_recipe"}]}
+{"qid": "conv-42:q30", "facets": [{"subject": "Joanna", "predicate": "creative_work"}, {"subject": "Joanna", "predicate": "project_work"}]}
+{"qid": "conv-42:q31", "facets": [{"subject": "Nate", "predicate": "achievement_award"}]}
+{"qid": "conv-42:q32", "facets": [{"subject": "Joanna", "predicate": "trip_location_visited"}]}
+{"qid": "conv-42:q33", "facets": [{"subject": "Joanna", "predicate": "gift_given_received"}, {"subject": "Joanna", "predicate": "feeling_emotion"}]}
+{"qid": "conv-42:q34", "facets": [{"subject": "Joanna", "predicate": "book_read"}, {"subject": "Joanna", "predicate": "support_advice"}]}
+{"qid": "conv-42:q35", "facets": [{"subject": "Nate", "predicate": "pet"}, {"subject": "Nate", "predicate": "habit_routine"}]}
+{"qid": "conv-42:q36", "facets": [{"subject": "Joanna", "predicate": "project_work"}, {"subject": "Joanna", "predicate": "creative_work"}]}
+{"qid": "conv-42:q37", "facets": [{"subject": "Nate", "predicate": "achievement_award"}]}
+{"qid": "conv-42:q38", "facets": [{"subject": "Joanna", "predicate": "food_drink_recipe"}]}
+{"qid": "conv-42:q39", "facets": [{"subject": "Nate", "predicate": "event_attended"}, {"subject": "Nate", "predicate": "hobby_interest"}]}
+{"qid": "conv-42:q40", "facets": [{"subject": "Joanna", "predicate": "challenge_problem"}]}
+{"qid": "conv-42:q41", "facets": [{"subject": "Joanna", "predicate": "food_drink_recipe"}]}
+{"qid": "conv-42:q42", "facets": [{"subject": "Joanna", "predicate": "movie_show_music"}, {"subject": "Nate", "predicate": "movie_show_music"}]}
+{"qid": "conv-42:q43", "facets": [{"subject": "Joanna", "predicate": "project_work"}, {"subject": "Joanna", "predicate": "creative_work"}]}
+{"qid": "conv-42:q44", "facets": [{"subject": "Nate", "predicate": "achievement_award"}]}
+{"qid": "conv-42:q45", "facets": [{"subject": "Joanna", "predicate": "project_work"}]}
+{"qid": "conv-42:q46", "facets": [{"subject": "Nate", "predicate": "game_played"}]}
+{"qid": "conv-42:q47", "facets": [{"subject": "Nate", "predicate": "person_met"}, {"subject": "Nate", "predicate": "trip_location_visited"}]}
+{"qid": "conv-42:q48", "facets": [{"subject": "Nate", "predicate": "event_attended"}, {"subject": "Nate", "predicate": "person_met"}]}
+{"qid": "conv-42:q49", "facets": [{"subject": "Joanna", "predicate": "challenge_problem"}, {"subject": "Joanna", "predicate": "project_work"}]}
+{"qid": "conv-42:q50", "facets": [{"subject": "Joanna", "predicate": "gift_given_received"}, {"subject": "Joanna", "predicate": "feeling_emotion"}]}
+{"qid": "conv-42:q51", "facets": [{"subject": "Joanna", "predicate": "gift_given_received"}]}
+{"qid": "conv-42:q52", "facets": [{"subject": "Joanna", "predicate": "achievement_award"}, {"subject": "Joanna", "predicate": "project_work"}]}
+{"qid": "conv-42:q53", "facets": [{"subject": "Nate", "predicate": "pet"}, {"subject": "Nate", "predicate": "outdoor_activity"}]}
+{"qid": "conv-42:q54", "facets": [{"subject": "Joanna", "predicate": "achievement_award"}, {"subject": "Joanna", "predicate": "project_work"}]}
+{"qid": "conv-42:q55", "facets": [{"subject": "Joanna", "predicate": "belief_value_opinion"}, {"subject": "Joanna", "predicate": "creative_work"}]}
+{"qid": "conv-42:q56", "facets": [{"subject": "Joanna", "predicate": "preference_like"}, {"subject": "Nate", "predicate": "preference_like"}]}
+{"qid": "conv-42:q57", "facets": [{"subject": "Joanna", "predicate": "food_drink_recipe"}, {"subject": "Joanna", "predicate": "goal_plan"}]}
+{"qid": "conv-42:q58", "facets": [{"subject": "Nate", "predicate": "support_advice"}, {"subject": "Nate", "predicate": "preference_like"}]}
+{"qid": "conv-42:q59", "facets": [{"subject": "Joanna", "predicate": "habit_routine"}, {"subject": "Joanna", "predicate": "feeling_emotion"}]}
+{"qid": "conv-42:q60", "facets": [{"subject": "Nate", "predicate": "possession_purchase"}, {"subject": "Nate", "predicate": "game_played"}]}
+{"qid": "conv-42:q61", "facets": [{"subject": "Nate", "predicate": "game_played"}, {"subject": "Nate", "predicate": "possession_purchase"}]}
+{"qid": "conv-42:q62", "facets": [{"subject": "Joanna", "predicate": "gift_given_received"}]}
+{"qid": "conv-42:q63", "facets": [{"subject": "Nate", "predicate": "game_played"}]}
+{"qid": "conv-42:q64", "facets": [{"subject": "Nate", "predicate": "achievement_award"}]}
+{"qid": "conv-42:q65", "facets": [{"subject": "Nate", "predicate": "achievement_award"}]}
+{"qid": "conv-42:q66", "facets": [{"subject": "Nate", "predicate": "job_career"}, {"subject": "Nate", "predicate": "goal_plan"}]}
+{"qid": "conv-42:q67", "facets": [{"subject": "Nate", "predicate": "pet"}]}
+{"qid": "conv-42:q68", "facets": [{"subject": "Joanna", "predicate": "outdoor_activity"}]}
+{"qid": "conv-42:q69", "facets": [{"subject": "Nate", "predicate": "pet"}]}
+{"qid": "conv-42:q70", "facets": [{"subject": "Nate", "predicate": "pet"}, {"subject": "Nate", "predicate": "habit_routine"}]}
+{"qid": "conv-42:q71", "facets": [{"subject": "Joanna", "predicate": "preference_like"}, {"subject": "Nate", "predicate": "preference_like"}]}
+{"qid": "conv-42:q72", "facets": [{"subject": "Joanna", "predicate": "goal_plan"}, {"subject": "Joanna", "predicate": "pet"}]}
+{"qid": "conv-42:q73", "facets": [{"subject": "Joanna", "predicate": "trip_location_visited"}]}
+{"qid": "conv-42:q74", "facets": [{"subject": "Nate", "predicate": "support_advice"}, {"subject": "Nate", "predicate": "book_read"}]}
+{"qid": "conv-42:q75", "facets": [{"subject": "Nate", "predicate": "preference_like"}, {"subject": "Nate", "predicate": "food_drink_recipe"}]}
+{"qid": "conv-42:q76", "facets": [{"subject": "Nate", "predicate": "food_drink_recipe"}, {"subject": "Nate", "predicate": "hobby_interest"}]}
+{"qid": "conv-42:q77", "facets": [{"subject": "Nate", "predicate": "achievement_award"}]}
+{"qid": "conv-42:q78", "facets": [{"subject": "Nate", "predicate": "event_attended"}, {"subject": "Nate", "predicate": "achievement_award"}]}
+{"qid": "conv-42:q79", "facets": [{"subject": "Joanna", "predicate": "project_work"}, {"subject": "Joanna", "predicate": "creative_work"}]}
+{"qid": "conv-42:q80", "facets": [{"subject": "Nate", "predicate": "achievement_award"}]}
+{"qid": "conv-42:q81", "facets": [{"subject": "Joanna", "predicate": "food_drink_recipe"}]}
+{"qid": "conv-42:q82", "facets": [{"subject": "Nate", "predicate": "food_drink_recipe"}]}
+{"qid": "conv-42:q83", "facets": [{"subject": "Nate", "predicate": "skill_ability"}, {"subject": "Nate", "predicate": "colleague_mentor"}]}
+{"qid": "conv-42:q84", "facets": [{"subject": "Nate", "predicate": "job_career"}, {"subject": "Joanna", "predicate": "job_career"}]}
+{"qid": "conv-42:q85", "facets": [{"subject": "Joanna", "predicate": "job_career"}]}
+{"qid": "conv-42:q86", "facets": [{"subject": "Nate", "predicate": "pet"}, {"subject": "Nate", "predicate": "trip_location_visited"}]}
+{"qid": "conv-42:q87", "facets": [{"subject": "Nate", "predicate": "trip_location_visited"}]}
+{"qid": "conv-42:q88", "facets": [{"subject": "Joanna", "predicate": "preference_like"}, {"subject": "Joanna", "predicate": "movie_show_music"}]}
+{"qid": "conv-42:q89", "facets": [{"subject": "Nate", "predicate": "preference_like"}]}
+{"qid": "conv-42:q90", "facets": [{"subject": "Nate", "predicate": "preference_like"}, {"subject": "Nate", "predicate": "movie_show_music"}]}
+{"qid": "conv-42:q91", "facets": [{"subject": "Nate", "predicate": "preference_like"}, {"subject": "Nate", "predicate": "book_read"}]}
+{"qid": "conv-42:q92", "facets": [{"subject": "Nate", "predicate": "possession_purchase"}, {"subject": "Nate", "predicate": "hobby_interest"}]}
+{"qid": "conv-42:q93", "facets": [{"subject": "Nate", "predicate": "achievement_award"}, {"subject": "Nate", "predicate": "game_played"}]}
+{"qid": "conv-42:q94", "facets": [{"subject": "Joanna", "predicate": "creative_work"}, {"subject": "Joanna", "predicate": "project_work"}]}
+{"qid": "conv-42:q95", "facets": [{"subject": "Nate", "predicate": "preference_like"}, {"subject": "Nate", "predicate": "game_played"}]}
+{"qid": "conv-42:q96", "facets": [{"subject": "Nate", "predicate": "preference_like"}, {"subject": "Nate", "predicate": "movie_show_music"}]}
+{"qid": "conv-42:q97", "facets": [{"subject": "Joanna", "predicate": "project_work"}, {"subject": "Joanna", "predicate": "creative_work"}]}
+{"qid": "conv-42:q98", "facets": [{"subject": "Joanna", "predicate": "creative_work"}, {"subject": "Joanna", "predicate": "project_work"}]}
+{"qid": "conv-42:q99", "facets": [{"subject": "Joanna", "predicate": "goal_plan"}, {"subject": "Joanna", "predicate": "project_work"}]}
+{"qid": "conv-42:q100", "facets": [{"subject": "Nate", "predicate": "pet"}]}
+{"qid": "conv-42:q101", "facets": [{"subject": "Nate", "predicate": "feeling_emotion"}, {"subject": "Nate", "predicate": "food_drink_recipe"}]}
+{"qid": "conv-42:q102", "facets": [{"subject": "Nate", "predicate": "preference_like"}, {"subject": "Nate", "predicate": "food_drink_recipe"}]}
+{"qid": "conv-42:q103", "facets": [{"subject": "Joanna", "predicate": "movie_show_music"}]}
+{"qid": "conv-42:q104", "facets": [{"subject": "Joanna", "predicate": "book_read"}, {"subject": "Joanna", "predicate": "movie_show_music"}]}
+{"qid": "conv-42:q105", "facets": [{"subject": "Nate", "predicate": "food_drink_recipe"}, {"subject": "Nate", "predicate": "friend"}]}
+{"qid": "conv-42:q106", "facets": [{"subject": "Joanna", "predicate": "creative_work"}, {"subject": "Joanna", "predicate": "belief_value_opinion"}]}
+{"qid": "conv-42:q107", "facets": [{"subject": "Nate", "predicate": "pet"}, {"subject": "Nate", "predicate": "preference_like"}]}
+{"qid": "conv-42:q108", "facets": [{"subject": "Nate", "predicate": "pet"}, {"subject": "Nate", "predicate": "habit_routine"}]}
+{"qid": "conv-42:q109", "facets": [{"subject": "Joanna", "predicate": "job_career"}, {"subject": "Joanna", "predicate": "event_attended"}]}
+{"qid": "conv-42:q110", "facets": [{"subject": "Nate", "predicate": "preference_like"}]}
+{"qid": "conv-42:q111", "facets": [{"subject": "Nate", "predicate": "food_drink_recipe"}]}
+{"qid": "conv-42:q112", "facets": [{"subject": "Joanna", "predicate": "project_work"}, {"subject": "Joanna", "predicate": "creative_work"}]}
+{"qid": "conv-42:q113", "facets": [{"subject": "Nate", "predicate": "preference_like"}, {"subject": "Nate", "predicate": "movie_show_music"}]}
+{"qid": "conv-42:q114", "facets": [{"subject": "Nate", "predicate": "preference_like"}, {"subject": "Nate", "predicate": "book_read"}]}
+{"qid": "conv-42:q115", "facets": [{"subject": "Joanna", "predicate": "preference_like"}, {"subject": "Joanna", "predicate": "movie_show_music"}]}
+{"qid": "conv-42:q116", "facets": [{"subject": "Nate", "predicate": "hobby_interest"}, {"subject": "Nate", "predicate": "game_played"}]}
+{"qid": "conv-42:q117", "facets": [{"subject": "Joanna", "predicate": "food_drink_recipe"}]}
+{"qid": "conv-42:q118", "facets": [{"subject": "Joanna", "predicate": "food_drink_recipe"}]}
+{"qid": "conv-42:q119", "facets": [{"subject": "Nate", "predicate": "feeling_emotion"}, {"subject": "Nate", "predicate": "creative_work"}]}
+{"qid": "conv-42:q120", "facets": [{"subject": "Nate", "predicate": "creative_work"}, {"subject": "Nate", "predicate": "hobby_interest"}]}
+{"qid": "conv-42:q121", "facets": [{"subject": "Nate", "predicate": "outdoor_activity"}, {"subject": "Nate", "predicate": "friend"}]}
+{"qid": "conv-42:q122", "facets": [{"subject": "Joanna", "predicate": "gift_given_received"}]}
+{"qid": "conv-42:q123", "facets": [{"subject": "Joanna", "predicate": "gift_given_received"}]}
+{"qid": "conv-42:q124", "facets": [{"subject": "Nate", "predicate": "event_attended"}, {"subject": "Nate", "predicate": "hobby_interest"}]}
+{"qid": "conv-42:q125", "facets": [{"subject": "Nate", "predicate": "event_attended"}, {"subject": "Nate", "predicate": "friend"}]}
+{"qid": "conv-42:q126", "facets": [{"subject": "Nate", "predicate": "event_attended"}, {"subject": "Nate", "predicate": "gift_given_received"}]}
+{"qid": "conv-42:q127", "facets": [{"subject": "Joanna", "predicate": "achievement_award"}, {"subject": "Joanna", "predicate": "project_work"}]}
+{"qid": "conv-42:q128", "facets": [{"subject": "Joanna", "predicate": "preference_like"}]}
+{"qid": "conv-42:q129", "facets": [{"subject": "Nate", "predicate": "possession_purchase"}, {"subject": "Nate", "predicate": "preference_like"}]}
+{"qid": "conv-42:q130", "facets": [{"subject": "Joanna", "predicate": "creative_work"}, {"subject": "Joanna", "predicate": "habit_routine"}]}
+{"qid": "conv-42:q131", "facets": [{"subject": "Joanna", "predicate": "feeling_emotion"}, {"subject": "Joanna", "predicate": "creative_work"}]}
+{"qid": "conv-42:q132", "facets": [{"subject": "Nate", "predicate": "food_drink_recipe"}, {"subject": "Nate", "predicate": "volunteering_cause"}]}
+{"qid": "conv-42:q133", "facets": [{"subject": "Nate", "predicate": "event_attended"}]}
+{"qid": "conv-42:q134", "facets": [{"subject": "Nate", "predicate": "food_drink_recipe"}]}
+{"qid": "conv-42:q135", "facets": [{"subject": "Joanna", "predicate": "food_drink_recipe"}, {"subject": "Joanna", "predicate": "goal_plan"}]}
+{"qid": "conv-42:q136", "facets": [{"subject": "Nate", "predicate": "achievement_award"}]}
+{"qid": "conv-42:q137", "facets": [{"subject": "Joanna", "predicate": "trip_location_visited"}, {"subject": "Joanna", "predicate": "project_work"}]}
+{"qid": "conv-42:q138", "facets": [{"subject": "Joanna", "predicate": "project_work"}, {"subject": "Joanna", "predicate": "creative_work"}]}
+{"qid": "conv-42:q139", "facets": [{"subject": "Joanna", "predicate": "creative_work"}, {"subject": "Joanna", "predicate": "project_work"}]}
+{"qid": "conv-42:q140", "facets": [{"subject": "Joanna", "predicate": "creative_work"}, {"subject": "Joanna", "predicate": "belief_value_opinion"}]}
+{"qid": "conv-42:q141", "facets": [{"subject": "Nate", "predicate": "habit_routine"}, {"subject": "Nate", "predicate": "hobby_interest"}]}
+{"qid": "conv-42:q142", "facets": [{"subject": "Nate", "predicate": "job_career"}, {"subject": "Nate", "predicate": "preference_like"}]}
+{"qid": "conv-42:q143", "facets": [{"subject": "Joanna", "predicate": "feeling_emotion"}]}
+{"qid": "conv-42:q144", "facets": [{"subject": "Joanna", "predicate": "goal_plan"}, {"subject": "Joanna", "predicate": "belief_value_opinion"}]}
+{"qid": "conv-42:q145", "facets": [{"subject": "Joanna", "predicate": "creative_work"}, {"subject": "Joanna", "predicate": "project_work"}]}
+{"qid": "conv-42:q146", "facets": [{"subject": "Joanna", "predicate": "belief_value_opinion"}, {"subject": "Joanna", "predicate": "feeling_emotion"}]}
+{"qid": "conv-42:q147", "facets": [{"subject": "Nate", "predicate": "food_drink_recipe"}]}
+{"qid": "conv-42:q148", "facets": [{"subject": "Nate", "predicate": "feeling_emotion"}, {"subject": "Nate", "predicate": "food_drink_recipe"}]}
+{"qid": "conv-42:q149", "facets": [{"subject": "Joanna", "predicate": "project_work"}, {"subject": "Joanna", "predicate": "creative_work"}]}
+{"qid": "conv-42:q150", "facets": [{"subject": "Joanna", "predicate": "feeling_emotion"}, {"subject": "Joanna", "predicate": "habit_routine"}]}
+{"qid": "conv-42:q151", "facets": [{"subject": "Nate", "predicate": "feeling_emotion"}, {"subject": "Nate", "predicate": "achievement_award"}]}
+{"qid": "conv-42:q152", "facets": [{"subject": "Joanna", "predicate": "food_drink_recipe"}, {"subject": "Joanna", "predicate": "health_condition"}]}
+{"qid": "conv-42:q153", "facets": [{"subject": "Nate", "predicate": "food_drink_recipe"}, {"subject": "Nate", "predicate": "support_advice"}]}
+{"qid": "conv-42:q154", "facets": [{"subject": "Nate", "predicate": "event_attended"}, {"subject": "Nate", "predicate": "food_drink_recipe"}]}
+{"qid": "conv-42:q155", "facets": [{"subject": "Nate", "predicate": "preference_like"}, {"subject": "Nate", "predicate": "food_drink_recipe"}]}
+{"qid": "conv-42:q156", "facets": [{"subject": "Nate", "predicate": "preference_like"}, {"subject": "Nate", "predicate": "food_drink_recipe"}]}
+{"qid": "conv-42:q157", "facets": [{"subject": "Joanna", "predicate": "food_drink_recipe"}]}
+{"qid": "conv-42:q158", "facets": [{"subject": "Joanna", "predicate": "food_drink_recipe"}, {"subject": "Joanna", "predicate": "preference_like"}]}
+{"qid": "conv-42:q159", "facets": [{"subject": "Joanna", "predicate": "food_drink_recipe"}]}
+{"qid": "conv-42:q160", "facets": [{"subject": "Nate", "predicate": "movie_show_music"}]}
+{"qid": "conv-42:q161", "facets": [{"subject": "Joanna", "predicate": "food_drink_recipe"}, {"subject": "Joanna", "predicate": "gift_given_received"}]}
+{"qid": "conv-42:q162", "facets": [{"subject": "Nate", "predicate": "game_played"}, {"subject": "Nate", "predicate": "event_attended"}]}
+{"qid": "conv-42:q163", "facets": [{"subject": "Nate", "predicate": "movie_show_music"}, {"subject": "Nate", "predicate": "feeling_emotion"}]}
+{"qid": "conv-42:q164", "facets": [{"subject": "Nate", "predicate": "game_played"}]}
+{"qid": "conv-42:q165", "facets": [{"subject": "Nate", "predicate": "habit_routine"}, {"subject": "Nate", "predicate": "hobby_interest"}]}
+{"qid": "conv-42:q166", "facets": [{"subject": "Joanna", "predicate": "movie_show_music"}]}
+{"qid": "conv-42:q167", "facets": [{"subject": "Joanna", "predicate": "habit_routine"}, {"subject": "Joanna", "predicate": "support_advice"}]}
+{"qid": "conv-42:q168", "facets": [{"subject": "Joanna", "predicate": "habit_routine"}, {"subject": "Joanna", "predicate": "feeling_emotion"}]}
+{"qid": "conv-42:q169", "facets": [{"subject": "Joanna", "predicate": "habit_routine"}]}
+{"qid": "conv-42:q170", "facets": [{"subject": "Joanna", "predicate": "gift_given_received"}, {"subject": "Joanna", "predicate": "feeling_emotion"}]}
+{"qid": "conv-42:q171", "facets": [{"subject": "Joanna", "predicate": "habit_routine"}, {"subject": "Joanna", "predicate": "challenge_problem"}]}
+{"qid": "conv-42:q172", "facets": [{"subject": "Nate", "predicate": "feeling_emotion"}]}
+{"qid": "conv-42:q173", "facets": [{"subject": "Nate", "predicate": "support_advice"}]}
+{"qid": "conv-42:q174", "facets": [{"subject": "Nate", "predicate": "feeling_emotion"}, {"subject": "Nate", "predicate": "hobby_interest"}]}
+{"qid": "conv-42:q175", "facets": [{"subject": "Joanna", "predicate": "pet"}, {"subject": "Joanna", "predicate": "habit_routine"}]}
+{"qid": "conv-42:q176", "facets": [{"subject": "Joanna", "predicate": "achievement_award"}, {"subject": "Joanna", "predicate": "project_work"}]}
+{"qid": "conv-42:q177", "facets": [{"subject": "Joanna", "predicate": "creative_work"}, {"subject": "Joanna", "predicate": "belief_value_opinion"}]}
+{"qid": "conv-42:q178", "facets": [{"subject": "Joanna", "predicate": "creative_work"}, {"subject": "Joanna", "predicate": "belief_value_opinion"}]}
+{"qid": "conv-42:q179", "facets": [{"subject": "Joanna", "predicate": "feeling_emotion"}, {"subject": "Joanna", "predicate": "achievement_award"}]}
+{"qid": "conv-42:q180", "facets": [{"subject": "Nate", "predicate": "pet"}]}
+{"qid": "conv-42:q181", "facets": [{"subject": "Nate", "predicate": "food_drink_recipe"}]}
+{"qid": "conv-42:q182", "facets": [{"subject": "Joanna", "predicate": "creative_work"}, {"subject": "Joanna", "predicate": "feeling_emotion"}]}
+{"qid": "conv-42:q183", "facets": [{"subject": "Nate", "predicate": "game_played"}, {"subject": "Nate", "predicate": "support_advice"}]}
+{"qid": "conv-42:q184", "facets": [{"subject": "Joanna", "predicate": "gift_given_received"}, {"subject": "Joanna", "predicate": "family_member"}]}
+{"qid": "conv-42:q185", "facets": [{"subject": "Nate", "predicate": "game_played"}]}
+{"qid": "conv-42:q186", "facets": [{"subject": "Nate", "predicate": "food_drink_recipe"}]}
+{"qid": "conv-42:q187", "facets": [{"subject": "Joanna", "predicate": "project_work"}, {"subject": "Joanna", "predicate": "creative_work"}]}
+{"qid": "conv-42:q188", "facets": [{"subject": "Nate", "predicate": "project_work"}, {"subject": "Nate", "predicate": "hobby_interest"}]}
+{"qid": "conv-42:q189", "facets": [{"subject": "Nate", "predicate": "belief_value_opinion"}, {"subject": "Nate", "predicate": "project_work"}]}
+{"qid": "conv-42:q190", "facets": [{"subject": "Nate", "predicate": "project_work"}, {"subject": "Nate", "predicate": "hobby_interest"}]}
+{"qid": "conv-42:q191", "facets": [{"subject": "Joanna", "predicate": "support_advice"}]}
+{"qid": "conv-42:q192", "facets": [{"subject": "Joanna", "predicate": "trip_location_visited"}, {"subject": "Joanna", "predicate": "creative_work"}]}
+{"qid": "conv-42:q193", "facets": [{"subject": "Joanna", "predicate": "belief_value_opinion"}, {"subject": "Joanna", "predicate": "creative_work"}]}
+{"qid": "conv-42:q194", "facets": [{"subject": "Nate", "predicate": "pet"}]}
+{"qid": "conv-42:q195", "facets": [{"subject": "Nate", "predicate": "goal_plan"}, {"subject": "Nate", "predicate": "hobby_interest"}]}
+{"qid": "conv-42:q196", "facets": [{"subject": "Nate", "predicate": "trip_location_visited"}, {"subject": "Nate", "predicate": "pet"}]}
+{"qid": "conv-42:q197", "facets": [{"subject": "Nate", "predicate": "pet"}, {"subject": "Nate", "predicate": "preference_like"}]}
+{"qid": "conv-42:q198", "facets": [{"subject": "Nate", "predicate": "food_drink_recipe"}, {"subject": "Nate", "predicate": "project_work"}]}

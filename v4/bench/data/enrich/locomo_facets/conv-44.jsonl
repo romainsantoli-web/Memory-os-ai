@@ -1,0 +1,332 @@
+{"fid": "D1:2#0", "facets": [{"subject": "Andrew", "predicate": "job_career", "object": "Financial Analyst (new job)"}], "implications": ["Andrew's description of the change as big suggests his previous job differed significantly in role or industry."]}
+{"fid": "D1:3#0", "facets": [{"subject": "Audrey", "predicate": "possession_purchase", "object": "collars and tags (for dogs)"}, {"subject": "Audrey", "predicate": "pet", "object": "dogs"}], "implications": []}
+{"fid": "D1:5#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "two dogs (photo in collars)"}], "implications": []}
+{"fid": "D1:7#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "Pepper, Precious, and Panda (dogs, since ~2020)"}], "implications": ["Audrey having owned her dogs for three years suggests a long-standing, established bond with them."]}
+{"fid": "D1:9#0", "facets": [{"subject": "Audrey", "predicate": "habit_routine", "object": "frequent park and trail outings with dogs"}], "implications": ["Audrey's frequent outings suggest she prioritizes an active, outdoor lifestyle for her dogs."]}
+{"fid": "D1:12#0", "facets": [{"subject": "Andrew", "predicate": "pet", "object": "no pets currently"}, {"subject": "Andrew", "predicate": "preference_like", "object": "animals"}], "implications": ["Andrew's love of animals despite having none suggests he may be considering getting a pet in the future."]}
+{"fid": "D1:14#0", "facets": [{"subject": "Andrew", "predicate": "preference_like", "object": "birds (their power to soar and explore)"}], "implications": ["This suggests Andrew associates freedom and exploration with an idealized escape from constraints in his own daily life."]}
+{"fid": "D1:16#0", "facets": [{"subject": "Andrew", "predicate": "preference_like", "object": "eagle (favorite bird)"}], "implications": ["Andrew's admiration for the eagle's strength and grace suggests he values power and freedom as personal ideals."]}
+{"fid": "D1:18#0", "facets": [{"subject": "Andrew", "predicate": "hobby_interest", "object": "spotting birds while hiking"}], "implications": []}
+{"fid": "D1:20#0", "facets": [{"subject": "Andrew", "predicate": "trip_location_visited", "object": "Fox Hollow (hiking trail)"}], "implications": []}
+{"fid": "D1:21#0", "facets": [{"subject": "Audrey", "predicate": "goal_plan", "object": "try hiking at Fox Hollow"}], "implications": []}
+{"fid": "D2:1#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "Pixie (new puppy, adopted)"}], "implications": []}
+{"fid": "D2:3#0", "facets": [{"subject": "Audrey", "predicate": "challenge_problem", "object": "no time for Fox Hollow trail (busy with Pixie)"}], "implications": []}
+{"fid": "D2:5#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "Pixie (adjusting to other dogs)"}], "implications": []}
+{"fid": "D2:7#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "Pepper (bonded with Pixie)"}], "implications": []}
+{"fid": "D2:8#0", "facets": [{"subject": "Andrew", "predicate": "goal_plan", "object": "get a dog"}, {"subject": "Andrew", "predicate": "challenge_problem", "object": "finding dog-friendly city housing"}], "implications": ["Andrew's difficulty finding dog-friendly housing suggests city rental markets in his area are restrictive toward pets."]}
+{"fid": "D2:9#0", "facets": [{"subject": "Audrey", "predicate": "habit_routine", "object": "using filter websites for dog-friendly housing"}], "implications": []}
+{"fid": "D2:10#0", "facets": [{"subject": "Andrew", "predicate": "goal_plan", "object": "try Audrey's dog-friendly apartment websites"}], "implications": []}
+{"fid": "D2:16#0", "facets": [{"subject": "Andrew", "predicate": "family_member", "object": "family dog (on couch)"}], "implications": ["Andrew's sharing of his family's dog photo suggests his family (not just him) currently owns a dog he has access to."]}
+{"fid": "D2:17#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "dog (lying on couch with pillow)"}], "implications": []}
+{"fid": "D2:18#0", "facets": [{"subject": "Andrew", "predicate": "feeling_emotion", "object": "missing hiking with family's dog"}], "implications": ["Andrew's nostalgia for hiking with his family's dog suggests part of his motivation to get his own dog is to recreate that experience."]}
+{"fid": "D2:20#0", "facets": [{"subject": "Andrew", "predicate": "belief_value_opinion", "object": "hiking with a dog builds bonds and memories"}], "implications": []}
+{"fid": "D2:22#0", "facets": [{"subject": "Andrew", "predicate": "goal_plan", "object": "find a dog-friendly spot soon"}], "implications": []}
+{"fid": "D3:1#0", "facets": [{"subject": "Andrew", "predicate": "partner", "object": "girlfriend"}, {"subject": "Andrew", "predicate": "event_attended", "object": "new cafe scene in the city"}], "implications": []}
+{"fid": "D3:3#0", "facets": [{"subject": "Andrew", "predicate": "belief_value_opinion", "object": "nature feels like home for his soul"}], "implications": ["Andrew's description of nature as feeling like home for his soul suggests city living may feel spiritually unsatisfying to him."]}
+{"fid": "D3:6#0", "facets": [{"subject": "Audrey", "predicate": "habit_routine", "object": "walking dogs in the park (recharges her)"}], "implications": ["This suggests dog walks are Audrey's primary stress-relief ritual, a coping mechanism she likely leans on during harder periods."]}
+{"fid": "D3:7#0", "facets": [{"subject": "Andrew", "predicate": "challenge_problem", "object": "city living limits connection/companionship of a dog"}], "implications": ["This suggests Andrew may feel a broader sense of isolation or lack of companionship from city living, not just a specific desire for a pet."]}
+{"fid": "D3:11#0", "facets": [{"subject": "Andrew", "predicate": "hobby_interest", "object": "discovering new places to eat with girlfriend"}], "implications": []}
+{"fid": "D3:13#0", "facets": [{"subject": "Andrew", "predicate": "food_drink_recipe", "object": "cafe with pastries"}], "implications": []}
+{"fid": "D3:17#0", "facets": [{"subject": "Andrew", "predicate": "food_drink_recipe", "object": "croissants, muffins, and tarts"}], "implications": []}
+{"fid": "D3:18#0", "facets": [{"subject": "Audrey", "predicate": "food_drink_recipe", "object": "pastries, blueberry muffins"}, {"subject": "Audrey", "predicate": "goal_plan", "object": "pastry party"}], "implications": []}
+{"fid": "D3:19#0", "facets": [{"subject": "Andrew", "predicate": "goal_plan", "object": "join Audrey's pastry party"}], "implications": []}
+{"fid": "D3:20#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "dogs (attending pastry party)"}], "implications": []}
+{"fid": "D3:24#0", "facets": [{"subject": "Audrey", "predicate": "feeling_emotion", "object": "can't imagine life without her dogs"}], "implications": ["Audrey's statement suggests her dogs are central to her emotional wellbeing and identity."]}
+{"fid": "D3:26#0", "facets": [{"subject": "Audrey", "predicate": "possession_purchase", "object": "tattoos of her dogs (arm)"}], "implications": []}
+{"fid": "D3:28#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "tattoo represents love for dogs and nature's beauty"}], "implications": []}
+{"fid": "D3:30#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "strong bond with her dogs"}], "implications": []}
+{"fid": "D4:1#0", "facets": [{"subject": "Audrey", "predicate": "outdoor_activity", "object": "hike (watched a hummingbird)"}], "implications": []}
+{"fid": "D4:2#0", "facets": [{"subject": "Andrew", "predicate": "trip_location_visited", "object": "new open space (hiking spot)"}, {"subject": "Andrew", "predicate": "feeling_emotion", "object": "refreshed (after feeling down about not getting outdoors)"}], "implications": ["Andrew's prior low mood from lacking outdoor time suggests nature access is closely tied to his emotional wellbeing."]}
+{"fid": "D4:4#0", "facets": [{"subject": "Andrew", "predicate": "habit_routine", "object": "hiking at least once a weekend"}], "implications": []}
+{"fid": "D4:6#0", "facets": [{"subject": "Andrew", "predicate": "belief_value_opinion", "object": "nature is therapeutic, peaceful, invigorating"}], "implications": []}
+{"fid": "D4:8#0", "facets": [{"subject": "Andrew", "predicate": "hobby_interest", "object": "nature photography"}], "implications": []}
+{"fid": "D4:10#0", "facets": [{"subject": "Andrew", "predicate": "feeling_emotion", "object": "joy from spreading peaceful feelings to others"}], "implications": ["Andrew's joy in motivating others toward peace suggests he may value a mentoring or inspirational role among his peers."]}
+{"fid": "D4:15#0", "facets": [{"subject": "Audrey", "predicate": "habit_routine", "object": "busy caring for pets"}], "implications": []}
+{"fid": "D4:17#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "dogs (love exploring scents on hikes)"}], "implications": []}
+{"fid": "D4:19#0", "facets": [{"subject": "Audrey", "predicate": "possession_purchase", "object": "special leashes and shoes (for dogs)"}], "implications": []}
+{"fid": "D4:21#0", "facets": [{"subject": "Audrey", "predicate": "outdoor_activity", "object": "playing fetch with dogs"}, {"subject": "Audrey", "predicate": "event_attended", "object": "doggie playdates"}], "implications": []}
+{"fid": "D4:23#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "dogs (love playdates, party hats)"}], "implications": []}
+{"fid": "D4:25#0", "facets": [{"subject": "Audrey", "predicate": "trip_location_visited", "object": "dog park (near her usual walk)"}], "implications": []}
+{"fid": "D4:27#0", "facets": [{"subject": "Audrey", "predicate": "trip_location_visited", "object": "dog park (trees and benches)"}], "implications": []}
+{"fid": "D4:28#0", "facets": [{"subject": "Andrew", "predicate": "goal_plan", "object": "check out the dog park Audrey mentioned"}], "implications": []}
+{"fid": "D5:1#0", "facets": [{"subject": "Andrew", "predicate": "goal_plan", "object": "adopt a dog (browsing websites, shelters, friends)"}], "implications": ["Andrew's use of multiple search channels suggests finding a dog is a high priority he is pursuing with real dedication."]}
+{"fid": "D5:3#0", "facets": [{"subject": "Andrew", "predicate": "belief_value_opinion", "object": "smaller dog suits apartment living"}], "implications": []}
+{"fid": "D5:5#0", "facets": [{"subject": "Andrew", "predicate": "challenge_problem", "object": "finding pet-friendly housing (contacting landlords)"}], "implications": []}
+{"fid": "D5:7#0", "facets": [{"subject": "Andrew", "predicate": "goal_plan", "object": "live near a park or woods"}], "implications": []}
+{"fid": "D5:8#0", "facets": [{"subject": "Audrey", "predicate": "trip_location_visited", "object": "national park (road trip with dogs)"}], "implications": []}
+{"fid": "D5:10#0", "facets": [{"subject": "Audrey", "predicate": "habit_routine", "object": "road trips with dogs every couple months"}], "implications": []}
+{"fid": "D5:11#0", "facets": [{"subject": "Andrew", "predicate": "feeling_emotion", "object": "wishes for a road trip with a dog"}], "implications": []}
+{"fid": "D5:13#0", "facets": [{"subject": "Andrew", "predicate": "goal_plan", "object": "road trip with his own dog (bucket list)"}], "implications": []}
+{"fid": "D5:15#0", "facets": [{"subject": "Andrew", "predicate": "goal_plan", "object": "still looking for the perfect dog to adopt"}], "implications": []}
+{"fid": "D5:21#0", "facets": [{"subject": "Andrew", "predicate": "goal_plan", "object": "check out another animal shelter"}], "implications": []}
+{"fid": "D6:1#0", "facets": [{"subject": "Andrew", "predicate": "outdoor_activity", "object": "hike with friends and girlfriend"}], "implications": []}
+{"fid": "D6:2#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "four dogs"}, {"subject": "Audrey", "predicate": "education_course", "object": "pet-bonding workshop"}], "implications": []}
+{"fid": "D6:4#0", "facets": [{"subject": "Audrey", "predicate": "education_course", "object": "positive reinforcement training class"}], "implications": []}
+{"fid": "D6:6#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "her dogs are quick learners who love rewards"}], "implications": []}
+{"fid": "D6:8#0", "facets": [{"subject": "Audrey", "predicate": "goal_plan", "object": "share training tips with Andrew after workshop"}], "implications": []}
+{"fid": "D6:12#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "pets should be trained with positive reinforcement, not punishment"}], "implications": []}
+{"fid": "D6:14#0", "facets": [{"subject": "Audrey", "predicate": "feeling_emotion", "object": "pain at the thought of hurting her dogs"}], "implications": ["Audrey's strong aversion to the idea of hurting her dogs suggests she views them with the same protectiveness as family members."]}
+{"fid": "D7:1#0", "facets": [{"subject": "Audrey", "predicate": "outdoor_activity", "object": "dogs off-leash play at the park"}, {"subject": "Audrey", "predicate": "feeling_emotion", "object": "joy (dogs playing off-leash)"}], "implications": []}
+{"fid": "D7:3#0", "facets": [{"subject": "Audrey", "predicate": "trip_location_visited", "object": "national park (hike, peak, sunset)"}], "implications": []}
+{"fid": "D7:5#0", "facets": [{"subject": "Audrey", "predicate": "hobby_interest", "object": "photography (horses in a field)"}], "implications": []}
+{"fid": "D7:7#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "nature always cheers her up"}], "implications": []}
+{"fid": "D7:8#0", "facets": [{"subject": "Andrew", "predicate": "challenge_problem", "object": "still can't find pet-friendly city spot"}, {"subject": "Andrew", "predicate": "feeling_emotion", "object": "discouraged"}], "implications": ["Andrew's growing discouragement suggests his prolonged, unsuccessful housing search is beginning to wear on his morale."]}
+{"fid": "D7:11#0", "facets": [{"subject": "Audrey", "predicate": "support_advice", "object": "offered to help find pet-friendly spot"}], "implications": ["Audrey's offer to help suggests she values her friendship with Andrew and is invested in his goal of getting a dog."]}
+{"fid": "D8:1#0", "facets": [{"subject": "Andrew", "predicate": "outdoor_activity", "object": "rock climbing class"}, {"subject": "Andrew", "predicate": "goal_plan", "object": "try more outdoor activities weekly"}], "implications": []}
+{"fid": "D8:3#0", "facets": [{"subject": "Andrew", "predicate": "achievement_award", "object": "reached top of rock climb"}, {"subject": "Andrew", "predicate": "feeling_emotion", "object": "proud (challenging but satisfying)"}], "implications": []}
+{"fid": "D8:5#0", "facets": [{"subject": "Andrew", "predicate": "skill_ability", "object": "rock climbing (newbie)"}], "implications": ["This suggests Andrew has a supportive circle of friends who encourage him to push past his comfort zone."]}
+{"fid": "D8:7#0", "facets": [{"subject": "Andrew", "predicate": "goal_plan", "object": "try kayaking and maybe bungee jumping"}], "implications": ["Andrew's interest in trying kayaking and bungee jumping suggests he is developing a taste for adventurous, adrenaline-seeking activities."]}
+{"fid": "D8:8#0", "facets": [{"subject": "Audrey", "predicate": "trip_location_visited", "object": "small park with tree-lined trail (new dog walk spot)"}], "implications": []}
+{"fid": "D8:9#0", "facets": [{"subject": "Andrew", "predicate": "goal_plan", "object": "join Audrey and her dogs for a park walk"}], "implications": []}
+{"fid": "D8:12#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "two dogs running with a ball"}], "implications": []}
+{"fid": "D8:14#0", "facets": [{"subject": "Audrey", "predicate": "habit_routine", "object": "walks dogs about an hour"}], "implications": []}
+{"fid": "D8:16#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "dogs need exercise and exploration"}], "implications": []}
+{"fid": "D8:18#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "dogs (walks are their favorite part of day)"}], "implications": []}
+{"fid": "D8:20#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "dogs and nature bring joy and peace"}], "implications": []}
+{"fid": "D8:22#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "two dogs playing frisbee in a meadow"}], "implications": []}
+{"fid": "D8:24#0", "facets": [{"subject": "Audrey", "predicate": "feeling_emotion", "object": "peaceful and inspired (outdoors with dogs)"}], "implications": []}
+{"fid": "D8:27#0", "facets": [{"subject": "Andrew", "predicate": "habit_routine", "object": "turns to nature for a reset"}], "implications": []}
+{"fid": "D9:1#0", "facets": [{"subject": "Audrey", "predicate": "residence", "object": "new place (bigger backyard for dogs)"}], "implications": ["This suggests Audrey's housing decisions are heavily influenced by her dogs' needs, underscoring how central they are to her life choices."]}
+{"fid": "D9:3#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "dogs (love new backyard)"}], "implications": []}
+{"fid": "D9:5#0", "facets": [{"subject": "Audrey", "predicate": "possession_purchase", "object": "doggy play area (agility equipment, toys)"}], "implications": []}
+{"fid": "D9:6#0", "facets": [{"subject": "Andrew", "predicate": "other", "object": "photo of dogs playing with a ball (indoor space)"}], "implications": []}
+{"fid": "D9:8#0", "facets": [{"subject": "Andrew", "predicate": "trip_location_visited", "object": "doggy daycare near him"}], "implications": ["Andrew sharing a photo of a nearby doggy daycare suggests he is scouting resources in preparation for getting his own dog."]}
+{"fid": "D9:13#0", "facets": [{"subject": "Audrey", "predicate": "feeling_emotion", "object": "can't imagine life without animals"}], "implications": []}
+{"fid": "D9:15#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "doesn't understand people who hurt or hate pets"}], "implications": []}
+{"fid": "D9:16#0", "facets": [{"subject": "Andrew", "predicate": "hobby_interest", "object": "photography (flower bed at neighborhood park)"}], "implications": []}
+{"fid": "D9:17#0", "facets": [{"subject": "Audrey", "predicate": "habit_routine", "object": "unboxing after moving"}], "implications": []}
+{"fid": "D9:18#0", "facets": [{"subject": "Andrew", "predicate": "outdoor_activity", "object": "hike with friends (great weather, photos)"}], "implications": []}
+{"fid": "D9:20#0", "facets": [{"subject": "Andrew", "predicate": "feeling_emotion", "object": "missing connection with nature"}], "implications": []}
+{"fid": "D9:21#0", "facets": [{"subject": "Audrey", "predicate": "feeling_emotion", "object": "wanting a lakeside nature moment"}], "implications": ["This suggests Audrey may be feeling a need to escape or unwind, possibly linked to the busyness of her recent move."]}
+{"fid": "D9:23#0", "facets": [{"subject": "Audrey", "predicate": "trip_location_visited", "object": "stunning mountain lake (hike with friends, years back)"}], "implications": []}
+{"fid": "D9:25#0", "facets": [{"subject": "Audrey", "predicate": "feeling_emotion", "object": "calmed by nature and the lake"}], "implications": []}
+{"fid": "D9:27#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "appreciate the small things in life"}], "implications": []}
+{"fid": "D10:1#0", "facets": [{"subject": "Audrey", "predicate": "education_course", "object": "dog training course"}], "implications": []}
+{"fid": "D10:2#0", "facets": [{"subject": "Andrew", "predicate": "challenge_problem", "object": "still cannot find dog-friendly rental"}], "implications": ["Andrew's prolonged difficulty finding dog-friendly housing suggests he may need to consider alternative options such as changing neighborhoods or negotiating directly with landlords."]}
+{"fid": "D10:3#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "dog training course is a time sink but pays off"}], "implications": []}
+{"fid": "D10:5#0", "facets": [{"subject": "Audrey", "predicate": "feeling_emotion", "object": "rewarded by seeing her dogs do well"}], "implications": []}
+{"fid": "D10:7#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "four mutts: two Jack Russell mixes, two Chihuahua mixes"}], "implications": []}
+{"fid": "D10:9#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "four dogs, all 3 years old"}, {"subject": "Audrey", "predicate": "event_attended", "object": "doggy playdate"}], "implications": []}
+{"fid": "D10:11#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "her dogs are her universe"}], "implications": []}
+{"fid": "D10:12#0", "facets": [{"subject": "Andrew", "predicate": "hobby_interest", "object": "cooking (new hobby)"}], "implications": ["Andrew taking up cooking as he can't hike as much suggests he seeks substitute creative outlets when his preferred outdoor activity is unavailable."]}
+{"fid": "D10:13#0", "facets": [{"subject": "Audrey", "predicate": "food_drink_recipe", "object": "Chicken Pot Pie (favorite recipe)"}], "implications": []}
+{"fid": "D10:15#0", "facets": [{"subject": "Audrey", "predicate": "family_member", "object": "grandma (Chicken Pot Pie recipe origin)"}], "implications": ["Audrey's fond memory of her grandma's kitchen suggests family and tradition are important emotional anchors for her."]}
+{"fid": "D10:16#0", "facets": [{"subject": "Andrew", "predicate": "belief_value_opinion", "object": "cooking helps him de-stress and be creative"}], "implications": []}
+{"fid": "D10:17#0", "facets": [{"subject": "Audrey", "predicate": "hobby_interest", "object": "cooking (escape, de-stress)"}], "implications": []}
+{"fid": "D10:18#0", "facets": [{"subject": "Andrew", "predicate": "hobby_interest", "object": "cooking (favorite hobby)"}], "implications": []}
+{"fid": "D10:19#0", "facets": [{"subject": "Audrey", "predicate": "habit_routine", "object": "plays music and drinks wine while cooking"}], "implications": []}
+{"fid": "D10:21#0", "facets": [{"subject": "Audrey", "predicate": "preference_like", "object": "garlic (go-to ingredient)"}], "implications": []}
+{"fid": "D10:23#0", "facets": [{"subject": "Audrey", "predicate": "food_drink_recipe", "object": "Roasted Chicken with garlic"}], "implications": []}
+{"fid": "D10:25#0", "facets": [{"subject": "Audrey", "predicate": "food_drink_recipe", "object": "Roasted Chicken (Mediterranean, chicken/garlic/lemon/herbs)"}], "implications": []}
+{"fid": "D11:1#0", "facets": [{"subject": "Andrew", "predicate": "event_attended", "object": "picnic with girlfriend"}], "implications": []}
+{"fid": "D11:2#0", "facets": [{"subject": "Audrey", "predicate": "outdoor_activity", "object": "great walk with dogs"}], "implications": []}
+{"fid": "D11:4#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "dogs (from a nearby breeder)"}], "implications": ["This suggests Audrey favored getting dogs from a breeder rather than adoption, a different path than Andrew's shelter-focused approach."]}
+{"fid": "D11:5#0", "facets": [{"subject": "Andrew", "predicate": "trip_location_visited", "object": "parks for a future leashed dog"}, {"subject": "Andrew", "predicate": "goal_plan", "object": "find open area for a dog to run freely"}], "implications": []}
+{"fid": "D11:6#0", "facets": [{"subject": "Audrey", "predicate": "goal_plan", "object": "join Andrew's hike with her dogs"}], "implications": []}
+{"fid": "D11:7#0", "facets": [{"subject": "Andrew", "predicate": "goal_plan", "object": "hike with Audrey and her dogs (planned for August 2023)"}], "implications": []}
+{"fid": "D11:9#0", "facets": [{"subject": "Andrew", "predicate": "other", "object": "map of a tree-filled park (for dog hiking trip)"}], "implications": []}
+{"fid": "D11:12#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "safety is top priority for dogs outside"}], "implications": []}
+{"fid": "D11:14#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "three dogs on leashes, ready for outdoor adventure"}], "implications": []}
+{"fid": "D11:20#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "two dogs running with a ball in a field"}], "implications": []}
+{"fid": "D11:28#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "dogs playing at local park"}], "implications": []}
+{"fid": "D11:30#0", "facets": [{"subject": "Audrey", "predicate": "trip_location_visited", "object": "hike with sunset (2022)"}], "implications": []}
+{"fid": "D11:32#0", "facets": [{"subject": "Audrey", "predicate": "trip_location_visited", "object": "trail 3-hour drive away (amazing sunset)"}], "implications": ["This suggests Audrey is willing to travel significant distances for a memorable nature experience."]}
+{"fid": "D11:34#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "grateful for the beauty of nature (lake and mountains)"}], "implications": []}
+{"fid": "D11:36#0", "facets": [{"subject": "Audrey", "predicate": "feeling_emotion", "object": "peace from nature's vibrant colors"}], "implications": []}
+{"fid": "D12:1#0", "facets": [{"subject": "Andrew", "predicate": "pet", "object": "Toby (new puppy)"}], "implications": ["Andrew's decision to get a puppy despite city living challenges suggests he prioritized his desire for a dog over the housing obstacles he had been facing."]}
+{"fid": "D12:3#0", "facets": [{"subject": "Andrew", "predicate": "challenge_problem", "object": "work piling up, stuck inside"}, {"subject": "Andrew", "predicate": "feeling_emotion", "object": "missing peace and freedom of hiking"}], "implications": []}
+{"fid": "D12:4#0", "facets": [{"subject": "Audrey", "predicate": "goal_plan", "object": "plan a hiking trip together with pups"}], "implications": []}
+{"fid": "D12:5#0", "facets": [{"subject": "Andrew", "predicate": "goal_plan", "object": "hike in August 2023 with Audrey and her dogs"}], "implications": []}
+{"fid": "D12:6#0", "facets": [{"subject": "Audrey", "predicate": "goal_plan", "object": "join hike with her dogs"}, {"subject": "Audrey", "predicate": "creative_work", "object": "personalized wooden dog keychain tags"}], "implications": []}
+{"fid": "D12:8#0", "facets": [{"subject": "Audrey", "predicate": "creative_work", "object": "handmade dog tags fitted to each dog's personality"}], "implications": ["This suggests Audrey pays close, individualized attention to each of her dogs rather than treating them as an undifferentiated group."]}
+{"fid": "D12:10#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "wants her pets to feel seen and loved"}], "implications": []}
+{"fid": "D12:13#0", "facets": [{"subject": "Andrew", "predicate": "goal_plan", "object": "Toby meeting Audrey's dogs on hike"}], "implications": []}
+{"fid": "D13:1#0", "facets": [{"subject": "Andrew", "predicate": "volunteering_cause", "object": "pet shelter (with girlfriend)"}, {"subject": "Andrew", "predicate": "feeling_emotion", "object": "found it rewarding"}], "implications": []}
+{"fid": "D13:4#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "never volunteered at a shelter; her four dogs matter most"}], "implications": ["This suggests Audrey's deep focus on her own dogs may leave little room or motivation for broader animal-welfare volunteering, unlike Andrew."]}
+{"fid": "D13:6#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "four dogs, distinct personalities"}], "implications": ["This suggests Audrey relates to her dogs as individuals with distinct characters, similar to how one might describe family members."]}
+{"fid": "D13:8#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "Max (childhood dog)"}], "implications": ["Audrey's fond memory of her energetic childhood dog Max suggests her lifelong attachment to dogs began in childhood."]}
+{"fid": "D13:10#0", "facets": [{"subject": "Audrey", "predicate": "life_event_milestone", "object": "walks and confiding in childhood dog Max"}], "implications": ["Audrey confiding her worries and hopes to Max as a child suggests dogs have long served as an emotional support for her."]}
+{"fid": "D13:12#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "pets give unconditional love without judgment"}], "implications": []}
+{"fid": "D13:13#0", "facets": [{"subject": "Andrew", "predicate": "volunteering_cause", "object": "pet shelter (one of most rewarding things)"}], "implications": []}
+{"fid": "D13:15#0", "facets": [{"subject": "Andrew", "predicate": "belief_value_opinion", "object": "volunteering is his way of giving back"}], "implications": []}
+{"fid": "D14:1#0", "facets": [{"subject": "Andrew", "predicate": "outdoor_activity", "object": "camping trip (with girlfriend and Toby)"}], "implications": []}
+{"fid": "D14:2#0", "facets": [{"subject": "Audrey", "predicate": "education_course", "object": "agility classes with her dogs"}], "implications": []}
+{"fid": "D14:4#0", "facets": [{"subject": "Audrey", "predicate": "habit_routine", "object": "agility practice twice a week"}], "implications": []}
+{"fid": "D14:5#0", "facets": [{"subject": "Andrew", "predicate": "outdoor_activity", "object": "hiking a dirt trail in the woods"}], "implications": []}
+{"fid": "D14:6#0", "facets": [{"subject": "Audrey", "predicate": "outdoor_activity", "object": "walking dogs on a trail hike"}], "implications": []}
+{"fid": "D14:8#0", "facets": [{"subject": "Audrey", "predicate": "outdoor_activity", "object": "two-hour trail hike with dogs, stunning views"}], "implications": []}
+{"fid": "D14:11#0", "facets": [{"subject": "Andrew", "predicate": "hobby_interest", "object": "hiking (favorite outdoor activity)"}], "implications": []}
+{"fid": "D14:13#0", "facets": [{"subject": "Andrew", "predicate": "belief_value_opinion", "object": "nature calms him, break from city craziness"}], "implications": []}
+{"fid": "D14:14#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "pets are good buddies during tough times"}], "implications": ["Audrey's reliance on her pets during tough times suggests she may have faced recent personal or emotional difficulties."]}
+{"fid": "D14:16#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "blessed to have furry friends as companions"}], "implications": []}
+{"fid": "D14:17#0", "facets": [{"subject": "Andrew", "predicate": "goal_plan", "object": "hopes for a deep bond with Toby like Audrey's"}], "implications": []}
+{"fid": "D14:19#0", "facets": [{"subject": "Andrew", "predicate": "pet", "object": "Toby (German Shepherd puppy)"}], "implications": []}
+{"fid": "D14:21#0", "facets": [{"subject": "Andrew", "predicate": "goal_plan", "object": "take Toby hiking (German Shepherds make good hiking buddies)"}], "implications": []}
+{"fid": "D14:24#0", "facets": [{"subject": "Audrey", "predicate": "support_advice", "object": "city dog owners need time/energy for high-energy breeds"}], "implications": []}
+{"fid": "D14:25#0", "facets": [{"subject": "Andrew", "predicate": "goal_plan", "object": "give Toby enough exercise, not limit his growth"}], "implications": []}
+{"fid": "D14:27#0", "facets": [{"subject": "Andrew", "predicate": "goal_plan", "object": "take Toby for a small hike at a local trail"}], "implications": []}
+{"fid": "D15:1#0", "facets": [{"subject": "Audrey", "predicate": "possession_purchase", "object": "tattoo of her four dogs (arm)"}], "implications": []}
+{"fid": "D15:2#0", "facets": [{"subject": "Andrew", "predicate": "trip_location_visited", "object": "farm (fresh veggies with girlfriend)"}], "implications": []}
+{"fid": "D15:3#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "four dogs is enough for now"}, {"subject": "Audrey", "predicate": "pet", "object": "vet checkups for all four dogs"}], "implications": ["This suggests that despite her deep attachment to her dogs, Audrey is practical about the limits of what she can manage at once."]}
+{"fid": "D15:5#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "each dog's favorite relaxing spot"}], "implications": []}
+{"fid": "D15:6#0", "facets": [{"subject": "Andrew", "predicate": "pet", "object": "Toby (favorite spot, fluffy blanket)"}], "implications": []}
+{"fid": "D15:7#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "two dogs snuggling on her favorite blanket"}], "implications": []}
+{"fid": "D15:9#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "her dogs are best friends who cuddle at nap time"}], "implications": []}
+{"fid": "D15:11#0", "facets": [{"subject": "Audrey", "predicate": "feeling_emotion", "object": "happy seeing her dogs together"}], "implications": []}
+{"fid": "D15:13#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "dogs mean the world to her"}], "implications": []}
+{"fid": "D15:15#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "lying on the grass with her dogs"}], "implications": []}
+{"fid": "D15:19#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "will always cherish outdoor moments with her dogs"}], "implications": []}
+{"fid": "D16:1#0", "facets": [{"subject": "Andrew", "predicate": "event_attended", "object": "new cafe (day off work)"}, {"subject": "Andrew", "predicate": "outdoor_activity", "object": "last hike (photo)"}], "implications": []}
+{"fid": "D16:2#0", "facets": [{"subject": "Audrey", "predicate": "skill_ability", "object": "dog grooming (new skill, August 2023)"}], "implications": ["This suggests Audrey continually seeks new skills specifically to deepen her bond with her dogs, reflecting how central they are to her sense of purpose."]}
+{"fid": "D16:4#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "dogs after grooming (soft and fluffy)"}], "implications": []}
+{"fid": "D16:6#0", "facets": [{"subject": "Audrey", "predicate": "education_course", "object": "dog grooming course"}], "implications": []}
+{"fid": "D16:8#0", "facets": [{"subject": "Audrey", "predicate": "skill_ability", "object": "grooming tips (gentle, sensitive areas, patience)"}], "implications": []}
+{"fid": "D16:9#0", "facets": [{"subject": "Andrew", "predicate": "goal_plan", "object": "remember Audrey's grooming tips for Toby"}], "implications": []}
+{"fid": "D16:12#0", "facets": [{"subject": "Audrey", "predicate": "goal_plan", "object": "take dogs for a weekend stroll in the park"}], "implications": []}
+{"fid": "D16:13#0", "facets": [{"subject": "Andrew", "predicate": "goal_plan", "object": "go to a nature reserve that weekend"}], "implications": []}
+{"fid": "D16:18#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "two dogs running in a field with a ball"}], "implications": []}
+{"fid": "D17:1#0", "facets": [{"subject": "Andrew", "predicate": "outdoor_activity", "object": "fishing at a nearby lake (with girlfriend)"}], "implications": []}
+{"fid": "D17:2#0", "facets": [{"subject": "Audrey", "predicate": "trip_location_visited", "object": "peaceful mountain lake with friends (years back)"}], "implications": []}
+{"fid": "D17:4#0", "facets": [{"subject": "Audrey", "predicate": "habit_routine", "object": "regular grooming: brushing, baths, nail trims"}], "implications": []}
+{"fid": "D17:6#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "caring for dogs is a big responsibility"}], "implications": []}
+{"fid": "D17:8#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "strong bond with her dogs makes her happy"}], "implications": []}
+{"fid": "D17:9#0", "facets": [{"subject": "Andrew", "predicate": "goal_plan", "object": "hopes for a strong bond with Toby like Audrey's"}], "implications": []}
+{"fid": "D17:11#0", "facets": [{"subject": "Andrew", "predicate": "pet", "object": "Toby sleeping in dog bed"}], "implications": []}
+{"fid": "D17:14#0", "facets": [{"subject": "Audrey", "predicate": "support_advice", "object": "bonding with a dog takes time, don't rush it"}], "implications": []}
+{"fid": "D17:17#0", "facets": [{"subject": "Andrew", "predicate": "pet", "object": "Toby sitting with leash on"}], "implications": []}
+{"fid": "D17:21#0", "facets": [{"subject": "Andrew", "predicate": "goal_plan", "object": "explore outdoors with Toby"}], "implications": []}
+{"fid": "D18:1#0", "facets": [{"subject": "Andrew", "predicate": "challenge_problem", "object": "work tough and stressful, outdoor time backseat"}], "implications": ["This suggests Andrew's job is increasingly crowding out the nature time he relies on for his wellbeing, risking greater stress or burnout."]}
+{"fid": "D18:4#0", "facets": [{"subject": "Audrey", "predicate": "habit_routine", "object": "one self-care activity daily"}], "implications": []}
+{"fid": "D18:5#0", "facets": [{"subject": "Andrew", "predicate": "habit_routine", "object": "small self-care habits (coffee, lunch walk)"}], "implications": []}
+{"fid": "D18:6#0", "facets": [{"subject": "Audrey", "predicate": "event_attended", "object": "doggy playdate with neighbors' dogs"}], "implications": []}
+{"fid": "D18:8#0", "facets": [{"subject": "Audrey", "predicate": "feeling_emotion", "object": "heart full (neighborhood playdate)"}], "implications": []}
+{"fid": "D18:10#0", "facets": [{"subject": "Audrey", "predicate": "possession_purchase", "object": "new beds for dogs"}], "implications": []}
+{"fid": "D18:12#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "dogs' new cozy beds (photo)"}], "implications": []}
+{"fid": "D18:14#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "dogs snuggle in new beds"}], "implications": []}
+{"fid": "D18:15#0", "facets": [{"subject": "Andrew", "predicate": "outdoor_activity", "object": "hike with beautiful sunset"}], "implications": []}
+{"fid": "D18:17#0", "facets": [{"subject": "Andrew", "predicate": "challenge_problem", "object": "difficult to hike with young Toby"}], "implications": []}
+{"fid": "D18:19#0", "facets": [{"subject": "Andrew", "predicate": "challenge_problem", "object": "still no dog-friendly place to live"}], "implications": ["This suggests Andrew's housing search has dragged on for months without resolution, making it a persistent, unresolved source of frustration."]}
+{"fid": "D19:2#0", "facets": [{"subject": "Audrey", "predicate": "challenge_problem", "object": "dog's leash broke at the park, had to chase her"}], "implications": []}
+{"fid": "D19:4#0", "facets": [{"subject": "Audrey", "predicate": "skill_ability", "object": "calming a scared dog (petting, calm speaking)"}], "implications": []}
+{"fid": "D19:6#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "building trust with dogs requires patience and training"}], "implications": []}
+{"fid": "D19:8#0", "facets": [{"subject": "Audrey", "predicate": "habit_routine", "object": "obedience training (sit, stay, shake, roll over)"}], "implications": []}
+{"fid": "D19:10#0", "facets": [{"subject": "Audrey", "predicate": "habit_routine", "object": "walks dogs multiple times a day"}], "implications": []}
+{"fid": "D19:12#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "four mutts: two Jack Russell mixes, two Chihuahua mixes"}], "implications": []}
+{"fid": "D19:15#0", "facets": [{"subject": "Andrew", "predicate": "hobby_interest", "object": "growing flowers on his balcony"}], "implications": ["This suggests Andrew is compensating for limited access to nature in the city by bringing small pieces of it into his own home."]}
+{"fid": "D19:16#0", "facets": [{"subject": "Audrey", "predicate": "hobby_interest", "object": "gardening (small garden)"}], "implications": []}
+{"fid": "D19:18#0", "facets": [{"subject": "Audrey", "predicate": "hobby_interest", "object": "garden going great (flowers, veggie patch)"}], "implications": []}
+{"fid": "D19:20#0", "facets": [{"subject": "Audrey", "predicate": "hobby_interest", "object": "Peruvian Lilies (garden flowers)"}], "implications": []}
+{"fid": "D19:22#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "Peruvian Lilies are easy to care for"}], "implications": []}
+{"fid": "D19:24#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "dogs playing in the garden"}], "implications": []}
+{"fid": "D19:26#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "dogs only play with each other"}], "implications": ["This suggests Audrey's dogs form a tight, insular pack that may be less socially open to unfamiliar dogs despite frequent park outings."]}
+{"fid": "D19:28#0", "facets": [{"subject": "Audrey", "predicate": "feeling_emotion", "object": "can't imagine life without her dogs"}], "implications": []}
+{"fid": "D19:30#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "dogs bring loads of love and happiness"}], "implications": []}
+{"fid": "D20:1#0", "facets": [{"subject": "Andrew", "predicate": "goal_plan", "object": "beach trip in November 2023 (girlfriend and Toby)"}], "implications": []}
+{"fid": "D20:2#0", "facets": [{"subject": "Audrey", "predicate": "goal_plan", "object": "hike with dogs planned for November 2023"}], "implications": []}
+{"fid": "D20:4#0", "facets": [{"subject": "Audrey", "predicate": "habit_routine", "object": "walking dogs in the park clears her mind"}, {"subject": "Audrey", "predicate": "challenge_problem", "object": "a tough time lately"}], "implications": ["Audrey's mention of a tough time lately suggests she may be experiencing personal stress unrelated to her dogs."]}
+{"fid": "D20:6#0", "facets": [{"subject": "Audrey", "predicate": "trip_location_visited", "object": "nearby dog park (grassy area, shaded spots)"}], "implications": []}
+{"fid": "D20:8#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "nature with dogs feels different from the city"}], "implications": []}
+{"fid": "D20:11#0", "facets": [{"subject": "Andrew", "predicate": "belief_value_opinion", "object": "amazed by birds flying with grace and freedom"}], "implications": []}
+{"fid": "D20:12#0", "facets": [{"subject": "Audrey", "predicate": "feeling_emotion", "object": "wishes she had the freedom birds have"}], "implications": ["This suggests Audrey may feel somewhat constrained in her own life, echoing a longing for freedom similar to Andrew's feelings about city living."]}
+{"fid": "D20:14#0", "facets": [{"subject": "Audrey", "predicate": "hobby_interest", "object": "birdwatching (wants to start)"}], "implications": []}
+{"fid": "D20:15#0", "facets": [{"subject": "Andrew", "predicate": "support_advice", "object": "gave Audrey birdwatching advice"}, {"subject": "Andrew", "predicate": "goal_plan", "object": "go birdwatching together"}], "implications": []}
+{"fid": "D20:16#0", "facets": [{"subject": "Audrey", "predicate": "book_read", "object": "bird watching guide book"}], "implications": []}
+{"fid": "D20:17#0", "facets": [{"subject": "Andrew", "predicate": "goal_plan", "object": "plan a birdwatching trip with Audrey"}], "implications": []}
+{"fid": "D20:20#0", "facets": [{"subject": "Audrey", "predicate": "goal_plan", "object": "learn common local birds (binoculars, bird book)"}], "implications": []}
+{"fid": "D20:21#0", "facets": [{"subject": "Andrew", "predicate": "goal_plan", "object": "bring binoculars and notebook for birdwatching trip"}], "implications": []}
+{"fid": "D20:23#0", "facets": [{"subject": "Andrew", "predicate": "hobby_interest", "object": "watching birds and reading ecology books"}], "implications": ["This suggests Andrew's interest in nature extends beyond recreation into genuine intellectual curiosity about how ecosystems work."]}
+{"fid": "D20:25#0", "facets": [{"subject": "Andrew", "predicate": "book_read", "object": "ecology books (animals, plants, ecosystems)"}], "implications": []}
+{"fid": "D20:27#0", "facets": [{"subject": "Andrew", "predicate": "belief_value_opinion", "object": "nature is all connected, humans need to protect it"}], "implications": []}
+{"fid": "D20:32#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "recycles for the environment"}], "implications": []}
+{"fid": "D20:33#0", "facets": [{"subject": "Andrew", "predicate": "belief_value_opinion", "object": "suggested biking/public transport to reduce footprint"}], "implications": []}
+{"fid": "D20:34#0", "facets": [{"subject": "Audrey", "predicate": "habit_routine", "object": "usually takes public transport"}, {"subject": "Audrey", "predicate": "goal_plan", "object": "try biking to reduce carbon footprint"}], "implications": []}
+{"fid": "D20:37#0", "facets": [{"subject": "Andrew", "predicate": "skill_ability", "object": "knows good biking routes near the river"}], "implications": []}
+{"fid": "D21:2#0", "facets": [{"subject": "Audrey", "predicate": "trip_location_visited", "object": "beach (dogs playing in the ocean)"}], "implications": []}
+{"fid": "D21:3#0", "facets": [{"subject": "Andrew", "predicate": "outdoor_activity", "object": "surfing (last beach trip)"}], "implications": []}
+{"fid": "D21:5#0", "facets": [{"subject": "Andrew", "predicate": "challenge_problem", "object": "hasn't been to the beach in a while, harder to hike"}], "implications": []}
+{"fid": "D21:7#0", "facets": [{"subject": "Andrew", "predicate": "feeling_emotion", "object": "void in his heart from losing his nature escape"}], "implications": ["Andrew's description of a void in his heart suggests his job and city living are causing him significant emotional strain."]}
+{"fid": "D21:8#0", "facets": [{"subject": "Audrey", "predicate": "support_advice", "object": "suggested plants at home or weekend park trips"}], "implications": []}
+{"fid": "D21:9#0", "facets": [{"subject": "Andrew", "predicate": "goal_plan", "object": "get more plants for his house"}], "implications": []}
+{"fid": "D22:1#0", "facets": [{"subject": "Audrey", "predicate": "health_condition", "object": "knee injury (couldn't walk dogs)"}], "implications": []}
+{"fid": "D22:3#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "appreciate life's little pleasures (after knee injury)"}], "implications": ["Audrey's renewed appreciation for small pleasures after her knee injury suggests the injury gave her a new perspective on gratitude."]}
+{"fid": "D22:5#0", "facets": [{"subject": "Audrey", "predicate": "creative_work", "object": "jewelry from recycled materials"}], "implications": ["This suggests environmental responsibility is a consistent thread across Audrey's habits and hobbies, not limited to recycling or transit choices."]}
+{"fid": "D22:7#0", "facets": [{"subject": "Audrey", "predicate": "hobby_interest", "object": "making and selling recycled jewelry"}], "implications": []}
+{"fid": "D22:9#0", "facets": [{"subject": "Audrey", "predicate": "volunteering_cause", "object": "donates jewelry profits to an animal shelter"}], "implications": ["This suggests Audrey feels a lingering attachment to the shelter and seeks alternative ways to stay connected to that cause."]}
+{"fid": "D22:11#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "finding ways to help the shelter despite not volunteering"}], "implications": []}
+{"fid": "D23:1#0", "facets": [{"subject": "Andrew", "predicate": "event_attended", "object": "board games night (girlfriend and Toby)"}], "implications": []}
+{"fid": "D23:2#0", "facets": [{"subject": "Audrey", "predicate": "food_drink_recipe", "object": "cookies for neighbors (pup-friendly homes)"}], "implications": []}
+{"fid": "D23:3#0", "facets": [{"subject": "Andrew", "predicate": "goal_plan", "object": "check out a cozy cafe over the weekend"}], "implications": []}
+{"fid": "D23:5#0", "facets": [{"subject": "Andrew", "predicate": "trip_location_visited", "object": "new spot with a great view and vibe"}], "implications": []}
+{"fid": "D23:7#0", "facets": [{"subject": "Andrew", "predicate": "goal_plan", "object": "suggested a nearby dog park alternative"}], "implications": []}
+{"fid": "D23:10#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "dog park is paradise for her dogs"}], "implications": []}
+{"fid": "D23:11#0", "facets": [{"subject": "Andrew", "predicate": "pet", "object": "Toby chasing a squirrel at the dog park"}], "implications": []}
+{"fid": "D23:12#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "dogs love the park but hate snow"}], "implications": []}
+{"fid": "D23:13#0", "facets": [{"subject": "Andrew", "predicate": "pet", "object": "Toby (German Shepherd, loves sweaters, very active)"}], "implications": []}
+{"fid": "D23:14#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "dogs love fetch, frisbee, and meeting pups"}], "implications": []}
+{"fid": "D23:18#0", "facets": [{"subject": "Audrey", "predicate": "possession_purchase", "object": "added flower to dog tattoo"}], "implications": []}
+{"fid": "D23:20#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "dog tattoos enough unless she gets another dog"}], "implications": []}
+{"fid": "D23:21#0", "facets": [{"subject": "Andrew", "predicate": "belief_value_opinion", "object": "a woodland path photo inspires him"}], "implications": []}
+{"fid": "D23:23#0", "facets": [{"subject": "Andrew", "predicate": "belief_value_opinion", "object": "misses nature in the city; parks/hikes feel peaceful"}], "implications": []}
+{"fid": "D23:24#0", "facets": [{"subject": "Audrey", "predicate": "challenge_problem", "object": "life crazy lately, hasn't walked dogs in a while"}], "implications": ["This suggests Audrey may be going through an unusually busy or stressful period, since walking her dogs is normally a near-daily priority for her."]}
+{"fid": "D23:26#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "hiking with dogs is great therapy"}], "implications": []}
+{"fid": "D23:28#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "fondly remembers hiking trips with her dogs"}], "implications": []}
+{"fid": "D24:1#0", "facets": [{"subject": "Audrey", "predicate": "possession_purchase", "object": "toys for dogs (pet store)"}], "implications": []}
+{"fid": "D24:2#0", "facets": [{"subject": "Andrew", "predicate": "pet", "object": "another puppy (adopted from shelter)"}], "implications": []}
+{"fid": "D24:4#0", "facets": [{"subject": "Andrew", "predicate": "pet", "object": "new puppy adjusting to Toby"}], "implications": []}
+{"fid": "D24:6#0", "facets": [{"subject": "Andrew", "predicate": "pet", "object": "Buddy (newly adopted puppy)"}], "implications": []}
+{"fid": "D24:8#0", "facets": [{"subject": "Andrew", "predicate": "outdoor_activity", "object": "walks with Buddy"}], "implications": []}
+{"fid": "D24:10#0", "facets": [{"subject": "Andrew", "predicate": "pet", "object": "Buddy loves hiking trails and nature"}], "implications": []}
+{"fid": "D24:12#0", "facets": [{"subject": "Andrew", "predicate": "goal_plan", "object": "take Toby and Buddy to the trails together"}], "implications": []}
+{"fid": "D24:13#0", "facets": [{"subject": "Audrey", "predicate": "goal_plan", "object": "hike with the dogs planned for November 2023"}], "implications": []}
+{"fid": "D24:16#0", "facets": [{"subject": "Andrew", "predicate": "feeling_emotion", "object": "wishes he could take dogs to a rural spot"}], "implications": []}
+{"fid": "D24:19#0", "facets": [{"subject": "Audrey", "predicate": "goal_plan", "object": "research a nice spot for their upcoming hike"}], "implications": []}
+{"fid": "D25:1#0", "facets": [{"subject": "Andrew", "predicate": "event_attended", "object": "wine tasting with girlfriend"}], "implications": []}
+{"fid": "D25:2#0", "facets": [{"subject": "Audrey", "predicate": "health_condition", "object": "accident at the park (cast on arm)"}], "implications": ["Audrey managing her dogs with one arm in a cast suggests the injury has made her daily dog-care routine notably more difficult."]}
+{"fid": "D25:3#0", "facets": [{"subject": "Andrew", "predicate": "food_drink_recipe", "object": "new sushi spot in town"}], "implications": []}
+{"fid": "D25:5#0", "facets": [{"subject": "Andrew", "predicate": "food_drink_recipe", "object": "tried sushi for the first time"}], "implications": ["This suggests Andrew has been generally opening himself up to new experiences during this period, beyond just outdoor activities."]}
+{"fid": "D25:6#0", "facets": [{"subject": "Audrey", "predicate": "preference_like", "object": "sushi"}], "implications": []}
+{"fid": "D25:8#0", "facets": [{"subject": "Audrey", "predicate": "support_advice", "object": "sushi tips for beginners (California/salmon roll)"}], "implications": []}
+{"fid": "D25:9#0", "facets": [{"subject": "Andrew", "predicate": "goal_plan", "object": "try California or salmon roll per Audrey's tips"}], "implications": []}
+{"fid": "D25:14#0", "facets": [{"subject": "Audrey", "predicate": "food_drink_recipe", "object": "ordering sushi for dinner"}], "implications": []}
+{"fid": "D26:1#0", "facets": [{"subject": "Audrey", "predicate": "health_condition", "object": "dogs not acting normally, animal behaviorist appointment"}], "implications": []}
+{"fid": "D26:3#0", "facets": [{"subject": "Audrey", "predicate": "support_advice", "object": "behaviorist checked dogs and gave tips"}], "implications": []}
+{"fid": "D26:5#0", "facets": [{"subject": "Audrey", "predicate": "habit_routine", "object": "positive reinforcement and routine changes (work in progress)"}], "implications": []}
+{"fid": "D26:7#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "dogs responding well to new approach"}], "implications": []}
+{"fid": "D26:9#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "devoted to keeping dogs healthy and happy"}], "implications": []}
+{"fid": "D26:11#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "two dogs having a blast (summer 2023 photo)"}], "implications": []}
+{"fid": "D26:13#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "four mutts: Pepper/Panda (Lab mixes), Precious/Pixie (Chihuahua mixes)"}], "implications": []}
+{"fid": "D26:14#0", "facets": [{"subject": "Andrew", "predicate": "trip_location_visited", "object": "national park (mountain hike with backpack, past trip)"}], "implications": []}
+{"fid": "D26:18#0", "facets": [{"subject": "Andrew", "predicate": "goal_plan", "object": "hike a nearby dog-friendly trail with great views"}], "implications": []}
+{"fid": "D26:20#0", "facets": [{"subject": "Andrew", "predicate": "event_attended", "object": "picnic date with girlfriend planned for Sunday"}, {"subject": "Andrew", "predicate": "goal_plan", "object": "hike Saturday instead"}], "implications": []}
+{"fid": "D26:21#0", "facets": [{"subject": "Audrey", "predicate": "goal_plan", "object": "agreed to Saturday hike, bring snacks"}], "implications": []}
+{"fid": "D26:26#0", "facets": [{"subject": "Andrew", "predicate": "trip_location_visited", "object": "lake near the planned trail"}], "implications": []}
+{"fid": "D26:27#0", "facets": [{"subject": "Audrey", "predicate": "other", "object": "photo of a lake found online (for the hike)"}], "implications": []}
+{"fid": "D26:29#0", "facets": [{"subject": "Audrey", "predicate": "goal_plan", "object": "hike a trail by the lake with Andrew and dogs"}], "implications": []}
+{"fid": "D26:31#0", "facets": [{"subject": "Audrey", "predicate": "friend", "object": "Andrew (lucky to have a friend who loves outdoor dog trips)"}], "implications": []}
+{"fid": "D26:32#0", "facets": [{"subject": "Andrew", "predicate": "friend", "object": "Audrey (lucky to have a friend for outdoor trips)"}], "implications": []}
+{"fid": "D26:34#0", "facets": [{"subject": "Andrew", "predicate": "trip_location_visited", "object": "forest with yellow trees near hike location"}], "implications": []}
+{"fid": "D26:36#0", "facets": [{"subject": "Andrew", "predicate": "goal_plan", "object": "visit forest with yellow autumn trees"}], "implications": []}
+{"fid": "D26:42#0", "facets": [{"subject": "Andrew", "predicate": "pet", "object": "his dog, happy on a previous hike (photo)"}], "implications": []}
+{"fid": "D27:1#0", "facets": [{"subject": "Andrew", "predicate": "outdoor_activity", "object": "bike ride with girlfriend, found a cool park"}], "implications": []}
+{"fid": "D27:2#0", "facets": [{"subject": "Audrey", "predicate": "outdoor_activity", "object": "let dogs run and get fresh air"}, {"subject": "Audrey", "predicate": "event_attended", "object": "joined a dog owners group"}], "implications": ["This suggests Audrey continues to actively seek community and new knowledge to improve her pet care, a pattern that recurs throughout her dog ownership."]}
+{"fid": "D27:4#0", "facets": [{"subject": "Audrey", "predicate": "habit_routine", "object": "meets dog owners group weekly"}], "implications": []}
+{"fid": "D27:5#0", "facets": [{"subject": "Andrew", "predicate": "goal_plan", "object": "considering another dog (unsure, two already)"}], "implications": []}
+{"fid": "D27:6#0", "facets": [{"subject": "Audrey", "predicate": "support_advice", "object": "focus on Toby and Buddy before getting more dogs"}], "implications": []}
+{"fid": "D27:7#0", "facets": [{"subject": "Andrew", "predicate": "goal_plan", "object": "focus on taking care of current dogs first"}], "implications": []}
+{"fid": "D27:9#0", "facets": [{"subject": "Andrew", "predicate": "achievement_award", "object": "managed to keep dogs while living in the city"}], "implications": ["This suggests Andrew's earlier struggles and discouragement about city dog ownership have largely resolved, marking a positive turning point."]}
+{"fid": "D27:10#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "toys and games at home key for city dogs"}], "implications": []}
+{"fid": "D27:12#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "daily socializing, exercise, mental stimulation important"}], "implications": []}
+{"fid": "D27:14#0", "facets": [{"subject": "Audrey", "predicate": "habit_routine", "object": "mental stimulation via puzzles, training, hide-and-seek"}], "implications": []}
+{"fid": "D27:18#0", "facets": [{"subject": "Audrey", "predicate": "friend", "object": "Andrew (friendship means a lot to her)"}], "implications": []}
+{"fid": "D28:1#0", "facets": [{"subject": "Audrey", "predicate": "trip_location_visited", "object": "pet salon (dogs excited)"}], "implications": []}
+{"fid": "D28:3#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "dogs freshly groomed, shiny coats"}], "implications": []}
+{"fid": "D28:6#0", "facets": [{"subject": "Andrew", "predicate": "pet", "object": "another dog adopted"}], "implications": []}
+{"fid": "D28:8#0", "facets": [{"subject": "Andrew", "predicate": "pet", "object": "Scout (newly adopted dog, named with girlfriend)"}], "implications": []}
+{"fid": "D28:10#0", "facets": [{"subject": "Andrew", "predicate": "goal_plan", "object": "take Scout, Toby, Buddy to a nearby park"}], "implications": ["Andrew now having three dogs suggests he has successfully overcome the city housing obstacles that once limited his ability to own a pet."]}
+{"fid": "D28:11#0", "facets": [{"subject": "Audrey", "predicate": "support_advice", "object": "start small, gradual exposure, keep Scout leashed"}], "implications": []}
+{"fid": "D28:12#0", "facets": [{"subject": "Andrew", "predicate": "possession_purchase", "object": "bed, toys, puppy pads for Scout"}], "implications": []}
+{"fid": "D28:13#0", "facets": [{"subject": "Audrey", "predicate": "support_advice", "object": "slowly introduce Scout to Toby and Buddy"}], "implications": []}
+{"fid": "D28:14#0", "facets": [{"subject": "Andrew", "predicate": "feeling_emotion", "object": "lucky to have Scout, enjoys multiple dogs"}], "implications": []}
+{"fid": "D28:15#0", "facets": [{"subject": "Audrey", "predicate": "pet", "object": "dogs doing great, exploring, feeling loved and safe"}], "implications": []}
+{"fid": "D28:17#0", "facets": [{"subject": "Audrey", "predicate": "belief_value_opinion", "object": "grateful for dogs as part of her family"}], "implications": []}
+{"fid": "D28:18#0", "facets": [{"subject": "Andrew", "predicate": "belief_value_opinion", "object": "dogs always there for us, lucky to have them as family"}], "implications": []}

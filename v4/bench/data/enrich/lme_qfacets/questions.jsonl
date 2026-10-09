@@ -1,0 +1,150 @@
+{"qid": "35a27287", "facets": []}
+{"qid": "ce6d2d27", "facets": [{"subject": "user", "predicate": "habit_routine"}, {"subject": "user", "predicate": "hobby_interest"}]}
+{"qid": "58ef2f1c", "facets": [{"subject": "user", "predicate": "volunteering_cause"}, {"subject": "user", "predicate": "event_attended"}]}
+{"qid": "d6233ab6", "facets": [{"subject": "user", "predicate": "feeling_emotion"}, {"subject": "user", "predicate": "event_attended"}]}
+{"qid": "94f70d80", "facets": [{"subject": "user", "predicate": "possession_purchase"}]}
+{"qid": "830ce83f", "facets": [{"subject": "Rachel", "predicate": "residence"}]}
+{"qid": "a1eacc2a", "facets": [{"subject": "user", "predicate": "creative_work"}]}
+{"qid": "fca70973", "facets": [{"subject": "user", "predicate": "trip_location_visited"}, {"subject": "user", "predicate": "hobby_interest"}]}
+{"qid": "dccbc061", "facets": [{"subject": "user", "predicate": "belief_value_opinion"}]}
+{"qid": "1e043500", "facets": [{"subject": "user", "predicate": "movie_show_music"}]}
+{"qid": "6f9b354f", "facets": [{"subject": "user", "predicate": "creative_work"}]}
+{"qid": "gpt4_65aabe59", "facets": [{"subject": "user", "predicate": "possession_purchase"}]}
+{"qid": "0edc2aef", "facets": [{"subject": "user", "predicate": "trip_location_visited"}]}
+{"qid": "21436231", "facets": [{"subject": "user", "predicate": "outdoor_activity"}, {"subject": "user", "predicate": "trip_location_visited"}]}
+{"qid": "58bf7951", "facets": [{"subject": "user", "predicate": "event_attended"}]}
+{"qid": "6071bd76", "facets": [{"subject": "user", "predicate": "food_drink_recipe"}, {"subject": "user", "predicate": "habit_routine"}]}
+{"qid": "gpt4_2d58bcd6", "facets": [{"subject": "user", "predicate": "book_read"}]}
+{"qid": "f8c5f88b", "facets": [{"subject": "user", "predicate": "possession_purchase"}, {"subject": "user", "predicate": "sport_exercise"}]}
+{"qid": "d7c942c3", "facets": [{"subject": "user", "predicate": "habit_routine"}, {"subject": "user", "predicate": "family_member"}]}
+{"qid": "e4e14d04", "facets": [{"subject": "user", "predicate": "hobby_interest"}, {"subject": "user", "predicate": "event_attended"}]}
+{"qid": "af8d2e46", "facets": [{"subject": "user", "predicate": "trip_location_visited"}]}
+{"qid": "982b5123", "facets": [{"subject": "user", "predicate": "trip_location_visited"}]}
+{"qid": "505af2f5", "facets": [{"subject": "user", "predicate": "food_drink_recipe"}]}
+{"qid": "gpt4_2487a7cb", "facets": [{"subject": "user", "predicate": "event_attended"}, {"subject": "user", "predicate": "education_course"}]}
+{"qid": "bbf86515", "facets": [{"subject": "user", "predicate": "event_attended"}]}
+{"qid": "852ce960", "facets": [{"subject": "user", "predicate": "life_event_milestone"}, {"subject": "user", "predicate": "possession_purchase"}]}
+{"qid": "38146c39", "facets": [{"subject": "user", "predicate": "food_drink_recipe"}]}
+{"qid": "57f827a0", "facets": []}
+{"qid": "8a2466db", "facets": [{"subject": "user", "predicate": "skill_ability"}, {"subject": "user", "predicate": "hobby_interest"}]}
+{"qid": "b5ef892d", "facets": [{"subject": "user", "predicate": "outdoor_activity"}, {"subject": "user", "predicate": "trip_location_visited"}]}
+{"qid": "3b6f954b", "facets": [{"subject": "user", "predicate": "education_course"}]}
+{"qid": "1903aded", "facets": []}
+{"qid": "e9327a54", "facets": []}
+{"qid": "gpt4_93159ced", "facets": [{"subject": "user", "predicate": "job_career"}]}
+{"qid": "726462e0", "facets": [{"subject": "user", "predicate": "possession_purchase"}]}
+{"qid": "d23cf73b", "facets": [{"subject": "user", "predicate": "food_drink_recipe"}, {"subject": "user", "predicate": "skill_ability"}]}
+{"qid": "gpt4_4edbafa2", "facets": [{"subject": "user", "predicate": "event_attended"}]}
+{"qid": "8ebdbe50", "facets": [{"subject": "user", "predicate": "achievement_award"}, {"subject": "user", "predicate": "education_course"}]}
+{"qid": "1a1907b4", "facets": [{"subject": "user", "predicate": "food_drink_recipe"}]}
+{"qid": "488d3006", "facets": []}
+{"qid": "51a45a95", "facets": [{"subject": "user", "predicate": "possession_purchase"}, {"subject": "user", "predicate": "food_drink_recipe"}]}
+{"qid": "1d4da289", "facets": []}
+{"qid": "7024f17c", "facets": [{"subject": "user", "predicate": "sport_exercise"}]}
+{"qid": "95228167", "facets": [{"subject": "user", "predicate": "hobby_interest"}, {"subject": "user", "predicate": "possession_purchase"}]}
+{"qid": "6ae235be", "facets": []}
+{"qid": "89941a93", "facets": [{"subject": "user", "predicate": "vehicle"}, {"subject": "user", "predicate": "possession_purchase"}]}
+{"qid": "gpt4_5dcc0aab", "facets": [{"subject": "user", "predicate": "habit_routine"}, {"subject": "user", "predicate": "possession_purchase"}]}
+{"qid": "f523d9fe", "facets": [{"subject": "user", "predicate": "movie_show_music"}]}
+{"qid": "06878be2", "facets": [{"subject": "user", "predicate": "hobby_interest"}]}
+{"qid": "8cf51dda", "facets": []}
+{"qid": "2a1811e2", "facets": [{"subject": "user", "predicate": "event_attended"}]}
+{"qid": "aae3761f", "facets": [{"subject": "user", "predicate": "trip_location_visited"}]}
+{"qid": "e47becba", "facets": [{"subject": "user", "predicate": "education_course"}, {"subject": "user", "predicate": "achievement_award"}]}
+{"qid": "7161e7e2", "facets": []}
+{"qid": "gpt4_7fce9456", "facets": [{"subject": "user", "predicate": "possession_purchase"}, {"subject": "user", "predicate": "life_event_milestone"}]}
+{"qid": "89527b6b", "facets": []}
+{"qid": "6cb6f249", "facets": [{"subject": "user", "predicate": "habit_routine"}, {"subject": "user", "predicate": "challenge_problem"}]}
+{"qid": "195a1a1b", "facets": []}
+{"qid": "6a1eabeb", "facets": [{"subject": "user", "predicate": "sport_exercise"}, {"subject": "user", "predicate": "achievement_award"}]}
+{"qid": "66f24dbb", "facets": [{"subject": "user", "predicate": "gift_given_received"}]}
+{"qid": "ceb54acb", "facets": []}
+{"qid": "c8c3f81d", "facets": [{"subject": "user", "predicate": "preference_like"}, {"subject": "user", "predicate": "sport_exercise"}, {"subject": "user", "predicate": "possession_purchase"}]}
+{"qid": "gpt4_a56e767c", "facets": [{"subject": "user", "predicate": "event_attended"}, {"subject": "user", "predicate": "movie_show_music"}]}
+{"qid": "cc539528", "facets": []}
+{"qid": "18dcd5a5", "facets": []}
+{"qid": "dc439ea3", "facets": []}
+{"qid": "gpt4_f2262a51", "facets": [{"subject": "user", "predicate": "health_condition"}]}
+{"qid": "45dc21b6", "facets": [{"subject": "user", "predicate": "food_drink_recipe"}]}
+{"qid": "88432d0a", "facets": [{"subject": "user", "predicate": "food_drink_recipe"}, {"subject": "user", "predicate": "hobby_interest"}]}
+{"qid": "2c63a862", "facets": [{"subject": "user", "predicate": "life_event_milestone"}, {"subject": "user", "predicate": "person_met"}]}
+{"qid": "184da446", "facets": [{"subject": "user", "predicate": "book_read"}]}
+{"qid": "8464fc84", "facets": []}
+{"qid": "4d6b87c8", "facets": [{"subject": "user", "predicate": "movie_show_music"}]}
+{"qid": "gpt4_2f8be40d", "facets": [{"subject": "user", "predicate": "event_attended"}]}
+{"qid": "70b3e69b", "facets": []}
+{"qid": "75832dbd", "facets": []}
+{"qid": "c8090214", "facets": [{"subject": "user", "predicate": "possession_purchase"}, {"subject": "user", "predicate": "event_attended"}]}
+{"qid": "gpt4_15e38248", "facets": [{"subject": "user", "predicate": "possession_purchase"}]}
+{"qid": "71315a70", "facets": [{"subject": "user", "predicate": "creative_work"}]}
+{"qid": "gpt4_59c863d7", "facets": [{"subject": "user", "predicate": "hobby_interest"}, {"subject": "user", "predicate": "possession_purchase"}]}
+{"qid": "07741c44", "facets": [{"subject": "user", "predicate": "habit_routine"}, {"subject": "user", "predicate": "possession_purchase"}]}
+{"qid": "5d3d2817", "facets": [{"subject": "user", "predicate": "job_career"}]}
+{"qid": "b6025781", "facets": [{"subject": "user", "predicate": "food_drink_recipe"}]}
+{"qid": "a89d7624", "facets": [{"subject": "user", "predicate": "trip_location_visited"}]}
+{"qid": "8752c811", "facets": []}
+{"qid": "54026fce", "facets": [{"subject": "user", "predicate": "colleague_mentor"}]}
+{"qid": "6b7dfb22", "facets": [{"subject": "user", "predicate": "creative_work"}, {"subject": "user", "predicate": "feeling_emotion"}]}
+{"qid": "gpt4_483dd43c", "facets": [{"subject": "user", "predicate": "movie_show_music"}]}
+{"qid": "08f4fc43", "facets": [{"subject": "user", "predicate": "event_attended"}]}
+{"qid": "4c36ccef", "facets": []}
+{"qid": "2bf43736", "facets": []}
+{"qid": "5a4f22c0", "facets": [{"subject": "Rachel", "predicate": "employer_business"}, {"subject": "Rachel", "predicate": "colleague_mentor"}]}
+{"qid": "6aeb4375", "facets": [{"subject": "user", "predicate": "food_drink_recipe"}]}
+{"qid": "f9e8c073", "facets": [{"subject": "user", "predicate": "support_advice"}, {"subject": "user", "predicate": "event_attended"}]}
+{"qid": "6ade9755", "facets": [{"subject": "user", "predicate": "sport_exercise"}, {"subject": "user", "predicate": "habit_routine"}]}
+{"qid": "d24813b1", "facets": [{"subject": "user", "predicate": "food_drink_recipe"}, {"subject": "user", "predicate": "colleague_mentor"}]}
+{"qid": "3a704032", "facets": [{"subject": "user", "predicate": "hobby_interest"}, {"subject": "user", "predicate": "possession_purchase"}]}
+{"qid": "gpt4_385a5000", "facets": [{"subject": "user", "predicate": "hobby_interest"}]}
+{"qid": "06f04340", "facets": [{"subject": "user", "predicate": "food_drink_recipe"}, {"subject": "user", "predicate": "hobby_interest"}]}
+{"qid": "80ec1f4f", "facets": [{"subject": "user", "predicate": "event_attended"}, {"subject": "user", "predicate": "trip_location_visited"}]}
+{"qid": "gpt4_2655b836", "facets": [{"subject": "user", "predicate": "vehicle"}, {"subject": "user", "predicate": "challenge_problem"}]}
+{"qid": "031748ae", "facets": [{"subject": "user", "predicate": "job_career"}]}
+{"qid": "36b9f61e", "facets": [{"subject": "user", "predicate": "possession_purchase"}]}
+{"qid": "58470ed2", "facets": []}
+{"qid": "a3838d2b", "facets": [{"subject": "user", "predicate": "volunteering_cause"}, {"subject": "user", "predicate": "event_attended"}]}
+{"qid": "caf03d32", "facets": [{"subject": "user", "predicate": "food_drink_recipe"}]}
+{"qid": "0f05491a", "facets": [{"subject": "user", "predicate": "food_drink_recipe"}, {"subject": "user", "predicate": "habit_routine"}]}
+{"qid": "118b2229", "facets": [{"subject": "user", "predicate": "job_career"}, {"subject": "user", "predicate": "habit_routine"}]}
+{"qid": "0a995998", "facets": [{"subject": "user", "predicate": "possession_purchase"}]}
+{"qid": "75f70248", "facets": [{"subject": "user", "predicate": "health_condition"}]}
+{"qid": "75499fd8", "facets": [{"subject": "user", "predicate": "pet"}]}
+{"qid": "6d550036", "facets": [{"subject": "user", "predicate": "project_work"}]}
+{"qid": "32260d93", "facets": [{"subject": "user", "predicate": "movie_show_music"}]}
+{"qid": "e493bb7c", "facets": [{"subject": "Emma Taylor", "predicate": "creative_work"}]}
+{"qid": "41698283", "facets": [{"subject": "user", "predicate": "possession_purchase"}, {"subject": "user", "predicate": "hobby_interest"}]}
+{"qid": "9ea5eabc", "facets": [{"subject": "user", "predicate": "trip_location_visited"}, {"subject": "user", "predicate": "family_member"}]}
+{"qid": "c4a1ceb8", "facets": [{"subject": "user", "predicate": "food_drink_recipe"}]}
+{"qid": "fea54f57", "facets": []}
+{"qid": "945e3d21", "facets": [{"subject": "user", "predicate": "sport_exercise"}, {"subject": "user", "predicate": "health_condition"}]}
+{"qid": "2698e78f", "facets": [{"subject": "user", "predicate": "health_condition"}, {"subject": "user", "predicate": "support_advice"}]}
+{"qid": "09d032c9", "facets": [{"subject": "user", "predicate": "challenge_problem"}, {"subject": "user", "predicate": "possession_purchase"}]}
+{"qid": "gpt4_6ed717ea", "facets": [{"subject": "user", "predicate": "possession_purchase"}, {"subject": "user", "predicate": "pet"}]}
+{"qid": "7e00a6cb", "facets": []}
+{"qid": "d682f1a2", "facets": [{"subject": "user", "predicate": "habit_routine"}, {"subject": "user", "predicate": "food_drink_recipe"}]}
+{"qid": "afdc33df", "facets": []}
+{"qid": "gpt4_76048e76", "facets": [{"subject": "user", "predicate": "vehicle"}]}
+{"qid": "7527f7e2", "facets": [{"subject": "user", "predicate": "possession_purchase"}]}
+{"qid": "b9cfe692", "facets": [{"subject": "user", "predicate": "book_read"}]}
+{"qid": "gpt4_70e84552", "facets": [{"subject": "user", "predicate": "pet"}]}
+{"qid": "gpt4_2312f94c", "facets": [{"subject": "user", "predicate": "possession_purchase"}]}
+{"qid": "e831120c", "facets": [{"subject": "user", "predicate": "movie_show_music"}]}
+{"qid": "46a3abf7", "facets": [{"subject": "user", "predicate": "pet"}, {"subject": "user", "predicate": "hobby_interest"}]}
+{"qid": "gpt4_d84a3211", "facets": [{"subject": "user", "predicate": "possession_purchase"}, {"subject": "user", "predicate": "vehicle"}]}
+{"qid": "0e5e2d1a", "facets": []}
+{"qid": "0bb5a684", "facets": [{"subject": "user", "predicate": "event_attended"}, {"subject": "user", "predicate": "education_course"}]}
+{"qid": "6b168ec8", "facets": [{"subject": "user", "predicate": "vehicle"}, {"subject": "user", "predicate": "possession_purchase"}]}
+{"qid": "f0853d11", "facets": [{"subject": "user", "predicate": "volunteering_cause"}, {"subject": "user", "predicate": "event_attended"}]}
+{"qid": "c5e8278d", "facets": [{"subject": "user", "predicate": "name_alias"}]}
+{"qid": "1da05512", "facets": [{"subject": "user", "predicate": "possession_purchase"}]}
+{"qid": "dd2973ad", "facets": [{"subject": "user", "predicate": "habit_routine"}, {"subject": "user", "predicate": "health_condition"}]}
+{"qid": "28dc39ac", "facets": [{"subject": "user", "predicate": "game_played"}]}
+{"qid": "b6019101", "facets": [{"subject": "user", "predicate": "movie_show_music"}]}
+{"qid": "c960da58", "facets": [{"subject": "user", "predicate": "movie_show_music"}]}
+{"qid": "2e6d26dc", "facets": [{"subject": "user", "predicate": "life_event_milestone"}, {"subject": "user", "predicate": "family_member"}, {"subject": "user", "predicate": "friend"}]}
+{"qid": "8aef76bc", "facets": []}
+{"qid": "71a3fd6b", "facets": []}
+{"qid": "gpt4_0b2f1d21", "facets": [{"subject": "user", "predicate": "possession_purchase"}, {"subject": "user", "predicate": "challenge_problem"}]}
+{"qid": "c4f10528", "facets": []}
+{"qid": "ad7109d1", "facets": [{"subject": "user", "predicate": "possession_purchase"}]}
+{"qid": "08e075c7", "facets": [{"subject": "user", "predicate": "possession_purchase"}, {"subject": "user", "predicate": "sport_exercise"}]}

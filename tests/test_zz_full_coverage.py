@@ -643,11 +643,10 @@ class TestServerRun:
                 assert call_kwargs[1]["port"] == 9999
 
     def test_run_http_creates_app(self):
-        mock_transport = MagicMock()
-        mock_transport.app = MagicMock()  # StreamableHTTPServerTransport.app
         with patch("uvicorn.run") as mock_uv:
-            with patch("mcp.server.streamable_http.StreamableHTTPServerTransport", return_value=mock_transport):
+            with patch("mcp.server.streamable_http_manager.StreamableHTTPSessionManager") as mock_mgr:
                 srv.run_http(host="127.0.0.1", port=9998)
+                mock_mgr.assert_called_once_with(app=srv.server, stateless=True)
                 mock_uv.assert_called_once()
                 call_kwargs = mock_uv.call_args
                 assert call_kwargs[1]["port"] == 9998
@@ -1328,10 +1327,8 @@ class TestServerRunHTTPAuth:
     """Cover server.py L834-851."""
 
     def test_run_http_with_api_key(self):
-        mock_transport = MagicMock()
-        mock_transport.app = MagicMock()
         with patch("uvicorn.run") as mock_uv:
-            with patch("mcp.server.streamable_http.StreamableHTTPServerTransport", return_value=mock_transport):
+            with patch("mcp.server.streamable_http_manager.StreamableHTTPSessionManager"):
                 with patch.dict(os.environ, {"MEMORY_API_KEY": "test-key-456"}):
                     srv.run_http(host="127.0.0.1", port=9996)
                     mock_uv.assert_called_once()

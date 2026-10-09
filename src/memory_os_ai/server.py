@@ -103,6 +103,47 @@ def _load_project_links() -> None:
             logger.warning("Failed to load project links: %s", e)
 
 
+def _replay_conversation_log() -> dict:
+    """Re-index the persistent JSONL conversation log into the live FAISS index.
+
+    The FAISS index lives in RAM only, so without this a restarted server
+    cannot search anything saved by previous processes.  Segments are built
+    exactly like memory_chat_save builds them.  Disable with
+    MEMORY_REPLAY_LOG=0.
+    """
+    if os.environ.get("MEMORY_REPLAY_LOG", "1") == "0":
+        return {"ok": True, "skipped": True}
+    log_dir = os.environ.get("MEMORY_CACHE_DIR", ".")
+    log_path = os.path.join(log_dir, "_conversation_log.jsonl")
+    if not os.path.exists(log_path):
+        return {"ok": True, "records": 0, "added_segments": 0}
+
+    segments: list[str] = []
+    records = bad = 0
+    with open(log_path, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                rec = json.loads(line)
+            except json.JSONDecodeError:
+                bad += 1
+                continue
+            records += 1
+            project_label = rec.get("project") or "conversation"
+            if rec.get("summary"):
+                segments.append(f"[summary:{project_label}] {rec['summary']}")
+            for msg in rec.get("messages") or []:
+                if isinstance(msg, dict) and msg.get("content"):
+                    segments.append(f"[{msg.get('role', 'user')}] {msg['content']}")
+
+    result = _engine.ingest_segments(segments, source_label="replay_log")
+    logger.info("Replayed %d log records (%d segments, %d bad lines)", records, len(segments), bad)
+    return {"ok": True, "records": records, "bad_lines": bad,
+            "added_segments": result.get("added_segments", 0)}
+
+
 def _save_project_links() -> None:
     """Persist project links to disk."""
     try:
@@ -841,7 +882,7 @@ def _check_api_key(request) -> bool:
     return request.headers.get("x-api-key", "") == expected
 
 
-def run_sse(host: str = "0.0.0.0", port: int = 8765):
+def run_sse(host: str = "127.0.0.1", port: int = 8765):
     """Run MCP server over SSE transport (for ChatGPT, remote clients)."""
     import uvicorn
     from starlette.applications import Starlette
@@ -892,29 +933,47 @@ def run_sse(host: str = "0.0.0.0", port: int = 8765):
     uvicorn.run(app, host=host, port=port)
 
 
-def run_http(host: str = "0.0.0.0", port: int = 8765):
-    """Run MCP server over Streamable HTTP transport."""
+def run_http(host: str = "127.0.0.1", port: int = 8765):
+    """Run MCP server over Streamable HTTP transport.
+
+    One process serves every client, so all conversations share a single
+    in-memory index.  Stateless mode: each request gets a fresh transport,
+    so clients survive a server restart without a stale session id.
+    """
+    import contextlib
+
     import uvicorn
     from starlette.applications import Starlette
+    from starlette.requests import Request
     from starlette.responses import JSONResponse
     from starlette.routing import Mount, Route
-    from mcp.server.streamable_http import StreamableHTTPServerTransport
+    from mcp.server.streamable_http_manager import StreamableHTTPSessionManager
 
-    transport = StreamableHTTPServerTransport("/mcp/")
+    session_manager = StreamableHTTPSessionManager(app=server, stateless=True)
 
-    async def handle_mcp(request):
-        if not _check_api_key(request):
-            return JSONResponse({"error": "unauthorized"}, status_code=401)
-        await transport.handle_request(request.scope, request.receive, request._send)
+    async def handle_mcp(scope, receive, send):
+        if not _check_api_key(Request(scope)):
+            await JSONResponse({"error": "unauthorized"}, status_code=401)(scope, receive, send)
+            return
+        await session_manager.handle_request(scope, receive, send)
 
     async def health(request):
-        return JSONResponse({"ok": True, "server": "memory-os-ai", "transport": "http"})
+        return JSONResponse({
+            "ok": True, "server": "memory-os-ai", "transport": "http",
+            "segments": _engine.segment_count if _engine.is_initialized else 0,
+        })
+
+    @contextlib.asynccontextmanager
+    async def lifespan(app):
+        async with session_manager.run():
+            yield
 
     app = Starlette(
         routes=[
             Route("/health", health),
-            Mount("/mcp", app=transport.app),
+            Mount("/mcp", app=handle_mcp),
         ],
+        lifespan=lifespan,
     )
     print(f"Memory OS AI — Streamable HTTP on http://{host}:{port}")
     print(f"  Health:   http://{host}:{port}/health")
@@ -928,8 +987,13 @@ def run():
     """Entry point — detect transport from CLI args."""
     import asyncio
 
-    host = os.environ.get("MEMORY_HOST", "0.0.0.0")
+    host = os.environ.get("MEMORY_HOST", "127.0.0.1")
     port = int(os.environ.get("MEMORY_PORT", "8765"))
+
+    try:
+        _replay_conversation_log()
+    except Exception as e:  # never block startup on a bad log
+        logger.warning("Conversation log replay failed: %s", e)
 
     if "--sse" in sys.argv:
         run_sse(host=host, port=port)

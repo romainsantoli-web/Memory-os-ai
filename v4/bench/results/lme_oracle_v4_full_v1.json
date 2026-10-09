@@ -1,0 +1,1586 @@
+{
+  "name": "lme_oracle_v4_full",
+  "dataset": "longmemeval_oracle",
+  "retriever": "v4",
+  "config": {
+    "top_k": 10,
+    "limit": 150,
+    "seed": 0,
+    "stratified": true,
+    "config_overrides": {
+      "full_candidate_scoring": true
+    }
+  },
+  "metadata": {
+    "date": "2026-09-12T23:22:30.585796+00:00",
+    "python": "3.11.14",
+    "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "pythonhashseed": "0"
+  },
+  "n_conversations": 150,
+  "n_questions": 150,
+  "per_category": {
+    "temporal-reasoning": {
+      "r5": 0.41333333333333333,
+      "r10": 0.5133333333333333,
+      "mrr": 0.51,
+      "ndcg10": 0.43013362658477533,
+      "n": 25
+    },
+    "multi-session": {
+      "r5": 0.38466666666666666,
+      "r10": 0.5586666666666666,
+      "mrr": 0.49977777777777777,
+      "ndcg10": 0.42804798956190054,
+      "n": 25
+    },
+    "knowledge-update": {
+      "r5": 0.84,
+      "r10": 1.0,
+      "mrr": 0.766,
+      "ndcg10": 0.7940582494520494,
+      "n": 25
+    },
+    "single-session-preference": {
+      "r5": 0.7733333333333333,
+      "r10": 0.9866666666666667,
+      "mrr": 0.5703174603174603,
+      "ndcg10": 0.6650680263886448,
+      "n": 25
+    },
+    "single-session-assistant": {
+      "r5": 0.88,
+      "r10": 0.96,
+      "mrr": 0.7323809523809524,
+      "ndcg10": 0.7885303813890874,
+      "n": 25
+    },
+    "single-session-user": {
+      "r5": 0.92,
+      "r10": 0.96,
+      "mrr": 0.7037142857142857,
+      "ndcg10": 0.7669832685170839,
+      "n": 25
+    }
+  },
+  "macro": {
+    "r5": 0.7018888888888889,
+    "r10": 0.8297777777777777,
+    "mrr": 0.6303650793650794,
+    "ndcg10": 0.6454702569822569
+  },
+  "micro": {
+    "r5": 0.7018888888888889,
+    "r10": 0.8297777777777777,
+    "mrr": 0.6303650793650794,
+    "ndcg10": 0.6454702569822569
+  },
+  "latency_ms": {
+    "p50": 22.716083971317858,
+    "p95": 50.95233296742663,
+    "mean": 27.550388909488294
+  },
+  "mean_context_tokens": 2638.48,
+  "per_question": [
+    {
+      "qid": "gpt4_2655b836",
+      "category": "temporal-reasoning",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 0.9197207891481876,
+      "latency_ms": 52.419165964238346,
+      "context_tokens": 2762.5
+    },
+    {
+      "qid": "0a995998",
+      "category": "multi-session",
+      "r5": 0.3333333333333333,
+      "r10": 0.6666666666666666,
+      "mrr": 1.0,
+      "ndcg10": 0.6049306994552042,
+      "latency_ms": 44.32083299616352,
+      "context_tokens": 3822.75
+    },
+    {
+      "qid": "6a1eabeb",
+      "category": "knowledge-update",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 0.9197207891481876,
+      "latency_ms": 37.521750025916845,
+      "context_tokens": 3982.25
+    },
+    {
+      "qid": "8a2466db",
+      "category": "single-session-preference",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 42.60179097764194,
+      "context_tokens": 4223.0
+    },
+    {
+      "qid": "7161e7e2",
+      "category": "single-session-assistant",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 46.6003330075182,
+      "context_tokens": 1611.0
+    },
+    {
+      "qid": "e47becba",
+      "category": "single-session-user",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 38.48666697740555,
+      "context_tokens": 3640.25
+    },
+    {
+      "qid": "gpt4_2487a7cb",
+      "category": "temporal-reasoning",
+      "r5": 0.0,
+      "r10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "latency_ms": 37.17512503499165,
+      "context_tokens": 0.0
+    },
+    {
+      "qid": "6d550036",
+      "category": "multi-session",
+      "r5": 0.25,
+      "r10": 0.25,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.19519002499605084,
+      "latency_ms": 54.38333301572129,
+      "context_tokens": 5825.5
+    },
+    {
+      "qid": "6aeb4375",
+      "category": "knowledge-update",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 0.9197207891481876,
+      "latency_ms": 16.987749957479537,
+      "context_tokens": 1707.25
+    },
+    {
+      "qid": "06878be2",
+      "category": "single-session-preference",
+      "r5": 0.3333333333333333,
+      "r10": 1.0,
+      "mrr": 0.25,
+      "ndcg10": 0.48580027541592796,
+      "latency_ms": 20.180042018182576,
+      "context_tokens": 2719.5
+    },
+    {
+      "qid": "c4f10528",
+      "category": "single-session-assistant",
+      "r5": 0.0,
+      "r10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "latency_ms": 39.24579202430323,
+      "context_tokens": 1326.75
+    },
+    {
+      "qid": "118b2229",
+      "category": "single-session-user",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 47.1661250339821,
+      "context_tokens": 3149.75
+    },
+    {
+      "qid": "gpt4_76048e76",
+      "category": "temporal-reasoning",
+      "r5": 0.5,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 0.8175295903539445,
+      "latency_ms": 22.594167036004364,
+      "context_tokens": 2569.0
+    },
+    {
+      "qid": "gpt4_59c863d7",
+      "category": "multi-session",
+      "r5": 0.4,
+      "r10": 0.4,
+      "mrr": 1.0,
+      "ndcg10": 0.5531464700081437,
+      "latency_ms": 22.668958990834653,
+      "context_tokens": 3485.25
+    },
+    {
+      "qid": "830ce83f",
+      "category": "knowledge-update",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 0.8854598815714874,
+      "latency_ms": 12.54437502939254,
+      "context_tokens": 1575.75
+    },
+    {
+      "qid": "75832dbd",
+      "category": "single-session-preference",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "latency_ms": 20.50991600845009,
+      "context_tokens": 3357.0
+    },
+    {
+      "qid": "89527b6b",
+      "category": "single-session-assistant",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 15.409750049002469,
+      "context_tokens": 690.75
+    },
+    {
+      "qid": "51a45a95",
+      "category": "single-session-user",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 37.72504202788696,
+      "context_tokens": 2413.25
+    },
+    {
+      "qid": "gpt4_2312f94c",
+      "category": "temporal-reasoning",
+      "r5": 0.5,
+      "r10": 0.5,
+      "mrr": 1.0,
+      "ndcg10": 0.6131471927654584,
+      "latency_ms": 36.42370901070535,
+      "context_tokens": 2888.0
+    },
+    {
+      "qid": "b5ef892d",
+      "category": "multi-session",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6509209298071326,
+      "latency_ms": 16.364374954719096,
+      "context_tokens": 2581.75
+    },
+    {
+      "qid": "852ce960",
+      "category": "knowledge-update",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 20.427083014510572,
+      "context_tokens": 2959.25
+    },
+    {
+      "qid": "0edc2aef",
+      "category": "single-session-preference",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "latency_ms": 40.624458983074874,
+      "context_tokens": 2224.5
+    },
+    {
+      "qid": "e9327a54",
+      "category": "single-session-assistant",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 39.38520804513246,
+      "context_tokens": 1876.0
+    },
+    {
+      "qid": "58bf7951",
+      "category": "single-session-user",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "latency_ms": 19.61125002708286,
+      "context_tokens": 1594.0
+    },
+    {
+      "qid": "0bb5a684",
+      "category": "temporal-reasoning",
+      "r5": 0.5,
+      "r10": 0.5,
+      "mrr": 1.0,
+      "ndcg10": 0.6131471927654584,
+      "latency_ms": 77.54641695646569,
+      "context_tokens": 3765.0
+    },
+    {
+      "qid": "e831120c",
+      "category": "multi-session",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 45.68379098782316,
+      "context_tokens": 2324.5
+    },
+    {
+      "qid": "945e3d21",
+      "category": "knowledge-update",
+      "r5": 0.5,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 0.8175295903539445,
+      "latency_ms": 18.98020796943456,
+      "context_tokens": 3911.25
+    },
+    {
+      "qid": "35a27287",
+      "category": "single-session-preference",
+      "r5": 0.6666666666666666,
+      "r10": 0.6666666666666666,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.41618115554873086,
+      "latency_ms": 19.181415962520987,
+      "context_tokens": 3845.25
+    },
+    {
+      "qid": "4c36ccef",
+      "category": "single-session-assistant",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "latency_ms": 24.33270902838558,
+      "context_tokens": 749.75
+    },
+    {
+      "qid": "1e043500",
+      "category": "single-session-user",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 26.239375001750886,
+      "context_tokens": 2129.5
+    },
+    {
+      "qid": "08f4fc43",
+      "category": "temporal-reasoning",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 15.779250010382384,
+      "context_tokens": 3966.25
+    },
+    {
+      "qid": "3a704032",
+      "category": "multi-session",
+      "r5": 0.5,
+      "r10": 0.5,
+      "mrr": 1.0,
+      "ndcg10": 0.6131471927654584,
+      "latency_ms": 20.620541006792337,
+      "context_tokens": 2608.0
+    },
+    {
+      "qid": "d7c942c3",
+      "category": "knowledge-update",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 0.9197207891481876,
+      "latency_ms": 23.821124981623143,
+      "context_tokens": 2029.25
+    },
+    {
+      "qid": "32260d93",
+      "category": "single-session-preference",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "latency_ms": 29.53333395998925,
+      "context_tokens": 3273.5
+    },
+    {
+      "qid": "6ae235be",
+      "category": "single-session-assistant",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 47.56291600642726,
+      "context_tokens": 2143.25
+    },
+    {
+      "qid": "c5e8278d",
+      "category": "single-session-user",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "latency_ms": 19.17070901254192,
+      "context_tokens": 3767.75
+    },
+    {
+      "qid": "2c63a862",
+      "category": "temporal-reasoning",
+      "r5": 0.5,
+      "r10": 0.5,
+      "mrr": 0.25,
+      "ndcg10": 0.2640681225725909,
+      "latency_ms": 44.98162498930469,
+      "context_tokens": 3329.25
+    },
+    {
+      "qid": "gpt4_d84a3211",
+      "category": "multi-session",
+      "r5": 0.0,
+      "r10": 0.25,
+      "mrr": 0.1,
+      "ndcg10": 0.11284514134893527,
+      "latency_ms": 21.568582975305617,
+      "context_tokens": 1942.25
+    },
+    {
+      "qid": "71315a70",
+      "category": "knowledge-update",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6934264036172708,
+      "latency_ms": 20.039834023918957,
+      "context_tokens": 2135.25
+    },
+    {
+      "qid": "195a1a1b",
+      "category": "single-session-preference",
+      "r5": 0.0,
+      "r10": 1.0,
+      "mrr": 0.1111111111111111,
+      "ndcg10": 0.3010299956639812,
+      "latency_ms": 34.33383296942338,
+      "context_tokens": 3266.75
+    },
+    {
+      "qid": "7e00a6cb",
+      "category": "single-session-assistant",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 41.79645801195875,
+      "context_tokens": 834.0
+    },
+    {
+      "qid": "6ade9755",
+      "category": "single-session-user",
+      "r5": 0.0,
+      "r10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "latency_ms": 27.326500043272972,
+      "context_tokens": 2162.25
+    },
+    {
+      "qid": "gpt4_385a5000",
+      "category": "temporal-reasoning",
+      "r5": 0.5,
+      "r10": 0.5,
+      "mrr": 1.0,
+      "ndcg10": 0.6131471927654584,
+      "latency_ms": 14.877250010613352,
+      "context_tokens": 1987.5
+    },
+    {
+      "qid": "aae3761f",
+      "category": "multi-session",
+      "r5": 0.3333333333333333,
+      "r10": 1.0,
+      "mrr": 0.25,
+      "ndcg10": 0.5065745439910657,
+      "latency_ms": 14.213124988600612,
+      "context_tokens": 2606.5
+    },
+    {
+      "qid": "89941a93",
+      "category": "knowledge-update",
+      "r5": 0.5,
+      "r10": 1.0,
+      "mrr": 0.2,
+      "ndcg10": 0.41443699955334395,
+      "latency_ms": 53.99712501093745,
+      "context_tokens": 2916.5
+    },
+    {
+      "qid": "afdc33df",
+      "category": "single-session-preference",
+      "r5": 0.3333333333333333,
+      "r10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6005491084563833,
+      "latency_ms": 19.7336669662036,
+      "context_tokens": 3726.5
+    },
+    {
+      "qid": "1903aded",
+      "category": "single-session-assistant",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "latency_ms": 32.297999947331846,
+      "context_tokens": 124.0
+    },
+    {
+      "qid": "6f9b354f",
+      "category": "single-session-user",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 15.820707951206714,
+      "context_tokens": 3574.75
+    },
+    {
+      "qid": "2a1811e2",
+      "category": "temporal-reasoning",
+      "r5": 0.5,
+      "r10": 0.5,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.3065735963827292,
+      "latency_ms": 41.6000839904882,
+      "context_tokens": 3532.0
+    },
+    {
+      "qid": "gpt4_f2262a51",
+      "category": "multi-session",
+      "r5": 0.0,
+      "r10": 0.2,
+      "mrr": 0.1,
+      "ndcg10": 0.09803928583135704,
+      "latency_ms": 17.562624998390675,
+      "context_tokens": 2277.25
+    },
+    {
+      "qid": "ce6d2d27",
+      "category": "knowledge-update",
+      "r5": 0.5,
+      "r10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.5912352048230277,
+      "latency_ms": 22.957874985877424,
+      "context_tokens": 2560.75
+    },
+    {
+      "qid": "caf03d32",
+      "category": "single-session-preference",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 0.9197207891481876,
+      "latency_ms": 17.15754100587219,
+      "context_tokens": 3049.25
+    },
+    {
+      "qid": "ceb54acb",
+      "category": "single-session-assistant",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 21.593915997073054,
+      "context_tokens": 286.0
+    },
+    {
+      "qid": "58ef2f1c",
+      "category": "single-session-user",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 0.25,
+      "ndcg10": 0.43067655807339306,
+      "latency_ms": 24.581875011790544,
+      "context_tokens": 3002.75
+    },
+    {
+      "qid": "bbf86515",
+      "category": "temporal-reasoning",
+      "r5": 0.5,
+      "r10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.5802792108518124,
+      "latency_ms": 21.936750039458275,
+      "context_tokens": 2713.5
+    },
+    {
+      "qid": "dd2973ad",
+      "category": "multi-session",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5437713091520254,
+      "latency_ms": 12.929082964546978,
+      "context_tokens": 2214.5
+    },
+    {
+      "qid": "9ea5eabc",
+      "category": "knowledge-update",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6934264036172708,
+      "latency_ms": 26.034999988041818,
+      "context_tokens": 3455.5
+    },
+    {
+      "qid": "54026fce",
+      "category": "single-session-preference",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "latency_ms": 15.758334018755704,
+      "context_tokens": 3551.5
+    },
+    {
+      "qid": "f523d9fe",
+      "category": "single-session-assistant",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 50.92545796651393,
+      "context_tokens": 703.25
+    },
+    {
+      "qid": "f8c5f88b",
+      "category": "single-session-user",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "latency_ms": 19.115125003736466,
+      "context_tokens": 2539.75
+    },
+    {
+      "qid": "gpt4_5dcc0aab",
+      "category": "temporal-reasoning",
+      "r5": 0.0,
+      "r10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "latency_ms": 22.63683296041563,
+      "context_tokens": 2628.0
+    },
+    {
+      "qid": "c4a1ceb8",
+      "category": "multi-session",
+      "r5": 0.25,
+      "r10": 0.25,
+      "mrr": 1.0,
+      "ndcg10": 0.3903800499921017,
+      "latency_ms": 25.15508304350078,
+      "context_tokens": 3699.5
+    },
+    {
+      "qid": "07741c44",
+      "category": "knowledge-update",
+      "r5": 0.0,
+      "r10": 1.0,
+      "mrr": 0.125,
+      "ndcg10": 0.37800210039683896,
+      "latency_ms": 51.03866697754711,
+      "context_tokens": 3236.25
+    },
+    {
+      "qid": "06f04340",
+      "category": "single-session-preference",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "latency_ms": 27.172625006642193,
+      "context_tokens": 3180.25
+    },
+    {
+      "qid": "0e5e2d1a",
+      "category": "single-session-assistant",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 42.9704170092009,
+      "context_tokens": 775.5
+    },
+    {
+      "qid": "5d3d2817",
+      "category": "single-session-user",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "latency_ms": 43.630999978631735,
+      "context_tokens": 3267.75
+    },
+    {
+      "qid": "gpt4_0b2f1d21",
+      "category": "temporal-reasoning",
+      "r5": 0.0,
+      "r10": 1.0,
+      "mrr": 0.16666666666666666,
+      "ndcg10": 0.39564672360221187,
+      "latency_ms": 25.720458012074232,
+      "context_tokens": 3318.0
+    },
+    {
+      "qid": "gpt4_a56e767c",
+      "category": "multi-session",
+      "r5": 0.16666666666666666,
+      "r10": 0.16666666666666666,
+      "mrr": 0.25,
+      "ndcg10": 0.13032376591037062,
+      "latency_ms": 26.262834027875215,
+      "context_tokens": 2839.25
+    },
+    {
+      "qid": "a1eacc2a",
+      "category": "knowledge-update",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 0.8772153153380493,
+      "latency_ms": 20.69425000809133,
+      "context_tokens": 3932.25
+    },
+    {
+      "qid": "6b7dfb22",
+      "category": "single-session-preference",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 20.74454096145928,
+      "context_tokens": 3314.0
+    },
+    {
+      "qid": "fea54f57",
+      "category": "single-session-assistant",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "latency_ms": 16.417041013482958,
+      "context_tokens": 1223.0
+    },
+    {
+      "qid": "7527f7e2",
+      "category": "single-session-user",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "latency_ms": 20.879208983387798,
+      "context_tokens": 3335.5
+    },
+    {
+      "qid": "f0853d11",
+      "category": "temporal-reasoning",
+      "r5": 0.5,
+      "r10": 0.5,
+      "mrr": 0.5,
+      "ndcg10": 0.38685280723454163,
+      "latency_ms": 15.603375039063394,
+      "context_tokens": 3391.25
+    },
+    {
+      "qid": "6cb6f249",
+      "category": "multi-session",
+      "r5": 0.5,
+      "r10": 1.0,
+      "mrr": 0.25,
+      "ndcg10": 0.448643819352159,
+      "latency_ms": 21.063624997623265,
+      "context_tokens": 4336.75
+    },
+    {
+      "qid": "184da446",
+      "category": "knowledge-update",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 43.324084021151066,
+      "context_tokens": 3544.75
+    },
+    {
+      "qid": "1a1907b4",
+      "category": "single-session-preference",
+      "r5": 0.0,
+      "r10": 1.0,
+      "mrr": 0.14285714285714285,
+      "ndcg10": 0.3333333333333333,
+      "latency_ms": 44.821874995250255,
+      "context_tokens": 2731.75
+    },
+    {
+      "qid": "cc539528",
+      "category": "single-session-assistant",
+      "r5": 0.0,
+      "r10": 1.0,
+      "mrr": 0.14285714285714285,
+      "ndcg10": 0.3333333333333333,
+      "latency_ms": 34.026124980300665,
+      "context_tokens": 1426.0
+    },
+    {
+      "qid": "c960da58",
+      "category": "single-session-user",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 18.332834006287158,
+      "context_tokens": 3184.25
+    },
+    {
+      "qid": "gpt4_6ed717ea",
+      "category": "temporal-reasoning",
+      "r5": 0.0,
+      "r10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "latency_ms": 30.28612502384931,
+      "context_tokens": 0.0
+    },
+    {
+      "qid": "46a3abf7",
+      "category": "multi-session",
+      "r5": 0.0,
+      "r10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "latency_ms": 15.619125042576343,
+      "context_tokens": 4100.75
+    },
+    {
+      "qid": "031748ae",
+      "category": "knowledge-update",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6509209298071326,
+      "latency_ms": 25.3485839930363,
+      "context_tokens": 2163.75
+    },
+    {
+      "qid": "09d032c9",
+      "category": "single-session-preference",
+      "r5": 0.0,
+      "r10": 1.0,
+      "mrr": 0.14285714285714285,
+      "ndcg10": 0.3333333333333333,
+      "latency_ms": 19.892790995072573,
+      "context_tokens": 3994.5
+    },
+    {
+      "qid": "dc439ea3",
+      "category": "single-session-assistant",
+      "r5": 0.0,
+      "r10": 1.0,
+      "mrr": 0.16666666666666666,
+      "ndcg10": 0.3562071871080222,
+      "latency_ms": 20.34579199971631,
+      "context_tokens": 1173.0
+    },
+    {
+      "qid": "3b6f954b",
+      "category": "single-session-user",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "latency_ms": 24.592417001258582,
+      "context_tokens": 3253.75
+    },
+    {
+      "qid": "gpt4_70e84552",
+      "category": "temporal-reasoning",
+      "r5": 0.0,
+      "r10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "latency_ms": 21.81579201715067,
+      "context_tokens": 0.0
+    },
+    {
+      "qid": "36b9f61e",
+      "category": "multi-session",
+      "r5": 0.0,
+      "r10": 0.6666666666666666,
+      "mrr": 0.1111111111111111,
+      "ndcg10": 0.2769189462922768,
+      "latency_ms": 22.948707977775484,
+      "context_tokens": 3793.25
+    },
+    {
+      "qid": "4d6b87c8",
+      "category": "knowledge-update",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6509209298071326,
+      "latency_ms": 30.3595419973135,
+      "context_tokens": 1804.25
+    },
+    {
+      "qid": "38146c39",
+      "category": "single-session-preference",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "latency_ms": 19.07254196703434,
+      "context_tokens": 4112.0
+    },
+    {
+      "qid": "18dcd5a5",
+      "category": "single-session-assistant",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 14.761041034944355,
+      "context_tokens": 851.5
+    },
+    {
+      "qid": "726462e0",
+      "category": "single-session-user",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 16.76508301170543,
+      "context_tokens": 3767.75
+    },
+    {
+      "qid": "a3838d2b",
+      "category": "temporal-reasoning",
+      "r5": 0.16666666666666666,
+      "r10": 0.3333333333333333,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.23877292085081492,
+      "latency_ms": 19.918917038012296,
+      "context_tokens": 2899.0
+    },
+    {
+      "qid": "28dc39ac",
+      "category": "multi-session",
+      "r5": 0.4,
+      "r10": 0.6,
+      "mrr": 0.5,
+      "ndcg10": 0.4621520097001457,
+      "latency_ms": 20.75241704005748,
+      "context_tokens": 4088.5
+    },
+    {
+      "qid": "0f05491a",
+      "category": "knowledge-update",
+      "r5": 0.5,
+      "r10": 1.0,
+      "mrr": 0.2,
+      "ndcg10": 0.42177340954886444,
+      "latency_ms": 19.28308402420953,
+      "context_tokens": 940.25
+    },
+    {
+      "qid": "d24813b1",
+      "category": "single-session-preference",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 0.25,
+      "ndcg10": 0.43067655807339306,
+      "latency_ms": 21.45541599020362,
+      "context_tokens": 3399.0
+    },
+    {
+      "qid": "488d3006",
+      "category": "single-session-assistant",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 50.95233296742663,
+      "context_tokens": 1295.25
+    },
+    {
+      "qid": "94f70d80",
+      "category": "single-session-user",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 22.31974998721853,
+      "context_tokens": 2842.0
+    },
+    {
+      "qid": "gpt4_93159ced",
+      "category": "temporal-reasoning",
+      "r5": 0.3333333333333333,
+      "r10": 0.3333333333333333,
+      "mrr": 0.5,
+      "ndcg10": 0.2960819109658652,
+      "latency_ms": 16.20162499602884,
+      "context_tokens": 3167.5
+    },
+    {
+      "qid": "gpt4_2f8be40d",
+      "category": "multi-session",
+      "r5": 0.0,
+      "r10": 0.6666666666666666,
+      "mrr": 0.16666666666666666,
+      "ndcg10": 0.3084274278260313,
+      "latency_ms": 21.85483300127089,
+      "context_tokens": 3726.25
+    },
+    {
+      "qid": "08e075c7",
+      "category": "knowledge-update",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 25.41041700169444,
+      "context_tokens": 3730.0
+    },
+    {
+      "qid": "57f827a0",
+      "category": "single-session-preference",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 20.36962501006201,
+      "context_tokens": 2886.75
+    },
+    {
+      "qid": "58470ed2",
+      "category": "single-session-assistant",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 22.716083971317858,
+      "context_tokens": 1379.0
+    },
+    {
+      "qid": "66f24dbb",
+      "category": "single-session-user",
+      "r5": 0.0,
+      "r10": 1.0,
+      "mrr": 0.14285714285714285,
+      "ndcg10": 0.3333333333333333,
+      "latency_ms": 27.562000032048672,
+      "context_tokens": 1342.75
+    },
+    {
+      "qid": "gpt4_2d58bcd6",
+      "category": "temporal-reasoning",
+      "r5": 0.0,
+      "r10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "latency_ms": 43.50629198597744,
+      "context_tokens": 0.0
+    },
+    {
+      "qid": "2e6d26dc",
+      "category": "multi-session",
+      "r5": 0.5,
+      "r10": 0.75,
+      "mrr": 0.5,
+      "ndcg10": 0.5363781864793108,
+      "latency_ms": 41.1514580482617,
+      "context_tokens": 1800.75
+    },
+    {
+      "qid": "f9e8c073",
+      "category": "knowledge-update",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 0.9197207891481876,
+      "latency_ms": 29.584291973151267,
+      "context_tokens": 3253.25
+    },
+    {
+      "qid": "95228167",
+      "category": "single-session-preference",
+      "r5": 0.0,
+      "r10": 1.0,
+      "mrr": 0.1111111111111111,
+      "ndcg10": 0.3010299956639812,
+      "latency_ms": 36.19320795405656,
+      "context_tokens": 3708.75
+    },
+    {
+      "qid": "8cf51dda",
+      "category": "single-session-assistant",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "latency_ms": 54.9922080244869,
+      "context_tokens": 560.25
+    },
+    {
+      "qid": "ad7109d1",
+      "category": "single-session-user",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 28.75737502472475,
+      "context_tokens": 3121.5
+    },
+    {
+      "qid": "gpt4_65aabe59",
+      "category": "temporal-reasoning",
+      "r5": 0.3333333333333333,
+      "r10": 0.6666666666666666,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.40179981797758046,
+      "latency_ms": 21.3832919835113,
+      "context_tokens": 3675.0
+    },
+    {
+      "qid": "gpt4_15e38248",
+      "category": "multi-session",
+      "r5": 0.4,
+      "r10": 0.6,
+      "mrr": 1.0,
+      "ndcg10": 0.6661998717660157,
+      "latency_ms": 27.951167023275048,
+      "context_tokens": 2670.0
+    },
+    {
+      "qid": "41698283",
+      "category": "knowledge-update",
+      "r5": 0.0,
+      "r10": 1.0,
+      "mrr": 0.125,
+      "ndcg10": 0.3706656904013186,
+      "latency_ms": 20.753332995809615,
+      "context_tokens": 3547.0
+    },
+    {
+      "qid": "505af2f5",
+      "category": "single-session-preference",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "latency_ms": 31.51708299992606,
+      "context_tokens": 4078.75
+    },
+    {
+      "qid": "1d4da289",
+      "category": "single-session-assistant",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 50.838666036725044,
+      "context_tokens": 894.5
+    },
+    {
+      "qid": "af8d2e46",
+      "category": "single-session-user",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 25.861250003799796,
+      "context_tokens": 3058.5
+    },
+    {
+      "qid": "982b5123",
+      "category": "temporal-reasoning",
+      "r5": 0.0,
+      "r10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "latency_ms": 21.600292006041855,
+      "context_tokens": 0.0
+    },
+    {
+      "qid": "88432d0a",
+      "category": "multi-session",
+      "r5": 0.0,
+      "r10": 0.25,
+      "mrr": 0.1,
+      "ndcg10": 0.11284514134893527,
+      "latency_ms": 24.687667028047144,
+      "context_tokens": 2794.0
+    },
+    {
+      "qid": "2698e78f",
+      "category": "knowledge-update",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 0.8503449055347546,
+      "latency_ms": 28.402250027284026,
+      "context_tokens": 2601.0
+    },
+    {
+      "qid": "75f70248",
+      "category": "single-session-preference",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 17.567374976351857,
+      "context_tokens": 2970.0
+    },
+    {
+      "qid": "8464fc84",
+      "category": "single-session-assistant",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 44.38125004526228,
+      "context_tokens": 1203.5
+    },
+    {
+      "qid": "dccbc061",
+      "category": "single-session-user",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 20.93279198743403,
+      "context_tokens": 4794.25
+    },
+    {
+      "qid": "b9cfe692",
+      "category": "temporal-reasoning",
+      "r5": 0.5,
+      "r10": 0.5,
+      "mrr": 0.5,
+      "ndcg10": 0.38685280723454163,
+      "latency_ms": 25.252250023186207,
+      "context_tokens": 2160.25
+    },
+    {
+      "qid": "80ec1f4f",
+      "category": "multi-session",
+      "r5": 0.0,
+      "r10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "latency_ms": 15.989542007446289,
+      "context_tokens": 2250.25
+    },
+    {
+      "qid": "b6019101",
+      "category": "knowledge-update",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 17.553750018123537,
+      "context_tokens": 2778.0
+    },
+    {
+      "qid": "d6233ab6",
+      "category": "single-session-preference",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 22.989917022641748,
+      "context_tokens": 3056.75
+    },
+    {
+      "qid": "8aef76bc",
+      "category": "single-session-assistant",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 42.75908297859132,
+      "context_tokens": 972.0
+    },
+    {
+      "qid": "c8c3f81d",
+      "category": "single-session-user",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "latency_ms": 17.806084011681378,
+      "context_tokens": 2742.25
+    },
+    {
+      "qid": "gpt4_4edbafa2",
+      "category": "temporal-reasoning",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 19.773417036049068,
+      "context_tokens": 1955.0
+    },
+    {
+      "qid": "d23cf73b",
+      "category": "multi-session",
+      "r5": 0.75,
+      "r10": 0.75,
+      "mrr": 1.0,
+      "ndcg10": 0.787702056960637,
+      "latency_ms": 18.69570795679465,
+      "context_tokens": 2258.0
+    },
+    {
+      "qid": "45dc21b6",
+      "category": "knowledge-update",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 15.621958009433001,
+      "context_tokens": 2760.75
+    },
+    {
+      "qid": "1da05512",
+      "category": "single-session-preference",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 0.9197207891481876,
+      "latency_ms": 20.81962500233203,
+      "context_tokens": 4036.5
+    },
+    {
+      "qid": "71a3fd6b",
+      "category": "single-session-assistant",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "latency_ms": 23.77404202707112,
+      "context_tokens": 480.5
+    },
+    {
+      "qid": "8ebdbe50",
+      "category": "single-session-user",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 18.386083014775068,
+      "context_tokens": 4240.25
+    },
+    {
+      "qid": "c8090214",
+      "category": "temporal-reasoning",
+      "r5": 0.5,
+      "r10": 0.5,
+      "mrr": 1.0,
+      "ndcg10": 0.6131471927654584,
+      "latency_ms": 17.821709043346345,
+      "context_tokens": 2615.5
+    },
+    {
+      "qid": "gpt4_7fce9456",
+      "category": "multi-session",
+      "r5": 0.16666666666666666,
+      "r10": 0.3333333333333333,
+      "mrr": 0.5,
+      "ndcg10": 0.286381299268402,
+      "latency_ms": 28.343416983261704,
+      "context_tokens": 2067.5
+    },
+    {
+      "qid": "5a4f22c0",
+      "category": "knowledge-update",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 16.746625013183802,
+      "context_tokens": 3030.5
+    },
+    {
+      "qid": "fca70973",
+      "category": "single-session-preference",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 25.16795799601823,
+      "context_tokens": 3851.75
+    },
+    {
+      "qid": "2bf43736",
+      "category": "single-session-assistant",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "latency_ms": 48.611125035677105,
+      "context_tokens": 2477.5
+    },
+    {
+      "qid": "6b168ec8",
+      "category": "single-session-user",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 19.213749968912452,
+      "context_tokens": 3902.75
+    },
+    {
+      "qid": "gpt4_483dd43c",
+      "category": "temporal-reasoning",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 18.430083990097046,
+      "context_tokens": 2977.5
+    },
+    {
+      "qid": "d682f1a2",
+      "category": "multi-session",
+      "r5": 0.6666666666666666,
+      "r10": 0.6666666666666666,
+      "mrr": 1.0,
+      "ndcg10": 0.7653606369886217,
+      "latency_ms": 27.444417006336153,
+      "context_tokens": 3668.0
+    },
+    {
+      "qid": "6071bd76",
+      "category": "knowledge-update",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 42.73116699187085,
+      "context_tokens": 2079.25
+    },
+    {
+      "qid": "b6025781",
+      "category": "single-session-preference",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 0.25,
+      "ndcg10": 0.43067655807339306,
+      "latency_ms": 24.23154201824218,
+      "context_tokens": 2818.0
+    },
+    {
+      "qid": "70b3e69b",
+      "category": "single-session-assistant",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 52.38604103215039,
+      "context_tokens": 2416.75
+    },
+    {
+      "qid": "75499fd8",
+      "category": "single-session-user",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 0.2,
+      "ndcg10": 0.38685280723454163,
+      "latency_ms": 18.173125048633665,
+      "context_tokens": 3399.25
+    },
+    {
+      "qid": "e4e14d04",
+      "category": "temporal-reasoning",
+      "r5": 0.5,
+      "r10": 0.5,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.3065735963827292,
+      "latency_ms": 20.495916018262506,
+      "context_tokens": 3158.75
+    },
+    {
+      "qid": "7024f17c",
+      "category": "multi-session",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6509209298071326,
+      "latency_ms": 14.931207988411188,
+      "context_tokens": 3253.5
+    },
+    {
+      "qid": "e493bb7c",
+      "category": "knowledge-update",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 0.8772153153380493,
+      "latency_ms": 15.67937497748062,
+      "context_tokens": 2387.75
+    },
+    {
+      "qid": "a89d7624",
+      "category": "single-session-preference",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 16.88616699539125,
+      "context_tokens": 2142.0
+    },
+    {
+      "qid": "8752c811",
+      "category": "single-session-assistant",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "latency_ms": 26.25629201065749,
+      "context_tokens": 1517.25
+    },
+    {
+      "qid": "21436231",
+      "category": "single-session-user",
+      "r5": 1.0,
+      "r10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "latency_ms": 15.457624976988882,
+      "context_tokens": 3522.5
+    }
+  ]
+}

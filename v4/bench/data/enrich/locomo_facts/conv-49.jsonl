@@ -1,0 +1,509 @@
+{"turn_id": "D1:1", "facts": [], "keywords": ["greeting", "catching up"], "entities": ["Sam", "Evan"]}
+{"turn_id": "D1:2", "facts": ["On 2023-05-18, Evan said he just got back from a trip with his family in his new Prius."], "keywords": ["family trip", "car", "prius"], "entities": ["Evan", "Prius"]}
+{"turn_id": "D1:3", "facts": ["Sam asked Evan what happened to his old Prius and where his family trip was to.", "Sam shared a photo of a person's feet on a car dashboard as the sun sets, related to Evan's road trip."], "keywords": ["car", "road trip", "sunset", "photo"], "entities": ["Sam", "Evan", "Prius"]}
+{"turn_id": "D1:4", "facts": ["Evan's old Prius broke down, so he got it repaired and sold it.", "On 2023-05-18, Evan said his family trip was to the Rockies.", "Evan shared a photo of a lake with rocks and mountains in the background from the family trip to the Rockies."], "keywords": ["prius", "car repair", "rockies", "trip", "lake", "mountains"], "entities": ["Evan", "Prius", "Rockies"]}
+{"turn_id": "D1:5", "facts": [], "keywords": ["rockies", "trip"], "entities": ["Sam", "Evan", "Rockies"]}
+{"turn_id": "D1:6", "facts": ["Evan said he and his family hiked the trails in the Rockies around 2023-05-11 (the week before 2023-05-18) and the views were amazing."], "keywords": ["hiking", "trails", "rockies", "family"], "entities": ["Evan", "Rockies"]}
+{"turn_id": "D1:7", "facts": ["Sam loves hiking but said it has been ages since Sam last went hiking.", "Sam recalled hiking with Sam's dad when Sam was ten years old, calling it great fun and a really special memory.", "Sam shared a photo of a man and a child walking through a forest, referencing the childhood hike with Sam's dad."], "keywords": ["hiking", "childhood memory", "father", "forest"], "entities": ["Sam"]}
+{"turn_id": "D1:8", "facts": [], "keywords": ["hiking", "distance"], "entities": ["Sam", "Evan"]}
+{"turn_id": "D1:9", "facts": ["Sam said the childhood hike with Sam's dad covered a good distance, which was quite a feat for Sam at the time, and remains a great memory."], "keywords": ["hiking", "childhood memory", "father"], "entities": ["Sam"]}
+{"turn_id": "D1:10", "facts": [], "keywords": ["hobbies"], "entities": ["Sam", "Evan"]}
+{"turn_id": "D1:11", "facts": ["As of 2023-05-18, Sam had no hobbies yet but was thinking about trying painting.", "Sam shared a photo of a person holding a paint set in a store, related to considering taking up painting."], "keywords": ["hobbies", "painting", "paint set"], "entities": ["Sam"]}
+{"turn_id": "D1:12", "facts": ["Evan said he loves painting."], "keywords": ["painting", "hobby"], "entities": ["Evan"]}
+{"turn_id": "D1:13", "facts": ["Sam had not tried painting yet but was keen to try it as a way to relax and be creative."], "keywords": ["painting", "relaxation", "creativity"], "entities": ["Sam"]}
+{"turn_id": "D1:14", "facts": ["Evan said painting is a great stress-buster and that he started painting a few years before 2023-05-18 (around 2020 or earlier).", "Evan shared a photo of a painting of a cactus in the desert that he made."], "keywords": ["painting", "stress relief", "cactus", "watercolor"], "entities": ["Evan"]}
+{"turn_id": "D1:15", "facts": ["Sam asked Evan how he got into watercolor painting, indicating Evan's painting hobby is watercolor painting."], "keywords": ["watercolor painting"], "entities": ["Sam", "Evan"]}
+{"turn_id": "D1:16", "facts": ["Evan was introduced to watercolor painting by a friend who gave him advice, and Evan got hooked right away."], "keywords": ["watercolor painting", "friend", "hobby origin"], "entities": ["Evan"]}
+{"turn_id": "D1:17", "facts": [], "keywords": ["painting", "passion"], "entities": ["Sam", "Evan"]}
+{"turn_id": "D1:18", "facts": [], "keywords": ["encouragement", "hobbies"], "entities": ["Evan", "Sam"]}
+{"turn_id": "D1:19", "facts": [], "keywords": ["excitement", "hobbies"], "entities": ["Sam"]}
+{"turn_id": "D1:20", "facts": [], "keywords": ["plans", "catching up"], "entities": ["Evan", "Sam"]}
+{"turn_id": "D1:21", "facts": [], "keywords": ["farewell"], "entities": ["Sam"]}
+{"turn_id": "D1:22", "facts": [], "keywords": ["farewell"], "entities": ["Evan"]}
+{"turn_id": "D2:1", "facts": ["On 2023-05-24, Evan said that the previous weekend (around 2023-05-20) he took his family on a road trip to Jasper, driving through the Icefields Parkway and seeing glaciers and lakes.", "Evan shared a photo of a person holding a book in front of a lake, taken during the Jasper road trip."], "keywords": ["road trip", "jasper", "icefields parkway", "glaciers", "family"], "entities": ["Evan", "Jasper", "Icefields Parkway"]}
+{"turn_id": "D2:2", "facts": ["Sam said she had never been to Jasper."], "keywords": ["jasper", "road trip"], "entities": ["Sam", "Jasper"]}
+{"turn_id": "D2:3", "facts": ["Evan said the Jasper road trip was relaxing, with fresh air, peacefulness, and a cozy cabin surrounded by mountains and forests that felt like a real retreat."], "keywords": ["jasper", "cabin", "relaxation", "retreat"], "entities": ["Evan", "Jasper"]}
+{"turn_id": "D2:4", "facts": ["On 2023-05-24, Sam said she had a tough week and it's important to take time for oneself and find peace."], "keywords": ["stress", "tough week", "self-care"], "entities": ["Sam"]}
+{"turn_id": "D2:5", "facts": [], "keywords": ["support", "concern"], "entities": ["Evan", "Sam"]}
+{"turn_id": "D2:6", "facts": ["Sam said she had a check-up with her doctor a few days before 2023-05-24 (around 2023-05-21), and the weight result was not great, which was eye-opening for her."], "keywords": ["doctor", "check-up", "weight", "health"], "entities": ["Sam"]}
+{"turn_id": "D2:7", "facts": [], "keywords": ["health", "support", "lifestyle change"], "entities": ["Evan", "Sam"]}
+{"turn_id": "D2:8", "facts": ["Sam said breaking old habits isn't easy and asked Evan for tips on starting to make healthier changes."], "keywords": ["habits", "health change", "advice"], "entities": ["Sam"]}
+{"turn_id": "D2:9", "facts": ["Evan said what worked for him was finding a fitness routine he really enjoys, making it fun, and making smarter diet choices."], "keywords": ["fitness routine", "diet", "healthy habits"], "entities": ["Evan"]}
+{"turn_id": "D2:10", "facts": ["Sam said she had been looking for a hobby to stay motivated and was thinking about trying painting to help her de-stress."], "keywords": ["painting", "de-stress", "motivation"], "entities": ["Sam"]}
+{"turn_id": "D2:11", "facts": ["Evan said painting is a great way to relieve stress and be creative, that he has been painting for a few years, and recommended Sam also exercise since painting alone won't help with weight."], "keywords": ["painting", "stress relief", "exercise", "weight"], "entities": ["Evan", "Sam"]}
+{"turn_id": "D2:12", "facts": ["Sam said she would try painting and let Evan know how it turns out."], "keywords": ["painting", "plans"], "entities": ["Sam"]}
+{"turn_id": "D2:13", "facts": [], "keywords": ["encouragement", "painting"], "entities": ["Evan", "Sam"]}
+{"turn_id": "D2:14", "facts": [], "keywords": ["painting", "relaxation"], "entities": ["Sam"]}
+{"turn_id": "D2:15", "facts": [], "keywords": ["encouragement"], "entities": ["Evan"]}
+{"turn_id": "D2:16", "facts": [], "keywords": ["farewell"], "entities": ["Sam"]}
+{"turn_id": "D2:17", "facts": [], "keywords": ["farewell"], "entities": ["Evan"]}
+{"turn_id": "D3:1", "facts": ["On 2023-06-06, Evan said he had a health scare the previous week (around 2023-05-30): a sudden heart palpitation incident that shook him up and was a wake-up call about his lifestyle.", "Evan shared a photo of a person holding a bottle of medicine in their hand, related to his heart palpitation health scare."], "keywords": ["health scare", "heart palpitations", "wake-up call", "medicine"], "entities": ["Evan"]}
+{"turn_id": "D3:2", "facts": ["On 2023-06-06, Sam said she was trying to eat healthier these days.", "Sam shared a photo of a plate of vegetables and a glass of milk."], "keywords": ["healthy eating", "diet", "vegetables"], "entities": ["Sam"]}
+{"turn_id": "D3:3", "facts": ["Evan said he is being extra careful with his health lately, trying to eat less processed food and sugary snacks, even though he loves ginger snaps."], "keywords": ["healthy eating", "processed food", "ginger snaps"], "entities": ["Evan"]}
+{"turn_id": "D3:4", "facts": ["Sam said she had made no changes to her diet yet and was still enjoying soda and candy despite knowing it's not the best habit."], "keywords": ["diet", "soda", "candy", "bad habits"], "entities": ["Sam"]}
+{"turn_id": "D3:5", "facts": ["Evan suggested Sam swap soda for flavored seltzer water and candy for dark chocolate with high cocoa content as healthier alternatives."], "keywords": ["healthy swaps", "seltzer water", "dark chocolate", "diet advice"], "entities": ["Evan", "Sam"]}
+{"turn_id": "D3:6", "facts": ["Sam agreed to try swapping soda for seltzer water and candy for dark chocolate."], "keywords": ["healthy swaps", "diet"], "entities": ["Sam"]}
+{"turn_id": "D3:7", "facts": [], "keywords": ["encouragement", "healthy habits"], "entities": ["Evan"]}
+{"turn_id": "D3:8", "facts": [], "keywords": ["gratitude"], "entities": ["Sam"]}
+{"turn_id": "D3:9", "facts": [], "keywords": ["support", "health journey"], "entities": ["Evan", "Sam"]}
+{"turn_id": "D3:10", "facts": [], "keywords": ["progress", "health journey"], "entities": ["Sam"]}
+{"turn_id": "D3:11", "facts": [], "keywords": ["encouragement"], "entities": ["Evan"]}
+{"turn_id": "D3:12", "facts": ["Sam said she appreciates having Evan's support on her health journey."], "keywords": ["support", "gratitude", "health journey"], "entities": ["Sam", "Evan"]}
+{"turn_id": "D3:13", "facts": ["Evan said exercise clears the mind and is amazing.", "Evan shared a photo of a bearded man holding a dumbbell."], "keywords": ["exercise", "workout", "mental clarity"], "entities": ["Evan"]}
+{"turn_id": "D3:14", "facts": ["Sam asked Evan for help getting started with exercising."], "keywords": ["exercise", "help", "getting started"], "entities": ["Sam"]}
+{"turn_id": "D3:15", "facts": ["Evan agreed to meet with Sam and show her some basic exercises to get started."], "keywords": ["exercise", "plans", "help"], "entities": ["Evan", "Sam"]}
+{"turn_id": "D3:16", "facts": ["On 2023-06-06, Sam said she had a frustrating experience at the supermarket because the self-checkout machines were all broken, putting her in a terrible mood."], "keywords": ["supermarket", "self-checkout", "frustration"], "entities": ["Sam"]}
+{"turn_id": "D3:17", "facts": [], "keywords": ["sympathy"], "entities": ["Evan"]}
+{"turn_id": "D3:18", "facts": [], "keywords": ["farewell"], "entities": ["Sam"]}
+{"turn_id": "D4:1", "facts": ["On 2023-07-27, Sam said her friends mocked her weight the previous Friday (around 2023-07-21), which hurt her and made her realize she needs to make changes."], "keywords": ["weight", "bullying", "friends", "hurt"], "entities": ["Sam"]}
+{"turn_id": "D4:2", "facts": [], "keywords": ["support", "progress"], "entities": ["Evan", "Sam"]}
+{"turn_id": "D4:3", "facts": ["Sam said she is working on her health and getting active."], "keywords": ["health", "activity", "progress"], "entities": ["Sam"]}
+{"turn_id": "D4:4", "facts": ["Evan said he struggled with his health a few years before 2023-07-27 but stuck with it, and mentioned diet and lifestyle changes matter as much as exercise.", "Evan shared a photo of his gym membership card as a reminder of his commitment to health."], "keywords": ["health struggle", "gym membership", "lifestyle change"], "entities": ["Evan"]}
+{"turn_id": "D4:5", "facts": [], "keywords": ["health journey", "impact"], "entities": ["Sam", "Evan"]}
+{"turn_id": "D4:6", "facts": ["Evan said cutting down on sugary snacks and eating more veggies and fruit made a big impact on his health.", "Evan shared a photo of a table full of fresh produce and vegetables."], "keywords": ["diet", "vegetables", "fruit", "sugary snacks"], "entities": ["Evan"]}
+{"turn_id": "D4:7", "facts": ["Sam said she is reducing her soda and candy intake and is determined to make a change even though it's tough."], "keywords": ["soda", "candy", "diet change"], "entities": ["Sam"]}
+{"turn_id": "D4:8", "facts": ["Evan suggested Sam try flavored seltzer water instead of soda.", "On 2023-07-27, Evan said he can't stop thinking about a new mystery novel he started, calling it gripping.", "Evan shared a photo of a table with a variety of sodas and water bottles."], "keywords": ["seltzer water", "mystery novel", "reading"], "entities": ["Evan"]}
+{"turn_id": "D4:9", "facts": ["Sam asked Evan for low-calorie snack ideas to pair with seltzer water and asked what novel he was reading."], "keywords": ["low-calorie snacks", "novel"], "entities": ["Sam"]}
+{"turn_id": "D4:10", "facts": ["Evan suggested pairing flavored seltzer with air-popped popcorn or fruit as a healthy snack.", "Evan said the novel he is reading is 'The Great Gatsby'.", "Evan shared a photo of a table with bowls of fruit and a bottle of alcohol."], "keywords": ["popcorn", "fruit", "the great gatsby", "novel"], "entities": ["Evan", "The Great Gatsby"]}
+{"turn_id": "D4:11", "facts": ["Sam said she would read 'The Great Gatsby' sometime."], "keywords": ["reading plans", "the great gatsby"], "entities": ["Sam", "The Great Gatsby"]}
+{"turn_id": "D4:12", "facts": ["Evan shared a photo of a book with a green apple next to it, encouraging Sam to focus on healthy swaps and small steps."], "keywords": ["healthy swaps", "small steps", "book"], "entities": ["Evan"]}
+{"turn_id": "D4:13", "facts": ["Sam said she was inspired to focus on progress, not perfection, in her health journey."], "keywords": ["progress", "motivation", "health journey"], "entities": ["Sam"]}
+{"turn_id": "D4:14", "facts": ["Evan asked Sam if she had thought about exercising, saying it's as important as eating right.", "Evan shared a photo of a woman with a backpack on a mountain."], "keywords": ["exercise", "hiking", "health advice"], "entities": ["Evan"]}
+{"turn_id": "D4:15", "facts": ["On 2023-07-27, Sam said she would start going to the gym and exercising regularly starting the next day (around 2023-07-28)."], "keywords": ["gym", "exercise plans"], "entities": ["Sam"]}
+{"turn_id": "D4:16", "facts": [], "keywords": ["encouragement", "exercise"], "entities": ["Evan"]}
+{"turn_id": "D4:17", "facts": [], "keywords": ["gratitude", "support"], "entities": ["Sam"]}
+{"turn_id": "D4:18", "facts": [], "keywords": ["encouragement"], "entities": ["Evan"]}
+{"turn_id": "D4:19", "facts": [], "keywords": ["gratitude"], "entities": ["Sam"]}
+{"turn_id": "D4:20", "facts": [], "keywords": ["support"], "entities": ["Evan"]}
+{"turn_id": "D5:1", "facts": ["On 2023-08-07, Evan said that the previous week (around 2023-07-31) he went on a trip to Canada and met a Canadian woman he described as awesome, saying being with her makes him feel alive.", "Evan shared a photo of a couple walking through the snow holding hands."], "keywords": ["canada trip", "new relationship", "girlfriend"], "entities": ["Evan", "Canada"]}
+{"turn_id": "D5:2", "facts": ["Sam congratulated Evan on meeting the Canadian woman and expressed sympathy about his ongoing health issues.", "Sam shared a photo of a person walking on the beach with a surfboard."], "keywords": ["congratulations", "relationship", "health issues", "beach"], "entities": ["Sam", "Evan"]}
+{"turn_id": "D5:3", "facts": ["Evan said every moment with the Canadian woman he met is fun and energizing, especially after dealing with health issues.", "Evan shared a photo of a container of cookies on a counter."], "keywords": ["relationship", "health issues", "cookies"], "entities": ["Evan"]}
+{"turn_id": "D5:4", "facts": [], "keywords": ["health challenges"], "entities": ["Sam"]}
+{"turn_id": "D5:5", "facts": ["Evan said ginger snaps are his weakness, and dealing with health issues has made him appreciate good moments more.", "Evan shared a photo of a woman and a child playing on a swing set, referring to his kids."], "keywords": ["ginger snaps", "health issues", "kids", "gratitude"], "entities": ["Evan"]}
+{"turn_id": "D5:6", "facts": ["Sam asked Evan how long he had been prioritizing his health."], "keywords": ["health", "kids"], "entities": ["Sam", "Evan"]}
+{"turn_id": "D5:7", "facts": ["As of 2023-08-07, Evan said he had been working on his health for two years (since around 2021), with ups and downs along the way.", "Evan shared a photo of a box with a fitness watch in it."], "keywords": ["health journey", "fitness watch", "two years"], "entities": ["Evan"]}
+{"turn_id": "D5:8", "facts": ["Sam said she was thinking of ordering a fitness watch similar to Evan's."], "keywords": ["fitness watch", "shopping"], "entities": ["Sam"]}
+{"turn_id": "D5:9", "facts": ["Evan said his family motivates him to stay healthy, and his fitness watch tracks his progress and serves as a constant reminder to keep going.", "Evan shared a photo of a person's wrist with a smart watch on it."], "keywords": ["fitness watch", "family motivation", "health goals"], "entities": ["Evan"]}
+{"turn_id": "D5:10", "facts": [], "keywords": ["fitness watch", "progress tracking"], "entities": ["Sam"]}
+{"turn_id": "D5:11", "facts": ["Evan said the visual reminder from his fitness watch has been really motivating."], "keywords": ["fitness watch", "motivation"], "entities": ["Evan"]}
+{"turn_id": "D5:12", "facts": [], "keywords": ["motivation"], "entities": ["Sam"]}
+{"turn_id": "D5:13", "facts": ["Evan said he is motivated by a thirst for adventure on interesting hikes.", "Evan shared a photo of a small island with a lone boat in the water."], "keywords": ["hiking", "adventure", "motivation"], "entities": ["Evan"]}
+{"turn_id": "D5:14", "facts": [], "keywords": ["motivation", "view"], "entities": ["Sam"]}
+{"turn_id": "D5:15", "facts": ["Evan shared a photo of a bonsai tree in a black vase on a wooden table, saying finding something that motivates and makes you happy helps conquer struggles."], "keywords": ["bonsai tree", "motivation"], "entities": ["Evan"]}
+{"turn_id": "D5:16", "facts": [], "keywords": ["bonsai tree"], "entities": ["Sam"]}
+{"turn_id": "D5:17", "facts": ["Evan said he got a bonsai tree because it symbolizes strength and resilience, and taking care of it motivates him through tough times."], "keywords": ["bonsai tree", "strength", "resilience"], "entities": ["Evan"]}
+{"turn_id": "D5:18", "facts": [], "keywords": ["bonsai tree", "resilience"], "entities": ["Sam"]}
+{"turn_id": "D5:19", "facts": [], "keywords": ["resilience"], "entities": ["Evan"]}
+{"turn_id": "D5:20", "facts": [], "keywords": ["resilience", "small steps"], "entities": ["Sam"]}
+{"turn_id": "D5:21", "facts": [], "keywords": ["self-care"], "entities": ["Evan"]}
+{"turn_id": "D5:22", "facts": [], "keywords": ["consistency", "small steps"], "entities": ["Sam"]}
+{"turn_id": "D5:23", "facts": [], "keywords": ["consistency", "perseverance"], "entities": ["Evan"]}
+{"turn_id": "D5:24", "facts": [], "keywords": ["farewell"], "entities": ["Sam"]}
+{"turn_id": "D5:25", "facts": [], "keywords": ["farewell"], "entities": ["Evan"]}
+{"turn_id": "D6:1", "facts": ["On 2023-08-13, Evan said he just got back from a vacation with his new significant other in Canada, where they did activities like hiking and biking and enjoyed exploring the outdoors together.", "Evan shared a photo of a tent pitched up in a grassy field from the Canada vacation with his new SO."], "keywords": ["canada", "vacation", "hiking", "biking", "girlfriend", "camping"], "entities": ["Evan", "Canada"]}
+{"turn_id": "D6:2", "facts": ["On 2023-08-13, Sam said things had been a bit challenging for her lately, with some issues hard on her health."], "keywords": ["health issues", "challenges"], "entities": ["Sam"]}
+{"turn_id": "D6:3", "facts": [], "keywords": ["support", "health issues"], "entities": ["Evan", "Sam"]}
+{"turn_id": "D6:4", "facts": ["Sam said Evan's support means a lot to her and helps her stay positive.", "Sam shared a photo of a notepad with a pen and a note on it."], "keywords": ["support", "positivity", "notepad"], "entities": ["Sam", "Evan"]}
+{"turn_id": "D6:5", "facts": [], "keywords": ["motivation", "note"], "entities": ["Evan"]}
+{"turn_id": "D6:6", "facts": ["Sam said she has a quote that has been helping her stay motivated, reminding her that progress is more important than perfection and that small steps toward a healthier life still count as progress."], "keywords": ["motivational quote", "progress", "perfection"], "entities": ["Sam"]}
+{"turn_id": "D6:7", "facts": [], "keywords": ["motivational quote", "mindset"], "entities": ["Evan"]}
+{"turn_id": "D6:8", "facts": ["Sam's motivational quote that helps her move toward healthier habits is: \"Don't fear it, just take the first step.\""], "keywords": ["motivational quote", "healthier habits"], "entities": ["Sam"]}
+{"turn_id": "D6:9", "facts": ["Evan said Sam's quote, \"Don't fear it, just take the first step,\" also helps him."], "keywords": ["motivational quote"], "entities": ["Evan"]}
+{"turn_id": "D6:10", "facts": [], "keywords": ["challenges"], "entities": ["Sam"]}
+{"turn_id": "D6:11", "facts": [], "keywords": ["small wins", "encouragement"], "entities": ["Evan"]}
+{"turn_id": "D6:12", "facts": ["Sam said celebrating small wins is crucial and keeps her motivated amid challenges and setbacks."], "keywords": ["small wins", "motivation"], "entities": ["Sam"]}
+{"turn_id": "D6:13", "facts": ["On 2023-08-13, Evan said he had been searching for his keys for the last half hour with no luck, and joked he loses them every week."], "keywords": ["lost keys", "frustration"], "entities": ["Evan"]}
+{"turn_id": "D6:14", "facts": ["On 2023-08-13 (night before), Sam had a dream about soaring over skyscrapers, which felt incredible and made her wonder what it signifies."], "keywords": ["dream", "skyscrapers", "flying"], "entities": ["Sam"]}
+{"turn_id": "D6:15", "facts": ["Evan suggested Sam check out a dream interpretation book for insights into her flying dream."], "keywords": ["dream interpretation", "book"], "entities": ["Evan"]}
+{"turn_id": "D6:16", "facts": ["Sam said her health journey feels endless at times but she is convinced it will be rewarding in the end."], "keywords": ["health journey", "perseverance"], "entities": ["Sam"]}
+{"turn_id": "D6:17", "facts": [], "keywords": ["lost keys", "perseverance"], "entities": ["Evan"]}
+{"turn_id": "D6:18", "facts": [], "keywords": ["agreement"], "entities": ["Sam"]}
+{"turn_id": "D6:19", "facts": [], "keywords": ["farewell"], "entities": ["Evan"]}
+{"turn_id": "D7:1", "facts": ["On 2023-08-15, Evan said his son had a soccer accident the previous Saturday (around 2023-08-12) and hurt his ankle, and Evan has been looking after him and taking him to the doctor.", "Evan shared a photo of a person with a cast on their foot, referring to his son's soccer injury."], "keywords": ["son", "soccer accident", "ankle injury", "doctor"], "entities": ["Evan"]}
+{"turn_id": "D7:2", "facts": ["On 2023-08-15, Sam said she had a tough week and a doctor's appointment that was a wake-up call to take better care of herself.", "Sam said she started taking a cooking class to learn how to make healthier meals."], "keywords": ["doctor appointment", "cooking class", "healthy meals"], "entities": ["Sam"]}
+{"turn_id": "D7:3", "facts": [], "keywords": ["cooking class", "healthy recipes"], "entities": ["Evan"]}
+{"turn_id": "D7:4", "facts": ["On 2023-08-15, Sam said her cooking class has been great and she made a yummy grilled dish (salmon and vegetables) the night before.", "Sam shared a photo of a plate of food with salmon and vegetables."], "keywords": ["cooking class", "grilled salmon", "vegetables"], "entities": ["Sam"]}
+{"turn_id": "D7:5", "facts": [], "keywords": ["recipe", "healthy eating"], "entities": ["Evan"]}
+{"turn_id": "D7:6", "facts": ["Sam said she marinated her grilled dish with a few different ingredients and grilled it with veggies, and offered to share more cooking class recipes with Evan."], "keywords": ["marinade", "recipe", "grilling"], "entities": ["Sam"]}
+{"turn_id": "D7:7", "facts": ["Evan said he wants to add more vegetables to his meals and asked Sam for vegetable recipes."], "keywords": ["vegetables", "recipe request"], "entities": ["Evan"]}
+{"turn_id": "D7:8", "facts": ["Sam said she has a tasty and easy roasted vegetable recipe she can share with Evan."], "keywords": ["roasted vegetables", "recipe"], "entities": ["Sam"]}
+{"turn_id": "D7:9", "facts": ["Evan said his son's ankle (from the soccer accident) is getting better but still sore, and it was nothing serious."], "keywords": ["son", "ankle injury", "recovery"], "entities": ["Evan"]}
+{"turn_id": "D7:10", "facts": [], "keywords": ["health", "support"], "entities": ["Sam"]}
+{"turn_id": "D7:11", "facts": [], "keywords": ["self-care"], "entities": ["Evan"]}
+{"turn_id": "D7:12", "facts": ["On 2023-08-15, Sam said she felt a mix of emotions, somewhat concerned about her health but also motivated to make positive changes, taking things one step at a time."], "keywords": ["mixed emotions", "health concern", "motivation"], "entities": ["Sam"]}
+{"turn_id": "D7:13", "facts": [], "keywords": ["encouragement"], "entities": ["Evan"]}
+{"turn_id": "D7:14", "facts": [], "keywords": ["gratitude", "encouragement"], "entities": ["Sam"]}
+{"turn_id": "D7:15", "facts": [], "keywords": ["encouragement"], "entities": ["Evan"]}
+{"turn_id": "D7:16", "facts": [], "keywords": ["gratitude"], "entities": ["Sam"]}
+{"turn_id": "D8:1", "facts": ["On 2023-08-19, Sam announced she is on a diet and living healthier, saying it's been tough but she's determined.", "Sam shared a photo of a bowl of spinach, avocado, and strawberries."], "keywords": ["diet", "healthy living", "spinach", "avocado"], "entities": ["Sam"]}
+{"turn_id": "D8:2", "facts": [], "keywords": ["diet", "encouragement"], "entities": ["Evan"]}
+{"turn_id": "D8:3", "facts": [], "keywords": ["diet", "determination"], "entities": ["Sam"]}
+{"turn_id": "D8:4", "facts": [], "keywords": ["encouragement", "diet"], "entities": ["Evan"]}
+{"turn_id": "D8:5", "facts": ["Sam said her diet has brought positive changes, such as more energy and less sluggishness after eating."], "keywords": ["diet results", "energy", "positive change"], "entities": ["Sam"]}
+{"turn_id": "D8:6", "facts": [], "keywords": ["encouragement", "recipes"], "entities": ["Evan"]}
+{"turn_id": "D8:7", "facts": ["Sam shared a flavorful and healthy grilled chicken and veggie stir-fry recipe she found and loves.", "Sam shared a photo of two bowls of food with chopsticks and sauce."], "keywords": ["grilled chicken", "stir-fry", "recipe"], "entities": ["Sam"]}
+{"turn_id": "D8:8", "facts": [], "keywords": ["sauce", "recipe"], "entities": ["Evan"]}
+{"turn_id": "D8:9", "facts": ["Sam said the stir-fry sauce is her own homemade sauce."], "keywords": ["homemade sauce", "recipe"], "entities": ["Sam"]}
+{"turn_id": "D8:10", "facts": [], "keywords": ["recipe", "gratitude"], "entities": ["Evan"]}
+{"turn_id": "D8:11", "facts": ["Sam shared her stir-fry recipe with Evan via a photo of a recipe card with a drawing of a vase of flowers."], "keywords": ["recipe card", "stir-fry"], "entities": ["Sam"]}
+{"turn_id": "D8:12", "facts": ["On 2023-08-19, Evan said he started taking painting classes a few days earlier (around 2023-08-16) and is really enjoying them."], "keywords": ["painting classes", "new hobby"], "entities": ["Evan"]}
+{"turn_id": "D8:13", "facts": ["Sam asked Evan why he decided to join a painting class since he's already good at drawing, and asked why he started painting years ago."], "keywords": ["painting class", "drawing skill"], "entities": ["Sam", "Evan"]}
+{"turn_id": "D8:14", "facts": ["Evan said he started painting after a friend gave him a painting one day that inspired him, and he joined painting classes to find like-minded people and keep improving his skills.", "Evan shared a photo of a painting of a forest scene on an easel."], "keywords": ["painting origin", "friend", "painting classes", "forest scene"], "entities": ["Evan"]}
+{"turn_id": "D8:15", "facts": [], "keywords": ["talent", "classes"], "entities": ["Sam"]}
+{"turn_id": "D8:16", "facts": ["Evan said he has only taken the current painting classes so far, but might look into other classes, since painting helps him find peace and express himself.", "Evan shared a photo of a brush, pencil, and eyeliners on a cloth."], "keywords": ["painting classes", "self-expression", "art supplies"], "entities": ["Evan"]}
+{"turn_id": "D8:17", "facts": [], "keywords": ["painting classes", "learning"], "entities": ["Sam"]}
+{"turn_id": "D8:18", "facts": ["Evan said his painting classes have been teaching watercolors, with the instructor stressing observing nature and painting what you see, calling it a relaxing break from everyday stress.", "Evan shared a photo of a table with a bunch of watercolors on it."], "keywords": ["watercolor painting", "painting instructor", "nature", "stress relief"], "entities": ["Evan"]}
+{"turn_id": "D8:19", "facts": [], "keywords": ["nature painting"], "entities": ["Sam"]}
+{"turn_id": "D8:20", "facts": ["Evan said he loves painting landscapes because nature's beauty captivates him and brings him peace.", "Evan shared a photo of one of his recent paintings, a sunset over the ocean."], "keywords": ["landscape painting", "sunset", "ocean", "nature"], "entities": ["Evan"]}
+{"turn_id": "D8:21", "facts": [], "keywords": ["painting", "colors"], "entities": ["Sam"]}
+{"turn_id": "D8:22", "facts": ["Evan said he aims to capture the vibe of nature in his paintings, conveying the peacefulness of being outdoors.", "Evan shared a photo of a tree with pink flowers in a field."], "keywords": ["painting style", "nature", "peacefulness"], "entities": ["Evan"]}
+{"turn_id": "D8:23", "facts": [], "keywords": ["nature", "outdoors"], "entities": ["Sam"]}
+{"turn_id": "D8:24", "facts": ["Evan said being in forest-like places brings back memories of road tripping in his trusty car.", "Evan shared a photo of a truck parked in the middle of a forest."], "keywords": ["road trip", "truck", "forest", "memories"], "entities": ["Evan"]}
+{"turn_id": "D8:25", "facts": [], "keywords": ["road trip"], "entities": ["Sam"]}
+{"turn_id": "D8:26", "facts": ["Evan said that around July 2023 (the month before 2023-08-19) he drove somewhere fun with amazing views.", "Evan shared a photo of a person on skis on a snowy trail."], "keywords": ["road trip", "skiing", "views"], "entities": ["Evan"]}
+{"turn_id": "D8:27", "facts": ["Sam asked Evan if he skied in Banff during his trip."], "keywords": ["banff", "skiing"], "entities": ["Sam", "Banff"]}
+{"turn_id": "D8:28", "facts": ["Evan said skiing was great on that trip, with amazing snow, and he can't wait to go back next year.", "Evan shared a photo of a group of people skiing down a snow-covered slope."], "keywords": ["skiing", "snow", "winter sports"], "entities": ["Evan"]}
+{"turn_id": "D8:29", "facts": ["Sam said she'd love to try skiing but isn't sure her body can handle it."], "keywords": ["skiing", "physical limitations"], "entities": ["Sam"]}
+{"turn_id": "D8:30", "facts": ["Evan said skiing, snowboarding, and ice skating are winter activities he enjoys."], "keywords": ["skiing", "snowboarding", "ice skating"], "entities": ["Evan"]}
+{"turn_id": "D8:31", "facts": [], "keywords": ["winter sports"], "entities": ["Sam"]}
+{"turn_id": "D8:32", "facts": [], "keywords": ["winter sports", "invitation"], "entities": ["Evan"]}
+{"turn_id": "D8:33", "facts": ["Sam indicated she has a physical condition that makes winter sports like skiing hard for her, and thanked Evan for being understanding about it."], "keywords": ["physical limitations", "understanding"], "entities": ["Sam"]}
+{"turn_id": "D9:1", "facts": ["On 2023-08-27, Sam said she started a new diet and exercise routine the previous Monday (around 2023-08-21) and it made a huge difference, making her feel great."], "keywords": ["diet", "exercise routine", "new habits"], "entities": ["Sam"]}
+{"turn_id": "D9:2", "facts": ["Evan said he twisted his knee the previous Friday (around 2023-08-25), which has been painful and made it tough to stay consistent with his fitness routine."], "keywords": ["knee injury", "fitness routine", "frustration"], "entities": ["Evan"]}
+{"turn_id": "D9:3", "facts": [], "keywords": ["sympathy", "knee injury"], "entities": ["Sam"]}
+{"turn_id": "D9:4", "facts": ["Evan said the mystery novel he had been reading (The Great Gatsby) keeps getting better with every page."], "keywords": ["the great gatsby", "reading"], "entities": ["Evan", "The Great Gatsby"]}
+{"turn_id": "D9:5", "facts": ["Sam suggested Evan look into low-impact exercises or physical therapy for his knee."], "keywords": ["physical therapy", "low-impact exercise", "advice"], "entities": ["Sam"]}
+{"turn_id": "D9:6", "facts": ["Evan said physical therapy for his knee is on the cards and he is swimming to stay active in the meantime."], "keywords": ["physical therapy", "swimming", "knee injury"], "entities": ["Evan"]}
+{"turn_id": "D9:7", "facts": [], "keywords": ["swimming", "low-impact"], "entities": ["Sam"]}
+{"turn_id": "D9:8", "facts": ["Evan said he took a road trip the month before 2023-08-27 (around July 2023) with stunning scenery that helped him relax.", "Evan shared a photo of a car parked near a lake with mountains in the background."], "keywords": ["road trip", "scenery", "relaxation"], "entities": ["Evan"]}
+{"turn_id": "D9:9", "facts": [], "keywords": ["road trip", "getaway"], "entities": ["Sam"]}
+{"turn_id": "D9:10", "facts": ["Evan said he went on a road trip to the Rocky Mountains that was refreshing, with stunning views."], "keywords": ["rocky mountains", "road trip", "relaxation"], "entities": ["Evan", "Rocky Mountains"]}
+{"turn_id": "D9:11", "facts": ["Sam said she hasn't gone on a road trip in ages but loves being surrounded by nature, and is working on becoming healthier so she can go hiking and road-tripping more."], "keywords": ["road trip", "nature", "hiking", "health goals"], "entities": ["Sam"]}
+{"turn_id": "D9:12", "facts": ["Evan suggested he and Sam go on a hike together sometime, saying hiking is calming and fun for him.", "Evan shared a photo of a lake with a mountain in the background."], "keywords": ["hiking plans", "lake", "mountain"], "entities": ["Evan", "Sam"]}
+{"turn_id": "D9:13", "facts": ["Sam asked Evan to recommend a lake and local trails to explore."], "keywords": ["lake", "hiking trails"], "entities": ["Sam"]}
+{"turn_id": "D9:14", "facts": ["Evan recommended a lake with lots of nearby trails, sharing a photo of a lake with a mountain in the background."], "keywords": ["lake recommendation", "trails"], "entities": ["Evan"]}
+{"turn_id": "D9:15", "facts": [], "keywords": ["lake", "view"], "entities": ["Sam"]}
+{"turn_id": "D9:16", "facts": ["Evan said the recommended lake is only a two-hour drive away and worth it for the views and peaceful atmosphere."], "keywords": ["lake", "day trip", "distance"], "entities": ["Evan"]}
+{"turn_id": "D9:17", "facts": ["Sam said she planned to go check out the lake Evan recommended as a day trip."], "keywords": ["day trip", "lake", "plans"], "entities": ["Sam"]}
+{"turn_id": "D9:18", "facts": [], "keywords": ["farewell"], "entities": ["Evan"]}
+{"turn_id": "D9:19", "facts": [], "keywords": ["farewell"], "entities": ["Sam"]}
+{"turn_id": "D10:1", "facts": ["Evan shared a photo of a painting of a sunset over a body of water, on 2023-09-11."], "keywords": ["painting", "sunset", "catching up"], "entities": ["Evan"]}
+{"turn_id": "D10:2", "facts": ["On 2023-09-11, Sam said she posted a before-and-after photo of her body as a result of her diet, aiming to motivate others to make better choices.", "Sam shared a photo of a bowl of beef and vegetables with a package of Healthy Choice."], "keywords": ["diet results", "before and after", "motivation", "healthy choice"], "entities": ["Sam", "Healthy Choice"]}
+{"turn_id": "D10:3", "facts": [], "keywords": ["healthy choices", "impact"], "entities": ["Evan"]}
+{"turn_id": "D10:4", "facts": ["Sam said she is trying to make healthier choices but still struggles with occasional cravings for sugary drinks and snacks."], "keywords": ["cravings", "sugary drinks", "diet struggle"], "entities": ["Sam"]}
+{"turn_id": "D10:5", "facts": ["Evan asked Sam what sets off her cravings."], "keywords": ["cravings", "habits"], "entities": ["Evan"]}
+{"turn_id": "D10:6", "facts": ["Sam said her cravings for sugary treats are usually triggered by stress, boredom, or wanting comfort."], "keywords": ["cravings", "stress", "boredom", "comfort eating"], "entities": ["Sam"]}
+{"turn_id": "D10:7", "facts": ["Evan said that when stressed he turns to comfort but has found painting or going for a drive helps too.", "Evan shared a photo of a painting of a mountain range with a horse."], "keywords": ["stress relief", "painting", "driving"], "entities": ["Evan"]}
+{"turn_id": "D10:8", "facts": ["Sam said she might give painting a go, or find another calming hobby, to help her de-stress."], "keywords": ["painting", "calming hobby", "de-stress"], "entities": ["Sam"]}
+{"turn_id": "D10:9", "facts": ["Evan offered to help Sam get started with painting and recommend supplies."], "keywords": ["painting", "help", "supplies"], "entities": ["Evan", "Sam"]}
+{"turn_id": "D10:10", "facts": ["Sam agreed to try painting and asked Evan for basic supply suggestions to get started."], "keywords": ["painting", "supplies", "getting started"], "entities": ["Sam"]}
+{"turn_id": "D10:11", "facts": ["Evan recommended Sam get acrylic paints, brushes, a canvas or paper, and a palette to mix colors to start painting, and offered to plan a painting session with her."], "keywords": ["acrylic paints", "brushes", "canvas", "painting supplies"], "entities": ["Evan"]}
+{"turn_id": "D10:12", "facts": ["Sam asked Evan to help her pick out painting supplies and plan a painting session together, saying she was excited."], "keywords": ["painting session", "supplies", "excitement"], "entities": ["Sam"]}
+{"turn_id": "D10:13", "facts": ["Evan and Sam planned to paint together the following Saturday (around 2023-09-16)."], "keywords": ["painting session", "plans", "saturday"], "entities": ["Evan", "Sam"]}
+{"turn_id": "D10:14", "facts": [], "keywords": ["painting session", "excitement"], "entities": ["Sam"]}
+{"turn_id": "D11:1", "facts": ["On 2023-10-06, Sam said she had started eating healthier.", "Sam shared a photo of a bowl of fruit with a striped cloth."], "keywords": ["healthy eating", "fruit"], "entities": ["Sam"]}
+{"turn_id": "D11:2", "facts": ["Evan said he had a setback the previous week (around 2023-09-29): he messed up his knee playing basketball with his kids, making it tough to stay active since.", "Evan shared a photo of a person with a cast on their leg."], "keywords": ["knee injury", "basketball", "kids"], "entities": ["Evan"]}
+{"turn_id": "D11:3", "facts": [], "keywords": ["knee injury", "sympathy"], "entities": ["Sam"]}
+{"turn_id": "D11:4", "facts": ["Evan said physical therapy has helped some with his knee, and he is doing easy exercises to keep it strong since he can't do intense workouts."], "keywords": ["physical therapy", "knee injury", "exercise"], "entities": ["Evan"]}
+{"turn_id": "D11:5", "facts": [], "keywords": ["indoor activities", "recovery"], "entities": ["Sam"]}
+{"turn_id": "D11:6", "facts": ["Evan said he does watercolor painting as a chill way to relax while recovering from his knee injury.", "Evan said that around 2023-09-22 (two weeks before 2023-10-06) he helped a lost tourist find their way and ended up on an unexpected tour around the city, calling it a blast."], "keywords": ["watercolor painting", "lost tourist", "adventure"], "entities": ["Evan"]}
+{"turn_id": "D11:7", "facts": [], "keywords": ["adventure", "painting"], "entities": ["Sam"]}
+{"turn_id": "D11:8", "facts": ["Evan said he finds painting a great stress reliever.", "Evan shared a photo of a cactus painting he made the week before 2023-10-06 (around 2023-09-29)."], "keywords": ["painting", "stress relief", "cactus"], "entities": ["Evan"]}
+{"turn_id": "D11:9", "facts": [], "keywords": ["painting inspiration"], "entities": ["Sam"]}
+{"turn_id": "D11:10", "facts": ["Evan said his sunset painting was inspired by a vacation a few years back, and his cactus painting came from a road trip the month before 2023-10-06 (around September 2023)."], "keywords": ["sunset painting", "cactus painting", "inspiration"], "entities": ["Evan"]}
+{"turn_id": "D11:11", "facts": [], "keywords": ["painting"], "entities": ["Sam"]}
+{"turn_id": "D11:12", "facts": ["Evan said he usually paints what's on his mind or something he's feeling, like good memories or places he wants to go, as a way of expressing himself through art."], "keywords": ["painting inspiration", "self-expression"], "entities": ["Evan"]}
+{"turn_id": "D11:13", "facts": [], "keywords": ["self-expression", "art"], "entities": ["Sam"]}
+{"turn_id": "D11:14", "facts": ["Evan said painting is a great way for him to express himself and his emotions without words, and asked Sam how she expresses herself."], "keywords": ["self-expression", "emotions", "painting"], "entities": ["Evan"]}
+{"turn_id": "D11:15", "facts": ["Sam said she is still learning to draw but loves expressing herself through writing, which is therapeutic and helps her sort out her feelings.", "On 2023-10-06, Sam said she had been frustrated because her new phone's navigation app kept malfunctioning, making it hard to get around."], "keywords": ["drawing", "writing", "therapeutic", "phone navigation issue"], "entities": ["Sam"]}
+{"turn_id": "D11:16", "facts": ["Evan suggested Sam try updating her phone to fix the navigation app issue."], "keywords": ["phone update", "navigation app", "advice"], "entities": ["Evan"]}
+{"turn_id": "D11:17", "facts": ["Sam said journaling and creative writing help her express her innermost thoughts and feelings."], "keywords": ["journaling", "creative writing", "self-expression"], "entities": ["Sam"]}
+{"turn_id": "D11:18", "facts": [], "keywords": ["writing", "therapeutic"], "entities": ["Evan"]}
+{"turn_id": "D11:19", "facts": ["Sam said writing helps her make sense of things and feels like having a conversation with herself."], "keywords": ["writing", "self-reflection"], "entities": ["Sam"]}
+{"turn_id": "D11:20", "facts": [], "keywords": ["self-expression", "outlet"], "entities": ["Evan"]}
+{"turn_id": "D12:1", "facts": ["On 2023-10-08, Sam said she went for a check-up the previous Monday (around 2023-10-02) and her doctor said her weight is a serious health risk that could worsen if she doesn't make changes soon, which has been hard for her emotionally."], "keywords": ["weight", "health risk", "doctor", "check-up"], "entities": ["Sam"]}
+{"turn_id": "D12:2", "facts": ["Evan said he started lifting weights one year before 2023-10-08 (around October 2022) and it's been a journey with a struggle at first but he's seeing gains now.", "Evan shared a photo of a man doing a squat on a machine in a gym."], "keywords": ["weightlifting", "gym", "fitness journey"], "entities": ["Evan"]}
+{"turn_id": "D12:3", "facts": ["Sam said she was interested in getting into weightlifting and asked Evan for advice on getting started."], "keywords": ["weightlifting", "getting started"], "entities": ["Sam"]}
+{"turn_id": "D12:4", "facts": ["Evan advised Sam to start weightlifting with good form and technique, find a trainer to avoid injuries, start small, and stay consistent."], "keywords": ["weightlifting advice", "form", "trainer", "consistency"], "entities": ["Evan"]}
+{"turn_id": "D12:5", "facts": ["Sam said she was going to find a trainer to help her get started with weightlifting."], "keywords": ["trainer", "weightlifting", "plans"], "entities": ["Sam"]}
+{"turn_id": "D12:6", "facts": [], "keywords": ["encouragement", "progress"], "entities": ["Evan"]}
+{"turn_id": "D12:7", "facts": [], "keywords": ["gratitude", "support"], "entities": ["Sam"]}
+{"turn_id": "D12:8", "facts": [], "keywords": ["encouragement", "patience"], "entities": ["Evan"]}
+{"turn_id": "D12:9", "facts": [], "keywords": ["positivity"], "entities": ["Sam"]}
+{"turn_id": "D12:10", "facts": ["Evan shared a photo of a notepad with a note and a pair of scissors, encouraging Sam to keep making progress and stay positive."], "keywords": ["notepad", "encouragement", "progress"], "entities": ["Evan"]}
+{"turn_id": "D12:11", "facts": [], "keywords": ["inspiration"], "entities": ["Sam"]}
+{"turn_id": "D12:12", "facts": [], "keywords": ["motivation", "goals"], "entities": ["Evan"]}
+{"turn_id": "D12:13", "facts": [], "keywords": ["motivation", "self-belief"], "entities": ["Sam"]}
+{"turn_id": "D12:14", "facts": [], "keywords": ["encouragement"], "entities": ["Evan"]}
+{"turn_id": "D12:15", "facts": [], "keywords": ["gratitude"], "entities": ["Sam"]}
+{"turn_id": "D12:16", "facts": [], "keywords": ["support"], "entities": ["Evan"]}
+{"turn_id": "D12:17", "facts": [], "keywords": ["farewell"], "entities": ["Sam"]}
+{"turn_id": "D13:1", "facts": ["Evan shared a photo of a painting of a person on a cliff, on 2023-10-14."], "keywords": ["painting", "cliff", "catching up"], "entities": ["Evan"]}
+{"turn_id": "D13:2", "facts": ["On 2023-10-14, Sam said she had a rough week and gave in and bought unhealthy snacks, feeling guilty about it.", "Sam shared a photo of a person holding a box of sodas in front of a wall."], "keywords": ["unhealthy snacks", "guilt", "soda"], "entities": ["Sam"]}
+{"turn_id": "D13:3", "facts": ["Evan said he just finished a painting of a sunset, which helps him relax."], "keywords": ["sunset painting", "relaxation"], "entities": ["Evan"]}
+{"turn_id": "D13:4", "facts": ["Sam said she was dealing with work stress and trying to stay motivated."], "keywords": ["work stress", "motivation"], "entities": ["Sam"]}
+{"turn_id": "D13:5", "facts": [], "keywords": ["work stress", "hobbies"], "entities": ["Evan"]}
+{"turn_id": "D13:6", "facts": ["Sam said she was thinking about trying something new outdoors to de-stress."], "keywords": ["outdoor activity", "de-stress"], "entities": ["Sam"]}
+{"turn_id": "D13:7", "facts": ["Evan suggested Sam try kayaking as a fun and active way to paddle on a river or lake."], "keywords": ["kayaking", "suggestion"], "entities": ["Evan"]}
+{"turn_id": "D13:8", "facts": ["Sam said she hadn't tried kayaking yet but was considering giving it a try."], "keywords": ["kayaking", "considering"], "entities": ["Sam"]}
+{"turn_id": "D13:9", "facts": ["Evan offered to recommend a good kayaking spot to Sam."], "keywords": ["kayaking", "recommendation"], "entities": ["Evan"]}
+{"turn_id": "D13:10", "facts": ["On 2023-10-14, Sam said she and a friend were about to try kayaking on a lake nearby."], "keywords": ["kayaking", "friend", "lake"], "entities": ["Sam"]}
+{"turn_id": "D13:11", "facts": ["Evan suggested planning a kayaking trip together and offered to pick a cool spot."], "keywords": ["kayaking trip", "plans"], "entities": ["Evan", "Sam"]}
+{"turn_id": "D13:12", "facts": ["Sam shared a photo of a row of kayaks lined up on the shore of a river."], "keywords": ["kayaks", "river"], "entities": ["Sam"]}
+{"turn_id": "D13:13", "facts": [], "keywords": ["kayaking adventure"], "entities": ["Evan"]}
+{"turn_id": "D13:14", "facts": ["On 2023-10-14, Sam said she was traveling to Lake Tahoe to go kayaking, having heard it's great for kayaking."], "keywords": ["lake tahoe", "kayaking", "travel"], "entities": ["Sam", "Lake Tahoe"]}
+{"turn_id": "D13:15", "facts": ["Evan said Lake Tahoe is an awesome pick for kayaking with clear water and gorgeous views."], "keywords": ["lake tahoe", "kayaking"], "entities": ["Evan", "Lake Tahoe"]}
+{"turn_id": "D13:16", "facts": [], "keywords": ["excitement", "lake tahoe"], "entities": ["Sam"]}
+{"turn_id": "D14:1", "facts": ["On 2023-10-17, Sam said she had a health scare the previous weekend (around 2023-10-14): she ended up in the ER with a severe stomachache that turned out to be gastritis, which was a wake-up call to prioritize her health with better diet and exercise.", "Sam said her phone had been giving her trouble, adding to her stress."], "keywords": ["gastritis", "er visit", "health scare", "phone problems"], "entities": ["Sam"]}
+{"turn_id": "D14:2", "facts": ["Evan said he has been focusing on fitness, which has been beneficial for his well-being, and mentioned he recently had another encounter with a lost tourist."], "keywords": ["fitness", "lost tourist", "well-being"], "entities": ["Evan"]}
+{"turn_id": "D14:3", "facts": ["Sam asked Evan for tips on staying motivated to get into fitness."], "keywords": ["fitness motivation", "advice"], "entities": ["Sam"]}
+{"turn_id": "D14:4", "facts": ["Evan advised Sam to set concrete fitness goals (like a running distance or number of push-ups), find an enjoyable exercise, and get an accountability buddy."], "keywords": ["fitness goals", "motivation", "accountability"], "entities": ["Evan"]}
+{"turn_id": "D14:5", "facts": ["Sam agreed to try setting fitness goals and finding an exercise buddy."], "keywords": ["fitness goals", "exercise buddy"], "entities": ["Sam"]}
+{"turn_id": "D14:6", "facts": ["Evan suggested he and Sam plan a hike together soon."], "keywords": ["hiking plans"], "entities": ["Evan", "Sam"]}
+{"turn_id": "D14:7", "facts": [], "keywords": ["hiking", "excitement"], "entities": ["Sam"]}
+{"turn_id": "D14:8", "facts": ["Evan said he went to the gym the day before 2023-10-17 (around 2023-10-16) and is gaining strength."], "keywords": ["gym", "strength training", "progress"], "entities": ["Evan"]}
+{"turn_id": "D14:9", "facts": ["Sam shared a photo of a person wearing hiking shoes on a couch, expressing excitement to hit the trails with Evan."], "keywords": ["hiking shoes", "excitement"], "entities": ["Sam"]}
+{"turn_id": "D14:10", "facts": [], "keywords": ["hiking plans"], "entities": ["Evan"]}
+{"turn_id": "D14:11", "facts": ["Sam said connecting with nature through the planned hike is exactly what she needs, and thanked Evan for his support."], "keywords": ["nature", "hiking", "gratitude"], "entities": ["Sam"]}
+{"turn_id": "D14:12", "facts": [], "keywords": ["support", "hiking"], "entities": ["Evan"]}
+{"turn_id": "D14:13", "facts": [], "keywords": ["gratitude"], "entities": ["Sam"]}
+{"turn_id": "D14:14", "facts": [], "keywords": ["support", "farewell"], "entities": ["Evan"]}
+{"turn_id": "D14:15", "facts": [], "keywords": ["farewell"], "entities": ["Sam"]}
+{"turn_id": "D14:16", "facts": [], "keywords": ["farewell", "hiking"], "entities": ["Evan"]}
+{"turn_id": "D15:1", "facts": ["On 2023-10-25, Sam said she was trying to keep up with a new health routine, and felt pressured by her family pushing her to do it."], "keywords": ["health routine", "family pressure"], "entities": ["Sam"]}
+{"turn_id": "D15:2", "facts": ["Evan said he just got back from his morning walk on 2023-10-25, which helps him start the day actively."], "keywords": ["morning walk", "healthy routine"], "entities": ["Evan"]}
+{"turn_id": "D15:3", "facts": [], "keywords": ["support system"], "entities": ["Sam"]}
+{"turn_id": "D15:4", "facts": [], "keywords": ["encouragement", "self-care"], "entities": ["Evan"]}
+{"turn_id": "D15:5", "facts": ["Sam said she sometimes gets impatient with herself wanting fast results but is trying to be patient."], "keywords": ["impatience", "patience", "health journey"], "entities": ["Sam"]}
+{"turn_id": "D15:6", "facts": [], "keywords": ["progress", "patience"], "entities": ["Evan"]}
+{"turn_id": "D15:7", "facts": [], "keywords": ["gratitude", "support"], "entities": ["Sam"]}
+{"turn_id": "D15:8", "facts": ["Evan said he went through a similar phase two years before 2023-10-25 (around 2021): he changed his diet and started walking regularly.", "Evan shared a photo of a man sitting at a table with a lot of fruits and vegetables."], "keywords": ["diet change", "walking", "health journey"], "entities": ["Evan"]}
+{"turn_id": "D15:9", "facts": [], "keywords": ["transformation"], "entities": ["Sam"]}
+{"turn_id": "D15:10", "facts": ["Evan said he managed his health change by focusing more on well-being rather than fixating on quick results, and letting go of that pressure made a huge difference."], "keywords": ["well-being", "mindset", "health journey"], "entities": ["Evan"]}
+{"turn_id": "D15:11", "facts": [], "keywords": ["inspiration", "mindset"], "entities": ["Sam"]}
+{"turn_id": "D15:12", "facts": ["Evan said letting go of unrealistic expectations was liberating for him, both physically and mentally."], "keywords": ["unrealistic expectations", "liberation", "mindset"], "entities": ["Evan"]}
+{"turn_id": "D15:13", "facts": [], "keywords": ["freedom", "aspiration"], "entities": ["Sam"]}
+{"turn_id": "D15:14", "facts": [], "keywords": ["small victories"], "entities": ["Evan"]}
+{"turn_id": "D15:15", "facts": ["Sam said she planned to focus on small wins and take her health journey one day at a time."], "keywords": ["small wins", "health journey"], "entities": ["Sam"]}
+{"turn_id": "D15:16", "facts": [], "keywords": ["encouragement", "small victories"], "entities": ["Evan"]}
+{"turn_id": "D15:17", "facts": [], "keywords": ["gratitude", "support"], "entities": ["Sam"]}
+{"turn_id": "D15:18", "facts": [], "keywords": ["support", "farewell"], "entities": ["Evan"]}
+{"turn_id": "D16:1", "facts": ["On 2023-11-09, Sam announced she became a Weight Watchers coach in her group, calling it a big accomplishment she felt proud of."], "keywords": ["weight watchers", "coach", "accomplishment"], "entities": ["Sam", "Weight Watchers"]}
+{"turn_id": "D16:2", "facts": [], "keywords": ["congratulations", "weight watchers"], "entities": ["Evan"]}
+{"turn_id": "D16:3", "facts": ["Sam said being chosen as a Weight Watchers coach was a great step in her quest for better health."], "keywords": ["weight watchers", "health journey"], "entities": ["Sam", "Weight Watchers"]}
+{"turn_id": "D16:4", "facts": [], "keywords": ["progress", "health journey"], "entities": ["Evan"]}
+{"turn_id": "D16:5", "facts": ["Sam said being a Weight Watchers coach will hopefully keep her motivated and help others stay committed to their health too."], "keywords": ["weight watchers", "motivation", "helping others"], "entities": ["Sam"]}
+{"turn_id": "D16:6", "facts": [], "keywords": ["encouragement", "inspiration"], "entities": ["Evan"]}
+{"turn_id": "D16:7", "facts": [], "keywords": ["determination", "gratitude"], "entities": ["Sam"]}
+{"turn_id": "D16:8", "facts": ["On 2023-11-09, Evan said he had been dealing with personal challenges since he and Sam last spoke.", "Evan shared a photo of a guitar laying on the floor with a guitar strap."], "keywords": ["personal challenges", "guitar"], "entities": ["Evan"]}
+{"turn_id": "D16:9", "facts": ["Sam asked Evan what model his guitar is and how he's been doing."], "keywords": ["guitar", "check-in"], "entities": ["Sam"]}
+{"turn_id": "D16:10", "facts": ["Evan's guitar is a 1968 Kustom K-200A vintage guitar that he got as a gift from a close friend.", "Evan said he lost his job the month before 2023-11-09 (around October 2023), which has been a tough time for him."], "keywords": ["kustom k-200a", "vintage guitar", "job loss"], "entities": ["Evan", "Kustom K-200A"]}
+{"turn_id": "D16:11", "facts": [], "keywords": ["job loss", "sympathy"], "entities": ["Sam"]}
+{"turn_id": "D16:12", "facts": ["Evan said his company downsized and he was part of the layoffs, and he is currently job hunting, which hasn't been easy but he's staying hopeful."], "keywords": ["layoff", "company downsizing", "job hunting"], "entities": ["Evan"]}
+{"turn_id": "D16:13", "facts": [], "keywords": ["support", "job loss"], "entities": ["Sam"]}
+{"turn_id": "D16:14", "facts": [], "keywords": ["gratitude", "support"], "entities": ["Evan"]}
+{"turn_id": "D16:15", "facts": [], "keywords": ["support", "positivity"], "entities": ["Sam"]}
+{"turn_id": "D16:16", "facts": ["Evan shared a photo of a person walking on the beach with a surfboard, saying he plans to stay positive and keep going despite losing his job."], "keywords": ["beach", "surfboard", "positivity"], "entities": ["Evan"]}
+{"turn_id": "D16:17", "facts": [], "keywords": ["sunset", "soothing"], "entities": ["Sam"]}
+{"turn_id": "D16:18", "facts": ["Evan said there is a peaceful sunset-watching spot close to his home that he often goes to relax and unwind."], "keywords": ["sunset spot", "relaxation", "home"], "entities": ["Evan"]}
+{"turn_id": "D16:19", "facts": [], "keywords": ["plans", "sunset spot"], "entities": ["Sam"]}
+{"turn_id": "D16:20", "facts": ["Evan said the beach sunset photo was taken the previous Friday (around 2023-11-03) at his favorite spot by the beach, where watching waves and sunset colors helps him find peace during tough times."], "keywords": ["beach", "sunset", "favorite spot", "peace"], "entities": ["Evan"]}
+{"turn_id": "D16:21", "facts": [], "keywords": ["plans", "beach"], "entities": ["Sam"]}
+{"turn_id": "D16:22", "facts": [], "keywords": ["calming place", "plans"], "entities": ["Evan"]}
+{"turn_id": "D16:23", "facts": [], "keywords": ["de-stress", "plans"], "entities": ["Sam"]}
+{"turn_id": "D16:24", "facts": ["Evan and Sam planned to visit Evan's favorite beach sunset spot together the following month (around December 2023)."], "keywords": ["beach trip plans", "december"], "entities": ["Evan", "Sam"]}
+{"turn_id": "D17:1", "facts": [], "keywords": ["greeting", "catching up"], "entities": ["Sam"]}
+{"turn_id": "D17:2", "facts": ["Evan said that the week before 2023-11-21 (around 2023-11-14) he had a health scare and went to the hospital after doctors found something suspicious during a check-up, which turned out to be a misunderstanding."], "keywords": ["health scare", "hospital", "misunderstanding"], "entities": ["Evan"]}
+{"turn_id": "D17:3", "facts": ["Sam said she had been dealing with discomfort that was limiting her movement, and was trying to make dietary changes."], "keywords": ["discomfort", "diet change", "limited movement"], "entities": ["Sam"]}
+{"turn_id": "D17:4", "facts": [], "keywords": ["encouragement", "hobbies"], "entities": ["Evan"]}
+{"turn_id": "D17:5", "facts": ["On 2023-11-20, Sam got a new movie/book that became her go-to 'feel good' pick.", "Sam shared a photo of a book with a picture of a man on it."], "keywords": ["feel good movie", "book"], "entities": ["Sam"]}
+{"turn_id": "D17:6", "facts": ["Evan said doctors confirmed everything is fine after his health scare, and it taught him the value of life and to enjoy the moment."], "keywords": ["health scare", "resolution", "gratitude"], "entities": ["Evan"]}
+{"turn_id": "D17:7", "facts": [], "keywords": ["gratitude practice", "appreciation"], "entities": ["Sam"]}
+{"turn_id": "D17:8", "facts": [], "keywords": ["appreciation"], "entities": ["Evan"]}
+{"turn_id": "D17:9", "facts": [], "keywords": ["gratitude"], "entities": ["Sam"]}
+{"turn_id": "D17:10", "facts": [], "keywords": ["support"], "entities": ["Evan"]}
+{"turn_id": "D17:11", "facts": [], "keywords": ["support"], "entities": ["Sam"]}
+{"turn_id": "D17:12", "facts": ["Evan shared a photo of a group of people sitting around a fire pit."], "keywords": ["fire pit", "friends"], "entities": ["Evan"]}
+{"turn_id": "D17:13", "facts": ["Sam asked Evan what he does to stay fit and healthy."], "keywords": ["fitness", "health"], "entities": ["Sam"]}
+{"turn_id": "D17:14", "facts": ["Evan said he stays in shape by hitting the gym and taking his car out for a spin."], "keywords": ["gym", "driving", "fitness"], "entities": ["Evan"]}
+{"turn_id": "D17:15", "facts": ["Sam said her fitness goals have been hard to reach."], "keywords": ["fitness goals", "struggle"], "entities": ["Sam"]}
+{"turn_id": "D17:16", "facts": ["Evan shared a photo of a small island with a lone boat in the water."], "keywords": ["island", "boat"], "entities": ["Evan"]}
+{"turn_id": "D17:17", "facts": [], "keywords": ["island", "scenery"], "entities": ["Sam"]}
+{"turn_id": "D17:18", "facts": ["Evan said the small island in the photo is where he grew up and is his happy place.", "Evan shared a photo of the sun shining through the clouds over a body of water."], "keywords": ["childhood home", "island", "happy place"], "entities": ["Evan"]}
+{"turn_id": "D17:19", "facts": [], "keywords": ["childhood", "peaceful"], "entities": ["Sam"]}
+{"turn_id": "D17:20", "facts": ["Evan said the island where he grew up shaped him and will always hold a special place in his heart."], "keywords": ["childhood home", "identity"], "entities": ["Evan"]}
+{"turn_id": "D17:21", "facts": [], "keywords": ["calming"], "entities": ["Sam"]}
+{"turn_id": "D17:22", "facts": ["Evan shared a photo of a person walking on a beach at sunset, describing the island as serene and calming."], "keywords": ["beach", "sunset", "serenity"], "entities": ["Evan"]}
+{"turn_id": "D17:23", "facts": [], "keywords": ["scenery"], "entities": ["Sam"]}
+{"turn_id": "D17:24", "facts": ["Evan shared a photo of a sunset over a body of water, describing his childhood island as a little slice of paradise where he feels peaceful and serene."], "keywords": ["sunset", "paradise", "childhood island"], "entities": ["Evan"]}
+{"turn_id": "D17:25", "facts": [], "keywords": ["peaceful retreat"], "entities": ["Sam"]}
+{"turn_id": "D17:26", "facts": [], "keywords": ["farewell"], "entities": ["Evan"]}
+{"turn_id": "D17:27", "facts": [], "keywords": ["farewell"], "entities": ["Sam"]}
+{"turn_id": "D17:28", "facts": [], "keywords": ["support", "farewell"], "entities": ["Evan"]}
+{"turn_id": "D18:1", "facts": ["On 2023-12-05, Evan said his new Prius (which he had just bought) broke down, which was stressful since he relies on it for his active lifestyle and road trips."], "keywords": ["prius", "car breakdown", "stress"], "entities": ["Evan", "Prius"]}
+{"turn_id": "D18:2", "facts": [], "keywords": ["car trouble", "sympathy"], "entities": ["Sam"]}
+{"turn_id": "D18:3", "facts": [], "keywords": ["car problems", "reliability"], "entities": ["Evan"]}
+{"turn_id": "D18:4", "facts": [], "keywords": ["setbacks", "opportunities"], "entities": ["Sam"]}
+{"turn_id": "D18:5", "facts": ["Evan said he's trying to see his car breaking down as a chance to explore other ways of staying active and traveling."], "keywords": ["silver lining", "car breakdown"], "entities": ["Evan"]}
+{"turn_id": "D18:6", "facts": ["On 2023-12-04 (the day before 2023-12-05), Sam attended a Weight Watchers meeting and learned some great tips.", "Sam shared a photo of a variety of bowls of fruit and yogurt (a smoothie bowl)."], "keywords": ["weight watchers meeting", "smoothie bowl"], "entities": ["Sam", "Weight Watchers"]}
+{"turn_id": "D18:7", "facts": ["Evan said he had been thinking about trying yoga for stress relief and flexibility."], "keywords": ["yoga", "stress relief", "flexibility"], "entities": ["Evan"]}
+{"turn_id": "D18:8", "facts": ["Sam said the Weight Watchers meeting was insightful, and that yoga has done wonders for her flexibility and stress levels, recommending Evan try it."], "keywords": ["weight watchers", "yoga", "recommendation"], "entities": ["Sam"]}
+{"turn_id": "D18:9", "facts": ["Evan said he would try yoga."], "keywords": ["yoga", "plans"], "entities": ["Evan"]}
+{"turn_id": "D18:10", "facts": [], "keywords": ["yoga tips", "support"], "entities": ["Sam"]}
+{"turn_id": "D18:11", "facts": [], "keywords": ["gratitude", "support"], "entities": ["Evan"]}
+{"turn_id": "D18:12", "facts": [], "keywords": ["support"], "entities": ["Sam"]}
+{"turn_id": "D18:13", "facts": [], "keywords": ["support"], "entities": ["Evan"]}
+{"turn_id": "D18:14", "facts": [], "keywords": ["farewell", "yoga"], "entities": ["Sam"]}
+{"turn_id": "D18:15", "facts": [], "keywords": ["farewell"], "entities": ["Evan"]}
+{"turn_id": "D19:1", "facts": ["On 2023-12-09, Evan announced that his partner is pregnant, and they were very excited since it had been a while since they had a young child around."], "keywords": ["pregnancy", "partner", "exciting news"], "entities": ["Evan"]}
+{"turn_id": "D19:2", "facts": [], "keywords": ["congratulations", "parenthood"], "entities": ["Sam"]}
+{"turn_id": "D19:3", "facts": ["Evan said he is excited and a bit nervous about the new pregnancy, and recalled the joy of when his first child was born."], "keywords": ["pregnancy", "parenthood", "first child"], "entities": ["Evan"]}
+{"turn_id": "D19:4", "facts": [], "keywords": ["parenthood", "memories"], "entities": ["Sam"]}
+{"turn_id": "D19:5", "facts": ["Evan shared a photo collage of his family's top memories, including birthdays, holidays, and vacations."], "keywords": ["family memories", "collage", "photos"], "entities": ["Evan"]}
+{"turn_id": "D19:6", "facts": [], "keywords": ["family", "sign"], "entities": ["Sam"]}
+{"turn_id": "D19:7", "facts": ["Evan's family has a sign from their trip to Banff that says 'Bring it on Home', which is their family motto reminding them of the importance of togetherness."], "keywords": ["banff", "family motto", "bring it on home"], "entities": ["Evan", "Banff", "Bring it on Home"]}
+{"turn_id": "D19:8", "facts": [], "keywords": ["family bond"], "entities": ["Sam"]}
+{"turn_id": "D19:9", "facts": ["Evan said his family means the world to him and he is looking forward to expanding his family and creating more memories."], "keywords": ["family values", "expanding family"], "entities": ["Evan"]}
+{"turn_id": "D19:10", "facts": [], "keywords": ["family plans"], "entities": ["Sam"]}
+{"turn_id": "D19:11", "facts": ["Evan said his family is planning a big family reunion for the following summer (around summer 2024)."], "keywords": ["family reunion", "summer 2024", "plans"], "entities": ["Evan"]}
+{"turn_id": "D19:12", "facts": ["Sam offered to give Evan tips on organizing the family reunion."], "keywords": ["family reunion", "support"], "entities": ["Sam"]}
+{"turn_id": "D19:13", "facts": [], "keywords": ["gratitude", "farewell"], "entities": ["Evan"]}
+{"turn_id": "D19:14", "facts": [], "keywords": ["farewell"], "entities": ["Sam"]}
+{"turn_id": "D19:15", "facts": [], "keywords": ["farewell", "gratitude"], "entities": ["Evan"]}
+{"turn_id": "D20:1", "facts": [], "keywords": ["catching up"], "entities": ["Evan"]}
+{"turn_id": "D20:2", "facts": [], "keywords": ["catching up"], "entities": ["Sam"]}
+{"turn_id": "D20:3", "facts": ["Evan said his son had an accident the previous Tuesday (around 2023-12-12): he fell off his bike, which was rough, but he's doing better now.", "Evan shared a photo of a young boy with crutches and a backpack."], "keywords": ["son", "bike accident", "recovery"], "entities": ["Evan"]}
+{"turn_id": "D20:4", "facts": ["On 2023-12-17, Sam said things had been tough for her lately and she had been thinking about ways to cope since they last talked."], "keywords": ["tough time", "coping"], "entities": ["Sam"]}
+{"turn_id": "D20:5", "facts": [], "keywords": ["hobbies", "happiness"], "entities": ["Evan"]}
+{"turn_id": "D20:6", "facts": ["Sam said she used to love hiking but it had been a while since she had the chance to do it."], "keywords": ["hiking", "hobby"], "entities": ["Sam"]}
+{"turn_id": "D20:7", "facts": ["Evan suggested he and Sam plan a hike together soon."], "keywords": ["hiking plans"], "entities": ["Evan", "Sam"]}
+{"turn_id": "D20:8", "facts": ["On 2023-12-17, Sam said she was struggling with her weight, which was affecting her confidence, and she kept lacking motivation to overcome the challenges.", "Sam shared a photo of a beach with a few people walking on it."], "keywords": ["weight struggle", "confidence", "motivation"], "entities": ["Sam"]}
+{"turn_id": "D20:9", "facts": ["Evan told Sam that her worth is not defined by her weight and encouraged her to believe in herself."], "keywords": ["self-worth", "encouragement"], "entities": ["Evan"]}
+{"turn_id": "D20:10", "facts": ["Sam said it's tough for her to break out of her comfort zone."], "keywords": ["comfort zone", "struggle"], "entities": ["Sam"]}
+{"turn_id": "D20:11", "facts": [], "keywords": ["comfort zone", "encouragement"], "entities": ["Evan"]}
+{"turn_id": "D20:12", "facts": [], "keywords": ["trying new things"], "entities": ["Sam"]}
+{"turn_id": "D20:13", "facts": ["Evan shared a photo of a woman standing in front of a painting, encouraging Sam to try new things."], "keywords": ["painting", "encouragement"], "entities": ["Evan"]}
+{"turn_id": "D20:14", "facts": [], "keywords": ["painting", "confidence"], "entities": ["Sam"]}
+{"turn_id": "D20:15", "facts": ["Evan finished a contemporary figurative painting a few days before 2023-12-17 (around 2023-12-14) that emphasizes emotional state through expressive brushwork and vibrant colors, capturing a moment of introspection, and he is very proud of it."], "keywords": ["figurative painting", "introspection", "brushwork"], "entities": ["Evan"]}
+{"turn_id": "D20:16", "facts": [], "keywords": ["painting", "exhibition"], "entities": ["Sam"]}
+{"turn_id": "D20:17", "facts": ["Evan said the woman in the photo with his painting is a close friend who helped him get the painting published in an exhibition."], "keywords": ["close friend", "art exhibition"], "entities": ["Evan"]}
+{"turn_id": "D21:1", "facts": [], "keywords": ["catching up"], "entities": ["Sam"]}
+{"turn_id": "D21:2", "facts": ["On 2023-12-26, Evan said he got married the previous week (around 2023-12-19).", "Evan shared a photo of a bride and groom kissing in front of a tree."], "keywords": ["marriage", "wedding"], "entities": ["Evan"]}
+{"turn_id": "D21:3", "facts": ["Sam asked Evan if he married the Canadian woman he met on his trip to Canada."], "keywords": ["marriage", "canadian woman"], "entities": ["Sam"]}
+{"turn_id": "D21:4", "facts": ["Evan confirmed he married the Canadian woman he met on his trip, saying he was in love with her at first sight."], "keywords": ["marriage", "love at first sight", "wife"], "entities": ["Evan"]}
+{"turn_id": "D21:5", "facts": [], "keywords": ["love at first sight"], "entities": ["Sam"]}
+{"turn_id": "D21:6", "facts": ["Evan said he totally believes in love at first sight, describing it as feeling like time stopped and a spark lit inside him with his wife."], "keywords": ["love at first sight", "belief"], "entities": ["Evan"]}
+{"turn_id": "D21:7", "facts": [], "keywords": ["love", "connection"], "entities": ["Sam"]}
+{"turn_id": "D21:8", "facts": ["Evan shared a photo of a person sitting on a rock near the water, saying love brings him happiness and fulfillment."], "keywords": ["love", "happiness", "fulfillment"], "entities": ["Evan"]}
+{"turn_id": "D21:9", "facts": ["Sam said she had started enjoying running in the mornings as a great way to clear her head."], "keywords": ["morning running", "clear head"], "entities": ["Sam"]}
+{"turn_id": "D21:10", "facts": ["Evan encouraged Sam to keep trying new things and shared a photo of a minimalist painting with a white background and blue, orange, and black colors."], "keywords": ["minimalist painting", "encouragement"], "entities": ["Evan"]}
+{"turn_id": "D21:11", "facts": [], "keywords": ["minimalist art", "inspiration"], "entities": ["Sam"]}
+{"turn_id": "D21:12", "facts": ["Evan said the minimalist painting is his own work, made while feeling a mix of sad, mad, and hopeful emotions."], "keywords": ["painting", "emotions", "self-expression"], "entities": ["Evan"]}
+{"turn_id": "D21:13", "facts": [], "keywords": ["art", "emotions"], "entities": ["Sam"]}
+{"turn_id": "D21:14", "facts": ["Evan shared a photo of a painting with a bird flying over it, saying it gives him a massive rush of joy."], "keywords": ["bird painting", "joy"], "entities": ["Evan"]}
+{"turn_id": "D21:15", "facts": [], "keywords": ["painting emotions"], "entities": ["Sam"]}
+{"turn_id": "D21:16", "facts": ["Evan said he painted the bird painting with a sense of joy and freedom, using spontaneous strokes and bold colors to reflect a playful, liberated mood."], "keywords": ["joy", "freedom", "bold colors"], "entities": ["Evan"]}
+{"turn_id": "D21:17", "facts": ["Sam shared a photo of a painting of a woman holding flowers in front of her face that inspired her at an art exhibit she visited a few days before 2023-12-26 (around 2023-12-22)."], "keywords": ["art exhibit", "inspiration", "painting"], "entities": ["Sam"]}
+{"turn_id": "D21:18", "facts": [], "keywords": ["art appreciation"], "entities": ["Evan"]}
+{"turn_id": "D21:19", "facts": ["Sam said she sketches occasionally but hasn't created anything remarkable yet."], "keywords": ["sketching", "art hobby"], "entities": ["Sam"]}
+{"turn_id": "D21:20", "facts": ["On 2023-12-26, Evan said he lost his keys again, joking it's become a weekly ritual for him."], "keywords": ["lost keys", "recurring problem"], "entities": ["Evan"]}
+{"turn_id": "D21:21", "facts": ["Sam suggested Evan put a GPS sensor on his keys."], "keywords": ["gps tracker", "keys", "suggestion"], "entities": ["Sam"]}
+{"turn_id": "D21:22", "facts": ["Evan said he would get a GPS sensor for his keys."], "keywords": ["gps tracker", "keys", "plans"], "entities": ["Evan"]}
+{"turn_id": "D22:1", "facts": ["On 2023-12-31, Sam said she took her friends on an epic hiking trip the previous Friday (around 2023-12-29).", "Sam shared a photo of a man standing on a rock looking out over a valley."], "keywords": ["hiking trip", "friends", "healthier lifestyle"], "entities": ["Sam"]}
+{"turn_id": "D22:2", "facts": ["Evan said he took his Prius for a long drive to the mountains the previous weekend (around 2023-12-23), and got into a minor scrape (accident) on the way back.", "Evan shared a photo of a small stream running through a lush green forest."], "keywords": ["prius", "mountain drive", "minor accident"], "entities": ["Evan", "Prius"]}
+{"turn_id": "D22:3", "facts": [], "keywords": ["accident", "concern"], "entities": ["Sam"]}
+{"turn_id": "D22:4", "facts": ["Evan said he and his family were fine after the minor car accident, though it put a damper on telling his work friends about getting married.", "Evan said his work friends have been a great support."], "keywords": ["minor accident", "work friends", "marriage announcement"], "entities": ["Evan"]}
+{"turn_id": "D22:5", "facts": [], "keywords": ["marriage", "friends"], "entities": ["Sam"]}
+{"turn_id": "D22:6", "facts": [], "keywords": ["road safety", "marriage"], "entities": ["Evan"]}
+{"turn_id": "D22:7", "facts": [], "keywords": ["safety", "peace"], "entities": ["Sam"]}
+{"turn_id": "D22:8", "facts": [], "keywords": ["nature", "peace"], "entities": ["Evan"]}
+{"turn_id": "D22:9", "facts": [], "keywords": ["nature", "perspective"], "entities": ["Sam"]}
+{"turn_id": "D22:10", "facts": ["Evan shared a photo of a woman sitting at a table with plates and glasses, referring to new healthy snacks he has been trying."], "keywords": ["healthy snacks", "nature healing"], "entities": ["Evan"]}
+{"turn_id": "D22:11", "facts": [], "keywords": ["healthy snacks", "recovery"], "entities": ["Sam"]}
+{"turn_id": "D22:12", "facts": ["Evan shared a photo of cookies on a cooling rack and offered to send Sam the recipes for the healthy snacks and cookies."], "keywords": ["cookies", "recipes", "healthy snacks"], "entities": ["Evan"]}
+{"turn_id": "D22:13", "facts": ["Sam asked Evan for healthier snack ideas."], "keywords": ["healthy snacks", "request"], "entities": ["Sam"]}
+{"turn_id": "D22:14", "facts": ["Evan shared a recipe he discovered for energy balls (coconut and oats), saying he's also been trying to eat healthier.", "Evan shared a photo of a bowl of coconut balls and a bowl of oats."], "keywords": ["energy balls", "coconut", "oats", "healthy recipe"], "entities": ["Evan"]}
+{"turn_id": "D22:15", "facts": [], "keywords": ["energy balls", "taste"], "entities": ["Sam"]}
+{"turn_id": "D22:16", "facts": ["Evan said he enjoys the taste of the energy balls, finding them energizing and a healthy way to satisfy a sweet tooth."], "keywords": ["energy balls", "taste", "sweet tooth"], "entities": ["Evan"]}
+{"turn_id": "D22:17", "facts": [], "keywords": ["healthy snacks", "gratitude"], "entities": ["Sam"]}
+{"turn_id": "D22:18", "facts": [], "keywords": ["support"], "entities": ["Evan"]}
+{"turn_id": "D22:19", "facts": ["On 2023-12-31, Sam said she went to the store again and had issues with the self-checkout again, calling it a regular annoyance for her."], "keywords": ["self-checkout", "recurring annoyance", "store"], "entities": ["Sam"]}
+{"turn_id": "D22:20", "facts": ["Evan said he has never had a problem with self-checkout."], "keywords": ["self-checkout"], "entities": ["Evan"]}
+{"turn_id": "D22:21", "facts": [], "keywords": ["self-checkout", "joke"], "entities": ["Sam"]}
+{"turn_id": "D23:1", "facts": ["On 2024-01-06, Evan said he and his partner told their extended family about their marriage the previous day (2024-01-05), which was special, and they were overwhelmed by the family's love and support.", "Evan shared a photo of a man and a woman standing on a rocky beach."], "keywords": ["marriage announcement", "extended family", "support"], "entities": ["Evan"]}
+{"turn_id": "D23:2", "facts": [], "keywords": ["congratulations", "marriage"], "entities": ["Sam"]}
+{"turn_id": "D23:3", "facts": ["Evan said he feels lucky to have found a partner who gets him, and that both families are happy for the marriage."], "keywords": ["marriage", "partner", "family support"], "entities": ["Evan"]}
+{"turn_id": "D23:4", "facts": [], "keywords": ["family support"], "entities": ["Sam"]}
+{"turn_id": "D23:5", "facts": [], "keywords": ["family support", "marriage"], "entities": ["Evan"]}
+{"turn_id": "D23:6", "facts": [], "keywords": ["family support", "happiness"], "entities": ["Sam"]}
+{"turn_id": "D23:7", "facts": ["Evan said his family bond keeps getting stronger, and family means a lot to him."], "keywords": ["family bond", "family values"], "entities": ["Evan"]}
+{"turn_id": "D23:8", "facts": ["Sam said family is everything to her and she is grateful for their love and support."], "keywords": ["family values", "gratitude"], "entities": ["Sam"]}
+{"turn_id": "D23:9", "facts": [], "keywords": ["family", "gratitude"], "entities": ["Evan"]}
+{"turn_id": "D23:10", "facts": [], "keywords": ["family", "blessing"], "entities": ["Sam"]}
+{"turn_id": "D23:11", "facts": [], "keywords": ["family", "gratitude"], "entities": ["Evan"]}
+{"turn_id": "D23:12", "facts": ["Sam said her family has been her rock through everything."], "keywords": ["family support", "rock"], "entities": ["Sam"]}
+{"turn_id": "D23:13", "facts": ["Evan shared a photo of a group of people sitting at a table with food."], "keywords": ["family gathering", "food"], "entities": ["Evan"]}
+{"turn_id": "D23:14", "facts": [], "keywords": ["family dinner"], "entities": ["Sam"]}
+{"turn_id": "D23:15", "facts": ["On 2024-01-06, Evan said his family was having a get-together that night with homemade lasagna.", "Evan said he started a new diet limiting himself to just two ginger snaps a day."], "keywords": ["family gathering", "lasagna", "diet", "ginger snaps"], "entities": ["Evan"]}
+{"turn_id": "D23:16", "facts": ["Sam said her family was also having homemade lasagna for dinner that night (2024-01-06).", "Sam shared a photo of a plate of food with bread and meat."], "keywords": ["lasagna", "dinner"], "entities": ["Sam"]}
+{"turn_id": "D23:17", "facts": [], "keywords": ["diet plan", "lasagna"], "entities": ["Evan"]}
+{"turn_id": "D23:18", "facts": ["Sam shared a photo of a pie with raspberries and limes on top, which she had for dessert."], "keywords": ["dessert", "pie", "raspberries"], "entities": ["Sam"]}
+{"turn_id": "D23:19", "facts": [], "keywords": ["dessert", "pie"], "entities": ["Evan"]}
+{"turn_id": "D23:20", "facts": ["Sam said the raspberry pie photo was actually from her cousin's wedding, not something she made."], "keywords": ["cousin's wedding", "pie"], "entities": ["Sam"]}
+{"turn_id": "D23:21", "facts": ["Evan shared a photo of a wedding cake with candles and flowers on a table, commenting on weddings being special."], "keywords": ["wedding cake", "wedding"], "entities": ["Evan"]}
+{"turn_id": "D23:22", "facts": [], "keywords": ["wedding cake", "occasions"], "entities": ["Sam"]}
+{"turn_id": "D23:23", "facts": ["Evan said he and his wife are going to Canada the following month (around February 2024) for their honeymoon, and shared a photo of a stream running through a snowy forest."], "keywords": ["honeymoon", "canada", "february 2024"], "entities": ["Evan", "Canada"]}
+{"turn_id": "D23:24", "facts": [], "keywords": ["honeymoon plans"], "entities": ["Sam"]}
+{"turn_id": "D23:25", "facts": ["Evan said his honeymoon plans include skiing, trying local cuisine, and enjoying the views in Canada."], "keywords": ["honeymoon", "skiing", "local cuisine"], "entities": ["Evan"]}
+{"turn_id": "D23:26", "facts": ["Sam shared a photo of a container of french fries covered in caramel, wishing Evan an incredible honeymoon."], "keywords": ["honeymoon", "well wishes"], "entities": ["Sam"]}
+{"turn_id": "D23:27", "facts": ["Evan said he plans to try poutine while in Canada for his honeymoon."], "keywords": ["poutine", "canada", "food"], "entities": ["Evan", "Canada"]}
+{"turn_id": "D23:28", "facts": ["Sam said poutine is a Canadian dish and asked Evan to let her know how he likes it."], "keywords": ["poutine", "canadian cuisine"], "entities": ["Sam"]}
+{"turn_id": "D23:29", "facts": [], "keywords": ["poutine"], "entities": ["Evan"]}
+{"turn_id": "D23:30", "facts": [], "keywords": ["farewell"], "entities": ["Sam"]}
+{"turn_id": "D23:31", "facts": [], "keywords": ["farewell"], "entities": ["Evan"]}
+{"turn_id": "D23:32", "facts": [], "keywords": ["farewell", "honeymoon"], "entities": ["Sam"]}
+{"turn_id": "D23:33", "facts": [], "keywords": ["farewell"], "entities": ["Evan"]}
+{"turn_id": "D24:1", "facts": [], "keywords": ["greeting"], "entities": ["Evan"]}
+{"turn_id": "D24:2", "facts": [], "keywords": ["curiosity"], "entities": ["Sam"]}
+{"turn_id": "D24:3", "facts": ["On 2024-01-10, Evan said the night before (2024-01-09) he went out with friends, drank too much, and did something he regretted involving someone's roses."], "keywords": ["drinking", "friends", "regret"], "entities": ["Evan"]}
+{"turn_id": "D24:4", "facts": [], "keywords": ["incident", "concern"], "entities": ["Sam"]}
+{"turn_id": "D24:5", "facts": ["Evan admitted he had a pee accident near someone's roses while drunk and was embarrassed and apologetic about it."], "keywords": ["pee accident", "roses", "embarrassment"], "entities": ["Evan"]}
+{"turn_id": "D24:6", "facts": [], "keywords": ["awkward situation", "concern"], "entities": ["Sam"]}
+{"turn_id": "D24:7", "facts": ["Evan said he apologized for the rose incident the next morning and the person was understanding."], "keywords": ["apology", "roses", "understanding"], "entities": ["Evan"]}
+{"turn_id": "D24:8", "facts": [], "keywords": ["mistakes", "relief"], "entities": ["Sam"]}
+{"turn_id": "D24:9", "facts": ["Evan said he and his partner tried snowshoeing over the weekend before 2024-01-10 (around 2024-01-07), which was a new and surprisingly fun adventure for them."], "keywords": ["snowshoeing", "winter activity", "partner"], "entities": ["Evan"]}
+{"turn_id": "D24:10", "facts": ["On 2024-01-10, Sam said she made a meal plan and workout schedule and was starting that day to stay on track, motivated by something she saw.", "Sam shared a photo of a white board with writing on it (her meal plan and workout schedule)."], "keywords": ["meal plan", "workout schedule", "motivation"], "entities": ["Sam"]}
+{"turn_id": "D24:11", "facts": ["Evan suggested Sam ask her doctor for diet and exercise advice."], "keywords": ["doctor advice", "diet", "exercise"], "entities": ["Evan"]}
+{"turn_id": "D24:12", "facts": ["Sam said she hadn't seen a doctor in a while and planned to make an appointment soon for advice."], "keywords": ["doctor appointment", "plans"], "entities": ["Sam"]}
+{"turn_id": "D24:13", "facts": [], "keywords": ["doctor advice"], "entities": ["Evan"]}
+{"turn_id": "D24:14", "facts": ["Sam said she planned to ask her doctor about a balanced diet plan and low-impact exercises given her current situation."], "keywords": ["balanced diet", "low-impact exercise", "doctor"], "entities": ["Sam"]}
+{"turn_id": "D24:15", "facts": ["Evan shared a photo of a salad with chicken, avocado, tomatoes, corn, and cheese, encouraging Sam's plan to focus on balanced diet and low-impact exercise."], "keywords": ["salad", "balanced diet", "encouragement"], "entities": ["Evan"]}
+{"turn_id": "D24:16", "facts": ["Sam asked Evan where he got the idea for the salad and for low-impact exercise suggestions."], "keywords": ["salad idea", "low-impact exercise"], "entities": ["Sam"]}
+{"turn_id": "D24:17", "facts": ["Evan said he got the salad idea from a nearby restaurant, and recommended swimming, yoga, and walking as low-impact exercises."], "keywords": ["restaurant", "swimming", "yoga", "walking"], "entities": ["Evan"]}
+{"turn_id": "D24:18", "facts": ["On 2024-01-09 (the night before 2024-01-10), Sam watched The Godfather, which motivated her to keep up with her fitness routine.", "Sam shared a photo of a young boy playing in a pool."], "keywords": ["the godfather", "movie", "motivation"], "entities": ["Sam", "The Godfather"]}
+{"turn_id": "D24:19", "facts": ["Evan said yoga has helped him with stress and staying flexible alongside his diet."], "keywords": ["yoga", "stress", "flexibility"], "entities": ["Evan"]}
+{"turn_id": "D24:20", "facts": [], "keywords": ["diet", "yoga", "hope"], "entities": ["Sam"]}
+{"turn_id": "D24:21", "facts": ["Evan said watching beach sunsets is one of his favorite low-impact exercises, being both good for exercise and calming.", "Evan shared a photo of a woman standing on a beach at sunset."], "keywords": ["beach sunset", "low-impact exercise", "calming"], "entities": ["Evan"]}
+{"turn_id": "D24:22", "facts": ["On 2024-01-10, Sam said she had the recurring dream again of flying over skyscrapers."], "keywords": ["recurring dream", "flying", "skyscrapers"], "entities": ["Sam"]}
+{"turn_id": "D24:23", "facts": [], "keywords": ["dream control", "encouragement"], "entities": ["Evan"]}
+{"turn_id": "D24:24", "facts": [], "keywords": ["farewell"], "entities": ["Sam"]}
+{"turn_id": "D25:1", "facts": ["On 2024-01-11, Sam said she had been having health issues that made her feel her weight was keeping her from fully living, and she was trying to stay positive though it wasn't easy."], "keywords": ["health issues", "weight", "positivity struggle"], "entities": ["Sam"]}
+{"turn_id": "D25:2", "facts": ["Evan said he had to apologize to his partner (wife) for the drunken night involving the roses, which was embarrassing."], "keywords": ["apology", "partner", "drunken night"], "entities": ["Evan"]}
+{"turn_id": "D25:3", "facts": ["Sam asked Evan how his partner took the news about the rose bush incident."], "keywords": ["rose bushes", "partner reaction"], "entities": ["Sam"]}
+{"turn_id": "D25:4", "facts": ["Evan said his wife wasn't thrilled about the rose bush incident but understood it was an accident, and he promised to be more careful in the future."], "keywords": ["wife reaction", "rose bushes", "promise"], "entities": ["Evan"]}
+{"turn_id": "D25:5", "facts": ["Sam said she hasn't found low-impact exercises she likes yet, but has been going on car rides to relax and enjoy the view.", "Sam shared a photo of a field with a fence and a dirt road that she took the week before 2024-01-11 (around 2024-01-04) in the country."], "keywords": ["car rides", "countryside", "relaxation"], "entities": ["Sam"]}
+{"turn_id": "D25:6", "facts": [], "keywords": ["countryside", "relaxation"], "entities": ["Evan"]}
+{"turn_id": "D25:7", "facts": ["Sam said being in nature helps her relax and get fresh air away from the city."], "keywords": ["nature", "relaxation", "fresh air"], "entities": ["Sam"]}
+{"turn_id": "D25:8", "facts": ["Evan said that last summer (around summer 2023) he took a photo on a camping trip of an amazing sunset.", "Evan shared a photo of a kayak seen from the front of the boat."], "keywords": ["camping trip", "sunset", "kayak", "summer 2023"], "entities": ["Evan"]}
+{"turn_id": "D25:9", "facts": [], "keywords": ["lake", "experience"], "entities": ["Sam"]}
+{"turn_id": "D25:10", "facts": ["Evan said he had a great time kayaking and watching the sunset last summer (2023), calling being out on the water peaceful and unforgettable."], "keywords": ["kayaking", "sunset", "peaceful"], "entities": ["Evan"]}
+{"turn_id": "D25:11", "facts": [], "keywords": ["nature", "calm"], "entities": ["Sam"]}
+{"turn_id": "D25:12", "facts": [], "keywords": ["nature", "reset"], "entities": ["Evan"]}
+{"turn_id": "D25:13", "facts": ["Sam said she was planning to spend more time in nature herself."], "keywords": ["nature plans", "rejuvenation"], "entities": ["Sam"]}
+{"turn_id": "D25:14", "facts": ["Evan shared a photo of a tree with pink flowers in a park, recalling that last spring (around spring 2023) when he was feeling down, the vibrant colors brought a smile to his face."], "keywords": ["pink flowers", "spring 2023", "mood lift"], "entities": ["Evan"]}
+{"turn_id": "D25:15", "facts": [], "keywords": ["small joys", "photo"], "entities": ["Sam"]}
+{"turn_id": "D25:16", "facts": [], "keywords": ["small moments", "encouragement"], "entities": ["Evan"]}
+{"turn_id": "D25:17", "facts": [], "keywords": ["gratitude", "small things"], "entities": ["Sam"]}
+{"turn_id": "D25:18", "facts": [], "keywords": ["small joys", "encouragement"], "entities": ["Evan"]}
+{"turn_id": "D25:19", "facts": [], "keywords": ["gratitude", "farewell"], "entities": ["Sam"]}
+{"turn_id": "D25:20", "facts": [], "keywords": ["farewell", "support"], "entities": ["Evan"]}

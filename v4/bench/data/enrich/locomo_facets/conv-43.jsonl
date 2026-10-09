@@ -1,0 +1,334 @@
+{"fid": "D1:1#0", "facets": [{"subject": "John", "predicate": "person_met", "object": "Tim"}, {"subject": "Tim", "predicate": "person_met", "object": "John"}], "implications": ["Suggests John and Tim are at the start of a new friendship."]}
+{"fid": "D1:2#0", "facets": [{"subject": "Tim", "predicate": "project_work", "object": "Harry Potter fan project"}, {"subject": "Tim", "predicate": "hobby_interest", "object": "Harry Potter"}], "implications": []}
+{"fid": "D1:3#0", "facets": [{"subject": "John", "predicate": "job_career", "object": "signed with a new basketball team"}, {"subject": "John", "predicate": "feeling_emotion", "object": "excited for new season"}], "implications": []}
+{"fid": "D1:5#0", "facets": [{"subject": "John", "predicate": "job_career", "object": "Minnesota Wolves (basketball team)"}], "implications": []}
+{"fid": "D1:7#0", "facets": [{"subject": "John", "predicate": "job_career", "object": "shooting guard for Minnesota Wolves"}, {"subject": "John", "predicate": "skill_ability", "object": "shooting guard position"}], "implications": []}
+{"fid": "D1:7#1", "facets": [{"subject": "John", "predicate": "job_career", "object": "Minnesota Wolves season opener (upcoming)"}], "implications": []}
+{"fid": "D1:9#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "improve shooting percentage"}, {"subject": "John", "predicate": "habit_routine", "object": "practicing hard on shooting"}], "implications": ["Suggests John is disciplined and results-driven about his craft."]}
+{"fid": "D1:11#0", "facets": [{"subject": "John", "predicate": "challenge_problem", "object": "adapting to new team's style of play (pre-season)"}], "implications": ["This suggests John may have felt pressure or self-doubt about proving himself early with a new team."]}
+{"fid": "D1:13#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "positive about new team"}, {"subject": "John", "predicate": "belief_value_opinion", "object": "team is welcoming and fun"}], "implications": []}
+{"fid": "D1:14#0", "facets": [{"subject": "Tim", "predicate": "friend", "object": "Harry Potter fan friend"}, {"subject": "Tim", "predicate": "project_work", "object": "brainstorming Harry Potter fan project"}], "implications": ["This suggests Tim values collaborating with fellow fans over working on his creative projects alone."]}
+{"fid": "D1:15#0", "facets": [{"subject": "John", "predicate": "hobby_interest", "object": "sneaker collection"}, {"subject": "John", "predicate": "possession_purchase", "object": "sneaker collection"}], "implications": ["Suggests John enjoys socializing around shared interests, not just the hobby itself."]}
+{"fid": "D1:16#0", "facets": [{"subject": "Tim", "predicate": "project_work", "object": "Harry Potter fan project (characters, spells, creatures)"}], "implications": []}
+{"fid": "D1:18#0", "facets": [{"subject": "Tim", "predicate": "trip_location_visited", "object": "London (Harry Potter tour)"}, {"subject": "Tim", "predicate": "hobby_interest", "object": "Harry Potter fandom"}], "implications": ["This suggests Tim has been a devoted Harry Potter fan for years, predating his friendship with John."]}
+{"fid": "D1:19#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "visit Harry Potter filming locations"}], "implications": []}
+{"fid": "D1:20#0", "facets": [{"subject": "Tim", "predicate": "support_advice", "object": "tips for visiting Harry Potter locations (to John)"}], "implications": []}
+{"fid": "D2:1#0", "facets": [{"subject": "Tim", "predicate": "hobby_interest", "object": "fantasy literature forum"}, {"subject": "Tim", "predicate": "event_attended", "object": "forum discussion about favorite books"}], "implications": ["This suggests Tim finds a sense of belonging and stimulation in online communities built around his interests."]}
+{"fid": "D2:2#0", "facets": [{"subject": "John", "predicate": "job_career", "object": "exploring endorsement opportunities"}, {"subject": "John", "predicate": "feeling_emotion", "object": "excited about brand deals"}], "implications": []}
+{"fid": "D2:4#0", "facets": [{"subject": "John", "predicate": "job_career", "object": "considering endorsement deals (Nike, Under Armour)"}, {"subject": "John", "predicate": "belief_value_opinion", "object": "brand alignment with personal values"}], "implications": ["Suggests John is selective about endorsements rather than chasing any deal for money."]}
+{"fid": "D2:6#0", "facets": [{"subject": "John", "predicate": "job_career", "object": "will update Tim on chosen endorsement brands"}, {"subject": "John", "predicate": "friend", "object": "Tim (keeps him updated)"}], "implications": []}
+{"fid": "D2:7#0", "facets": [{"subject": "Tim", "predicate": "possession_purchase", "object": "book collection (bookshelf)"}, {"subject": "Tim", "predicate": "hobby_interest", "object": "book collecting"}], "implications": []}
+{"fid": "D2:9#0", "facets": [{"subject": "Tim", "predicate": "possession_purchase", "object": "MinaLima Harry Potter print"}, {"subject": "Tim", "predicate": "hobby_interest", "object": "Harry Potter memorabilia"}], "implications": []}
+{"fid": "D2:11#0", "facets": [{"subject": "Tim", "predicate": "hobby_interest", "object": "Harry Potter home decor"}, {"subject": "Tim", "predicate": "feeling_emotion", "object": "uses Harry Potter items to escape reality"}], "implications": ["Suggests Tim may use his fandom as a coping mechanism for stress."]}
+{"fid": "D2:13#0", "facets": [{"subject": "Tim", "predicate": "goal_plan", "object": "visit more Harry Potter locations"}], "implications": []}
+{"fid": "D2:14#0", "facets": [{"subject": "John", "predicate": "sport_exercise", "object": "basketball game (gym)"}], "implications": []}
+{"fid": "D2:16#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "loves being on the basketball court"}], "implications": []}
+{"fid": "D2:18#0", "facets": [{"subject": "John", "predicate": "habit_routine", "object": "gives full effort every game"}, {"subject": "John", "predicate": "belief_value_opinion", "object": "strong work ethic on court"}], "implications": []}
+{"fid": "D3:1#0", "facets": [{"subject": "John", "predicate": "achievement_award", "object": "40 points, career-high basketball game"}], "implications": ["Suggests John was in strong form heading into the season."]}
+{"fid": "D3:2#0", "facets": [{"subject": "Tim", "predicate": "person_met", "object": "Harry Potter fan (California)"}], "implications": ["Tim is likely an enthusiastic Harry Potter fan who enjoys connecting with others over it."]}
+{"fid": "D3:3#0", "facets": [{"subject": "John", "predicate": "achievement_award", "object": "tough team win (40-point game)"}, {"subject": "John", "predicate": "feeling_emotion", "object": "electric atmosphere at the game"}], "implications": []}
+{"fid": "D3:5#0", "facets": [{"subject": "John", "predicate": "event_attended", "object": "team celebration dinner at a restaurant"}], "implications": []}
+{"fid": "D3:7#0", "facets": [{"subject": "John", "predicate": "friend", "object": "basketball teammates (like a second family)"}, {"subject": "John", "predicate": "feeling_emotion", "object": "close bond with teammates"}], "implications": []}
+{"fid": "D3:9#0", "facets": [{"subject": "John", "predicate": "job_career", "object": "progress on endorsement talks with big-name companies"}], "implications": []}
+{"fid": "D3:11#0", "facets": [{"subject": "John", "predicate": "skill_ability", "object": "marketing skills and industry networking"}], "implications": ["This suggests John is business-savvy and proactive about managing his career and brand beyond playing basketball."]}
+{"fid": "D3:13#0", "facets": [{"subject": "John", "predicate": "job_career", "object": "Nike endorsement deal (shoe/gear line)"}, {"subject": "John", "predicate": "achievement_award", "object": "Nike endorsement deal"}], "implications": []}
+{"fid": "D3:13#1", "facets": [{"subject": "John", "predicate": "job_career", "object": "in talks with Gatorade about sponsorship"}], "implications": []}
+{"fid": "D3:15#0", "facets": [{"subject": "John", "predicate": "preference_like", "object": "Under Armour (brand)"}, {"subject": "John", "predicate": "goal_plan", "object": "endorsement partnership with Under Armour"}], "implications": []}
+{"fid": "D3:17#0", "facets": [{"subject": "John", "predicate": "trip_location_visited", "object": "city skyline (next travel destination)"}], "implications": []}
+{"fid": "D3:19#0", "facets": [{"subject": "John", "predicate": "job_career", "object": "upcoming basketball game in Seattle"}, {"subject": "John", "predicate": "preference_like", "object": "Seattle (favorite city)"}], "implications": []}
+{"fid": "D3:21#0", "facets": [{"subject": "John", "predicate": "preference_like", "object": "Seattle (energy, diversity, food)"}, {"subject": "John", "predicate": "food_drink_recipe", "object": "Seattle seafood"}], "implications": []}
+{"fid": "D3:22#0", "facets": [{"subject": "Tim", "predicate": "goal_plan", "object": "try Seattle seafood"}], "implications": []}
+{"fid": "D3:23#0", "facets": [{"subject": "John", "predicate": "preference_like", "object": "the ocean"}], "implications": []}
+{"fid": "D3:25#0", "facets": [{"subject": "John", "predicate": "hobby_interest", "object": "surfing"}, {"subject": "John", "predicate": "friend", "object": "surfing friends"}], "implications": []}
+{"fid": "D3:27#0", "facets": [{"subject": "John", "predicate": "hobby_interest", "object": "surfing (since 2018)"}, {"subject": "John", "predicate": "outdoor_activity", "object": "surfing (connection to nature)"}], "implications": []}
+{"fid": "D3:29#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "surfing feels exciting and free"}, {"subject": "John", "predicate": "belief_value_opinion", "object": "nature is special"}], "implications": []}
+{"fid": "D3:30#0", "facets": [{"subject": "Tim", "predicate": "hobby_interest", "object": "reading fantasy books"}, {"subject": "Tim", "predicate": "feeling_emotion", "object": "reading feels freeing"}], "implications": ["Suggests reading serves Tim as an escapist outlet much like surfing does for John."]}
+{"fid": "D3:32#0", "facets": [{"subject": "Tim", "predicate": "feeling_emotion", "object": "reading feels blissful and immersive"}], "implications": []}
+{"fid": "D4:1#0", "facets": [{"subject": "Tim", "predicate": "project_work", "object": "writing fantasy novel articles for online magazine"}, {"subject": "Tim", "predicate": "job_career", "object": "magazine writer role"}], "implications": ["This suggests Tim is turning his passion for fantasy literature into a professional pursuit."]}
+{"fid": "D4:3#0", "facets": [{"subject": "Tim", "predicate": "achievement_award", "object": "article ideas accepted by the magazine"}], "implications": []}
+{"fid": "D4:5#0", "facets": [{"subject": "Tim", "predicate": "creative_work", "object": "magazine articles analyzing fantasy novels"}], "implications": []}
+{"fid": "D4:7#0", "facets": [{"subject": "Tim", "predicate": "hobby_interest", "object": "Harry Potter"}, {"subject": "Tim", "predicate": "movie_show_music", "object": "Game of Thrones"}], "implications": []}
+{"fid": "D4:8#0", "facets": [{"subject": "John", "predicate": "event_attended", "object": "charity event with Harry Potter trivia contest"}, {"subject": "John", "predicate": "friend", "object": "Anthony"}], "implications": []}
+{"fid": "D4:10#0", "facets": [{"subject": "John", "predicate": "book_read", "object": "inspiring book about dreaming"}], "implications": []}
+{"fid": "D4:12#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "keep reaching for new goals"}, {"subject": "John", "predicate": "belief_value_opinion", "object": "ambition and growth mindset"}], "implications": []}
+{"fid": "D5:1#0", "facets": [{"subject": "Tim", "predicate": "project_work", "object": "Harry Potter collaboration discussion (Skype call)"}, {"subject": "Tim", "predicate": "person_met", "object": "Harry Potter fan from California (follow-up call)"}], "implications": []}
+{"fid": "D5:2#0", "facets": [{"subject": "John", "predicate": "achievement_award", "object": "game-winning last basket"}, {"subject": "John", "predicate": "feeling_emotion", "object": "awesome feeling from cheering crowd"}], "implications": []}
+{"fid": "D5:4#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "team hyped after winning"}], "implications": []}
+{"fid": "D5:6#0", "facets": [{"subject": "John", "predicate": "friend", "object": "basketball team bond"}, {"subject": "John", "predicate": "belief_value_opinion", "object": "team bond makes hard work worthwhile"}], "implications": []}
+{"fid": "D5:8#0", "facets": [{"subject": "John", "predicate": "friend", "object": "basketball team as family away from home"}], "implications": []}
+{"fid": "D5:10#0", "facets": [{"subject": "John", "predicate": "support_advice", "object": "teammates' encouragement"}, {"subject": "John", "predicate": "friend", "object": "teammates (hang out beyond basketball)"}], "implications": []}
+{"fid": "D5:11#0", "facets": [{"subject": "Tim", "predicate": "support_advice", "object": "supportive 'second family' helps with home life and hobbies"}], "implications": ["This suggests Tim considers his fan community an important source of emotional support, alongside his family."]}
+{"fid": "D5:13#0", "facets": [{"subject": "Tim", "predicate": "book_read", "object": "captivating fantasy book"}], "implications": []}
+{"fid": "D5:15#0", "facets": [{"subject": "Tim", "predicate": "book_read", "object": "novel by Patrick Rothfuss"}, {"subject": "Tim", "predicate": "belief_value_opinion", "object": "praises Rothfuss's world-building"}], "implications": []}
+{"fid": "D5:16#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "read Patrick Rothfuss book recommended by Tim"}], "implications": []}
+{"fid": "D5:18#0", "facets": [{"subject": "John", "predicate": "friend", "object": "Tim (book discussion follow-up)"}], "implications": []}
+{"fid": "D6:1#0", "facets": [{"subject": "John", "predicate": "trip_location_visited", "object": "new place (loved the energy)"}], "implications": []}
+{"fid": "D6:2#0", "facets": [{"subject": "Tim", "predicate": "event_attended", "object": "fan event with people who share his passion"}, {"subject": "Tim", "predicate": "feeling_emotion", "object": "fantastic feeling among fellow fans"}], "implications": []}
+{"fid": "D6:3#0", "facets": [{"subject": "John", "predicate": "trip_location_visited", "object": "Chicago"}], "implications": []}
+{"fid": "D6:5#0", "facets": [{"subject": "John", "predicate": "preference_like", "object": "stadium game-day energy"}], "implications": []}
+{"fid": "D6:6#0", "facets": [{"subject": "Tim", "predicate": "creative_work", "object": "latest magazine article"}], "implications": []}
+{"fid": "D6:8#0", "facets": [{"subject": "Tim", "predicate": "book_read", "object": "'The Name of the Wind'"}], "implications": []}
+{"fid": "D6:9#0", "facets": [{"subject": "John", "predicate": "possession_purchase", "object": "lucky basketball shoes"}], "implications": []}
+{"fid": "D6:11#0", "facets": [{"subject": "John", "predicate": "possession_purchase", "object": "lucky basketball shoes (symbolic)"}, {"subject": "John", "predicate": "belief_value_opinion", "object": "resilience and determination"}], "implications": []}
+{"fid": "D6:13#0", "facets": [{"subject": "John", "predicate": "family_member", "object": "father (introduced him to basketball)"}, {"subject": "John", "predicate": "sport_exercise", "object": "basketball since childhood through pro career"}, {"subject": "John", "predicate": "achievement_award", "object": "college scholarship and pro draft"}], "implications": ["Suggests John's father played a formative role in shaping his basketball career."]}
+{"fid": "D6:15#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "win a championship"}, {"subject": "John", "predicate": "volunteering_cause", "object": "charity work and inspiring people off the court"}], "implications": []}
+{"fid": "D6:17#0", "facets": [{"subject": "John", "predicate": "volunteering_cause", "object": "local organization helping disadvantaged kids"}], "implications": ["Suggests John values using his athletic platform for community impact."]}
+{"fid": "D7:1#0", "facets": [{"subject": "John", "predicate": "friend", "object": "teammates (reunion after trip)"}, {"subject": "John", "predicate": "feeling_emotion", "object": "felt welcomed back by the team"}], "implications": []}
+{"fid": "D7:4#0", "facets": [{"subject": "Tim", "predicate": "event_attended", "object": "fan event (felt a sense of belonging)"}, {"subject": "Tim", "predicate": "feeling_emotion", "object": "sense of belonging among fans"}], "implications": ["This suggests fan communities provide Tim with an important sense of identity and social belonging."]}
+{"fid": "D7:6#0", "facets": [{"subject": "Tim", "predicate": "goal_plan", "object": "attend a book conference"}], "implications": []}
+{"fid": "D7:7#0", "facets": [{"subject": "John", "predicate": "possession_purchase", "object": "basketball autographed by teammates"}, {"subject": "John", "predicate": "friend", "object": "teammates (friendship keepsake)"}], "implications": []}
+{"fid": "D7:9#0", "facets": [{"subject": "John", "predicate": "gift_given_received", "object": "autographed basketball from teammates"}], "implications": []}
+{"fid": "D7:11#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "motivated by the autographed basketball"}], "implications": []}
+{"fid": "D8:1#0", "facets": [{"subject": "John", "predicate": "habit_routine", "object": "found a new gym for training"}, {"subject": "John", "predicate": "challenge_problem", "object": "finding the right gym"}], "implications": []}
+{"fid": "D8:3#0", "facets": [{"subject": "John", "predicate": "habit_routine", "object": "adapted training routine at new gym"}], "implications": []}
+{"fid": "D8:5#0", "facets": [{"subject": "John", "predicate": "habit_routine", "object": "workout schedule balancing basketball and strength training"}], "implications": []}
+{"fid": "D8:7#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "strength training benefits (muscle, power, injury prevention)"}], "implications": []}
+{"fid": "D8:9#0", "facets": [{"subject": "John", "predicate": "skill_ability", "object": "improved shooting accuracy, agility, speed"}], "implications": []}
+{"fid": "D8:12#0", "facets": [{"subject": "Tim", "predicate": "education_course", "object": "focusing on school"}, {"subject": "Tim", "predicate": "skill_ability", "object": "learning to play piano"}], "implications": []}
+{"fid": "D8:14#0", "facets": [{"subject": "Tim", "predicate": "skill_ability", "object": "favorite piano piece is a movie theme"}], "implications": []}
+{"fid": "D8:16#0", "facets": [{"subject": "Tim", "predicate": "movie_show_music", "object": "'Harry Potter and the Philosopher's Stone'"}, {"subject": "Tim", "predicate": "family_member", "object": "family movie memory"}], "implications": []}
+{"fid": "D8:17#0", "facets": [{"subject": "John", "predicate": "movie_show_music", "object": "Harry Potter film collection"}, {"subject": "John", "predicate": "possession_purchase", "object": "owns whole Harry Potter film collection"}], "implications": ["This suggests John has more genuine overlap with Tim's fandom interests than he otherwise lets on."]}
+{"fid": "D8:18#0", "facets": [{"subject": "Tim", "predicate": "family_member", "object": "family movie night watching Harry Potter"}], "implications": []}
+{"fid": "D8:19#0", "facets": [{"subject": "John", "predicate": "family_member", "object": "family gathers together often"}], "implications": []}
+{"fid": "D8:20#0", "facets": [{"subject": "Tim", "predicate": "family_member", "object": "family gathering on a special day"}], "implications": []}
+{"fid": "D8:22#0", "facets": [{"subject": "Tim", "predicate": "family_member", "object": "Thanksgiving traditions (feast, gratitude, movies)"}], "implications": []}
+{"fid": "D8:24#0", "facets": [{"subject": "Tim", "predicate": "movie_show_music", "object": "'Home Alone' (Thanksgiving tradition)"}], "implications": []}
+{"fid": "D8:26#0", "facets": [{"subject": "Tim", "predicate": "movie_show_music", "object": "'Elf' (holiday tradition)"}], "implications": []}
+{"fid": "D8:28#0", "facets": [{"subject": "Tim", "predicate": "movie_show_music", "object": "'The Santa Clause' (holiday tradition)"}], "implications": []}
+{"fid": "D8:29#0", "facets": [{"subject": "John", "predicate": "family_member", "object": "Christmas tree, 2022 (family)"}], "implications": []}
+{"fid": "D8:30#0", "facets": [{"subject": "Tim", "predicate": "hobby_interest", "object": "Harry Potter-themed Christmas tree"}], "implications": []}
+{"fid": "D8:32#0", "facets": [{"subject": "Tim", "predicate": "creative_work", "object": "decorated his own Harry Potter Christmas tree"}], "implications": []}
+{"fid": "D9:1#0", "facets": [{"subject": "Tim", "predicate": "challenge_problem", "object": "balancing exams/assignments with reading hobby"}], "implications": ["This suggests Tim feels academic pressure that sometimes competes with his personal interests and hobbies."]}
+{"fid": "D9:2#0", "facets": [{"subject": "John", "predicate": "trip_location_visited", "object": "hometown visit"}, {"subject": "John", "predicate": "family_member", "object": "catching up with family"}, {"subject": "John", "predicate": "friend", "object": "reunion with old friends"}], "implications": []}
+{"fid": "D9:4#0", "facets": [{"subject": "John", "predicate": "sport_exercise", "object": "high school basketball team, 4 years"}], "implications": []}
+{"fid": "D9:5#0", "facets": [{"subject": "Tim", "predicate": "preference_like", "object": "reading over team sports"}, {"subject": "Tim", "predicate": "hobby_interest", "object": "traveling to new places"}], "implications": ["Suggests Tim's sense of identity centers more on books and travel than on athletics."]}
+{"fid": "D9:6#0", "facets": [{"subject": "John", "predicate": "trip_location_visited", "object": "New York City"}, {"subject": "John", "predicate": "hobby_interest", "object": "discovering new cities"}], "implications": []}
+{"fid": "D9:8#0", "facets": [{"subject": "John", "predicate": "trip_location_visited", "object": "New York City (amazing trip)"}, {"subject": "John", "predicate": "food_drink_recipe", "object": "New York City restaurants"}], "implications": []}
+{"fid": "D9:9#0", "facets": [{"subject": "Tim", "predicate": "goal_plan", "object": "visit New York City"}], "implications": []}
+{"fid": "D10:1#0", "facets": [{"subject": "Tim", "predicate": "challenge_problem", "object": "rejected from a summer job"}, {"subject": "Tim", "predicate": "feeling_emotion", "object": "staying positive despite rejection"}], "implications": ["Suggests Tim has a resilient, optimistic disposition when facing setbacks."]}
+{"fid": "D10:2#0", "facets": [{"subject": "John", "predicate": "challenge_problem", "object": "trouble navigating the NYC subway"}], "implications": []}
+{"fid": "D10:3#0", "facets": [{"subject": "Tim", "predicate": "education_course", "object": "class presentation"}, {"subject": "Tim", "predicate": "feeling_emotion", "object": "nervous about presenting"}], "implications": []}
+{"fid": "D10:4#0", "facets": [{"subject": "John", "predicate": "food_drink_recipe", "object": "homemade soup"}, {"subject": "John", "predicate": "hobby_interest", "object": "cooking"}], "implications": []}
+{"fid": "D10:6#0", "facets": [{"subject": "John", "predicate": "skill_ability", "object": "improvised cooking without a recipe"}], "implications": []}
+{"fid": "D10:8#0", "facets": [{"subject": "John", "predicate": "food_drink_recipe", "object": "soup seasoned with sage"}], "implications": []}
+{"fid": "D10:9#0", "facets": [{"subject": "Tim", "predicate": "goal_plan", "object": "trip to Universal Studios"}, {"subject": "Tim", "predicate": "hobby_interest", "object": "Harry Potter attractions"}], "implications": []}
+{"fid": "D10:10#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "visit Universal Studios"}], "implications": []}
+{"fid": "D10:11#0", "facets": [{"subject": "Tim", "predicate": "trip_location_visited", "object": "Universal Studios (planned first visit)"}], "implications": []}
+{"fid": "D11:3#0", "facets": [{"subject": "John", "predicate": "friend", "object": "new teammates (restaurant outing)"}], "implications": []}
+{"fid": "D11:5#0", "facets": [{"subject": "John", "predicate": "friend", "object": "new teammates bonded over basketball"}], "implications": []}
+{"fid": "D11:7#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "team trip to a new city (October 2023)"}], "implications": []}
+{"fid": "D11:10#0", "facets": [{"subject": "Tim", "predicate": "support_advice", "object": "suggested Edinburgh for John's team trip"}, {"subject": "Tim", "predicate": "hobby_interest", "object": "Harry Potter birthplace connection"}], "implications": []}
+{"fid": "D11:11#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "considering Edinburgh for team trip"}], "implications": []}
+{"fid": "D11:13#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "gratitude for his basketball career"}], "implications": []}
+{"fid": "D11:15#0", "facets": [{"subject": "John", "predicate": "preference_like", "object": "professional basketball as constant challenge"}], "implications": []}
+{"fid": "D11:17#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "improve shooting/consistency, pursue endorsements, build personal brand"}], "implications": []}
+{"fid": "D11:19#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "start a foundation and do charity work after basketball"}], "implications": ["Suggests John is already thinking about his legacy beyond his playing career."]}
+{"fid": "D11:22#0", "facets": [{"subject": "Tim", "predicate": "support_advice", "object": "advised John to pick endorsements aligned with his values"}], "implications": []}
+{"fid": "D11:24#0", "facets": [{"subject": "Tim", "predicate": "support_advice", "object": "recommended a Patrick Rothfuss novel to John"}], "implications": []}
+{"fid": "D11:25#0", "facets": [{"subject": "John", "predicate": "possession_purchase", "object": "bookshelf of books he has read"}, {"subject": "John", "predicate": "hobby_interest", "object": "reading"}], "implications": []}
+{"fid": "D11:27#0", "facets": [{"subject": "John", "predicate": "book_read", "object": "'The Alchemist'"}, {"subject": "John", "predicate": "belief_value_opinion", "object": "importance of following one's dreams"}], "implications": []}
+{"fid": "D12:2#0", "facets": [{"subject": "John", "predicate": "life_event_milestone", "object": "wedding ceremony at a greenhouse venue"}, {"subject": "John", "predicate": "partner", "object": "girlfriend/now-wife"}], "implications": ["This suggests John is entering a new life stage centered on long-term partnership and family."]}
+{"fid": "D12:4#0", "facets": [{"subject": "John", "predicate": "life_event_milestone", "object": "intimate wedding at greenhouse venue with safety protocols"}], "implications": []}
+{"fid": "D12:6#0", "facets": [{"subject": "John", "predicate": "friend", "object": "hiking club friends attended his wedding"}, {"subject": "John", "predicate": "hobby_interest", "object": "hiking club (recently joined)"}], "implications": ["This suggests John quickly built close, meaningful relationships with his new hiking club despite being a recent member."]}
+{"fid": "D12:8#0", "facets": [{"subject": "John", "predicate": "life_event_milestone", "object": "favorite wedding memory: bride walking down the aisle"}], "implications": []}
+{"fid": "D12:10#0", "facets": [{"subject": "John", "predicate": "life_event_milestone", "object": "first dance at a cozy restaurant"}, {"subject": "John", "predicate": "partner", "object": "wife (first dance)"}], "implications": []}
+{"fid": "D12:15#0", "facets": [{"subject": "Tim", "predicate": "book_read", "object": "favorite fantasy novels on his bookshelf"}], "implications": []}
+{"fid": "D12:17#0", "facets": [{"subject": "Tim", "predicate": "preference_like", "object": "fantasy novels as escapism"}], "implications": []}
+{"fid": "D12:18#0", "facets": [{"subject": "John", "predicate": "hobby_interest", "object": "collecting basketball jerseys"}, {"subject": "John", "predicate": "possession_purchase", "object": "basketball jerseys"}], "implications": []}
+{"fid": "D12:20#0", "facets": [{"subject": "John", "predicate": "preference_like", "object": "Minnesota Wolves (favorite team) and LeBron (favorite player)"}], "implications": []}
+{"fid": "D12:22#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "admires LeBron's work ethic and dedication"}], "implications": []}
+{"fid": "D12:24#0", "facets": [{"subject": "John", "predicate": "person_met", "object": "LeBron James"}, {"subject": "John", "predicate": "event_attended", "object": "LeBron game watched live"}], "implications": []}
+{"fid": "D12:26#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "motivated by watching LeBron play live"}], "implications": []}
+{"fid": "D12:28#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "loves his job for moments like the game's energy"}], "implications": []}
+{"fid": "D13:1#0", "facets": [{"subject": "Tim", "predicate": "event_attended", "object": "Harry Potter conference in the UK"}, {"subject": "Tim", "predicate": "trip_location_visited", "object": "UK (Harry Potter conference)"}], "implications": ["Suggests Tim feels a strong sense of community within Harry Potter fandom."]}
+{"fid": "D13:2#0", "facets": [{"subject": "John", "predicate": "friend", "object": "basketball team feels like a fandom-style community"}], "implications": []}
+{"fid": "D13:4#0", "facets": [{"subject": "John", "predicate": "job_career", "object": "intense basketball season with mixed results overall good"}], "implications": []}
+{"fid": "D13:6#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "team perseverance and mutual support"}], "implications": []}
+{"fid": "D13:8#0", "facets": [{"subject": "John", "predicate": "achievement_award", "object": "team trophy win"}], "implications": []}
+{"fid": "D13:14#0", "facets": [{"subject": "John", "predicate": "possession_purchase", "object": "needs new basketball shoes"}], "implications": []}
+{"fid": "D13:15#0", "facets": [{"subject": "Tim", "predicate": "possession_purchase", "object": "black and pink running shoes"}], "implications": []}
+{"fid": "D13:17#0", "facets": [{"subject": "Tim", "predicate": "possession_purchase", "object": "running shoes bought online"}], "implications": []}
+{"fid": "D14:3#0", "facets": [{"subject": "John", "predicate": "colleague_mentor", "object": "mentoring younger players on his team"}, {"subject": "John", "predicate": "volunteering_cause", "object": "mentoring during off-season"}], "implications": ["This suggests John is beginning to see himself in a leadership and mentorship role beyond being just a player."]}
+{"fid": "D14:5#0", "facets": [{"subject": "John", "predicate": "colleague_mentor", "object": "challenges and rewards of mentoring"}], "implications": []}
+{"fid": "D14:7#0", "facets": [{"subject": "John", "predicate": "colleague_mentor", "object": "fulfilled by younger players' growth"}], "implications": []}
+{"fid": "D14:9#0", "facets": [{"subject": "John", "predicate": "colleague_mentor", "object": "seen as a mentor and role model by younger players"}], "implications": []}
+{"fid": "D14:11#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "pride in earning younger players' trust"}], "implications": []}
+{"fid": "D14:12#0", "facets": [{"subject": "Tim", "predicate": "outdoor_activity", "object": "mountain sunset photo"}], "implications": []}
+{"fid": "D14:14#0", "facets": [{"subject": "Tim", "predicate": "trip_location_visited", "object": "mountain range trip (summer 2023)"}], "implications": []}
+{"fid": "D14:16#0", "facets": [{"subject": "Tim", "predicate": "trip_location_visited", "object": "Smoky Mountains (2022)"}], "implications": []}
+{"fid": "D14:18#0", "facets": [{"subject": "Tim", "predicate": "preference_like", "object": "spending time in nature"}, {"subject": "Tim", "predicate": "outdoor_activity", "object": "nature as a break from school"}], "implications": []}
+{"fid": "D14:20#0", "facets": [{"subject": "Tim", "predicate": "habit_routine", "object": "balancing school and reading"}], "implications": []}
+{"fid": "D14:22#0", "facets": [{"subject": "Tim", "predicate": "book_read", "object": "book he is currently hooked on"}], "implications": []}
+{"fid": "D14:23#0", "facets": [{"subject": "John", "predicate": "book_read", "object": "started a book after talking with Tim"}], "implications": ["Suggests Tim's enthusiasm for reading has influenced John's own habits."]}
+{"fid": "D15:1#0", "facets": [{"subject": "Tim", "predicate": "book_read", "object": "book about UK castles"}, {"subject": "Tim", "predicate": "goal_plan", "object": "dreams of visiting UK castles"}], "implications": []}
+{"fid": "D15:2#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "visit castles and historical architecture"}], "implications": []}
+{"fid": "D15:3#0", "facets": [{"subject": "Tim", "predicate": "creative_work", "object": "writing a fantasy novel"}], "implications": []}
+{"fid": "D15:5#0", "facets": [{"subject": "Tim", "predicate": "creative_work", "object": "draws novel inspiration from UK castles"}], "implications": []}
+{"fid": "D15:7#0", "facets": [{"subject": "Tim", "predicate": "belief_value_opinion", "object": "J.K. Rowling as biggest writing inspiration"}], "implications": []}
+{"fid": "D15:9#0", "facets": [{"subject": "Tim", "predicate": "book_read", "object": "J.K. Rowling's works (long-time reader)"}], "implications": []}
+{"fid": "D15:11#0", "facets": [{"subject": "Tim", "predicate": "belief_value_opinion", "object": "favorite J.K. Rowling quote about hope"}], "implications": ["Suggests Tim draws on fiction for emotional resilience during hard times."]}
+{"fid": "D15:12#0", "facets": [{"subject": "John", "predicate": "habit_routine", "object": "motivational whiteboard with quotes and strategies"}], "implications": []}
+{"fid": "D15:14#0", "facets": [{"subject": "John", "predicate": "habit_routine", "object": "motivational quotes to push through tough workouts"}], "implications": []}
+{"fid": "D15:15#0", "facets": [{"subject": "Tim", "predicate": "belief_value_opinion", "object": "visual reminders help with motivation"}], "implications": []}
+{"fid": "D15:16#0", "facets": [{"subject": "John", "predicate": "possession_purchase", "object": "'make it happen' plaque and lightbox"}], "implications": []}
+{"fid": "D15:18#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "motivated by teammates' belief in him"}], "implications": ["This suggests John's sense of self-worth is closely tied to not letting down the people who depend on him."]}
+{"fid": "D15:20#0", "facets": [{"subject": "John", "predicate": "support_advice", "object": "teammates support him through mistakes"}], "implications": []}
+{"fid": "D15:22#0", "facets": [{"subject": "John", "predicate": "support_advice", "object": "supportive people outside of sports"}], "implications": []}
+{"fid": "D15:23#0", "facets": [{"subject": "Tim", "predicate": "support_advice", "object": "grateful for supportive friends and family"}, {"subject": "Tim", "predicate": "feeling_emotion", "object": "gratitude for support"}], "implications": []}
+{"fid": "D15:24#0", "facets": [{"subject": "John", "predicate": "family_member", "object": "supportive family"}, {"subject": "John", "predicate": "belief_value_opinion", "object": "importance of loved ones' support"}], "implications": []}
+{"fid": "D15:26#0", "facets": [{"subject": "John", "predicate": "family_member", "object": "family brings him happiness"}, {"subject": "John", "predicate": "friend", "object": "basketball team as second family"}], "implications": []}
+{"fid": "D15:29#0", "facets": [{"subject": "Tim", "predicate": "hobby_interest", "object": "road trips, hiking, board games, reading"}], "implications": ["This suggests Tim prefers quiet, low-key leisure and places a high value on time with people close to him."]}
+{"fid": "D15:30#0", "facets": [{"subject": "John", "predicate": "hobby_interest", "object": "reading and cooking as relaxation"}], "implications": ["This suggests John seeks quiet, solitary activities to decompress from the pressures of professional sports."]}
+{"fid": "D15:32#0", "facets": [{"subject": "John", "predicate": "food_drink_recipe", "object": "honey garlic chicken with roasted vegetables"}], "implications": []}
+{"fid": "D15:34#0", "facets": [{"subject": "John", "predicate": "gift_given_received", "object": "offered his honey garlic chicken recipe to Tim"}], "implications": []}
+{"fid": "D16:1#0", "facets": [{"subject": "Tim", "predicate": "challenge_problem", "object": "writer's block on a plot twist"}], "implications": []}
+{"fid": "D16:6#0", "facets": [{"subject": "John", "predicate": "achievement_award", "object": "comeback win, 2022, unforgettable buzzer moment"}], "implications": []}
+{"fid": "D16:7#0", "facets": [{"subject": "Tim", "predicate": "possession_purchase", "object": "basketball signed by his favorite player"}], "implications": []}
+{"fid": "D16:9#0", "facets": [{"subject": "Tim", "predicate": "preference_like", "object": "LeBron James (favorite basketball player)"}], "implications": []}
+{"fid": "D16:10#0", "facets": [{"subject": "John", "predicate": "preference_like", "object": "LeBron's 2016 Finals block as a reason he loves basketball"}], "implications": []}
+{"fid": "D16:14#0", "facets": [{"subject": "John", "predicate": "trip_location_visited", "object": "European vacation"}, {"subject": "John", "predicate": "partner", "object": "wife (vacation together)"}], "implications": []}
+{"fid": "D16:15#0", "facets": [{"subject": "Tim", "predicate": "support_advice", "object": "recommended visiting castles during John's Europe trip"}], "implications": []}
+{"fid": "D17:2#0", "facets": [{"subject": "Tim", "predicate": "book_read", "object": "'A Storm of Swords'"}], "implications": []}
+{"fid": "D17:3#0", "facets": [{"subject": "John", "predicate": "trip_location_visited", "object": "European coastline road trip"}, {"subject": "John", "predicate": "partner", "object": "wife (road trip bonding)"}], "implications": []}
+{"fid": "D17:9#0", "facets": [{"subject": "John", "predicate": "book_read", "object": "fantasy series finished, praised for twists"}], "implications": []}
+{"fid": "D17:10#0", "facets": [{"subject": "Tim", "predicate": "movie_show_music", "object": "'It' (favorite fantasy show)"}], "implications": []}
+{"fid": "D17:11#0", "facets": [{"subject": "John", "predicate": "movie_show_music", "object": "'It' (watched and enjoyed)"}], "implications": ["This suggests John also uses fiction as an escape from the pressures of his demanding career."]}
+{"fid": "D17:17#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "importance of work-rest balance"}], "implications": []}
+{"fid": "D18:1#0", "facets": [{"subject": "Tim", "predicate": "trip_location_visited", "object": "UK castle visit"}], "implications": []}
+{"fid": "D18:2#0", "facets": [{"subject": "John", "predicate": "health_condition", "object": "dealing with an injury"}, {"subject": "John", "predicate": "feeling_emotion", "object": "staying positive despite injury"}], "implications": []}
+{"fid": "D18:3#0", "facets": [{"subject": "Tim", "predicate": "challenge_problem", "object": "swamped with exams"}], "implications": []}
+{"fid": "D18:5#0", "facets": [{"subject": "Tim", "predicate": "feeling_emotion", "object": "optimistic despite challenging exams"}], "implications": []}
+{"fid": "D18:6#0", "facets": [{"subject": "John", "predicate": "habit_routine", "object": "visualizes goals and success to stay focused"}], "implications": []}
+{"fid": "D18:7#0", "facets": [{"subject": "Tim", "predicate": "habit_routine", "object": "uses the Pomodoro technique for studying"}], "implications": []}
+{"fid": "D18:10#0", "facets": [{"subject": "John", "predicate": "health_condition", "object": "injury confirmed not too serious by doctor"}], "implications": []}
+{"fid": "D18:12#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "frustrated at being sidelined by injury"}], "implications": ["This suggests basketball is central to John's sense of identity and well-being, beyond just being his job."]}
+{"fid": "D19:2#0", "facets": [{"subject": "John", "predicate": "health_condition", "object": "injury recovery, tough but staying positive"}], "implications": []}
+{"fid": "D19:3#0", "facets": [{"subject": "Tim", "predicate": "challenge_problem", "object": "writing setback on a UK-based story"}], "implications": []}
+{"fid": "D19:4#0", "facets": [{"subject": "John", "predicate": "support_advice", "object": "advised Tim to reflect and improve his storytelling"}], "implications": []}
+{"fid": "D19:6#0", "facets": [{"subject": "John", "predicate": "health_condition", "object": "ankle injury, 2022-23 season"}, {"subject": "John", "predicate": "challenge_problem", "object": "toughest basketball challenge: ankle injury"}], "implications": []}
+{"fid": "D19:8#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "remembers his passion for basketball to stay motivated"}], "implications": []}
+{"fid": "D19:10#0", "facets": [{"subject": "John", "predicate": "challenge_problem", "object": "mistake in a big game, learned resilience"}], "implications": []}
+{"fid": "D19:13#0", "facets": [{"subject": "Tim", "predicate": "book_read", "object": "stack of books, his 'growth journey companions'"}], "implications": []}
+{"fid": "D19:15#0", "facets": [{"subject": "Tim", "predicate": "preference_like", "object": "Harry Potter and Game of Thrones (favorite franchises)"}], "implications": []}
+{"fid": "D19:16#0", "facets": [{"subject": "John", "predicate": "preference_like", "object": "non-fiction personal development books"}], "implications": ["This suggests John is introspective and actively works on personal growth outside of basketball."]}
+{"fid": "D19:17#0", "facets": [{"subject": "Tim", "predicate": "hobby_interest", "object": "books on personal growth, psychology, self-improvement"}], "implications": []}
+{"fid": "D19:19#0", "facets": [{"subject": "Tim", "predicate": "book_read", "object": "book about how small changes make big differences"}], "implications": []}
+{"fid": "D19:20#0", "facets": [{"subject": "John", "predicate": "book_read", "object": "'The Alchemist' (reread)"}], "implications": []}
+{"fid": "D19:21#0", "facets": [{"subject": "Tim", "predicate": "book_read", "object": "'The Alchemist'"}], "implications": []}
+{"fid": "D20:1#0", "facets": [{"subject": "Tim", "predicate": "challenge_problem", "object": "tough exam causing self-doubt, overcame it"}], "implications": []}
+{"fid": "D20:2#0", "facets": [{"subject": "John", "predicate": "sport_exercise", "object": "trying yoga for strength and flexibility"}], "implications": []}
+{"fid": "D20:4#0", "facets": [{"subject": "John", "predicate": "skill_ability", "object": "yoga improved strength, flexibility, focus, balance"}], "implications": []}
+{"fid": "D20:6#0", "facets": [{"subject": "John", "predicate": "hobby_interest", "object": "yoga poses, including Warrior II"}], "implications": []}
+{"fid": "D20:8#0", "facets": [{"subject": "John", "predicate": "sport_exercise", "object": "yoga pose working legs and core"}], "implications": []}
+{"fid": "D20:10#0", "facets": [{"subject": "John", "predicate": "habit_routine", "object": "holds yoga poses 30-60 seconds"}], "implications": []}
+{"fid": "D20:17#0", "facets": [{"subject": "Tim", "predicate": "habit_routine", "object": "reorganized his bookshelf"}], "implications": []}
+{"fid": "D20:19#0", "facets": [{"subject": "Tim", "predicate": "book_read", "object": "favorite books on his bookshelf"}], "implications": []}
+{"fid": "D20:20#0", "facets": [{"subject": "John", "predicate": "book_read", "object": "'The Hobbit'"}], "implications": []}
+{"fid": "D20:22#0", "facets": [{"subject": "John", "predicate": "book_read", "object": "another popular fantasy series"}], "implications": []}
+{"fid": "D20:26#0", "facets": [{"subject": "John", "predicate": "outdoor_activity", "object": "forest photo with sunlight"}], "implications": []}
+{"fid": "D20:28#0", "facets": [{"subject": "John", "predicate": "origin_hometown", "object": "forest near his hometown"}], "implications": []}
+{"fid": "D20:32#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "nature grounds people"}], "implications": []}
+{"fid": "D20:33#0", "facets": [{"subject": "Tim", "predicate": "trip_location_visited", "object": "lake trip, summer 2023"}], "implications": []}
+{"fid": "D20:34#0", "facets": [{"subject": "John", "predicate": "outdoor_activity", "object": "camping with a campfire"}], "implications": []}
+{"fid": "D20:36#0", "facets": [{"subject": "John", "predicate": "trip_location_visited", "object": "mountain camping trip"}], "implications": []}
+{"fid": "D20:38#0", "facets": [{"subject": "John", "predicate": "preference_like", "object": "peaceful nature during camping trip"}], "implications": []}
+{"fid": "D20:40#0", "facets": [{"subject": "John", "predicate": "trip_location_visited", "object": "Rocky Mountains, 2022"}], "implications": []}
+{"fid": "D21:1#0", "facets": [{"subject": "Tim", "predicate": "hobby_interest", "object": "joined a travel club"}, {"subject": "Tim", "predicate": "preference_like", "object": "different cultures and countries"}], "implications": ["This suggests Tim's love of fantasy worlds extends into a real-world curiosity about diverse cultures."]}
+{"fid": "D21:2#0", "facets": [{"subject": "John", "predicate": "friend", "object": "teammates from diverse cultural backgrounds"}], "implications": []}
+{"fid": "D21:4#0", "facets": [{"subject": "John", "predicate": "job_career", "object": "playing professional basketball for under a year"}], "implications": []}
+{"fid": "D21:8#0", "facets": [{"subject": "John", "predicate": "skill_ability", "object": "learning self-marketing and branding"}, {"subject": "John", "predicate": "job_career", "object": "new endorsement deals"}], "implications": []}
+{"fid": "D21:9#0", "facets": [{"subject": "Tim", "predicate": "skill_ability", "object": "learning a new musical instrument"}], "implications": []}
+{"fid": "D21:11#0", "facets": [{"subject": "Tim", "predicate": "skill_ability", "object": "learning violin"}, {"subject": "Tim", "predicate": "preference_like", "object": "classical music"}], "implications": []}
+{"fid": "D21:13#0", "facets": [{"subject": "Tim", "predicate": "skill_ability", "object": "playing piano for about four months"}], "implications": []}
+{"fid": "D21:14#0", "facets": [{"subject": "John", "predicate": "achievement_award", "object": "hard-earned trophy"}], "implications": []}
+{"fid": "D21:16#0", "facets": [{"subject": "John", "predicate": "skill_ability", "object": "motivating teammates (leadership tips)"}], "implications": ["Suggests John sees himself as a leader within his team."]}
+{"fid": "D22:1#0", "facets": [{"subject": "Tim", "predicate": "event_attended", "object": "Harry Potter party"}, {"subject": "Tim", "predicate": "person_met", "object": "fellow Harry Potter fans at the party"}], "implications": []}
+{"fid": "D22:3#0", "facets": [{"subject": "Tim", "predicate": "possession_purchase", "object": "Gryffindor scarf"}], "implications": []}
+{"fid": "D22:4#0", "facets": [{"subject": "John", "predicate": "achievement_award", "object": "win against a top team"}], "implications": []}
+{"fid": "D22:6#0", "facets": [{"subject": "John", "predicate": "friend", "object": "team camaraderie built through the win"}], "implications": []}
+{"fid": "D22:7#0", "facets": [{"subject": "Tim", "predicate": "book_read", "object": "series about friendship and loyalty"}], "implications": []}
+{"fid": "D22:8#0", "facets": [{"subject": "John", "predicate": "habit_routine", "object": "team bonding through dinners and outings"}], "implications": []}
+{"fid": "D22:12#0", "facets": [{"subject": "John", "predicate": "book_read", "object": "'Dune' by Frank Herbert"}], "implications": []}
+{"fid": "D22:13#0", "facets": [{"subject": "Tim", "predicate": "book_read", "object": "'A Dance with Dragons'"}], "implications": []}
+{"fid": "D22:15#0", "facets": [{"subject": "Tim", "predicate": "book_read", "object": "George R.R. Martin's Game of Thrones series only"}], "implications": []}
+{"fid": "D22:16#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "read George R.R. Martin's books"}], "implications": []}
+{"fid": "D23:2#0", "facets": [{"subject": "Tim", "predicate": "education_course", "object": "English literature class, book series analysis"}], "implications": []}
+{"fid": "D23:3#0", "facets": [{"subject": "John", "predicate": "achievement_award", "object": "career-high assists in a rivalry game"}], "implications": []}
+{"fid": "D23:5#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "pride from career-high assists game"}], "implications": []}
+{"fid": "D23:7#0", "facets": [{"subject": "John", "predicate": "achievement_award", "object": "favorite moment: buzzer-beater comeback shot"}], "implications": []}
+{"fid": "D23:9#0", "facets": [{"subject": "John", "predicate": "habit_routine", "object": "practiced basketball for hours as a kid"}], "implications": ["Suggests John's work ethic and love for basketball were established early in childhood."]}
+{"fid": "D23:11#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "basketball is a significant part of his identity"}], "implications": []}
+{"fid": "D24:2#0", "facets": [{"subject": "John", "predicate": "achievement_award", "object": "close win decided at the final buzzer"}], "implications": []}
+{"fid": "D24:8#0", "facets": [{"subject": "John", "predicate": "habit_routine", "object": "morning workout at sunset"}], "implications": []}
+{"fid": "D24:10#0", "facets": [{"subject": "John", "predicate": "health_condition", "object": "foot injury requiring a cast, missed games"}], "implications": ["This suggests John feels a strong sense of responsibility toward his team, making the injury emotionally as well as physically difficult."]}
+{"fid": "D24:12#0", "facets": [{"subject": "John", "predicate": "health_condition", "object": "daily physical therapy during injury recovery"}], "implications": []}
+{"fid": "D24:14#0", "facets": [{"subject": "John", "predicate": "health_condition", "object": "milestone: jogging pain-free for the first time since injury"}], "implications": []}
+{"fid": "D24:16#0", "facets": [{"subject": "John", "predicate": "life_event_milestone", "object": "celebration get-together for recovery milestone"}, {"subject": "John", "predicate": "partner", "object": "wife (hosted celebration together)"}], "implications": []}
+{"fid": "D24:18#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "joy reconnecting with friends and family"}], "implications": []}
+{"fid": "D25:2#0", "facets": [{"subject": "John", "predicate": "job_career", "object": "endorsement deal with an outdoor gear company"}], "implications": []}
+{"fid": "D25:4#0", "facets": [{"subject": "John", "predicate": "job_career", "object": "hiking gear photoshoot in a forest"}], "implications": []}
+{"fid": "D25:6#0", "facets": [{"subject": "John", "predicate": "preference_like", "object": "nature energizes him"}], "implications": []}
+{"fid": "D25:8#0", "facets": [{"subject": "John", "predicate": "outdoor_activity", "object": "hiking to find the photoshoot location"}], "implications": []}
+{"fid": "D25:10#0", "facets": [{"subject": "John", "predicate": "job_career", "object": "team achieving goals through hard work"}], "implications": []}
+{"fid": "D25:12#0", "facets": [{"subject": "John", "predicate": "sport_exercise", "object": "team scrimmage showing growth"}], "implications": []}
+{"fid": "D25:14#0", "facets": [{"subject": "John", "predicate": "friend", "object": "team growth in communication and bonding"}], "implications": []}
+{"fid": "D26:1#0", "facets": [{"subject": "John", "predicate": "volunteering_cause", "object": "runs sports and marketing seminars"}, {"subject": "John", "predicate": "skill_ability", "object": "teaching seminars"}], "implications": ["This suggests John is proactively building skills and networks for a career beyond playing basketball."]}
+{"fid": "D26:3#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "happiness sharing knowledge at seminars"}], "implications": []}
+{"fid": "D26:4#0", "facets": [{"subject": "Tim", "predicate": "goal_plan", "object": "starting some big new things (unspecified)"}], "implications": []}
+{"fid": "D26:6#0", "facets": [{"subject": "Tim", "predicate": "hobby_interest", "object": "reading travel stories"}, {"subject": "Tim", "predicate": "goal_plan", "object": "planning his next adventure"}], "implications": []}
+{"fid": "D26:8#0", "facets": [{"subject": "Tim", "predicate": "book_read", "object": "travel story about hikers trekking the Himalayas"}], "implications": []}
+{"fid": "D26:10#0", "facets": [{"subject": "Tim", "predicate": "feeling_emotion", "object": "motivated by the Himalayan trek story"}], "implications": []}
+{"fid": "D26:12#0", "facets": [{"subject": "Tim", "predicate": "goal_plan", "object": "checked requirements for his next dream trip at a travel agency"}], "implications": []}
+{"fid": "D26:16#0", "facets": [{"subject": "Tim", "predicate": "preference_like", "object": "Emma Watson (fan)"}, {"subject": "Tim", "predicate": "belief_value_opinion", "object": "admires Emma Watson's gender equality advocacy"}], "implications": []}
+{"fid": "D26:18#0", "facets": [{"subject": "Tim", "predicate": "belief_value_opinion", "object": "Emma Watson's women's rights advocacy is a huge inspiration"}], "implications": ["Suggests Tim values social causes like gender equality, not just fandom itself."]}
+{"fid": "D26:19#0", "facets": [{"subject": "John", "predicate": "volunteering_cause", "object": "spoke at a charity event"}], "implications": []}
+{"fid": "D26:21#0", "facets": [{"subject": "John", "predicate": "volunteering_cause", "object": "advocacy for youth sports access in underserved communities"}], "implications": []}
+{"fid": "D26:23#0", "facets": [{"subject": "John", "predicate": "volunteering_cause", "object": "organized a basketball camp for kids in his hometown"}, {"subject": "John", "predicate": "origin_hometown", "object": "hometown basketball camp"}], "implications": []}
+{"fid": "D26:26#0", "facets": [{"subject": "Tim", "predicate": "possession_purchase", "object": "Harry Potter book collection on his desk"}, {"subject": "Tim", "predicate": "hobby_interest", "object": "Harry Potter as favorite escape"}], "implications": []}
+{"fid": "D26:28#0", "facets": [{"subject": "Tim", "predicate": "movie_show_music", "object": "has seen all the Harry Potter movies"}], "implications": []}
+{"fid": "D26:29#0", "facets": [{"subject": "John", "predicate": "hobby_interest", "object": "movies as a way to relax"}], "implications": []}
+{"fid": "D26:30#0", "facets": [{"subject": "Tim", "predicate": "friend", "object": "movie marathons with friends"}], "implications": []}
+{"fid": "D26:32#0", "facets": [{"subject": "Tim", "predicate": "movie_show_music", "object": "'Lord of the Rings' (favorite movie)"}], "implications": []}
+{"fid": "D26:34#0", "facets": [{"subject": "Tim", "predicate": "movie_show_music", "object": "upcoming fantasy TV series he is excited about"}], "implications": []}
+{"fid": "D26:36#0", "facets": [{"subject": "Tim", "predicate": "movie_show_music", "object": "'The Wheel of Time' (TV series)"}], "implications": []}
+{"fid": "D27:1#0", "facets": [{"subject": "Tim", "predicate": "friend", "object": "group of globetrotters sharing his interest in travel"}], "implications": []}
+{"fid": "D27:2#0", "facets": [{"subject": "John", "predicate": "trip_location_visited", "object": "Italy"}], "implications": []}
+{"fid": "D27:3#0", "facets": [{"subject": "Tim", "predicate": "goal_plan", "object": "visit Italy"}], "implications": []}
+{"fid": "D27:4#0", "facets": [{"subject": "John", "predicate": "trip_location_visited", "object": "Italy (food, history, architecture)"}, {"subject": "John", "predicate": "possession_purchase", "object": "cooking-inspiration book bought in Italy"}], "implications": []}
+{"fid": "D27:5#0", "facets": [{"subject": "Tim", "predicate": "skill_ability", "object": "learning German"}], "implications": []}
+{"fid": "D27:6#0", "facets": [{"subject": "John", "predicate": "skill_ability", "object": "some German and Spanish proficiency"}], "implications": []}
+{"fid": "D27:7#0", "facets": [{"subject": "Tim", "predicate": "skill_ability", "object": "took French in high school, aiding German learning"}], "implications": []}
+{"fid": "D27:8#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "started learning Spanish"}], "implications": ["This suggests John is deliberately investing in skills to support opportunities beyond his basketball career."]}
+{"fid": "D27:9#0", "facets": [{"subject": "Tim", "predicate": "habit_routine", "object": "uses a language-learning app"}], "implications": []}
+{"fid": "D27:10#0", "facets": [{"subject": "John", "predicate": "habit_routine", "object": "uses the same language-learning app as Tim"}], "implications": []}
+{"fid": "D27:14#0", "facets": [{"subject": "John", "predicate": "habit_routine", "object": "practices and trains in basketball every day"}, {"subject": "John", "predicate": "preference_like", "object": "basketball is his passion"}], "implications": []}
+{"fid": "D27:15#0", "facets": [{"subject": "Tim", "predicate": "preference_like", "object": "reading (lifelong love)"}], "implications": []}
+{"fid": "D27:17#0", "facets": [{"subject": "Tim", "predicate": "possession_purchase", "object": "book collection representing fictional worlds"}], "implications": []}
+{"fid": "D27:19#0", "facets": [{"subject": "Tim", "predicate": "book_read", "object": "Harry Potter (favorite book)"}], "implications": []}
+{"fid": "D27:20#0", "facets": [{"subject": "John", "predicate": "possession_purchase", "object": "Star Wars movie collection"}], "implications": []}
+{"fid": "D27:21#0", "facets": [{"subject": "Tim", "predicate": "movie_show_music", "object": "Star Wars (favorite movie franchise)"}], "implications": []}
+{"fid": "D27:22#0", "facets": [{"subject": "John", "predicate": "movie_show_music", "object": "'Lord of the Rings' (huge fan)"}], "implications": []}
+{"fid": "D27:24#0", "facets": [{"subject": "John", "predicate": "preference_like", "object": "Aragorn (favorite Lord of the Rings character)"}], "implications": []}
+{"fid": "D27:26#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "admires Aragorn's leadership and selflessness"}], "implications": []}
+{"fid": "D27:28#0", "facets": [{"subject": "John", "predicate": "possession_purchase", "object": "painting of Aragorn in his room"}], "implications": ["Suggests John actively uses fictional role models to reinforce his own values."]}
+{"fid": "D27:30#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "Aragorn's bravery and sense of justice inspire him"}], "implications": []}
+{"fid": "D27:33#0", "facets": [{"subject": "Tim", "predicate": "possession_purchase", "object": "map of Middle-earth from Lord of the Rings"}], "implications": []}
+{"fid": "D27:35#0", "facets": [{"subject": "Tim", "predicate": "belief_value_opinion", "object": "fantasy stories let him explore other cultures and landscapes"}], "implications": []}
+{"fid": "D27:36#0", "facets": [{"subject": "John", "predicate": "trip_location_visited", "object": "Eiffel Tower / Paris"}, {"subject": "John", "predicate": "belief_value_opinion", "object": "traveling helps him learn about cultures"}], "implications": []}
+{"fid": "D27:38#0", "facets": [{"subject": "John", "predicate": "trip_location_visited", "object": "Paris (visited and loved)"}], "implications": []}
+{"fid": "D27:40#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "travel broadens his perspective"}], "implications": []}
+{"fid": "D28:1#0", "facets": [{"subject": "Tim", "predicate": "education_course", "object": "study abroad program in Ireland"}, {"subject": "Tim", "predicate": "achievement_award", "object": "accepted into study abroad program"}], "implications": ["This suggests Tim's fascination with the UK and Ireland, partly rooted in his fandom interests, is shaping his real academic and travel choices."]}
+{"fid": "D28:3#0", "facets": [{"subject": "Tim", "predicate": "residence", "object": "Galway, Ireland (study abroad semester)"}], "implications": []}
+{"fid": "D28:5#0", "facets": [{"subject": "Tim", "predicate": "goal_plan", "object": "explore nature while in Galway"}], "implications": []}
+{"fid": "D28:7#0", "facets": [{"subject": "Tim", "predicate": "goal_plan", "object": "visit the Cliffs of Moher"}], "implications": []}
+{"fid": "D28:8#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "visit Tim in Ireland"}, {"subject": "John", "predicate": "friend", "object": "Tim (plans to visit)"}], "implications": []}
+{"fid": "D28:10#0", "facets": [{"subject": "John", "predicate": "volunteering_cause", "object": "held a benefit basketball game"}], "implications": []}
+{"fid": "D28:12#0", "facets": [{"subject": "John", "predicate": "achievement_award", "object": "successful charity benefit game, funds raised"}], "implications": []}
+{"fid": "D28:17#0", "facets": [{"subject": "Tim", "predicate": "book_read", "object": "'The Name of the Wind' by Patrick Rothfuss"}], "implications": []}
+{"fid": "D28:18#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "read 'The Name of the Wind'"}], "implications": []}
+{"fid": "D29:3#0", "facets": [{"subject": "Tim", "predicate": "goal_plan", "object": "researching visa requirements for travel"}], "implications": []}
+{"fid": "D29:4#0", "facets": [{"subject": "John", "predicate": "job_career", "object": "endorsement deal with a beverage company"}, {"subject": "John", "predicate": "feeling_emotion", "object": "dream come true from the endorsement"}], "implications": []}
+{"fid": "D29:6#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "pride that hard work paid off with the endorsement"}], "implications": []}
+{"fid": "D29:9#0", "facets": [{"subject": "Tim", "predicate": "feeling_emotion", "object": "pride in his travel planning progress"}], "implications": []}
+{"fid": "D29:12#0", "facets": [{"subject": "John", "predicate": "support_advice", "object": "recommended Barcelona to Tim"}], "implications": []}
+{"fid": "D29:13#0", "facets": [{"subject": "Tim", "predicate": "goal_plan", "object": "visit Barcelona"}], "implications": []}

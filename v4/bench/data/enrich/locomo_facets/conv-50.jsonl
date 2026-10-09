@@ -1,0 +1,265 @@
+{"fid": "D1:2#0", "facets": [{"subject": "Dave", "predicate": "event_attended", "object": "car event (classic cars on display)"}, {"subject": "Dave", "predicate": "hobby_interest", "object": "classic cars"}], "implications": ["Dave's excitement about classic car owners suggests he may aspire to own or work with classic cars himself."]}
+{"fid": "D1:3#0", "facets": [{"subject": "Calvin", "predicate": "life_event_milestone", "object": "big life change (new mansion)"}, {"subject": "Calvin", "predicate": "possession_purchase", "object": "new mansion"}], "implications": ["Calvin's new mansion suggests he has recently become financially successful."]}
+{"fid": "D1:5#0", "facets": [{"subject": "Calvin", "predicate": "hobby_interest", "object": "Japanese culture"}, {"subject": "Calvin", "predicate": "goal_plan", "object": "expand horizons via Japanese culture"}], "implications": ["Calvin's interest in Japanese culture may be tied to an upcoming trip or opportunity in Japan."]}
+{"fid": "D1:6#0", "facets": [{"subject": "Dave", "predicate": "belief_value_opinion", "object": "learning new cultures is awesome"}], "implications": ["Dave may enjoy traveling or exploring foreign cultures himself."]}
+{"fid": "D1:7#0", "facets": [{"subject": "Calvin", "predicate": "preference_like", "object": "Japanese traditions and culture"}, {"subject": "Calvin", "predicate": "goal_plan", "object": "experience Japanese culture firsthand"}], "implications": []}
+{"fid": "D1:9#0", "facets": [{"subject": "Calvin", "predicate": "trip_location_visited", "object": "Japan (planned trip, April 2023)"}, {"subject": "Calvin", "predicate": "residence", "object": "nice place in Japan (temporary stay)"}], "implications": ["Calvin's extended trip to Japan suggests he has flexible time and financial means for long travel."]}
+{"fid": "D1:11#0", "facets": [{"subject": "Calvin", "predicate": "colleague_mentor", "object": "agent (arranged Japan housing)"}, {"subject": "Calvin", "predicate": "job_career", "object": "has a professional agent"}], "implications": ["Calvin having an agent suggests he works professionally in music or entertainment."]}
+{"fid": "D1:13#0", "facets": [{"subject": "Calvin", "predicate": "goal_plan", "object": "Japan trip plans (explore city, cuisine, collaborate)"}, {"subject": "Calvin", "predicate": "creative_work", "object": "possible collaboration with Japanese musicians"}], "implications": ["Calvin is likely a musician himself, given his interest in collaborating with other musicians."]}
+{"fid": "D1:15#0", "facets": [{"subject": "Calvin", "predicate": "trip_location_visited", "object": "Japan then Boston (planned itinerary)"}], "implications": ["Calvin may have personal or professional ties to Boston."]}
+{"fid": "D1:16#0", "facets": [{"subject": "Dave", "predicate": "outdoor_activity", "object": "calming park with a lake"}, {"subject": "Dave", "predicate": "habit_routine", "object": "frequent park visits"}], "implications": ["Dave may be using time at the park to relax or cope with stress."]}
+{"fid": "D1:17#0", "facets": [{"subject": "Calvin", "predicate": "goal_plan", "object": "visit Dave's park after returning from Japan"}], "implications": []}
+{"fid": "D2:1#0", "facets": [{"subject": "Calvin", "predicate": "vehicle", "object": "new luxury car"}, {"subject": "Calvin", "predicate": "life_event_milestone", "object": "dream come true (new car)"}], "implications": ["Calvin's description of the car as a dream come true suggests it symbolizes his career success."]}
+{"fid": "D2:3#0", "facets": [{"subject": "Calvin", "predicate": "vehicle", "object": "new car (smooth, powerful)"}, {"subject": "Calvin", "predicate": "feeling_emotion", "object": "feels like a rockstar driving it"}], "implications": []}
+{"fid": "D2:5#0", "facets": [{"subject": "Calvin", "predicate": "vehicle", "object": "red sports car"}, {"subject": "Calvin", "predicate": "achievement_award", "object": "reward for hard work (new car)"}], "implications": []}
+{"fid": "D2:7#0", "facets": [{"subject": "Calvin", "predicate": "feeling_emotion", "object": "on cloud nine (new car)"}], "implications": []}
+{"fid": "D2:8#0", "facets": [{"subject": "Dave", "predicate": "event_attended", "object": "music festival in Boston"}, {"subject": "Dave", "predicate": "hobby_interest", "object": "music"}], "implications": ["Dave's trip to a Boston music festival suggests he may live near or travel often to Boston."]}
+{"fid": "D2:10#0", "facets": [{"subject": "Dave", "predicate": "movie_show_music", "object": "Aerosmith (favorite band at festival)"}], "implications": []}
+{"fid": "D2:11#0", "facets": [{"subject": "Calvin", "predicate": "preference_like", "object": "Aerosmith (band)"}], "implications": []}
+{"fid": "D2:12#0", "facets": [{"subject": "Dave", "predicate": "event_attended", "object": "Aerosmith concert (first time seeing them live)"}], "implications": []}
+{"fid": "D2:14#0", "facets": [{"subject": "Dave", "predicate": "life_event_milestone", "object": "seeing Aerosmith live (dream come true)"}], "implications": ["Dave may still hope for a future chance to meet Aerosmith in person."]}
+{"fid": "D2:17#0", "facets": [{"subject": "Calvin", "predicate": "creative_work", "object": "new songs and studio sessions"}], "implications": []}
+{"fid": "D3:1#0", "facets": [{"subject": "Calvin", "predicate": "event_attended", "object": "music event in Tokyo"}], "implications": []}
+{"fid": "D3:3#0", "facets": [{"subject": "Calvin", "predicate": "person_met", "object": "artists and music industry professionals (Tokyo festival)"}, {"subject": "Calvin", "predicate": "event_attended", "object": "Tokyo music festival"}], "implications": ["Calvin's networking at the festival may help expand his professional connections in the music industry."]}
+{"fid": "D3:5#0", "facets": [{"subject": "Calvin", "predicate": "support_advice", "object": "advice from music industry professionals (Tokyo)"}], "implications": []}
+{"fid": "D3:7#0", "facets": [{"subject": "Calvin", "predicate": "support_advice", "object": "producer's advice (stay true to self, unique sound)"}, {"subject": "Calvin", "predicate": "person_met", "object": "producer (Tokyo festival)"}], "implications": []}
+{"fid": "D3:9#0", "facets": [{"subject": "Calvin", "predicate": "goal_plan", "object": "world tour and global music impact"}], "implications": []}
+{"fid": "D3:9#1", "facets": [{"subject": "Calvin", "predicate": "trip_location_visited", "object": "Boston (planned, after Frank Ocean tour)"}, {"subject": "Calvin", "predicate": "project_work", "object": "Frank Ocean tour"}], "implications": ["Calvin is likely touring as part of or alongside Frank Ocean's act."]}
+{"fid": "D3:10#0", "facets": [{"subject": "Dave", "predicate": "residence", "object": "Boston area (familiar with music venues)"}, {"subject": "Dave", "predicate": "goal_plan", "object": "show Calvin around Boston's music scene"}], "implications": ["Dave likely lives in or near Boston."]}
+{"fid": "D3:12#0", "facets": [{"subject": "Dave", "predicate": "event_attended", "object": "car show"}, {"subject": "Dave", "predicate": "job_career", "object": "auto engineering (classic car restoration)"}], "implications": []}
+{"fid": "D3:13#0", "facets": [{"subject": "Calvin", "predicate": "vehicle", "object": "red sports car (displayed at show)"}, {"subject": "Calvin", "predicate": "event_attended", "object": "car show"}], "implications": []}
+{"fid": "D3:15#0", "facets": [{"subject": "Calvin", "predicate": "goal_plan", "object": "explore Boston (food, attractions)"}, {"subject": "Calvin", "predicate": "project_work", "object": "rehearsals and touring"}], "implications": []}
+{"fid": "D3:16#0", "facets": [{"subject": "Dave", "predicate": "friend", "object": "plans to meet Calvin for food in Boston"}], "implications": []}
+{"fid": "D4:1#0", "facets": [{"subject": "Dave", "predicate": "employer_business", "object": "own car maintenance shop"}, {"subject": "Dave", "predicate": "life_event_milestone", "object": "opened own shop (dream come true)"}], "implications": []}
+{"fid": "D4:3#0", "facets": [{"subject": "Dave", "predicate": "achievement_award", "object": "shop opening (hard work paid off)"}], "implications": []}
+{"fid": "D4:5#0", "facets": [{"subject": "Dave", "predicate": "goal_plan", "object": "work on classic cars (long-term dream)"}, {"subject": "Dave", "predicate": "preference_like", "object": "classic car design and engineering"}], "implications": []}
+{"fid": "D4:7#0", "facets": [{"subject": "Dave", "predicate": "project_work", "object": "restored a classic car (2022)"}, {"subject": "Dave", "predicate": "hobby_interest", "object": "restoring old cars"}], "implications": []}
+{"fid": "D4:9#0", "facets": [{"subject": "Dave", "predicate": "challenge_problem", "object": "classic car restoration (challenging but worth it)"}], "implications": []}
+{"fid": "D4:17#0", "facets": [{"subject": "Dave", "predicate": "friend", "object": "invited Calvin to visit his shop"}, {"subject": "Dave", "predicate": "employer_business", "object": "car shop (with staff/team)"}], "implications": []}
+{"fid": "D4:19#0", "facets": [{"subject": "Dave", "predicate": "employer_business", "object": "shop services (maintenance and restoration)"}], "implications": []}
+{"fid": "D4:21#0", "facets": [{"subject": "Dave", "predicate": "feeling_emotion", "object": "finds it rewarding to work on cars daily"}], "implications": []}
+{"fid": "D4:24#0", "facets": [{"subject": "Calvin", "predicate": "possession_purchase", "object": "gold necklace with diamond pendant"}], "implications": []}
+{"fid": "D4:26#0", "facets": [{"subject": "Calvin", "predicate": "gift_given_received", "object": "gold necklace (gift from fellow artist)"}, {"subject": "Calvin", "predicate": "colleague_mentor", "object": "fellow artist (gift giver)"}], "implications": ["Calvin likely has close relationships with other musicians who support and encourage him."]}
+{"fid": "D4:28#0", "facets": [{"subject": "Calvin", "predicate": "challenge_problem", "object": "hardships of a musician's career"}, {"subject": "Calvin", "predicate": "friend", "object": "mutual motivation with Dave"}], "implications": []}
+{"fid": "D5:1#0", "facets": [{"subject": "Dave", "predicate": "project_work", "object": "teaming up with a local garage"}], "implications": []}
+{"fid": "D5:3#0", "facets": [{"subject": "Dave", "predicate": "job_career", "object": "new job (working with skilled mechanics)"}, {"subject": "Dave", "predicate": "project_work", "object": "challenging car project"}], "implications": []}
+{"fid": "D5:5#0", "facets": [{"subject": "Dave", "predicate": "goal_plan", "object": "build a custom car from scratch"}], "implications": []}
+{"fid": "D5:8#0", "facets": [{"subject": "Calvin", "predicate": "habit_routine", "object": "long drives to relax"}], "implications": []}
+{"fid": "D5:9#0", "facets": [{"subject": "Dave", "predicate": "habit_routine", "object": "driving and walking to destress"}, {"subject": "Dave", "predicate": "outdoor_activity", "object": "walks to explore sights and sounds"}], "implications": []}
+{"fid": "D5:10#0", "facets": [{"subject": "Calvin", "predicate": "challenge_problem", "object": "creative block with his music"}, {"subject": "Calvin", "predicate": "outdoor_activity", "object": "nature and Japanese culture (calming)"}], "implications": ["Calvin's creative block may be affecting his confidence or productivity as an artist."]}
+{"fid": "D5:11#0", "facets": [{"subject": "Dave", "predicate": "support_advice", "object": "advice to Calvin (take a break, explore other things)"}, {"subject": "Dave", "predicate": "habit_routine", "object": "immersing in concerts/albums when creatively stuck"}], "implications": []}
+{"fid": "D5:12#0", "facets": [{"subject": "Calvin", "predicate": "goal_plan", "object": "take a break from music to reset creatively"}], "implications": []}
+{"fid": "D6:3#0", "facets": [{"subject": "Calvin", "predicate": "challenge_problem", "object": "flooded home"}, {"subject": "Calvin", "predicate": "possession_purchase", "object": "music gear and favorite microphone (saved from flood)"}], "implications": ["Calvin's flooded home may be causing him financial or emotional stress."]}
+{"fid": "D6:5#0", "facets": [{"subject": "Calvin", "predicate": "challenge_problem", "object": "waiting on insurance for flood repairs"}, {"subject": "Calvin", "predicate": "creative_work", "object": "music studio (keyboard, synthesizer, his creative haven)"}], "implications": []}
+{"fid": "D6:8#0", "facets": [{"subject": "Dave", "predicate": "life_event_milestone", "object": "car shop opening celebration"}, {"subject": "Dave", "predicate": "friend", "object": "invited friends to celebrate shop opening"}], "implications": []}
+{"fid": "D6:11#0", "facets": [{"subject": "Calvin", "predicate": "goal_plan", "object": "Tokyo performance to expand fanbase"}, {"subject": "Calvin", "predicate": "event_attended", "object": "upcoming Tokyo performance"}], "implications": []}
+{"fid": "D6:13#0", "facets": [{"subject": "Calvin", "predicate": "trip_location_visited", "object": "Tokyo (night skyline photo)"}], "implications": []}
+{"fid": "D6:15#0", "facets": [{"subject": "Calvin", "predicate": "trip_location_visited", "object": "Tokyo skyline photo"}], "implications": []}
+{"fid": "D6:16#0", "facets": [{"subject": "Dave", "predicate": "goal_plan", "object": "wants to take a trip to Tokyo"}], "implications": []}
+{"fid": "D7:1#0", "facets": [{"subject": "Calvin", "predicate": "event_attended", "object": "Frank Ocean tour show in Tokyo"}, {"subject": "Calvin", "predicate": "project_work", "object": "touring with Frank Ocean"}], "implications": []}
+{"fid": "D7:2#0", "facets": [{"subject": "Dave", "predicate": "skill_ability", "object": "fixed neighbor's car engine himself"}], "implications": []}
+{"fid": "D7:3#0", "facets": [{"subject": "Calvin", "predicate": "habit_routine", "object": "working on cars to relax"}], "implications": []}
+{"fid": "D7:4#0", "facets": [{"subject": "Dave", "predicate": "skill_ability", "object": "helping neighbors with their cars"}, {"subject": "Dave", "predicate": "feeling_emotion", "object": "cars are therapeutic for him"}], "implications": []}
+{"fid": "D7:5#0", "facets": [{"subject": "Calvin", "predicate": "habit_routine", "object": "fixing cars (calming, meditative)"}], "implications": []}
+{"fid": "D7:6#0", "facets": [{"subject": "Dave", "predicate": "belief_value_opinion", "object": "fixing things gives achievement and purpose"}], "implications": []}
+{"fid": "D7:8#0", "facets": [{"subject": "Dave", "predicate": "feeling_emotion", "object": "restoring old things makes him feel powerful and happy"}], "implications": []}
+{"fid": "D7:11#0", "facets": [{"subject": "Calvin", "predicate": "preference_like", "object": "performing live (crowd connection)"}], "implications": []}
+{"fid": "D7:12#0", "facets": [{"subject": "Dave", "predicate": "belief_value_opinion", "object": "powerful connection between artist and audience"}], "implications": []}
+{"fid": "D7:13#0", "facets": [{"subject": "Calvin", "predicate": "feeling_emotion", "object": "unity and harmony feeling at concerts"}], "implications": []}
+{"fid": "D7:15#0", "facets": [{"subject": "Calvin", "predicate": "event_attended", "object": "upcoming Boston show (Frank Ocean tour)"}, {"subject": "Calvin", "predicate": "origin_hometown", "object": "Boston (people from home)"}], "implications": ["Calvin may have family or friends from his hometown living near or attending in Boston."]}
+{"fid": "D7:16#0", "facets": [{"subject": "Dave", "predicate": "friend", "object": "plans to cheer Calvin on at his Boston show"}], "implications": []}
+{"fid": "D8:1#0", "facets": [{"subject": "Calvin", "predicate": "project_work", "object": "album creative team meeting"}], "implications": []}
+{"fid": "D8:2#0", "facets": [{"subject": "Dave", "predicate": "outdoor_activity", "object": "pond with a boat, surrounded by trees (photo)"}], "implications": []}
+{"fid": "D8:3#0", "facets": [{"subject": "Calvin", "predicate": "creative_work", "object": "album (recording studio with his team)"}, {"subject": "Calvin", "predicate": "feeling_emotion", "object": "stoked about his album"}], "implications": []}
+{"fid": "D8:4#0", "facets": [{"subject": "Dave", "predicate": "habit_routine", "object": "exploring parks on weekends to relax"}], "implications": []}
+{"fid": "D8:5#0", "facets": [{"subject": "Calvin", "predicate": "trip_location_visited", "object": "Boston (never visited, planned for July 2023)"}], "implications": []}
+{"fid": "D8:6#0", "facets": [{"subject": "Dave", "predicate": "outdoor_activity", "object": "stroll in a Boston park"}, {"subject": "Dave", "predicate": "habit_routine", "object": "weekend walks recharge him for the week"}], "implications": []}
+{"fid": "D8:7#0", "facets": [{"subject": "Calvin", "predicate": "goal_plan", "object": "experience the serenity of Boston's parks"}], "implications": []}
+{"fid": "D8:8#0", "facets": [{"subject": "Dave", "predicate": "outdoor_activity", "object": "hiking (clears his mind, brings calm)"}], "implications": []}
+{"fid": "D8:9#0", "facets": [{"subject": "Calvin", "predicate": "preference_like", "object": "the mountains (never been, wants to go to de-stress)"}], "implications": []}
+{"fid": "D8:10#0", "facets": [{"subject": "Dave", "predicate": "trip_location_visited", "object": "mountainous region (planned trip, July 2023)"}], "implications": []}
+{"fid": "D9:1#0", "facets": [{"subject": "Calvin", "predicate": "challenge_problem", "object": "minor car accident (insurance and repairs)"}, {"subject": "Calvin", "predicate": "vehicle", "object": "damaged red car"}], "implications": []}
+{"fid": "D9:3#0", "facets": [{"subject": "Calvin", "predicate": "challenge_problem", "object": "insurance paperwork hassle (now resolved)"}], "implications": []}
+{"fid": "D9:5#0", "facets": [{"subject": "Calvin", "predicate": "challenge_problem", "object": "car accident insurance (resolved within a week)"}], "implications": []}
+{"fid": "D9:7#0", "facets": [{"subject": "Calvin", "predicate": "person_met", "object": "mechanic fixing his car after the accident"}], "implications": []}
+{"fid": "D9:9#0", "facets": [{"subject": "Calvin", "predicate": "feeling_emotion", "object": "confident and excited about his repaired car"}], "implications": []}
+{"fid": "D9:11#0", "facets": [{"subject": "Calvin", "predicate": "residence", "object": "living room view (small town, mountain backdrop)"}], "implications": []}
+{"fid": "D9:13#0", "facets": [{"subject": "Calvin", "predicate": "trip_location_visited", "object": "small town in Japan (mountain view)"}], "implications": []}
+{"fid": "D9:15#0", "facets": [{"subject": "Calvin", "predicate": "goal_plan", "object": "visit small Japanese mountain town after tour"}], "implications": []}
+{"fid": "D9:17#0", "facets": [{"subject": "Calvin", "predicate": "preference_like", "object": "skiing (never tried, interested)"}], "implications": []}
+{"fid": "D9:18#0", "facets": [{"subject": "Dave", "predicate": "creative_work", "object": "joined a rock band"}, {"subject": "Dave", "predicate": "skill_ability", "object": "practicing guitar"}], "implications": ["Dave may have a long-standing interest in music beyond his work with cars."]}
+{"fid": "D10:2#0", "facets": [{"subject": "Calvin", "predicate": "vehicle", "object": "red sports car (fixed after accident)"}], "implications": []}
+{"fid": "D10:3#0", "facets": [{"subject": "Dave", "predicate": "habit_routine", "object": "regular park walks with friends"}], "implications": []}
+{"fid": "D10:5#0", "facets": [{"subject": "Dave", "predicate": "outdoor_activity", "object": "city skyline walk spot (river, boats)"}], "implications": []}
+{"fid": "D10:6#0", "facets": [{"subject": "Calvin", "predicate": "residence", "object": "Japanese mansion (epic cityscape view)"}], "implications": []}
+{"fid": "D10:8#0", "facets": [{"subject": "Calvin", "predicate": "residence", "object": "Japanese mansion (city lights view)"}], "implications": []}
+{"fid": "D10:11#0", "facets": [{"subject": "Dave", "predicate": "goal_plan", "object": "visit Japan someday"}, {"subject": "Dave", "predicate": "preference_like", "object": "Japanese music"}], "implications": []}
+{"fid": "D10:12#0", "facets": [{"subject": "Calvin", "predicate": "creative_work", "object": "music collaborations with Japanese artists"}], "implications": []}
+{"fid": "D10:14#0", "facets": [{"subject": "Calvin", "predicate": "creative_work", "object": "clips of Japanese artist collaborations (upcoming)"}], "implications": []}
+{"fid": "D11:1#0", "facets": [{"subject": "Dave", "predicate": "trip_location_visited", "object": "road trip through countryside (with friends)"}, {"subject": "Dave", "predicate": "job_career", "object": "corporate work (needed a break from)"}], "implications": ["Dave may find his regular work draining or stressful compared to his passion for cars."]}
+{"fid": "D11:3#0", "facets": [{"subject": "Dave", "predicate": "feeling_emotion", "object": "road trip renewed his passion for his work"}], "implications": []}
+{"fid": "D11:4#0", "facets": [{"subject": "Calvin", "predicate": "project_work", "object": "transforming his Japanese mansion into a recording studio"}, {"subject": "Calvin", "predicate": "goal_plan", "object": "dream sanctuary for making music with other artists"}], "implications": []}
+{"fid": "D11:6#0", "facets": [{"subject": "Calvin", "predicate": "creative_work", "object": "experimenting with electronic music elements"}], "implications": []}
+{"fid": "D11:8#0", "facets": [{"subject": "Calvin", "predicate": "challenge_problem", "object": "balancing his own sound with new musical styles"}], "implications": []}
+{"fid": "D11:10#0", "facets": [{"subject": "Calvin", "predicate": "belief_value_opinion", "object": "motivation through collaboration, learning, positive energy"}], "implications": []}
+{"fid": "D12:1#0", "facets": [{"subject": "Calvin", "predicate": "vehicle", "object": "Ferrari (taken for service)"}, {"subject": "Calvin", "predicate": "feeling_emotion", "object": "stressed, feels attached to the car"}], "implications": []}
+{"fid": "D12:2#0", "facets": [{"subject": "Dave", "predicate": "family_member", "object": "dad (grew up working on cars together)"}, {"subject": "Dave", "predicate": "habit_routine", "object": "fixing cars as therapy"}], "implications": []}
+{"fid": "D12:4#0", "facets": [{"subject": "Dave", "predicate": "family_member", "object": "dad (restored an old car together one summer)"}], "implications": []}
+{"fid": "D12:6#0", "facets": [{"subject": "Dave", "predicate": "family_member", "object": "dad (childhood photo together)"}], "implications": []}
+{"fid": "D12:7#0", "facets": [{"subject": "Calvin", "predicate": "vehicle", "object": "red car (considers it better than Ferrari dealership cars)"}], "implications": []}
+{"fid": "D12:11#0", "facets": [{"subject": "Calvin", "predicate": "goal_plan", "object": "expand his music brand worldwide, grow fanbase"}, {"subject": "Calvin", "predicate": "event_attended", "object": "band performance"}], "implications": []}
+{"fid": "D13:1#0", "facets": [{"subject": "Dave", "predicate": "education_course", "object": "car mod workshop (selected to attend)"}], "implications": []}
+{"fid": "D13:3#0", "facets": [{"subject": "Dave", "predicate": "achievement_award", "object": "picked for car mod workshop (dream come true)"}], "implications": []}
+{"fid": "D13:5#0", "facets": [{"subject": "Dave", "predicate": "education_course", "object": "car mod workshop (seeing potential come to life)"}], "implications": []}
+{"fid": "D13:7#0", "facets": [{"subject": "Dave", "predicate": "skill_ability", "object": "engine swaps, suspension and body modifications"}, {"subject": "Dave", "predicate": "project_work", "object": "modifying a classic muscle car (silver Corvette)"}], "implications": []}
+{"fid": "D13:15#0", "facets": [{"subject": "Dave", "predicate": "hobby_interest", "object": "music studio setup (offered to Calvin)"}], "implications": ["Dave may have musical interests or ambitions of his own beyond cars."]}
+{"fid": "D13:16#0", "facets": [{"subject": "Calvin", "predicate": "challenge_problem", "object": "busy schedule with his music"}], "implications": []}
+{"fid": "D14:1#0", "facets": [{"subject": "Dave", "predicate": "event_attended", "object": "car workshop in San Francisco"}, {"subject": "Dave", "predicate": "trip_location_visited", "object": "San Francisco"}], "implications": []}
+{"fid": "D14:4#0", "facets": [{"subject": "Calvin", "predicate": "event_attended", "object": "tour ending with a show in Japan"}, {"subject": "Calvin", "predicate": "residence", "object": "new place in Japan (explored after tour)"}], "implications": []}
+{"fid": "D14:6#0", "facets": [{"subject": "Calvin", "predicate": "event_attended", "object": "Tokyo show (crowd sang along)"}], "implications": []}
+{"fid": "D14:8#0", "facets": [{"subject": "Calvin", "predicate": "feeling_emotion", "object": "loves his job (Tokyo concert moment)"}], "implications": []}
+{"fid": "D14:11#0", "facets": [{"subject": "Dave", "predicate": "project_work", "object": "restoring a car found in the woods (broken engine)"}], "implications": []}
+{"fid": "D14:13#0", "facets": [{"subject": "Dave", "predicate": "goal_plan", "object": "finish car restoration by September 2023"}], "implications": []}
+{"fid": "D15:1#0", "facets": [{"subject": "Dave", "predicate": "game_played", "object": "card night with friends"}], "implications": []}
+{"fid": "D15:2#0", "facets": [{"subject": "Calvin", "predicate": "achievement_award", "object": "deal to continue collaboration with Frank Ocean"}], "implications": []}
+{"fid": "D15:4#0", "facets": [{"subject": "Calvin", "predicate": "person_met", "object": "Frank Ocean (met at Tokyo music festival)"}, {"subject": "Calvin", "predicate": "creative_work", "object": "recorded a song with Frank Ocean at his mansion studio"}], "implications": []}
+{"fid": "D15:6#0", "facets": [{"subject": "Calvin", "predicate": "feeling_emotion", "object": "Tokyo festival crowd energy fueled his soul"}], "implications": []}
+{"fid": "D15:8#0", "facets": [{"subject": "Calvin", "predicate": "event_attended", "object": "Tokyo festival performance (dream come true)"}], "implications": []}
+{"fid": "D15:10#0", "facets": [{"subject": "Calvin", "predicate": "colleague_mentor", "object": "new collaborator (noticed his Tokyo festival performance)"}, {"subject": "Calvin", "predicate": "trip_location_visited", "object": "Boston (after tour ends)"}], "implications": []}
+{"fid": "D15:12#0", "facets": [{"subject": "Calvin", "predicate": "project_work", "object": "recorded a podcast about the rap industry"}, {"subject": "Calvin", "predicate": "friend", "object": "recorded the podcast with friends"}], "implications": []}
+{"fid": "D16:2#0", "facets": [{"subject": "Calvin", "predicate": "event_attended", "object": "end-of-tour concert"}], "implications": []}
+{"fid": "D16:4#0", "facets": [{"subject": "Calvin", "predicate": "life_event_milestone", "object": "big stage performance at tour finale (dream come true)"}], "implications": []}
+{"fid": "D16:6#0", "facets": [{"subject": "Calvin", "predicate": "creative_work", "object": "music video shoot for his new album"}], "implications": []}
+{"fid": "D16:8#0", "facets": [{"subject": "Calvin", "predicate": "trip_location_visited", "object": "Miami (music video shoot)"}, {"subject": "Calvin", "predicate": "creative_work", "object": "music video with beach visuals"}], "implications": []}
+{"fid": "D16:11#0", "facets": [{"subject": "Dave", "predicate": "friend", "object": "offered to help with Calvin's Miami video shoot"}], "implications": []}
+{"fid": "D16:13#0", "facets": [{"subject": "Dave", "predicate": "belief_value_opinion", "object": "notes his and Calvin's different artistic styles (guitar design)"}], "implications": []}
+{"fid": "D16:14#0", "facets": [{"subject": "Calvin", "predicate": "possession_purchase", "object": "custom guitar with octopus design"}, {"subject": "Calvin", "predicate": "friend", "object": "Japanese artist friend who made the guitar"}], "implications": []}
+{"fid": "D16:16#0", "facets": [{"subject": "Calvin", "predicate": "feeling_emotion", "object": "custom guitar reminds him of his passion and friendships"}], "implications": []}
+{"fid": "D16:18#0", "facets": [{"subject": "Calvin", "predicate": "possession_purchase", "object": "custom guitar (purple glow finish)"}], "implications": []}
+{"fid": "D16:20#0", "facets": [{"subject": "Calvin", "predicate": "preference_like", "object": "unique purple guitar finish matching his style"}], "implications": []}
+{"fid": "D16:24#0", "facets": [{"subject": "Calvin", "predicate": "belief_value_opinion", "object": "values staying true to himself and being unique in music"}], "implications": []}
+{"fid": "D17:1#0", "facets": [{"subject": "Dave", "predicate": "trip_location_visited", "object": "San Francisco (car modification workshop)"}], "implications": []}
+{"fid": "D17:3#0", "facets": [{"subject": "Dave", "predicate": "belief_value_opinion", "object": "fixing cars gives him purpose and helps others"}], "implications": []}
+{"fid": "D17:5#0", "facets": [{"subject": "Dave", "predicate": "feeling_emotion", "object": "proud seeing customers relieved after car fixes"}], "implications": []}
+{"fid": "D17:6#0", "facets": [{"subject": "Calvin", "predicate": "trip_location_visited", "object": "Boston (flight ticket booked)"}], "implications": []}
+{"fid": "D18:1#0", "facets": [{"subject": "Calvin", "predicate": "achievement_award", "object": "album release on 2023-09-11"}], "implications": []}
+{"fid": "D18:3#0", "facets": [{"subject": "Calvin", "predicate": "feeling_emotion", "object": "overwhelmed but motivated by his album's reception"}], "implications": []}
+{"fid": "D18:5#0", "facets": [{"subject": "Calvin", "predicate": "belief_value_opinion", "object": "makes music to make a difference and share his story"}], "implications": []}
+{"fid": "D18:7#0", "facets": [{"subject": "Calvin", "predicate": "goal_plan", "object": "upcoming tour, then grow his brand further"}], "implications": []}
+{"fid": "D18:10#0", "facets": [{"subject": "Dave", "predicate": "friend", "object": "offered to show Calvin his garage and cars"}], "implications": []}
+{"fid": "D18:11#0", "facets": [{"subject": "Calvin", "predicate": "goal_plan", "object": "visit Dave's garage in Boston for project ideas"}], "implications": []}
+{"fid": "D18:12#0", "facets": [{"subject": "Dave", "predicate": "employer_business", "object": "garage decor (Coca-Cola sign, car)"}], "implications": []}
+{"fid": "D19:1#0", "facets": [{"subject": "Dave", "predicate": "creative_work", "object": "band jam session"}, {"subject": "Dave", "predicate": "event_attended", "object": "rock concert in Boston"}], "implications": []}
+{"fid": "D19:3#0", "facets": [{"subject": "Dave", "predicate": "creative_work", "object": "band jam session (forgot to record, too engaged)"}], "implications": []}
+{"fid": "D19:4#0", "facets": [{"subject": "Calvin", "predicate": "movie_show_music", "object": "Ratatouille (poster)"}], "implications": []}
+{"fid": "D19:6#0", "facets": [{"subject": "Calvin", "predicate": "movie_show_music", "object": "Ratatouille (favorite movie)"}, {"subject": "Calvin", "predicate": "belief_value_opinion", "object": "pursue what you love despite others' opinions"}], "implications": ["Calvin's fondness for Ratatouille's theme may reflect his own experience pursuing music despite doubters."]}
+{"fid": "D19:7#0", "facets": [{"subject": "Dave", "predicate": "achievement_award", "object": "finished restoring a vintage car"}], "implications": []}
+{"fid": "D19:9#0", "facets": [{"subject": "Dave", "predicate": "feeling_emotion", "object": "satisfaction from the restored car and people's reactions"}], "implications": []}
+{"fid": "D20:1#0", "facets": [{"subject": "Dave", "predicate": "challenge_problem", "object": "vintage Mustang engine issue (unexpected noise)"}], "implications": []}
+{"fid": "D20:2#0", "facets": [{"subject": "Calvin", "predicate": "vehicle", "object": "red sports car (symbol of hard work)"}], "implications": []}
+{"fid": "D20:4#0", "facets": [{"subject": "Calvin", "predicate": "life_event_milestone", "object": "memorable summer drive (feeling of freedom)"}], "implications": []}
+{"fid": "D20:4#1", "facets": [{"subject": "Calvin", "predicate": "trip_location_visited", "object": "Japan (loved the culture and people)"}], "implications": []}
+{"fid": "D20:6#0", "facets": [{"subject": "Calvin", "predicate": "family_member", "object": "dad (road trip memory)"}, {"subject": "Calvin", "predicate": "movie_show_music", "object": "childhood song (road trip memory)"}], "implications": []}
+{"fid": "D20:8#0", "facets": [{"subject": "Calvin", "predicate": "movie_show_music", "object": "'California Love' by Tupac and Dr. Dre"}], "implications": []}
+{"fid": "D20:9#0", "facets": [{"subject": "Dave", "predicate": "friend", "object": "suggested jamming music with Calvin"}], "implications": []}
+{"fid": "D21:1#0", "facets": [{"subject": "Calvin", "predicate": "person_met", "object": "artists in Boston (discussed music collaboration)"}], "implications": []}
+{"fid": "D21:3#0", "facets": [{"subject": "Calvin", "predicate": "friend", "object": "mutual friend arranged the Boston artist meeting"}, {"subject": "Calvin", "predicate": "hobby_interest", "object": "orange car project (to chill out)"}], "implications": ["Calvin may share Dave's hobby of working on cars, alongside his music career."]}
+{"fid": "D21:4#0", "facets": [{"subject": "Dave", "predicate": "project_work", "object": "restoring a Ford Mustang found in a junkyard"}], "implications": []}
+{"fid": "D21:6#0", "facets": [{"subject": "Dave", "predicate": "achievement_award", "object": "restored red Mustang"}], "implications": []}
+{"fid": "D21:8#0", "facets": [{"subject": "Dave", "predicate": "habit_routine", "object": "hands-on garage work (grease-stained hands)"}], "implications": []}
+{"fid": "D21:10#0", "facets": [{"subject": "Dave", "predicate": "feeling_emotion", "object": "pride and fulfillment from restoring old things"}], "implications": []}
+{"fid": "D22:1#0", "facets": [{"subject": "Dave", "predicate": "event_attended", "object": "car show (tried car mods)"}], "implications": []}
+{"fid": "D22:3#0", "facets": [{"subject": "Dave", "predicate": "skill_ability", "object": "restored/modified a car (custom exhaust, performance upgrades)"}], "implications": []}
+{"fid": "D22:5#0", "facets": [{"subject": "Dave", "predicate": "family_member", "object": "dad's garage (childhood tinkering, his sanctuary)"}], "implications": []}
+{"fid": "D22:7#0", "facets": [{"subject": "Dave", "predicate": "goal_plan", "object": "restoring cars (childhood goal, now his living)"}], "implications": []}
+{"fid": "D23:1#0", "facets": [{"subject": "Dave", "predicate": "challenge_problem", "object": "lost a business deal to a competing shop"}, {"subject": "Dave", "predicate": "feeling_emotion", "object": "bummed out, questioning if his effort was worth it"}], "implications": ["Dave may be experiencing self-doubt about the future success of his shop."]}
+{"fid": "D23:4#0", "facets": [{"subject": "Calvin", "predicate": "belief_value_opinion", "object": "coping with setbacks via passion, support, and breaks"}], "implications": []}
+{"fid": "D23:5#0", "facets": [{"subject": "Dave", "predicate": "event_attended", "object": "music festival (felt alive)"}], "implications": []}
+{"fid": "D23:7#0", "facets": [{"subject": "Dave", "predicate": "event_attended", "object": "music festival headliner performance"}], "implications": []}
+{"fid": "D23:9#0", "facets": [{"subject": "Dave", "predicate": "movie_show_music", "object": "The Fireworks (festival headliner band)"}], "implications": []}
+{"fid": "D23:10#0", "facets": [{"subject": "Calvin", "predicate": "event_attended", "object": "performing with Frank Ocean"}], "implications": []}
+{"fid": "D23:11#0", "facets": [{"subject": "Dave", "predicate": "belief_value_opinion", "object": "fixing broken things is like how music brings people together"}], "implications": []}
+{"fid": "D23:16#0", "facets": [{"subject": "Calvin", "predicate": "vehicle", "object": "new black Ferrari"}], "implications": []}
+{"fid": "D24:1#0", "facets": [{"subject": "Calvin", "predicate": "project_work", "object": "touring with Frank Ocean"}], "implications": []}
+{"fid": "D24:3#0", "facets": [{"subject": "Calvin", "predicate": "life_event_milestone", "object": "touring with Frank Ocean (dream come true)"}], "implications": []}
+{"fid": "D24:5#0", "facets": [{"subject": "Calvin", "predicate": "person_met", "object": "Frank Ocean (met at a festival, prior August)"}], "implications": []}
+{"fid": "D24:9#0", "facets": [{"subject": "Calvin", "predicate": "feeling_emotion", "object": "crowd energy gets him pumped"}], "implications": []}
+{"fid": "D24:11#0", "facets": [{"subject": "Calvin", "predicate": "event_attended", "object": "Tokyo concert (huge crowd turnout)"}], "implications": []}
+{"fid": "D24:12#0", "facets": [{"subject": "Dave", "predicate": "goal_plan", "object": "dreams of visiting Tokyo someday"}], "implications": []}
+{"fid": "D24:14#0", "facets": [{"subject": "Dave", "predicate": "hobby_interest", "object": "curiosity about Tokyo (people, culture, food)"}], "implications": []}
+{"fid": "D24:17#0", "facets": [{"subject": "Calvin", "predicate": "trip_location_visited", "object": "Tokyo (planned trip, November 2023)"}], "implications": []}
+{"fid": "D24:19#0", "facets": [{"subject": "Calvin", "predicate": "goal_plan", "object": "visit Shibuya Crossing and Shinjuku"}], "implications": []}
+{"fid": "D24:20#0", "facets": [{"subject": "Dave", "predicate": "food_drink_recipe", "object": "ramen (tried in Boston)"}], "implications": []}
+{"fid": "D24:21#0", "facets": [{"subject": "Calvin", "predicate": "goal_plan", "object": "try ramen in Tokyo (never had it)"}], "implications": []}
+{"fid": "D25:1#0", "facets": [{"subject": "Dave", "predicate": "belief_value_opinion", "object": "curious about balancing fame and personal relationships"}], "implications": []}
+{"fid": "D25:2#0", "facets": [{"subject": "Calvin", "predicate": "challenge_problem", "object": "fame brings challenges balancing everything"}], "implications": []}
+{"fid": "D25:4#0", "facets": [{"subject": "Calvin", "predicate": "belief_value_opinion", "object": "takes things one day at a time despite overwhelming demands"}], "implications": []}
+{"fid": "D25:6#0", "facets": [{"subject": "Calvin", "predicate": "support_advice", "object": "support system of friends and his team"}], "implications": []}
+{"fid": "D25:7#0", "facets": [{"subject": "Dave", "predicate": "person_met", "object": "neighbors (conversation about current events/politics)"}], "implications": []}
+{"fid": "D25:8#0", "facets": [{"subject": "Calvin", "predicate": "belief_value_opinion", "object": "staying informed on world events shapes his music"}], "implications": []}
+{"fid": "D25:10#0", "facets": [{"subject": "Calvin", "predicate": "creative_work", "object": "music inspired by other people's struggles"}], "implications": []}
+{"fid": "D25:12#0", "facets": [{"subject": "Calvin", "predicate": "belief_value_opinion", "object": "making music as his own form of therapy"}], "implications": []}
+{"fid": "D25:13#0", "facets": [{"subject": "Dave", "predicate": "belief_value_opinion", "object": "working on cars as an outlet, an oasis of calm"}], "implications": []}
+{"fid": "D25:15#0", "facets": [{"subject": "Dave", "predicate": "age_birthday", "object": "age ten (fascination with machines began)"}, {"subject": "Dave", "predicate": "hobby_interest", "object": "car engineering (rooted in childhood discovery)"}], "implications": []}
+{"fid": "D25:17#0", "facets": [{"subject": "Dave", "predicate": "achievement_award", "object": "restored and sold a car to a collector"}, {"subject": "Dave", "predicate": "project_work", "object": "new, challenging car project"}], "implications": []}
+{"fid": "D25:19#0", "facets": [{"subject": "Dave", "predicate": "skill_ability", "object": "patience and attention to detail in car restoration"}], "implications": []}
+{"fid": "D25:22#0", "facets": [{"subject": "Calvin", "predicate": "belief_value_opinion", "object": "attention to detail elevates his artistic work"}], "implications": []}
+{"fid": "D25:25#0", "facets": [{"subject": "Dave", "predicate": "event_attended", "object": "concerts attended in September 2023"}], "implications": []}
+{"fid": "D25:27#0", "facets": [{"subject": "Dave", "predicate": "event_attended", "object": "concert crowd (unforgettable captured moment)"}], "implications": []}
+{"fid": "D25:28#0", "facets": [{"subject": "Calvin", "predicate": "preference_like", "object": "concerts (artist-crowd connection)"}], "implications": []}
+{"fid": "D26:1#0", "facets": [{"subject": "Calvin", "predicate": "friend", "object": "high school friend (visited Boston sights together)"}, {"subject": "Calvin", "predicate": "trip_location_visited", "object": "Boston sightseeing"}], "implications": []}
+{"fid": "D26:2#0", "facets": [{"subject": "Dave", "predicate": "event_attended", "object": "conference in Detroit"}], "implications": []}
+{"fid": "D26:3#0", "facets": [{"subject": "Calvin", "predicate": "trip_location_visited", "object": "Boston (architecture, history, peaceful spot)"}], "implications": []}
+{"fid": "D26:4#0", "facets": [{"subject": "Dave", "predicate": "habit_routine", "object": "working on his car project calms him down"}], "implications": []}
+{"fid": "D26:6#0", "facets": [{"subject": "Dave", "predicate": "family_member", "object": "dad (took him to his first car show at age 10)"}, {"subject": "Dave", "predicate": "job_career", "object": "automotive engineer (career origin)"}], "implications": []}
+{"fid": "D26:7#0", "facets": [{"subject": "Calvin", "predicate": "person_met", "object": "DJ he admires (performed together in a nightclub)"}], "implications": []}
+{"fid": "D26:9#0", "facets": [{"subject": "Calvin", "predicate": "belief_value_opinion", "object": "music is his passion and purpose"}], "implications": []}
+{"fid": "D27:1#0", "facets": [{"subject": "Calvin", "predicate": "event_attended", "object": "networking event (to meet more artists)"}], "implications": []}
+{"fid": "D27:2#0", "facets": [{"subject": "Dave", "predicate": "hobby_interest", "object": "photography (new hobby)"}], "implications": []}
+{"fid": "D27:4#0", "facets": [{"subject": "Dave", "predicate": "creative_work", "object": "sunset photo (city skyline, clock tower)"}], "implications": []}
+{"fid": "D27:6#0", "facets": [{"subject": "Dave", "predicate": "trip_location_visited", "object": "Boston (photography: sunset and clock tower)"}], "implications": ["Dave likely resides in or spends significant time in Boston, given his repeated photography there."]}
+{"fid": "D27:7#0", "facets": [{"subject": "Calvin", "predicate": "trip_location_visited", "object": "Boston clock tower (visited a few years back)"}], "implications": []}
+{"fid": "D27:8#0", "facets": [{"subject": "Dave", "predicate": "hobby_interest", "object": "photography as a creative outlet"}], "implications": []}
+{"fid": "D27:10#0", "facets": [{"subject": "Dave", "predicate": "achievement_award", "object": "finished restoring his car project"}], "implications": []}
+{"fid": "D27:11#0", "facets": [{"subject": "Calvin", "predicate": "creative_work", "object": "album nearly finished (recent collaborations)"}], "implications": []}
+{"fid": "D28:1#0", "facets": [{"subject": "Calvin", "predicate": "event_attended", "object": "album celebration party at his Japanese mansion"}], "implications": []}
+{"fid": "D28:3#0", "facets": [{"subject": "Calvin", "predicate": "feeling_emotion", "object": "rewarding to see people celebrate together at his party"}], "implications": []}
+{"fid": "D28:5#0", "facets": [{"subject": "Calvin", "predicate": "belief_value_opinion", "object": "party energy reminds him why he makes music"}], "implications": []}
+{"fid": "D28:7#0", "facets": [{"subject": "Calvin", "predicate": "belief_value_opinion", "object": "motivated by creating joy and connection for people"}], "implications": []}
+{"fid": "D28:8#0", "facets": [{"subject": "Dave", "predicate": "creative_work", "object": "started a blog about car mods"}], "implications": []}
+{"fid": "D28:10#0", "facets": [{"subject": "Dave", "predicate": "creative_work", "object": "blog post on car mod (blue Subaru) inspiring DIY projects"}], "implications": []}
+{"fid": "D28:12#0", "facets": [{"subject": "Dave", "predicate": "feeling_emotion", "object": "fulfilled sharing knowledge through his blog"}], "implications": []}
+{"fid": "D28:14#0", "facets": [{"subject": "Dave", "predicate": "project_work", "object": "blue Subaru car mod"}], "implications": []}
+{"fid": "D28:16#0", "facets": [{"subject": "Dave", "predicate": "skill_ability", "object": "detailing car headlights (cleaning, polishing)"}], "implications": []}
+{"fid": "D28:18#0", "facets": [{"subject": "Dave", "predicate": "project_work", "object": "red car project (black engine, red hood)"}], "implications": []}
+{"fid": "D28:20#0", "facets": [{"subject": "Dave", "predicate": "project_work", "object": "restoring the red car (found in bad shape)"}], "implications": []}
+{"fid": "D28:22#0", "facets": [{"subject": "Dave", "predicate": "creative_work", "object": "guitar logo created for his rock band"}], "implications": []}
+{"fid": "D28:24#0", "facets": [{"subject": "Dave", "predicate": "creative_work", "object": "joined a rock band he had long been a fan of"}], "implications": []}
+{"fid": "D28:27#0", "facets": [{"subject": "Calvin", "predicate": "belief_value_opinion", "object": "aims for emotional connection through his music"}], "implications": []}
+{"fid": "D28:29#0", "facets": [{"subject": "Calvin", "predicate": "residence", "object": "separate relaxation room with TV (apart from studio)"}, {"subject": "Calvin", "predicate": "habit_routine", "object": "keeps work (studio) and relaxation spaces separate"}], "implications": []}
+{"fid": "D28:31#0", "facets": [{"subject": "Calvin", "predicate": "movie_show_music", "object": "watches music videos, concerts, and artist documentaries"}], "implications": []}
+{"fid": "D28:32#0", "facets": [{"subject": "Dave", "predicate": "creative_work", "object": "notebook and pen (photo)"}], "implications": []}
+{"fid": "D28:34#0", "facets": [{"subject": "Dave", "predicate": "creative_work", "object": "writing lyrics and notes in his notebook"}, {"subject": "Dave", "predicate": "preference_like", "object": "Pink Floyd"}], "implications": []}
+{"fid": "D28:36#0", "facets": [{"subject": "Dave", "predicate": "habit_routine", "object": "listens to vinyl records while working on cars"}], "implications": []}
+{"fid": "D28:38#0", "facets": [{"subject": "Dave", "predicate": "possession_purchase", "object": "old record player (still works)"}, {"subject": "Dave", "predicate": "habit_routine", "object": "listening to music while working"}], "implications": []}
+{"fid": "D28:40#0", "facets": [{"subject": "Dave", "predicate": "preference_like", "object": "classic rock music"}], "implications": []}
+{"fid": "D29:1#0", "facets": [{"subject": "Calvin", "predicate": "friend", "object": "old high school buddy (invited to Boston show)"}], "implications": []}
+{"fid": "D29:3#0", "facets": [{"subject": "Calvin", "predicate": "friend", "object": "high school friend (freestyled together as teens)"}, {"subject": "Calvin", "predicate": "life_event_milestone", "object": "childhood dream of getting famous"}], "implications": []}
+{"fid": "D29:5#0", "facets": [{"subject": "Calvin", "predicate": "friend", "object": "high school friend (supportive and encouraging)"}], "implications": []}
+{"fid": "D29:7#0", "facets": [{"subject": "Calvin", "predicate": "belief_value_opinion", "object": "supportive people are key to artistic growth"}], "implications": []}
+{"fid": "D29:9#0", "facets": [{"subject": "Calvin", "predicate": "volunteering_cause", "object": "mentoring young musicians in a music program"}], "implications": []}
+{"fid": "D29:11#0", "facets": [{"subject": "Calvin", "predicate": "goal_plan", "object": "long-term mentorship of young musicians"}], "implications": []}
+{"fid": "D29:13#0", "facets": [{"subject": "Calvin", "predicate": "colleague_mentor", "object": "young artist (mentoring, making a beat for)"}], "implications": []}
+{"fid": "D29:15#0", "facets": [{"subject": "Calvin", "predicate": "creative_work", "object": "experimenting with new sounds to stay ahead in the industry"}], "implications": []}
+{"fid": "D30:1#0", "facets": [{"subject": "Dave", "predicate": "hobby_interest", "object": "photography (scenery near his home)"}, {"subject": "Dave", "predicate": "residence", "object": "scenery around where he lives"}], "implications": []}
+{"fid": "D30:2#0", "facets": [{"subject": "Calvin", "predicate": "event_attended", "object": "fancy gala in Boston"}, {"subject": "Calvin", "predicate": "person_met", "object": "interesting people at the gala"}], "implications": []}
+{"fid": "D30:4#0", "facets": [{"subject": "Calvin", "predicate": "person_met", "object": "artist at the Boston gala (inspiring conversation)"}], "implications": []}
+{"fid": "D30:5#0", "facets": [{"subject": "Dave", "predicate": "possession_purchase", "object": "vintage camera"}], "implications": []}
+{"fid": "D30:7#0", "facets": [{"subject": "Dave", "predicate": "possession_purchase", "object": "vintage camera (captures special moments)"}], "implications": []}
+{"fid": "D30:9#0", "facets": [{"subject": "Dave", "predicate": "hobby_interest", "object": "nature photography (sunsets, beaches, waves)"}], "implications": []}
+{"fid": "D30:12#0", "facets": [{"subject": "Calvin", "predicate": "belief_value_opinion", "object": "nature's beauty helps him appreciate life during tough times"}], "implications": ["Calvin may be going through a difficult period in his life."]}
+{"fid": "D30:13#0", "facets": [{"subject": "Dave", "predicate": "creative_work", "object": "waterfall photo (peaceful scene)"}], "implications": []}
+{"fid": "D30:15#0", "facets": [{"subject": "Dave", "predicate": "outdoor_activity", "object": "waterfall spot in a nearby park"}], "implications": []}
+{"fid": "D30:16#0", "facets": [{"subject": "Calvin", "predicate": "creative_work", "object": "photo in a Japanese garden (bench, pink flowers)"}], "implications": []}
+{"fid": "D30:17#0", "facets": [{"subject": "Dave", "predicate": "outdoor_activity", "object": "peaceful spot with a bench under a flowering tree"}], "implications": []}
+{"fid": "D30:20#0", "facets": [{"subject": "Calvin", "predicate": "event_attended", "object": "upcoming performance in Boston (accepted invitation)"}], "implications": []}

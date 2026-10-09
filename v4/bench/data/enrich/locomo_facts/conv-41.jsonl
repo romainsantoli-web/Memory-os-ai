@@ -1,0 +1,663 @@
+{"turn_id": "D1:1", "facts": [], "keywords": ["greeting", "catching up"], "entities": ["Maria", "John"]}
+{"turn_id": "D1:2", "facts": ["On 2022-12-17, John said he had just returned from a family road trip the day before (around 2022-12-16)."], "keywords": ["road trip", "family", "travel"], "entities": ["John"]}
+{"turn_id": "D1:3", "facts": ["Maria said she has been volunteering at a homeless shelter.", "Maria said she recently started doing aerial yoga."], "keywords": ["volunteering", "homeless shelter", "aerial yoga", "fitness"], "entities": ["Maria"]}
+{"turn_id": "D1:4", "facts": ["John said he is doing kickboxing, which gives him a lot of energy."], "keywords": ["kickboxing", "fitness", "energy"], "entities": ["John"]}
+{"turn_id": "D1:5", "facts": [], "keywords": ["fitness", "goals"], "entities": ["Maria", "John"]}
+{"turn_id": "D1:6", "facts": ["John said he is hoping to get into local politics.", "John said he loves helping his community and making it a better place."], "keywords": ["local politics", "community service", "goals"], "entities": ["John"]}
+{"turn_id": "D1:7", "facts": [], "keywords": ["politics", "goals"], "entities": ["Maria", "John"]}
+{"turn_id": "D1:8", "facts": ["John said his main political focuses are improving education and infrastructure in his community."], "keywords": ["education", "infrastructure", "politics"], "entities": ["John"]}
+{"turn_id": "D1:9", "facts": [], "keywords": ["curiosity", "motivation"], "entities": ["Maria", "John"]}
+{"turn_id": "D1:10", "facts": ["John said that growing up he saw how lack of education and crumbling infrastructure affected his neighborhood, which motivates his focus on properly funding schools and infrastructure.", "John shared a photo from the previous year of a school after it received funding, showing men working on the building."], "keywords": ["education", "infrastructure", "childhood", "school funding"], "entities": ["John"]}
+{"turn_id": "D1:11", "facts": [], "keywords": ["school funding"], "entities": ["Maria", "John"]}
+{"turn_id": "D1:12", "facts": ["John said the extra school funding enabled repairs and renovations, making the learning environment safer and more modern for students."], "keywords": ["school funding", "renovation", "education"], "entities": ["John"]}
+{"turn_id": "D1:13", "facts": [], "keywords": ["politics", "school"], "entities": ["Maria", "John"]}
+{"turn_id": "D1:14", "facts": ["John said his next move in politics is to talk with local leaders and organizations to gather support and ideas."], "keywords": ["local politics", "networking", "campaign"], "entities": ["John"]}
+{"turn_id": "D1:15", "facts": [], "keywords": ["encouragement", "campaign"], "entities": ["Maria", "John"]}
+{"turn_id": "D1:16", "facts": [], "keywords": ["gratitude"], "entities": ["Maria", "John"]}
+{"turn_id": "D2:1", "facts": ["On 2022-12-22, Maria said she donated her old car to the homeless shelter where she volunteers, the day before (around 2022-12-21)."], "keywords": ["car donation", "homeless shelter", "volunteering"], "entities": ["Maria"]}
+{"turn_id": "D2:2", "facts": ["John said his political campaign has been going well and he has been networking with people to get their input."], "keywords": ["campaign", "networking", "politics"], "entities": ["John"]}
+{"turn_id": "D2:3", "facts": [], "keywords": ["networking", "perspectives"], "entities": ["Maria", "John"]}
+{"turn_id": "D2:4", "facts": ["John said talking to someone who shared inspiring stories reignited his passion for improving education in his area."], "keywords": ["education", "inspiration", "passion"], "entities": ["John"]}
+{"turn_id": "D2:5", "facts": [], "keywords": ["motivation", "community"], "entities": ["Maria", "John"]}
+{"turn_id": "D2:6", "facts": ["John said investing in future generations is key to giving them the tools for success."], "keywords": ["education", "future generations", "opportunity"], "entities": ["John"]}
+{"turn_id": "D2:7", "facts": [], "keywords": ["encouragement", "enthusiasm"], "entities": ["Maria", "John"]}
+{"turn_id": "D2:8", "facts": [], "keywords": ["gratitude", "encouragement"], "entities": ["Maria", "John"]}
+{"turn_id": "D2:9", "facts": [], "keywords": ["encouragement", "support"], "entities": ["Maria", "John"]}
+{"turn_id": "D2:10", "facts": ["John shared a photo of his family having a picnic in the park, saying his family is the reason he never gives up."], "keywords": ["family", "picnic", "motivation"], "entities": ["John"]}
+{"turn_id": "D2:11", "facts": [], "keywords": ["family photo"], "entities": ["Maria", "John"]}
+{"turn_id": "D2:12", "facts": ["John said his family helps him stay centered and reminds him why he is passionate about making a positive impact."], "keywords": ["family", "motivation"], "entities": ["John"]}
+{"turn_id": "D2:13", "facts": [], "keywords": ["family", "support"], "entities": ["Maria", "John"]}
+{"turn_id": "D2:14", "facts": ["John shared a photo of his family enjoying a ride on a swing, saying family time means a lot to him and they are his rock in tough times."], "keywords": ["family", "playground", "swing"], "entities": ["John"]}
+{"turn_id": "D2:15", "facts": [], "keywords": ["playground"], "entities": ["Maria", "John"]}
+{"turn_id": "D2:16", "facts": ["John said he and his family enjoy climbing, sliding, and playing games together at the playground."], "keywords": ["playground", "family activities"], "entities": ["John"]}
+{"turn_id": "D2:17", "facts": ["Maria said her family is small.", "Maria said she loves spending time with her friends, usually watching movies, hiking, and having game nights at her place."], "keywords": ["friends", "movies", "hiking", "game nights"], "entities": ["Maria"]}
+{"turn_id": "D2:18", "facts": [], "keywords": ["family time"], "entities": ["Maria", "John"]}
+{"turn_id": "D2:19", "facts": [], "keywords": ["family", "connection"], "entities": ["Maria", "John"]}
+{"turn_id": "D2:20", "facts": ["John shared a photo of his family gathered around the kitchen table at dinner."], "keywords": ["family dinner", "memories"], "entities": ["John"]}
+{"turn_id": "D2:21", "facts": [], "keywords": ["family dinner", "memories"], "entities": ["Maria", "John"]}
+{"turn_id": "D2:22", "facts": ["John said meal times with family are always fun, with good food, laughs, and chats keeping them close."], "keywords": ["family meals", "bonding"], "entities": ["John"]}
+{"turn_id": "D2:23", "facts": ["An image of a table with pizzas and salads was shared in connection with John's family dinner."], "keywords": ["pizza", "salad", "meal"], "entities": ["John", "Maria"]}
+{"turn_id": "D2:24", "facts": ["John said he and his family made pizza together, having fun picking out toppings and sharing the meal."], "keywords": ["pizza", "cooking", "family bonding"], "entities": ["John"]}
+{"turn_id": "D2:25", "facts": ["Maria said she made peach cobbler recently."], "keywords": ["peach cobbler", "baking", "cooking"], "entities": ["Maria"]}
+{"turn_id": "D2:26", "facts": [], "keywords": ["creativity", "family bonding"], "entities": ["Maria", "John"]}
+{"turn_id": "D2:27", "facts": [], "keywords": ["memories", "family"], "entities": ["Maria", "John"]}
+{"turn_id": "D2:28", "facts": ["On 2022-12-22, John said he was heading off to do taekwondo."], "keywords": ["taekwondo", "martial arts"], "entities": ["John"]}
+{"turn_id": "D3:1", "facts": ["On 2023-01-01, John said he joined a service-focused online group the previous week (around 2022-12-25), finding the experience emotional and inspiring and giving him a sense of connection and purpose.", "John shared a photo of a man sitting on a bed using a laptop, related to the online group."], "keywords": ["online group", "community service", "connection", "purpose"], "entities": ["John"]}
+{"turn_id": "D3:2", "facts": [], "keywords": ["community", "support"], "entities": ["Maria", "John"]}
+{"turn_id": "D3:3", "facts": ["John said it's inspiring to share stories, advice, and encouragement with like-minded people in his service-focused group."], "keywords": ["community service", "group", "inspiration"], "entities": ["John"]}
+{"turn_id": "D3:4", "facts": ["Maria asked John whether he had met any of the online group members in person.", "Maria's message included an image of a poster with Santa Claus on a table."], "keywords": ["in person meetup", "holiday", "poster"], "entities": ["Maria", "John", "Santa Claus"]}
+{"turn_id": "D3:5", "facts": ["John said his group held events and visited a homeless shelter to give out food and supplies.", "John said his group organized a toy drive for kids in need."], "keywords": ["homeless shelter", "toy drive", "charity events"], "entities": ["John"]}
+{"turn_id": "D3:6", "facts": [], "keywords": ["future projects", "community"], "entities": ["Maria", "John"]}
+{"turn_id": "D3:7", "facts": ["John said his group was brainstorming projects to help underserved communities gain access to education, mentorship, job training, and resume building."], "keywords": ["underserved communities", "mentorship", "job training", "resume building"], "entities": ["John"]}
+{"turn_id": "D3:8", "facts": [], "keywords": ["education", "mentorship"], "entities": ["Maria", "John"]}
+{"turn_id": "D3:9", "facts": [], "keywords": ["support", "resources"], "entities": ["Maria", "John"]}
+{"turn_id": "D3:10", "facts": [], "keywords": ["encouragement", "support"], "entities": ["Maria", "John"]}
+{"turn_id": "D3:11", "facts": ["On 2023-01-01, John said he recently failed the military aptitude test and had been feeling stressed about it."], "keywords": ["military aptitude test", "failure", "stress"], "entities": ["John"]}
+{"turn_id": "D3:12", "facts": ["Maria shared a photo of a sunset over the ocean with a wave coming in, saying nature's beauty reminds her to slow down and enjoy the small things."], "keywords": ["sunset", "ocean", "nature"], "entities": ["Maria"]}
+{"turn_id": "D3:13", "facts": [], "keywords": ["sunset photo"], "entities": ["Maria", "John"]}
+{"turn_id": "D3:14", "facts": ["Maria said she took the sunset photo at the beach the previous month (around December 2022), and watching the sunset made her feel peaceful and connected to nature."], "keywords": ["beach", "sunset", "nature"], "entities": ["Maria"]}
+{"turn_id": "D3:15", "facts": ["John said the sunset photo reminded him of the film camera he had as a kid, which he used to take many beach photos."], "keywords": ["film camera", "childhood", "beach photos"], "entities": ["John"]}
+{"turn_id": "D3:16", "facts": [], "keywords": ["nature", "beauty"], "entities": ["Maria", "John"]}
+{"turn_id": "D3:17", "facts": ["John shared a photo of a group of people standing in a field."], "keywords": ["photo", "field", "memories"], "entities": ["John"]}
+{"turn_id": "D4:1", "facts": ["On 2023-01-09, Maria said she became friends with one of her fellow shelter volunteers, bonding over their shared love of helping others."], "keywords": ["friendship", "volunteering", "homeless shelter"], "entities": ["Maria"]}
+{"turn_id": "D4:2", "facts": ["On 2023-01-09, John said he had an unexpected incident on his way home the previous week (around 2023-01-02) that broke his car's windshield."], "keywords": ["car accident", "windshield", "incident"], "entities": ["John"]}
+{"turn_id": "D4:3", "facts": ["Maria shared an image of a tattoo with a quote on it."], "keywords": ["tattoo", "quote"], "entities": ["Maria"]}
+{"turn_id": "D4:4", "facts": ["John said a tattoo with a quote serves as a reminder for him to stay strong during tough times."], "keywords": ["tattoo", "resilience", "quote"], "entities": ["John"]}
+{"turn_id": "D4:5", "facts": [], "keywords": ["inner strength", "resilience"], "entities": ["Maria", "John"]}
+{"turn_id": "D4:6", "facts": ["John said he stayed calm and asked for assistance during the car windshield incident, which helped him make it home safely."], "keywords": ["car incident", "resilience", "assistance"], "entities": ["John"]}
+{"turn_id": "D4:7", "facts": [], "keywords": ["resilience", "resourcefulness"], "entities": ["Maria", "John"]}
+{"turn_id": "D4:8", "facts": ["John said he felt relieved and grateful to have made it through the car incident without further harm."], "keywords": ["relief", "gratitude"], "entities": ["John"]}
+{"turn_id": "D4:9", "facts": [], "keywords": ["gratitude", "strength"], "entities": ["Maria", "John"]}
+{"turn_id": "D4:10", "facts": ["John said he likes to watch the sunset to calm down and to remind himself to enjoy the small things in life."], "keywords": ["sunset", "relaxation", "calming"], "entities": ["John"]}
+{"turn_id": "D4:11", "facts": [], "keywords": ["political goals"], "entities": ["Maria", "John"]}
+{"turn_id": "D4:12", "facts": ["On 2023-01-09, John said he has been talking to community leaders and learning about his neighborhood's needs and hopes as part of pursuing local politics, and feels optimistic about it."], "keywords": ["local politics", "community leaders", "optimism"], "entities": ["John"]}
+{"turn_id": "D4:13", "facts": ["Maria said she has been taking notes about local politics in her notebook."], "keywords": ["notebook", "local politics", "notes"], "entities": ["Maria"]}
+{"turn_id": "D4:14", "facts": [], "keywords": ["ideas", "plans"], "entities": ["Maria", "John"]}
+{"turn_id": "D4:15", "facts": [], "keywords": ["next steps"], "entities": ["Maria", "John"]}
+{"turn_id": "D4:16", "facts": ["On 2023-01-09, John said he had a community meeting scheduled for the following week (around 2023-01-16) to discuss education and infrastructure upgrades."], "keywords": ["community meeting", "education", "infrastructure"], "entities": ["John"]}
+{"turn_id": "D4:17", "facts": ["Maria shared a photo of a microphone and chargers on a table, wishing John good luck at his community meeting."], "keywords": ["microphone", "community meeting", "good luck"], "entities": ["Maria", "John"]}
+{"turn_id": "D4:18", "facts": [], "keywords": ["community", "advocacy"], "entities": ["Maria", "John"]}
+{"turn_id": "D4:19", "facts": [], "keywords": ["teamwork", "community"], "entities": ["Maria", "John"]}
+{"turn_id": "D4:20", "facts": ["John shared a photo of a group of people sitting around a table with a laptop, related to working for community change."], "keywords": ["community change", "teamwork", "meeting"], "entities": ["John"]}
+{"turn_id": "D4:21", "facts": [], "keywords": ["teamwork", "neighborhood"], "entities": ["Maria", "John"]}
+{"turn_id": "D4:22", "facts": ["John shared a photo of a man and a woman shaking hands, symbolizing joining forces for community goals."], "keywords": ["handshake", "teamwork", "cooperation"], "entities": ["John"]}
+{"turn_id": "D4:23", "facts": [], "keywords": ["unity", "community"], "entities": ["Maria", "John"]}
+{"turn_id": "D4:24", "facts": [], "keywords": ["friendship", "gratitude"], "entities": ["Maria", "John"]}
+{"turn_id": "D4:25", "facts": [], "keywords": ["friendship", "teamwork"], "entities": ["Maria", "John"]}
+{"turn_id": "D4:26", "facts": [], "keywords": ["teamwork", "friendship"], "entities": ["Maria", "John"]}
+{"turn_id": "D5:1", "facts": ["On 2023-01-28, John said he attended a community meeting where he heard people's worries about how issues affect the area, reinforcing his belief that education and infrastructure upgrades are crucial for kids."], "keywords": ["community meeting", "education", "upgrades"], "entities": ["John"]}
+{"turn_id": "D5:2", "facts": ["Maria said people should fight for more money and resources for schools and raise awareness about the importance of education."], "keywords": ["education funding", "awareness", "schools"], "entities": ["Maria"]}
+{"turn_id": "D5:3", "facts": ["John said education is essential for a successful society and that it breaks his heart that kids don't have proper resources."], "keywords": ["education", "society", "resources"], "entities": ["John"]}
+{"turn_id": "D5:4", "facts": [], "keywords": ["kids", "resources", "future"], "entities": ["Maria", "John"]}
+{"turn_id": "D5:5", "facts": ["John said his own kids have a lot while other kids don't, and that something needs to be done about the inequity."], "keywords": ["inequity", "kids", "resources"], "entities": ["John"]}
+{"turn_id": "D5:6", "facts": ["On 2023-01-28, Maria said that the previous week (around 2023-01-21) she volunteered at a shelter during an event for kids and found it a great experience."], "keywords": ["volunteering", "shelter", "kids event"], "entities": ["Maria"]}
+{"turn_id": "D5:7", "facts": [], "keywords": ["volunteering", "impact"], "entities": ["Maria", "John"]}
+{"turn_id": "D5:8", "facts": ["Maria said she started volunteering to help make a difference, inspired by her aunt who believed in volunteering and helped Maria's family when they were struggling."], "keywords": ["volunteering", "aunt", "inspiration", "family struggles"], "entities": ["Maria"]}
+{"turn_id": "D5:9", "facts": [], "keywords": ["volunteering", "impactful moment"], "entities": ["Maria", "John"]}
+{"turn_id": "D5:10", "facts": ["Maria said the most impactful volunteering moment for her was comforting a lonely 8-year-old girl at the shelter who had no other family."], "keywords": ["shelter", "little girl", "comfort", "impactful moment"], "entities": ["Maria"]}
+{"turn_id": "D5:11", "facts": [], "keywords": ["touching moment", "comfort"], "entities": ["Maria", "John"]}
+{"turn_id": "D5:12", "facts": [], "keywords": ["photo"], "entities": ["Maria", "John"]}
+{"turn_id": "D5:13", "facts": ["John said a photo of a little girl with a doll reminds him of a doll he had as a child that always made him feel better, and reminds him to look out for others who are feeling down."], "keywords": ["childhood", "doll", "kindness"], "entities": ["John"]}
+{"turn_id": "D5:14", "facts": [], "keywords": ["kindness", "support"], "entities": ["Maria", "John"]}
+{"turn_id": "D5:15", "facts": [], "keywords": ["kindness", "support"], "entities": ["Maria", "John"]}
+{"turn_id": "D5:16", "facts": [], "keywords": ["kindness", "compassion"], "entities": ["Maria", "John"]}
+{"turn_id": "D6:1", "facts": ["On 2023-02-05, Maria said that the previous Friday (around 2023-02-03) she did a charity event and felt the power of collective effort to help people in need."], "keywords": ["charity event", "volunteering", "collective effort"], "entities": ["Maria"]}
+{"turn_id": "D6:2", "facts": [], "keywords": ["charity event", "community"], "entities": ["Maria", "John"]}
+{"turn_id": "D6:3", "facts": ["Maria said serving meals at the charity event and seeing people's gratitude was a heartwarming, rewarding experience."], "keywords": ["serving meals", "gratitude", "charity"], "entities": ["Maria"]}
+{"turn_id": "D6:4", "facts": ["John said he got into politics because he feels a strong urge to serve his country and community, and running for office was his chance to make an impact."], "keywords": ["politics", "service", "running for office"], "entities": ["John"]}
+{"turn_id": "D6:5", "facts": ["Maria said she talked to a man named David at the charity event, who shared his story of hardship and difficult circumstances."], "keywords": ["David", "hardship", "charity event"], "entities": ["Maria", "David"]}
+{"turn_id": "D6:6", "facts": [], "keywords": ["understanding", "support organizations"], "entities": ["Maria", "John", "David"]}
+{"turn_id": "D6:7", "facts": ["Maria said she linked David up with a nearby organization that offers housing and support for homeless individuals."], "keywords": ["David", "housing organization", "homeless support"], "entities": ["Maria", "David"]}
+{"turn_id": "D6:8", "facts": [], "keywords": ["impact", "helping others"], "entities": ["Maria", "John"]}
+{"turn_id": "D6:9", "facts": ["Maria said that when she was younger her family had money problems and had to rely on outside help from her aunt, which taught her the importance of helping others who struggle."], "keywords": ["money problems", "childhood", "aunt", "struggle"], "entities": ["Maria"]}
+{"turn_id": "D6:10", "facts": ["On 2023-02-05, John said he started helping out with a food drive for people who lost their jobs, and shared a photo of himself at the food bank."], "keywords": ["food drive", "food bank", "unemployment"], "entities": ["John"]}
+{"turn_id": "D6:11", "facts": [], "keywords": ["food drive", "inspiration"], "entities": ["Maria", "John"]}
+{"turn_id": "D6:12", "facts": ["John said seeing the effect of unemployment on his neighbors inspired him to organize a community food drive."], "keywords": ["unemployment", "food drive", "community"], "entities": ["John"]}
+{"turn_id": "D6:13", "facts": [], "keywords": ["food drive", "initiative"], "entities": ["Maria", "John"]}
+{"turn_id": "D6:14", "facts": ["John said unemployment in his community was the reason he started the food drive initiative."], "keywords": ["unemployment", "food drive"], "entities": ["John"]}
+{"turn_id": "D6:15", "facts": [], "keywords": ["food drive", "response"], "entities": ["Maria", "John"]}
+{"turn_id": "D6:16", "facts": ["John said the community's response and volunteer turnout for his food drive had been overwhelming."], "keywords": ["food drive", "volunteers", "community response"], "entities": ["John"]}
+{"turn_id": "D6:17", "facts": ["Maria offered to help John with networking or volunteering at future food drive events."], "keywords": ["networking", "volunteering offer"], "entities": ["Maria", "John"]}
+{"turn_id": "D6:18", "facts": [], "keywords": ["gratitude", "help offer"], "entities": ["Maria", "John"]}
+{"turn_id": "D6:19", "facts": [], "keywords": ["support", "friendship"], "entities": ["Maria", "John"]}
+{"turn_id": "D6:20", "facts": [], "keywords": ["gratitude", "friendship"], "entities": ["Maria", "John"]}
+{"turn_id": "D6:21", "facts": [], "keywords": ["friendship", "support"], "entities": ["Maria", "John"]}
+{"turn_id": "D6:22", "facts": ["John said friendship means a lot to him and he's glad he and Maria have each other's backs working towards shared goals."], "keywords": ["friendship", "shared goals"], "entities": ["Maria", "John"]}
+{"turn_id": "D7:1", "facts": ["On 2023-02-25, Maria said she recently took a creative writing class and found it super enlightening."], "keywords": ["creative writing class", "enlightening"], "entities": ["Maria"]}
+{"turn_id": "D7:2", "facts": ["On 2023-02-25, John said he is running for office again and feels more excited than ever."], "keywords": ["running for office", "politics", "campaign"], "entities": ["John"]}
+{"turn_id": "D7:3", "facts": ["Maria said she has been volunteering at a homeless shelter and finds it really rewarding."], "keywords": ["homeless shelter", "volunteering"], "entities": ["Maria"]}
+{"turn_id": "D7:4", "facts": ["John said that after his last run for office, he saw the impact he could make in the community through politics, which motivated him to run again."], "keywords": ["politics", "impact", "motivation"], "entities": ["John"]}
+{"turn_id": "D7:5", "facts": ["Maria said that while volunteering the day before (around 2023-02-24) she met a woman named Jean who had been through a lot but stayed optimistic and resilient, teaching Maria about gratitude and connection."], "keywords": ["Jean", "optimism", "resilience", "volunteering"], "entities": ["Maria", "Jean"]}
+{"turn_id": "D7:6", "facts": [], "keywords": ["Jean", "curiosity"], "entities": ["Maria", "John", "Jean"]}
+{"turn_id": "D7:7", "facts": ["Maria said Jean went through a divorce, lost her job, and ended up homeless, yet still values the little things and believes in the good of kindness."], "keywords": ["Jean", "divorce", "job loss", "homelessness"], "entities": ["Jean", "Maria"]}
+{"turn_id": "D7:8", "facts": [], "keywords": ["optimism", "resilience"], "entities": ["Maria", "John"]}
+{"turn_id": "D7:9", "facts": [], "keywords": ["joy", "hope"], "entities": ["Maria", "John"]}
+{"turn_id": "D7:10", "facts": [], "keywords": ["positivity", "gratitude"], "entities": ["Maria", "John"]}
+{"turn_id": "D7:11", "facts": [], "keywords": ["positivity", "optimism"], "entities": ["Maria", "John"]}
+{"turn_id": "D7:12", "facts": [], "keywords": ["kindness", "optimism"], "entities": ["Maria", "John"]}
+{"turn_id": "D7:13", "facts": [], "keywords": ["positivity", "impact"], "entities": ["Maria", "John"]}
+{"turn_id": "D7:14", "facts": [], "keywords": ["positive change", "teamwork"], "entities": ["Maria", "John"]}
+{"turn_id": "D7:15", "facts": [], "keywords": ["positive change", "plans"], "entities": ["Maria", "John"]}
+{"turn_id": "D7:16", "facts": ["John said his colleague Rob invited him to a beginner's yoga class."], "keywords": ["yoga class", "Rob", "colleague"], "entities": ["John", "Rob"]}
+{"turn_id": "D7:17", "facts": [], "keywords": ["community", "togetherness"], "entities": ["Maria", "John"]}
+{"turn_id": "D8:1", "facts": ["On 2023-03-06, Maria said her grandma passed away the previous week (around 2023-02-27) and that it has been really hard for her."], "keywords": ["grandmother", "death", "grief"], "entities": ["Maria"]}
+{"turn_id": "D8:2", "facts": ["On 2023-03-06, John said he had just had a picnic with his wife and kids."], "keywords": ["picnic", "family", "wife", "kids"], "entities": ["John"]}
+{"turn_id": "D8:3", "facts": [], "keywords": ["family", "baby"], "entities": ["Maria", "John"]}
+{"turn_id": "D8:4", "facts": ["John said his one-year-old son's name is Kyle."], "keywords": ["son", "baby name", "Kyle"], "entities": ["John", "Kyle"]}
+{"turn_id": "D8:5", "facts": [], "keywords": ["parenting"], "entities": ["Maria", "John"]}
+{"turn_id": "D8:6", "facts": ["John said parenting has been a wild ride full of ups and downs, but the love and happiness outweigh it all."], "keywords": ["parenting", "family life"], "entities": ["John"]}
+{"turn_id": "D8:7", "facts": [], "keywords": ["parenting", "park"], "entities": ["Maria", "John"]}
+{"turn_id": "D8:8", "facts": ["John said his family goes to the park a few times a week for bonding, and had a great time there the previous weekend (around 2023-03-04)."], "keywords": ["park", "family bonding", "weekend"], "entities": ["John"]}
+{"turn_id": "D8:9", "facts": [], "keywords": ["family fun", "swing"], "entities": ["Maria", "John"]}
+{"turn_id": "D8:10", "facts": ["John said everyone in his family got a chance to swing at the park, and he enjoys coming up with activities for his family."], "keywords": ["family activities", "swing", "park"], "entities": ["John"]}
+{"turn_id": "D8:11", "facts": [], "keywords": ["family activities", "ideas"], "entities": ["Maria", "John"]}
+{"turn_id": "D8:12", "facts": ["John said the previous week (around late February 2023) he found a violin concert that his family enjoyed together as part of making memories."], "keywords": ["violin concert", "family memories"], "entities": ["John"]}
+{"turn_id": "D8:13", "facts": ["Maria said she loved doing similar memory-making activities with her siblings when she was young."], "keywords": ["siblings", "childhood memories"], "entities": ["Maria"]}
+{"turn_id": "D8:14", "facts": [], "keywords": ["castle photo", "storybook"], "entities": ["Maria", "John"]}
+{"turn_id": "D8:15", "facts": ["Maria said she got the idea for a castle shadow box from a trip to England a few years ago, where she was mesmerized by the castles, and she also made a painting of a castle on a hill."], "keywords": ["England trip", "castle", "painting", "shadow box"], "entities": ["Maria", "England"]}
+{"turn_id": "D8:16", "facts": [], "keywords": ["England", "travel"], "entities": ["Maria", "John"]}
+{"turn_id": "D8:17", "facts": ["Maria said her England trip was to London, and the architecture there was so captivating she wanted to recreate some of that charm in her own space."], "keywords": ["London", "architecture", "travel memories"], "entities": ["Maria", "London"]}
+{"turn_id": "D8:18", "facts": ["On 2023-03-06, John said he retook the military aptitude test the previous week (around late February 2023) with great results, and feels drawn to serving his country."], "keywords": ["military aptitude test", "serving country"], "entities": ["John"]}
+{"turn_id": "D8:19", "facts": [], "keywords": ["support", "discussion"], "entities": ["Maria", "John"]}
+{"turn_id": "D8:20", "facts": ["John said he discussed his renewed military aptitude test results with his family and friends, who were supportive of him wanting to volunteer."], "keywords": ["family support", "military", "volunteering"], "entities": ["John"]}
+{"turn_id": "D8:21", "facts": ["Maria said having a good support system has been great while she volunteers at the homeless shelter."], "keywords": ["support system", "homeless shelter", "volunteering"], "entities": ["Maria"]}
+{"turn_id": "D8:22", "facts": [], "keywords": ["connections", "impact"], "entities": ["Maria", "John"]}
+{"turn_id": "D8:23", "facts": ["Maria said she formed connections at the homeless shelter slowly through listening and showing compassion, building trust and real relationships."], "keywords": ["compassion", "trust", "relationships", "homeless shelter"], "entities": ["Maria"]}
+{"turn_id": "D8:24", "facts": [], "keywords": ["difference making"], "entities": ["Maria", "John"]}
+{"turn_id": "D8:25", "facts": ["Maria said building real connections and getting people to trust you is key, often through small things like taking time to listen."], "keywords": ["trust", "connections", "listening"], "entities": ["Maria"]}
+{"turn_id": "D8:26", "facts": [], "keywords": ["listening", "impact"], "entities": ["Maria", "John"]}
+{"turn_id": "D9:1", "facts": ["On 2023-04-02, Maria said she has been taking a poetry class lately to help her put her feelings into words, describing it as a rough but good ride."], "keywords": ["poetry class", "feelings", "writing"], "entities": ["Maria"]}
+{"turn_id": "D9:2", "facts": ["John shared a photo of a certificate of completion of a university degree."], "keywords": ["university degree", "certificate"], "entities": ["John"]}
+{"turn_id": "D9:3", "facts": [], "keywords": ["degree", "achievement"], "entities": ["Maria", "John"]}
+{"turn_id": "D9:4", "facts": ["On 2023-04-02, John said he graduated from university the previous week (around 2023-03-26)."], "keywords": ["graduation", "university degree"], "entities": ["John"]}
+{"turn_id": "D9:5", "facts": [], "keywords": ["future plans"], "entities": ["Maria", "John"]}
+{"turn_id": "D9:6", "facts": ["John said he is considering going into policymaking because of his degree and his passion for making a positive impact."], "keywords": ["policymaking", "degree", "future plans"], "entities": ["John"]}
+{"turn_id": "D9:7", "facts": [], "keywords": ["policymaking", "interests"], "entities": ["Maria", "John"]}
+{"turn_id": "D9:8", "facts": ["John said improving education and infrastructure is particularly interesting to him and important for his community."], "keywords": ["education", "infrastructure", "policy interests"], "entities": ["John"]}
+{"turn_id": "D9:9", "facts": [], "keywords": ["community meetings", "views"], "entities": ["Maria", "John"]}
+{"turn_id": "D9:10", "facts": ["John said going to community meetings and getting involved has given him a better understanding of the challenges facing education and infrastructure and their impact on neighbors."], "keywords": ["community meetings", "education", "infrastructure challenges"], "entities": ["John"]}
+{"turn_id": "D9:11", "facts": [], "keywords": ["dedication", "commitment"], "entities": ["Maria", "John"]}
+{"turn_id": "D9:12", "facts": ["John said it's important to him to put his words into action and find solutions, even though it can be hard."], "keywords": ["action", "solutions", "dedication"], "entities": ["John"]}
+{"turn_id": "D9:13", "facts": [], "keywords": ["encouragement"], "entities": ["Maria", "John"]}
+{"turn_id": "D9:14", "facts": [], "keywords": ["gratitude", "support"], "entities": ["Maria", "John"]}
+{"turn_id": "D9:15", "facts": [], "keywords": ["teamwork", "offer to help"], "entities": ["Maria", "John"]}
+{"turn_id": "D9:16", "facts": [], "keywords": ["teamwork"], "entities": ["Maria", "John"]}
+{"turn_id": "D9:17", "facts": ["Maria said she and John volunteered together the previous year (2022), which was a fulfilling experience."], "keywords": ["volunteering together", "fulfillment"], "entities": ["Maria", "John"]}
+{"turn_id": "D9:18", "facts": ["John said their volunteering together showed how their actions can make a big impact."], "keywords": ["volunteering", "impact"], "entities": ["John", "Maria"]}
+{"turn_id": "D10:1", "facts": ["On 2023-04-07, John said he started a weekend yoga class with a colleague and feels great mentally and physically after each session."], "keywords": ["yoga class", "wellbeing", "colleague"], "entities": ["John"]}
+{"turn_id": "D10:2", "facts": [], "keywords": ["yoga instructor", "wellbeing"], "entities": ["Maria", "John"]}
+{"turn_id": "D10:3", "facts": ["John shared a photo from his yoga class, saying the instructor makes sure they do poses properly and creates a relaxed, welcoming environment."], "keywords": ["yoga instructor", "yoga class"], "entities": ["John"]}
+{"turn_id": "D10:4", "facts": [], "keywords": ["yoga type"], "entities": ["Maria", "John"]}
+{"turn_id": "D10:5", "facts": ["John said his yoga class is a beginner class focusing on fundamentals like poses and breathing, helping him relax and increase flexibility."], "keywords": ["beginner yoga", "flexibility", "relaxation"], "entities": ["John"]}
+{"turn_id": "D10:6", "facts": [], "keywords": ["relaxation"], "entities": ["Maria", "John"]}
+{"turn_id": "D10:7", "facts": ["John said yoga helps him relax, feel more connected, and improve his mind and body, calling it part of his daily routine."], "keywords": ["yoga", "mindfulness", "daily routine"], "entities": ["John"]}
+{"turn_id": "D10:8", "facts": [], "keywords": ["wellbeing", "stretching"], "entities": ["Maria", "John"]}
+{"turn_id": "D10:9", "facts": ["John said yoga has become part of his daily routine, valued both for physical benefits and peace of mind."], "keywords": ["yoga", "daily routine", "mindfulness"], "entities": ["John"]}
+{"turn_id": "D10:10", "facts": ["On 2023-04-07, Maria said that the previous weekend (around 2023-04-01) she participated in a 5K charity run for a homeless shelter, finding it energizing and rewarding."], "keywords": ["5K charity run", "homeless shelter", "unity"], "entities": ["Maria"]}
+{"turn_id": "D10:11", "facts": [], "keywords": ["charity run", "energy"], "entities": ["Maria", "John"]}
+{"turn_id": "D10:12", "facts": ["Maria shared a photo from the 5K charity run showing a large group of people walking down a street."], "keywords": ["charity run", "group photo"], "entities": ["Maria"]}
+{"turn_id": "D10:13", "facts": ["On 2023-04-07, John said that the previous weekend (around 2023-04-01) he volunteered at a career fair at a local school and found it rewarding to help kids affected by lack of resources.", "John shared a photo of a heart-shaped sign with the quote \"Always look on the bright side of life.\""], "keywords": ["career fair", "local school", "volunteering", "quote sign"], "entities": ["John"]}
+{"turn_id": "D10:14", "facts": [], "keywords": ["resources", "kids' dreams"], "entities": ["Maria", "John"]}
+{"turn_id": "D10:15", "facts": ["John said the sign at the career fair read \"Always look on the bright side of life,\" reminding him that kids can reach their dreams with the right help."], "keywords": ["quote sign", "inspiration", "kids"], "entities": ["John"]}
+{"turn_id": "D10:16", "facts": [], "keywords": ["support", "motivation"], "entities": ["Maria", "John"]}
+{"turn_id": "D10:17", "facts": [], "keywords": ["community help", "motivation"], "entities": ["Maria", "John"]}
+{"turn_id": "D10:18", "facts": [], "keywords": ["helping kids", "community"], "entities": ["Maria", "John"]}
+{"turn_id": "D11:1", "facts": ["On 2023-04-10, John said his car broke down the previous Friday (around 2023-04-07) on his way to work, and that fixing it has been tough and expensive."], "keywords": ["car breakdown", "money problems"], "entities": ["John"]}
+{"turn_id": "D11:2", "facts": [], "keywords": ["encouragement", "positivity"], "entities": ["Maria", "John"]}
+{"turn_id": "D11:3", "facts": ["John shared a photo of a mountain with a sunset that reminded him of a road trip he took the previous year (2022), saying there's beauty and hope even amid bumps in the road."], "keywords": ["road trip", "mountain", "sunset", "hope"], "entities": ["John"]}
+{"turn_id": "D11:4", "facts": [], "keywords": ["road trip destination"], "entities": ["Maria", "John"]}
+{"turn_id": "D11:5", "facts": ["John said his road trip the previous year explored the coast of the Pacific Northwest and included visits to national parks, which he found breathtaking."], "keywords": ["Pacific Northwest", "national parks", "road trip"], "entities": ["John"]}
+{"turn_id": "D11:6", "facts": [], "keywords": ["nature", "peace"], "entities": ["Maria", "John"]}
+{"turn_id": "D11:7", "facts": [], "keywords": ["nature", "perspective"], "entities": ["Maria", "John"]}
+{"turn_id": "D11:8", "facts": [], "keywords": ["nature", "tough times"], "entities": ["Maria", "John"]}
+{"turn_id": "D11:9", "facts": [], "keywords": ["peace", "inspiration"], "entities": ["Maria", "John"]}
+{"turn_id": "D11:10", "facts": ["On 2023-04-10, Maria said she recently gave a few talks at the homeless shelter where she volunteers and received compliments from other volunteers.", "Maria said she recently bought a cross necklace to feel closer to her faith, which made her happy."], "keywords": ["talks", "homeless shelter", "cross necklace", "faith"], "entities": ["Maria"]}
+{"turn_id": "D11:11", "facts": [], "keywords": ["making a difference", "joy"], "entities": ["Maria", "John"]}
+{"turn_id": "D11:12", "facts": ["Maria said the people at the homeless shelter have become like family to her and she feels blessed to know them."], "keywords": ["homeless shelter", "found family", "gratitude"], "entities": ["Maria"]}
+{"turn_id": "D11:13", "facts": [], "keywords": ["kindness", "relationships"], "entities": ["Maria", "John"]}
+{"turn_id": "D11:14", "facts": ["Maria shared a photo from the previous week (around early April 2023) of a group of people around a table full of food at the shelter, saying it filled her with hope."], "keywords": ["shelter meal", "community", "hope"], "entities": ["Maria"]}
+{"turn_id": "D11:15", "facts": [], "keywords": ["shelter event"], "entities": ["Maria", "John"]}
+{"turn_id": "D11:16", "facts": ["Maria said she helped organize and prepare a meal for the shelter residents."], "keywords": ["shelter meal", "organizing", "volunteering"], "entities": ["Maria"]}
+{"turn_id": "D11:17", "facts": [], "keywords": ["comfort", "reward"], "entities": ["Maria", "John"]}
+{"turn_id": "D11:18", "facts": ["Maria said helping bring people together at the shelter created a sense of comfort and community."], "keywords": ["community", "comfort", "shelter"], "entities": ["Maria"]}
+{"turn_id": "D11:19", "facts": [], "keywords": ["hope", "positive force"], "entities": ["Maria", "John"]}
+{"turn_id": "D11:20", "facts": [], "keywords": ["community", "gratitude"], "entities": ["Maria", "John"]}
+{"turn_id": "D11:21", "facts": [], "keywords": ["farewell"], "entities": ["Maria", "John"]}
+{"turn_id": "D12:1", "facts": ["On 2023-04-18, John said he has been blogging about politics and government, which has been satisfying, and reiterated that better education and infrastructure are needed for neighborhoods."], "keywords": ["blogging", "politics", "education", "infrastructure"], "entities": ["John"]}
+{"turn_id": "D12:2", "facts": [], "keywords": ["blogging", "community growth"], "entities": ["Maria", "John"]}
+{"turn_id": "D12:3", "facts": ["John said he has been researching policies and writing about his thoughts to raise awareness and start conversations for positive change."], "keywords": ["policy research", "blogging", "awareness"], "entities": ["John"]}
+{"turn_id": "D12:4", "facts": [], "keywords": ["policies", "impact"], "entities": ["Maria", "John"]}
+{"turn_id": "D12:5", "facts": ["John said he has recently been focusing his blog on education reform and infrastructure development, aiming to get conversations going and involve people in taking action."], "keywords": ["education reform", "infrastructure development", "blogging"], "entities": ["John"]}
+{"turn_id": "D12:6", "facts": [], "keywords": ["passion", "dedication"], "entities": ["Maria", "John"]}
+{"turn_id": "D12:7", "facts": ["John said he has gotten good feedback on his blog posts so far.", "John shared a photo of two men standing next to each other at a convention."], "keywords": ["blog feedback", "convention"], "entities": ["John"]}
+{"turn_id": "D12:8", "facts": [], "keywords": ["convention photo"], "entities": ["Maria", "John"]}
+{"turn_id": "D12:9", "facts": ["John said he and his colleagues went to a convention together the previous month (around March 2023), all passionate about using tech for good in their community."], "keywords": ["convention", "tech for good", "colleagues"], "entities": ["John"]}
+{"turn_id": "D12:10", "facts": [], "keywords": ["like-minded people", "inspiration"], "entities": ["Maria", "John"]}
+{"turn_id": "D12:11", "facts": ["John shared a photo of a group of people sitting around a table, from the tech-for-change convention."], "keywords": ["convention", "tech for change", "group photo"], "entities": ["John"]}
+{"turn_id": "D12:12", "facts": [], "keywords": ["convention highlight"], "entities": ["Maria", "John"]}
+{"turn_id": "D12:13", "facts": ["John said the best part of the convention was the infectious energy in the room where they brainstormed ideas and stayed motivated together.", "John shared a photo of a group of military men sitting around a table."], "keywords": ["convention energy", "brainstorming", "military"], "entities": ["John"]}
+{"turn_id": "D12:14", "facts": [], "keywords": ["motivation", "environment"], "entities": ["Maria", "John"]}
+{"turn_id": "D12:15", "facts": ["John said being around motivated people at the convention gave him renewed energy and purpose to make a bigger difference.", "John shared a photo of a table with a map of a city on it."], "keywords": ["renewed energy", "purpose", "city map"], "entities": ["John"]}
+{"turn_id": "D12:16", "facts": [], "keywords": ["upcoming plans"], "entities": ["Maria", "John"]}
+{"turn_id": "D12:17", "facts": ["On 2023-04-18, John said he is planning a trip to the East Coast."], "keywords": ["East Coast trip", "travel plans"], "entities": ["John"]}
+{"turn_id": "D12:18", "facts": ["Maria said she is still volunteering at the homeless shelter and finds it fulfilling."], "keywords": ["homeless shelter", "volunteering"], "entities": ["Maria"]}
+{"turn_id": "D12:19", "facts": [], "keywords": ["dedication"], "entities": ["Maria", "John"]}
+{"turn_id": "D12:20", "facts": ["Maria said her volunteering at the shelter has been rewarding but tough, as the growing need for help can be overwhelming."], "keywords": ["volunteering challenges", "overwhelm", "shelter"], "entities": ["Maria"]}
+{"turn_id": "D12:21", "facts": [], "keywords": ["kindness", "encouragement"], "entities": ["Maria", "John"]}
+{"turn_id": "D12:22", "facts": [], "keywords": ["kindness", "small acts"], "entities": ["Maria", "John"]}
+{"turn_id": "D12:23", "facts": [], "keywords": ["impact", "teamwork"], "entities": ["Maria", "John"]}
+{"turn_id": "D13:1", "facts": [], "keywords": ["catching up"], "entities": ["Maria", "John"]}
+{"turn_id": "D13:2", "facts": [], "keywords": ["catching up"], "entities": ["Maria", "John"]}
+{"turn_id": "D13:3", "facts": ["On 2023-05-04, John said he started going to boot camps with his family the previous month (around April 2023) for bonding and fitness."], "keywords": ["boot camp", "family bonding", "fitness"], "entities": ["John"]}
+{"turn_id": "D13:4", "facts": [], "keywords": ["fitness", "family bonding"], "entities": ["Maria", "John"]}
+{"turn_id": "D13:5", "facts": ["John said his family has had more energy and gains in strength and endurance since starting boot camp together, and his kids are getting excited about staying active."], "keywords": ["boot camp", "fitness gains", "kids"], "entities": ["John"]}
+{"turn_id": "D13:6", "facts": [], "keywords": ["habits", "frequency"], "entities": ["Maria", "John"]}
+{"turn_id": "D13:7", "facts": ["John said his family works out together at boot camp three times a week."], "keywords": ["boot camp", "workout frequency"], "entities": ["John"]}
+{"turn_id": "D13:8", "facts": [], "keywords": ["consistency", "motivation"], "entities": ["Maria", "John"]}
+{"turn_id": "D13:9", "facts": [], "keywords": ["commitment"], "entities": ["Maria", "John"]}
+{"turn_id": "D13:10", "facts": [], "keywords": ["commitment", "motivation"], "entities": ["Maria", "John"]}
+{"turn_id": "D13:11", "facts": [], "keywords": ["motivation", "journey"], "entities": ["Maria", "John"]}
+{"turn_id": "D13:12", "facts": ["Maria said her family is small but she relies on them for strength during tough times."], "keywords": ["family", "support system"], "entities": ["Maria"]}
+{"turn_id": "D13:13", "facts": ["John said family is the most important thing to him and his biggest support."], "keywords": ["family", "support"], "entities": ["John"]}
+{"turn_id": "D13:14", "facts": [], "keywords": ["family support"], "entities": ["Maria", "John"]}
+{"turn_id": "D13:15", "facts": ["John said his family has been supporting each other during boot camp, cheering each other on during workouts and providing emotional support outside of them."], "keywords": ["boot camp", "family support", "emotional support"], "entities": ["John"]}
+{"turn_id": "D13:16", "facts": ["On 2023-05-04, Maria said she and her mom made dinner together the previous night (2023-05-03)."], "keywords": ["mom", "cooking together", "dinner"], "entities": ["Maria"]}
+{"turn_id": "D13:17", "facts": ["John said he made an apple pie for his kids the previous day (2023-05-03)."], "keywords": ["apple pie", "baking", "kids"], "entities": ["John"]}
+{"turn_id": "D13:18", "facts": ["Maria said her favorite treat is a banana split sundae, which she enjoys after a day of volunteering as a moment of joy and balance."], "keywords": ["banana split", "volunteering", "balance"], "entities": ["Maria"]}
+{"turn_id": "D13:19", "facts": [], "keywords": ["balance", "joy"], "entities": ["Maria", "John"]}
+{"turn_id": "D13:20", "facts": ["Maria said she finds balance in life by taking care of herself physically, emotionally, and mentally through exercise, music, and spending time with loved ones."], "keywords": ["self-care", "exercise", "music", "balance"], "entities": ["Maria"]}
+{"turn_id": "D13:21", "facts": [], "keywords": ["wellbeing", "balance"], "entities": ["Maria", "John"]}
+{"turn_id": "D13:22", "facts": ["Maria said she learned the hard way the previous year (2022) about the importance of taking care of herself to be strong through life's tough times."], "keywords": ["self-care", "tough times", "lesson"], "entities": ["Maria"]}
+{"turn_id": "D13:23", "facts": [], "keywords": ["beach photo"], "entities": ["Maria", "John"]}
+{"turn_id": "D13:24", "facts": ["Maria said that the previous year (2022) she took a solo trip to Spain and the photo of a beach with footprints reminded her that life is hard but there's still hope and beauty, teaching her to rely on inner strength."], "keywords": ["Spain", "solo trip", "inner strength"], "entities": ["Maria", "Spain"]}
+{"turn_id": "D13:25", "facts": [], "keywords": ["solo trip", "transformation"], "entities": ["Maria", "John"]}
+{"turn_id": "D13:26", "facts": ["Maria said her solo trip helped her grow and appreciate life more, teaching her the value of stepping back to see life's beauty."], "keywords": ["solo trip", "personal growth"], "entities": ["Maria"]}
+{"turn_id": "D13:27", "facts": [], "keywords": ["island photo", "meaning"], "entities": ["Maria", "John"]}
+{"turn_id": "D13:28", "facts": ["Maria said her solo trip taught her to value different perspectives, the power of solitude, and the importance of letting go and trusting life."], "keywords": ["solitude", "perspective", "trust"], "entities": ["Maria"]}
+{"turn_id": "D13:29", "facts": [], "keywords": ["vacation", "new experiences"], "entities": ["Maria", "John"]}
+{"turn_id": "D13:30", "facts": ["Maria said she tried surfing for the first time on her solo trip, and despite falling off repeatedly, it taught her the power of not giving up and trying new things."], "keywords": ["surfing", "solo trip", "perseverance"], "entities": ["Maria"]}
+{"turn_id": "D13:31", "facts": [], "keywords": ["courage", "new experiences"], "entities": ["Maria", "John"]}
+{"turn_id": "D13:32", "facts": [], "keywords": ["challenge", "reward"], "entities": ["Maria", "John"]}
+{"turn_id": "D13:33", "facts": [], "keywords": ["comfort zone", "growth"], "entities": ["Maria", "John"]}
+{"turn_id": "D13:34", "facts": [], "keywords": ["growth"], "entities": ["Maria", "John"]}
+{"turn_id": "D13:35", "facts": [], "keywords": ["self-discovery", "growth"], "entities": ["Maria", "John"]}
+{"turn_id": "D13:36", "facts": [], "keywords": ["self-exploration", "growth mindset"], "entities": ["Maria", "John"]}
+{"turn_id": "D13:37", "facts": [], "keywords": ["growth", "learning journey"], "entities": ["Maria", "John"]}
+{"turn_id": "D14:1", "facts": ["On 2023-05-06, John said that the previous week (around late April 2023) he decided to run for office again despite past lack of success, still pursuing his dream to make a difference in his community."], "keywords": ["running for office", "politics", "persistence"], "entities": ["John"]}
+{"turn_id": "D14:2", "facts": [], "keywords": ["encouragement", "support"], "entities": ["Maria", "John"]}
+{"turn_id": "D14:3", "facts": [], "keywords": ["motivation", "determination"], "entities": ["Maria", "John"]}
+{"turn_id": "D14:4", "facts": [], "keywords": ["encouragement", "belief"], "entities": ["Maria", "John"]}
+{"turn_id": "D14:5", "facts": [], "keywords": ["encouragement", "strength"], "entities": ["Maria", "John"]}
+{"turn_id": "D14:6", "facts": [], "keywords": ["self-care", "overwhelm"], "entities": ["Maria", "John"]}
+{"turn_id": "D14:7", "facts": [], "keywords": ["gratitude", "support"], "entities": ["Maria", "John"]}
+{"turn_id": "D14:8", "facts": ["On 2023-05-06, Maria said she has been involved in some charity work lately that has felt rewarding, connected, and fulfilling."], "keywords": ["charity work", "fulfillment"], "entities": ["Maria"]}
+{"turn_id": "D14:9", "facts": [], "keywords": ["charity work", "joy"], "entities": ["Maria", "John"]}
+{"turn_id": "D14:10", "facts": ["On 2023-05-06, Maria said she joined a nearby church the day before (2023-05-05) to feel closer to a community and her faith."], "keywords": ["church", "faith", "community"], "entities": ["Maria"]}
+{"turn_id": "D14:11", "facts": [], "keywords": ["church", "encouragement"], "entities": ["Maria", "John"]}
+{"turn_id": "D14:12", "facts": ["Maria said life has been a bit rough lately but she is taking time to reflect and find balance."], "keywords": ["reflection", "balance", "hardship"], "entities": ["Maria"]}
+{"turn_id": "D14:13", "facts": ["On 2023-05-06, John said there was a power cut in his area the previous week (around late April 2023), which made him realize the importance of upgrading infrastructure for stable services."], "keywords": ["power outage", "infrastructure", "utilities"], "entities": ["John"]}
+{"turn_id": "D14:14", "facts": [], "keywords": ["infrastructure problems"], "entities": ["Maria", "John"]}
+{"turn_id": "D14:15", "facts": ["John said the roadways in his area are full of potholes, which are dangerous for drivers and damaging to cars, and need improvement."], "keywords": ["potholes", "roads", "infrastructure"], "entities": ["John"]}
+{"turn_id": "D14:16", "facts": [], "keywords": ["roads", "danger"], "entities": ["Maria", "John"]}
+{"turn_id": "D14:17", "facts": ["John said he is thinking about starting a community project regarding infrastructure and wants Maria's help getting the neighborhood's backing."], "keywords": ["community project", "infrastructure", "collaboration"], "entities": ["John", "Maria"]}
+{"turn_id": "D14:18", "facts": [], "keywords": ["community involvement", "teamwork"], "entities": ["Maria", "John"]}
+{"turn_id": "D14:19", "facts": [], "keywords": ["housing", "living conditions"], "entities": ["Maria", "John"]}
+{"turn_id": "D14:20", "facts": [], "keywords": ["affordable housing", "community"], "entities": ["Maria", "John"]}
+{"turn_id": "D14:21", "facts": ["John said he wants to work on improving his old area, West County, in addition to his current neighborhood."], "keywords": ["West County", "community improvement"], "entities": ["John"]}
+{"turn_id": "D14:22", "facts": [], "keywords": ["community", "safety"], "entities": ["Maria", "John"]}
+{"turn_id": "D14:23", "facts": ["John shared a photo of a garden with a raised bed of plants."], "keywords": ["garden", "raised bed"], "entities": ["John"]}
+{"turn_id": "D15:1", "facts": ["On 2023-05-20, John said he has been busy working on a project and petition to support military veterans, which is rewarding but stressful."], "keywords": ["veterans project", "petition", "stress"], "entities": ["John"]}
+{"turn_id": "D15:2", "facts": [], "keywords": ["motivation for project"], "entities": ["Maria", "John"]}
+{"turn_id": "D15:3", "facts": ["John said he has always been passionate about veterans and their rights, and the previous week (around mid-May 2023) he was reminded of how much they've done for the country, motivating his veterans support project."], "keywords": ["veterans", "passion", "appreciation"], "entities": ["John"]}
+{"turn_id": "D15:4", "facts": [], "keywords": ["kindness", "gesture"], "entities": ["Maria", "John"]}
+{"turn_id": "D15:5", "facts": [], "keywords": ["veterans project", "effort"], "entities": ["Maria", "John"]}
+{"turn_id": "D15:6", "facts": [], "keywords": ["veterans project"], "entities": ["Maria", "John"]}
+{"turn_id": "D15:7", "facts": ["John said veterans have given so much and deserve support, and he wants to help make their lives better."], "keywords": ["veterans support", "gratitude"], "entities": ["John"]}
+{"turn_id": "D15:8", "facts": [], "keywords": ["veterans project"], "entities": ["Maria", "John"]}
+{"turn_id": "D15:9", "facts": ["John said he is passionate about making sure veterans are supported and valued in his community."], "keywords": ["veterans", "community support"], "entities": ["John"]}
+{"turn_id": "D15:10", "facts": ["Maria offered to help John with his veterans support project."], "keywords": ["veterans project", "volunteering offer"], "entities": ["Maria", "John"]}
+{"turn_id": "D15:11", "facts": ["John shared a photo from the previous Friday (around 2023-05-19) of himself shaking hands with a soldier in uniform, as part of his veterans project."], "keywords": ["veterans", "soldier", "event photo"], "entities": ["John"]}
+{"turn_id": "D15:12", "facts": [], "keywords": ["veterans event"], "entities": ["Maria", "John"]}
+{"turn_id": "D15:13", "facts": ["John said he threw a small party inviting veterans to share their stories, resulting in new connections and camaraderie among them."], "keywords": ["veterans party", "camaraderie", "storytelling"], "entities": ["John"]}
+{"turn_id": "D15:14", "facts": [], "keywords": ["connection", "heartwarming"], "entities": ["Maria", "John"]}
+{"turn_id": "D15:15", "facts": ["John said the veterans event reminded him of the importance of community and togetherness in helping veterans."], "keywords": ["veterans", "community", "togetherness"], "entities": ["John"]}
+{"turn_id": "D15:16", "facts": [], "keywords": ["support", "community"], "entities": ["Maria", "John"]}
+{"turn_id": "D15:17", "facts": [], "keywords": ["veterans", "teamwork"], "entities": ["Maria", "John"]}
+{"turn_id": "D15:18", "facts": ["On 2023-05-20, Maria said she is currently planning a ring-toss tournament for the homeless shelter's fundraiser later that month."], "keywords": ["ring-toss tournament", "fundraiser", "homeless shelter"], "entities": ["Maria"]}
+{"turn_id": "D15:19", "facts": [], "keywords": ["fundraiser", "excitement"], "entities": ["Maria", "John"]}
+{"turn_id": "D16:1", "facts": ["On 2023-05-25, John said he has been busy working on his veterans petition and reconnecting with friends for support.", "John shared a photo of his workmates on a hiking trip at a waterfall, saying they keep him motivated."], "keywords": ["petition", "hiking trip", "workmates"], "entities": ["John"]}
+{"turn_id": "D16:2", "facts": ["On 2023-05-25, Maria said she is busy at the shelter preparing for a fundraiser the following week to cover basic needs for the homeless."], "keywords": ["fundraiser", "homeless shelter", "preparation"], "entities": ["Maria"]}
+{"turn_id": "D16:3", "facts": ["John shared a photo of a poster for a chili cook-off event and offered to help with Maria's fundraiser."], "keywords": ["chili cook-off", "fundraiser", "poster"], "entities": ["John"]}
+{"turn_id": "D16:4", "facts": ["Maria said the fundraiser needs to get the word out about a chili cook-off event."], "keywords": ["chili cook-off", "fundraiser", "promotion"], "entities": ["Maria"]}
+{"turn_id": "D16:5", "facts": [], "keywords": ["promotion", "help offer"], "entities": ["Maria", "John"]}
+{"turn_id": "D16:6", "facts": ["Maria asked John to let her know if he knows anyone interested in volunteering for the fundraiser event."], "keywords": ["volunteering", "fundraiser"], "entities": ["Maria", "John"]}
+{"turn_id": "D16:7", "facts": [], "keywords": ["volunteer recruitment"], "entities": ["Maria", "John"]}
+{"turn_id": "D16:8", "facts": [], "keywords": ["gratitude", "support"], "entities": ["Maria", "John"]}
+{"turn_id": "D16:9", "facts": [], "keywords": ["teamwork", "passion"], "entities": ["Maria", "John"]}
+{"turn_id": "D16:10", "facts": [], "keywords": ["motivation", "teamwork"], "entities": ["Maria", "John"]}
+{"turn_id": "D16:11", "facts": ["John shared a photo of his family (a couple walking into the ocean at sunset) at the beach."], "keywords": ["beach", "family", "sunset"], "entities": ["John"]}
+{"turn_id": "D16:12", "facts": [], "keywords": ["appreciation", "little moments"], "entities": ["Maria", "John"]}
+{"turn_id": "D16:13", "facts": [], "keywords": ["hope", "moments"], "entities": ["Maria", "John"]}
+{"turn_id": "D16:14", "facts": [], "keywords": ["peace", "appreciation"], "entities": ["Maria", "John"]}
+{"turn_id": "D16:15", "facts": [], "keywords": ["cherishing moments"], "entities": ["Maria", "John"]}
+{"turn_id": "D16:16", "facts": [], "keywords": ["gratitude"], "entities": ["Maria", "John"]}
+{"turn_id": "D16:17", "facts": [], "keywords": ["helping", "meaning"], "entities": ["Maria", "John"]}
+{"turn_id": "D16:18", "facts": [], "keywords": ["motivation", "positive impact"], "entities": ["Maria", "John"]}
+{"turn_id": "D16:19", "facts": [], "keywords": ["progress", "farewell"], "entities": ["Maria", "John"]}
+{"turn_id": "D17:1", "facts": ["On 2023-06-03, John said his family's dog Max, who had been part of the family for 10 years, died, and it has been very hard for them."], "keywords": ["Max", "dog death", "grief"], "entities": ["John", "Max"]}
+{"turn_id": "D17:2", "facts": [], "keywords": ["pet loss", "condolences"], "entities": ["Maria", "John"]}
+{"turn_id": "D17:3", "facts": ["John said his family is still sad about Max's death but finds comfort in the good times and memories they shared."], "keywords": ["Max", "grief", "memories"], "entities": ["John", "Max"]}
+{"turn_id": "D17:4", "facts": [], "keywords": ["comfort", "memories"], "entities": ["Maria", "John"]}
+{"turn_id": "D17:5", "facts": ["John shared a cherished photo of Max, his family's dog, sitting in the grass with a leash."], "keywords": ["Max", "dog photo"], "entities": ["John", "Max"]}
+{"turn_id": "D17:6", "facts": [], "keywords": ["Max", "remembrance"], "entities": ["Maria", "John", "Max"]}
+{"turn_id": "D17:7", "facts": ["John said Max brought his family a lot of joy and taught them a lot about love and loyalty."], "keywords": ["Max", "love", "loyalty"], "entities": ["John", "Max"]}
+{"turn_id": "D17:8", "facts": [], "keywords": ["Max", "lessons"], "entities": ["Maria", "John", "Max"]}
+{"turn_id": "D17:9", "facts": ["John said he wants his kids to learn the lessons of unconditional love and loyalty that Max taught the family."], "keywords": ["Max", "kids", "values"], "entities": ["John", "Max"]}
+{"turn_id": "D17:10", "facts": [], "keywords": ["pet adoption", "values"], "entities": ["Maria", "John"]}
+{"turn_id": "D17:11", "facts": ["John said his family is considering adopting a rescue dog to give love and teach their kids responsibility and compassion."], "keywords": ["rescue dog", "adoption", "kids"], "entities": ["John"]}
+{"turn_id": "D17:12", "facts": ["On 2023-06-03, Maria said she just started volunteering at a local dog shelter once a month."], "keywords": ["dog shelter", "volunteering"], "entities": ["Maria"]}
+{"turn_id": "D17:13", "facts": [], "keywords": ["friendship", "gratitude"], "entities": ["Maria", "John"]}
+{"turn_id": "D17:14", "facts": [], "keywords": ["support offer"], "entities": ["Maria", "John"]}
+{"turn_id": "D17:15", "facts": [], "keywords": ["gratitude", "support"], "entities": ["Maria", "John"]}
+{"turn_id": "D17:16", "facts": [], "keywords": ["farewell", "support"], "entities": ["Maria", "John"]}
+{"turn_id": "D18:1", "facts": ["On 2023-06-12, Maria said that the previous weekend (around 2023-06-10) she went camping with friends from church, which was fun and a good distraction after Max's death."], "keywords": ["camping trip", "church friends", "distraction"], "entities": ["Maria"]}
+{"turn_id": "D18:2", "facts": ["On 2023-06-12, John said he went on a mountaineering trip with workmates the previous week (around early June 2023), which helped clear his head after Max's death."], "keywords": ["mountaineering trip", "workmates", "stress relief"], "entities": ["John"]}
+{"turn_id": "D18:3", "facts": ["Maria said that when she was younger, her family went on a road trip to Oregon."], "keywords": ["Oregon", "road trip", "childhood"], "entities": ["Maria", "Oregon"]}
+{"turn_id": "D18:4", "facts": ["John said he reached the summit on his mountaineering trip and found the view stunning."], "keywords": ["mountaineering", "summit", "view"], "entities": ["John"]}
+{"turn_id": "D18:5", "facts": ["Maria shared a photo of a waterfall with a bridge from her family's Oregon road trip, calling it breathtaking."], "keywords": ["waterfall", "Oregon", "hiking"], "entities": ["Maria"]}
+{"turn_id": "D18:6", "facts": [], "keywords": ["waterfall", "scenery"], "entities": ["Maria", "John"]}
+{"turn_id": "D18:7", "facts": ["Maria said seeing the waterfall in Oregon felt like being in a fairy tale, calm and magical."], "keywords": ["waterfall", "Oregon", "magical experience"], "entities": ["Maria"]}
+{"turn_id": "D18:8", "facts": [], "keywords": ["nature", "calming"], "entities": ["Maria", "John"]}
+{"turn_id": "D18:9", "facts": [], "keywords": ["nature", "soul-soother"], "entities": ["Maria", "John"]}
+{"turn_id": "D18:10", "facts": [], "keywords": ["camping", "mountain climbing"], "entities": ["Maria", "John"]}
+{"turn_id": "D18:11", "facts": ["Maria said she has gone camping a few times but never tried mountain climbing."], "keywords": ["camping", "mountain climbing"], "entities": ["Maria"]}
+{"turn_id": "D18:12", "facts": ["John said he has gone camping plenty of times and loves how uncomplicated it is to be at one with nature."], "keywords": ["camping", "nature"], "entities": ["John"]}
+{"turn_id": "D18:13", "facts": [], "keywords": ["nature", "perspective"], "entities": ["Maria", "John"]}
+{"turn_id": "D18:14", "facts": [], "keywords": ["peace", "chaos"], "entities": ["Maria", "John"]}
+{"turn_id": "D18:15", "facts": ["Maria said she finds her Zen through a moment to herself with favorite tunes, and enjoys aerial yoga to switch off and focus on her body."], "keywords": ["aerial yoga", "music", "relaxation"], "entities": ["Maria"]}
+{"turn_id": "D18:16", "facts": [], "keywords": ["yoga pose"], "entities": ["Maria", "John"]}
+{"turn_id": "D18:17", "facts": ["Maria said her favorite yoga poses are upside-down poses, which make her feel free and light."], "keywords": ["aerial yoga", "favorite pose"], "entities": ["Maria"]}
+{"turn_id": "D18:18", "facts": [], "keywords": ["encouragement", "yoga"], "entities": ["Maria", "John"]}
+{"turn_id": "D18:19", "facts": ["Maria said aerial yoga is tough but worth it for the freedom and connection it brings her."], "keywords": ["aerial yoga", "freedom", "connection"], "entities": ["Maria"]}
+{"turn_id": "D18:20", "facts": ["John shared a photo of a group of people at a playground, saying it makes him smile."], "keywords": ["playground", "family time"], "entities": ["John"]}
+{"turn_id": "D18:21", "facts": [], "keywords": ["park day"], "entities": ["Maria", "John"]}
+{"turn_id": "D18:22", "facts": ["On 2023-06-12, John said he had an awesome day at the park with his family where his kids had fun on the playground."], "keywords": ["park", "family time", "kids"], "entities": ["John"]}
+{"turn_id": "D18:23", "facts": [], "keywords": ["family moments"], "entities": ["Maria", "John"]}
+{"turn_id": "D19:1", "facts": ["On 2023-06-16, Maria said she joined a gym the previous week (around 2023-06-09), finding the workout routine and welcoming atmosphere very positive."], "keywords": ["gym", "workout routine", "new membership"], "entities": ["Maria"]}
+{"turn_id": "D19:2", "facts": [], "keywords": ["fitness goals", "motivation"], "entities": ["Maria", "John"]}
+{"turn_id": "D19:3", "facts": ["Maria said her fitness goals are to get stronger and improve endurance, and she is trying kundalini yoga."], "keywords": ["fitness goals", "kundalini yoga", "strength"], "entities": ["Maria"]}
+{"turn_id": "D19:4", "facts": ["John said he is trying out different workout regimes lately and thinks rock climbing sounds like a fun way to push his limits."], "keywords": ["rock climbing", "workout regimes", "fitness"], "entities": ["John"]}
+{"turn_id": "D19:5", "facts": [], "keywords": ["rock climbing"], "entities": ["Maria", "John"]}
+{"turn_id": "D19:6", "facts": ["On 2023-06-16, John said he got promoted at work, something he had been working toward for a long time, and is thrilled about it."], "keywords": ["job promotion", "career", "excitement"], "entities": ["John"]}
+{"turn_id": "D19:7", "facts": [], "keywords": ["promotion", "congratulations"], "entities": ["Maria", "John"]}
+{"turn_id": "D19:8", "facts": ["John said he was promoted to assistant manager, which felt like all his hard work paying off and a stepping stone for bigger things.", "John shared a photo of a golden trophy commemorating his career journey."], "keywords": ["assistant manager", "promotion", "trophy"], "entities": ["John"]}
+{"turn_id": "D19:9", "facts": [], "keywords": ["trophy", "backstory"], "entities": ["Maria", "John"]}
+{"turn_id": "D19:10", "facts": ["John said the trophy symbolizes all the obstacles he had to overcome to reach his promotion."], "keywords": ["trophy", "obstacles", "career journey"], "entities": ["John"]}
+{"turn_id": "D19:11", "facts": [], "keywords": ["challenges", "acknowledgment"], "entities": ["Maria", "John"]}
+{"turn_id": "D19:12", "facts": ["John said he faced tech and workplace hurdles on his career journey, but the worst was self-doubt, which he overcame with support at home and his own grit."], "keywords": ["self-doubt", "career challenges", "perseverance"], "entities": ["John"]}
+{"turn_id": "D19:13", "facts": [], "keywords": ["perseverance", "determination"], "entities": ["Maria", "John"]}
+{"turn_id": "D19:14", "facts": [], "keywords": ["support", "self-belief"], "entities": ["Maria", "John"]}
+{"turn_id": "D19:15", "facts": [], "keywords": ["belief", "support"], "entities": ["Maria", "John"]}
+{"turn_id": "D19:16", "facts": ["John said he feels lucky to have his family supporting him on his career journey."], "keywords": ["family support", "career", "gratitude"], "entities": ["John"]}
+{"turn_id": "D19:17", "facts": [], "keywords": ["workspace", "work schedule"], "entities": ["Maria", "John"]}
+{"turn_id": "D19:18", "facts": ["John said he usually works during regular hours but sometimes brings work home."], "keywords": ["work schedule", "work from home"], "entities": ["John"]}
+{"turn_id": "D19:19", "facts": [], "keywords": ["work-life balance"], "entities": ["Maria", "John"]}
+{"turn_id": "D19:20", "facts": ["John said he tries to organize his time to balance work and being there for important things in his life."], "keywords": ["time management", "work-life balance"], "entities": ["John"]}
+{"turn_id": "D19:21", "facts": [], "keywords": ["balance", "self-care"], "entities": ["Maria", "John"]}
+{"turn_id": "D19:22", "facts": ["John said a beach photo reminded him of a special family vacation to California with a gorgeous sunset and a night stroll on the shore."], "keywords": ["California vacation", "beach", "family memories"], "entities": ["John", "California"]}
+{"turn_id": "D19:23", "facts": ["Maria said she has a photo from a family vacation in Florida with amazing colors, where she felt gratitude sitting with her family."], "keywords": ["Florida vacation", "family", "gratitude"], "entities": ["Maria", "Florida"]}
+{"turn_id": "D19:24", "facts": ["John shared a photo from his family vacation showing two children playing in the ocean waves."], "keywords": ["vacation photo", "kids", "ocean"], "entities": ["John"]}
+{"turn_id": "D19:25", "facts": [], "keywords": ["kids", "joy"], "entities": ["Maria", "John"]}
+{"turn_id": "D19:26", "facts": ["John shared a photo of a football stadium full of people."], "keywords": ["football stadium", "photo"], "entities": ["John"]}
+{"turn_id": "D20:1", "facts": ["On 2023-06-27, Maria said she has been struggling but is focusing on the positive and relying on friends and family for support."], "keywords": ["struggling", "support", "positivity"], "entities": ["Maria"]}
+{"turn_id": "D20:2", "facts": [], "keywords": ["support", "encouragement"], "entities": ["Maria", "John"]}
+{"turn_id": "D20:3", "facts": ["Maria said her family has been her rock, giving her words of encouragement and reminding her she's not alone."], "keywords": ["family support", "encouragement"], "entities": ["Maria"]}
+{"turn_id": "D20:4", "facts": ["On 2023-06-27, John said his family had a blast at a live music event the previous week (around mid-to-late June 2023), enjoying the amazing energy and dancing."], "keywords": ["live music event", "family fun", "energy"], "entities": ["John"]}
+{"turn_id": "D20:5", "facts": [], "keywords": ["live music", "memories"], "entities": ["Maria", "John"]}
+{"turn_id": "D20:6", "facts": [], "keywords": ["appreciation", "silver linings"], "entities": ["Maria", "John"]}
+{"turn_id": "D20:7", "facts": ["Maria said volunteering at the shelter made her feel great to help, even briefly."], "keywords": ["volunteering", "shelter", "fulfillment"], "entities": ["Maria"]}
+{"turn_id": "D20:8", "facts": [], "keywords": ["special memories", "volunteering"], "entities": ["Maria", "John"]}
+{"turn_id": "D20:9", "facts": ["Maria said a memorable shelter moment was when someone who had been sad for months suddenly laughed while she was playing with the kids there."], "keywords": ["shelter", "uplifting moment", "kids"], "entities": ["Maria"]}
+{"turn_id": "D20:10", "facts": [], "keywords": ["joy", "impact"], "entities": ["Maria", "John"]}
+{"turn_id": "D20:11", "facts": [], "keywords": ["making a difference", "joy"], "entities": ["Maria", "John"]}
+{"turn_id": "D20:12", "facts": [], "keywords": ["positive impact"], "entities": ["Maria", "John"]}
+{"turn_id": "D20:13", "facts": ["Maria said continuing to volunteer is her way of spreading kindness and positivity."], "keywords": ["kindness", "positivity", "volunteering"], "entities": ["Maria"]}
+{"turn_id": "D20:14", "facts": [], "keywords": ["impact", "kindness"], "entities": ["Maria", "John"]}
+{"turn_id": "D20:15", "facts": [], "keywords": ["appreciation", "impact"], "entities": ["Maria", "John"]}
+{"turn_id": "D20:16", "facts": [], "keywords": ["encouragement"], "entities": ["Maria", "John"]}
+{"turn_id": "D20:17", "facts": [], "keywords": ["farewell"], "entities": ["Maria", "John"]}
+{"turn_id": "D20:18", "facts": [], "keywords": ["positivity", "farewell"], "entities": ["Maria", "John"]}
+{"turn_id": "D21:1", "facts": ["On 2023-07-03, Maria shared a photo of three children she met at the homeless shelter, sitting on a step smiling."], "keywords": ["shelter kids", "photo"], "entities": ["Maria"]}
+{"turn_id": "D21:2", "facts": [], "keywords": ["kids", "updates"], "entities": ["Maria", "John"]}
+{"turn_id": "D21:3", "facts": ["On 2023-07-03, Maria said something bad happened the day before (2023-07-02), sharing a photo of a damaged car on a flatbed."], "keywords": ["car accident", "damage"], "entities": ["Maria"]}
+{"turn_id": "D21:4", "facts": [], "keywords": ["concern", "help offer"], "entities": ["Maria", "John"]}
+{"turn_id": "D21:5", "facts": ["Maria said a car ran a red light and hit her car, but everyone involved was okay.", "Maria said her cousin recently had a tough time and Maria is helping her find a new place to live."], "keywords": ["car accident", "red light", "cousin", "housing help"], "entities": ["Maria"]}
+{"turn_id": "D21:6", "facts": [], "keywords": ["family support"], "entities": ["Maria", "John"]}
+{"turn_id": "D21:7", "facts": ["Maria said her cousin had to leave her home and find a new place in a hurry, which has been stressful but she is making progress."], "keywords": ["cousin", "housing", "stress"], "entities": ["Maria"]}
+{"turn_id": "D21:8", "facts": [], "keywords": ["housing", "hope"], "entities": ["Maria", "John"]}
+{"turn_id": "D21:9", "facts": [], "keywords": ["safe home", "importance"], "entities": ["Maria", "John"]}
+{"turn_id": "D21:10", "facts": [], "keywords": ["support", "wellbeing"], "entities": ["Maria", "John"]}
+{"turn_id": "D21:11", "facts": ["Maria asked John if he knew of any resources or organizations that could help her cousin with housing."], "keywords": ["housing resources", "help request"], "entities": ["Maria", "John"]}
+{"turn_id": "D21:12", "facts": ["John offered to look for resources to help Maria's cousin."], "keywords": ["housing resources", "help offer"], "entities": ["John", "Maria"]}
+{"turn_id": "D21:13", "facts": [], "keywords": ["gratitude", "help"], "entities": ["Maria", "John"]}
+{"turn_id": "D21:14", "facts": [], "keywords": ["helping others", "commitment"], "entities": ["Maria", "John"]}
+{"turn_id": "D21:15", "facts": [], "keywords": ["kindness", "compassion"], "entities": ["Maria", "John"]}
+{"turn_id": "D21:16", "facts": [], "keywords": ["gratitude"], "entities": ["Maria", "John"]}
+{"turn_id": "D21:17", "facts": ["Maria shared a photo of a letter written by a man, reflecting on how small acts of kindness can make a big difference."], "keywords": ["kindness", "letter", "compassion"], "entities": ["Maria"]}
+{"turn_id": "D21:18", "facts": [], "keywords": ["inspiration", "letter"], "entities": ["Maria", "John"]}
+{"turn_id": "D21:19", "facts": ["Maria said a shelter resident named Laura wrote her and the team a letter expressing gratitude for the impact they made on her life."], "keywords": ["Laura", "shelter resident", "gratitude letter"], "entities": ["Maria", "Laura"]}
+{"turn_id": "D21:20", "facts": [], "keywords": ["positive impact"], "entities": ["Maria", "John"]}
+{"turn_id": "D21:21", "facts": ["Maria said volunteering makes her feel like she's making a difference, even if small."], "keywords": ["volunteering", "difference"], "entities": ["Maria"]}
+{"turn_id": "D21:22", "facts": ["On 2023-07-03, John said he participated in a marching event for veterans' rights, which reminded him how much veterans sacrifice."], "keywords": ["veterans rights", "march", "activism"], "entities": ["John"]}
+{"turn_id": "D21:23", "facts": [], "keywords": ["inspiration", "activism"], "entities": ["Maria", "John"]}
+{"turn_id": "D21:24", "facts": ["John said he has always had great respect for the military and wanted to show his support by joining the veterans' rights march."], "keywords": ["military respect", "activism", "veterans"], "entities": ["John"]}
+{"turn_id": "D21:25", "facts": [], "keywords": ["standing up for beliefs"], "entities": ["Maria", "John"]}
+{"turn_id": "D21:26", "facts": ["John said being around others at the march who shared his values and passion motivated him and reminded him of the importance of activism."], "keywords": ["activism", "shared values", "motivation"], "entities": ["John"]}
+{"turn_id": "D21:27", "facts": [], "keywords": ["motivation", "determination"], "entities": ["Maria", "John"]}
+{"turn_id": "D21:28", "facts": [], "keywords": ["progress", "determination"], "entities": ["Maria", "John"]}
+{"turn_id": "D21:29", "facts": [], "keywords": ["farewell", "teamwork"], "entities": ["Maria", "John"]}
+{"turn_id": "D22:1", "facts": ["On 2023-07-05, John said he has been thinking about how education and infrastructure shape communities and can stunt growth when lacking."], "keywords": ["education", "infrastructure", "community growth"], "entities": ["John"]}
+{"turn_id": "D22:2", "facts": [], "keywords": ["community impact", "passion"], "entities": ["Maria", "John"]}
+{"turn_id": "D22:3", "facts": [], "keywords": ["uphill battle", "support"], "entities": ["Maria", "John"]}
+{"turn_id": "D22:4", "facts": [], "keywords": ["support system", "pride"], "entities": ["Maria", "John"]}
+{"turn_id": "D22:5", "facts": ["John shared a photo of his family posing on a train track in the fall, saying they motivate him and remind him why he does his community work."], "keywords": ["family photo", "motivation", "fall"], "entities": ["John"]}
+{"turn_id": "D22:6", "facts": [], "keywords": ["family trip", "motivation"], "entities": ["Maria", "John"]}
+{"turn_id": "D22:7", "facts": ["John said the train track photo was from a trip his family took the previous year (2022) for his daughter Sara's birthday."], "keywords": ["Sara", "birthday trip", "family memories"], "entities": ["John", "Sara"]}
+{"turn_id": "D22:8", "facts": [], "keywords": ["memories", "motivation"], "entities": ["Maria", "John"]}
+{"turn_id": "D22:9", "facts": ["John said his family is his motivation and keeps him going during hard times."], "keywords": ["family", "motivation"], "entities": ["John"]}
+{"turn_id": "D22:10", "facts": ["Maria said she is inspired by chatting with people, volunteering, and listening to music."], "keywords": ["inspiration", "volunteering", "music"], "entities": ["Maria"]}
+{"turn_id": "D22:11", "facts": ["John said his family, exercise, and spending time with friends inspire him."], "keywords": ["family", "exercise", "friends", "inspiration"], "entities": ["John"]}
+{"turn_id": "D22:12", "facts": [], "keywords": ["inspiration sources"], "entities": ["Maria", "John"]}
+{"turn_id": "D22:13", "facts": [], "keywords": ["motivation", "challenges"], "entities": ["Maria", "John"]}
+{"turn_id": "D22:14", "facts": [], "keywords": ["enthusiasm", "outlook"], "entities": ["Maria", "John"]}
+{"turn_id": "D22:15", "facts": ["John shared a photo from a walk the previous week (around late June 2023) of a sunset over the ocean with a sailboat, saying it reminds him to take a break and appreciate nature."], "keywords": ["sunset", "walk", "nature appreciation"], "entities": ["John"]}
+{"turn_id": "D22:16", "facts": [], "keywords": ["sunset photo", "ocean"], "entities": ["Maria", "John"]}
+{"turn_id": "D22:17", "facts": ["John said he sees sunsets like that on his walks at least once a week, using it as a way to disconnect and find peace."], "keywords": ["sunset walks", "peace", "routine"], "entities": ["John"]}
+{"turn_id": "D22:18", "facts": ["Maria said she has been taking regular \"me-time\" walks at a park nearby, which has made a big positive impact on her."], "keywords": ["me-time walks", "park", "self-care"], "entities": ["Maria"]}
+{"turn_id": "D22:19", "facts": [], "keywords": ["farewell"], "entities": ["Maria", "John"]}
+{"turn_id": "D22:20", "facts": [], "keywords": ["farewell"], "entities": ["Maria", "John"]}
+{"turn_id": "D22:21", "facts": [], "keywords": ["farewell"], "entities": ["Maria", "John"]}
+{"turn_id": "D23:1", "facts": ["On 2023-07-07, John said his old area was hit by a bad flood the previous week (around late June/early July 2023), ruining many homes due to poor infrastructure."], "keywords": ["flood", "old area", "infrastructure damage"], "entities": ["John"]}
+{"turn_id": "D23:2", "facts": [], "keywords": ["concern", "help offer"], "entities": ["Maria", "John"]}
+{"turn_id": "D23:3", "facts": ["John said he is organizing people to meet and discuss solutions after the flood in his old area."], "keywords": ["community meeting", "flood response", "solutions"], "entities": ["John"]}
+{"turn_id": "D23:4", "facts": ["Maria agreed to join John's meeting to discuss solutions after the flood."], "keywords": ["community meeting", "support"], "entities": ["Maria", "John"]}
+{"turn_id": "D23:5", "facts": [], "keywords": ["determination", "teamwork"], "entities": ["Maria", "John"]}
+{"turn_id": "D23:6", "facts": [], "keywords": ["friendship", "collaboration"], "entities": ["Maria", "John"]}
+{"turn_id": "D23:7", "facts": [], "keywords": ["friendship", "motivation"], "entities": ["Maria", "John"]}
+{"turn_id": "D23:8", "facts": [], "keywords": ["community impact", "kindness"], "entities": ["Maria", "John"]}
+{"turn_id": "D23:9", "facts": [], "keywords": ["small steps", "impact"], "entities": ["Maria", "John"]}
+{"turn_id": "D23:10", "facts": [], "keywords": ["kindness", "positivity ripple"], "entities": ["Maria", "John"]}
+{"turn_id": "D23:11", "facts": [], "keywords": ["helping others", "determination"], "entities": ["Maria", "John"]}
+{"turn_id": "D23:12", "facts": [], "keywords": ["change", "gratitude"], "entities": ["Maria", "John"]}
+{"turn_id": "D23:13", "facts": [], "keywords": ["gratitude", "community work"], "entities": ["Maria", "John"]}
+{"turn_id": "D23:14", "facts": ["On 2023-07-07, Maria said she was off to have dinner with some friends from the gym."], "keywords": ["dinner", "gym friends"], "entities": ["Maria"]}
+{"turn_id": "D24:1", "facts": ["On 2023-07-17, John said that the previous week (around early July 2023) he visited a veteran's hospital and met amazing people, appreciating the need to give back."], "keywords": ["veterans hospital", "gratitude", "visit"], "entities": ["John"]}
+{"turn_id": "D24:2", "facts": [], "keywords": ["veterans", "appreciation"], "entities": ["Maria", "John"]}
+{"turn_id": "D24:3", "facts": ["John said he heard inspiring and heartbreaking stories from an elderly veteran named Samuel during his hospital visit, which reminded him why he wanted to join the military."], "keywords": ["Samuel", "veteran stories", "military"], "entities": ["John", "Samuel"]}
+{"turn_id": "D24:4", "facts": [], "keywords": ["resilience", "veterans"], "entities": ["Maria", "John"]}
+{"turn_id": "D24:5", "facts": ["John said he is part of an organization supporting veterans that feels like a family, always supporting each other."], "keywords": ["veterans organization", "support", "family feeling"], "entities": ["John"]}
+{"turn_id": "D24:6", "facts": ["On 2023-07-17, Maria said that the previous weekend (around 2023-07-15) she had a picnic with friends from church, playing games and eating under the trees."], "keywords": ["picnic", "church friends", "games"], "entities": ["Maria"]}
+{"turn_id": "D24:7", "facts": [], "keywords": ["picnic games"], "entities": ["Maria", "John"]}
+{"turn_id": "D24:8", "facts": ["Maria said she and her friends played charades and a scavenger hunt at the picnic."], "keywords": ["charades", "scavenger hunt", "picnic games"], "entities": ["Maria"]}
+{"turn_id": "D24:9", "facts": ["John said he is thinking of setting up games and activities like charades for his kids soon."], "keywords": ["kids activities", "games", "planning"], "entities": ["John"]}
+{"turn_id": "D24:10", "facts": [], "keywords": ["arts and crafts"], "entities": ["Maria", "John"]}
+{"turn_id": "D24:11", "facts": ["John said he saw arts and crafts activities at a community event the previous month (around June 2023) and wants to try similar activities with his family and friends."], "keywords": ["community event", "arts and crafts", "family activities"], "entities": ["John"]}
+{"turn_id": "D24:12", "facts": [], "keywords": ["connections", "fun activities"], "entities": ["Maria", "John"]}
+{"turn_id": "D24:13", "facts": [], "keywords": ["fun", "life philosophy"], "entities": ["Maria", "John"]}
+{"turn_id": "D24:14", "facts": [], "keywords": ["connections", "simple joys"], "entities": ["Maria", "John"]}
+{"turn_id": "D24:15", "facts": [], "keywords": ["positivity", "impact"], "entities": ["Maria", "John"]}
+{"turn_id": "D24:16", "facts": [], "keywords": ["kindness", "joy"], "entities": ["Maria", "John"]}
+{"turn_id": "D24:17", "facts": [], "keywords": ["kindness", "positivity"], "entities": ["Maria", "John"]}
+{"turn_id": "D25:1", "facts": ["On 2023-07-22, John said he is really enjoying his new job and that his team has been super encouraging and inspiring."], "keywords": ["new job", "team", "encouragement"], "entities": ["John"]}
+{"turn_id": "D25:2", "facts": ["On 2023-07-22, Maria said that the previous weekend (around 2023-07-15) she went hiking with church friends, finding it refreshing to be surrounded by supportive people and nature."], "keywords": ["hiking", "church friends", "nature"], "entities": ["Maria"]}
+{"turn_id": "D25:3", "facts": [], "keywords": ["hiking motivation"], "entities": ["Maria", "John"]}
+{"turn_id": "D25:4", "facts": ["Maria said she went hiking to make connections, laugh with friends, and take in nature's beauty."], "keywords": ["hiking", "connections", "nature beauty"], "entities": ["Maria"]}
+{"turn_id": "D25:5", "facts": [], "keywords": ["hiking highlights", "mood"], "entities": ["Maria", "John"]}
+{"turn_id": "D25:6", "facts": ["Maria said reaching the top of the hike was amazing, with a breathtaking view that gave her a sense of peace and connection to something bigger."], "keywords": ["hiking summit", "peace", "perspective"], "entities": ["Maria"]}
+{"turn_id": "D25:7", "facts": [], "keywords": ["nature", "next adventure"], "entities": ["Maria", "John"]}
+{"turn_id": "D25:8", "facts": ["Maria said she plans to explore more and volunteer at shelters the following month (around August 2023)."], "keywords": ["future plans", "volunteering", "exploring"], "entities": ["Maria"]}
+{"turn_id": "D25:9", "facts": [], "keywords": ["excitement", "positivity"], "entities": ["Maria", "John"]}
+{"turn_id": "D25:10", "facts": [], "keywords": ["yoga studio", "martial arts"], "entities": ["Maria", "John"]}
+{"turn_id": "D25:11", "facts": ["John said he goes to a yoga studio often, describing the vibe as chill with awesome instructors."], "keywords": ["yoga studio", "instructors"], "entities": ["John"]}
+{"turn_id": "D25:12", "facts": [], "keywords": ["class variety"], "entities": ["Maria", "John"]}
+{"turn_id": "D25:13", "facts": ["John said his yoga studio offers a variety of classes including yoga, kickboxing, and circuit training."], "keywords": ["yoga studio", "kickboxing", "circuit training"], "entities": ["John"]}
+{"turn_id": "D25:14", "facts": [], "keywords": ["new classes", "exercise variety"], "entities": ["Maria", "John"]}
+{"turn_id": "D25:15", "facts": [], "keywords": ["trying new things", "exercise"], "entities": ["Maria", "John"]}
+{"turn_id": "D25:16", "facts": [], "keywords": ["yoga classes"], "entities": ["Maria", "John"]}
+{"turn_id": "D25:17", "facts": ["John said he has also done weight training at his studio, finding it challenging but peaceful like yoga."], "keywords": ["weight training", "exercise"], "entities": ["John"]}
+{"turn_id": "D25:18", "facts": [], "keywords": ["yoga benefits"], "entities": ["Maria", "John"]}
+{"turn_id": "D25:19", "facts": [], "keywords": ["advice", "exercise"], "entities": ["Maria", "John"]}
+{"turn_id": "D25:20", "facts": ["On 2023-07-22, Maria said she was off to bake some cakes."], "keywords": ["baking", "cakes"], "entities": ["Maria"]}
+{"turn_id": "D26:1", "facts": ["On 2023-07-31, Maria said that the previous week (around late July 2023) she dropped off baked goods at the homeless shelter, feeling more motivated than ever to help people."], "keywords": ["baking", "homeless shelter", "donation"], "entities": ["Maria"]}
+{"turn_id": "D26:2", "facts": ["On 2023-07-31, John said he joined a fire-fighting brigade, inspired partly by Maria's shelter volunteering, to give back to his community."], "keywords": ["firefighting brigade", "community service", "new commitment"], "entities": ["John"]}
+{"turn_id": "D26:3", "facts": [], "keywords": ["fire brigade", "progress"], "entities": ["Maria", "John"]}
+{"turn_id": "D26:4", "facts": ["John said fire brigade training has been tough but rewarding, and that the previous Sunday (around 2023-07-30) he had his first call-out, working with his team to help people in need."], "keywords": ["fire brigade training", "first call-out", "teamwork"], "entities": ["John"]}
+{"turn_id": "D26:5", "facts": [], "keywords": ["rescue mission"], "entities": ["Maria", "John"]}
+{"turn_id": "D26:6", "facts": ["John said during his first fire brigade call-out, his team saved a family from a burning building."], "keywords": ["burning building", "rescue", "fire brigade"], "entities": ["John"]}
+{"turn_id": "D26:7", "facts": [], "keywords": ["courage", "impact"], "entities": ["Maria", "John"]}
+{"turn_id": "D26:8", "facts": ["John said his fire brigade team members have become like family to him, built on trust and reliance on one another."], "keywords": ["fire brigade team", "trust", "found family"], "entities": ["John"]}
+{"turn_id": "D26:9", "facts": [], "keywords": ["supportive team"], "entities": ["Maria", "John"]}
+{"turn_id": "D26:10", "facts": ["John said the bond he feels with his fire brigade team is one he hasn't felt since his time in the military."], "keywords": ["fire brigade", "military bond", "teamwork"], "entities": ["John"]}
+{"turn_id": "D26:11", "facts": [], "keywords": ["friendship", "reliance"], "entities": ["Maria", "John"]}
+{"turn_id": "D26:12", "facts": ["John said being part of the fire brigade and keeping his community safe feels fulfilling and meaningful."], "keywords": ["fire brigade", "fulfillment", "community safety"], "entities": ["John"]}
+{"turn_id": "D26:13", "facts": ["Maria shared a photo from a volunteering event with people around a table of food, saying it reminds her that being kind matters."], "keywords": ["volunteering photo", "kindness"], "entities": ["Maria"]}
+{"turn_id": "D26:14", "facts": [], "keywords": ["small acts", "kindness"], "entities": ["Maria", "John"]}
+{"turn_id": "D26:15", "facts": [], "keywords": ["kindness", "commitment"], "entities": ["Maria", "John"]}
+{"turn_id": "D26:16", "facts": [], "keywords": ["positivity", "encouragement"], "entities": ["Maria", "John"]}
+{"turn_id": "D26:17", "facts": [], "keywords": ["gratitude", "farewell"], "entities": ["Maria", "John"]}
+{"turn_id": "D27:1", "facts": ["On 2023-08-03, John said he asked family and friends to join his virtual military support group as advocates for the military."], "keywords": ["virtual support group", "military advocacy", "recruitment"], "entities": ["John"]}
+{"turn_id": "D27:2", "facts": ["Maria said she is volunteering at a homeless shelter, finding it rewarding."], "keywords": ["homeless shelter", "volunteering"], "entities": ["Maria"]}
+{"turn_id": "D27:3", "facts": [], "keywords": ["volunteering photo"], "entities": ["Maria", "John"]}
+{"turn_id": "D27:4", "facts": ["On 2023-08-03, Maria said she started volunteering at the homeless shelter about a year ago (around August 2022) after witnessing a family struggling on the streets, which motivated her to reach out and ask if the shelter needed volunteers."], "keywords": ["homeless shelter", "volunteering origin", "struggling family"], "entities": ["Maria"]}
+{"turn_id": "D27:5", "facts": [], "keywords": ["admiration", "impact"], "entities": ["Maria", "John"]}
+{"turn_id": "D27:6", "facts": ["Maria shared a photo of a note from a shelter resident, saying volunteering has been tough but knowing she can make a difference keeps her motivated."], "keywords": ["shelter note", "motivation"], "entities": ["Maria"]}
+{"turn_id": "D27:7", "facts": [], "keywords": ["note origin"], "entities": ["Maria", "John"]}
+{"turn_id": "D27:8", "facts": ["Maria said a shelter resident named Cindy wrote a heartfelt note of gratitude expressing the impact of the support she received."], "keywords": ["Cindy", "gratitude note", "shelter resident"], "entities": ["Maria", "Cindy"]}
+{"turn_id": "D27:9", "facts": ["On 2023-08-03, John said that the previous week (around late July 2023) he and his kids had a meaningful experience at a military memorial that made a big impact on his kids."], "keywords": ["military memorial", "kids", "meaningful experience"], "entities": ["John"]}
+{"turn_id": "D27:10", "facts": [], "keywords": ["reaction", "memorial"], "entities": ["Maria", "John"]}
+{"turn_id": "D27:11", "facts": ["John said his kids were awestruck and humbled by the military memorial visit."], "keywords": ["kids reaction", "military memorial"], "entities": ["John"]}
+{"turn_id": "D27:12", "facts": [], "keywords": ["humility", "remembrance"], "entities": ["Maria", "John"]}
+{"turn_id": "D27:13", "facts": ["John said teaching his kids to respect and appreciate those who served in the military was a moving experience for the whole family."], "keywords": ["kids education", "military respect", "family experience"], "entities": ["John"]}
+{"turn_id": "D27:14", "facts": [], "keywords": ["teaching kids", "veterans"], "entities": ["Maria", "John"]}
+{"turn_id": "D27:15", "facts": [], "keywords": ["teamwork", "appreciation"], "entities": ["Maria", "John"]}
+{"turn_id": "D27:16", "facts": [], "keywords": ["teamwork"], "entities": ["Maria", "John"]}
+{"turn_id": "D28:1", "facts": ["On 2023-08-05, John said he lost his job at a mechanical engineering company after it collapsed, which has been rough for him."], "keywords": ["job loss", "mechanical engineering", "layoff"], "entities": ["John"]}
+{"turn_id": "D28:2", "facts": [], "keywords": ["job loss", "support"], "entities": ["Maria", "John"]}
+{"turn_id": "D28:3", "facts": ["John said he has been looking into opportunities in the tech industry after losing his job, seeing it as a possible needed change."], "keywords": ["tech industry", "job search", "career change"], "entities": ["John"]}
+{"turn_id": "D28:4", "facts": [], "keywords": ["job leads"], "entities": ["Maria", "John"]}
+{"turn_id": "D28:5", "facts": ["John said he may have found a job at a tech company that needs his mechanical skills for their hardware team."], "keywords": ["tech job", "hardware team", "mechanical skills"], "entities": ["John"]}
+{"turn_id": "D28:6", "facts": [], "keywords": ["adaptability", "good luck"], "entities": ["Maria", "John"]}
+{"turn_id": "D28:7", "facts": [], "keywords": ["gratitude", "support"], "entities": ["Maria", "John"]}
+{"turn_id": "D28:8", "facts": ["On 2023-08-05, Maria said that the previous day (2023-08-04) she did community work with friends from church, finding it super rewarding."], "keywords": ["community work", "church friends", "rewarding"], "entities": ["Maria"]}
+{"turn_id": "D28:9", "facts": [], "keywords": ["community work"], "entities": ["Maria", "John"]}
+{"turn_id": "D28:10", "facts": [], "keywords": ["kindness", "compassion"], "entities": ["Maria", "John"]}
+{"turn_id": "D28:11", "facts": ["John said that the previous year (2022) he helped renovate a rundown community center back home, finding the impact on the community very worthwhile."], "keywords": ["community center renovation", "hometown", "volunteering"], "entities": ["John"]}
+{"turn_id": "D28:12", "facts": [], "keywords": ["hometown impact"], "entities": ["Maria", "John"]}
+{"turn_id": "D28:13", "facts": [], "keywords": ["community coming together"], "entities": ["Maria", "John"]}
+{"turn_id": "D28:14", "facts": [], "keywords": ["encouragement", "impact"], "entities": ["Maria", "John"]}
+{"turn_id": "D28:15", "facts": [], "keywords": ["encouragement", "perseverance"], "entities": ["Maria", "John"]}
+{"turn_id": "D28:16", "facts": [], "keywords": ["inspiration", "support"], "entities": ["Maria", "John"]}
+{"turn_id": "D28:17", "facts": [], "keywords": ["gratitude", "motivation"], "entities": ["Maria", "John"]}
+{"turn_id": "D28:18", "facts": [], "keywords": ["support offer"], "entities": ["Maria", "John"]}
+{"turn_id": "D28:19", "facts": [], "keywords": ["gratitude"], "entities": ["Maria", "John"]}
+{"turn_id": "D29:1", "facts": ["On 2023-08-09, Maria said that the previous week (around early August 2023) she volunteered at the homeless shelter and was given a medal, which she found humbling."], "keywords": ["homeless shelter", "medal", "recognition"], "entities": ["Maria"]}
+{"turn_id": "D29:2", "facts": ["On 2023-08-09, John said that the previous weekend (around 2023-08-05) he participated in a community event to raise money for a good cause with a great turnout."], "keywords": ["community event", "fundraising", "turnout"], "entities": ["John"]}
+{"turn_id": "D29:3", "facts": [], "keywords": ["community event", "heartwarming photo"], "entities": ["Maria", "John"]}
+{"turn_id": "D29:4", "facts": ["John said he set up a 5K charity run in his neighborhood to raise funds to help veterans and their families."], "keywords": ["5K charity run", "veterans", "fundraising"], "entities": ["John"]}
+{"turn_id": "D29:5", "facts": [], "keywords": ["initiative", "organizing"], "entities": ["Maria", "John"]}
+{"turn_id": "D29:6", "facts": ["John said organizing the 5K charity run for veterans involved hard work getting sponsors, coordinating with the city, and spreading the word."], "keywords": ["charity run organizing", "sponsors", "city coordination"], "entities": ["John"]}
+{"turn_id": "D29:7", "facts": [], "keywords": ["effort", "dedication"], "entities": ["Maria", "John"]}
+{"turn_id": "D29:8", "facts": ["John said getting sponsors for the charity run was difficult, requiring him to reach out to several businesses, but it paid off with great sponsors."], "keywords": ["sponsors", "fundraising challenge"], "entities": ["John"]}
+{"turn_id": "D29:9", "facts": [], "keywords": ["overcoming challenges", "other causes"], "entities": ["Maria", "John"]}
+{"turn_id": "D29:10", "facts": ["John said he also worked with a local organization that helps victims of domestic abuse, raising awareness and funds for that cause at an event."], "keywords": ["domestic abuse organization", "awareness", "fundraising"], "entities": ["John"]}
+{"turn_id": "D29:11", "facts": [], "keywords": ["domestic abuse", "support"], "entities": ["Maria", "John"]}
+{"turn_id": "D29:12", "facts": [], "keywords": ["tough issue", "community"], "entities": ["Maria", "John"]}
+{"turn_id": "D29:13", "facts": [], "keywords": ["community power", "awareness"], "entities": ["Maria", "John"]}
+{"turn_id": "D29:14", "facts": [], "keywords": ["positivity", "community"], "entities": ["Maria", "John"]}
+{"turn_id": "D29:15", "facts": [], "keywords": ["positivity", "teamwork"], "entities": ["Maria", "John"]}
+{"turn_id": "D29:16", "facts": [], "keywords": ["gratitude", "teamwork"], "entities": ["Maria", "John"]}
+{"turn_id": "D29:17", "facts": [], "keywords": ["friendship", "passion"], "entities": ["Maria", "John"]}
+{"turn_id": "D29:18", "facts": [], "keywords": ["friendship", "farewell"], "entities": ["Maria", "John"]}
+{"turn_id": "D30:1", "facts": ["On 2023-08-11, Maria said she got a puppy named Coco two weeks earlier (around 2023-07-28)."], "keywords": ["Coco", "puppy", "new pet"], "entities": ["Maria", "Coco"]}
+{"turn_id": "D30:2", "facts": [], "keywords": ["Coco", "new pet joy"], "entities": ["Maria", "John", "Coco"]}
+{"turn_id": "D30:3", "facts": ["Maria said her puppy Coco brings joy to her life, always greeting her when she comes home, and that caring for her has been an adjustment but worth it."], "keywords": ["Coco", "puppy care", "joy"], "entities": ["Maria", "Coco"]}
+{"turn_id": "D30:4", "facts": ["John said he is still thinking about his late dog Max and shared a photo of him."], "keywords": ["Max", "grief", "memories"], "entities": ["John", "Max"]}
+{"turn_id": "D30:5", "facts": [], "keywords": ["Max", "best memory"], "entities": ["Maria", "John", "Max"]}
+{"turn_id": "D30:6", "facts": ["John said he and Max had a great camping trip the previous summer (2022), hiking, swimming, and making peaceful memories together."], "keywords": ["Max", "camping trip", "memories"], "entities": ["John", "Max"]}
+{"turn_id": "D30:7", "facts": [], "keywords": ["camping with pets"], "entities": ["Maria", "John"]}
+{"turn_id": "D30:8", "facts": ["John said camping with Max was a chill, nice break from the everyday hustle and bustle, being out in nature away from noise."], "keywords": ["camping", "nature", "Max"], "entities": ["John", "Max"]}
+{"turn_id": "D30:9", "facts": [], "keywords": ["nature", "tuning out"], "entities": ["Maria", "John"]}
+{"turn_id": "D30:10", "facts": ["John said his camping trip with Max felt like restarting his mind and spirit, reminding him to savor peaceful moments."], "keywords": ["camping", "peace", "reflection"], "entities": ["John", "Max"]}
+{"turn_id": "D30:11", "facts": [], "keywords": ["nature", "reset"], "entities": ["Maria", "John"]}
+{"turn_id": "D30:12", "facts": ["On 2023-08-11, John said he has had some tough times lately and that his nature photos help him appreciate little things."], "keywords": ["tough times", "reflection", "nature photos"], "entities": ["John"]}
+{"turn_id": "D30:13", "facts": [], "keywords": ["concern", "support"], "entities": ["Maria", "John"]}
+{"turn_id": "D30:14", "facts": ["John said he has been feeling stumped lately, questioning his decisions and goals because he doesn't feel like he's making much of an impact."], "keywords": ["self-doubt", "questioning goals", "impact"], "entities": ["John"]}
+{"turn_id": "D30:15", "facts": [], "keywords": ["understanding", "support"], "entities": ["Maria", "John"]}
+{"turn_id": "D30:16", "facts": ["John said he wants to positively affect people and the world but feels stuck and needs to find a better way to focus his passion."], "keywords": ["purpose", "feeling stuck", "passion"], "entities": ["John"]}
+{"turn_id": "D30:17", "facts": [], "keywords": ["small steps", "channeling energy"], "entities": ["Maria", "John"]}
+{"turn_id": "D30:18", "facts": ["John said he has been exploring the idea of joining local organizations or volunteering programs to find meaningful ways to make an impact."], "keywords": ["local organizations", "volunteering", "exploring options"], "entities": ["John"]}
+{"turn_id": "D30:19", "facts": [], "keywords": ["research", "organizations"], "entities": ["Maria", "John"]}
+{"turn_id": "D30:20", "facts": ["John said he plans to make a list of organizations that align with his beliefs and reach out for more information."], "keywords": ["organizations list", "plan", "outreach"], "entities": ["John"]}
+{"turn_id": "D30:21", "facts": [], "keywords": ["support", "encouragement"], "entities": ["Maria", "John"]}
+{"turn_id": "D30:22", "facts": [], "keywords": ["gratitude", "inspiration"], "entities": ["Maria", "John"]}
+{"turn_id": "D30:23", "facts": [], "keywords": ["positivity", "farewell"], "entities": ["Maria", "John"]}
+{"turn_id": "D31:1", "facts": ["On 2023-08-13, John said he is volunteering as a mentor for a local school, finding it rewarding to help the students."], "keywords": ["school mentoring", "volunteering", "students"], "entities": ["John"]}
+{"turn_id": "D31:2", "facts": ["On 2023-08-13, Maria said she adopted a puppy from a shelter the previous week (around early August 2023), feeling blessed to give her a home."], "keywords": ["puppy adoption", "shelter dog", "new pet"], "entities": ["Maria"]}
+{"turn_id": "D31:3", "facts": [], "keywords": ["puppy name", "dogs getting along"], "entities": ["Maria", "John"]}
+{"turn_id": "D31:4", "facts": ["Maria said her newly adopted puppy is named Shadow, is full of energy, and gets along great with Coco."], "keywords": ["Shadow", "puppy", "Coco"], "entities": ["Maria", "Shadow", "Coco"]}
+{"turn_id": "D31:5", "facts": [], "keywords": ["pets growing up"], "entities": ["Maria", "John"]}
+{"turn_id": "D31:6", "facts": ["Maria said she did not have pets growing up, but having a furry pal now brightens her days."], "keywords": ["childhood pets", "furry pal"], "entities": ["Maria"]}
+{"turn_id": "D31:7", "facts": ["John said he plans to look into shelters near him soon to potentially get a new dog."], "keywords": ["shelter dog", "future pet plans"], "entities": ["John"]}
+{"turn_id": "D31:8", "facts": [], "keywords": ["pets", "joy"], "entities": ["Maria", "John"]}
+{"turn_id": "D31:9", "facts": ["John said the students in his mentoring program are showing real improvement in confidence and skills, and one student excitedly showed him their essay the previous week (around early August 2023)."], "keywords": ["mentoring progress", "student essay", "confidence"], "entities": ["John"]}
+{"turn_id": "D31:10", "facts": ["Maria said her new puppy Shadow is doing great, learning commands and house training."], "keywords": ["Shadow", "house training", "puppy progress"], "entities": ["Maria", "Shadow"]}
+{"turn_id": "D31:11", "facts": [], "keywords": ["puppy learning"], "entities": ["Maria", "John"]}
+{"turn_id": "D31:12", "facts": ["Maria said Shadow is an amazing learner and has brought her a lot of joy."], "keywords": ["Shadow", "joy", "learning"], "entities": ["Maria", "Shadow"]}
+{"turn_id": "D31:13", "facts": [], "keywords": ["animal companionship"], "entities": ["Maria", "John"]}
+{"turn_id": "D31:14", "facts": [], "keywords": ["animal comfort", "happiness"], "entities": ["Maria", "John"]}
+{"turn_id": "D31:15", "facts": [], "keywords": ["animal companionship", "peace"], "entities": ["Maria", "John"]}
+{"turn_id": "D31:16", "facts": [], "keywords": ["animals", "support"], "entities": ["Maria", "John"]}
+{"turn_id": "D31:17", "facts": ["John said his family (himself, his wife, and his kids) always has his back even during hard times, calling it the best thing ever."], "keywords": ["family", "support", "wife", "kids"], "entities": ["John"]}
+{"turn_id": "D31:18", "facts": [], "keywords": ["family photo", "activities"], "entities": ["Maria", "John"]}
+{"turn_id": "D31:19", "facts": ["John said his family loves being outdoors together, including hikes, park visits, and picnics, as well as board games and movie nights at home."], "keywords": ["family activities", "hiking", "board games", "movie nights"], "entities": ["John"]}
+{"turn_id": "D31:20", "facts": [], "keywords": ["family time", "importance"], "entities": ["Maria", "John"]}
+{"turn_id": "D31:21", "facts": [], "keywords": ["family time", "farewell"], "entities": ["Maria", "John"]}
+{"turn_id": "D31:22", "facts": [], "keywords": ["farewell"], "entities": ["Maria", "John"]}
+{"turn_id": "D31:23", "facts": [], "keywords": ["farewell"], "entities": ["Maria", "John"]}
+{"turn_id": "D32:1", "facts": ["On 2023-08-16, John said he is now part of the fire-fighting brigade and is excited to help his community."], "keywords": ["fire brigade", "community service"], "entities": ["John"]}
+{"turn_id": "D32:2", "facts": [], "keywords": ["enthusiasm", "experience"], "entities": ["Maria", "John"]}
+{"turn_id": "D32:3", "facts": ["John said he was impressed with the fire brigade's dedication and teamwork, finding it inspiring to be around them."], "keywords": ["fire brigade", "teamwork", "dedication"], "entities": ["John"]}
+{"turn_id": "D32:4", "facts": [], "keywords": ["fire truck", "teamwork"], "entities": ["Maria", "John"]}
+{"turn_id": "D32:5", "facts": ["John said his fire brigade team completed a donation drive task in two hours, finding the hard work satisfying."], "keywords": ["fire brigade", "donation drive", "teamwork"], "entities": ["John"]}
+{"turn_id": "D32:6", "facts": [], "keywords": ["donations"], "entities": ["Maria", "John"]}
+{"turn_id": "D32:7", "facts": ["John said his fire brigade's donation drive raised a lot of canned food, toiletries, and clothes."], "keywords": ["donation drive", "canned food", "toiletries", "clothes"], "entities": ["John"]}
+{"turn_id": "D32:8", "facts": [], "keywords": ["community support", "fire station"], "entities": ["Maria", "John"]}
+{"turn_id": "D32:9", "facts": ["John said being part of the fire brigade gives him a sense of purpose and passion, feeling like it's his true calling."], "keywords": ["fire brigade", "purpose", "true calling"], "entities": ["John"]}
+{"turn_id": "D32:10", "facts": [], "keywords": ["passion", "encouragement"], "entities": ["Maria", "John"]}
+{"turn_id": "D32:11", "facts": ["John said the fire brigade's donations helped get a brand new fire truck."], "keywords": ["fire truck", "donations", "fire brigade"], "entities": ["John"]}
+{"turn_id": "D32:12", "facts": ["Maria said she and others donated toward the new fire truck for John's fire brigade."], "keywords": ["fire truck", "donation", "community"], "entities": ["Maria", "John"]}
+{"turn_id": "D32:13", "facts": [], "keywords": ["gratitude", "support"], "entities": ["Maria", "John"]}
+{"turn_id": "D32:14", "facts": ["On 2023-08-16, Maria said that the previous Friday (around 2023-08-11) she volunteered at the front desk of the homeless shelter, feeling good seeing people's smiles when they got food or a bed."], "keywords": ["shelter front desk", "volunteering", "fulfillment"], "entities": ["Maria"]}
+{"turn_id": "D32:15", "facts": [], "keywords": ["kindness", "fulfillment"], "entities": ["Maria", "John"]}
+{"turn_id": "D32:16", "facts": [], "keywords": ["kindness", "joy"], "entities": ["Maria", "John"]}
+{"turn_id": "D32:17", "facts": [], "keywords": ["motivation", "lasting impact"], "entities": ["Maria", "John"]}
