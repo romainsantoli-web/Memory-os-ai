@@ -610,20 +610,22 @@ async def _run_stdio() -> None:
         await server.run(read_stream, write_stream, server.create_initialization_options())
 
 
-def _run_http(host: str, port: int) -> None:
+def _build_http_app(host: str, port: int):
     """Streamable HTTP transport: ONE process serves every client, so all
     conversations share one engine and nobody else appends to items.jsonl.
     Stateless mode: no session ids, clients survive a server restart.
-    Bind to loopback only unless explicitly overridden (MEMORY_V4_HOST)."""
+    Restricted to loopback with mandatory Host/Origin and token validation."""
     import contextlib
 
-    import uvicorn
     from mcp.server.streamable_http_manager import StreamableHTTPSessionManager
     from starlette.applications import Starlette
     from starlette.responses import JSONResponse
     from starlette.routing import Mount, Route
+    from .http_security import LocalHTTPGuard, load_http_token, local_security_settings
 
-    session_manager = StreamableHTTPSessionManager(app=server, stateless=True)
+    settings = local_security_settings(host, port)
+    token = load_http_token(os.environ.get("MEMORY_V4_TOKEN_FILE"))
+    session_manager = StreamableHTTPSessionManager(app=server, stateless=True, security_settings=settings)
 
     async def handle_mcp(scope, receive, send):
         await session_manager.handle_request(scope, receive, send)
@@ -641,6 +643,16 @@ def _run_http(host: str, port: int) -> None:
             set_engine(None)
 
     app = Starlette(routes=[Route("/health", health), Mount("/mcp", app=handle_mcp)], lifespan=lifespan)
+    return LocalHTTPGuard(app, settings=settings, token=token)
+
+
+def _run_http(host: str, port: int, *, warm: bool = False) -> None:
+    import uvicorn
+
+    # Validate credentials and transport before opening any data directory.
+    app = _build_http_app(host, port)
+    if warm:
+        get_engine()
     logger.warning("memory-os-v4 streamable HTTP on http://%s:%d/mcp/", host, port)
     uvicorn.run(app, host=host, port=port, log_level="warning")
 
@@ -756,9 +768,7 @@ def run() -> None:
 
     try:
         if args.transport == "http":
-            if args.warm:
-                get_engine()
-            _run_http(args.host, args.port)
+            _run_http(args.host, args.port, warm=args.warm)
         else:
             asyncio.run(_run_stdio())
     finally:

@@ -12,11 +12,13 @@ import sys
 import time
 import urllib.request
 
+import httpx
 import pytest
 from mcp import ClientSession
 from mcp.client.streamable_http import streamable_http_client
 
 pytestmark = pytest.mark.asyncio
+TEST_TOKEN = "synthetic-test-token-" + "x" * 32
 
 
 def _free_port() -> int:
@@ -29,8 +31,11 @@ def _free_port() -> int:
 def http_server(tmp_path):
     src_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "src")
     env = dict(os.environ)
+    token_file = tmp_path / "http-token"
+    token_file.write_text(TEST_TOKEN + "\n")
+    token_file.chmod(0o600)
     env.update(PYTHONPATH=src_dir, MEMORY_V4_DIR=str(tmp_path), MEMORY_V4_EMBED_MODEL="hash",
-               HF_HUB_OFFLINE="1", MEMORY_V4_PROJECT="e2e")
+               HF_HUB_OFFLINE="1", MEMORY_V4_PROJECT="e2e", MEMORY_V4_TOKEN_FILE=str(token_file))
     port = _free_port()
     proc = subprocess.Popen(
         [sys.executable, "-m", "memory_os_v4.server", "--transport", "http", "--port", str(port), "--warm"],
@@ -40,7 +45,9 @@ def http_server(tmp_path):
     deadline = time.time() + 60
     while True:
         try:
-            with urllib.request.urlopen(base + "/health", timeout=1) as r:
+            request = urllib.request.Request(
+                base + "/health", headers={"Authorization": f"Bearer {TEST_TOKEN}"})
+            with urllib.request.urlopen(request, timeout=1) as r:
                 assert json.loads(r.read())["engine_loaded"] is True
                 break
         except Exception:
@@ -48,17 +55,20 @@ def http_server(tmp_path):
                 proc.kill()
                 pytest.fail("server did not start: " + proc.stderr.read().decode()[-2000:])
             time.sleep(0.2)
-    yield base + "/mcp/", tmp_path
-    proc.terminate()
-    proc.wait(timeout=30)
+    try:
+        yield base + "/mcp/", tmp_path
+    finally:
+        proc.terminate()
+        proc.wait(timeout=30)
 
 
 async def _call(url, name, args):
-    async with streamable_http_client(url) as (r, w, _):
-        async with ClientSession(r, w) as s:
-            await s.initialize()
-            res = await s.call_tool(name, args)
-            return json.loads(res.content[0].text)
+    async with httpx.AsyncClient(headers={"Authorization": f"Bearer {TEST_TOKEN}"}) as client:
+        async with streamable_http_client(url, http_client=client) as (r, w, _):
+            async with ClientSession(r, w) as s:
+                await s.initialize()
+                res = await s.call_tool(name, args)
+                return json.loads(res.content[0].text)
 
 
 async def test_two_clients_share_one_engine(http_server):
@@ -91,3 +101,20 @@ async def test_two_http_clients_retry_one_mutation(http_server):
     conflict = await _call(url, "memory_chat_save", {**payload, "summary": "conflicting reuse"})
     assert conflict["ok"] is False
     assert "different operation or payload" in conflict["error"]
+
+
+@pytest.mark.parametrize("headers,status", [
+    ({}, 401),
+    ({"Authorization": "Bearer wrong"}, 401),
+    ({"Authorization": f"Bearer {TEST_TOKEN}", "Host": "attacker.invalid"}, 421),
+    ({"Authorization": f"Bearer {TEST_TOKEN}", "Origin": "https://attacker.invalid"}, 403),
+])
+async def test_rejected_network_requests_leave_store_unchanged(http_server, headers, status):
+    url, data_dir = http_server
+    before = {p.name: p.read_bytes() for p in data_dir.iterdir() if p.is_file()}
+    async with httpx.AsyncClient() as client:
+        response = await client.post(url, headers=headers, json={"jsonrpc": "2.0", "id": 1,
+                                     "method": "tools/call", "params": {"name": "memory_add_facts",
+                                     "arguments": {"facts": [{"text": "Must never persist"}]}}})
+    assert response.status_code == status
+    assert {p.name: p.read_bytes() for p in data_dir.iterdir() if p.is_file()} == before
