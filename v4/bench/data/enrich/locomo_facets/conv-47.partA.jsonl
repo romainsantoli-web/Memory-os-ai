@@ -1,0 +1,359 @@
+{"fid": "D1:1#0", "facets": [{"subject": "James", "predicate": "other", "object": "what motivates him (asked by John)"}], "implications": []}
+{"fid": "D1:2#0", "facets": [{"subject": "James", "predicate": "hobby_interest", "object": "video games"}, {"subject": "James", "predicate": "feeling_emotion", "object": "joy/excitement from gaming"}], "implications": ["This suggests James relies on video games as a major source of positive emotion and motivation."]}
+{"fid": "D1:3#0", "facets": [{"subject": "John", "predicate": "hobby_interest", "object": "video games"}, {"subject": "John", "predicate": "habit_routine", "object": "relaxes with games after a long day"}], "implications": ["This suggests John uses gaming as a regular stress-relief habit."]}
+{"fid": "D1:3#1", "facets": [{"subject": "James", "predicate": "other", "object": "current favorite game (asked by John)"}], "implications": []}
+{"fid": "D1:4#0", "facets": [{"subject": "James", "predicate": "game_played", "object": "The Witcher 3"}], "implications": ["This suggests James enjoys narrative-driven, immersive games."]}
+{"fid": "D1:5#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "planned to try The Witcher 3"}], "implications": []}
+{"fid": "D1:5#1", "facets": [{"subject": "John", "predicate": "education_course", "object": "programming class"}], "implications": ["This suggests John is investing effort in developing new coding skills."]}
+{"fid": "D1:5#2", "facets": [{"subject": "James", "predicate": "other", "object": "programming experience (asked by John)"}], "implications": []}
+{"fid": "D1:6#0", "facets": [{"subject": "James", "predicate": "education_course", "object": "programming (tried in college)"}, {"subject": "James", "predicate": "skill_ability", "object": "programming (big part of his life now)"}], "implications": ["This suggests James's early exposure to programming in college grew into a lasting passion."]}
+{"fid": "D1:6#1", "facets": [{"subject": "James", "predicate": "support_advice", "object": "wished John good luck in programming class"}], "implications": []}
+{"fid": "D1:7#0", "facets": [{"subject": "John", "predicate": "skill_ability", "object": "HTML and CSS coding"}, {"subject": "John", "predicate": "goal_plan", "object": "refresh coding skills in new course"}], "implications": []}
+{"fid": "D1:7#1", "facets": [{"subject": "James", "predicate": "other", "object": "favorite programming languages/projects (asked by John)"}], "implications": []}
+{"fid": "D1:8#0", "facets": [{"subject": "James", "predicate": "skill_ability", "object": "Python and C++"}], "implications": []}
+{"fid": "D1:8#1", "facets": [{"subject": "James", "predicate": "project_work", "object": "built a website"}, {"subject": "James", "predicate": "creative_work", "object": "video game mods"}], "implications": ["This suggests James enjoys applying his programming skills creatively toward game development."]}
+{"fid": "D1:9#0", "facets": [{"subject": "James", "predicate": "creative_work", "object": "game mod graphics (praised by John)"}], "implications": []}
+{"fid": "D1:9#1", "facets": [{"subject": "James", "predicate": "other", "object": "other programming languages worked with (asked by John)"}], "implications": []}
+{"fid": "D1:10#0", "facets": [{"subject": "James", "predicate": "goal_plan", "object": "learn more programming languages"}, {"subject": "James", "predicate": "skill_ability", "object": "Python and C++ only so far"}], "implications": []}
+{"fid": "D1:11#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "develop a mobile app with James"}], "implications": ["This suggests John values collaborating with James and sees him as a capable technical partner."]}
+{"fid": "D1:12#0", "facets": [{"subject": "James", "predicate": "goal_plan", "object": "app for dogs (idea)"}, {"subject": "James", "predicate": "pet", "object": "dogs (inspired app idea)"}], "implications": ["This suggests James's affection for dogs shapes his creative and professional ideas."]}
+{"fid": "D1:12#1", "facets": [{"subject": "James", "predicate": "pet", "object": "two dogs"}], "implications": []}
+{"fid": "D1:13#0", "facets": [{"subject": "James", "predicate": "pet", "object": "dogs called adorable by John"}], "implications": []}
+{"fid": "D1:14#0", "facets": [{"subject": "James", "predicate": "pet", "object": "Max and Daisy (dogs' names)"}], "implications": []}
+{"fid": "D1:14#1", "facets": [{"subject": "James", "predicate": "goal_plan", "object": "build a dog walking and pet care app"}, {"subject": "James", "predicate": "project_work", "object": "dog walking/pet care app"}], "implications": []}
+{"fid": "D1:15#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "dog walking app would find a lot of buyers"}, {"subject": "James", "predicate": "other", "object": "what sets the dog app apart (asked by John)"}], "implications": []}
+{"fid": "D1:16#0", "facets": [{"subject": "James", "predicate": "project_work", "object": "dog app personal-touch customization feature"}], "implications": []}
+{"fid": "D1:16#1", "facets": [{"subject": "James", "predicate": "project_work", "object": "app notes on a notepad"}], "implications": []}
+{"fid": "D1:17#0", "facets": [{"subject": "James", "predicate": "other", "object": "motivation for programming projects (asked by John)"}], "implications": []}
+{"fid": "D1:18#0", "facets": [{"subject": "James", "predicate": "feeling_emotion", "object": "accomplishment from creating things"}], "implications": ["This suggests James is intrinsically motivated by creative achievement rather than external reward."]}
+{"fid": "D1:18#1", "facets": [{"subject": "James", "predicate": "habit_routine", "object": "writes down goals in a notebook"}, {"subject": "James", "predicate": "goal_plan", "object": "checks off goals when completed"}], "implications": ["This suggests James is a structured, goal-oriented person who values tracking his own progress."]}
+{"fid": "D1:19#0", "facets": [{"subject": "James", "predicate": "other", "object": "current project causing his sense of accomplishment (asked by John)"}], "implications": []}
+{"fid": "D1:20#0", "facets": [{"subject": "James", "predicate": "project_work", "object": "turning a childhood dream into a computer game"}, {"subject": "James", "predicate": "creative_work", "object": "childhood comic sketches of the main character"}], "implications": ["This suggests James has had a lifelong passion for storytelling and game creation since childhood."]}
+{"fid": "D1:20#1", "facets": [{"subject": "James", "predicate": "creative_work", "object": "childhood comic sketch of a girl in a plane"}], "implications": []}
+{"fid": "D1:21#0", "facets": [{"subject": "James", "predicate": "other", "object": "reason for creating his own game (asked by John)"}, {"subject": "John", "predicate": "feeling_emotion", "object": "impressed by James's game project"}], "implications": []}
+{"fid": "D1:22#0", "facets": [{"subject": "James", "predicate": "hobby_interest", "object": "combining gaming and storytelling"}, {"subject": "James", "predicate": "challenge_problem", "object": "challenge of bringing his own ideas to life"}], "implications": ["This suggests James finds deep fulfillment in merging his creative passions despite the difficulty involved."]}
+{"fid": "D1:23#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "combining passions to make something new is fulfilling"}, {"subject": "John", "predicate": "feeling_emotion", "object": "excited for James's game project outcome"}], "implications": []}
+{"fid": "D1:24#0", "facets": [{"subject": "James", "predicate": "project_work", "object": "will keep John updated on game project"}], "implications": []}
+{"fid": "D1:24#1", "facets": [{"subject": "James", "predicate": "goal_plan", "object": "might invite John to help with the game"}, {"subject": "John", "predicate": "skill_ability", "object": "HTML knowledge useful for James's game"}], "implications": []}
+{"fid": "D1:25#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "work with James on the game"}], "implications": []}
+{"fid": "D1:26#0", "facets": [{"subject": "James", "predicate": "event_attended", "object": "went bowling, got 2 strikes"}, {"subject": "James", "predicate": "sport_exercise", "object": "bowling"}], "implications": []}
+{"fid": "D1:26#1", "facets": [{"subject": "James", "predicate": "hobby_interest", "object": "bowling"}, {"subject": "James", "predicate": "preference_like", "object": "loves bowling"}], "implications": []}
+{"fid": "D1:27#0", "facets": [{"subject": "John", "predicate": "dislike_fear", "object": "doesn't like bowling"}], "implications": ["This suggests John's large fingers present a physical barrier to enjoying certain activities like bowling."]}
+{"fid": "D1:27#1", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "start going for morning runs (exercise)"}], "implications": ["This suggests John currently lacks a regular exercise routine."]}
+{"fid": "D1:28#0", "facets": [{"subject": "James", "predicate": "goal_plan", "object": "go bowling together with John someday"}], "implications": []}
+{"fid": "D1:29#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "play slot machines and arcades with James"}], "implications": []}
+{"fid": "D1:30#0", "facets": [{"subject": "James", "predicate": "challenge_problem", "object": "wallet stolen while playing slot machines"}, {"subject": "James", "predicate": "game_played", "object": "slot machines"}], "implications": ["This suggests James can become so absorbed in games that he loses awareness of his surroundings."]}
+{"fid": "D1:31#0", "facets": [{"subject": "John", "predicate": "support_advice", "object": "offered to watch James's pockets during slot machines"}], "implications": []}
+{"fid": "D1:32#0", "facets": [{"subject": "James", "predicate": "other", "object": "alternative activity to slot machines (asked)"}], "implications": []}
+{"fid": "D1:33#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "try VR gaming together with James"}, {"subject": "John", "predicate": "hobby_interest", "object": "VR gaming"}], "implications": []}
+{"fid": "D1:34#0", "facets": [{"subject": "James", "predicate": "game_played", "object": "VR gaming"}], "implications": []}
+{"fid": "D1:35#0", "facets": [{"subject": "John", "predicate": "game_played", "object": "VR gaming"}, {"subject": "John", "predicate": "goal_plan", "object": "try VR gaming together with James"}], "implications": []}
+{"fid": "D1:36#0", "facets": [{"subject": "James", "predicate": "goal_plan", "object": "try VR gaming with John the following Saturday"}], "implications": []}
+{"fid": "D1:37#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "try VR gaming with James the following Saturday"}], "implications": []}
+{"fid": "D2:1#0", "facets": [{"subject": "James", "predicate": "hobby_interest", "object": "new online gaming platform"}, {"subject": "James", "predicate": "person_met", "object": "other gamers in the community"}], "implications": ["This suggests James enjoys social connection and community through gaming."]}
+{"fid": "D2:2#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "glad about James's new gaming platform"}], "implications": []}
+{"fid": "D2:3#0", "facets": [{"subject": "James", "predicate": "belief_value_opinion", "object": "gaming connects people regardless of background"}, {"subject": "James", "predicate": "person_met", "object": "other gamers on the platform"}], "implications": []}
+{"fid": "D2:4#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "gaming brings people together and creates strong bonds"}], "implications": []}
+{"fid": "D2:5#0", "facets": [{"subject": "James", "predicate": "hobby_interest", "object": "gaming as a refuge during tough times"}, {"subject": "James", "predicate": "challenge_problem", "object": "tough times (used gaming as refuge)"}], "implications": ["This suggests James has used gaming as a coping mechanism during difficult periods in his life."]}
+{"fid": "D2:6#0", "facets": [{"subject": "John", "predicate": "habit_routine", "object": "uses gaming to escape stress"}], "implications": ["This suggests John relies on gaming as an emotional coping strategy."]}
+{"fid": "D2:7#0", "facets": [{"subject": "James", "predicate": "habit_routine", "object": "games as go-to therapy when overwhelmed"}], "implications": ["This suggests James may lean heavily on gaming, more than other outlets, for stress relief."]}
+{"fid": "D2:8#0", "facets": [{"subject": "James", "predicate": "other", "object": "new hobbies lately (asked by John)"}], "implications": []}
+{"fid": "D2:9#0", "facets": [{"subject": "James", "predicate": "hobby_interest", "object": "trying different styles of video games"}], "implications": []}
+{"fid": "D2:10#0", "facets": [{"subject": "John", "predicate": "hobby_interest", "object": "metal detecting"}, {"subject": "John", "predicate": "possession_purchase", "object": "metal detector"}], "implications": ["This suggests John enjoys outdoor, exploratory hobbies and the thrill of discovery."]}
+{"fid": "D2:11#0", "facets": [{"subject": "John", "predicate": "other", "object": "interesting metal detecting finds (asked by James)"}], "implications": []}
+{"fid": "D2:12#0", "facets": [{"subject": "John", "predicate": "hobby_interest", "object": "metal detecting finds: bottle caps, coins, a gold ring"}], "implications": []}
+{"fid": "D2:13#0", "facets": [{"subject": "James", "predicate": "support_advice", "object": "wished John good luck with metal detecting"}], "implications": []}
+{"fid": "D2:14#0", "facets": [{"subject": "James", "predicate": "other", "object": "what he wanted to show John (asked)"}], "implications": []}
+{"fid": "D2:15#0", "facets": [{"subject": "James", "predicate": "pet", "object": "Max and Daisy playing with a ball in a park"}], "implications": []}
+{"fid": "D2:16#0", "facets": [{"subject": "James", "predicate": "other", "object": "whether dogs can do tricks (asked by John)"}], "implications": []}
+{"fid": "D2:17#0", "facets": [{"subject": "James", "predicate": "pet", "object": "dogs know tricks: sit, stay, paw, rollover"}], "implications": []}
+{"fid": "D2:17#1", "facets": [{"subject": "James", "predicate": "pet", "object": "dogs picked up training fast"}, {"subject": "James", "predicate": "family_member", "object": "dogs are like family to him"}], "implications": ["This suggests James considers his dogs to be deeply important, family-like companions rather than just pets."]}
+{"fid": "D2:18#0", "facets": [{"subject": "John", "predicate": "preference_like", "object": "wants a pet"}, {"subject": "John", "predicate": "challenge_problem", "object": "not ready for a pet yet"}], "implications": ["This suggests John may feel his current lifestyle or responsibilities don't yet accommodate pet ownership."]}
+{"fid": "D2:19#0", "facets": [{"subject": "James", "predicate": "support_advice", "object": "offered to help John find the perfect pet"}], "implications": []}
+{"fid": "D2:20#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "keep James's pet-finding offer in mind"}], "implications": []}
+{"fid": "D2:21#0", "facets": [{"subject": "James", "predicate": "support_advice", "object": "offered ongoing help finding a pet"}], "implications": []}
+{"fid": "D3:1#0", "facets": [{"subject": "John", "predicate": "achievement_award", "object": "big win in video game, advanced to next level"}, {"subject": "John", "predicate": "feeling_emotion", "object": "confidence boost from gaming win"}], "implications": ["This suggests John's gaming achievements meaningfully boost his self-confidence."]}
+{"fid": "D3:2#0", "facets": [{"subject": "James", "predicate": "support_advice", "object": "congratulated John on his gaming win"}], "implications": []}
+{"fid": "D3:2#1", "facets": [{"subject": "James", "predicate": "skill_ability", "object": "learning to play drums"}, {"subject": "James", "predicate": "hobby_interest", "object": "learning a musical instrument"}], "implications": []}
+{"fid": "D3:3#0", "facets": [{"subject": "John", "predicate": "skill_ability", "object": "plays drums"}, {"subject": "John", "predicate": "possession_purchase", "object": "own drum set"}], "implications": []}
+{"fid": "D3:4#0", "facets": [{"subject": "John", "predicate": "other", "object": "how long he's played drums (asked by James)"}], "implications": []}
+{"fid": "D3:5#0", "facets": [{"subject": "John", "predicate": "skill_ability", "object": "playing drums for a month, tough but fun"}], "implications": []}
+{"fid": "D3:6#0", "facets": [{"subject": "James", "predicate": "habit_routine", "object": "practicing drums daily"}], "implications": ["This suggests James is disciplined and dedicated when picking up new skills."]}
+{"fid": "D3:7#0", "facets": [{"subject": "James", "predicate": "other", "object": "new recommendations (asked by John)"}], "implications": []}
+{"fid": "D3:8#0", "facets": [{"subject": "James", "predicate": "possession_purchase", "object": "new cutting-edge gaming system"}, {"subject": "James", "predicate": "habit_routine", "object": "games to relax after work and connect with friends"}], "implications": []}
+{"fid": "D3:9#0", "facets": [{"subject": "John", "predicate": "event_attended", "object": "gaming convention"}, {"subject": "John", "predicate": "person_met", "object": "game developers"}], "implications": []}
+{"fid": "D3:10#0", "facets": [{"subject": "John", "predicate": "other", "object": "what game the tournament was for (asked by James)"}], "implications": []}
+{"fid": "D3:11#0", "facets": [{"subject": "John", "predicate": "game_played", "object": "CS:GO"}, {"subject": "John", "predicate": "event_attended", "object": "tournament at gaming convention"}], "implications": []}
+{"fid": "D3:12#0", "facets": [{"subject": "James", "predicate": "belief_value_opinion", "object": "watching skilled players is thrilling"}], "implications": []}
+{"fid": "D3:13#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "improve his own gaming skills after watching tournament"}], "implications": ["This suggests John is motivated by observing others' excellence rather than discouraged by it."]}
+{"fid": "D3:14#0", "facets": [{"subject": "James", "predicate": "belief_value_opinion", "object": "learning from experienced gamers helps level up skills"}], "implications": []}
+{"fid": "D3:15#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "always looking to improve and hit new goals in gaming and other hobbies"}], "implications": ["This suggests John has a generally growth-oriented, achievement-driven personality across multiple areas of life."]}
+{"fid": "D3:16#0", "facets": [{"subject": "James", "predicate": "belief_value_opinion", "object": "setting small goals and tracking progress helps stay motivated"}], "implications": []}
+{"fid": "D3:17#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "agrees goal-setting and tracking progress helps"}], "implications": []}
+{"fid": "D3:18#0", "facets": [{"subject": "James", "predicate": "game_played", "object": "RPGs and strategy games (new genres)"}], "implications": []}
+{"fid": "D3:19#0", "facets": [{"subject": "John", "predicate": "support_advice", "object": "encouraged James to explore new game genres"}], "implications": []}
+{"fid": "D3:20#0", "facets": [{"subject": "James", "predicate": "feeling_emotion", "object": "hyped to explore different game genres"}], "implications": []}
+{"fid": "D3:21#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "eager to hear about James's gaming journey"}], "implications": []}
+{"fid": "D3:22#0", "facets": [{"subject": "James", "predicate": "goal_plan", "object": "keep John updated on gaming adventures"}], "implications": []}
+{"fid": "D3:23#0", "facets": [{"subject": "John", "predicate": "other", "object": "said goodbye to James"}], "implications": []}
+{"fid": "D4:1#0", "facets": [{"subject": "James", "predicate": "other", "object": "new games played lately (asked by John)"}], "implications": []}
+{"fid": "D4:2#0", "facets": [{"subject": "James", "predicate": "event_attended", "object": "joined an online gaming tournament"}], "implications": []}
+{"fid": "D4:3#0", "facets": [{"subject": "James", "predicate": "other", "object": "how the tournament went (asked by John)"}], "implications": []}
+{"fid": "D4:4#0", "facets": [{"subject": "James", "predicate": "achievement_award", "object": "reached the semifinals in the tournament"}], "implications": []}
+{"fid": "D4:5#0", "facets": [{"subject": "James", "predicate": "other", "object": "how the final rounds went (asked by John)"}], "implications": []}
+{"fid": "D4:6#0", "facets": [{"subject": "James", "predicate": "challenge_problem", "object": "lost the tough tournament final"}, {"subject": "James", "predicate": "feeling_emotion", "object": "enjoyed competing despite the loss"}], "implications": ["This suggests James values the experience of competition more than winning itself."]}
+{"fid": "D4:7#0", "facets": [{"subject": "James", "predicate": "other", "object": "famous players met at the tournament (asked by John)"}], "implications": []}
+{"fid": "D4:8#0", "facets": [{"subject": "James", "predicate": "person_met", "object": "professional gaming team"}], "implications": []}
+{"fid": "D4:9#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "pro player's advice will help James develop"}], "implications": []}
+{"fid": "D4:10#0", "facets": [{"subject": "James", "predicate": "gift_given_received", "object": "autographs from the pro team"}, {"subject": "James", "predicate": "feeling_emotion", "object": "very happy about getting autographs"}], "implications": []}
+{"fid": "D4:11#0", "facets": [{"subject": "James", "predicate": "other", "object": "most memorable pro-team advice (asked by John)"}], "implications": []}
+{"fid": "D4:12#0", "facets": [{"subject": "James", "predicate": "belief_value_opinion", "object": "communicate well with team, don't put ego above team success"}], "implications": []}
+{"fid": "D4:13#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "communication and teamwork are super important in gaming"}], "implications": []}
+{"fid": "D4:14#0", "facets": [{"subject": "James", "predicate": "habit_routine", "object": "uses voice chat to communicate with his team"}], "implications": []}
+{"fid": "D4:15#0", "facets": [{"subject": "James", "predicate": "other", "object": "favorite game to play with his team (asked by John)"}], "implications": []}
+{"fid": "D4:16#0", "facets": [{"subject": "James", "predicate": "game_played", "object": "Apex Legends (favorite team game)"}], "implications": []}
+{"fid": "D4:17#0", "facets": [{"subject": "James", "predicate": "other", "object": "how Apex Legends compares to other games (asked by John)"}], "implications": []}
+{"fid": "D4:18#0", "facets": [{"subject": "James", "predicate": "belief_value_opinion", "object": "Apex Legends stands out for graphics/fast-paced gameplay"}], "implications": []}
+{"fid": "D4:19#0", "facets": [{"subject": "James", "predicate": "other", "object": "new games he's looking forward to (asked by John)"}], "implications": []}
+{"fid": "D4:20#0", "facets": [{"subject": "James", "predicate": "goal_plan", "object": "try RPGs and MOBAs next"}], "implications": []}
+{"fid": "D4:21#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "RPGs and MOBAs offer engaging stories or epic multiplayer fights"}], "implications": []}
+{"fid": "D4:22#0", "facets": [{"subject": "James", "predicate": "feeling_emotion", "object": "can't wait to try new game genres"}], "implications": []}
+{"fid": "D4:23#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "loves hearing about James's gaming"}], "implications": ["This suggests John values his ongoing friendship and conversations with James around their shared gaming interest."]}
+{"fid": "D4:24#0", "facets": [{"subject": "James", "predicate": "goal_plan", "object": "keep John updated on new games"}], "implications": []}
+{"fid": "D4:25#0", "facets": [{"subject": "John", "predicate": "other", "object": "said bye to James"}], "implications": []}
+{"fid": "D5:1#0", "facets": [{"subject": "James", "predicate": "pet", "object": "Ned (adopted puppy from a Stamford shelter)"}, {"subject": "James", "predicate": "life_event_milestone", "object": "adopted a puppy from a shelter"}], "implications": ["This suggests James is compassionate toward animals and willing to take on new responsibilities."]}
+{"fid": "D5:1#1", "facets": [{"subject": "James", "predicate": "feeling_emotion", "object": "happier since adopting Ned"}], "implications": ["This suggests pet ownership significantly boosts James's day-to-day well-being."]}
+{"fid": "D5:1#2", "facets": [{"subject": "John", "predicate": "other", "object": "progress on gaming goals (asked by James)"}], "implications": []}
+{"fid": "D5:2#0", "facets": [{"subject": "John", "predicate": "support_advice", "object": "congratulated James on adopting a pup"}], "implications": []}
+{"fid": "D5:2#1", "facets": [{"subject": "John", "predicate": "challenge_problem", "object": "busy with work, little gaming progress"}, {"subject": "John", "predicate": "habit_routine", "object": "gaming still helps him forget life's stresses"}], "implications": []}
+{"fid": "D5:3#0", "facets": [{"subject": "James", "predicate": "belief_value_opinion", "object": "gaming helps forget the stresses of life"}], "implications": []}
+{"fid": "D5:4#0", "facets": [{"subject": "John", "predicate": "game_played", "object": "new RPG (futuristic dystopia setting)"}], "implications": []}
+{"fid": "D5:5#0", "facets": [{"subject": "James", "predicate": "preference_like", "object": "always up for trying new games"}], "implications": []}
+{"fid": "D5:6#0", "facets": [{"subject": "John", "predicate": "challenge_problem", "object": "new RPG is a little laggy and buggy"}], "implications": []}
+{"fid": "D5:7#0", "facets": [{"subject": "James", "predicate": "preference_like", "object": "prefers to wait for bugs to be fixed before trying a game"}], "implications": []}
+{"fid": "D5:8#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "RPG still looks great despite minor bugs"}], "implications": []}
+{"fid": "D5:9#0", "facets": [{"subject": "James", "predicate": "goal_plan", "object": "try the RPG once John sends the link"}], "implications": []}
+{"fid": "D5:10#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "send James the RPG link"}], "implications": []}
+{"fid": "D5:11#0", "facets": [{"subject": "James", "predicate": "feeling_emotion", "object": "excited to check out the RPG"}], "implications": []}
+{"fid": "D5:12#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "excited to hear James's thoughts on the RPG"}], "implications": []}
+{"fid": "D5:13#0", "facets": [{"subject": "James", "predicate": "other", "object": "said bye to John"}], "implications": []}
+{"fid": "D5:14#0", "facets": [{"subject": "John", "predicate": "other", "object": "said bye to James"}], "implications": []}
+{"fid": "D5:15#0", "facets": [{"subject": "James", "predicate": "other", "object": "said see ya and take care to John"}], "implications": []}
+{"fid": "D5:16#0", "facets": [{"subject": "John", "predicate": "other", "object": "said take care to James"}], "implications": []}
+{"fid": "D6:1#0", "facets": [{"subject": "John", "predicate": "friend", "object": "three new friends from his programming course"}, {"subject": "John", "predicate": "education_course", "object": "programming course"}], "implications": ["This suggests John's social circle is growing through shared interests in programming, which may provide added support."]}
+{"fid": "D6:2#0", "facets": [{"subject": "James", "predicate": "project_work", "object": "virtual world project inspired by The Witcher 3"}, {"subject": "James", "predicate": "friend", "object": "gaming friend who collaborated on the project"}], "implications": []}
+{"fid": "D6:3#0", "facets": [{"subject": "James", "predicate": "other", "object": "screenshots of the virtual world (asked by John)"}], "implications": []}
+{"fid": "D6:4#0", "facets": [{"subject": "James", "predicate": "feeling_emotion", "object": "project felt rewarding and satisfying"}], "implications": []}
+{"fid": "D6:5#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "impressed by James's game character and atmosphere"}], "implications": []}
+{"fid": "D6:6#0", "facets": [{"subject": "James", "predicate": "creative_work", "object": "game character inspired by a stranger he saw"}, {"subject": "James", "predicate": "feeling_emotion", "object": "love at first sight with a stranger, never approached"}], "implications": ["This suggests James may be hesitant to pursue romantic interest in real life, channeling the feeling into creative work instead."]}
+{"fid": "D6:7#0", "facets": [{"subject": "John", "predicate": "outdoor_activity", "object": "found a calming canyon, wanted to be alone with nature"}], "implications": ["This suggests John values solitude in nature as a way to decompress."]}
+{"fid": "D6:8#0", "facets": [{"subject": "James", "predicate": "belief_value_opinion", "object": "cool that John had an inspiring nature experience"}], "implications": []}
+{"fid": "D6:9#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "canyon view sparked his creativity and motivation"}], "implications": []}
+{"fid": "D6:10#0", "facets": [{"subject": "John", "predicate": "other", "object": "other sources of motivation (asked by James)"}], "implications": []}
+{"fid": "D6:11#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "only those who rest well work well"}, {"subject": "John", "predicate": "hobby_interest", "object": "traveling and chilling with friends give him motivation"}], "implications": []}
+{"fid": "D6:12#0", "facets": [{"subject": "James", "predicate": "trip_location_visited", "object": "Italy (visited in 2021)"}], "implications": []}
+{"fid": "D6:13#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "dreams of visiting Italy"}], "implications": []}
+{"fid": "D6:14#0", "facets": [{"subject": "James", "predicate": "trip_location_visited", "object": "Turkey and Mexico"}], "implications": []}
+{"fid": "D6:15#0", "facets": [{"subject": "John", "predicate": "trip_location_visited", "object": "Japan (most recent country visited)"}], "implications": []}
+{"fid": "D6:16#0", "facets": [{"subject": "James", "predicate": "goal_plan", "object": "travel somewhere together with John next year"}], "implications": []}
+{"fid": "D6:17#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "hopes to travel with James next year"}], "implications": []}
+{"fid": "D6:18#0", "facets": [{"subject": "James", "predicate": "goal_plan", "object": "find a country for him and John to travel to together"}], "implications": []}
+{"fid": "D6:19#0", "facets": [{"subject": "John", "predicate": "support_advice", "object": "offered to help plan the trip"}], "implications": []}
+{"fid": "D7:1#0", "facets": [{"subject": "James", "predicate": "other", "object": "how it's going (asked by John)"}], "implications": []}
+{"fid": "D7:2#0", "facets": [{"subject": "James", "predicate": "outdoor_activity", "object": "hiking with his dogs"}], "implications": []}
+{"fid": "D7:3#0", "facets": [{"subject": "James", "predicate": "other", "object": "pictures from the dog hike (asked by John)"}], "implications": []}
+{"fid": "D7:4#0", "facets": [{"subject": "James", "predicate": "outdoor_activity", "object": "walking his two dogs on a woodland path"}], "implications": []}
+{"fid": "D7:5#0", "facets": [{"subject": "James", "predicate": "other", "object": "reason he picked the hiking spot (asked by John)"}], "implications": []}
+{"fid": "D7:6#0", "facets": [{"subject": "James", "predicate": "preference_like", "object": "hiking spot with great views and lots of trails"}], "implications": []}
+{"fid": "D7:7#0", "facets": [{"subject": "John", "predicate": "preference_like", "object": "wishes he could spend more time in nature"}], "implications": ["This suggests John feels he currently lacks sufficient time outdoors, possibly due to a busy schedule."]}
+{"fid": "D7:8#0", "facets": [{"subject": "James", "predicate": "preference_like", "object": "loves the peacefulness of hiking, helps clear his head"}], "implications": []}
+{"fid": "D7:9#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "stressed, needs some chill vibes lately"}], "implications": ["This suggests John is currently going through a stressful period in his life."]}
+{"fid": "D7:10#0", "facets": [{"subject": "James", "predicate": "support_advice", "object": "offered to listen to John"}], "implications": []}
+{"fid": "D7:11#0", "facets": [{"subject": "John", "predicate": "challenge_problem", "object": "busy at work with deadlines all over the place"}], "implications": []}
+{"fid": "D7:12#0", "facets": [{"subject": "John", "predicate": "other", "object": "whether something specific is making work worse (asked by James)"}], "implications": []}
+{"fid": "D7:13#0", "facets": [{"subject": "John", "predicate": "challenge_problem", "object": "stuck and frustrated on a difficult coding project"}], "implications": []}
+{"fid": "D7:14#0", "facets": [{"subject": "James", "predicate": "support_advice", "object": "offered to help with the coding project"}], "implications": []}
+{"fid": "D7:15#0", "facets": [{"subject": "John", "predicate": "challenge_problem", "object": "complicated coding task, feels like he's getting nowhere"}], "implications": []}
+{"fid": "D7:16#0", "facets": [{"subject": "James", "predicate": "support_advice", "object": "offered to help brainstorm ideas for the project"}], "implications": []}
+{"fid": "D7:17#0", "facets": [{"subject": "John", "predicate": "challenge_problem", "object": "stuck trying to make a new algorithm work better"}], "implications": []}
+{"fid": "D7:18#0", "facets": [{"subject": "James", "predicate": "support_advice", "object": "suggested breaking the algorithm problem into smaller steps, researching similar algorithms, or asking other programmers"}], "implications": []}
+{"fid": "D7:19#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "try breaking the algorithm problem into smaller steps and asking for help"}], "implications": []}
+{"fid": "D7:20#0", "facets": [{"subject": "James", "predicate": "support_advice", "object": "told John he's got this and to keep going"}], "implications": []}
+{"fid": "D7:21#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "encouraged by James's words, won't quit on the algorithm problem"}], "implications": ["This suggests John values James's emotional support in overcoming professional challenges."]}
+{"fid": "D8:1#0", "facets": [{"subject": "James", "predicate": "other", "object": "asked John what's up / if anything fun is going on"}], "implications": []}
+{"fid": "D8:2#0", "facets": [{"subject": "John", "predicate": "job_career", "object": "taking on freelance programming"}, {"subject": "John", "predicate": "challenge_problem", "object": "finds freelancing challenging"}], "implications": []}
+{"fid": "D8:3#0", "facets": [{"subject": "James", "predicate": "belief_value_opinion", "object": "freelancing is a great way to sharpen skills"}], "implications": []}
+{"fid": "D8:4#0", "facets": [{"subject": "John", "predicate": "project_work", "object": "website for a local small business, first professional project outside class"}], "implications": ["This suggests this project marks an important step in John's professional development."]}
+{"fid": "D8:5#0", "facets": [{"subject": "James", "predicate": "support_advice", "object": "congratulated John on his first professional project"}], "implications": []}
+{"fid": "D8:6#0", "facets": [{"subject": "John", "predicate": "challenge_problem", "object": "slow progress with hiccups on the website project"}, {"subject": "John", "predicate": "skill_ability", "object": "learned a lot from the freelance project"}], "implications": []}
+{"fid": "D8:7#0", "facets": [{"subject": "James", "predicate": "support_advice", "object": "told John hiccups are normal, use them to learn and grow"}], "implications": []}
+{"fid": "D8:8#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "keep pushing through the project hiccups"}], "implications": []}
+{"fid": "D8:9#0", "facets": [{"subject": "John", "predicate": "other", "object": "challenges encountered on the project (asked by James)"}], "implications": []}
+{"fid": "D8:10#0", "facets": [{"subject": "John", "predicate": "challenge_problem", "object": "figuring out how to set up payments on the client website was tough"}], "implications": []}
+{"fid": "D8:11#0", "facets": [{"subject": "James", "predicate": "possession_purchase", "object": "adventure book with fantasy novels and art"}, {"subject": "James", "predicate": "book_read", "object": "fantasy adventure book"}], "implications": []}
+{"fid": "D8:12#0", "facets": [{"subject": "John", "predicate": "hobby_interest", "object": "reading fantasy books"}], "implications": []}
+{"fid": "D8:13#0", "facets": [{"subject": "James", "predicate": "preference_like", "object": "loves the fantasy genre"}], "implications": []}
+{"fid": "D8:14#0", "facets": [{"subject": "John", "predicate": "book_read", "object": "recommended The Name of the Wind to James"}], "implications": []}
+{"fid": "D8:15#0", "facets": [{"subject": "James", "predicate": "goal_plan", "object": "read The Name of the Wind"}], "implications": []}
+{"fid": "D8:16#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "sure James will love The Name of the Wind trilogy"}], "implications": []}
+{"fid": "D8:17#0", "facets": [{"subject": "James", "predicate": "pet", "object": "Daisy lying next to him while he games"}], "implications": []}
+{"fid": "D8:18#0", "facets": [{"subject": "James", "predicate": "other", "object": "whether dogs often join him gaming (asked by John)"}], "implications": []}
+{"fid": "D8:19#0", "facets": [{"subject": "James", "predicate": "pet", "object": "dogs love watching him game, called cuddle buddies"}], "implications": []}
+{"fid": "D8:20#0", "facets": [{"subject": "John", "predicate": "game_played", "object": "Assassin's Creed Valhalla"}], "implications": []}
+{"fid": "D8:21#0", "facets": [{"subject": "James", "predicate": "game_played", "object": "strategy games (trying out)"}], "implications": []}
+{"fid": "D8:22#0", "facets": [{"subject": "James", "predicate": "other", "object": "confirm whether the strategy game is Civilization VI (asked by John)"}], "implications": []}
+{"fid": "D8:23#0", "facets": [{"subject": "James", "predicate": "game_played", "object": "Civilization VI"}], "implications": []}
+{"fid": "D8:24#0", "facets": [{"subject": "James", "predicate": "other", "object": "whether Civilization VI requires a lot of strategy (asked by John)"}], "implications": []}
+{"fid": "D8:25#0", "facets": [{"subject": "James", "predicate": "belief_value_opinion", "object": "Civilization VI requires a lot of strategy, planning, and resource management"}], "implications": []}
+{"fid": "D8:26#0", "facets": [{"subject": "John", "predicate": "preference_like", "object": "likes games that test his strategizing"}], "implications": []}
+{"fid": "D8:27#0", "facets": [{"subject": "James", "predicate": "belief_value_opinion", "object": "Civilization VI is great for problem-solving, satisfying when plans succeed"}], "implications": []}
+{"fid": "D8:28#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "satisfying when plans work out"}], "implications": []}
+{"fid": "D8:29#0", "facets": [{"subject": "James", "predicate": "game_played", "object": "Civilization VI (playing for a month)"}], "implications": []}
+{"fid": "D8:30#0", "facets": [{"subject": "John", "predicate": "game_played", "object": "strategy board game played with friends"}], "implications": []}
+{"fid": "D8:31#0", "facets": [{"subject": "James", "predicate": "belief_value_opinion", "object": "board games are a blast with friends"}], "implications": []}
+{"fid": "D8:32#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "board games are great for having fun together"}], "implications": []}
+{"fid": "D8:33#0", "facets": [{"subject": "James", "predicate": "other", "object": "other fun games to play with others (asked)"}], "implications": []}
+{"fid": "D8:34#0", "facets": [{"subject": "John", "predicate": "game_played", "object": "unnamed card game played with friends"}], "implications": []}
+{"fid": "D8:35#0", "facets": [{"subject": "James", "predicate": "other", "object": "other interesting games to try (asked)"}], "implications": []}
+{"fid": "D8:36#0", "facets": [{"subject": "John", "predicate": "game_played", "object": "social deduction (impostor-finding) game with friends"}], "implications": []}
+{"fid": "D8:37#0", "facets": [{"subject": "James", "predicate": "goal_plan", "object": "try the impostor-finding social deduction game"}], "implications": []}
+{"fid": "D8:38#0", "facets": [{"subject": "John", "predicate": "support_advice", "object": "advised James to gather a large group for the impostor game"}], "implications": []}
+{"fid": "D8:39#0", "facets": [{"subject": "James", "predicate": "belief_value_opinion", "object": "playing with a large group sounds like fun"}], "implications": []}
+{"fid": "D8:40#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "agreed the large-group game is really fun"}], "implications": []}
+{"fid": "D9:1#0", "facets": [{"subject": "John", "predicate": "other", "object": "had an eventful week since their last chat"}], "implications": []}
+{"fid": "D9:2#0", "facets": [{"subject": "James", "predicate": "challenge_problem", "object": "stuck on the last part of a project he'd worked on for weeks"}], "implications": ["This suggests James can experience significant frustration when close to finishing long-term goals, reflecting high personal investment."]}
+{"fid": "D9:3#0", "facets": [{"subject": "John", "predicate": "support_advice", "object": "sympathized with James's frustration"}], "implications": []}
+{"fid": "D9:4#0", "facets": [{"subject": "James", "predicate": "challenge_problem", "object": "a code bug broke the game mechanics"}], "implications": []}
+{"fid": "D9:5#0", "facets": [{"subject": "James", "predicate": "other", "object": "whether the bug was solved (asked by John)"}], "implications": []}
+{"fid": "D9:6#0", "facets": [{"subject": "James", "predicate": "friend", "object": "group of friends who helped fix the bug"}], "implications": ["This suggests James has a supportive network of friends he can rely on for technical collaboration."]}
+{"fid": "D9:7#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "a reliable team can really make a difference"}], "implications": []}
+{"fid": "D9:8#0", "facets": [{"subject": "James", "predicate": "belief_value_opinion", "object": "great to have a group who shares the same passions and helps bring ideas together"}], "implications": []}
+{"fid": "D9:9#0", "facets": [{"subject": "John", "predicate": "friend", "object": "new friends over to watch movies"}, {"subject": "John", "predicate": "habit_routine", "object": "trying to socialize more"}], "implications": ["This suggests John has been making a deliberate effort to expand his social life recently."]}
+{"fid": "D9:10#0", "facets": [{"subject": "James", "predicate": "goal_plan", "object": "join John's next movie hangout"}], "implications": []}
+{"fid": "D9:10#1", "facets": [{"subject": "James", "predicate": "pet", "object": "spending time with his dogs again"}], "implications": []}
+{"fid": "D9:11#0", "facets": [{"subject": "James", "predicate": "other", "object": "what breed his dogs are (asked by John)"}], "implications": []}
+{"fid": "D9:12#0", "facets": [{"subject": "James", "predicate": "pet", "object": "Daisy is a Labrador who loves toys and eating"}], "implications": []}
+{"fid": "D9:13#0", "facets": [{"subject": "James", "predicate": "other", "object": "confirm the other two dogs are shepherds (asked by John)"}], "implications": []}
+{"fid": "D9:14#0", "facets": [{"subject": "James", "predicate": "pet", "object": "the other two dogs are loyal shepherds"}], "implications": []}
+{"fid": "D9:15#0", "facets": [{"subject": "James", "predicate": "other", "object": "other sources of happiness (asked by John)"}], "implications": []}
+{"fid": "D9:16#0", "facets": [{"subject": "James", "predicate": "feeling_emotion", "object": "happiness from pets, computer games, travel, and pizza"}], "implications": ["This suggests James's sense of happiness centers on simple personal pleasures and relationships rather than career or material success."]}
+{"fid": "D9:17#0", "facets": [{"subject": "John", "predicate": "food_drink_recipe", "object": "loves pizza"}], "implications": []}
+{"fid": "D9:18#0", "facets": [{"subject": "James", "predicate": "food_drink_recipe", "object": "pepperoni pizza (favorite)"}], "implications": []}
+{"fid": "D9:19#0", "facets": [{"subject": "John", "predicate": "food_drink_recipe", "object": "Hawaiian pizza (favorite)"}], "implications": []}
+{"fid": "D9:20#0", "facets": [{"subject": "James", "predicate": "food_drink_recipe", "object": "also likes cheese and prosciutto pizza"}], "implications": []}
+{"fid": "D9:21#0", "facets": [{"subject": "John", "predicate": "food_drink_recipe", "object": "hasn't tried prosciutto yet"}], "implications": []}
+{"fid": "D9:22#0", "facets": [{"subject": "James", "predicate": "support_advice", "object": "encouraged John to try prosciutto"}], "implications": []}
+{"fid": "D9:23#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "try prosciutto"}], "implications": []}
+{"fid": "D9:24#0", "facets": [{"subject": "James", "predicate": "other", "object": "asked John to share his impressions after trying prosciutto"}], "implications": []}
+{"fid": "D9:25#0", "facets": [{"subject": "John", "predicate": "other", "object": "thanked James and said catch you later"}], "implications": []}
+{"fid": "D10:1#0", "facets": [{"subject": "James", "predicate": "other", "object": "apologized for not getting back sooner, asked about new games"}], "implications": []}
+{"fid": "D10:2#0", "facets": [{"subject": "John", "predicate": "event_attended", "object": "organized something cool with friends (game-related)"}], "implications": []}
+{"fid": "D10:3#0", "facets": [{"subject": "James", "predicate": "other", "object": "whether the photo hinted at a new game (asked)"}], "implications": []}
+{"fid": "D10:4#0", "facets": [{"subject": "John", "predicate": "volunteering_cause", "object": "organized a CS:GO charity tournament with friends"}, {"subject": "John", "predicate": "event_attended", "object": "CS:GO tournament"}], "implications": []}
+{"fid": "D10:5#0", "facets": [{"subject": "James", "predicate": "belief_value_opinion", "object": "organizing the charity tournament sounded worth the effort"}], "implications": []}
+{"fid": "D10:6#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "rewarding to see everyone come together for the charity tournament"}], "implications": []}
+{"fid": "D10:7#0", "facets": [{"subject": "John", "predicate": "other", "object": "whether he'd consider organizing more charity events (asked by James)"}], "implications": []}
+{"fid": "D10:8#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "organize more charity gaming events in the future"}], "implications": ["This suggests John finds purpose in merging his personal hobbies with community-oriented giving."]}
+{"fid": "D10:9#0", "facets": [{"subject": "James", "predicate": "belief_value_opinion", "object": "combining gaming and volunteering is a great idea"}], "implications": []}
+{"fid": "D10:10#0", "facets": [{"subject": "John", "predicate": "volunteering_cause", "object": "raised money for a dog shelter near his home"}], "implications": []}
+{"fid": "D10:11#0", "facets": [{"subject": "James", "predicate": "belief_value_opinion", "object": "helping animals is really important"}], "implications": ["This suggests James holds strong values around animal welfare, consistent with his love for his own dogs."]}
+{"fid": "D10:12#0", "facets": [{"subject": "John", "predicate": "volunteering_cause", "object": "used leftover charity money to buy groceries and cook for the homeless"}], "implications": []}
+{"fid": "D10:13#0", "facets": [{"subject": "James", "predicate": "support_advice", "object": "told John he's doing a great job helping those in need"}], "implications": []}
+{"fid": "D10:14#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "keep doing more good/charitable things"}], "implications": []}
+{"fid": "D10:15#0", "facets": [{"subject": "James", "predicate": "support_advice", "object": "told John he's really proud of him"}], "implications": []}
+{"fid": "D11:1#0", "facets": [{"subject": "John", "predicate": "volunteering_cause", "object": "volunteered programming skills to build a software tool for a charitable foundation"}, {"subject": "John", "predicate": "skill_ability", "object": "used programming skills for social cause"}], "implications": []}
+{"fid": "D11:2#0", "facets": [{"subject": "James", "predicate": "belief_value_opinion", "object": "awesome that John used his skills to make a difference"}], "implications": []}
+{"fid": "D11:3#0", "facets": [{"subject": "John", "predicate": "project_work", "object": "built an inventory app for the charity, replacing paper records"}], "implications": []}
+{"fid": "D11:4#0", "facets": [{"subject": "James", "predicate": "belief_value_opinion", "object": "must feel great to be part of something important"}], "implications": []}
+{"fid": "D11:5#0", "facets": [{"subject": "John", "predicate": "project_work", "object": "charity inventory system for tracking resources/donations/reports"}], "implications": []}
+{"fid": "D11:6#0", "facets": [{"subject": "John", "predicate": "other", "object": "what motivated him to create the charity inventory system (asked by James)"}], "implications": []}
+{"fid": "D11:7#0", "facets": [{"subject": "John", "predicate": "volunteering_cause", "object": "inspired by the foundation's passion for helping kids"}, {"subject": "John", "predicate": "skill_ability", "object": "wanted to expand his coding skills"}], "implications": ["This suggests John is drawn to causes that combine altruism with opportunities for personal and professional growth."]}
+{"fid": "D11:8#0", "facets": [{"subject": "James", "predicate": "belief_value_opinion", "object": "great how John blended his passion with a good cause"}], "implications": []}
+{"fid": "D11:9#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "gained a real sense of purpose from the tech volunteering experience"}], "implications": ["This suggests the experience meaningfully shifted John's outlook on how he wants his skills to matter."]}
+{"fid": "D11:10#0", "facets": [{"subject": "John", "predicate": "other", "object": "how the experience will impact his future plans (asked by James)"}], "implications": []}
+{"fid": "D11:11#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "considering volunteer roles and a possible career in the non-profit sector"}], "implications": ["This suggests John may be reconsidering his long-term career trajectory toward social-impact work."]}
+{"fid": "D11:12#0", "facets": [{"subject": "John", "predicate": "other", "object": "whether he's found non-profits aligned with his values (asked by James)"}], "implications": []}
+{"fid": "D11:13#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "hasn't yet looked for a non-profit organization"}], "implications": []}
+{"fid": "D11:14#0", "facets": [{"subject": "James", "predicate": "support_advice", "object": "told John there are lots of places to show off his skills, sure he'll find the right one"}], "implications": []}
+{"fid": "D11:15#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "find a place where his skills and passions match"}], "implications": []}
+{"fid": "D11:16#0", "facets": [{"subject": "James", "predicate": "support_advice", "object": "wished John good luck finding the right non-profit spot"}], "implications": []}
+{"fid": "D11:17#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "James's encouragement means a lot to him"}], "implications": ["This suggests John values James's emotional support as an important part of their friendship."]}
+{"fid": "D11:18#0", "facets": [{"subject": "James", "predicate": "support_advice", "object": "told John he's here for him and wished him luck"}], "implications": []}
+{"fid": "D11:19#0", "facets": [{"subject": "John", "predicate": "other", "object": "thanked James and said talk soon"}], "implications": []}
+{"fid": "D12:1#0", "facets": [{"subject": "James", "predicate": "event_attended", "object": "amusement park with friends, rode roller coasters"}], "implications": []}
+{"fid": "D12:2#0", "facets": [{"subject": "James", "predicate": "other", "object": "other attractions besides roller coasters (asked by John)"}], "implications": []}
+{"fid": "D12:3#0", "facets": [{"subject": "James", "predicate": "event_attended", "object": "rode the Ferris wheel, electric cars, and buggies"}], "implications": []}
+{"fid": "D12:4#0", "facets": [{"subject": "John", "predicate": "achievement_award", "object": "entered a local tournament and took second place"}], "implications": []}
+{"fid": "D12:5#0", "facets": [{"subject": "James", "predicate": "support_advice", "object": "congratulated John on taking second place"}], "implications": []}
+{"fid": "D12:6#0", "facets": [{"subject": "John", "predicate": "achievement_award", "object": "received prize money for second place"}], "implications": []}
+{"fid": "D12:7#0", "facets": [{"subject": "James", "predicate": "belief_value_opinion", "object": "growth and progress matter more than winning every time"}], "implications": []}
+{"fid": "D12:8#0", "facets": [{"subject": "John", "predicate": "achievement_award", "object": "got a trophy from the tournament"}], "implications": []}
+{"fid": "D12:9#0", "facets": [{"subject": "James", "predicate": "life_event_milestone", "object": "reached a personal milestone after tough times"}], "implications": ["This suggests James went through a difficult period before this achievement, making it especially emotionally significant to him."]}
+{"fid": "D12:10#0", "facets": [{"subject": "John", "predicate": "support_advice", "object": "congratulated James on his milestone, asked what made it challenging"}], "implications": []}
+{"fid": "D12:11#0", "facets": [{"subject": "James", "predicate": "life_event_milestone", "object": "finished a big months-long project"}, {"subject": "James", "predicate": "skill_ability", "object": "learned a new programming language for the project"}], "implications": []}
+{"fid": "D12:12#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "determination and confidence make any project a success"}], "implications": []}
+{"fid": "D12:13#0", "facets": [{"subject": "James", "predicate": "other", "object": "thanked John for his support"}], "implications": []}
+{"fid": "D12:14#0", "facets": [{"subject": "John", "predicate": "support_advice", "object": "told James he's there to help, keep reaching for goals"}], "implications": []}
+{"fid": "D13:1#0", "facets": [{"subject": "John", "predicate": "other", "object": "a lot has happened since they last talked, offered to fill James in"}], "implications": []}
+{"fid": "D13:2#0", "facets": [{"subject": "James", "predicate": "feeling_emotion", "object": "excited to catch up with John"}], "implications": []}
+{"fid": "D13:3#0", "facets": [{"subject": "John", "predicate": "job_career", "object": "finally got his dream job after many interviews"}, {"subject": "John", "predicate": "feeling_emotion", "object": "ecstatic about the job offer"}], "implications": ["This suggests John went through a long, effortful job search, making this achievement especially rewarding."]}
+{"fid": "D13:4#0", "facets": [{"subject": "James", "predicate": "support_advice", "object": "congratulated John on getting his dream job"}], "implications": []}
+{"fid": "D13:5#0", "facets": [{"subject": "John", "predicate": "job_career", "object": "starting his dream job in July 2022"}], "implications": []}
+{"fid": "D13:6#0", "facets": [{"subject": "James", "predicate": "education_course", "object": "course combining his passion for gaming and programming"}], "implications": []}
+{"fid": "D13:7#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "combining gaming and coding sounds like a dream"}], "implications": []}
+{"fid": "D13:8#0", "facets": [{"subject": "James", "predicate": "project_work", "object": "football simulator, working on collecting player databases"}], "implications": []}
+{"fid": "D13:9#0", "facets": [{"subject": "James", "predicate": "other", "object": "whether he chose the course because he loves football (asked by John)"}], "implications": []}
+{"fid": "D13:10#0", "facets": [{"subject": "James", "predicate": "preference_like", "object": "loves football"}, {"subject": "James", "predicate": "goal_plan", "object": "took the course mainly for self-improvement"}], "implications": []}
+{"fid": "D13:11#0", "facets": [{"subject": "James", "predicate": "other", "object": "whether he watched the Liverpool vs Chelsea match (asked by John)"}], "implications": []}
+{"fid": "D13:12#0", "facets": [{"subject": "James", "predicate": "hobby_interest", "object": "avid Liverpool FC fan, never misses a match"}], "implications": ["This suggests James is a devoted, loyal Liverpool supporter who prioritizes watching their matches."]}
+{"fid": "D13:13#0", "facets": [{"subject": "James", "predicate": "belief_value_opinion", "object": "really roots for Liverpool (observed by John)"}], "implications": []}
+{"fid": "D13:14#0", "facets": [{"subject": "James", "predicate": "preference_like", "object": "hopes Liverpool becomes champions next season"}], "implications": []}
+{"fid": "D13:15#0", "facets": [{"subject": "John", "predicate": "hobby_interest", "object": "Manchester City fan"}], "implications": []}
+{"fid": "D13:16#0", "facets": [{"subject": "James", "predicate": "belief_value_opinion", "object": "Manchester City are in bad form with a terrible transfer policy"}], "implications": []}
+{"fid": "D13:17#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "trusts the Manchester City manager to handle the club's issues"}], "implications": []}
+{"fid": "D13:18#0", "facets": [{"subject": "James", "predicate": "belief_value_opinion", "object": "bet that Liverpool will finish higher than Manchester City"}], "implications": []}
+{"fid": "D13:19#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "accepted James's bet on the Premier League final standings"}], "implications": []}
+{"fid": "D13:20#0", "facets": [{"subject": "James", "predicate": "other", "object": "confirmed the bet with John"}], "implications": []}
+{"fid": "D14:1#0", "facets": [{"subject": "James", "predicate": "friend", "object": "two people who always help him when he's struggling"}, {"subject": "James", "predicate": "feeling_emotion", "object": "grateful for support during recent struggles"}], "implications": ["This suggests James has been going through some difficult times recently and relies on a small, trusted support network."]}
+{"fid": "D14:2#0", "facets": [{"subject": "John", "predicate": "creative_work", "object": "started a blog about coding"}, {"subject": "John", "predicate": "feeling_emotion", "object": "it's been an emotional rollercoaster lately"}], "implications": ["This suggests John has been experiencing notable emotional ups and downs recently, beyond just the blog."]}
+{"fid": "D14:3#0", "facets": [{"subject": "James", "predicate": "belief_value_opinion", "object": "starting a coding blog is awesome"}], "implications": []}
+{"fid": "D14:4#0", "facets": [{"subject": "John", "predicate": "creative_work", "object": "coding blog lets him share his journey and connect with other coders"}], "implications": []}
+{"fid": "D14:5#0", "facets": [{"subject": "James", "predicate": "support_advice", "object": "congratulated John on his coding journey"}], "implications": []}
+{"fid": "D14:6#0", "facets": [{"subject": "John", "predicate": "possession_purchase", "object": "bought a lot of new books, bookcase almost full"}], "implications": ["This suggests John is an avid book collector and reader."]}
+{"fid": "D14:7#0", "facets": [{"subject": "John", "predicate": "other", "object": "favorite book genre (asked by James)"}], "implications": []}
+{"fid": "D14:8#0", "facets": [{"subject": "John", "predicate": "preference_like", "object": "big fan of sci-fi and fantasy books"}], "implications": []}
+{"fid": "D14:9#0", "facets": [{"subject": "John", "predicate": "other", "object": "favorite book series to recommend (asked by James)"}], "implications": []}
+{"fid": "D14:10#0", "facets": [{"subject": "John", "predicate": "book_read", "object": "The Stormlight Archive, The Kingkiller Chronicle, The Expanse"}], "implications": []}
+{"fid": "D14:11#0", "facets": [{"subject": "John", "predicate": "other", "object": "what makes those books his favorites (asked by James)"}], "implications": []}
+{"fid": "D14:12#0", "facets": [{"subject": "John", "predicate": "preference_like", "object": "loves immersive worlds with characters that feel real"}], "implications": []}
+{"fid": "D14:12#1", "facets": [{"subject": "James", "predicate": "other", "object": "name of his dog seen in a Facebook photo (asked by John)"}], "implications": []}
+{"fid": "D14:13#0", "facets": [{"subject": "James", "predicate": "pet", "object": "Max, lovable and playful, brings joy in tough times"}], "implications": ["This suggests James's dog Max provides him significant emotional support during difficult periods."]}
+{"fid": "D14:14#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "pets are always a great source of joy and love"}], "implications": []}
+{"fid": "D14:15#0", "facets": [{"subject": "James", "predicate": "pet", "object": "Max always cheers him up when he's feeling down"}], "implications": []}
+{"fid": "D14:16#0", "facets": [{"subject": "James", "predicate": "other", "object": "whether Max enjoys swimming (asked by John)"}], "implications": []}
+{"fid": "D14:17#0", "facets": [{"subject": "James", "predicate": "pet", "object": "Max loves swimming, a pro swimmer"}], "implications": []}
+{"fid": "D14:18#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "Max must have so much fun swimming and playing"}], "implications": []}
+{"fid": "D14:19#0", "facets": [{"subject": "James", "predicate": "pet", "object": "Max has a blast, happy and carefree"}], "implications": []}
+{"fid": "D14:20#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "making Max so happy is a great achievement"}], "implications": []}
+{"fid": "D14:21#0", "facets": [{"subject": "James", "predicate": "pet", "object": "loves making Max happy"}], "implications": []}
+{"fid": "D14:22#0", "facets": [{"subject": "James", "predicate": "other", "object": "whether Max has any special talents (asked by John)"}], "implications": []}
+{"fid": "D14:23#0", "facets": [{"subject": "James", "predicate": "pet", "object": "Max is great at catching frisbees mid-air, never misses"}], "implications": []}
+{"fid": "D14:24#0", "facets": [{"subject": "James", "predicate": "other", "object": "whether Max also enjoys long walks (asked by John)"}], "implications": []}
+{"fid": "D14:25#0", "facets": [{"subject": "James", "predicate": "outdoor_activity", "object": "long walks with Max for exercise and fresh air"}, {"subject": "James", "predicate": "pet", "object": "Max loves long walks"}], "implications": []}
+{"fid": "D14:26#0", "facets": [{"subject": "James", "predicate": "other", "object": "location of the forest walking spot (asked by John)"}], "implications": []}
+{"fid": "D14:27#0", "facets": [{"subject": "James", "predicate": "outdoor_activity", "object": "walks a tranquil trail about a mile from his house with Max"}], "implications": []}
+{"fid": "D14:28#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "nature walks look awesome and refreshing"}], "implications": []}
+{"fid": "D14:29#0", "facets": [{"subject": "James", "predicate": "preference_like", "object": "nature walks are relaxing, help him think straight and find inner peace"}], "implications": []}
+{"fid": "D14:30#0", "facets": [{"subject": "James", "predicate": "other", "object": "what he does when alone at the park (asked by John)"}], "implications": []}
+{"fid": "D14:31#0", "facets": [{"subject": "James", "predicate": "habit_routine", "object": "brings a book and chills alone at the park, an escape from reality"}], "implications": ["This suggests James values solitude and quiet reading time as a way to mentally recharge."]}
+{"fid": "D14:32#0", "facets": [{"subject": "John", "predicate": "belief_value_opinion", "object": "taking breaks and switching up scenery is a great way to recharge"}], "implications": []}
+{"fid": "D14:33#0", "facets": [{"subject": "James", "predicate": "belief_value_opinion", "object": "agrees taking breaks is important for recharging"}], "implications": []}
+{"fid": "D14:34#0", "facets": [{"subject": "John", "predicate": "support_advice", "object": "told James he's always there to have his back"}], "implications": []}
+{"fid": "D15:1#0", "facets": [{"subject": "James", "predicate": "pet", "object": "introducing dogs Max and Daisy to new pup Ned, slowly bonding"}], "implications": []}
+{"fid": "D15:2#0", "facets": [{"subject": "James", "predicate": "other", "object": "asked for a picture of the dogs together"}], "implications": []}
+{"fid": "D15:3#0", "facets": [{"subject": "James", "predicate": "pet", "object": "photo of three dogs together in a grassy field"}], "implications": []}
+{"fid": "D15:4#0", "facets": [{"subject": "John", "predicate": "feeling_emotion", "object": "the last few days got him thinking about his own future"}], "implications": ["This suggests John may be entering a period of reflection about his life direction, echoing his earlier thoughts about a non-profit career."]}
+{"fid": "D15:5#0", "facets": [{"subject": "John", "predicate": "other", "object": "what's been on his mind about the future (asked by James)"}], "implications": []}
+{"fid": "D15:6#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "thinking about his career and where he wants to be, wants to make a positive impact"}], "implications": ["This suggests John's earlier volunteer and non-profit experience continues to shape his long-term career aspirations."]}
+{"fid": "D15:7#0", "facets": [{"subject": "James", "predicate": "belief_value_opinion", "object": "finding a way to make a difference matters"}], "implications": []}
+{"fid": "D15:8#0", "facets": [{"subject": "John", "predicate": "goal_plan", "object": "looking into volunteering and considering non-profit work for causes he cares about"}], "implications": ["This suggests John is actively moving from contemplation to concrete action regarding a career shift toward social impact."]}

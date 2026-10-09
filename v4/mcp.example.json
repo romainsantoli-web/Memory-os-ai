@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "memory-os-v4": {
+      "command": "/Users/romain/Memory-os-ai/.venv/bin/python",
+      "args": ["-m", "memory_os_v4.server"],
+      "env": {
+        "PYTHONPATH": "/Users/romain/Memory-os-ai/v4/src",
+        "MEMORY_V4_DIR": "/Users/romain/.memory-os-v4",
+        "MEMORY_V4_PROJECT": "default",
+        "HF_HUB_OFFLINE": "1",
+        "TOKENIZERS_PARALLELISM": "false"
+      }
+    }
+  }
+}

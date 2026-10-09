@@ -1,0 +1,675 @@
+{"turn_id": "D1:1", "facts": [], "keywords": ["greeting", "catching up"], "entities": ["Andrew"]}
+{"turn_id": "D1:2", "facts": ["On 2023-03-27, Andrew said he started a new job as a Financial Analyst the previous week (around 2023-03-20), which was a big change from his previous job."], "keywords": ["job", "career", "financial analyst", "new job"], "entities": ["Andrew", "Financial Analyst"]}
+{"turn_id": "D1:3", "facts": ["Audrey got new collars and tags for her dogs."], "keywords": ["dogs", "collars", "tags", "pets"], "entities": ["Audrey"]}
+{"turn_id": "D1:4", "facts": [], "keywords": ["photo request"], "entities": ["Andrew"]}
+{"turn_id": "D1:5", "facts": ["Audrey shared a photo of two of her dogs wearing their new collars, standing in the grass."], "keywords": ["dogs", "photo", "collars", "grass"], "entities": ["Audrey"]}
+{"turn_id": "D1:6", "facts": [], "keywords": ["dogs", "question"], "entities": ["Andrew"]}
+{"turn_id": "D1:7", "facts": ["Audrey has had her dogs Pepper, Precious, and Panda for 3 years, since around 2020."], "keywords": ["dogs", "pepper", "precious", "panda", "pets"], "entities": ["Audrey", "Pepper", "Precious", "Panda"]}
+{"turn_id": "D1:8", "facts": [], "keywords": ["dogs", "city living", "question"], "entities": ["Andrew"]}
+{"turn_id": "D1:9", "facts": ["Audrey's dogs are city dogs who go on adventures exploring new parks and trails very often."], "keywords": ["dogs", "city", "parks", "trails", "adventures"], "entities": ["Audrey"]}
+{"turn_id": "D1:10", "facts": [], "keywords": ["envy", "dogs"], "entities": ["Andrew"]}
+{"turn_id": "D1:11", "facts": [], "keywords": ["pets", "question"], "entities": ["Audrey"]}
+{"turn_id": "D1:12", "facts": ["Andrew does not currently have any pets but loves animals."], "keywords": ["pets", "animals"], "entities": ["Andrew"]}
+{"turn_id": "D1:13", "facts": [], "keywords": ["animals", "question"], "entities": ["Audrey"]}
+{"turn_id": "D1:14", "facts": ["Andrew has always been awed by birds and their power to soar and explore new places."], "keywords": ["birds", "animals", "favorite animal"], "entities": ["Andrew"]}
+{"turn_id": "D1:15", "facts": [], "keywords": ["birds", "question"], "entities": ["Audrey"]}
+{"turn_id": "D1:16", "facts": ["Andrew's favorite bird is the eagle, admiring their strength and grace."], "keywords": ["eagles", "birds", "favorite bird"], "entities": ["Andrew", "Eagles"]}
+{"turn_id": "D1:17", "facts": [], "keywords": ["birdwatching", "question"], "entities": ["Audrey"]}
+{"turn_id": "D1:18", "facts": ["Andrew has not specifically gone birdwatching but spots birds while hiking."], "keywords": ["birdwatching", "hiking", "birds"], "entities": ["Andrew"]}
+{"turn_id": "D1:19", "facts": [], "keywords": ["hiking", "question"], "entities": ["Audrey"]}
+{"turn_id": "D1:20", "facts": ["Andrew recommended Fox Hollow as a great trail to hike on weekends with awesome views."], "keywords": ["hiking", "fox hollow", "trail", "weekends"], "entities": ["Andrew", "Fox Hollow"]}
+{"turn_id": "D1:21", "facts": ["Audrey said she would try hiking at Fox Hollow."], "keywords": ["hiking", "fox hollow", "plans"], "entities": ["Audrey", "Fox Hollow"]}
+{"turn_id": "D1:22", "facts": [], "keywords": ["farewell"], "entities": ["Andrew"]}
+{"turn_id": "D1:23", "facts": [], "keywords": ["farewell"], "entities": ["Audrey"]}
+{"turn_id": "D1:24", "facts": [], "keywords": ["farewell"], "entities": ["Andrew"]}
+{"turn_id": "D2:1", "facts": ["On 2023-04-02, Audrey said she adopted a new puppy named Pixie."], "keywords": ["puppy", "pixie", "adoption", "dogs"], "entities": ["Audrey", "Pixie"]}
+{"turn_id": "D2:2", "facts": [], "keywords": ["hiking", "fox hollow", "question"], "entities": ["Andrew", "Pixie"]}
+{"turn_id": "D2:3", "facts": ["Audrey said she has not yet checked out the Fox Hollow hiking trail because Pixie has been keeping her busy."], "keywords": ["hiking", "fox hollow", "puppy", "busy"], "entities": ["Audrey", "Pixie", "Fox Hollow"]}
+{"turn_id": "D2:4", "facts": [], "keywords": ["puppy", "question"], "entities": ["Andrew", "Pixie"]}
+{"turn_id": "D2:5", "facts": ["Audrey said Pixie took a few days to get used to her other dogs but is now fitting in great and they love playing together."], "keywords": ["puppy", "dogs", "pixie", "bonding"], "entities": ["Audrey", "Pixie"]}
+{"turn_id": "D2:6", "facts": [], "keywords": ["dogs", "pepper", "question"], "entities": ["Andrew", "Pepper"]}
+{"turn_id": "D2:7", "facts": ["Audrey said Pepper took a bit to get used to Pixie, but now they are always together."], "keywords": ["dogs", "pepper", "pixie", "bonding"], "entities": ["Audrey", "Pepper", "Pixie"]}
+{"turn_id": "D2:8", "facts": ["Andrew is considering getting a dog but finds it challenging to find a dog-friendly place to live in the city."], "keywords": ["dog", "apartment", "city", "dog-friendly"], "entities": ["Andrew"]}
+{"turn_id": "D2:9", "facts": ["Audrey used websites with filters to help find a dog-friendly place to live."], "keywords": ["apartment", "dog-friendly", "websites", "filters"], "entities": ["Audrey"]}
+{"turn_id": "D2:10", "facts": ["Andrew said he would try the websites Audrey suggested for finding a dog-friendly apartment."], "keywords": ["apartment", "websites", "plans"], "entities": ["Andrew"]}
+{"turn_id": "D2:11", "facts": [], "keywords": ["encouragement"], "entities": ["Audrey"]}
+{"turn_id": "D2:12", "facts": [], "keywords": ["apartment", "dog", "hope"], "entities": ["Andrew"]}
+{"turn_id": "D2:13", "facts": [], "keywords": ["encouragement"], "entities": ["Audrey"]}
+{"turn_id": "D2:14", "facts": [], "keywords": ["anticipation"], "entities": ["Andrew"]}
+{"turn_id": "D2:15", "facts": [], "keywords": ["dogs", "companionship"], "entities": ["Audrey"]}
+{"turn_id": "D2:16", "facts": ["Andrew shared a photo of his family's dog sitting on a couch."], "keywords": ["dog", "family", "couch", "photo"], "entities": ["Andrew"]}
+{"turn_id": "D2:17", "facts": ["Audrey shared a photo of one of her dogs lying on a couch with a pillow."], "keywords": ["dog", "couch", "photo", "pillow"], "entities": ["Audrey"]}
+{"turn_id": "D2:18", "facts": ["Andrew said he misses exploring nature trails hiking with his family's dog."], "keywords": ["hiking", "nature", "family dog", "nostalgia"], "entities": ["Andrew"]}
+{"turn_id": "D2:19", "facts": [], "keywords": ["hiking", "dogs"], "entities": ["Audrey"]}
+{"turn_id": "D2:20", "facts": ["Andrew said hiking with a dog is a great way to bond and create memories together."], "keywords": ["hiking", "dogs", "bonding", "memories"], "entities": ["Andrew"]}
+{"turn_id": "D2:21", "facts": [], "keywords": ["nature", "memories"], "entities": ["Audrey"]}
+{"turn_id": "D2:22", "facts": ["Andrew said he needs to find a dog-friendly spot soon so he can go exploring again."], "keywords": ["dog-friendly", "exploring", "plans"], "entities": ["Andrew"]}
+{"turn_id": "D2:23", "facts": [], "keywords": ["encouragement", "dog-friendly"], "entities": ["Audrey"]}
+{"turn_id": "D2:24", "facts": [], "keywords": ["anticipation"], "entities": ["Andrew"]}
+{"turn_id": "D2:25", "facts": [], "keywords": ["encouragement"], "entities": ["Audrey"]}
+{"turn_id": "D2:26", "facts": [], "keywords": ["farewell"], "entities": ["Andrew"]}
+{"turn_id": "D3:1", "facts": ["On 2023-04-16, Andrew said he and his girlfriend tried a new cafe scene in the city the previous weekend (around 2023-04-09)."], "keywords": ["cafe", "girlfriend", "city", "weekend"], "entities": ["Andrew"]}
+{"turn_id": "D3:2", "facts": [], "keywords": ["nature", "cafe"], "entities": ["Audrey"]}
+{"turn_id": "D3:3", "facts": ["Andrew said being out in nature feels like home for his soul and makes him feel connected."], "keywords": ["nature", "feelings", "connection"], "entities": ["Andrew"]}
+{"turn_id": "D3:4", "facts": [], "keywords": ["nature", "feelings"], "entities": ["Audrey"]}
+{"turn_id": "D3:5", "facts": [], "keywords": ["nature", "stress relief"], "entities": ["Andrew"]}
+{"turn_id": "D3:6", "facts": ["Audrey said walking her dogs in the park helps her find her center and recharges her."], "keywords": ["dogs", "park", "walking", "recharge"], "entities": ["Audrey"]}
+{"turn_id": "D3:7", "facts": ["Andrew said living in the city makes it hard for him to have the connection and companionship of a dog."], "keywords": ["city living", "dogs", "companionship"], "entities": ["Andrew"]}
+{"turn_id": "D3:8", "facts": [], "keywords": ["city living"], "entities": ["Audrey"]}
+{"turn_id": "D3:9", "facts": [], "keywords": ["missing out"], "entities": ["Andrew"]}
+{"turn_id": "D3:10", "facts": [], "keywords": ["city life", "question"], "entities": ["Audrey"]}
+{"turn_id": "D3:11", "facts": ["Andrew and his girlfriend love discovering new places to eat around town."], "keywords": ["girlfriend", "food", "restaurants", "city"], "entities": ["Andrew"]}
+{"turn_id": "D3:12", "facts": [], "keywords": ["food", "question"], "entities": ["Audrey"]}
+{"turn_id": "D3:13", "facts": ["Andrew and his girlfriend found an awesome cafe with amazing, irresistible-smelling pastries."], "keywords": ["cafe", "pastries", "girlfriend"], "entities": ["Andrew"]}
+{"turn_id": "D3:14", "facts": [], "keywords": ["photo request"], "entities": ["Audrey"]}
+{"turn_id": "D3:15", "facts": [], "keywords": ["pastries", "photo", "cafe"], "entities": ["Andrew"]}
+{"turn_id": "D3:16", "facts": [], "keywords": ["pastries", "question"], "entities": ["Audrey"]}
+{"turn_id": "D3:17", "facts": ["Andrew had croissants, muffins, and tarts at the new cafe with his girlfriend."], "keywords": ["pastries", "croissants", "muffins", "tarts", "cafe"], "entities": ["Andrew"]}
+{"turn_id": "D3:18", "facts": ["On 2023-04-16, Audrey said she made pastries, including blueberry muffins, the previous week (around 2023-04-09) and suggested having a pastry party."], "keywords": ["pastries", "muffins", "blueberries", "baking", "pastry party"], "entities": ["Audrey"]}
+{"turn_id": "D3:19", "facts": ["Andrew agreed to join Audrey's pastry party."], "keywords": ["pastry party", "plans"], "entities": ["Andrew"]}
+{"turn_id": "D3:20", "facts": ["Audrey said her dogs would tag along to the pastry party."], "keywords": ["pastry party", "dogs"], "entities": ["Audrey"]}
+{"turn_id": "D3:21", "facts": [], "keywords": ["pastry party", "anticipation"], "entities": ["Andrew"]}
+{"turn_id": "D3:22", "facts": [], "keywords": ["pastry party"], "entities": ["Audrey"]}
+{"turn_id": "D3:23", "facts": [], "keywords": ["pastry party", "excitement"], "entities": ["Andrew"]}
+{"turn_id": "D3:24", "facts": ["Audrey said she can't imagine life without her dogs because they bring her so much joy."], "keywords": ["dogs", "joy", "love", "pets"], "entities": ["Audrey"]}
+{"turn_id": "D3:25", "facts": [], "keywords": ["dogs", "happiness"], "entities": ["Andrew"]}
+{"turn_id": "D3:26", "facts": ["Audrey has tattoos of her dogs on her arm."], "keywords": ["tattoo", "dogs", "arm"], "entities": ["Audrey"]}
+{"turn_id": "D3:27", "facts": [], "keywords": ["tattoo"], "entities": ["Andrew"]}
+{"turn_id": "D3:28", "facts": ["Audrey's tattoo of her dogs represents her love for her pups and nature's beauty, and she got it a while before 2023-04-16."], "keywords": ["tattoo", "dogs", "nature", "meaning"], "entities": ["Audrey"]}
+{"turn_id": "D3:29", "facts": [], "keywords": ["tattoo", "question"], "entities": ["Andrew"]}
+{"turn_id": "D3:30", "facts": ["Audrey said she has always had a strong bond with her dogs and wants to see their happy faces even when they are not with her."], "keywords": ["dogs", "bond", "love", "happiness"], "entities": ["Audrey"]}
+{"turn_id": "D3:31", "facts": [], "keywords": ["dogs", "happiness"], "entities": ["Andrew"]}
+{"turn_id": "D4:1", "facts": ["On 2023-05-03, Audrey said that the previous week she went on a hike and had an amazing experience watching a hummingbird dart around."], "keywords": ["hiking", "hummingbird", "nature"], "entities": ["Audrey"]}
+{"turn_id": "D4:2", "facts": ["On 2023-05-03, Andrew said he found a new open space to hike near where he lives, which felt refreshing after previously feeling down about not getting outdoors."], "keywords": ["hiking", "open space", "nature", "mood"], "entities": ["Andrew"]}
+{"turn_id": "D4:3", "facts": [], "keywords": ["hiking", "question"], "entities": ["Audrey"]}
+{"turn_id": "D4:4", "facts": ["Andrew tries to escape the city and go hiking at least once a weekend as a much-needed break."], "keywords": ["hiking", "weekend", "routine", "city"], "entities": ["Andrew"]}
+{"turn_id": "D4:5", "facts": [], "keywords": ["hiking", "getaway"], "entities": ["Audrey"]}
+{"turn_id": "D4:6", "facts": ["Andrew finds nature therapeutic, saying it feels peaceful and invigorating to be surrounded by greenery or stand on a mountain."], "keywords": ["nature", "therapeutic", "mountains", "peace"], "entities": ["Andrew"]}
+{"turn_id": "D4:7", "facts": [], "keywords": ["nature", "photo", "calm"], "entities": ["Audrey"]}
+{"turn_id": "D4:8", "facts": ["Andrew tries to capture peaceful nature moments in photos and share that feeling with others."], "keywords": ["photography", "nature", "sharing"], "entities": ["Andrew"]}
+{"turn_id": "D4:9", "facts": [], "keywords": ["positivity", "sharing"], "entities": ["Audrey"]}
+{"turn_id": "D4:10", "facts": ["Andrew said it brings him joy to spread peaceful feelings and motivate people to find their own peace."], "keywords": ["positivity", "motivation", "joy"], "entities": ["Andrew"]}
+{"turn_id": "D4:11", "facts": [], "keywords": ["positivity"], "entities": ["Audrey"]}
+{"turn_id": "D4:12", "facts": [], "keywords": ["joy", "calm"], "entities": ["Andrew"]}
+{"turn_id": "D4:13", "facts": [], "keywords": ["sharing", "kindness"], "entities": ["Audrey"]}
+{"turn_id": "D4:14", "facts": [], "keywords": ["positivity", "kindness", "question"], "entities": ["Andrew"]}
+{"turn_id": "D4:15", "facts": ["On 2023-05-03, Audrey said she has been busy taking care of her pets and spending time with them, which she finds fulfilling."], "keywords": ["pets", "dogs", "fulfillment"], "entities": ["Audrey"]}
+{"turn_id": "D4:16", "facts": [], "keywords": ["dogs", "hiking", "question"], "entities": ["Andrew"]}
+{"turn_id": "D4:17", "facts": ["Audrey said her dogs go nuts and love exploring new scents when they go on hikes, which is their happy place."], "keywords": ["dogs", "hiking", "scents", "happiness"], "entities": ["Audrey"]}
+{"turn_id": "D4:18", "facts": [], "keywords": ["dog safety", "question"], "entities": ["Andrew"]}
+{"turn_id": "D4:19", "facts": ["Audrey got special leashes and shoes for her dogs to keep them safe when out and about."], "keywords": ["dog safety", "leash", "shoes", "gear"], "entities": ["Audrey"]}
+{"turn_id": "D4:20", "facts": [], "keywords": ["dogs", "care", "question"], "entities": ["Andrew"]}
+{"turn_id": "D4:21", "facts": ["Audrey said she plays fetch with a ball or frisbee with her dogs and meets other dog owners in the park for doggie playdates."], "keywords": ["fetch", "frisbee", "dog park", "playdates"], "entities": ["Audrey"]}
+{"turn_id": "D4:22", "facts": [], "keywords": ["fetch", "fun"], "entities": ["Andrew"]}
+{"turn_id": "D4:23", "facts": ["Audrey said her dogs love meeting new pals at playdates and get excited when she brings out party hats for them."], "keywords": ["playdates", "party hats", "dogs", "excitement"], "entities": ["Audrey"]}
+{"turn_id": "D4:24", "facts": [], "keywords": ["party hats", "playdates", "question"], "entities": ["Andrew"]}
+{"turn_id": "D4:25", "facts": ["Audrey said the dog park near where she usually walks is a great place for playdates where dogs can run and mingle with other pooches."], "keywords": ["dog park", "playdates", "location"], "entities": ["Audrey"]}
+{"turn_id": "D4:26", "facts": [], "keywords": ["dog park", "question"], "entities": ["Andrew"]}
+{"turn_id": "D4:27", "facts": ["Audrey said the dog park is right by the park she usually walks in, with lots of trees and benches to watch the dogs play."], "keywords": ["dog park", "location", "trees", "benches"], "entities": ["Audrey"]}
+{"turn_id": "D4:28", "facts": ["Andrew said he would check out the dog park Audrey mentioned since it is not too far away."], "keywords": ["dog park", "plans"], "entities": ["Andrew"]}
+{"turn_id": "D4:29", "facts": [], "keywords": ["encouragement"], "entities": ["Audrey"]}
+{"turn_id": "D4:30", "facts": [], "keywords": ["farewell"], "entities": ["Andrew"]}
+{"turn_id": "D5:1", "facts": ["On 2023-05-06, Andrew said he has been looking for a dog to adopt by browsing websites, visiting shelters, and asking friends."], "keywords": ["dog adoption", "shelters", "search"], "entities": ["Andrew"]}
+{"turn_id": "D5:2", "facts": [], "keywords": ["dog adoption", "question"], "entities": ["Audrey"]}
+{"turn_id": "D5:3", "facts": ["Andrew said that when considering getting a dog, one should factor in living space size and the breed's exercise needs, and that as an apartment dweller he thinks a smaller dog would suit him best."], "keywords": ["dog adoption", "apartment", "breed", "exercise needs"], "entities": ["Andrew"]}
+{"turn_id": "D5:4", "facts": [], "keywords": ["dog adoption", "advice"], "entities": ["Audrey"]}
+{"turn_id": "D5:5", "facts": ["Andrew said finding a pet-friendly place to live has been tough, so he is contacting landlords and checking out neighborhoods."], "keywords": ["pet-friendly", "apartment", "landlords", "housing search"], "entities": ["Andrew"]}
+{"turn_id": "D5:6", "facts": [], "keywords": ["housing", "question"], "entities": ["Audrey"]}
+{"turn_id": "D5:7", "facts": ["Andrew is looking for a place to live near a park or woods so he can stay close to nature and give a future dog a large open space to run."], "keywords": ["housing", "park", "nature", "dog"], "entities": ["Andrew"]}
+{"turn_id": "D5:8", "facts": ["On 2023-05-06, Audrey said that the previous Friday (around 2023-05-05) she and her dogs took a road trip to a beautiful national park and had a blast."], "keywords": ["road trip", "national park", "dogs"], "entities": ["Audrey"]}
+{"turn_id": "D5:9", "facts": [], "keywords": ["road trip", "question"], "entities": ["Andrew"]}
+{"turn_id": "D5:10", "facts": ["Audrey takes her dogs on road trips once every couple of months as a way for them to explore and stay active."], "keywords": ["road trip", "dogs", "routine"], "entities": ["Audrey"]}
+{"turn_id": "D5:11", "facts": ["Andrew said he wishes he could go on a road trip with a furry companion."], "keywords": ["road trip", "dog", "wish"], "entities": ["Andrew"]}
+{"turn_id": "D5:12", "facts": [], "keywords": ["road trip", "dogs"], "entities": ["Audrey"]}
+{"turn_id": "D5:13", "facts": ["Andrew added going on a road trip with his own dog to his bucket list."], "keywords": ["bucket list", "road trip", "dog"], "entities": ["Andrew"]}
+{"turn_id": "D5:14", "facts": [], "keywords": ["encouragement", "dog search"], "entities": ["Audrey"]}
+{"turn_id": "D5:15", "facts": ["Andrew is still on the lookout for the perfect dog to adopt."], "keywords": ["dog adoption", "search"], "entities": ["Andrew"]}
+{"turn_id": "D5:16", "facts": [], "keywords": ["encouragement"], "entities": ["Audrey"]}
+{"turn_id": "D5:17", "facts": [], "keywords": ["dog search"], "entities": ["Andrew"]}
+{"turn_id": "D5:18", "facts": [], "keywords": ["support"], "entities": ["Audrey"]}
+{"turn_id": "D5:19", "facts": [], "keywords": ["gratitude"], "entities": ["Andrew"]}
+{"turn_id": "D5:20", "facts": [], "keywords": ["anticipation", "dog"], "entities": ["Audrey"]}
+{"turn_id": "D5:21", "facts": ["Andrew said he was going to check out another animal shelter soon."], "keywords": ["shelter", "dog adoption", "plans"], "entities": ["Andrew"]}
+{"turn_id": "D5:22", "facts": [], "keywords": ["farewell"], "entities": ["Audrey"]}
+{"turn_id": "D6:1", "facts": ["On 2023-05-11, Andrew said he had a great hike the previous weekend (around 2023-05-06) with some friends and his girlfriend at the new spot he recently found."], "keywords": ["hiking", "girlfriend", "friends", "nature"], "entities": ["Andrew"]}
+{"turn_id": "D6:2", "facts": ["On 2023-05-11, Audrey said she has four dogs and signed up for a workshop about bonding with her pets, taking place the following month (around June 2023)."], "keywords": ["dogs", "workshop", "bonding", "pets"], "entities": ["Audrey"]}
+{"turn_id": "D6:3", "facts": [], "keywords": ["workshop", "question"], "entities": ["Andrew"]}
+{"turn_id": "D6:4", "facts": ["Audrey saw the pet-bonding workshop flyer at her local pet store; it is a positive reinforcement training class."], "keywords": ["workshop", "pet store", "positive reinforcement", "training"], "entities": ["Audrey"]}
+{"turn_id": "D6:5", "facts": [], "keywords": ["training", "question"], "entities": ["Andrew"]}
+{"turn_id": "D6:6", "facts": ["Audrey believes her dogs are quick learners who love rewards and will catch on quickly to positive reinforcement training."], "keywords": ["training", "dogs", "rewards"], "entities": ["Audrey"]}
+{"turn_id": "D6:7", "facts": [], "keywords": ["encouragement"], "entities": ["Andrew"]}
+{"turn_id": "D6:8", "facts": ["Audrey said she would share tips on training a future dog with Andrew after attending the workshop."], "keywords": ["training tips", "workshop", "plans"], "entities": ["Audrey"]}
+{"turn_id": "D6:9", "facts": [], "keywords": ["excitement", "workshop"], "entities": ["Andrew"]}
+{"turn_id": "D6:10", "facts": [], "keywords": ["training", "confidence"], "entities": ["Audrey"]}
+{"turn_id": "D6:11", "facts": [], "keywords": ["humor", "training class"], "entities": ["Andrew"]}
+{"turn_id": "D6:12", "facts": ["Audrey believes pets should be trained using positive reinforcement, not punishment."], "keywords": ["positive reinforcement", "training philosophy", "punishment"], "entities": ["Audrey"]}
+{"turn_id": "D6:13", "facts": [], "keywords": ["punishment", "training"], "entities": ["Andrew"]}
+{"turn_id": "D6:14", "facts": ["Audrey said she does not want to hurt any of her dogs, and even thinking about it causes her pain."], "keywords": ["dogs", "punishment", "empathy"], "entities": ["Audrey"]}
+{"turn_id": "D6:15", "facts": [], "keywords": ["training classes", "farewell"], "entities": ["Andrew"]}
+{"turn_id": "D6:16", "facts": [], "keywords": ["farewell"], "entities": ["Audrey"]}
+{"turn_id": "D7:1", "facts": ["On 2023-06-02, Audrey said that the previous day she took her dogs to the park and let them run around and play off-leash, which filled her heart with joy."], "keywords": ["dogs", "park", "off-leash", "joy"], "entities": ["Audrey"]}
+{"turn_id": "D7:2", "facts": [], "keywords": ["dogs", "hiking", "question"], "entities": ["Andrew"]}
+{"turn_id": "D7:3", "facts": ["On 2023-06-02, Audrey said that the previous week (around 2023-05-26) she took her dogs on a hike to a national park and reached a beautiful peak with a stunning sunset."], "keywords": ["hiking", "national park", "sunset", "dogs"], "entities": ["Audrey"]}
+{"turn_id": "D7:4", "facts": [], "keywords": ["photo request", "memorable experience"], "entities": ["Andrew"]}
+{"turn_id": "D7:5", "facts": ["Audrey shared a photo of two horses in a field with a fence, one of her favorites from the national park trip."], "keywords": ["horses", "photo", "national park"], "entities": ["Audrey"]}
+{"turn_id": "D7:6", "facts": [], "keywords": ["sunset", "scenery"], "entities": ["Andrew"]}
+{"turn_id": "D7:7", "facts": ["Audrey said nature always cheers her up and makes her feel grateful."], "keywords": ["nature", "gratitude", "mood"], "entities": ["Audrey"]}
+{"turn_id": "D7:8", "facts": ["On 2023-06-02, Andrew said he is still searching for a furry friend but is finding it tough to find a pet-friendly spot in the city, feeling a bit discouraged."], "keywords": ["dog adoption", "pet-friendly", "city", "discouraged"], "entities": ["Andrew"]}
+{"turn_id": "D7:9", "facts": [], "keywords": ["encouragement"], "entities": ["Audrey"]}
+{"turn_id": "D7:10", "facts": [], "keywords": ["determination"], "entities": ["Andrew"]}
+{"turn_id": "D7:11", "facts": ["Audrey offered to help Andrew find a great pet-friendly spot if he emails her his housing criteria."], "keywords": ["support", "housing search", "dog-friendly"], "entities": ["Audrey"]}
+{"turn_id": "D7:12", "facts": [], "keywords": ["gratitude"], "entities": ["Andrew"]}
+{"turn_id": "D7:13", "facts": [], "keywords": ["encouragement", "positivity"], "entities": ["Audrey"]}
+{"turn_id": "D8:1", "facts": ["On 2023-06-13, Andrew said that the previous Sunday (around 2023-06-11) he and his friends took a rock climbing class and he made it to the top, and he plans to try more outdoor activities weekly."], "keywords": ["rock climbing", "outdoor activities", "friends"], "entities": ["Andrew"]}
+{"turn_id": "D8:2", "facts": [], "keywords": ["rock climbing", "photo request"], "entities": ["Audrey"]}
+{"turn_id": "D8:3", "facts": ["Andrew shared a photo from the top of the rock he climbed during his rock climbing class, saying it was challenging but satisfying and he felt proud."], "keywords": ["rock climbing", "photo", "achievement"], "entities": ["Andrew"]}
+{"turn_id": "D8:4", "facts": [], "keywords": ["rock climbing", "question"], "entities": ["Audrey"]}
+{"turn_id": "D8:5", "facts": ["Andrew said the rock climb was tricky since he is still a newbie, but he made it with support and cheering from his friends."], "keywords": ["rock climbing", "friends", "support", "newbie"], "entities": ["Andrew"]}
+{"turn_id": "D8:6", "facts": [], "keywords": ["support group", "question"], "entities": ["Audrey"]}
+{"turn_id": "D8:7", "facts": ["Andrew said rock climbing has encouraged him to try more outdoor activities like kayaking and maybe bungee jumping."], "keywords": ["kayaking", "bungee jumping", "outdoor activities"], "entities": ["Andrew"]}
+{"turn_id": "D8:8", "facts": ["On 2023-06-13, Audrey said that the previous week she found a great new spot for her dogs' walks: a small park with a trail surrounded by trees, and invited Andrew to come along."], "keywords": ["dog walk", "park", "trail", "invitation"], "entities": ["Audrey"]}
+{"turn_id": "D8:9", "facts": ["Andrew agreed to join Audrey and her dogs for a walk in the park."], "keywords": ["dog walk", "plans"], "entities": ["Andrew"]}
+{"turn_id": "D8:10", "facts": [], "keywords": ["excitement", "dogs"], "entities": ["Audrey"]}
+{"turn_id": "D8:11", "facts": [], "keywords": ["anticipation"], "entities": ["Andrew"]}
+{"turn_id": "D8:12", "facts": ["Audrey shared a photo of two of her dogs running in a field with a ball during their park walk."], "keywords": ["dogs", "photo", "park walk"], "entities": ["Audrey"]}
+{"turn_id": "D8:13", "facts": [], "keywords": ["dog walk", "question"], "entities": ["Andrew"]}
+{"turn_id": "D8:14", "facts": ["Audrey usually walks her dogs for about an hour, letting them explore at their own pace."], "keywords": ["dog walk", "routine", "exercise"], "entities": ["Audrey"]}
+{"turn_id": "D8:15", "facts": [], "keywords": ["dog walk"], "entities": ["Andrew"]}
+{"turn_id": "D8:16", "facts": ["Audrey said her dogs need exercise and exploration, and always go home tired with a smile after their walks."], "keywords": ["dogs", "exercise", "exploration"], "entities": ["Audrey"]}
+{"turn_id": "D8:17", "facts": [], "keywords": ["dogs", "exploration"], "entities": ["Andrew"]}
+{"turn_id": "D8:18", "facts": ["Audrey said walks are her dogs' favorite part of the day; their faces light up as soon as she gets ready to go."], "keywords": ["dogs", "walks", "happiness"], "entities": ["Audrey"]}
+{"turn_id": "D8:19", "facts": [], "keywords": ["nature", "pets", "happiness"], "entities": ["Andrew"]}
+{"turn_id": "D8:20", "facts": ["Audrey said dogs and nature bring her so much joy and peace."], "keywords": ["dogs", "nature", "joy", "peace"], "entities": ["Audrey"]}
+{"turn_id": "D8:21", "facts": [], "keywords": ["agreement"], "entities": ["Andrew"]}
+{"turn_id": "D8:22", "facts": ["Audrey shared a photo of two of her dogs playing with a frisbee in a meadow, saying they make her so happy."], "keywords": ["dogs", "frisbee", "meadow", "photo"], "entities": ["Audrey"]}
+{"turn_id": "D8:23", "facts": [], "keywords": ["meadow", "dogs", "photo"], "entities": ["Andrew"]}
+{"turn_id": "D8:24", "facts": ["Audrey said being outdoors with her dogs puts her in her happy place, feeling peaceful and inspiring."], "keywords": ["outdoors", "dogs", "happy place"], "entities": ["Audrey"]}
+{"turn_id": "D8:25", "facts": [], "keywords": ["nature", "calm"], "entities": ["Andrew"]}
+{"turn_id": "D8:26", "facts": [], "keywords": ["nature", "mindset"], "entities": ["Audrey"]}
+{"turn_id": "D8:27", "facts": ["Andrew said he turns to nature whenever he needs a reset, for refreshing his mind and gaining perspective."], "keywords": ["nature", "reset", "mindset"], "entities": ["Andrew"]}
+{"turn_id": "D8:28", "facts": [], "keywords": ["nature", "gratitude"], "entities": ["Audrey"]}
+{"turn_id": "D9:1", "facts": ["On 2023-06-26, Audrey said she got a new place with a bigger backyard for her dogs."], "keywords": ["new house", "backyard", "dogs", "move"], "entities": ["Audrey"]}
+{"turn_id": "D9:2", "facts": [], "keywords": ["new house", "question"], "entities": ["Andrew"]}
+{"turn_id": "D9:3", "facts": ["Audrey said her dogs love the new backyard, with so much space to run, explore, and sniff new smells."], "keywords": ["dogs", "backyard", "exploring"], "entities": ["Audrey"]}
+{"turn_id": "D9:4", "facts": [], "keywords": ["pup-friendly", "question"], "entities": ["Andrew"]}
+{"turn_id": "D9:5", "facts": ["Audrey set up a doggy play area in her new backyard with agility equipment and toys."], "keywords": ["backyard", "doggy play area", "agility", "toys"], "entities": ["Audrey"]}
+{"turn_id": "D9:6", "facts": ["Andrew shared a photo of a group of dogs playing with a ball in a large indoor space."], "keywords": ["dogs", "indoor space", "photo"], "entities": ["Andrew"]}
+{"turn_id": "D9:7", "facts": [], "keywords": ["location", "question"], "entities": ["Audrey"]}
+{"turn_id": "D9:8", "facts": ["Andrew shared a photo of the doggy daycare near him, which has a big indoor space for dogs to play."], "keywords": ["doggy daycare", "indoor space", "dogs"], "entities": ["Andrew"]}
+{"turn_id": "D9:9", "facts": [], "keywords": ["gratitude", "tip"], "entities": ["Audrey"]}
+{"turn_id": "D9:10", "facts": [], "keywords": ["offer of help"], "entities": ["Andrew"]}
+{"turn_id": "D9:11", "facts": [], "keywords": ["friendship", "pets"], "entities": ["Audrey"]}
+{"turn_id": "D9:12", "facts": [], "keywords": ["dogs", "friendship"], "entities": ["Andrew"]}
+{"turn_id": "D9:13", "facts": ["Audrey said she can't imagine life without animals because they bring her so much joy."], "keywords": ["animals", "joy", "love"], "entities": ["Audrey"]}
+{"turn_id": "D9:14", "facts": [], "keywords": ["appreciation", "pets"], "entities": ["Andrew"]}
+{"turn_id": "D9:15", "facts": ["Audrey said she doesn't understand people who hate on or hurt pets, since they're like family to her."], "keywords": ["pets", "family", "empathy"], "entities": ["Audrey"]}
+{"turn_id": "D9:16", "facts": ["Andrew shared a photo of a flower bed with many different colored flowers at a park in his neighborhood."], "keywords": ["flowers", "park", "photo", "neighborhood"], "entities": ["Andrew"]}
+{"turn_id": "D9:17", "facts": ["On 2023-06-26, Audrey said that besides moving to her new house, she has been busy unboxing all the packed boxes."], "keywords": ["moving", "unboxing", "new house"], "entities": ["Audrey"]}
+{"turn_id": "D9:18", "facts": ["On 2023-06-26, Andrew said that the previous Friday (around 2023-06-23) he hiked with some friends in great weather and got some awesome pictures."], "keywords": ["hiking", "friends", "weather", "photos"], "entities": ["Andrew"]}
+{"turn_id": "D9:19", "facts": [], "keywords": ["hiking", "photo request"], "entities": ["Audrey"]}
+{"turn_id": "D9:20", "facts": ["Andrew said he has been missing his connection with nature and the peace it brings, and is looking forward to exploring more."], "keywords": ["nature", "connection", "peace", "longing"], "entities": ["Andrew"]}
+{"turn_id": "D9:21", "facts": ["Audrey shared a photo of a person's feet resting on a rock overlooking a lake, saying she wants to do something like that right now."], "keywords": ["lake", "rock", "photo", "relaxation"], "entities": ["Audrey"]}
+{"turn_id": "D9:22", "facts": [], "keywords": ["lake", "question"], "entities": ["Andrew"]}
+{"turn_id": "D9:23", "facts": ["Audrey said that a few years back she and her friends went on a hike and found a stunning lake in the mountains, where they sat and admired the peacefulness of nature."], "keywords": ["hiking", "lake", "mountains", "friends", "memory"], "entities": ["Audrey"]}
+{"turn_id": "D9:24", "facts": [], "keywords": ["peaceful spot"], "entities": ["Andrew"]}
+{"turn_id": "D9:25", "facts": ["Audrey said the nature and the lake were calming and exactly what she needed at the time."], "keywords": ["nature", "lake", "calm"], "entities": ["Audrey"]}
+{"turn_id": "D9:26", "facts": [], "keywords": ["peaceful experience"], "entities": ["Andrew"]}
+{"turn_id": "D9:27", "facts": ["Audrey said people should really appreciate the small things in life and not take anything for granted."], "keywords": ["gratitude", "life lesson"], "entities": ["Audrey"]}
+{"turn_id": "D10:1", "facts": ["On 2023-07-03, Audrey said she is taking a dog training course that is challenging but rewarding, and her dogs are already doing better."], "keywords": ["dog training", "course", "progress"], "entities": ["Audrey"]}
+{"turn_id": "D10:2", "facts": ["On 2023-07-03, Andrew said he still cannot find any dog-friendly spots to rent."], "keywords": ["dog-friendly", "rent", "housing search"], "entities": ["Andrew"]}
+{"turn_id": "D10:3", "facts": ["Audrey said the dog training course has been a big time sink but has paid off because her dogs are doing great."], "keywords": ["dog training", "time", "progress"], "entities": ["Audrey"]}
+{"turn_id": "D10:4", "facts": [], "keywords": ["urban adventures", "empathy"], "entities": ["Andrew"]}
+{"turn_id": "D10:5", "facts": ["Audrey said seeing her dogs do well is rewarding and they give her so much love and happiness."], "keywords": ["dogs", "reward", "happiness", "love"], "entities": ["Audrey"]}
+{"turn_id": "D10:6", "facts": [], "keywords": ["dog breed", "question"], "entities": ["Andrew"]}
+{"turn_id": "D10:7", "facts": ["Audrey's four dogs are all mutts: two Jack Russell mixes and two Chihuahua mixes, who love running and playing fetch."], "keywords": ["dog breed", "jack russell", "chihuahua", "mutts", "fetch"], "entities": ["Audrey", "Jack Russell", "Chihuahua"]}
+{"turn_id": "D10:8", "facts": [], "keywords": ["dogs", "age", "question"], "entities": ["Andrew"]}
+{"turn_id": "D10:9", "facts": ["On 2023-07-03, Audrey said her four dogs are all 3 years old, are a great pack, and had a doggy playdate the previous Friday (around 2023-06-30)."], "keywords": ["dogs", "age", "playdate", "pack"], "entities": ["Audrey"]}
+{"turn_id": "D10:10", "facts": [], "keywords": ["playdates", "cute"], "entities": ["Andrew"]}
+{"turn_id": "D10:11", "facts": ["Audrey said her dogs are her universe."], "keywords": ["dogs", "love"], "entities": ["Audrey"]}
+{"turn_id": "D10:12", "facts": ["Andrew has been getting into cooking and trying out new recipes as a new hobby since he can't hike as much."], "keywords": ["cooking", "hobby", "recipes"], "entities": ["Andrew"]}
+{"turn_id": "D10:13", "facts": ["Audrey's favorite recipe is Chicken Pot Pie, a cozy family recipe, especially good on a cold day."], "keywords": ["cooking", "chicken pot pie", "recipe"], "entities": ["Audrey"]}
+{"turn_id": "D10:14", "facts": [], "keywords": ["recipe request"], "entities": ["Andrew"]}
+{"turn_id": "D10:15", "facts": ["Audrey's Chicken Pot Pie recipe has been in her family for years and reminds her of her grandma's kitchen and conversations at the table."], "keywords": ["chicken pot pie", "family recipe", "grandma", "memory"], "entities": ["Audrey"]}
+{"turn_id": "D10:16", "facts": ["Andrew said cooking has been helping him de-stress and be creative, though he is still a rookie."], "keywords": ["cooking", "de-stress", "creativity"], "entities": ["Andrew"]}
+{"turn_id": "D10:17", "facts": ["Audrey said cooking and experimenting in the kitchen is an escape for her that helps her de-stress and let her creativity flow."], "keywords": ["cooking", "de-stress", "creativity", "escape"], "entities": ["Audrey"]}
+{"turn_id": "D10:18", "facts": ["Andrew said cooking gives him an escape, lets him try new things, and is becoming one of his favorite hobbies."], "keywords": ["cooking", "escape", "hobby"], "entities": ["Andrew"]}
+{"turn_id": "D10:19", "facts": ["Audrey said she likes to play music and pour a glass of wine while cooking, calling it a therapeutic form of self-care."], "keywords": ["cooking", "wine", "music", "self-care"], "entities": ["Audrey"]}
+{"turn_id": "D10:20", "facts": [], "keywords": ["cooking", "ingredient", "question"], "entities": ["Andrew"]}
+{"turn_id": "D10:21", "facts": ["Audrey's go-to ingredient in the kitchen is garlic, because she loves the smell and taste it adds to dishes."], "keywords": ["garlic", "cooking", "ingredient"], "entities": ["Audrey"]}
+{"turn_id": "D10:22", "facts": [], "keywords": ["garlic", "recipe request"], "entities": ["Andrew"]}
+{"turn_id": "D10:23", "facts": ["Audrey said Roasted Chicken made with garlic is one of her favorite dishes and offered to send Andrew the recipe."], "keywords": ["roasted chicken", "garlic", "recipe"], "entities": ["Audrey"]}
+{"turn_id": "D10:24", "facts": [], "keywords": ["recipe", "question"], "entities": ["Andrew"]}
+{"turn_id": "D10:25", "facts": ["Audrey's Roasted Chicken recipe is based on Mediterranean flavors, made with chicken, garlic, lemon, and herbs, and is her favorite comfort meal."], "keywords": ["mediterranean", "roasted chicken", "recipe", "comfort food"], "entities": ["Audrey"]}
+{"turn_id": "D10:26", "facts": [], "keywords": ["healthy meals", "gratitude"], "entities": ["Andrew"]}
+{"turn_id": "D10:27", "facts": [], "keywords": ["recipe sharing"], "entities": ["Audrey"]}
+{"turn_id": "D10:28", "facts": [], "keywords": ["farewell"], "entities": ["Andrew"]}
+{"turn_id": "D10:29", "facts": [], "keywords": ["farewell"], "entities": ["Audrey"]}
+{"turn_id": "D11:1", "facts": ["On 2023-07-08, Andrew said that the previous Friday (around 2023-07-07) he had a picnic with his girlfriend and found it refreshing."], "keywords": ["picnic", "girlfriend", "nature"], "entities": ["Andrew"]}
+{"turn_id": "D11:2", "facts": ["On 2023-07-08, Audrey said she and her dogs had a great walk recently that felt really good."], "keywords": ["dog walk", "happiness"], "entities": ["Audrey"]}
+{"turn_id": "D11:3", "facts": [], "keywords": ["dogs", "apartment search", "question"], "entities": ["Andrew"]}
+{"turn_id": "D11:4", "facts": ["Audrey got her dogs by getting lucky finding a nearby breeder that had the dogs she wanted."], "keywords": ["breeder", "dogs", "adoption"], "entities": ["Audrey"]}
+{"turn_id": "D11:5", "facts": ["Andrew found a few parks where he could take a future dog on a leash, but wants an open area where a dog could run freely."], "keywords": ["dog-friendly parks", "leash", "open area"], "entities": ["Andrew"]}
+{"turn_id": "D11:6", "facts": ["Audrey suggested joining Andrew for a hike and bringing her dogs along so they could run freely."], "keywords": ["hiking", "dogs", "plans"], "entities": ["Audrey"]}
+{"turn_id": "D11:7", "facts": ["On 2023-07-08, Andrew proposed a hike with Audrey and her dogs the following month (around August 2023) and shared a trail he thought would be great for dogs."], "keywords": ["hiking", "plans", "trail", "dogs"], "entities": ["Andrew"]}
+{"turn_id": "D11:8", "facts": [], "keywords": ["hiking", "anticipation"], "entities": ["Audrey"]}
+{"turn_id": "D11:9", "facts": ["Andrew shared a map of a park with a lot of trees for the planned dog hiking trip."], "keywords": ["trail map", "hiking", "planning"], "entities": ["Andrew"]}
+{"turn_id": "D11:10", "facts": [], "keywords": ["trail", "plans"], "entities": ["Audrey"]}
+{"turn_id": "D11:11", "facts": [], "keywords": ["dog safety", "hiking"], "entities": ["Andrew"]}
+{"turn_id": "D11:12", "facts": ["Audrey said safety is top priority when her dogs are outside running around."], "keywords": ["dog safety", "priority"], "entities": ["Audrey"]}
+{"turn_id": "D11:13", "facts": [], "keywords": ["hiking", "dogs"], "entities": ["Andrew"]}
+{"turn_id": "D11:14", "facts": ["Audrey shared a photo of three of her dogs sitting on the floor with leashes on, ready for an outdoor adventure that day."], "keywords": ["dogs", "leashes", "adventure", "photo"], "entities": ["Audrey"]}
+{"turn_id": "D11:15", "facts": [], "keywords": ["dogs", "cute", "question"], "entities": ["Andrew"]}
+{"turn_id": "D11:16", "facts": [], "keywords": ["adventure", "dogs"], "entities": ["Audrey"]}
+{"turn_id": "D11:17", "facts": [], "keywords": ["anticipation"], "entities": ["Andrew"]}
+{"turn_id": "D11:18", "facts": [], "keywords": ["fun", "dogs"], "entities": ["Audrey"]}
+{"turn_id": "D11:19", "facts": [], "keywords": ["dogs", "daily life"], "entities": ["Andrew"]}
+{"turn_id": "D11:20", "facts": ["Audrey shared a photo of two of her dogs running in a field with a ball, saying they bring her so much joy."], "keywords": ["dogs", "joy", "photo"], "entities": ["Audrey"]}
+{"turn_id": "D11:21", "facts": [], "keywords": ["dogs", "park", "reward"], "entities": ["Andrew"]}
+{"turn_id": "D11:22", "facts": [], "keywords": ["happiness", "dogs"], "entities": ["Audrey"]}
+{"turn_id": "D11:23", "facts": [], "keywords": ["dogs", "photos", "happiness"], "entities": ["Andrew"]}
+{"turn_id": "D11:24", "facts": [], "keywords": ["energy", "dogs"], "entities": ["Audrey"]}
+{"turn_id": "D11:25", "facts": [], "keywords": ["hiking", "anticipation"], "entities": ["Andrew"]}
+{"turn_id": "D11:26", "facts": [], "keywords": ["hiking", "dogs"], "entities": ["Audrey"]}
+{"turn_id": "D11:27", "facts": [], "keywords": ["excitement", "hiking"], "entities": ["Andrew"]}
+{"turn_id": "D11:28", "facts": ["Audrey shared a photo of her dogs playing at their local park, saying she's sure the upcoming hike will be a great day."], "keywords": ["dogs", "local park", "photo", "hiking"], "entities": ["Audrey"]}
+{"turn_id": "D11:29", "facts": [], "keywords": ["outdoors", "cute"], "entities": ["Andrew"]}
+{"turn_id": "D11:30", "facts": ["Audrey shared a photo from a hike she went on the previous year (around 2022) with a pretty sunset."], "keywords": ["hiking", "sunset", "photo", "memory"], "entities": ["Audrey"]}
+{"turn_id": "D11:31", "facts": [], "keywords": ["hike location", "question"], "entities": ["Andrew"]}
+{"turn_id": "D11:32", "facts": ["Audrey hiked a trail the previous year that was a 3-hour drive from her, with an amazing sunset."], "keywords": ["hiking", "road trip", "sunset", "memory"], "entities": ["Audrey"]}
+{"turn_id": "D11:33", "facts": [], "keywords": ["sunset", "nature"], "entities": ["Andrew"]}
+{"turn_id": "D11:34", "facts": ["Audrey shared a photo of a lake and mountains at sunset, saying the vibrant colors and peacefulness made her grateful for the beauty of nature."], "keywords": ["lake", "mountains", "sunset", "gratitude", "photo"], "entities": ["Audrey"]}
+{"turn_id": "D11:35", "facts": [], "keywords": ["nature", "surprises"], "entities": ["Andrew"]}
+{"turn_id": "D11:36", "facts": ["Audrey said nature's vibrant colors give her a feeling of peace that is breathtaking."], "keywords": ["nature", "colors", "peace"], "entities": ["Audrey"]}
+{"turn_id": "D11:37", "facts": [], "keywords": ["life appreciation"], "entities": ["Andrew"]}
+{"turn_id": "D11:38", "facts": [], "keywords": ["gratitude", "appreciation"], "entities": ["Audrey"]}
+{"turn_id": "D12:1", "facts": ["On 2023-07-11, Andrew said he got a new puppy named Toby, deciding to bring him home despite living in the city."], "keywords": ["puppy", "toby", "adoption", "city living"], "entities": ["Andrew", "Toby"]}
+{"turn_id": "D12:2", "facts": [], "keywords": ["congratulations", "toby"], "entities": ["Audrey"]}
+{"turn_id": "D12:3", "facts": ["On 2023-07-11, Andrew said work has been piling up and he's been stuck inside, missing the peace and freedom of hiking."], "keywords": ["work stress", "hiking", "longing"], "entities": ["Andrew"]}
+{"turn_id": "D12:4", "facts": ["Audrey suggested planning a hiking trip together for both of them and their pups."], "keywords": ["hiking", "plans", "dogs"], "entities": ["Audrey"]}
+{"turn_id": "D12:5", "facts": ["Andrew has plans for a hike the following month (around August 2023) and invited Audrey and her dogs to join."], "keywords": ["hiking", "plans", "invitation"], "entities": ["Andrew"]}
+{"turn_id": "D12:6", "facts": ["On 2023-07-11, Audrey agreed to join the hike with her dogs and shared personalized wooden keychain tags with engraved names that she made for them."], "keywords": ["hiking", "personalized tags", "dogs", "crafts"], "entities": ["Audrey"]}
+{"turn_id": "D12:7", "facts": [], "keywords": ["tags", "question"], "entities": ["Andrew"]}
+{"turn_id": "D12:8", "facts": ["Audrey made the personalized dog tags herself, wanting each one to be special and fit her dogs' personalities."], "keywords": ["crafts", "personalized tags", "dogs"], "entities": ["Audrey"]}
+{"turn_id": "D12:9", "facts": [], "keywords": ["appreciation", "crafts"], "entities": ["Andrew"]}
+{"turn_id": "D12:10", "facts": ["Audrey said she put a lot of love into making the tags because she wants her pets to feel seen and loved."], "keywords": ["dogs", "love", "tags"], "entities": ["Audrey"]}
+{"turn_id": "D12:11", "facts": [], "keywords": ["pets", "care"], "entities": ["Andrew"]}
+{"turn_id": "D12:12", "facts": [], "keywords": ["love", "pets", "relationship"], "entities": ["Audrey"]}
+{"turn_id": "D12:13", "facts": ["Andrew is looking forward to Toby meeting Audrey's dogs on their upcoming hike."], "keywords": ["toby", "hiking", "dogs", "meeting"], "entities": ["Andrew", "Toby"]}
+{"turn_id": "D12:14", "facts": [], "keywords": ["anticipation", "hiking"], "entities": ["Audrey"]}
+{"turn_id": "D12:15", "facts": [], "keywords": ["hiking", "adventure"], "entities": ["Andrew"]}
+{"turn_id": "D12:16", "facts": [], "keywords": ["hiking", "countdown"], "entities": ["Audrey"]}
+{"turn_id": "D12:17", "facts": [], "keywords": ["farewell"], "entities": ["Andrew"]}
+{"turn_id": "D13:1", "facts": ["On 2023-07-27, Andrew said he and his girlfriend volunteered at a pet shelter the previous Monday (around 2023-07-24), which he found rewarding."], "keywords": ["pet shelter", "volunteering", "girlfriend"], "entities": ["Andrew"]}
+{"turn_id": "D13:2", "facts": [], "keywords": ["volunteering", "pet shelter"], "entities": ["Audrey"]}
+{"turn_id": "D13:3", "facts": [], "keywords": ["shelter", "volunteering", "question"], "entities": ["Andrew"]}
+{"turn_id": "D13:4", "facts": ["Audrey has never volunteered at an animal shelter before, and said her four dogs are more important to her than anything."], "keywords": ["animal shelter", "dogs", "priorities"], "entities": ["Audrey"]}
+{"turn_id": "D13:5", "facts": [], "keywords": ["dog personalities", "question"], "entities": ["Andrew"]}
+{"turn_id": "D13:6", "facts": ["Audrey described her four dogs' personalities: the oldest is relaxed like a wise sage, the second is always ready for a game, the third can be naughty but loves cuddles, and the youngest is full of life and always up for adventure."], "keywords": ["dog personalities", "dogs"], "entities": ["Audrey"]}
+{"turn_id": "D13:7", "facts": [], "keywords": ["dog personalities", "photo"], "entities": ["Andrew"]}
+{"turn_id": "D13:8", "facts": ["Audrey's childhood dog was named Max, who had lots of energy and loved playing fetch."], "keywords": ["max", "childhood dog", "fetch"], "entities": ["Audrey", "Max"]}
+{"turn_id": "D13:9", "facts": [], "keywords": ["pets", "memories", "question"], "entities": ["Andrew"]}
+{"turn_id": "D13:10", "facts": ["Audrey said she and her childhood dog Max would take long walks in the neighborhood, explored new paths together, and she shared her worries and hopes with him."], "keywords": ["max", "childhood", "walks", "memories"], "entities": ["Audrey", "Max"]}
+{"turn_id": "D13:11", "facts": [], "keywords": ["pets", "friendship"], "entities": ["Andrew"]}
+{"turn_id": "D13:12", "facts": ["Audrey said pets give unconditional love without judgment and she is thankful to have them around."], "keywords": ["pets", "unconditional love", "gratitude"], "entities": ["Audrey"]}
+{"turn_id": "D13:13", "facts": ["Andrew said volunteering with animals at the pet shelter has been one of the most rewarding things he's ever done."], "keywords": ["volunteering", "pet shelter", "reward"], "entities": ["Andrew"]}
+{"turn_id": "D13:14", "facts": [], "keywords": ["animals", "gratitude"], "entities": ["Audrey"]}
+{"turn_id": "D13:15", "facts": ["Andrew said he and his girlfriend had a blast volunteering, calling it their way of giving back."], "keywords": ["volunteering", "giving back", "girlfriend"], "entities": ["Andrew"]}
+{"turn_id": "D13:16", "facts": [], "keywords": ["kindness", "volunteering"], "entities": ["Audrey"]}
+{"turn_id": "D14:1", "facts": ["On 2023-08-04, Andrew said he, his girlfriend, and his puppy Toby are going camping that weekend."], "keywords": ["camping", "toby", "girlfriend", "weekend plans"], "entities": ["Andrew", "Toby"]}
+{"turn_id": "D14:2", "facts": ["On 2023-08-04, Audrey said she started agility classes with her dogs at a dog park, enjoying watching them learn and build relationships with other dogs."], "keywords": ["agility classes", "dog park", "dogs"], "entities": ["Audrey"]}
+{"turn_id": "D14:3", "facts": [], "keywords": ["agility", "dogs", "obstacles"], "entities": ["Andrew"]}
+{"turn_id": "D14:4", "facts": ["Audrey takes her dogs to the park twice a week for agility practice, which has been a great bonding experience."], "keywords": ["agility", "dog park", "bonding", "routine"], "entities": ["Audrey"]}
+{"turn_id": "D14:5", "facts": ["Andrew shared a photo of a dirt trail in the woods he was just hiking."], "keywords": ["hiking", "trail", "photo"], "entities": ["Andrew"]}
+{"turn_id": "D14:6", "facts": ["Audrey shared a photo of herself walking her dogs on a trail hike."], "keywords": ["hiking", "dogs", "photo"], "entities": ["Audrey"]}
+{"turn_id": "D14:7", "facts": [], "keywords": ["hike length", "question"], "entities": ["Andrew"]}
+{"turn_id": "D14:8", "facts": ["On 2023-08-04, Audrey said her recent trail hike with her dogs took two hours and had stunning views."], "keywords": ["hiking", "trail", "duration", "views"], "entities": ["Audrey"]}
+{"turn_id": "D14:9", "facts": [], "keywords": ["nature", "appreciation"], "entities": ["Andrew"]}
+{"turn_id": "D14:10", "facts": [], "keywords": ["nature", "outdoor activities", "question"], "entities": ["Audrey"]}
+{"turn_id": "D14:11", "facts": ["Andrew said hiking is his favorite outdoor activity, and reaching the top of a challenging trail makes his worries feel like they vanish."], "keywords": ["hiking", "favorite activity", "achievement"], "entities": ["Andrew"]}
+{"turn_id": "D14:12", "facts": [], "keywords": ["achievement", "nature"], "entities": ["Audrey"]}
+{"turn_id": "D14:13", "facts": ["Andrew said nature calms him down and relaxes his mind, offering a break from the craziness of city living."], "keywords": ["nature", "calm", "city living"], "entities": ["Andrew"]}
+{"turn_id": "D14:14", "facts": ["Audrey said her pets have been her good buddies during tough times and make her very happy."], "keywords": ["pets", "support", "happiness"], "entities": ["Audrey"]}
+{"turn_id": "D14:15", "facts": [], "keywords": ["bonding", "sharing"], "entities": ["Andrew"]}
+{"turn_id": "D14:16", "facts": ["Audrey said she is blessed to have her furry friends in her life, calling them her companions who always make her day better."], "keywords": ["pets", "companionship", "gratitude"], "entities": ["Audrey"]}
+{"turn_id": "D14:17", "facts": ["Andrew said he hopes to one day have a deep bond with Toby like the bond Audrey has with her dogs."], "keywords": ["toby", "bonding", "hope"], "entities": ["Andrew", "Toby"]}
+{"turn_id": "D14:18", "facts": [], "keywords": ["toby", "dog breed", "question"], "entities": ["Audrey", "Toby"]}
+{"turn_id": "D14:19", "facts": ["Andrew's puppy Toby is a German Shepherd, which he says are smart and loyal."], "keywords": ["toby", "german shepherd", "breed"], "entities": ["Andrew", "Toby", "German Shepherd"]}
+{"turn_id": "D14:20", "facts": [], "keywords": ["german shepherd", "loyalty"], "entities": ["Audrey"]}
+{"turn_id": "D14:21", "facts": ["Andrew said he should take Toby hiking since German Shepherds would make great hiking buddies."], "keywords": ["toby", "hiking", "german shepherd"], "entities": ["Andrew", "Toby"]}
+{"turn_id": "D14:22", "facts": [], "keywords": ["german shepherd", "hiking", "trails"], "entities": ["Audrey"]}
+{"turn_id": "D14:23", "facts": [], "keywords": ["city living", "advice", "question"], "entities": ["Andrew"]}
+{"turn_id": "D14:24", "facts": ["Audrey advised that city-dwelling dog owners need enough time and energy for a pup, especially a high-energy breed like a German Shepherd such as Toby."], "keywords": ["advice", "dog ownership", "german shepherd", "toby"], "entities": ["Audrey", "Toby"]}
+{"turn_id": "D14:25", "facts": ["Andrew said he wants to make sure he gives Toby enough exercise and doesn't limit his growth."], "keywords": ["toby", "exercise", "care"], "entities": ["Andrew", "Toby"]}
+{"turn_id": "D14:26", "facts": [], "keywords": ["encouragement", "toby"], "entities": ["Audrey"]}
+{"turn_id": "D14:27", "facts": ["Andrew planned to take Toby out for a small hike at a local trail."], "keywords": ["toby", "hiking", "plans"], "entities": ["Andrew", "Toby"]}
+{"turn_id": "D15:1", "facts": ["On 2023-08-16, Audrey said she got another tattoo, this one of her four dogs, on her arm."], "keywords": ["tattoo", "dogs", "arm"], "entities": ["Audrey"]}
+{"turn_id": "D15:2", "facts": ["On 2023-08-16, Andrew said he recently went to a farm with his girlfriend to get fresh veggies for dinner."], "keywords": ["farm", "veggies", "girlfriend"], "entities": ["Andrew"]}
+{"turn_id": "D15:3", "facts": ["Audrey said four dogs is enough for her for now, and that she recently took all four to the vet for checkups, which was chaotic enough that she'll bring them one by one next time."], "keywords": ["dogs", "vet", "checkup", "chaos"], "entities": ["Audrey"]}
+{"turn_id": "D15:4", "facts": [], "keywords": ["vet trip", "favorite spot", "question"], "entities": ["Andrew"]}
+{"turn_id": "D15:5", "facts": ["Audrey's dogs each have a favorite spot to relax: Pepper lounges on the couch, Pixie curls up in her bed, Precious has her chair, and Panda relaxes on his rug."], "keywords": ["dogs", "favorite spots", "pepper", "pixie", "precious", "panda"], "entities": ["Audrey", "Pepper", "Pixie", "Precious", "Panda"]}
+{"turn_id": "D15:6", "facts": ["Andrew shared a photo of Toby at his favorite spot, laying on a fluffy blanket."], "keywords": ["toby", "favorite spot", "photo"], "entities": ["Andrew", "Toby"]}
+{"turn_id": "D15:7", "facts": ["Audrey shared a photo of two of her dogs snuggling together on her favorite blanket."], "keywords": ["dogs", "blanket", "photo", "snuggling"], "entities": ["Audrey"]}
+{"turn_id": "D15:8", "facts": [], "keywords": ["dogs", "sleeping", "question"], "entities": ["Andrew"]}
+{"turn_id": "D15:9", "facts": ["Audrey said her dogs always cuddle up together, especially at nap time, calling them best friends."], "keywords": ["dogs", "cuddling", "best friends"], "entities": ["Audrey"]}
+{"turn_id": "D15:10", "facts": [], "keywords": ["companionship", "dogs"], "entities": ["Andrew"]}
+{"turn_id": "D15:11", "facts": ["Audrey said her dogs are always there for each other and seeing them together makes her very happy."], "keywords": ["dogs", "companionship", "happiness"], "entities": ["Audrey"]}
+{"turn_id": "D15:12", "facts": [], "keywords": ["happiness", "pets"], "entities": ["Andrew"]}
+{"turn_id": "D15:13", "facts": ["Audrey said her dogs mean the world to her and she can't imagine life without them."], "keywords": ["dogs", "love"], "entities": ["Audrey"]}
+{"turn_id": "D15:14", "facts": [], "keywords": ["pets", "family"], "entities": ["Andrew"]}
+{"turn_id": "D15:15", "facts": ["Audrey shared a photo of herself lying on the grass with her dogs."], "keywords": ["dogs", "grass", "photo"], "entities": ["Audrey"]}
+{"turn_id": "D15:16", "facts": [], "keywords": ["outdoors", "fun"], "entities": ["Andrew"]}
+{"turn_id": "D15:17", "facts": [], "keywords": ["fun day", "outdoors"], "entities": ["Audrey"]}
+{"turn_id": "D15:18", "facts": [], "keywords": ["memories", "encouragement"], "entities": ["Andrew"]}
+{"turn_id": "D15:19", "facts": ["Audrey said she will always cherish the moments spent outdoors with her dogs, saying they make life so much brighter."], "keywords": ["dogs", "memories", "gratitude"], "entities": ["Audrey"]}
+{"turn_id": "D16:1", "facts": ["On 2023-08-19, Andrew said he took a break from work the previous day (around 2023-08-18) to check out a new cafe and shared a photo from his last hike."], "keywords": ["cafe", "break from work", "hiking", "photo"], "entities": ["Andrew"]}
+{"turn_id": "D16:2", "facts": ["On 2023-08-19, Audrey said she learned dog grooming as a new skill in August 2023, saying it helps her feel closer to her dogs."], "keywords": ["dog grooming", "new skill", "bonding"], "entities": ["Audrey"]}
+{"turn_id": "D16:3", "facts": [], "keywords": ["grooming", "photo request"], "entities": ["Andrew"]}
+{"turn_id": "D16:4", "facts": ["Audrey shared a photo of her dogs after grooming, looking soft and fluffy."], "keywords": ["grooming", "dogs", "photo"], "entities": ["Audrey"]}
+{"turn_id": "D16:5", "facts": [], "keywords": ["grooming", "compliment", "question"], "entities": ["Andrew"]}
+{"turn_id": "D16:6", "facts": ["Audrey took a dog grooming course to learn grooming techniques."], "keywords": ["dog grooming", "course", "learning"], "entities": ["Audrey"]}
+{"turn_id": "D16:7", "facts": [], "keywords": ["grooming tips", "interest"], "entities": ["Andrew"]}
+{"turn_id": "D16:8", "facts": ["Audrey's dog grooming tips are to groom slowly and gently, pay attention to sensitive areas like ears and paws, and stay patient and positive."], "keywords": ["grooming tips", "dogs", "technique"], "entities": ["Audrey"]}
+{"turn_id": "D16:9", "facts": ["Andrew said he would remember Audrey's grooming tips if he ever grooms Toby."], "keywords": ["grooming tips", "toby"], "entities": ["Andrew", "Toby"]}
+{"turn_id": "D16:10", "facts": [], "keywords": ["grooming advice", "offer"], "entities": ["Audrey"]}
+{"turn_id": "D16:11", "facts": [], "keywords": ["weekend plans", "question"], "entities": ["Andrew"]}
+{"turn_id": "D16:12", "facts": ["Audrey planned to take her dogs out for a stroll in the park over the weekend."], "keywords": ["dog walk", "park", "weekend plans"], "entities": ["Audrey"]}
+{"turn_id": "D16:13", "facts": ["Andrew planned to go to a nature reserve that weekend to reconnect with the outdoors."], "keywords": ["nature reserve", "weekend plans", "outdoors"], "entities": ["Andrew"]}
+{"turn_id": "D16:14", "facts": [], "keywords": ["nature", "photos"], "entities": ["Audrey"]}
+{"turn_id": "D16:15", "facts": [], "keywords": ["photos", "plans"], "entities": ["Andrew"]}
+{"turn_id": "D16:16", "facts": [], "keywords": ["hiking photos", "compliment"], "entities": ["Audrey"]}
+{"turn_id": "D16:17", "facts": [], "keywords": ["capturing moments"], "entities": ["Andrew"]}
+{"turn_id": "D16:18", "facts": ["Audrey shared a photo of two of her dogs running in a field with a ball, wishing Andrew a fun nature reserve trip."], "keywords": ["dogs", "photo", "farewell"], "entities": ["Audrey"]}
+{"turn_id": "D16:19", "facts": [], "keywords": ["farewell"], "entities": ["Andrew"]}
+{"turn_id": "D17:1", "facts": ["On 2023-08-24, Andrew said that the previous weekend (around 2023-08-19) he and his girlfriend went fishing at a nearby lake and caught a few fish."], "keywords": ["fishing", "girlfriend", "lake"], "entities": ["Andrew"]}
+{"turn_id": "D17:2", "facts": ["Audrey has never been fishing before, but recalled sitting by a gorgeous, peaceful lake in the mountains with friends a few years back."], "keywords": ["fishing", "lake", "mountains", "memory"], "entities": ["Audrey"]}
+{"turn_id": "D17:3", "facts": [], "keywords": ["mountain life", "grooming", "question"], "entities": ["Andrew"]}
+{"turn_id": "D17:4", "facts": ["Audrey said regular grooming for her dogs includes daily brushing, regular baths, nail trims, and lots of love to keep them healthy and happy."], "keywords": ["grooming", "dog care", "routine"], "entities": ["Audrey"]}
+{"turn_id": "D17:5", "facts": [], "keywords": ["dog care", "compliment"], "entities": ["Andrew"]}
+{"turn_id": "D17:6", "facts": ["Audrey said taking care of her dogs is a big responsibility that she takes seriously, and it makes her very happy though tough at times."], "keywords": ["dog care", "responsibility", "happiness"], "entities": ["Audrey"]}
+{"turn_id": "D17:7", "facts": [], "keywords": ["reward", "positive impact"], "entities": ["Andrew"]}
+{"turn_id": "D17:8", "facts": ["Audrey said her dogs make her really happy and she has a strong bond with them."], "keywords": ["dogs", "bond", "happiness"], "entities": ["Audrey"]}
+{"turn_id": "D17:9", "facts": ["Andrew said he hopes to have as strong a bond with Toby as Audrey has with her dogs."], "keywords": ["toby", "bond", "hope"], "entities": ["Andrew", "Toby"]}
+{"turn_id": "D17:10", "facts": [], "keywords": ["luck", "bond"], "entities": ["Audrey"]}
+{"turn_id": "D17:11", "facts": ["Andrew shared a photo of Toby sleeping in his dog bed, saying he can't wait to bond better with him."], "keywords": ["toby", "photo", "bonding"], "entities": ["Andrew", "Toby"]}
+{"turn_id": "D17:12", "facts": [], "keywords": ["tips offer", "toby"], "entities": ["Audrey", "Toby"]}
+{"turn_id": "D17:13", "facts": [], "keywords": ["independence", "gratitude"], "entities": ["Andrew"]}
+{"turn_id": "D17:14", "facts": ["Audrey advised Andrew that forming a bond with a dog takes time and not to rush it."], "keywords": ["advice", "bonding", "patience"], "entities": ["Audrey"]}
+{"turn_id": "D17:15", "facts": [], "keywords": ["gratitude", "advice"], "entities": ["Andrew"]}
+{"turn_id": "D17:16", "facts": [], "keywords": ["support", "advice offer"], "entities": ["Audrey"]}
+{"turn_id": "D17:17", "facts": ["Andrew shared a photo of Toby sitting on the floor with a leash on."], "keywords": ["toby", "photo"], "entities": ["Andrew", "Toby"]}
+{"turn_id": "D17:18", "facts": [], "keywords": ["toby", "cute"], "entities": ["Audrey", "Toby"]}
+{"turn_id": "D17:19", "facts": [], "keywords": ["toby", "love"], "entities": ["Andrew", "Toby"]}
+{"turn_id": "D17:20", "facts": [], "keywords": ["toby", "adventures"], "entities": ["Audrey", "Toby"]}
+{"turn_id": "D17:21", "facts": ["Andrew said he and Toby are going to have a blast exploring outdoors."], "keywords": ["toby", "outdoors", "plans"], "entities": ["Andrew", "Toby"]}
+{"turn_id": "D18:1", "facts": ["On 2023-09-06, Andrew said work has been tough and stressful, causing his outdoor activities to take a backseat and making it hard to find balance."], "keywords": ["work stress", "balance", "outdoor activities"], "entities": ["Andrew"]}
+{"turn_id": "D18:2", "facts": [], "keywords": ["support", "self-care"], "entities": ["Audrey"]}
+{"turn_id": "D18:3", "facts": [], "keywords": ["work stress", "question"], "entities": ["Andrew"]}
+{"turn_id": "D18:4", "facts": ["Audrey makes sure to do at least one self-care activity each day, like treating herself to something nice."], "keywords": ["self-care", "routine"], "entities": ["Audrey"]}
+{"turn_id": "D18:5", "facts": ["Andrew has been adding small self-care habits to his day, like grabbing a coffee in the morning or going for a walk at lunch, to help him recharge."], "keywords": ["self-care", "coffee", "walk", "recharge"], "entities": ["Andrew"]}
+{"turn_id": "D18:6", "facts": ["On 2023-09-06, Audrey said she recently organized a doggy playdate with the neighbors' dogs."], "keywords": ["doggy playdate", "neighbors", "dogs"], "entities": ["Audrey"]}
+{"turn_id": "D18:7", "facts": [], "keywords": ["playdate", "photo request"], "entities": ["Andrew"]}
+{"turn_id": "D18:8", "facts": ["Audrey shared a photo from the neighborhood doggy playdate, saying it made her heart feel full."], "keywords": ["playdate", "photo", "joy"], "entities": ["Audrey"]}
+{"turn_id": "D18:9", "facts": [], "keywords": ["heartwarming", "joy"], "entities": ["Andrew"]}
+{"turn_id": "D18:10", "facts": ["On 2023-09-06, Audrey said that the previous week she got new beds for her dogs to give them extra comfort as the weather cools down."], "keywords": ["dog beds", "comfort", "weather"], "entities": ["Audrey"]}
+{"turn_id": "D18:11", "facts": [], "keywords": ["dog beds", "photo request"], "entities": ["Andrew"]}
+{"turn_id": "D18:12", "facts": ["Audrey shared a photo of her dogs' new cozy beds."], "keywords": ["dog beds", "photo", "cozy"], "entities": ["Audrey"]}
+{"turn_id": "D18:13", "facts": [], "keywords": ["dog beds", "question"], "entities": ["Andrew"]}
+{"turn_id": "D18:14", "facts": ["Audrey said her dogs curl up and snuggle in their new beds like they're in a cloud."], "keywords": ["dog beds", "snuggle", "cozy"], "entities": ["Audrey"]}
+{"turn_id": "D18:15", "facts": ["On 2023-09-06, Andrew said that the previous weekend (around 2023-09-02) he went on a hike and shared a photo of a beautiful sunset he witnessed."], "keywords": ["hiking", "sunset", "photo", "weekend"], "entities": ["Andrew"]}
+{"turn_id": "D18:16", "facts": [], "keywords": ["hiking with toby", "question"], "entities": ["Audrey", "Toby"]}
+{"turn_id": "D18:17", "facts": ["Andrew has been wanting to hike with Toby but finds it difficult since Toby is still young."], "keywords": ["toby", "hiking", "puppy"], "entities": ["Andrew", "Toby"]}
+{"turn_id": "D18:18", "facts": [], "keywords": ["dog-friendly housing", "question"], "entities": ["Audrey"]}
+{"turn_id": "D18:19", "facts": ["On 2023-09-06, Andrew said he still has not found a dog-friendly place to live and it has been challenging."], "keywords": ["dog-friendly housing", "challenge"], "entities": ["Andrew"]}
+{"turn_id": "D18:20", "facts": [], "keywords": ["encouragement", "housing search"], "entities": ["Audrey"]}
+{"turn_id": "D18:21", "facts": [], "keywords": ["housing search", "gratitude"], "entities": ["Andrew"]}
+{"turn_id": "D18:22", "facts": [], "keywords": ["encouragement", "farewell"], "entities": ["Audrey"]}
+{"turn_id": "D19:1", "facts": [], "keywords": ["greeting", "catching up"], "entities": ["Andrew"]}
+{"turn_id": "D19:2", "facts": ["On 2023-09-24, Audrey said that the previous Friday (around 2023-09-22) at the park one of her dogs pulled so hard on the leash that it broke, and she had to chase after the dog to keep her safe."], "keywords": ["dog", "leash", "park", "scare"], "entities": ["Audrey"]}
+{"turn_id": "D19:3", "facts": [], "keywords": ["dog", "fear", "question"], "entities": ["Andrew", "Precious"]}
+{"turn_id": "D19:4", "facts": ["Audrey calmed her scared dog by petting and hugging her, speaking calmly, and slowly walking her to relax."], "keywords": ["dog", "calming", "comfort", "bond"], "entities": ["Audrey"]}
+{"turn_id": "D19:5", "facts": [], "keywords": ["bond", "advice", "question"], "entities": ["Andrew", "Toby"]}
+{"turn_id": "D19:6", "facts": ["Audrey said building trust with dogs requires patience and regular training, giving them time, love, and praising their successes."], "keywords": ["dog training", "trust", "patience", "advice"], "entities": ["Audrey"]}
+{"turn_id": "D19:7", "facts": [], "keywords": ["training", "bonding"], "entities": ["Andrew"]}
+{"turn_id": "D19:8", "facts": ["Audrey works on obedience training with her dogs, teaching them tricks like sit, stay, shake, and roll over."], "keywords": ["obedience training", "tricks", "dogs"], "entities": ["Audrey"]}
+{"turn_id": "D19:9", "facts": [], "keywords": ["tricks", "walks", "question"], "entities": ["Andrew"]}
+{"turn_id": "D19:10", "facts": ["Audrey walks her dogs very often, multiple times a day, as exercise and bonding time."], "keywords": ["dog walks", "exercise", "bonding", "routine"], "entities": ["Audrey"]}
+{"turn_id": "D19:11", "facts": [], "keywords": ["dog breeds", "bonding", "question"], "entities": ["Andrew"]}
+{"turn_id": "D19:12", "facts": ["Audrey's four dogs are all mutts: two Jack Russell mixes and two Chihuahua mixes."], "keywords": ["dog breed", "jack russell", "chihuahua", "mutts"], "entities": ["Audrey", "Jack Russell", "Chihuahua"]}
+{"turn_id": "D19:13", "facts": [], "keywords": ["cute", "dogs"], "entities": ["Andrew"]}
+{"turn_id": "D19:14", "facts": [], "keywords": ["joy", "dogs"], "entities": ["Audrey"]}
+{"turn_id": "D19:15", "facts": ["Andrew shared a photo of flowers he has been taking care of on his balcony."], "keywords": ["flowers", "balcony", "gardening", "photo"], "entities": ["Andrew"]}
+{"turn_id": "D19:16", "facts": ["Audrey said she also has a small garden, which relaxes her and brings her peace."], "keywords": ["gardening", "relaxation", "peace"], "entities": ["Audrey"]}
+{"turn_id": "D19:17", "facts": [], "keywords": ["garden", "question"], "entities": ["Andrew"]}
+{"turn_id": "D19:18", "facts": ["Audrey said her garden is going great, with the flowers looking great and her veggie patch coming along."], "keywords": ["garden", "flowers", "veggie patch"], "entities": ["Audrey"]}
+{"turn_id": "D19:19", "facts": [], "keywords": ["flowers", "question"], "entities": ["Andrew"]}
+{"turn_id": "D19:20", "facts": ["Audrey's garden flowers are Peruvian Lilies, which have bright colors and delicate petals."], "keywords": ["peruvian lilies", "flowers", "garden"], "entities": ["Audrey", "Peruvian Lilies"]}
+{"turn_id": "D19:21", "facts": [], "keywords": ["flowers", "care", "question"], "entities": ["Andrew"]}
+{"turn_id": "D19:22", "facts": ["Audrey said Peruvian Lilies are easy to care for, just needing water and enough sun."], "keywords": ["peruvian lilies", "gardening", "care"], "entities": ["Audrey", "Peruvian Lilies"]}
+{"turn_id": "D19:23", "facts": [], "keywords": ["garden", "dogs", "question"], "entities": ["Andrew"]}
+{"turn_id": "D19:24", "facts": ["Audrey said her dogs enjoy playing in the garden, running around and exploring."], "keywords": ["dogs", "garden", "play"], "entities": ["Audrey"]}
+{"turn_id": "D19:25", "facts": [], "keywords": ["dogs", "playmates", "question"], "entities": ["Andrew"]}
+{"turn_id": "D19:26", "facts": ["Audrey said her dogs only play with each other, not other furry pals."], "keywords": ["dogs", "playmates"], "entities": ["Audrey"]}
+{"turn_id": "D19:27", "facts": [], "keywords": ["bond", "companionship"], "entities": ["Andrew"]}
+{"turn_id": "D19:28", "facts": ["Audrey said she can't imagine life without her dogs, and they mean everything to her."], "keywords": ["dogs", "love", "meaning"], "entities": ["Audrey"]}
+{"turn_id": "D19:29", "facts": [], "keywords": ["photo", "joy"], "entities": ["Andrew"]}
+{"turn_id": "D19:30", "facts": ["Audrey said her dogs bring loads of love and happiness and are everything to her."], "keywords": ["dogs", "love", "happiness"], "entities": ["Audrey"]}
+{"turn_id": "D20:1", "facts": ["On 2023-10-01, Andrew said he, his girlfriend, and Toby are planning a beach trip the following month (around November 2023)."], "keywords": ["beach trip", "toby", "girlfriend", "plans"], "entities": ["Andrew", "Toby"]}
+{"turn_id": "D20:2", "facts": ["On 2023-10-01, Audrey said she is looking forward to a hike with her dogs planned for the following month (around November 2023)."], "keywords": ["hiking", "dogs", "plans"], "entities": ["Audrey"]}
+{"turn_id": "D20:3", "facts": [], "keywords": ["hiking", "anticipation"], "entities": ["Andrew"]}
+{"turn_id": "D20:4", "facts": ["Audrey said taking her dogs for a walk in the park helps clear her mind and find peace, which has been helpful during a tough time lately."], "keywords": ["dog walk", "park", "peace", "stress relief"], "entities": ["Audrey"]}
+{"turn_id": "D20:5", "facts": [], "keywords": ["dog park", "location", "question"], "entities": ["Andrew"]}
+{"turn_id": "D20:6", "facts": ["On 2023-10-01, Audrey said that the previous Saturday (around 2023-09-30) she took her dogs to a nearby dog park with a big grassy area and shaded spots."], "keywords": ["dog park", "grassy area", "weekend"], "entities": ["Audrey"]}
+{"turn_id": "D20:7", "facts": [], "keywords": ["hiking", "anticipation"], "entities": ["Andrew"]}
+{"turn_id": "D20:8", "facts": ["Audrey said being out in nature and checking out new trails with her dogs feels very different from being in the city."], "keywords": ["nature", "trails", "city", "dogs"], "entities": ["Audrey"]}
+{"turn_id": "D20:9", "facts": [], "keywords": ["nature", "refreshing"], "entities": ["Andrew"]}
+{"turn_id": "D20:10", "facts": [], "keywords": ["birds", "freedom", "question"], "entities": ["Audrey"]}
+{"turn_id": "D20:11", "facts": ["Andrew has seen birds up close and finds it amazing how they fly with grace and freedom."], "keywords": ["birds", "freedom", "nature"], "entities": ["Andrew"]}
+{"turn_id": "D20:12", "facts": ["Audrey said she loves how birds can fly and explore, wishing she had that kind of freedom."], "keywords": ["birds", "freedom", "wish"], "entities": ["Audrey"]}
+{"turn_id": "D20:13", "facts": [], "keywords": ["birds", "appreciation"], "entities": ["Andrew"]}
+{"turn_id": "D20:14", "facts": ["Audrey said she has been wanting to do some birdwatching, finding it peaceful and calming."], "keywords": ["birdwatching", "peace", "plans"], "entities": ["Audrey"]}
+{"turn_id": "D20:15", "facts": ["Andrew offered Audrey birdwatching advice and suggested they could all go birdwatching together sometime."], "keywords": ["birdwatching", "offer", "plans"], "entities": ["Andrew"]}
+{"turn_id": "D20:16", "facts": ["Audrey is using a book with bird watching guides to learn about birdwatching."], "keywords": ["birdwatching", "book", "learning"], "entities": ["Audrey"]}
+{"turn_id": "D20:17", "facts": ["Andrew suggested planning a birdwatching trip together with Audrey."], "keywords": ["birdwatching", "plans"], "entities": ["Andrew"]}
+{"turn_id": "D20:18", "facts": [], "keywords": ["birdwatching", "scheduling"], "entities": ["Audrey"]}
+{"turn_id": "D20:19", "facts": [], "keywords": ["birdwatching", "excitement"], "entities": ["Andrew"]}
+{"turn_id": "D20:20", "facts": ["Audrey planned to learn some of the common birds in her area, using binoculars and a bird book."], "keywords": ["birdwatching", "binoculars", "learning"], "entities": ["Audrey"]}
+{"turn_id": "D20:21", "facts": ["Andrew planned to bring his binoculars and a notebook to log birds during the planned birdwatching trip."], "keywords": ["birdwatching", "binoculars", "notebook", "plans"], "entities": ["Andrew"]}
+{"turn_id": "D20:22", "facts": [], "keywords": ["preparation", "experience"], "entities": ["Audrey"]}
+{"turn_id": "D20:23", "facts": ["Andrew enjoys watching birds in nature and has read books about ecological systems."], "keywords": ["birdwatching", "ecology", "reading"], "entities": ["Andrew"]}
+{"turn_id": "D20:24", "facts": [], "keywords": ["ecology", "books", "question"], "entities": ["Audrey"]}
+{"turn_id": "D20:25", "facts": ["Andrew said he learned a lot about animals, plants, and ecosystems from reading ecology books, finding it fascinating how it all works together."], "keywords": ["ecology", "animals", "plants", "ecosystems"], "entities": ["Andrew"]}
+{"turn_id": "D20:26", "facts": [], "keywords": ["nature", "appreciation"], "entities": ["Audrey"]}
+{"turn_id": "D20:27", "facts": ["Andrew said nature is all connected and humans need to look after it."], "keywords": ["nature", "environment", "stewardship"], "entities": ["Andrew"]}
+{"turn_id": "D20:28", "facts": [], "keywords": ["nature", "stewardship"], "entities": ["Audrey"]}
+{"turn_id": "D20:29", "facts": [], "keywords": ["future generations"], "entities": ["Andrew"]}
+{"turn_id": "D20:30", "facts": [], "keywords": ["future generations", "resources"], "entities": ["Audrey"]}
+{"turn_id": "D20:31", "facts": [], "keywords": ["recycling", "question"], "entities": ["Andrew"]}
+{"turn_id": "D20:32", "facts": ["Audrey said she recycles because she believes it is important to do her part for the environment."], "keywords": ["recycling", "environment"], "entities": ["Audrey"]}
+{"turn_id": "D20:33", "facts": ["Andrew suggested reducing carbon footprint by biking or using public transport."], "keywords": ["carbon footprint", "biking", "public transport"], "entities": ["Andrew"]}
+{"turn_id": "D20:34", "facts": ["Audrey usually takes public transport and said biking sounds like a fun way to reduce her carbon footprint."], "keywords": ["public transport", "biking", "carbon footprint"], "entities": ["Audrey"]}
+{"turn_id": "D20:35", "facts": [], "keywords": ["biking", "environment"], "entities": ["Andrew"]}
+{"turn_id": "D20:36", "facts": [], "keywords": ["biking", "routes", "question"], "entities": ["Audrey"]}
+{"turn_id": "D20:37", "facts": ["Andrew knows some good biking routes near the river."], "keywords": ["biking routes", "river"], "entities": ["Andrew"]}
+{"turn_id": "D20:38", "facts": [], "keywords": ["bike routes"], "entities": ["Audrey"]}
+{"turn_id": "D20:39", "facts": [], "keywords": ["bike routes", "scenery"], "entities": ["Andrew"]}
+{"turn_id": "D20:40", "facts": [], "keywords": ["bike routes", "anticipation"], "entities": ["Audrey"]}
+{"turn_id": "D21:1", "facts": [], "keywords": ["greeting"], "entities": ["Andrew"]}
+{"turn_id": "D21:2", "facts": ["On 2023-10-04, Audrey said that over the weekend (around 2023-09-30) she took her dogs to the beach and they had fun playing in the ocean."], "keywords": ["beach", "dogs", "ocean", "weekend"], "entities": ["Audrey"]}
+{"turn_id": "D21:3", "facts": ["Andrew shared a photo from his last trip to the beach with a surfboard."], "keywords": ["beach", "surfboard", "photo"], "entities": ["Andrew"]}
+{"turn_id": "D21:4", "facts": [], "keywords": ["beach", "dogs"], "entities": ["Audrey"]}
+{"turn_id": "D21:5", "facts": ["On 2023-10-04, Andrew said he hasn't been to the beach in a while and finds it harder to hike as much due to his work-life balance."], "keywords": ["beach", "hiking", "work-life balance"], "entities": ["Andrew"]}
+{"turn_id": "D21:6", "facts": [], "keywords": ["empathy", "nature"], "entities": ["Audrey"]}
+{"turn_id": "D21:7", "facts": ["Andrew said exploring nature used to be his escape and way to find peace, but with his job and city living it's been harder to get that feeling, leaving a void in his heart."], "keywords": ["nature", "escape", "work", "void"], "entities": ["Andrew"]}
+{"turn_id": "D21:8", "facts": ["Audrey suggested Andrew get some plants for his place or take trips to the park on weekends to appreciate nature while living in the city."], "keywords": ["plants", "park", "advice", "city living"], "entities": ["Audrey"]}
+{"turn_id": "D21:9", "facts": ["Andrew said he should get more plants for his house for some peace, even though it can't replace being outside."], "keywords": ["plants", "peace", "home"], "entities": ["Andrew"]}
+{"turn_id": "D21:10", "facts": [], "keywords": ["plants", "offer of help"], "entities": ["Audrey"]}
+{"turn_id": "D21:11", "facts": [], "keywords": ["gratitude"], "entities": ["Andrew"]}
+{"turn_id": "D21:12", "facts": [], "keywords": ["support"], "entities": ["Audrey"]}
+{"turn_id": "D21:13", "facts": [], "keywords": ["gratitude"], "entities": ["Andrew"]}
+{"turn_id": "D21:14", "facts": [], "keywords": ["helpfulness"], "entities": ["Audrey"]}
+{"turn_id": "D21:15", "facts": [], "keywords": ["farewell"], "entities": ["Andrew"]}
+{"turn_id": "D21:16", "facts": [], "keywords": ["farewell"], "entities": ["Audrey"]}
+{"turn_id": "D21:17", "facts": [], "keywords": ["farewell"], "entities": ["Andrew"]}
+{"turn_id": "D21:18", "facts": [], "keywords": ["farewell"], "entities": ["Audrey"]}
+{"turn_id": "D22:1", "facts": ["On 2023-10-06, Audrey said she previously couldn't walk her dogs because of a knee injury, and shared a photo taken after she started walking again."], "keywords": ["knee injury", "dogs", "recovery", "photo"], "entities": ["Audrey"]}
+{"turn_id": "D22:2", "facts": [], "keywords": ["empathy", "dogs"], "entities": ["Andrew"]}
+{"turn_id": "D22:3", "facts": ["Audrey said her dogs couldn't wait to go out again after her knee injury and remind her to appreciate life's little pleasures."], "keywords": ["dogs", "appreciation", "recovery"], "entities": ["Audrey"]}
+{"turn_id": "D22:4", "facts": [], "keywords": ["jewelry hobby", "question"], "entities": ["Andrew"]}
+{"turn_id": "D22:5", "facts": ["Audrey makes jewelry out of recycled materials like bottle caps, buttons, and broken jewelry, combining her love of creativity and sustainability."], "keywords": ["jewelry", "recycled materials", "sustainability", "hobby"], "entities": ["Audrey"]}
+{"turn_id": "D22:6", "facts": [], "keywords": ["jewelry", "question"], "entities": ["Andrew"]}
+{"turn_id": "D22:7", "facts": ["Audrey started making recycled jewelry as a hobby, then began selling it and donates a portion of the profits to a cause close to her heart."], "keywords": ["jewelry", "selling", "donation"], "entities": ["Audrey"]}
+{"turn_id": "D22:8", "facts": [], "keywords": ["donation", "question"], "entities": ["Andrew"]}
+{"turn_id": "D22:9", "facts": ["Audrey donates a portion of her jewelry sale profits to an animal shelter, even though she can no longer volunteer there in person."], "keywords": ["animal shelter", "donation", "jewelry"], "entities": ["Audrey"]}
+{"turn_id": "D22:10", "facts": [], "keywords": ["inspiration", "dedication"], "entities": ["Andrew"]}
+{"turn_id": "D22:11", "facts": ["Audrey said she is still finding ways to do good for the animal shelter even though she can't volunteer there anymore."], "keywords": ["animal shelter", "adapting", "helping"], "entities": ["Audrey"]}
+{"turn_id": "D22:12", "facts": [], "keywords": ["encouragement"], "entities": ["Andrew"]}
+{"turn_id": "D22:13", "facts": [], "keywords": ["gratitude", "determination"], "entities": ["Audrey"]}
+{"turn_id": "D23:1", "facts": ["On 2023-10-13, Andrew said that the previous Tuesday (around 2023-10-10) he, his girlfriend, and Toby had a fun night playing board games."], "keywords": ["board games", "toby", "girlfriend"], "entities": ["Andrew", "Toby"]}
+{"turn_id": "D23:2", "facts": ["Audrey recently made goodies (cookies) to thank her neighbors for their pup-friendly homes."], "keywords": ["cookies", "neighbors", "baking", "gratitude"], "entities": ["Audrey"]}
+{"turn_id": "D23:3", "facts": ["Andrew planned to check out a cozy cafe over the weekend."], "keywords": ["cafe", "weekend plans"], "entities": ["Andrew"]}
+{"turn_id": "D23:4", "facts": [], "keywords": ["cafe recommendations", "question"], "entities": ["Audrey"]}
+{"turn_id": "D23:5", "facts": ["Andrew shared a photo of a new spot that just opened, with a great view and vibe."], "keywords": ["new spot", "view", "photo"], "entities": ["Andrew"]}
+{"turn_id": "D23:6", "facts": [], "keywords": ["dogs", "new spot", "question"], "entities": ["Audrey"]}
+{"turn_id": "D23:7", "facts": ["Andrew suggested a nearby dog park as an alternative since the new cafe spot may not be suitable for dogs."], "keywords": ["dog park", "cafe", "suggestion"], "entities": ["Andrew"]}
+{"turn_id": "D23:8", "facts": [], "keywords": ["exploring", "dogs"], "entities": ["Audrey"]}
+{"turn_id": "D23:9", "facts": [], "keywords": ["dog sweater", "dog park", "question"], "entities": ["Andrew"]}
+{"turn_id": "D23:10", "facts": ["Audrey said the dog park is like paradise for her dogs, where they love socializing with other pups and getting exercise."], "keywords": ["dog park", "socializing", "exercise"], "entities": ["Audrey"]}
+{"turn_id": "D23:11", "facts": ["Andrew shared a funny story about Toby getting too excited and chasing a squirrel around a tree at the dog park."], "keywords": ["toby", "squirrel", "dog park", "funny story"], "entities": ["Andrew", "Toby"]}
+{"turn_id": "D23:12", "facts": ["Audrey said her dogs love the park but hate snow, having been confused when she took them to a snowy park the previous winter (around winter 2022-2023)."], "keywords": ["dogs", "snow", "dog park", "dislike"], "entities": ["Audrey"]}
+{"turn_id": "D23:13", "facts": ["Andrew's dog Toby is a German Shepherd who loves cute sweaters and is very active."], "keywords": ["toby", "german shepherd", "sweaters"], "entities": ["Andrew", "Toby", "German Shepherd"]}
+{"turn_id": "D23:14", "facts": ["Audrey said her dogs love playing fetch and frisbee and meeting other pups at the park, and could keep running for hours."], "keywords": ["fetch", "frisbee", "dog park", "energy"], "entities": ["Audrey"]}
+{"turn_id": "D23:15", "facts": [], "keywords": ["happiness", "active dogs"], "entities": ["Andrew"]}
+{"turn_id": "D23:16", "facts": [], "keywords": ["joy", "dogs"], "entities": ["Audrey"]}
+{"turn_id": "D23:17", "facts": [], "keywords": ["joy", "dogs"], "entities": ["Andrew"]}
+{"turn_id": "D23:18", "facts": ["On 2023-10-13, Audrey said she went to the tattoo parlor and added more drawings (a flower) to her existing tattoo of her four dogs."], "keywords": ["tattoo", "dogs", "flower"], "entities": ["Audrey"]}
+{"turn_id": "D23:19", "facts": [], "keywords": ["tattoo", "question"], "entities": ["Andrew"]}
+{"turn_id": "D23:20", "facts": ["Audrey said she thinks her dog tattoos are enough for now, unless she gets another dog someday, in which case she might get another tattoo."], "keywords": ["tattoo", "plans", "dogs"], "entities": ["Audrey"]}
+{"turn_id": "D23:21", "facts": ["Andrew said a path in the woods, shown in a photo he shared, is a source of inspiration for him."], "keywords": ["woods", "inspiration", "photo"], "entities": ["Andrew"]}
+{"turn_id": "D23:22", "facts": [], "keywords": ["forests", "unconditional love"], "entities": ["Audrey"]}
+{"turn_id": "D23:23", "facts": ["Andrew said that living in the city, he misses nature a lot and tries to go to nearby parks or on hikes whenever he can, finding it a peaceful and joyful experience."], "keywords": ["nature", "city living", "hiking", "parks"], "entities": ["Andrew"]}
+{"turn_id": "D23:24", "facts": ["Audrey said life has been crazy lately so it's been a while since she took her dogs out for a walk, but those nature moments with them are chill and happy."], "keywords": ["dogs", "walk", "busy life", "nature"], "entities": ["Audrey"]}
+{"turn_id": "D23:25", "facts": [], "keywords": ["nature", "adventures"], "entities": ["Andrew"]}
+{"turn_id": "D23:26", "facts": ["Audrey said she needs to go on a hike with her dogs, calling it great therapy."], "keywords": ["hiking", "dogs", "therapy", "plans"], "entities": ["Audrey"]}
+{"turn_id": "D23:27", "facts": [], "keywords": ["hiking", "bonding", "memories"], "entities": ["Andrew"]}
+{"turn_id": "D23:28", "facts": ["Audrey said she still remembers fondly every time she and her dogs go on a hiking trip together."], "keywords": ["hiking", "dogs", "memories"], "entities": ["Audrey"]}
+{"turn_id": "D24:1", "facts": ["On 2023-10-19, Audrey said that the previous Monday (around 2023-10-16) she went to a pet store to buy toys for her dogs and loved seeing them excited when she got home."], "keywords": ["pet store", "dog toys", "joy"], "entities": ["Audrey"]}
+{"turn_id": "D24:2", "facts": ["On 2023-10-19, Andrew said he recently adopted another puppy from a shelter."], "keywords": ["dog adoption", "shelter", "new puppy"], "entities": ["Andrew"]}
+{"turn_id": "D24:3", "facts": [], "keywords": ["new puppy", "question"], "entities": ["Audrey"]}
+{"turn_id": "D24:4", "facts": ["Andrew said his new puppy is doing great in his new home but is still getting used to Toby, and Toby needs time to get along with him too."], "keywords": ["new puppy", "toby", "adjustment"], "entities": ["Andrew", "Toby"]}
+{"turn_id": "D24:5", "facts": [], "keywords": ["new puppy", "name", "question"], "entities": ["Audrey"]}
+{"turn_id": "D24:6", "facts": ["Andrew named his newly adopted puppy Buddy, hoping Buddy and Toby will become friends."], "keywords": ["buddy", "toby", "naming", "new puppy"], "entities": ["Andrew", "Buddy", "Toby"]}
+{"turn_id": "D24:7", "facts": [], "keywords": ["buddy", "activities", "question"], "entities": ["Audrey", "Buddy"]}
+{"turn_id": "D24:8", "facts": ["Andrew and Buddy enjoy going on walks together."], "keywords": ["buddy", "walks", "bonding"], "entities": ["Andrew", "Buddy"]}
+{"turn_id": "D24:9", "facts": [], "keywords": ["buddy", "fresh air"], "entities": ["Audrey", "Buddy"]}
+{"turn_id": "D24:10", "facts": ["Andrew said Buddy loves checking out new hiking trails and is excited about everything nature has to offer."], "keywords": ["buddy", "hiking trails", "excitement"], "entities": ["Andrew", "Buddy"]}
+{"turn_id": "D24:11", "facts": [], "keywords": ["trails", "encouragement"], "entities": ["Audrey"]}
+{"turn_id": "D24:12", "facts": ["Andrew planned to take both Toby and Buddy to the trails together soon."], "keywords": ["toby", "buddy", "hiking", "plans"], "entities": ["Andrew", "Toby", "Buddy"]}
+{"turn_id": "D24:13", "facts": ["Audrey is looking forward to a hike with the dogs planned for the following month (around November 2023)."], "keywords": ["hiking", "plans", "dogs"], "entities": ["Audrey"]}
+{"turn_id": "D24:14", "facts": [], "keywords": ["excitement", "new addition"], "entities": ["Andrew", "Buddy"]}
+{"turn_id": "D24:15", "facts": [], "keywords": ["scenic spot", "question"], "entities": ["Audrey"]}
+{"turn_id": "D24:16", "facts": ["Andrew shared a photo of a rural spot far from the city, wishing he could take his dogs somewhere like that."], "keywords": ["rural", "countryside", "photo", "wish"], "entities": ["Andrew"]}
+{"turn_id": "D24:17", "facts": [], "keywords": ["getaway", "hiking plans"], "entities": ["Audrey"]}
+{"turn_id": "D24:18", "facts": [], "keywords": ["hiking plans"], "entities": ["Andrew"]}
+{"turn_id": "D24:19", "facts": ["Audrey planned to research and find a nice spot for their upcoming hike."], "keywords": ["hiking", "research", "plans"], "entities": ["Audrey"]}
+{"turn_id": "D24:20", "facts": [], "keywords": ["gratitude", "hiking plans"], "entities": ["Andrew"]}
+{"turn_id": "D24:21", "facts": [], "keywords": ["hiking spot search"], "entities": ["Audrey"]}
+{"turn_id": "D24:22", "facts": [], "keywords": ["anticipation"], "entities": ["Andrew"]}
+{"turn_id": "D25:1", "facts": ["On 2023-10-24, Andrew said that the previous weekend (around 2023-10-21) he and his girlfriend went to a wine tasting and tried many unique wines."], "keywords": ["wine tasting", "girlfriend", "new experience"], "entities": ["Andrew"]}
+{"turn_id": "D25:2", "facts": ["On 2023-10-24, Audrey said she had an accident the previous week while playing with her dogs at the park, resulting in a cast on her arm, and has been managing taking care of her dogs with one arm."], "keywords": ["accident", "cast", "arm injury", "dogs"], "entities": ["Audrey"]}
+{"turn_id": "D25:3", "facts": ["On 2023-10-24, Andrew said he recently tried out a new sushi spot in town and enjoyed it."], "keywords": ["sushi", "new restaurant"], "entities": ["Andrew"]}
+{"turn_id": "D25:4", "facts": [], "keywords": ["healing", "sushi"], "entities": ["Audrey"]}
+{"turn_id": "D25:5", "facts": ["Andrew had never tried sushi before but recently tried it and understood the hype."], "keywords": ["sushi", "first time", "food"], "entities": ["Andrew"]}
+{"turn_id": "D25:6", "facts": ["Audrey loves sushi and encouraged Andrew to try different types and not limit himself to his comfort zone."], "keywords": ["sushi", "preference", "encouragement"], "entities": ["Audrey"]}
+{"turn_id": "D25:7", "facts": [], "keywords": ["sushi tips", "question"], "entities": ["Andrew"]}
+{"turn_id": "D25:8", "facts": ["Audrey's sushi tip for beginners is to try a California or salmon roll first since they're easier, and to mix up different sauces and dips."], "keywords": ["sushi", "california roll", "salmon roll", "tips"], "entities": ["Audrey"]}
+{"turn_id": "D25:9", "facts": ["Andrew planned to try a California or salmon roll with some sauces, following Audrey's sushi tips."], "keywords": ["sushi", "california roll", "salmon roll", "plans"], "entities": ["Andrew"]}
+{"turn_id": "D25:10", "facts": [], "keywords": ["sushi", "encouragement"], "entities": ["Audrey"]}
+{"turn_id": "D25:11", "facts": [], "keywords": ["sushi", "excitement"], "entities": ["Andrew"]}
+{"turn_id": "D25:12", "facts": [], "keywords": ["sushi", "photos"], "entities": ["Audrey"]}
+{"turn_id": "D25:13", "facts": [], "keywords": ["sushi", "photos"], "entities": ["Andrew"]}
+{"turn_id": "D25:14", "facts": ["Audrey planned to order sushi for dinner that night."], "keywords": ["sushi", "dinner", "plans"], "entities": ["Audrey"]}
+{"turn_id": "D25:15", "facts": [], "keywords": ["farewell"], "entities": ["Andrew"]}
+{"turn_id": "D25:16", "facts": [], "keywords": ["farewell"], "entities": ["Audrey"]}
+{"turn_id": "D26:1", "facts": ["On 2023-10-28, Audrey said her dogs weren't acting normally, so she made an appointment with an animal behaviorist the previous Wednesday (around 2023-10-25)."], "keywords": ["animal behaviorist", "dogs", "appointment"], "entities": ["Audrey"]}
+{"turn_id": "D26:2", "facts": [], "keywords": ["dogs", "behaviorist", "question"], "entities": ["Andrew"]}
+{"turn_id": "D26:3", "facts": ["Audrey said the animal behaviorist appointment went okay; the behaviorist checked her dogs, asked questions, and gave her tips."], "keywords": ["animal behaviorist", "tips", "dogs"], "entities": ["Audrey"]}
+{"turn_id": "D26:4", "facts": [], "keywords": ["behaviorist tips", "question"], "entities": ["Andrew"]}
+{"turn_id": "D26:5", "facts": ["Audrey is using positive reinforcement techniques and routine changes suggested by the animal behaviorist, calling it a work in progress."], "keywords": ["positive reinforcement", "behaviorist", "routine change"], "entities": ["Audrey"]}
+{"turn_id": "D26:6", "facts": [], "keywords": ["progress", "question"], "entities": ["Andrew"]}
+{"turn_id": "D26:7", "facts": ["Audrey said her dogs are responding well so far to the new positive reinforcement approach, with some progress being seen."], "keywords": ["positive reinforcement", "progress", "dogs"], "entities": ["Audrey"]}
+{"turn_id": "D26:8", "facts": [], "keywords": ["encouragement"], "entities": ["Andrew"]}
+{"turn_id": "D26:9", "facts": ["Audrey said she is devoted to keeping her dogs healthy and happy because they mean everything to her."], "keywords": ["dogs", "devotion", "love"], "entities": ["Audrey"]}
+{"turn_id": "D26:10", "facts": [], "keywords": ["encouragement"], "entities": ["Andrew"]}
+{"turn_id": "D26:11", "facts": ["Audrey shared a photo of two of her dogs having a blast the previous summer (2023) and said she's looking forward to them being back to normal."], "keywords": ["dogs", "photo", "summer memory", "recovery hope"], "entities": ["Audrey"]}
+{"turn_id": "D26:12", "facts": [], "keywords": ["dog breed", "well wishes", "question"], "entities": ["Andrew"]}
+{"turn_id": "D26:13", "facts": ["Audrey's four dogs are all mutts: Pepper and Panda are Lab mixes, and Precious and Pixie are Chihuahua mixes."], "keywords": ["dog breed", "lab mix", "chihuahua mix", "pepper", "panda", "precious", "pixie"], "entities": ["Audrey", "Pepper", "Panda", "Precious", "Pixie"]}
+{"turn_id": "D26:14", "facts": ["Andrew shared a photo from a national park he visited a while ago, hiking up a mountain with a backpack."], "keywords": ["national park", "hiking", "backpack", "photo"], "entities": ["Andrew"]}
+{"turn_id": "D26:15", "facts": [], "keywords": ["hiking", "hope to join"], "entities": ["Audrey"]}
+{"turn_id": "D26:16", "facts": [], "keywords": ["hope", "dogs recovery"], "entities": ["Andrew"]}
+{"turn_id": "D26:17", "facts": [], "keywords": ["trail", "dog-friendly", "question"], "entities": ["Audrey"]}
+{"turn_id": "D26:18", "facts": ["Andrew proposed planning a hike soon on a nearby dog-friendly trail with great views."], "keywords": ["hiking", "dog-friendly trail", "plans"], "entities": ["Andrew"]}
+{"turn_id": "D26:19", "facts": [], "keywords": ["hiking plans"], "entities": ["Audrey"]}
+{"turn_id": "D26:20", "facts": ["On 2023-10-28, Andrew suggested hiking on Saturday since he has a picnic date with his girlfriend planned for Sunday."], "keywords": ["hiking plans", "saturday", "picnic", "girlfriend"], "entities": ["Andrew"]}
+{"turn_id": "D26:21", "facts": ["Audrey agreed Saturday works for the hike and planned to bring snacks."], "keywords": ["hiking plans", "saturday", "snacks"], "entities": ["Audrey"]}
+{"turn_id": "D26:22", "facts": [], "keywords": ["nature day", "anticipation"], "entities": ["Andrew"]}
+{"turn_id": "D26:23", "facts": [], "keywords": ["hiking", "dogs", "happiness"], "entities": ["Audrey"]}
+{"turn_id": "D26:24", "facts": [], "keywords": ["exploration", "question"], "entities": ["Andrew"]}
+{"turn_id": "D26:25", "facts": [], "keywords": ["trail", "plans"], "entities": ["Audrey"]}
+{"turn_id": "D26:26", "facts": ["Andrew mentioned there is a lake near the trail they plan to hike."], "keywords": ["lake", "trail", "hiking plans"], "entities": ["Andrew"]}
+{"turn_id": "D26:27", "facts": ["Audrey shared a photo of a lake she found online for their planned hike."], "keywords": ["lake", "photo", "hiking plans"], "entities": ["Audrey"]}
+{"turn_id": "D26:28", "facts": [], "keywords": ["dogs", "trail", "question"], "entities": ["Andrew"]}
+{"turn_id": "D26:29", "facts": ["Audrey and Andrew planned to hike a trail by the lake with great views for their upcoming outing with their dogs."], "keywords": ["trail", "lake", "hiking plans"], "entities": ["Audrey"]}
+{"turn_id": "D26:30", "facts": [], "keywords": ["anticipation", "lake"], "entities": ["Andrew"]}
+{"turn_id": "D26:31", "facts": ["Audrey shared a photo of a dog chasing another dog in a park, saying she's lucky to have a friend like Andrew who loves exploring outdoors with dogs."], "keywords": ["friendship", "dogs", "gratitude", "photo"], "entities": ["Audrey"]}
+{"turn_id": "D26:32", "facts": ["Andrew said he's also lucky to have a friend like Audrey for outdoor trips with their dogs."], "keywords": ["friendship", "dogs", "gratitude"], "entities": ["Andrew"]}
+{"turn_id": "D26:33", "facts": [], "keywords": ["friendship", "shared interests"], "entities": ["Audrey"]}
+{"turn_id": "D26:34", "facts": ["Andrew shared a photo of a forest with yellow trees near the planned hike location."], "keywords": ["forest", "autumn", "photo"], "entities": ["Andrew"]}
+{"turn_id": "D26:35", "facts": [], "keywords": ["trail", "plans"], "entities": ["Audrey"]}
+{"turn_id": "D26:36", "facts": ["Andrew suggested visiting the forest with yellow autumn trees on their next hiking trip."], "keywords": ["autumn colors", "hiking plans"], "entities": ["Andrew"]}
+{"turn_id": "D26:37", "facts": [], "keywords": ["autumn colors", "photos"], "entities": ["Audrey"]}
+{"turn_id": "D26:38", "facts": [], "keywords": ["photos", "dogs"], "entities": ["Andrew"]}
+{"turn_id": "D26:39", "facts": [], "keywords": ["memories", "photos"], "entities": ["Audrey"]}
+{"turn_id": "D26:40", "facts": [], "keywords": ["memorable day"], "entities": ["Andrew"]}
+{"turn_id": "D26:41", "facts": [], "keywords": ["memories", "anticipation"], "entities": ["Audrey"]}
+{"turn_id": "D26:42", "facts": ["Andrew shared a photo of himself and his dog hiking together, from a previous hike, showing the dog happy."], "keywords": ["hiking", "dog", "photo", "memory"], "entities": ["Andrew"]}
+{"turn_id": "D26:43", "facts": [], "keywords": ["happy dogs", "anticipation"], "entities": ["Audrey"]}
+{"turn_id": "D26:44", "facts": [], "keywords": ["hiking plans"], "entities": ["Andrew"]}
+{"turn_id": "D26:45", "facts": [], "keywords": ["hiking", "excitement"], "entities": ["Audrey"]}
+{"turn_id": "D26:46", "facts": [], "keywords": ["farewell"], "entities": ["Andrew"]}
+{"turn_id": "D26:47", "facts": [], "keywords": ["farewell"], "entities": ["Audrey"]}
+{"turn_id": "D27:1", "facts": ["On 2023-11-04, Andrew said that over the weekend he and his girlfriend went on a bike ride and found a cool park outside of town."], "keywords": ["bike ride", "girlfriend", "park", "weekend"], "entities": ["Andrew"]}
+{"turn_id": "D27:2", "facts": ["On 2023-11-04, Audrey said that the previous weekend she let her dogs run around and get fresh air, and she recently joined a dog owners group to learn how to better take care of them."], "keywords": ["dog owners group", "dogs", "learning"], "entities": ["Audrey"]}
+{"turn_id": "D27:3", "facts": [], "keywords": ["dog owners group", "question"], "entities": ["Andrew"]}
+{"turn_id": "D27:4", "facts": ["Audrey meets up with her dog owners group about once a week for tips and playtime with other dogs."], "keywords": ["dog owners group", "routine", "tips"], "entities": ["Audrey"]}
+{"turn_id": "D27:5", "facts": ["Andrew is considering getting another dog after seeing Audrey's dog owners group photos, but is unsure since having two dogs (Toby and Buddy) is already a lot to take care of."], "keywords": ["dog adoption", "toby", "buddy", "consideration"], "entities": ["Andrew", "Toby", "Buddy"]}
+{"turn_id": "D27:6", "facts": ["Audrey advised Andrew to focus on taking care of Toby and Buddy first before considering getting more dogs."], "keywords": ["advice", "toby", "buddy", "multi-dog"], "entities": ["Audrey", "Toby", "Buddy"]}
+{"turn_id": "D27:7", "facts": ["Andrew decided to focus on taking good care of his current dogs first."], "keywords": ["toby", "buddy", "decision"], "entities": ["Andrew", "Toby", "Buddy"]}
+{"turn_id": "D27:8", "facts": [], "keywords": ["support", "dogs"], "entities": ["Audrey"]}
+{"turn_id": "D27:9", "facts": ["Andrew said he has managed to make it work having dogs while living in the city."], "keywords": ["city living", "dogs", "success"], "entities": ["Andrew"]}
+{"turn_id": "D27:10", "facts": ["Audrey said keeping dogs active with toys and games at home is key to taking care of a pup in the city."], "keywords": ["dog care", "city living", "toys", "games"], "entities": ["Audrey"]}
+{"turn_id": "D27:11", "facts": [], "keywords": ["gratitude", "city dogs"], "entities": ["Andrew"]}
+{"turn_id": "D27:12", "facts": ["Audrey said socializing and exercising dogs daily, along with mental stimulation, is important for keeping them happy in the city."], "keywords": ["dog care", "socialization", "exercise", "mental stimulation"], "entities": ["Audrey"]}
+{"turn_id": "D27:13", "facts": [], "keywords": ["mental stimulation", "question"], "entities": ["Andrew"]}
+{"turn_id": "D27:14", "facts": ["Audrey keeps her dogs mentally stimulated with puzzles, training, and hide-and-seek."], "keywords": ["puzzles", "training", "hide-and-seek", "mental stimulation"], "entities": ["Audrey"]}
+{"turn_id": "D27:15", "facts": [], "keywords": ["activities", "gratitude"], "entities": ["Andrew"]}
+{"turn_id": "D27:16", "facts": [], "keywords": ["support"], "entities": ["Audrey"]}
+{"turn_id": "D27:17", "facts": [], "keywords": ["gratitude", "friendship"], "entities": ["Andrew"]}
+{"turn_id": "D27:18", "facts": ["Audrey said supporting each other is what friends are for, and Andrew's friendship means a lot to her."], "keywords": ["friendship", "support"], "entities": ["Audrey"]}
+{"turn_id": "D28:1", "facts": ["On 2023-11-22, Audrey said that the previous Friday (around 2023-11-17) she took her dogs to the pet salon and they were excited, though it took a while for them to calm down."], "keywords": ["pet salon", "grooming", "dogs"], "entities": ["Audrey"]}
+{"turn_id": "D28:2", "facts": [], "keywords": ["grooming", "photo request"], "entities": ["Andrew"]}
+{"turn_id": "D28:3", "facts": ["Audrey shared a photo of her dogs freshly groomed with shiny coats, saying they behaved well at the salon."], "keywords": ["grooming", "photo", "shiny coats"], "entities": ["Audrey"]}
+{"turn_id": "D28:4", "facts": [], "keywords": ["grooming", "happy dogs"], "entities": ["Andrew"]}
+{"turn_id": "D28:5", "facts": [], "keywords": ["doggy mom", "grooming", "question"], "entities": ["Audrey"]}
+{"turn_id": "D28:6", "facts": ["On 2023-11-22, Andrew said he adopted another dog recently."], "keywords": ["dog adoption", "new dog"], "entities": ["Andrew"]}
+{"turn_id": "D28:7", "facts": [], "keywords": ["new dog", "name", "question"], "entities": ["Audrey"]}
+{"turn_id": "D28:8", "facts": ["Andrew and his girlfriend named their newly adopted dog Scout, chosen to fit the dog's adventurous spirit."], "keywords": ["scout", "naming", "new dog"], "entities": ["Andrew", "Scout"]}
+{"turn_id": "D28:9", "facts": [], "keywords": ["scout", "adventure", "question"], "entities": ["Audrey", "Scout"]}
+{"turn_id": "D28:10", "facts": ["Andrew planned to take his three dogs, Scout, Toby, and Buddy, to a nearby park for Scout's first adventure."], "keywords": ["scout", "toby", "buddy", "park", "plans"], "entities": ["Andrew", "Scout", "Toby", "Buddy"]}
+{"turn_id": "D28:11", "facts": ["Audrey advised Andrew to start small and gradually give Scout more exposure, keeping the dog leashed."], "keywords": ["scout", "advice", "leash", "exposure"], "entities": ["Audrey", "Scout"]}
+{"turn_id": "D28:12", "facts": ["Andrew got essentials for Scout's comfort like a bed, toys, and puppy pads, and is keeping Scout on a leash outside while getting used to being outdoors."], "keywords": ["scout", "dog essentials", "leash", "puppy pads"], "entities": ["Andrew", "Scout"]}
+{"turn_id": "D28:13", "facts": ["Audrey advised Andrew to slowly introduce Scout to Toby and Buddy since it takes time for dogs to get used to each other."], "keywords": ["scout", "toby", "buddy", "introduction", "advice"], "entities": ["Audrey", "Scout", "Toby", "Buddy"]}
+{"turn_id": "D28:14", "facts": ["Andrew said he and his girlfriend feel lucky to have Scout and enjoy having multiple furry friends."], "keywords": ["scout", "gratitude", "dogs"], "entities": ["Andrew", "Scout"]}
+{"turn_id": "D28:15", "facts": ["Audrey said her dogs are doing great, exploring, meeting new people, and feeling loved and safe."], "keywords": ["dogs", "wellbeing", "happiness"], "entities": ["Audrey"]}
+{"turn_id": "D28:16", "facts": [], "keywords": ["dogs", "joy", "friendship"], "entities": ["Andrew"]}
+{"turn_id": "D28:17", "facts": ["Audrey said she is grateful to have her dogs as part of her family, bringing her so much joy and friendship."], "keywords": ["dogs", "gratitude", "family"], "entities": ["Audrey"]}
+{"turn_id": "D28:18", "facts": ["Andrew said dogs are always there for us and people should count themselves lucky to have such amazing furry friends as family members."], "keywords": ["dogs", "family", "gratitude"], "entities": ["Andrew"]}

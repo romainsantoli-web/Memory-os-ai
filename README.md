@@ -5,11 +5,32 @@
 
 [![Tests](https://img.shields.io/badge/tests-410%20passed-brightgreen)]()
 [![Coverage](https://img.shields.io/badge/coverage-96%25-brightgreen)]()
-[![Python](https://img.shields.io/badge/python-3.10+-blue)]()
+[![Python](https://img.shields.io/badge/python-3.11+-blue)]()
 [![MCP](https://img.shields.io/badge/MCP-2025--11--25-purple)]()
 [![VS Code](https://img.shields.io/badge/VS%20Code-MCP%20Ready-007ACC?logo=visualstudiocode)]()
-[![Version](https://img.shields.io/badge/version-3.1.0-orange)]()
+[![Version](https://img.shields.io/badge/version-4.0.0-orange)]()
 [![License](https://img.shields.io/badge/license-LGPL--3.0-orange)]()
+
+## What's new in 4.0 — Memory OS v4
+
+`pip install memory-os-ai` now ships **two engines**:
+
+| Command | Engine | Notes |
+|---|---|---|
+| `memory-os-ai` / `memory-os-v4` | **v4** (`memory_os_v4`) — default | typed bi-temporal memory (episodes, facts, summaries, procedures), hybrid dense + BM25 + keyword retrieval with multi-query RRF, core blocks, consolidation, 16 MCP tools |
+| `memory-os-ai-v3` | v3 (`memory_os_ai`) | the previous FAISS document server, unchanged API (21 tools) |
+
+```bash
+memory-os-ai --selfcheck                         # exercise every tool once
+memory-os-ai                                     # stdio MCP server
+memory-os-ai --transport http --port 8765 --warm # one shared HTTP server for all clients
+```
+
+Data lives in `MEMORY_V4_DIR` (default `~/.memory-os-v4`). Existing v3 memories can be imported with the `memory_migrate_v3` tool.
+LoCoMo Recall@10 (model-free benchmark, `v4/bench`): v3 0.175 → v4 0.538 with production defaults, 0.815 with offline LLM enrichment and reranking.
+Details: [`v4/README.md`](v4/README.md), [`v4/docs/ARCHITECTURE.md`](v4/docs/ARCHITECTURE.md), [`v4/RESULTS.md`](v4/RESULTS.md).
+
+> **Upgrading from 3.x:** the `memory-os-ai` command now starts v4. To keep v3, point your MCP config at `memory-os-ai-v3`.
 
 ## Concept
 

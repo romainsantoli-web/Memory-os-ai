@@ -1,0 +1,65 @@
+{"tid": "answer_a679a86a_3:0", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "looking for a condo, wants to minimize noise pollution"}]}
+{"tid": "answer_a679a86a_3:4", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "looking at condos in the downtown area"}]}
+{"tid": "answer_a679a86a_3:6", "facets": [{"subject": "user", "predicate": "challenge_problem", "object": "viewed a condo on Feb 10 but rejected it due to highway noise"}, {"subject": "user", "predicate": "preference_like", "object": "wants a condo with modern appliances and a community pool"}]}
+{"tid": "answer_a679a86a_1:0", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "considering a 3-bedroom bungalow in Oakwood seen Jan 22nd needing kitchen renovation"}]}
+{"tid": "answer_a679a86a_1:2", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "finalizing purchase of a townhouse in Brookside"}]}
+{"tid": "answer_a679a86a_1:8", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "decided on quartz countertops for kitchen renovation"}]}
+{"tid": "answer_a679a86a_5:0", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "put an offer on a 3-bedroom townhouse in Brookside for $340,000"}]}
+{"tid": "answer_a679a86a_5:2", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "planning 20% down payment ($68,000) on a 30-year mortgage at about 4%"}]}
+{"tid": "answer_a679a86a_4:0", "facets": [{"subject": "user", "predicate": "challenge_problem", "object": "had an offer on a 2-bedroom condo rejected on Feb 17 due to a higher bid"}]}
+{"tid": "answer_a679a86a_4:6", "facets": [{"subject": "user", "predicate": "other", "object": "home inspection on the Brookside townhouse found plumbing and electrical issues"}]}
+{"tid": "answer_a679a86a_4:8", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "planning a final walk-through inspection before closing on the townhouse"}]}
+{"tid": "answer_a679a86a_2:0", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "looking for a home warranty for a new home"}, {"subject": "user", "predicate": "challenge_problem", "object": "saw a Cedar Creek property on Feb 1 that was out of budget"}]}
+{"tid": "answer_a679a86a_2:10", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "decided to go with American Home Shield for a home warranty"}]}
+{"tid": "answer_b0f3dfff_1:2", "facets": [{"subject": "user", "predicate": "colleague_mentor", "object": "met former colleague Rachel at TechConnect conference"}]}
+{"tid": "answer_b0f3dfff_1:4", "facets": [{"subject": "user", "predicate": "person_met", "object": "met Jason, CEO of StartupX, at TechConnect conference"}]}
+{"tid": "answer_b0f3dfff_1:6", "facets": [{"subject": "user", "predicate": "person_met", "object": "met Alex, founder of an edtech startup, at a WeWork mixer"}]}
+{"tid": "answer_b0f3dfff_1:8", "facets": [{"subject": "user", "predicate": "friend", "object": "friend David introduced them to Google colleagues at a WeWork mixer"}]}
+{"tid": "answer_b0f3dfff_1:10", "facets": [{"subject": "user", "predicate": "person_met", "object": "met marketing expert Tom at a speed networking event"}]}
+{"tid": "answer_b0f3dfff_2:0", "facets": [{"subject": "user", "predicate": "colleague_mentor", "object": "former colleague Rachel now works at TechCorp"}]}
+{"tid": "answer_b0f3dfff_2:2", "facets": [{"subject": "user", "predicate": "education_course", "object": "attended a Women in Tech webinar hosted by Dr. Maria Hernandez"}]}
+{"tid": "answer_b0f3dfff_2:10", "facets": [{"subject": "user", "predicate": "habit_routine", "object": "attends weekly BNI networking meetings"}, {"subject": "user", "predicate": "person_met", "object": "met entrepreneur Jack at BNI networking meetings"}]}
+{"tid": "answer_a1e169b1:0", "facets": [{"subject": "user", "predicate": "trip_location_visited", "object": "recently visited Disneyland, Knott's Berry Farm, Six Flags Magic Mountain, and Universal Studios Hollywood"}]}
+{"tid": "answer_e623ae87:0", "facets": [{"subject": "user", "predicate": "sport_exercise", "object": "planning a long bike ride this weekend"}]}
+{"tid": "answer_e623ae87:2", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "owns a Trek Emonda road bike"}]}
+{"tid": "answer_e623ae87:4", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "owns three bikes: a road bike, a mountain bike, and a commuter bike"}]}
+{"tid": "answer_e623ae87:10", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "decided to buy an Abus SmartX GPS bike lock"}]}
+{"tid": "answer_fb793c87_2:0", "facets": [{"subject": "user", "predicate": "movie_show_music", "object": "started watching Game of Thrones a month ago, finished first four seasons"}]}
+{"tid": "answer_fb793c87_2:2", "facets": [{"subject": "user", "predicate": "preference_like", "object": "enjoys true crime and science documentaries on Hulu"}]}
+{"tid": "answer_fb793c87_2:4", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "subscribes to HBO Max, Hulu, and Amazon Prime Video"}, {"subject": "user", "predicate": "movie_show_music", "object": "finished and loved The Marvelous Mrs. Maisel"}]}
+{"tid": "answer_fb793c87_2:6", "facets": [{"subject": "user", "predicate": "habit_routine", "object": "has been subscribed to HBO Max for about six months"}]}
+{"tid": "answer_fb793c87_2:8", "facets": [{"subject": "user", "predicate": "movie_show_music", "object": "watches Nailed It! and The Great British Baking Show on Netflix"}]}
+{"tid": "answer_fb793c87_1:0", "facets": [{"subject": "user", "predicate": "movie_show_music", "object": "binge-watched season 3 of The Crown in 14 days"}]}
+{"tid": "answer_fb793c87_1:6", "facets": [{"subject": "user", "predicate": "movie_show_music", "object": "watched a true crime documentary about Ted Bundy"}]}
+{"tid": "answer_fb793c87_1:10", "facets": [{"subject": "user", "predicate": "movie_show_music", "object": "listens to a 'Lo-Fi Beats' playlist and podcasts How I Built This and Stuff You Should Know on Spotify"}]}
+{"tid": "answer_c008e5df_3:0", "facets": [{"subject": "user", "predicate": "habit_routine", "object": "uses food delivery service Fresh Fusion for pre-made meals"}]}
+{"tid": "answer_c008e5df_1:0", "facets": [{"subject": "user", "predicate": "habit_routine", "object": "ordered Domino's Pizza three times last week"}]}
+{"tid": "answer_c008e5df_2:0", "facets": [{"subject": "user", "predicate": "habit_routine", "object": "relies on Uber Eats on weekends"}]}
+{"tid": "answer_4dac77cb_1:0", "facets": [{"subject": "user", "predicate": "food_drink_recipe", "object": "uses a 1 tablespoon coffee per 6oz water French press ratio"}]}
+{"tid": "answer_4dac77cb_1:6", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "signed up for a coffee subscription service, received first shipment"}]}
+{"tid": "answer_4dac77cb_2:0", "facets": [{"subject": "user", "predicate": "food_drink_recipe", "object": "refined French press ratio to 1 tablespoon coffee per 5oz water"}]}
+{"tid": "answer_4dac77cb_2:10", "facets": [{"subject": "user", "predicate": "family_member", "object": "has a sister who introduced them to a new rose tea"}]}
+{"tid": "answer_723bf11f:2", "facets": [{"subject": "user", "predicate": "pet", "object": "has a dog named Max on flea/tick medication every two weeks"}]}
+{"tid": "answer_723bf11f:6", "facets": [{"subject": "user", "predicate": "pet", "object": "dog Max loves peanut butter"}]}
+{"tid": "answer_723bf11f:10", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "decided to buy a nylon collar from Yellow Dog Design for dog Max"}, {"subject": "user", "predicate": "pet", "object": "dog Max is a Golden Retriever"}]}
+{"tid": "answer_cf425855_2:0", "facets": [{"subject": "user", "predicate": "book_read", "object": "finished the latest John Grisham bestseller"}, {"subject": "user", "predicate": "hobby_interest", "object": "attended a Book Lovers Unite meetup"}]}
+{"tid": "answer_cf425855_1:0", "facets": [{"subject": "user", "predicate": "hobby_interest", "object": "joined the Facebook group Book Lovers Unite three weeks ago"}]}
+{"tid": "answer_a21f3697_3:0", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "getting back into yoga this week"}]}
+{"tid": "answer_a21f3697_2:0", "facets": [{"subject": "user", "predicate": "habit_routine", "object": "used to practice yoga 3x/week for 2 hours, has been slacking this month"}]}
+{"tid": "answer_a21f3697_2:2", "facets": [{"subject": "user", "predicate": "habit_routine", "object": "started using Todoist and Down Dog apps"}]}
+{"tid": "answer_a21f3697_1:0", "facets": [{"subject": "user", "predicate": "sport_exercise", "object": "went for a 30-minute jog around the neighborhood on Saturday"}]}
+{"tid": "answer_a21f3697_1:6", "facets": [{"subject": "user", "predicate": "challenge_problem", "object": "has been inconsistent with workouts lately"}]}
+{"tid": "answer_a21f3697_1:8", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "wants to incorporate strength training into routine"}]}
+{"tid": "answer_1a374afa_1:0", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "has a new painting above the living room sofa"}]}
+{"tid": "answer_1a374afa_1:2", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "planning to host an art-themed party"}]}
+{"tid": "answer_1a374afa_1:4", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "owns 'Moonlit Ocean' print by Jack Harris and 'Ethereal Dreams' painting"}]}
+{"tid": "answer_1a374afa_2:0", "facets": [{"subject": "user", "predicate": "other", "object": "rearranged bedroom, moved artwork around"}]}
+{"tid": "answer_1a374afa_2:4", "facets": [{"subject": "user", "predicate": "hobby_interest", "object": "creates art combining abstract style with human figure themes"}]}
+{"tid": "answer_8f15ac24:0", "facets": [{"subject": "user", "predicate": "event_attended", "object": "attended three concerts recently, including The Killers at Red Rocks Amphitheater"}]}
+{"tid": "answer_8f15ac24:2", "facets": [{"subject": "user", "predicate": "person_met", "object": "met Brandon Flowers, lead singer of The Killers, after their Denver concert"}]}
+{"tid": "answer_1e6d4567:0", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "planning a fishing trip to Lake Michigan with friends"}]}
+{"tid": "answer_1e6d4567:2", "facets": [{"subject": "user", "predicate": "hobby_interest", "object": "fishes at Lake Michigan, caught 12 largemouth bass on last trip"}]}
+{"tid": "answer_1e6d4567:4", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "planning a fly fishing trip to Montana or Colorado next summer"}]}
+{"tid": "answer_1e6d4567:6", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "wants to take a class to learn fly tying"}]}
+{"tid": "answer_1e6d4567:8", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "restocking tackle box with size 2 hooks and chartreuse plastic worms"}]}
+{"tid": "answer_1e6d4567:10", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "owns a Shimano Curado fishing rod with a slight crack"}]}

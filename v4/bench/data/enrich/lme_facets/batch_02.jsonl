@@ -1,0 +1,78 @@
+{"tid": "answer_2880eb6c_2:0", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "planning a road trip to the mountains in June"}]}
+{"tid": "answer_2880eb6c_2:2", "facets": [{"subject": "user", "predicate": "vehicle", "object": "bike tune-up April 20th: replaced chain ($25), new lights ($40)"}]}
+{"tid": "answer_2880eb6c_2:8", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "bought a Bell Zephyr helmet from bike shop on April 10th"}]}
+{"tid": "answer_2880eb6c_2:10", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "planning a longer bike ride this weekend"}]}
+{"tid": "answer_c44b9df4_1:0", "facets": [{"subject": "user", "predicate": "creative_work", "object": "creating an art piece inspired by a beach sunset"}]}
+{"tid": "answer_c44b9df4_1:2", "facets": [{"subject": "user", "predicate": "creative_work", "object": "planning a series of ocean-inspired sculptures"}]}
+{"tid": "answer_c44b9df4_1:4", "facets": [{"subject": "user", "predicate": "creative_work", "object": "working on an abstract ocean sculpture, 5-6 hours so far"}]}
+{"tid": "answer_c44b9df4_2:0", "facets": [{"subject": "user", "predicate": "creative_work", "object": "spent 10-12 hours on abstract ocean sculpture, still in progress"}]}
+{"tid": "answer_c44b9df4_2:10", "facets": [{"subject": "user", "predicate": "creative_work", "object": "plans to use sea glass and beach stones in next sculpture"}]}
+{"tid": "answer_6dc4305e:0", "facets": [{"subject": "user", "predicate": "challenge_problem", "object": "struggles with managing time effectively"}]}
+{"tid": "answer_6dc4305e:2", "facets": [{"subject": "user", "predicate": "habit_routine", "object": "has a 30-minute morning exercise routine, most productive 10am-12pm"}]}
+{"tid": "answer_6dc4305e:4", "facets": [{"subject": "user", "predicate": "habit_routine", "object": "prefers to wind down by 9:30pm for good sleep"}]}
+{"tid": "answer_6dc4305e:12", "facets": [{"subject": "user", "predicate": "feeling_emotion", "object": "found guided meditation relaxing and calming, helped with sleep"}]}
+{"tid": "answer_9398da02:0", "facets": [{"subject": "user", "predicate": "hobby_interest", "object": "practices yoga, sometimes at Serenity Yoga studio"}, {"subject": "user", "predicate": "goal_plan", "object": "planning a self-care day with home yoga and brunch with a friend"}]}
+{"tid": "answer_9398da02:4", "facets": [{"subject": "user", "predicate": "habit_routine", "object": "uses Down Dog app for home yoga practice"}]}
+{"tid": "answer_9398da02:6", "facets": [{"subject": "user", "predicate": "preference_like", "object": "prefers vinyasa flow yoga classes"}]}
+{"tid": "answer_9398da02:10", "facets": [{"subject": "user", "predicate": "friend", "object": "convinced best friend Sarah to start yoga, weekly Sunday yoga and brunch routine"}]}
+{"tid": "answer_7a4a93f1_2:0", "facets": [{"subject": "user", "predicate": "hobby_interest", "object": "started marigold seeds March 3rd, already germinating"}]}
+{"tid": "answer_7a4a93f1_1:0", "facets": [{"subject": "user", "predicate": "hobby_interest", "object": "growing tomatoes, peppers, and cucumbers indoors since Feb 20th"}]}
+{"tid": "answer_7a4a93f1_1:2", "facets": [{"subject": "user", "predicate": "residence", "object": "lives in zip code 23456"}]}
+{"tid": "answer_7a4a93f1_1:5", "facets": [{"subject": "user", "predicate": "hobby_interest", "object": "prepared a raised garden bed with a compost layer"}]}
+{"tid": "answer_7a4a93f1_1:7", "facets": [{"subject": "user", "predicate": "hobby_interest", "object": "planted peas in garden, already sprouting"}]}
+{"tid": "answer_526354c8_1:0", "facets": [{"subject": "user", "predicate": "trip_location_visited", "object": "took a road trip to Outer Banks, NC, four-hour drive"}]}
+{"tid": "answer_526354c8_1:4", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "chose Tybee Island for coastal road trip, interested in surfing"}]}
+{"tid": "answer_526354c8_2:0", "facets": [{"subject": "user", "predicate": "trip_location_visited", "object": "drove six hours to Washington D.C. recently"}]}
+{"tid": "answer_526354c8_2:2", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "planning a 7-10 day road trip west to visit national parks"}]}
+{"tid": "answer_526354c8_2:4", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "chose Grand Teton and Yellowstone Loop for road trip route"}]}
+{"tid": "answer_526354c8_3:0", "facets": [{"subject": "user", "predicate": "trip_location_visited", "object": "drove five hours to the mountains in Tennessee recently"}]}
+{"tid": "answer_e1403127_1:0", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "planning a 50-mile bike ride this weekend"}]}
+{"tid": "answer_e1403127_1:2", "facets": [{"subject": "user", "predicate": "residence", "object": "lives in the San Francisco Bay Area"}]}
+{"tid": "answer_e1403127_1:4", "facets": [{"subject": "user", "predicate": "vehicle", "object": "owns three bikes: road (2,000 miles), mountain, and commuter"}, {"subject": "user", "predicate": "sport_exercise", "object": "planning to do a century bike ride soon"}]}
+{"tid": "answer_e1403127_2:0", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "planning a long road trip next month, bringing road bike"}]}
+{"tid": "answer_e1403127_2:2", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "road tripping from San Francisco to New York City over 10 days"}]}
+{"tid": "answer_e1403127_2:4", "facets": [{"subject": "user", "predicate": "vehicle", "object": "bought a new hybrid bike, now owns four bikes total"}]}
+{"tid": "answer_e1403127_2:8", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "bought a new bike computer, tracks rides on Strava"}]}
+{"tid": "answer_e1403127_2:10", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "bought cycling shoes with clipless pedals"}]}
+{"tid": "answer_8549e5e0:2", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "bought a new kitchen utensil holder"}]}
+{"tid": "answer_feb5200f:0", "facets": [{"subject": "user", "predicate": "possession_purchase", "object": "added a vase with fresh greenery to kitchen countertop"}]}
+{"tid": "answer_feb5200f:2", "facets": [{"subject": "user", "predicate": "other", "object": "repainted bedroom walls a lighter shade of gray"}]}
+{"tid": "answer_feb5200f:4", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "planning a home office nook in the spare bedroom"}]}
+{"tid": "answer_1cc3cd0c_2:0", "facets": [{"subject": "user", "predicate": "volunteering_cause", "object": "planning to volunteer at a community event next weekend"}, {"subject": "user", "predicate": "event_attended", "object": "attended Sunday mass at St. Mary's Church on March 19th"}]}
+{"tid": "answer_1cc3cd0c_2:2", "facets": [{"subject": "user", "predicate": "family_member", "object": "cousin Emma visited from out of town, sat together at church"}]}
+{"tid": "answer_1cc3cd0c_2:6", "facets": [{"subject": "user", "predicate": "belief_value_opinion", "object": "moved by sermon on forgiveness and compassion at church"}]}
+{"tid": "answer_1cc3cd0c_2:10", "facets": [{"subject": "user", "predicate": "family_member", "object": "plans to meet cousin Emma for brunch after reconnecting at church"}]}
+{"tid": "answer_1cc3cd0c_1:0", "facets": [{"subject": "user", "predicate": "event_attended", "object": "attended Holi celebration at local temple on February 26th"}]}
+{"tid": "answer_1cc3cd0c_1:4", "facets": [{"subject": "user", "predicate": "colleague_mentor", "object": "celebrated Holi throwing colors with colleague Rohan and his family"}]}
+{"tid": "answer_55a6940c_3:0", "facets": [{"subject": "user", "predicate": "health_condition", "object": "had a mole biopsy by dermatologist Dr. Lee, result benign"}]}
+{"tid": "answer_55a6940c_3:2", "facets": [{"subject": "user", "predicate": "health_condition", "object": "experiencing chronic sinusitis symptoms: congestion and fatigue"}]}
+{"tid": "answer_55a6940c_3:4", "facets": [{"subject": "user", "predicate": "health_condition", "object": "considering a colonoscopy, has been putting it off"}]}
+{"tid": "answer_55a6940c_1:0", "facets": [{"subject": "user", "predicate": "health_condition", "object": "had a UTI, prescribed antibiotics by Dr. Smith; feeling exhausted"}]}
+{"tid": "answer_55a6940c_1:4", "facets": [{"subject": "user", "predicate": "health_condition", "object": "diagnosed with chronic sinusitis by an ENT specialist"}]}
+{"tid": "answer_55a6940c_2:2", "facets": [{"subject": "user", "predicate": "health_condition", "object": "diagnosed with chronic sinusitis by Dr. Patel, prescribed nasal spray"}]}
+{"tid": "answer_55a6940c_2:4", "facets": [{"subject": "user", "predicate": "health_condition", "object": "experiencing fatigue and joint pain lately"}]}
+{"tid": "answer_73540165_1:4", "facets": [{"subject": "user", "predicate": "hobby_interest", "object": "taking a cocktail-making class on Thursday"}]}
+{"tid": "answer_73540165_2:0", "facets": [{"subject": "user", "predicate": "hobby_interest", "object": "has a cocktail-making class on Fridays"}]}
+{"tid": "answer_73540165_2:6", "facets": [{"subject": "user", "predicate": "preference_like", "object": "favorite tequila is Avion Silver"}]}
+{"tid": "answer_2fc6aabb:0", "facets": [{"subject": "user", "predicate": "food_drink_recipe", "object": "learned to use a slow cooker, made beef stew"}]}
+{"tid": "answer_2fc6aabb:6", "facets": [{"subject": "user", "predicate": "preference_like", "object": "trying to eat more plant-based meals lately"}]}
+{"tid": "answer_59547700:2", "facets": [{"subject": "user", "predicate": "belief_value_opinion", "object": "passionate about animal welfare and children's health causes"}, {"subject": "user", "predicate": "volunteering_cause", "object": "volunteered at 'Love is in the Air' fundraising dinner in February"}]}
+{"tid": "answer_59547700:10", "facets": [{"subject": "user", "predicate": "friend", "object": "has friends who share a passion for animal welfare"}]}
+{"tid": "answer_b3763b6b_1:0", "facets": [{"subject": "user", "predicate": "vehicle", "object": "owns a 2018 Ford Mustang GT, modified the exhaust system"}, {"subject": "user", "predicate": "achievement_award", "object": "set personal best 12.8s quarter-mile at drag racing event June 14th"}]}
+{"tid": "answer_b3763b6b_1:2", "facets": [{"subject": "user", "predicate": "gift_given_received", "object": "received a free fuel additive sample at a racing event"}]}
+{"tid": "answer_b3763b6b_1:4", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "booked hotel for 'Racing Nationals' drag racing event in August"}]}
+{"tid": "answer_b3763b6b_1:6", "facets": [{"subject": "user", "predicate": "person_met", "object": "met a mechanic at a racing event who gave performance tips"}]}
+{"tid": "answer_b3763b6b_2:0", "facets": [{"subject": "user", "predicate": "event_attended", "object": "attended 'Rack Fest' event in a nearby city on June 18th"}]}
+{"tid": "answer_f9de4602_1:0", "facets": [{"subject": "user", "predicate": "habit_routine", "object": "stayed up until 2am last Wednesday, struggled the next morning"}]}
+{"tid": "answer_f9de4602_1:2", "facets": [{"subject": "user", "predicate": "habit_routine", "object": "attends a yoga class on Tuesday evenings"}]}
+{"tid": "answer_f9de4602_2:0", "facets": [{"subject": "user", "predicate": "health_condition", "object": "cholesterol levels came back high on a recent blood test"}]}
+{"tid": "answer_02e66dec_1:2", "facets": [{"subject": "user", "predicate": "trip_location_visited", "object": "went on a family trip to Hawaii, snorkeled together"}]}
+{"tid": "answer_02e66dec_1:6", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "plans solo days after family trips to explore alone"}]}
+{"tid": "answer_02e66dec_1:10", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "considering a food tour in Japan"}]}
+{"tid": "answer_02e66dec_2:2", "facets": [{"subject": "user", "predicate": "child", "object": "took kids to Paris last month, they loved it"}]}
+{"tid": "answer_02e66dec_2:4", "facets": [{"subject": "user", "predicate": "goal_plan", "object": "planning a solo trip to Tokyo"}]}
+{"tid": "answer_f7b22c66:0", "facets": [{"subject": "user", "predicate": "job_career", "object": "works from home, misses in-person colleague interactions"}]}
+{"tid": "answer_sharegpt_m2xJfjo_0:2", "facets": [{"subject": "user", "predicate": "preference_like", "object": "enjoys Netflix, finds something there for everybody"}]}
+{"tid": "answer_sharegpt_m2xJfjo_0:4", "facets": [{"subject": "user", "predicate": "movie_show_music", "object": "currently enjoys watching The Blacklist series"}]}
+{"tid": "answer_sharegpt_m2xJfjo_0:14", "facets": [{"subject": "user", "predicate": "dislike_fear", "object": "dislikes that Netflix removes old seasons of shows like Doc Martin"}]}
+{"tid": "answer_sharegpt_m2xJfjo_0:16", "facets": [{"subject": "user", "predicate": "challenge_problem", "object": "sometimes has trouble accessing/opening Netflix"}]}

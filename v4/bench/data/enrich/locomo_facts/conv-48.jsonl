@@ -1,0 +1,681 @@
+{"turn_id": "D1:1", "facts": [], "keywords": ["greeting", "check-in", "small talk"], "entities": ["Deborah", "Jolene"]}
+{"turn_id": "D1:2", "facts": ["On 2023-01-23, Jolene said she finished an electrical engineering project the previous week (around 2023-01-16) that took a lot of work."], "keywords": ["electrical engineering", "project", "work", "school"], "entities": ["Jolene"]}
+{"turn_id": "D1:3", "facts": ["On 2023-01-23, Deborah said she visited her mother's old house the previous week (around 2023-01-16), a place that holds a lot of memories for her."], "keywords": ["mother", "memories", "house", "visit"], "entities": ["Deborah"]}
+{"turn_id": "D1:4", "facts": [], "keywords": ["memories", "question"], "entities": ["Jolene"]}
+{"turn_id": "D1:5", "facts": ["Deborah's mother passed away a few years before 2023-01-23.", "Deborah shared what she says is the last photo of her and her mother together, showing two women in wheelchairs hugging."], "keywords": ["mother", "death", "loss", "photo", "memory"], "entities": ["Deborah"]}
+{"turn_id": "D1:6", "facts": ["Jolene's mother also passed away, in 2022 (the year before 2023-01-23).", "Jolene shared a photo of her room in her mother's house, which has a bench and a window."], "keywords": ["mother", "death", "loss", "room", "memory"], "entities": ["Jolene"]}
+{"turn_id": "D1:7", "facts": ["Deborah's mother had a bench near the window in her house where she loved to sit every morning taking in the view.", "Deborah sometimes sits at that bench to feel connected to her deceased mother."], "keywords": ["bench", "window", "mother", "ritual", "connection"], "entities": ["Deborah"]}
+{"turn_id": "D1:8", "facts": ["Jolene's mother gave her a heart-shaped pendant with a bird design in 2010 in Paris, which reminds Jolene of her mother."], "keywords": ["pendant", "jewelry", "mother", "gift", "paris"], "entities": ["Jolene", "Paris"]}
+{"turn_id": "D1:9", "facts": ["Deborah also has a pendant that reminds her of her mother."], "keywords": ["pendant", "mother", "jewelry"], "entities": ["Deborah"]}
+{"turn_id": "D1:10", "facts": ["Jolene's pendant has a symbol on it that represents freedom to her, reminding her to pursue her goals and not get held back."], "keywords": ["pendant", "freedom", "symbol", "goals"], "entities": ["Jolene"]}
+{"turn_id": "D1:11", "facts": [], "keywords": ["encouragement"], "entities": ["Deborah"]}
+{"turn_id": "D1:12", "facts": [], "keywords": ["goals", "question"], "entities": ["Jolene"]}
+{"turn_id": "D1:13", "facts": ["Deborah's goal is to keep teaching yoga and supporting her community, as she is passionate about helping people find peace and joy through yoga."], "keywords": ["yoga", "teaching", "goals", "community"], "entities": ["Deborah"]}
+{"turn_id": "D1:14", "facts": [], "keywords": ["inspiration", "question"], "entities": ["Jolene"]}
+{"turn_id": "D1:15", "facts": ["Deborah said yoga helped her find peace during a rough period in her life, which is why she is now passionate about sharing yoga with others."], "keywords": ["yoga", "peace", "inspiration", "personal history"], "entities": ["Deborah"]}
+{"turn_id": "D1:16", "facts": [], "keywords": ["compliment"], "entities": ["Jolene"]}
+{"turn_id": "D1:17", "facts": [], "keywords": ["farewell"], "entities": ["Deborah"]}
+{"turn_id": "D1:18", "facts": [], "keywords": ["farewell"], "entities": ["Jolene"]}
+{"turn_id": "D2:1", "facts": ["On 2023-01-27, Deborah said her father passed away two days earlier (around 2023-01-25), suddenly, which left the family shell-shocked.", "Deborah said she is coping with her father's death by spending more time with family and cherishing memories."], "keywords": ["father", "death", "grief", "family", "coping"], "entities": ["Deborah"]}
+{"turn_id": "D2:2", "facts": [], "keywords": ["condolences", "question"], "entities": ["Jolene", "Deborah"]}
+{"turn_id": "D2:3", "facts": ["Deborah's parents got married in 1993.", "Deborah said looking at the family photo album is comforting during this difficult time after her father's death."], "keywords": ["parents", "wedding", "1993", "family album"], "entities": ["Deborah"]}
+{"turn_id": "D2:4", "facts": [], "keywords": ["compliment", "wedding photo"], "entities": ["Jolene"]}
+{"turn_id": "D2:5", "facts": ["Deborah said she and her husband are trying to be as good a family as her parents were."], "keywords": ["husband", "marriage", "family", "values"], "entities": ["Deborah"]}
+{"turn_id": "D2:6", "facts": [], "keywords": ["relationship", "question"], "entities": ["Jolene"]}
+{"turn_id": "D2:7", "facts": ["Deborah said love and openness have kept her and her husband close over the years.", "On 2023-01-27, Deborah received a thank-you letter from her yoga group members the day before (around 2023-01-26)."], "keywords": ["love", "openness", "marriage", "letter", "yoga group"], "entities": ["Deborah"]}
+{"turn_id": "D2:8", "facts": [], "keywords": ["letter", "question"], "entities": ["Jolene"]}
+{"turn_id": "D2:9", "facts": ["Deborah's yoga group members sent her a letter thanking her for the positive influence she had on them."], "keywords": ["yoga", "gratitude", "letter", "influence"], "entities": ["Deborah"]}
+{"turn_id": "D2:10", "facts": [], "keywords": ["yoga", "question"], "entities": ["Jolene"]}
+{"turn_id": "D2:11", "facts": ["Deborah shared a photo of a living room with a television and a window, one of the places where she teaches or practices yoga."], "keywords": ["yoga", "living room", "practice space"], "entities": ["Deborah"]}
+{"turn_id": "D2:12", "facts": [], "keywords": ["question", "location"], "entities": ["Jolene"]}
+{"turn_id": "D2:13", "facts": ["Deborah occasionally visits her old family home, where she does yoga, to feel connected to her deceased mother.", "Sitting by the window in her old home gives Deborah peace."], "keywords": ["old home", "mother", "peace", "visit", "yoga"], "entities": ["Deborah"]}
+{"turn_id": "D2:14", "facts": [], "keywords": ["connection", "comment"], "entities": ["Jolene"]}
+{"turn_id": "D2:15", "facts": ["Deborah shared a photo of the window seat in her mother's old house where she feels her mother's presence, which comforts her."], "keywords": ["window seat", "mother", "presence", "comfort"], "entities": ["Deborah"]}
+{"turn_id": "D2:16", "facts": [], "keywords": ["memories", "question"], "entities": ["Jolene"]}
+{"turn_id": "D2:17", "facts": ["Deborah's mother used to sit at the window seat every night reading a book; reading was one of her mother's hobbies and it was one of her favorite spots in the house."], "keywords": ["mother", "reading", "hobby", "window", "memories"], "entities": ["Deborah"]}
+{"turn_id": "D2:18", "facts": [], "keywords": ["hobbies", "question"], "entities": ["Jolene"]}
+{"turn_id": "D2:19", "facts": ["Travel was also a great passion of Deborah's mother."], "keywords": ["travel", "mother", "passion", "hobby"], "entities": ["Deborah"]}
+{"turn_id": "D2:20", "facts": ["Jolene has a pet snake named Susie that calms her down and makes her happy."], "keywords": ["pet", "snake", "susie", "comfort"], "entities": ["Jolene", "Susie"]}
+{"turn_id": "D2:21", "facts": [], "keywords": ["pets", "question"], "entities": ["Deborah"]}
+{"turn_id": "D2:22", "facts": ["Jolene has a second pet snake named Seraphim, which once slinked out of its cage and coiled up next to her while she was playing video games."], "keywords": ["pet", "snake", "seraphim", "video games", "funny moment"], "entities": ["Jolene", "Seraphim"]}
+{"turn_id": "D2:23", "facts": [], "keywords": ["reaction"], "entities": ["Deborah"]}
+{"turn_id": "D2:24", "facts": ["Jolene bought one of her pet snakes in Paris around 2022 (a year before 2023-01-27)."], "keywords": ["snake", "paris", "purchase", "pet"], "entities": ["Jolene", "Paris"]}
+{"turn_id": "D2:25", "facts": [], "keywords": ["pets", "comment"], "entities": ["Deborah"]}
+{"turn_id": "D2:26", "facts": ["On 2023-01-27, Jolene said she and her partner played the video game \"Detroit\" on their console the previous week (around 2023-01-20), and that they are both really into gaming."], "keywords": ["gaming", "detroit", "console", "partner", "hobby"], "entities": ["Jolene", "Detroit"]}
+{"turn_id": "D2:27", "facts": [], "keywords": ["gaming", "question"], "entities": ["Deborah", "Jolene"]}
+{"turn_id": "D2:28", "facts": ["Jolene said she taught herself to play video games even as a child."], "keywords": ["gaming", "self-taught", "childhood"], "entities": ["Jolene"]}
+{"turn_id": "D2:29", "facts": [], "keywords": ["gaming", "question"], "entities": ["Deborah"]}
+{"turn_id": "D2:30", "facts": ["On 2023-01-27, Jolene said she and her partner planned to play the video game \"The Walking Dead\" the following Saturday (around 2023-01-28)."], "keywords": ["gaming", "walking dead", "plans", "partner"], "entities": ["Jolene"]}
+{"turn_id": "D2:31", "facts": [], "keywords": ["farewell"], "entities": ["Deborah"]}
+{"turn_id": "D2:32", "facts": [], "keywords": ["farewell"], "entities": ["Jolene"]}
+{"turn_id": "D3:1", "facts": ["On 2023-02-01, Jolene said her engineering professor assigned her class a big robotics project that is challenging but fun."], "keywords": ["robotics", "engineering", "professor", "project", "school"], "entities": ["Jolene"]}
+{"turn_id": "D3:2", "facts": [], "keywords": ["robotics", "question"], "entities": ["Deborah"]}
+{"turn_id": "D3:3", "facts": ["Jolene said she initially felt excited and nervous about the robotics project but is now enjoying it, comparing it to solving a puzzle."], "keywords": ["robotics", "emotions", "puzzle", "engineering"], "entities": ["Jolene"]}
+{"turn_id": "D3:4", "facts": ["On 2023-02-01, Deborah said she met her new neighbor Anna the day before (around 2023-01-31)."], "keywords": ["neighbor", "anna", "meeting"], "entities": ["Deborah", "Anna"]}
+{"turn_id": "D3:5", "facts": [], "keywords": ["neighbor", "question"], "entities": ["Jolene"]}
+{"turn_id": "D3:6", "facts": ["Deborah met her neighbor Anna at a yoga class in the park."], "keywords": ["yoga", "park", "meeting", "anna"], "entities": ["Deborah", "Anna"]}
+{"turn_id": "D3:7", "facts": [], "keywords": ["yoga", "community", "question"], "entities": ["Jolene"]}
+{"turn_id": "D3:8", "facts": ["Deborah and Anna talked about how yoga has improved their lives and given them a sense of community."], "keywords": ["yoga", "community", "conversation"], "entities": ["Deborah", "Anna"]}
+{"turn_id": "D3:9", "facts": [], "keywords": ["comment"], "entities": ["Deborah"]}
+{"turn_id": "D3:10", "facts": ["Deborah asked Jolene whether she had thought about resuming yoga, implying Jolene used to practice yoga."], "keywords": ["yoga", "question", "resume"], "entities": ["Jolene", "Deborah"]}
+{"turn_id": "D3:11", "facts": ["Jolene said she and her partner planned to play video games on their console together instead of doing yoga."], "keywords": ["gaming", "partner", "plans"], "entities": ["Jolene"]}
+{"turn_id": "D3:12", "facts": [], "keywords": ["comment"], "entities": ["Deborah"]}
+{"turn_id": "D3:13", "facts": [], "keywords": ["thanks"], "entities": ["Jolene"]}
+{"turn_id": "D3:14", "facts": [], "keywords": ["farewell"], "entities": ["Deborah"]}
+{"turn_id": "D3:15", "facts": [], "keywords": ["farewell"], "entities": ["Jolene"]}
+{"turn_id": "D4:1", "facts": ["On 2023-02-04, Jolene said she had been on an emotional rollercoaster lately but was coping."], "keywords": ["emotions", "coping", "stress"], "entities": ["Jolene"]}
+{"turn_id": "D4:2", "facts": [], "keywords": ["check-in", "question"], "entities": ["Deborah"]}
+{"turn_id": "D4:3", "facts": ["On 2023-02-04, Jolene said she achieved a major professional milestone the previous week (around 2023-01-28) that made her feel relieved and proud, a huge accomplishment as an engineer."], "keywords": ["milestone", "engineering", "achievement", "pride"], "entities": ["Jolene"]}
+{"turn_id": "D4:4", "facts": [], "keywords": ["question", "encouragement"], "entities": ["Deborah"]}
+{"turn_id": "D4:5", "facts": ["Jolene designed and built a sustainable water purifier for a rural community in need as her engineering milestone."], "keywords": ["water purifier", "engineering", "rural community", "sustainability"], "entities": ["Jolene"]}
+{"turn_id": "D4:6", "facts": [], "keywords": ["question", "feelings"], "entities": ["Deborah"]}
+{"turn_id": "D4:7", "facts": ["Jolene said seeing her water purifier provide clean water to the community was a surreal and satisfying moment that reminded her engineering can make a difference in people's lives and gave her a sense of purpose."], "keywords": ["water purifier", "purpose", "engineering", "impact"], "entities": ["Jolene"]}
+{"turn_id": "D4:8", "facts": [], "keywords": ["career", "question"], "entities": ["Deborah"]}
+{"turn_id": "D4:9", "facts": ["Jolene's career goal is to continue working in engineering to make a positive impact on communities in need through sustainable solutions, aiming to help make the world a better place."], "keywords": ["career", "engineering", "goals", "sustainability"], "entities": ["Jolene"]}
+{"turn_id": "D4:10", "facts": [], "keywords": ["encouragement"], "entities": ["Deborah"]}
+{"turn_id": "D4:11", "facts": ["Jolene said Deborah's encouragement motivates her to keep pursuing her passions and career goals."], "keywords": ["motivation", "encouragement", "friendship"], "entities": ["Jolene", "Deborah"]}
+{"turn_id": "D4:12", "facts": ["Deborah spends a lot of her time teaching yoga.", "On 2023-02-04, Deborah said she bonded with her neighbor Anna during a yoga class the day before (around 2023-02-03)."], "keywords": ["yoga", "anna", "bonding", "class", "teaching"], "entities": ["Deborah", "Anna"]}
+{"turn_id": "D4:13", "facts": [], "keywords": ["yoga", "question"], "entities": ["Jolene"]}
+{"turn_id": "D4:14", "facts": ["Deborah and Anna practiced yoga poses including Warrior II, which builds strength and boosts focus."], "keywords": ["yoga", "warrior ii", "pose", "strength", "focus"], "entities": ["Deborah", "Anna", "Warrior II"]}
+{"turn_id": "D4:15", "facts": [], "keywords": ["yoga", "question"], "entities": ["Jolene"]}
+{"turn_id": "D4:16", "facts": ["Deborah said practicing yoga together brought her closer to her neighbor Anna, as they supported each other."], "keywords": ["yoga", "friendship", "support", "anna"], "entities": ["Deborah", "Anna"]}
+{"turn_id": "D4:17", "facts": [], "keywords": ["yoga", "question"], "entities": ["Jolene"]}
+{"turn_id": "D4:18", "facts": ["Deborah described a modified seated twist yoga pose: sitting on the edge of a chair, feet planted, twisting the torso to one side with a hand on the knee for support, which stretches the back and shoulders and relaxes tense muscles."], "keywords": ["yoga", "pose", "seated twist", "stretching"], "entities": ["Deborah"]}
+{"turn_id": "D4:19", "facts": ["Jolene shared a photo of her bookshelf, which holds a large collection of books."], "keywords": ["books", "bookshelf", "collection"], "entities": ["Jolene"]}
+{"turn_id": "D4:20", "facts": [], "keywords": ["books", "question"], "entities": ["Deborah"]}
+{"turn_id": "D4:21", "facts": ["Jolene said she is really into the book \"Sapiens,\" which she finds a fascinating look at human history and how technology has affected humanity."], "keywords": ["sapiens", "book", "reading", "human history"], "entities": ["Jolene", "Sapiens"]}
+{"turn_id": "D4:22", "facts": [], "keywords": ["books", "question"], "entities": ["Deborah"]}
+{"turn_id": "D4:23", "facts": ["On 2023-02-04, Jolene said that two weeks earlier (around 2023-01-21) she read \"Avalanche\" by Neal Stephenson in one sitting."], "keywords": ["avalanche", "neal stephenson", "book", "reading"], "entities": ["Jolene", "Neal Stephenson", "Avalanche"]}
+{"turn_id": "D4:24", "facts": [], "keywords": ["stories", "comment"], "entities": ["Deborah"]}
+{"turn_id": "D4:25", "facts": ["Jolene said she recently read a story about someone who became successful despite facing numerous challenges, which showed her anything is possible with belief and hard work."], "keywords": ["story", "success", "inspiration", "reading"], "entities": ["Jolene"]}
+{"turn_id": "D4:26", "facts": ["Deborah shared a photo of a bouquet of flowers she made, which reminded her of a special person's grace and strength while facing hardships."], "keywords": ["flowers", "bouquet", "strength", "hardship"], "entities": ["Deborah"]}
+{"turn_id": "D4:27", "facts": [], "keywords": ["flowers", "question"], "entities": ["Jolene"]}
+{"turn_id": "D4:28", "facts": ["Deborah's friend gave her a bouquet of flowers when she was struggling, which gives her hope, courage, warmth, and appreciation."], "keywords": ["bouquet", "friend", "hope", "courage"], "entities": ["Deborah"]}
+{"turn_id": "D4:29", "facts": [], "keywords": ["comment", "kindness"], "entities": ["Jolene"]}
+{"turn_id": "D4:30", "facts": [], "keywords": ["nature", "flowers", "comment"], "entities": ["Deborah"]}
+{"turn_id": "D4:31", "facts": [], "keywords": ["nature", "question"], "entities": ["Jolene"]}
+{"turn_id": "D4:32", "facts": ["Deborah's favorite nature spots include a park with a forest trail, which she finds calming, and a nearby beach where the sound of waves and sand make her feel peaceful and happy."], "keywords": ["nature", "park", "forest trail", "beach", "peace"], "entities": ["Deborah"]}
+{"turn_id": "D4:33", "facts": ["Jolene said that on vacation last summer (2022) in Bogota, she watched a beautiful, calming sunset over the water, which made her appreciate nature's calming power."], "keywords": ["bogota", "vacation", "sunset", "beach", "nature"], "entities": ["Jolene", "Bogota"]}
+{"turn_id": "D4:34", "facts": ["Deborah likes to visit a spot by the water near her mother's old house, where she reflects on her mother's life and finds peace surrounded by nature."], "keywords": ["mother", "reflection", "nature", "peace", "water"], "entities": ["Deborah"]}
+{"turn_id": "D4:35", "facts": [], "keywords": ["tradition", "question"], "entities": ["Jolene"]}
+{"turn_id": "D4:36", "facts": ["Deborah has an amulet that belonged to her mother, which she brings with her whenever she visits her reflection spot; holding it makes her feel her mother's love and brings her comfort."], "keywords": ["amulet", "mother", "comfort", "tradition"], "entities": ["Deborah"]}
+{"turn_id": "D4:37", "facts": [], "keywords": ["comment"], "entities": ["Jolene"]}
+{"turn_id": "D4:38", "facts": ["Deborah said small keepsakes like her mother's amulet remind her of the love and strength she carries inside, connecting her to people she has lost."], "keywords": ["keepsake", "mother", "strength", "connection"], "entities": ["Deborah"]}
+{"turn_id": "D4:39", "facts": [], "keywords": ["comment", "memory"], "entities": ["Jolene"]}
+{"turn_id": "D4:40", "facts": ["Deborah's neighbor Anna also wears a pendant in memory of her own mother, which has brought Deborah and Anna closer."], "keywords": ["anna", "pendant", "mother", "friendship"], "entities": ["Deborah", "Anna"]}
+{"turn_id": "D4:41", "facts": [], "keywords": ["comment", "strength"], "entities": ["Jolene"]}
+{"turn_id": "D4:42", "facts": [], "keywords": ["encouragement", "farewell"], "entities": ["Deborah"]}
+{"turn_id": "D4:43", "facts": [], "keywords": ["farewell", "gratitude"], "entities": ["Jolene"]}
+{"turn_id": "D4:44", "facts": [], "keywords": ["farewell"], "entities": ["Deborah"]}
+{"turn_id": "D5:1", "facts": ["On 2023-02-09, Jolene said that the previous Wednesday (around 2023-02-01) she did a mini retreat to assess where she is in life, which was a great experience that gave her a new outlook."], "keywords": ["retreat", "reflection", "self-assessment"], "entities": ["Jolene"]}
+{"turn_id": "D5:2", "facts": [], "keywords": ["reflection", "question"], "entities": ["Deborah"]}
+{"turn_id": "D5:3", "facts": ["Jolene said her mini retreat gave her a big confidence boost, as she achieved more than she imagined."], "keywords": ["retreat", "confidence", "achievement"], "entities": ["Jolene"]}
+{"turn_id": "D5:4", "facts": [], "keywords": ["encouragement", "question"], "entities": ["Deborah"]}
+{"turn_id": "D5:5", "facts": ["At her retreat, Jolene made progress on her engineering project, coming up with solutions she is excited about."], "keywords": ["engineering", "retreat", "project", "solutions"], "entities": ["Jolene"]}
+{"turn_id": "D5:6", "facts": [], "keywords": ["comment"], "entities": ["Deborah"]}
+{"turn_id": "D5:7", "facts": ["Jolene said green technology could make a difference in disadvantaged areas and she'd like to look into contributing to it.", "Jolene had an idea for a volunteer program where engineers would teach STEM to underprivileged kids."], "keywords": ["green tech", "volunteering", "stem", "underprivileged kids"], "entities": ["Jolene"]}
+{"turn_id": "D5:8", "facts": [], "keywords": ["stem", "question"], "entities": ["Deborah"]}
+{"turn_id": "D5:9", "facts": ["Jolene is thinking of partnering with local schools or centers to run STEM workshops for underprivileged kids, and inviting engineers as guest speakers to show the kids career options."], "keywords": ["stem", "workshops", "schools", "guest speakers"], "entities": ["Jolene"]}
+{"turn_id": "D5:10", "facts": [], "keywords": ["stem", "question"], "entities": ["Deborah"]}
+{"turn_id": "D5:11", "facts": ["As of 2023-02-09, Jolene had not yet reached out to any schools or centers about her STEM volunteer program, wanting to solidify the plan first."], "keywords": ["stem", "planning", "volunteering"], "entities": ["Jolene"]}
+{"turn_id": "D5:12", "facts": [], "keywords": ["encouragement"], "entities": ["Deborah"]}
+{"turn_id": "D5:13", "facts": ["Jolene shared a photo of sketches and notes in her planner notebook for the STEM volunteer program."], "keywords": ["planner", "notes", "sketches", "stem"], "entities": ["Jolene"]}
+{"turn_id": "D5:14", "facts": [], "keywords": ["encouragement"], "entities": ["Deborah"]}
+{"turn_id": "D5:15", "facts": [], "keywords": ["gratitude"], "entities": ["Jolene"]}
+{"turn_id": "D5:16", "facts": [], "keywords": ["farewell"], "entities": ["Deborah"]}
+{"turn_id": "D5:17", "facts": [], "keywords": ["farewell"], "entities": ["Jolene"]}
+{"turn_id": "D6:1", "facts": ["On 2023-02-22, Jolene said she had a great night out the night before (around 2023-02-21) with dinner and drinks with friends."], "keywords": ["dinner", "drinks", "friends", "night out"], "entities": ["Jolene"]}
+{"turn_id": "D6:2", "facts": ["Deborah shared a photo of a garden with flowers in buckets that she visited, which felt calming and nostalgic to her."], "keywords": ["garden", "flowers", "calming", "nostalgia"], "entities": ["Deborah"]}
+{"turn_id": "D6:3", "facts": [], "keywords": ["flowers", "question"], "entities": ["Jolene"]}
+{"turn_id": "D6:4", "facts": ["Deborah said roses and dahlias bring her peace.", "On 2023-02-22, Deborah said she lost a friend the previous week (around 2023-02-15) and has been spending time in the garden to find comfort."], "keywords": ["roses", "dahlias", "grief", "friend", "loss"], "entities": ["Deborah"]}
+{"turn_id": "D6:5", "facts": [], "keywords": ["condolences", "question"], "entities": ["Jolene"]}
+{"turn_id": "D6:6", "facts": ["Deborah said she is comforted by remembering the time she spent with her late friend, which reminds her how special life is."], "keywords": ["grief", "memory", "friend", "comfort"], "entities": ["Deborah"]}
+{"turn_id": "D6:7", "facts": [], "keywords": ["memories", "comment"], "entities": ["Jolene"]}
+{"turn_id": "D6:8", "facts": ["Deborah shared what she says is the last photo with her friend Karlie, taken the previous summer (2022) while hiking together, which she smiles at every time she sees it."], "keywords": ["karlie", "hiking", "photo", "friendship", "memory"], "entities": ["Deborah", "Karlie"]}
+{"turn_id": "D6:9", "facts": [], "keywords": ["travel", "question"], "entities": ["Jolene"]}
+{"turn_id": "D6:10", "facts": ["Deborah said one of her favorite trips was to Bali the previous year (2022), which she found a gorgeous, peaceful island great for yoga."], "keywords": ["bali", "travel", "yoga", "vacation"], "entities": ["Deborah", "Bali"]}
+{"turn_id": "D6:11", "facts": ["Jolene said she has been wanting to try yoga on the beach."], "keywords": ["yoga", "beach", "interest"], "entities": ["Jolene"]}
+{"turn_id": "D6:12", "facts": [], "keywords": ["beach", "comment"], "entities": ["Deborah"]}
+{"turn_id": "D6:13", "facts": [], "keywords": ["yoga", "beach"], "entities": ["Jolene"]}
+{"turn_id": "D6:14", "facts": [], "keywords": ["encouragement"], "entities": ["Deborah"]}
+{"turn_id": "D6:15", "facts": [], "keywords": ["comment"], "entities": ["Jolene"]}
+{"turn_id": "D6:16", "facts": [], "keywords": ["farewell"], "entities": ["Deborah"]}
+{"turn_id": "D7:1", "facts": ["On 2023-02-25, Jolene said she has been balancing engineering school with her partner's video games, and has been setting aside time for yoga and meditation to stay calm."], "keywords": ["engineering school", "yoga", "meditation", "balance"], "entities": ["Jolene"]}
+{"turn_id": "D7:2", "facts": [], "keywords": ["question", "self-care"], "entities": ["Deborah"]}
+{"turn_id": "D7:3", "facts": ["Jolene said yoga helps her chill out and gain perspective, and leaves her more alert and motivated afterward."], "keywords": ["yoga", "perspective", "motivation"], "entities": ["Jolene"]}
+{"turn_id": "D7:4", "facts": [], "keywords": ["yoga", "question"], "entities": ["Deborah"]}
+{"turn_id": "D7:5", "facts": ["Jolene's partner started sometimes joining her for yoga, which has been nice for bonding and relaxing and has brought them closer."], "keywords": ["yoga", "partner", "bonding"], "entities": ["Jolene"]}
+{"turn_id": "D7:6", "facts": [], "keywords": ["relationship", "question"], "entities": ["Deborah"]}
+{"turn_id": "D7:7", "facts": ["As of 2023-02-25, Jolene and her partner are not married but have been together for three years."], "keywords": ["relationship", "partner", "engagement status"], "entities": ["Jolene"]}
+{"turn_id": "D7:8", "facts": [], "keywords": ["relationship", "question"], "entities": ["Deborah"]}
+{"turn_id": "D7:9", "facts": ["Jolene met her partner in an engineering class in college; they became friends first and their relationship later blossomed into something more."], "keywords": ["partner", "engineering class", "college", "relationship origin"], "entities": ["Jolene"]}
+{"turn_id": "D7:10", "facts": [], "keywords": ["engineering", "question"], "entities": ["Deborah"]}
+{"turn_id": "D7:11", "facts": ["Jolene and her partner still enjoy teaming up on engineering projects together, as they understand each other's struggles."], "keywords": ["engineering", "partner", "teamwork"], "entities": ["Jolene"]}
+{"turn_id": "D7:12", "facts": [], "keywords": ["stress", "question"], "entities": ["Deborah"]}
+{"turn_id": "D7:13", "facts": ["Jolene said that when she feels overwhelmed, she takes a break to do breathing exercises or meditate, which helps her feel calmer and handle challenges more easily."], "keywords": ["meditation", "breathing", "stress relief"], "entities": ["Jolene"]}
+{"turn_id": "D7:14", "facts": [], "keywords": ["encouragement"], "entities": ["Deborah"]}
+{"turn_id": "D7:15", "facts": [], "keywords": ["gratitude"], "entities": ["Jolene"]}
+{"turn_id": "D7:16", "facts": ["Deborah shared a photo of a person sitting on a bench watching the sunset, taken while she was reflecting outdoors, as a reminder to find peace even in chaos."], "keywords": ["reflection", "sunset", "peace", "outdoors"], "entities": ["Deborah"]}
+{"turn_id": "D7:17", "facts": [], "keywords": ["routine", "question"], "entities": ["Jolene"]}
+{"turn_id": "D7:18", "facts": ["Deborah's daily routine includes meditating, doing yoga, and teaching classes in the morning, and spending time with loved ones in the evening.", "On 2023-02-25, Deborah said that the day before (around 2023-02-24) she went for a morning jog for the first time in a nearby park and plans to incorporate it into her daily routine."], "keywords": ["routine", "yoga", "meditation", "jogging", "teaching"], "entities": ["Deborah"]}
+{"turn_id": "D7:19", "facts": [], "keywords": ["question", "routine"], "entities": ["Jolene"]}
+{"turn_id": "D7:20", "facts": ["Deborah said exercise is key for her because it makes her feel connected to her body."], "keywords": ["exercise", "body", "wellbeing"], "entities": ["Deborah"]}
+{"turn_id": "D7:21", "facts": [], "keywords": ["comment", "healthy habit"], "entities": ["Jolene"]}
+{"turn_id": "D7:22", "facts": ["Deborah said self-care gives people the energy to help others, using the saying \"Can't pour from an empty cup.\""], "keywords": ["self-care", "wellbeing", "saying"], "entities": ["Deborah"]}
+{"turn_id": "D7:23", "facts": [], "keywords": ["gratitude", "self-care"], "entities": ["Jolene"]}
+{"turn_id": "D8:1", "facts": ["On 2023-03-02, Deborah said her neighbor Anna got her a vegan stir-fry with tofu, vegetables, ginger, and soy sauce, which she found really tasty."], "keywords": ["vegan", "stir-fry", "food", "anna"], "entities": ["Deborah", "Anna"]}
+{"turn_id": "D8:2", "facts": ["Jolene said lasagna is one of her favorite comfort foods.", "As of 2023-03-02, Jolene said she has a lot going on with her studies and exams."], "keywords": ["lasagna", "comfort food", "studies", "exams"], "entities": ["Jolene"]}
+{"turn_id": "D8:3", "facts": [], "keywords": ["self-care", "question"], "entities": ["Deborah"]}
+{"turn_id": "D8:4", "facts": ["On 2023-03-02, Jolene said that the previous Friday (around 2023-02-24) she did yoga and meditation to relax."], "keywords": ["yoga", "meditation", "relaxation", "me-time"], "entities": ["Jolene"]}
+{"turn_id": "D8:5", "facts": ["Deborah said she also took time for herself recently, which helped her reset her mind."], "keywords": ["self-care", "mindset", "reset"], "entities": ["Deborah"]}
+{"turn_id": "D8:6", "facts": [], "keywords": ["mindfulness", "comment"], "entities": ["Jolene"]}
+{"turn_id": "D8:7", "facts": [], "keywords": ["outdoors", "question"], "entities": ["Deborah"]}
+{"turn_id": "D8:8", "facts": ["On 2023-03-02, Jolene said that the previous Sunday (around 2023-02-26) she took her pet snake Seraphim to the park and Seraphim loved it."], "keywords": ["seraphim", "snake", "park", "pet"], "entities": ["Jolene", "Seraphim"]}
+{"turn_id": "D8:9", "facts": [], "keywords": ["comment"], "entities": ["Deborah"]}
+{"turn_id": "D8:10", "facts": ["Jolene said people are often surprised when they see her tamed pet snake in public."], "keywords": ["snake", "pet", "public reaction"], "entities": ["Jolene"]}
+{"turn_id": "D8:11", "facts": ["Deborah said hearing birds chirping and feeling a gentle breeze outdoors reminds her of what really matters."], "keywords": ["outdoors", "nature", "birds", "mindfulness"], "entities": ["Deborah"]}
+{"turn_id": "D8:12", "facts": [], "keywords": ["mindfulness", "comment"], "entities": ["Jolene"]}
+{"turn_id": "D8:13", "facts": [], "keywords": ["mindfulness", "question"], "entities": ["Deborah"]}
+{"turn_id": "D8:14", "facts": ["Jolene said she needs to be more mindful of her stress levels and mental health, as she sometimes gets too caught up in her studies and forgets to prioritize self-care."], "keywords": ["stress", "mental health", "studies", "self-care"], "entities": ["Jolene"]}
+{"turn_id": "D8:15", "facts": [], "keywords": ["comment", "self-care"], "entities": ["Deborah"]}
+{"turn_id": "D8:16", "facts": ["As of 2023-03-02, Jolene said exams and deadlines were making her feel overwhelmed, with a never-ending to-do list."], "keywords": ["exams", "deadlines", "overwhelmed", "to-do list"], "entities": ["Jolene"]}
+{"turn_id": "D8:17", "facts": [], "keywords": ["encouragement"], "entities": ["Deborah"]}
+{"turn_id": "D8:18", "facts": [], "keywords": ["studying", "question", "time management"], "entities": ["Jolene"]}
+{"turn_id": "D8:19", "facts": ["Deborah's study tip is to break tasks into smaller pieces and set goals, and to use planners or schedulers for time management."], "keywords": ["study tips", "time management", "planners", "goals"], "entities": ["Deborah"]}
+{"turn_id": "D8:20", "facts": [], "keywords": ["gratitude"], "entities": ["Jolene"]}
+{"turn_id": "D8:21", "facts": ["Deborah gave Jolene an encouraging yellow mug with a handwritten message for good luck on her exams."], "keywords": ["mug", "gift", "encouragement", "exams"], "entities": ["Deborah", "Jolene"]}
+{"turn_id": "D8:22", "facts": [], "keywords": ["gratitude", "farewell"], "entities": ["Jolene"]}
+{"turn_id": "D8:23", "facts": [], "keywords": ["farewell"], "entities": ["Deborah"]}
+{"turn_id": "D9:1", "facts": [], "keywords": ["greeting", "check-in"], "entities": ["Deborah", "Jolene"]}
+{"turn_id": "D9:2", "facts": [], "keywords": ["check-in", "question"], "entities": ["Jolene"]}
+{"turn_id": "D9:3", "facts": ["Deborah started a yoga class in her neighborhood, allowing her to share the exercise with her neighbors."], "keywords": ["yoga class", "neighborhood", "teaching"], "entities": ["Deborah"]}
+{"turn_id": "D9:4", "facts": [], "keywords": ["question"], "entities": ["Jolene"]}
+{"turn_id": "D9:5", "facts": ["On 2023-03-13, Deborah said she hosted a yoga class for her interested neighbors the previous Friday (around 2023-03-10), which went great."], "keywords": ["yoga class", "neighbors", "hosting"], "entities": ["Deborah"]}
+{"turn_id": "D9:6", "facts": [], "keywords": ["teaching", "question"], "entities": ["Jolene"]}
+{"turn_id": "D9:7", "facts": ["Deborah said she finds yoga calming and wanted to share that feeling with others, which brings her happiness."], "keywords": ["yoga", "sharing", "happiness"], "entities": ["Deborah"]}
+{"turn_id": "D9:8", "facts": [], "keywords": ["comment"], "entities": ["Jolene"]}
+{"turn_id": "D9:9", "facts": ["Deborah said teaching yoga has helped her make great friends and build community connections."], "keywords": ["yoga", "teaching", "friendship", "community"], "entities": ["Deborah"]}
+{"turn_id": "D9:10", "facts": [], "keywords": ["comment", "support"], "entities": ["Jolene"]}
+{"turn_id": "D9:11", "facts": [], "keywords": ["comment"], "entities": ["Deborah"]}
+{"turn_id": "D9:12", "facts": [], "keywords": ["comment", "support"], "entities": ["Jolene"]}
+{"turn_id": "D9:13", "facts": [], "keywords": ["support"], "entities": ["Deborah"]}
+{"turn_id": "D9:14", "facts": ["As of 2023-03-13, Jolene said she was having a hard time managing her engineering assignments and struggling to keep up."], "keywords": ["engineering", "assignments", "struggle", "time management"], "entities": ["Jolene"]}
+{"turn_id": "D9:15", "facts": [], "keywords": ["support"], "entities": ["Deborah"]}
+{"turn_id": "D9:16", "facts": [], "keywords": ["scheduling"], "entities": ["Jolene"]}
+{"turn_id": "D9:17", "facts": [], "keywords": ["support"], "entities": ["Deborah"]}
+{"turn_id": "D9:18", "facts": [], "keywords": ["farewell"], "entities": ["Jolene"]}
+{"turn_id": "D9:19", "facts": [], "keywords": ["support"], "entities": ["Deborah"]}
+{"turn_id": "D9:20", "facts": [], "keywords": ["farewell"], "entities": ["Jolene"]}
+{"turn_id": "D10:1", "facts": [], "keywords": ["check-in", "exams"], "entities": ["Deborah", "Jolene"]}
+{"turn_id": "D10:2", "facts": ["As of 2023-03-22, Jolene said finding time for everything felt like stressful catch-up amid her exams and deadlines."], "keywords": ["stress", "exams", "deadlines", "time management"], "entities": ["Jolene"]}
+{"turn_id": "D10:3", "facts": [], "keywords": ["time management", "question"], "entities": ["Deborah"]}
+{"turn_id": "D10:4", "facts": ["Jolene said she uses the Pomodoro Technique (25 minutes of work, 5-minute break) to avoid burnout, but is still struggling to prioritize tasks."], "keywords": ["pomodoro technique", "time management", "burnout"], "entities": ["Jolene"]}
+{"turn_id": "D10:5", "facts": ["Deborah manages her time by creating a daily schedule or to-do list."], "keywords": ["daily schedule", "to-do list", "time management"], "entities": ["Deborah"]}
+{"turn_id": "D10:6", "facts": ["Jolene said making a to-do list feels overwhelming for her when it becomes a big stack of tasks."], "keywords": ["to-do list", "overwhelmed"], "entities": ["Jolene"]}
+{"turn_id": "D10:7", "facts": [], "keywords": ["prioritizing", "question"], "entities": ["Deborah"]}
+{"turn_id": "D10:8", "facts": ["Jolene said it often feels overwhelming and difficult for her to figure out where to start on her tasks."], "keywords": ["overwhelmed", "prioritizing"], "entities": ["Jolene"]}
+{"turn_id": "D10:9", "facts": [], "keywords": ["time management", "question"], "entities": ["Deborah"]}
+{"turn_id": "D10:10", "facts": [], "keywords": ["question"], "entities": ["Jolene"]}
+{"turn_id": "D10:11", "facts": [], "keywords": ["offer"], "entities": ["Deborah"]}
+{"turn_id": "D10:12", "facts": [], "keywords": ["interest"], "entities": ["Jolene"]}
+{"turn_id": "D10:13", "facts": ["Deborah introduced Jolene to the Eisenhower Matrix, a method that sorts tasks into four boxes based on urgency and importance for organizing and prioritizing."], "keywords": ["eisenhower matrix", "time management", "prioritizing"], "entities": ["Deborah", "Eisenhower Matrix"]}
+{"turn_id": "D10:14", "facts": [], "keywords": ["gratitude"], "entities": ["Jolene"]}
+{"turn_id": "D10:15", "facts": [], "keywords": ["encouragement"], "entities": ["Deborah"]}
+{"turn_id": "D10:16", "facts": ["Jolene said she would try the Eisenhower Matrix to help herself stay focused and less stressed."], "keywords": ["eisenhower matrix", "time management"], "entities": ["Jolene"]}
+{"turn_id": "D10:17", "facts": ["On 2023-03-22, Deborah said she and Anna recently sat by the sea watching the sunset, talking, and realized they inspire each other."], "keywords": ["anna", "sea", "sunset", "friendship", "inspiration"], "entities": ["Deborah", "Anna"]}
+{"turn_id": "D10:18", "facts": ["Jolene said seeing the sea makes her think about wanting to learn to surf, though she needs to find the spare time."], "keywords": ["surfing", "sea", "goals"], "entities": ["Jolene"]}
+{"turn_id": "D10:19", "facts": [], "keywords": ["surfing", "encouragement", "question"], "entities": ["Deborah"]}
+{"turn_id": "D10:20", "facts": ["As of 2023-03-22, Jolene had been gathering information and watching videos about surfing, and got a beginners' guide to surfing, but still needed to find the right time and place for a lesson."], "keywords": ["surfing", "beginners guide", "planning"], "entities": ["Jolene"]}
+{"turn_id": "D10:21", "facts": [], "keywords": ["encouragement", "surfing"], "entities": ["Deborah"]}
+{"turn_id": "D10:22", "facts": ["Jolene said the encouragement about surfing got her excited to keep pushing herself to make it happen."], "keywords": ["surfing", "motivation"], "entities": ["Jolene"]}
+{"turn_id": "D10:23", "facts": [], "keywords": ["encouragement"], "entities": ["Deborah"]}
+{"turn_id": "D10:24", "facts": [], "keywords": ["gratitude"], "entities": ["Jolene"]}
+{"turn_id": "D11:1", "facts": ["On 2023-03-28, Jolene said that the previous Friday (around 2023-03-24) she had a breakthrough on her engineering project, finally solving a problem that had been bugging her."], "keywords": ["engineering", "breakthrough", "project"], "entities": ["Jolene"]}
+{"turn_id": "D11:2", "facts": ["Deborah bought new props for her yoga class."], "keywords": ["yoga", "props", "class"], "entities": ["Deborah"]}
+{"turn_id": "D11:3", "facts": [], "keywords": ["engineering", "comment"], "entities": ["Jolene"]}
+{"turn_id": "D11:4", "facts": ["Deborah bought a candle to set the atmosphere and improve her yoga practice."], "keywords": ["candle", "yoga", "atmosphere"], "entities": ["Deborah"]}
+{"turn_id": "D11:5", "facts": ["Jolene said she feels relaxed doing yoga and loves creating a serene space with soothing scents like lavender and rosemary."], "keywords": ["yoga", "lavender", "rosemary", "relaxation", "scents"], "entities": ["Jolene"]}
+{"turn_id": "D11:6", "facts": ["Deborah said candles and essential oils add warmth and calm to her yoga sessions."], "keywords": ["candles", "essential oils", "yoga", "calm"], "entities": ["Deborah"]}
+{"turn_id": "D11:7", "facts": ["Jolene said music helps her during yoga."], "keywords": ["music", "yoga"], "entities": ["Jolene"]}
+{"turn_id": "D11:8", "facts": ["Deborah said instrumental tracks with mellow melodies help create a peaceful vibe for yoga, and one of her favorites is a track called \"Savana.\""], "keywords": ["music", "instrumental", "savana", "yoga"], "entities": ["Deborah", "Savana"]}
+{"turn_id": "D11:9", "facts": ["Jolene said she loves listening to Nils Frahm and Olafur Arnalds during her yoga practice, finding their music calming."], "keywords": ["nils frahm", "olafur arnalds", "music", "yoga"], "entities": ["Jolene", "Nils Frahm", "Olafur Arnalds"]}
+{"turn_id": "D11:10", "facts": ["Deborah listens to an album called \"Sleep\" for meditation and deep relaxation."], "keywords": ["sleep album", "meditation", "relaxation", "music"], "entities": ["Deborah", "Sleep"]}
+{"turn_id": "D11:11", "facts": [], "keywords": ["gratitude", "music"], "entities": ["Jolene"]}
+{"turn_id": "D11:12", "facts": [], "keywords": ["comment"], "entities": ["Deborah"]}
+{"turn_id": "D11:13", "facts": [], "keywords": ["farewell"], "entities": ["Jolene"]}
+{"turn_id": "D11:14", "facts": [], "keywords": ["farewell", "encouragement"], "entities": ["Deborah"]}
+{"turn_id": "D12:1", "facts": ["On 2023-04-09, Deborah said that the previous week she went biking with her neighbor, which felt freeing and beautiful.", "On 2023-04-09, Deborah said she visited an art show with a friend that day, which was inspiring and reminded her of her mother."], "keywords": ["biking", "neighbor", "art show", "mother"], "entities": ["Deborah"]}
+{"turn_id": "D12:2", "facts": [], "keywords": ["art show", "question"], "entities": ["Jolene"]}
+{"turn_id": "D12:3", "facts": ["Deborah's mother was interested in art and believed it could give out strong emotions and uniquely connect people.", "Deborah said that going to an art show feels like still experiencing it together with her mother, even though her mother is gone."], "keywords": ["mother", "art", "grief", "connection"], "entities": ["Deborah"]}
+{"turn_id": "D12:4", "facts": [], "keywords": ["grief", "comfort", "comment"], "entities": ["Jolene"]}
+{"turn_id": "D12:5", "facts": ["Deborah said finding ways to keep her mother's memory alive, like through artwork, gives her peace and solace."], "keywords": ["mother", "memory", "art", "solace"], "entities": ["Deborah"]}
+{"turn_id": "D12:6", "facts": ["Jolene said spending time with her snakes, even though they cannot talk, is valuable and teaches her to be in tune with herself.", "Jolene said playing video games with her partner after a long day is a great way for her to relax."], "keywords": ["snakes", "video games", "partner", "relaxation"], "entities": ["Jolene"]}
+{"turn_id": "D12:7", "facts": [], "keywords": ["comment", "question"], "entities": ["Deborah"]}
+{"turn_id": "D12:8", "facts": ["Jolene said gaming with her partner brings them closer together."], "keywords": ["gaming", "partner", "closeness"], "entities": ["Jolene"]}
+{"turn_id": "D12:9", "facts": [], "keywords": ["comfort", "comment"], "entities": ["Deborah"]}
+{"turn_id": "D12:10", "facts": ["As of 2023-04-09, Jolene had been working on a big project that was tough but rewarding to watch take shape."], "keywords": ["project", "engineering", "progress"], "entities": ["Jolene"]}
+{"turn_id": "D12:11", "facts": [], "keywords": ["encouragement"], "entities": ["Deborah"]}
+{"turn_id": "D12:12", "facts": [], "keywords": ["gratitude"], "entities": ["Jolene"]}
+{"turn_id": "D12:13", "facts": [], "keywords": ["support"], "entities": ["Deborah"]}
+{"turn_id": "D12:14", "facts": [], "keywords": ["farewell"], "entities": ["Jolene"]}
+{"turn_id": "D12:15", "facts": [], "keywords": ["farewell"], "entities": ["Deborah"]}
+{"turn_id": "D12:16", "facts": [], "keywords": ["farewell"], "entities": ["Jolene"]}
+{"turn_id": "D13:1", "facts": ["On 2023-06-06, Jolene said she finally finished her tough engineering project the previous month (around May 2023), the result being a solar-powered vehicle with a solar panel."], "keywords": ["engineering", "solar vehicle", "project completion"], "entities": ["Jolene"]}
+{"turn_id": "D13:2", "facts": [], "keywords": ["congratulations"], "entities": ["Deborah"]}
+{"turn_id": "D13:3", "facts": ["Jolene said she is proud of herself for sticking with her engineering project despite the problems and finishing it, calling it a big milestone."], "keywords": ["engineering", "pride", "milestone"], "entities": ["Jolene"]}
+{"turn_id": "D13:4", "facts": [], "keywords": ["question", "plans"], "entities": ["Deborah"]}
+{"turn_id": "D13:5", "facts": ["As of 2023-06-06, Jolene is interning at a well-known engineering firm, which she calls a great opportunity to test her skills and gain real-world experience."], "keywords": ["internship", "engineering firm", "career"], "entities": ["Jolene"]}
+{"turn_id": "D13:6", "facts": [], "keywords": ["internship", "question"], "entities": ["Deborah"]}
+{"turn_id": "D13:7", "facts": ["Jolene said the best part of her internship so far has been applying what she learned in school to real projects."], "keywords": ["internship", "learning", "engineering"], "entities": ["Jolene"]}
+{"turn_id": "D13:8", "facts": [], "keywords": ["internship", "question"], "entities": ["Deborah"]}
+{"turn_id": "D13:9", "facts": ["Jolene said her internship has had a positive impact on her life, stoking her love of engineering and encouraging her to keep striving for her dreams."], "keywords": ["internship", "impact", "motivation"], "entities": ["Jolene"]}
+{"turn_id": "D13:10", "facts": [], "keywords": ["question", "motivation"], "entities": ["Deborah"]}
+{"turn_id": "D13:11", "facts": ["Jolene said being around colleagues who love what they do at her internship has inspired her to stay focused on her goals."], "keywords": ["internship", "colleagues", "inspiration"], "entities": ["Jolene"]}
+{"turn_id": "D13:12", "facts": [], "keywords": ["work-life balance", "question"], "entities": ["Deborah"]}
+{"turn_id": "D13:13", "facts": ["Jolene said finding work-life balance during her internship has been tough, making it hard to find time for hobbies and relaxing."], "keywords": ["work-life balance", "internship", "struggle"], "entities": ["Jolene"]}
+{"turn_id": "D13:14", "facts": [], "keywords": ["yoga", "suggestion"], "entities": ["Deborah"]}
+{"turn_id": "D13:15", "facts": ["On 2023-06-06, Jolene said that the previous morning (around 2023-06-05) she did yoga on top of Mount Talkeetna."], "keywords": ["yoga", "mount talkeetna", "hiking"], "entities": ["Jolene", "Mount Talkeetna"]}
+{"turn_id": "D13:16", "facts": [], "keywords": ["yoga", "question"], "entities": ["Deborah"]}
+{"turn_id": "D13:17", "facts": ["As of 2023-06-06, Jolene said she has been practicing yoga and meditation sporadically for about 3 years, which have had a positive effect on her."], "keywords": ["yoga", "meditation", "practice history"], "entities": ["Jolene"]}
+{"turn_id": "D13:18", "facts": [], "keywords": ["question", "yoga"], "entities": ["Deborah"]}
+{"turn_id": "D13:19", "facts": ["Jolene said yoga and meditation have helped her with stress and kept her centered."], "keywords": ["yoga", "meditation", "stress"], "entities": ["Jolene"]}
+{"turn_id": "D13:20", "facts": [], "keywords": ["comment"], "entities": ["Deborah"]}
+{"turn_id": "D13:21", "facts": ["Jolene said she doesn't know how she would have survived without yoga and meditation."], "keywords": ["yoga", "meditation", "coping"], "entities": ["Jolene"]}
+{"turn_id": "D13:22", "facts": ["Deborah shared a photo of her favorite yoga studio, which she finds always calming."], "keywords": ["yoga studio", "calming"], "entities": ["Deborah"]}
+{"turn_id": "D13:23", "facts": [], "keywords": ["question", "breathing"], "entities": ["Jolene"]}
+{"turn_id": "D13:24", "facts": ["Deborah recommends mindful breathing for yoga: setting aside a few minutes daily to sit with eyes closed, take deep breaths, and focus on the sensation of air entering and leaving the body."], "keywords": ["mindful breathing", "yoga", "advice"], "entities": ["Deborah"]}
+{"turn_id": "D13:25", "facts": [], "keywords": ["gratitude"], "entities": ["Jolene"]}
+{"turn_id": "D13:26", "facts": [], "keywords": ["support", "farewell"], "entities": ["Deborah"]}
+{"turn_id": "D13:27", "facts": [], "keywords": ["farewell"], "entities": ["Jolene"]}
+{"turn_id": "D14:1", "facts": ["As of 2023-06-26, Deborah has been preparing for a yoga retreat with friends, which she is looking forward to as a chance to find peace and understanding with like-minded people."], "keywords": ["yoga retreat", "friends", "peace"], "entities": ["Deborah"]}
+{"turn_id": "D14:2", "facts": ["As of 2023-06-26, Jolene said things had been super hectic with her internship."], "keywords": ["internship", "busy", "stress"], "entities": ["Jolene"]}
+{"turn_id": "D14:3", "facts": ["Deborah tried a new yoga pose called Dancer Pose (Natarajasana) on the beach."], "keywords": ["dancer pose", "natarajasana", "yoga", "beach"], "entities": ["Deborah", "Natarajasana"]}
+{"turn_id": "D14:4", "facts": ["On 2023-06-26, Jolene said she bought a new aquarium for her snake Seraphim two days earlier (around 2023-06-24)."], "keywords": ["seraphim", "aquarium", "snake", "pet"], "entities": ["Jolene", "Seraphim"]}
+{"turn_id": "D14:5", "facts": [], "keywords": ["pet", "question"], "entities": ["Deborah"]}
+{"turn_id": "D14:6", "facts": ["Jolene got her snake Seraphim the previous year (2022); Seraphim cheers her up and brings her a sense of peace."], "keywords": ["seraphim", "snake", "pet", "comfort"], "entities": ["Jolene", "Seraphim"]}
+{"turn_id": "D14:7", "facts": [], "keywords": ["pets", "comment"], "entities": ["Deborah"]}
+{"turn_id": "D14:8", "facts": [], "keywords": ["pets", "gratitude"], "entities": ["Jolene"]}
+{"turn_id": "D14:9", "facts": [], "keywords": ["check-in", "question"], "entities": ["Deborah"]}
+{"turn_id": "D14:10", "facts": ["As of 2023-06-26, Jolene said things had been intense lately as she pushes herself to succeed, sometimes feeling overwhelmed but determined to overcome obstacles."], "keywords": ["stress", "determination", "goals"], "entities": ["Jolene"]}
+{"turn_id": "D14:11", "facts": [], "keywords": ["encouragement"], "entities": ["Deborah"]}
+{"turn_id": "D14:12", "facts": ["Jolene had a big breakthrough on a project involving a house drawing/design, which she found exciting and rewarding."], "keywords": ["project", "breakthrough", "house design"], "entities": ["Jolene"]}
+{"turn_id": "D14:13", "facts": [], "keywords": ["congratulations"], "entities": ["Deborah"]}
+{"turn_id": "D14:14", "facts": [], "keywords": ["deflection", "question"], "entities": ["Jolene"]}
+{"turn_id": "D14:15", "facts": ["Deborah shared a photo of a new yoga pose, the tree pose, tried during her retreat."], "keywords": ["tree pose", "yoga", "retreat"], "entities": ["Deborah"]}
+{"turn_id": "D14:16", "facts": [], "keywords": ["question", "statue"], "entities": ["Jolene"]}
+{"turn_id": "D14:17", "facts": ["Deborah said the statue at her yoga retreat is a symbol of peace and enlightenment."], "keywords": ["statue", "peace", "enlightenment", "retreat"], "entities": ["Deborah"]}
+{"turn_id": "D14:18", "facts": ["Jolene said she would love to visit a retreat like Deborah's, seeing it as an ideal spot for peace and refreshment."], "keywords": ["retreat", "peace", "interest"], "entities": ["Jolene"]}
+{"turn_id": "D14:19", "facts": [], "keywords": ["reflection", "comment"], "entities": ["Deborah"]}
+{"turn_id": "D14:20", "facts": [], "keywords": ["relaxation", "comment"], "entities": ["Jolene"]}
+{"turn_id": "D14:21", "facts": [], "keywords": ["comment"], "entities": ["Deborah"]}
+{"turn_id": "D14:22", "facts": [], "keywords": ["farewell"], "entities": ["Jolene"]}
+{"turn_id": "D14:23", "facts": [], "keywords": ["farewell"], "entities": ["Deborah"]}
+{"turn_id": "D15:1", "facts": ["As of 2023-07-09, Deborah started a running group with her neighbor Anna."], "keywords": ["running group", "anna", "fitness"], "entities": ["Deborah", "Anna"]}
+{"turn_id": "D15:2", "facts": ["As of 2023-07-09, Jolene said she has been trying to add workouts into her studying schedule, which has been tough but fun."], "keywords": ["workouts", "studying", "schedule"], "entities": ["Jolene"]}
+{"turn_id": "D15:3", "facts": ["Deborah said she and her running group help and push each other during runs, which makes it easier to stay motivated."], "keywords": ["running group", "motivation", "support"], "entities": ["Deborah"]}
+{"turn_id": "D15:4", "facts": [], "keywords": ["comment", "reflection"], "entities": ["Jolene"]}
+{"turn_id": "D15:5", "facts": [], "keywords": ["question", "support"], "entities": ["Deborah"]}
+{"turn_id": "D15:6", "facts": ["Jolene said her partner helps her stay focused on their gaming goals, which has been tough lately but she's grateful to have him."], "keywords": ["gaming", "partner", "support"], "entities": ["Jolene"]}
+{"turn_id": "D15:7", "facts": [], "keywords": ["gaming", "question"], "entities": ["Deborah"]}
+{"turn_id": "D15:8", "facts": ["Jolene said gaming with her partner lets them tackle challenges together, share experiences, and bond and get closer."], "keywords": ["gaming", "partner", "bonding"], "entities": ["Jolene"]}
+{"turn_id": "D15:9", "facts": [], "keywords": ["gaming", "question"], "entities": ["Deborah"]}
+{"turn_id": "D15:10", "facts": ["Jolene and her partner love playing the team-strategy game \"It Takes Two\" together, which they find fun, competitive, and great for bonding."], "keywords": ["it takes two", "gaming", "partner", "bonding"], "entities": ["Jolene", "It Takes Two"]}
+{"turn_id": "D15:11", "facts": ["Deborah does running and yoga/meditation with others, and loves organizing workshops and events to practice mindfulness and self-care."], "keywords": ["running", "yoga", "meditation", "workshops", "community"], "entities": ["Deborah"]}
+{"turn_id": "D15:12", "facts": [], "keywords": ["workshops", "question"], "entities": ["Jolene"]}
+{"turn_id": "D15:13", "facts": ["Deborah's workshops and events involve yoga, meditation, and self-reflection, aiming to cultivate self-awareness and promote mental and emotional well-being."], "keywords": ["workshops", "yoga", "meditation", "self-awareness", "well-being"], "entities": ["Deborah"]}
+{"turn_id": "D15:14", "facts": [], "keywords": ["comment", "question"], "entities": ["Jolene"]}
+{"turn_id": "D15:15", "facts": ["Deborah said it has been great and rewarding to see people come together, support each other, and grow through her workshops."], "keywords": ["workshops", "growth", "community", "reward"], "entities": ["Deborah"]}
+{"turn_id": "D15:16", "facts": [], "keywords": ["support", "comment"], "entities": ["Jolene"]}
+{"turn_id": "D15:17", "facts": [], "keywords": ["gratitude", "question", "pets"], "entities": ["Deborah"]}
+{"turn_id": "D15:18", "facts": ["Jolene said she got a snake because she was fascinated by reptiles and felt it was the perfect pet, and that caring for it has been calming and a way to connect with nature."], "keywords": ["snake", "reptiles", "pet", "calming"], "entities": ["Jolene"]}
+{"turn_id": "D15:19", "facts": [], "keywords": ["memory", "question"], "entities": ["Deborah"]}
+{"turn_id": "D15:20", "facts": ["Jolene recalled a memory where her snake got out of its enclosure and she spent hours searching before finding it snuggling under the bed, which made her realize how much she loves her."], "keywords": ["snake adventure", "memory", "pet", "love"], "entities": ["Jolene"]}
+{"turn_id": "D15:21", "facts": [], "keywords": ["question", "relief"], "entities": ["Deborah"]}
+{"turn_id": "D15:22", "facts": ["Jolene said finding her snake snuggled under the bed made her feel love and gratitude and realize how important the snake is to her."], "keywords": ["snake", "gratitude", "love", "pet"], "entities": ["Jolene"]}
+{"turn_id": "D15:23", "facts": [], "keywords": ["comment", "pets"], "entities": ["Deborah"]}
+{"turn_id": "D15:24", "facts": [], "keywords": ["comment", "animals"], "entities": ["Jolene"]}
+{"turn_id": "D15:25", "facts": ["Deborah said she does not like dogs and instead has cats as pets."], "keywords": ["cats", "pets", "preference"], "entities": ["Deborah"]}
+{"turn_id": "D15:26", "facts": [], "keywords": ["pets", "question"], "entities": ["Jolene"]}
+{"turn_id": "D15:27", "facts": ["Deborah takes her cats out for a run in the park every morning and evening because exercise and nature are important to her."], "keywords": ["cats", "exercise", "park", "routine"], "entities": ["Deborah"]}
+{"turn_id": "D15:28", "facts": [], "keywords": ["comment"], "entities": ["Jolene"]}
+{"turn_id": "D15:29", "facts": [], "keywords": ["nature", "peace"], "entities": ["Deborah"]}
+{"turn_id": "D15:30", "facts": ["Jolene said she wishes her pet snakes could run with her outdoors like Deborah's cats do."], "keywords": ["snakes", "exercise", "wish"], "entities": ["Jolene"]}
+{"turn_id": "D15:31", "facts": ["Deborah said being in nature is like hitting a reset button, helping her put things into perspective and reflect."], "keywords": ["nature", "reflection", "perspective"], "entities": ["Deborah"]}
+{"turn_id": "D15:32", "facts": ["Jolene said she loves going for walks and taking photos, such as sunsets over water, whenever she can."], "keywords": ["walks", "photography", "sunset", "nature"], "entities": ["Jolene"]}
+{"turn_id": "D15:33", "facts": [], "keywords": ["nature", "comment"], "entities": ["Deborah"]}
+{"turn_id": "D15:34", "facts": ["Jolene shared a photo of a lake surrounded by trees, capturing its peacefulness."], "keywords": ["lake", "trees", "peacefulness", "photography"], "entities": ["Jolene"]}
+{"turn_id": "D15:35", "facts": [], "keywords": ["question", "lake"], "entities": ["Deborah"]}
+{"turn_id": "D15:36", "facts": ["Jolene considers the lake spot a hidden gem that makes her feel peaceful and tranquil."], "keywords": ["lake", "hidden gem", "tranquility"], "entities": ["Jolene"]}
+{"turn_id": "D15:37", "facts": [], "keywords": ["comment"], "entities": ["Deborah"]}
+{"turn_id": "D15:38", "facts": ["Jolene suggested she and Deborah go to the lake spot together sometime."], "keywords": ["lake", "plans", "friendship"], "entities": ["Jolene", "Deborah"]}
+{"turn_id": "D15:39", "facts": [], "keywords": ["comment"], "entities": ["Deborah"]}
+{"turn_id": "D16:1", "facts": ["As of 2023-08-01, Deborah started a community cleanup project and has been trying to raise funds for it."], "keywords": ["community cleanup", "fundraising", "project"], "entities": ["Deborah"]}
+{"turn_id": "D16:2", "facts": ["On 2023-08-01, Jolene said that the previous week she had a huge setback when her engineering project crashed and she lost everything she had worked on, which was frustrating and depressing."], "keywords": ["engineering", "setback", "data loss", "frustration"], "entities": ["Jolene"]}
+{"turn_id": "D16:3", "facts": [], "keywords": ["condolences", "support"], "entities": ["Deborah"]}
+{"turn_id": "D16:4", "facts": ["Jolene said her pet snake Susie helps her cope during tough times, and video games have also been a nice distraction."], "keywords": ["susie", "snake", "coping", "video games"], "entities": ["Jolene", "Susie"]}
+{"turn_id": "D16:5", "facts": [], "keywords": ["pets", "question"], "entities": ["Deborah"]}
+{"turn_id": "D16:6", "facts": ["Jolene adopted her snake Susie two years before 2023-08-01 (around 2021), when she was feeling lonely and wanted company."], "keywords": ["susie", "adoption", "loneliness", "pet"], "entities": ["Jolene", "Susie"]}
+{"turn_id": "D16:7", "facts": [], "keywords": ["pets", "comment"], "entities": ["Deborah"]}
+{"turn_id": "D16:8", "facts": ["Jolene said having Susie around shows her she can stay strong and find joy in small things."], "keywords": ["susie", "strength", "joy"], "entities": ["Jolene", "Susie"]}
+{"turn_id": "D16:9", "facts": [], "keywords": ["self-care", "question"], "entities": ["Deborah"]}
+{"turn_id": "D16:10", "facts": ["As of 2023-08-01, Jolene has been trying to prioritize self-care through yoga and meditation to stay balanced and grounded."], "keywords": ["self-care", "yoga", "meditation"], "entities": ["Jolene"]}
+{"turn_id": "D16:11", "facts": [], "keywords": ["offer", "yoga"], "entities": ["Deborah"]}
+{"turn_id": "D16:12", "facts": [], "keywords": ["interest", "routines"], "entities": ["Jolene"]}
+{"turn_id": "D16:13", "facts": [], "keywords": ["yoga", "recommendation"], "entities": ["Deborah"]}
+{"turn_id": "D16:14", "facts": [], "keywords": ["question", "routines"], "entities": ["Jolene"]}
+{"turn_id": "D16:15", "facts": ["One of Deborah's favorite yoga routines is a gentle flow focused on breathing and grounding, which helps her find her chill."], "keywords": ["yoga routine", "gentle flow", "breathing", "grounding"], "entities": ["Deborah"]}
+{"turn_id": "D16:16", "facts": [], "keywords": ["question", "concentration"], "entities": ["Jolene"]}
+{"turn_id": "D16:17", "facts": [], "keywords": ["yoga", "balance"], "entities": ["Deborah"]}
+{"turn_id": "D16:18", "facts": [], "keywords": ["farewell"], "entities": ["Jolene"]}
+{"turn_id": "D16:19", "facts": [], "keywords": ["farewell"], "entities": ["Deborah"]}
+{"turn_id": "D16:20", "facts": [], "keywords": ["farewell"], "entities": ["Jolene"]}
+{"turn_id": "D17:1", "facts": ["Deborah made a meditation guide for her yoga retreat."], "keywords": ["meditation guide", "yoga retreat"], "entities": ["Deborah"]}
+{"turn_id": "D17:2", "facts": ["As of 2023-08-12, Jolene said she was stressed after losing her work files but that meditation helped keep her chill and regain clarity."], "keywords": ["stress", "lost files", "meditation", "clarity"], "entities": ["Jolene"]}
+{"turn_id": "D17:3", "facts": [], "keywords": ["support"], "entities": ["Deborah"]}
+{"turn_id": "D17:4", "facts": [], "keywords": ["sharing"], "entities": ["Jolene"]}
+{"turn_id": "D17:5", "facts": [], "keywords": ["compliment"], "entities": ["Deborah"]}
+{"turn_id": "D17:6", "facts": ["Jolene designed notebooks inspired by her love for space and engines, featuring elements like galaxies and circuitry."], "keywords": ["notebooks", "design", "space", "engines", "circuitry"], "entities": ["Jolene"]}
+{"turn_id": "D17:7", "facts": [], "keywords": ["compliment", "question"], "entities": ["Deborah"]}
+{"turn_id": "D17:8", "facts": ["Jolene said seeing art and design in various things gives her a unique perspective on solving engineering problems."], "keywords": ["art", "design", "engineering", "perspective"], "entities": ["Jolene"]}
+{"turn_id": "D17:9", "facts": [], "keywords": ["question", "projects"], "entities": ["Deborah"]}
+{"turn_id": "D17:10", "facts": ["As of 2023-08-12, Jolene is working on a project prototype that could revolutionize aerial surveillance."], "keywords": ["aerial surveillance", "prototype", "engineering project"], "entities": ["Jolene"]}
+{"turn_id": "D17:11", "facts": [], "keywords": ["question", "goals"], "entities": ["Deborah"]}
+{"turn_id": "D17:12", "facts": ["Jolene's aim for her aerial surveillance project is to devise a more productive and affordable system that helps with emergency response and environmental monitoring."], "keywords": ["aerial surveillance", "goals", "emergency response", "environment"], "entities": ["Jolene"]}
+{"turn_id": "D17:13", "facts": [], "keywords": ["encouragement"], "entities": ["Deborah"]}
+{"turn_id": "D17:14", "facts": [], "keywords": ["gratitude"], "entities": ["Jolene"]}
+{"turn_id": "D17:15", "facts": [], "keywords": ["encouragement"], "entities": ["Deborah"]}
+{"turn_id": "D18:1", "facts": ["As of 2023-08-16, Jolene has been struggling to balance her engineering studies, her relationship with her boyfriend, and personal growth."], "keywords": ["balance", "boyfriend", "engineering", "personal growth", "stress"], "entities": ["Jolene"]}
+{"turn_id": "D18:2", "facts": [], "keywords": ["balance", "advice"], "entities": ["Deborah"]}
+{"turn_id": "D18:3", "facts": ["Jolene has been trying time management strategies, including starting a bullet journal to track tasks and stay organized."], "keywords": ["bullet journal", "time management", "organization"], "entities": ["Jolene"]}
+{"turn_id": "D18:4", "facts": [], "keywords": ["encouragement"], "entities": ["Deborah"]}
+{"turn_id": "D18:5", "facts": ["Jolene finds it satisfying to cross tasks off her bullet journal list and shared a spread with one of her favorite quotes."], "keywords": ["bullet journal", "quote", "satisfaction"], "entities": ["Jolene"]}
+{"turn_id": "D18:6", "facts": [], "keywords": ["quote", "question"], "entities": ["Deborah"]}
+{"turn_id": "D18:7", "facts": ["Jolene said her favorite quote reminds her to stick to her goals and never give up."], "keywords": ["quote", "motivation", "goals"], "entities": ["Jolene"]}
+{"turn_id": "D18:8", "facts": ["On 2023-08-16, Deborah said that the previous week she led a meditation yoga session for the elderly at a local care home during sunset."], "keywords": ["yoga", "meditation", "elderly", "care home", "volunteering"], "entities": ["Deborah"]}
+{"turn_id": "D18:9", "facts": ["As of 2023-08-16, Jolene had not yet tried mindfulness but was interested in trying it to destress."], "keywords": ["mindfulness", "destress", "interest"], "entities": ["Jolene"]}
+{"turn_id": "D18:10", "facts": ["Deborah started her mindfulness practice with workshops and books, and it is now a huge part of her life."], "keywords": ["mindfulness", "workshops", "books", "practice history"], "entities": ["Deborah"]}
+{"turn_id": "D18:11", "facts": [], "keywords": ["mindfulness", "interest"], "entities": ["Jolene"]}
+{"turn_id": "D18:12", "facts": [], "keywords": ["encouragement", "mindfulness"], "entities": ["Deborah"]}
+{"turn_id": "D18:13", "facts": [], "keywords": ["gratitude"], "entities": ["Jolene"]}
+{"turn_id": "D18:14", "facts": [], "keywords": ["farewell", "support"], "entities": ["Deborah"]}
+{"turn_id": "D18:15", "facts": [], "keywords": ["farewell"], "entities": ["Jolene"]}
+{"turn_id": "D19:1", "facts": ["On 2023-08-19, Deborah said that the previous Friday (around 2023-08-18) she told her neighbor Anna the story of her life and Anna was very kind about it."], "keywords": ["anna", "life story", "connection"], "entities": ["Deborah", "Anna"]}
+{"turn_id": "D19:2", "facts": ["On 2023-08-19, Jolene said she bought her partner a game console as a gift on 2023-08-17, which they've had fun with."], "keywords": ["console", "gift", "partner", "gaming"], "entities": ["Jolene"]}
+{"turn_id": "D19:3", "facts": ["Deborah said organizing a yoga event the previous month (around July 2023) was really cool."], "keywords": ["yoga event", "community", "organizing"], "entities": ["Deborah"]}
+{"turn_id": "D19:4", "facts": [], "keywords": ["question", "balance"], "entities": ["Jolene"]}
+{"turn_id": "D19:5", "facts": ["Deborah organized her yoga event by reaching out to nearby businesses and places; the event featured yoga, food stalls, and live music.", "Deborah manages balance between hobbies and studies by making a schedule and setting aside specific time for each."], "keywords": ["yoga event", "food stalls", "live music", "time management"], "entities": ["Deborah"]}
+{"turn_id": "D19:6", "facts": [], "keywords": ["gaming", "question"], "entities": ["Jolene"]}
+{"turn_id": "D19:7", "facts": ["Deborah said she used to play video games but it's been a while; she finds it a good way to relax after a busy day."], "keywords": ["video games", "relaxation", "history"], "entities": ["Deborah"]}
+{"turn_id": "D19:8", "facts": ["Jolene recommended the games Zelda: Breath of the Wild for Switch, calling it an awesome open-world game, and Animal Crossing: New Horizons, calling it calming and cute."], "keywords": ["zelda breath of the wild", "animal crossing new horizons", "video game recommendations"], "entities": ["Jolene", "Zelda: Breath of the Wild", "Animal Crossing: New Horizons"]}
+{"turn_id": "D19:9", "facts": [], "keywords": ["question", "memories", "gaming"], "entities": ["Deborah"]}
+{"turn_id": "D19:10", "facts": ["Jolene said Overcooked 2 is a fun, chaotic co-op cooking game she and her partner play for bets, and she once won three large pizzas from a bet."], "keywords": ["overcooked 2", "co-op game", "partner", "bets"], "entities": ["Jolene", "Overcooked 2"]}
+{"turn_id": "D19:11", "facts": ["Deborah said she used to play video games with her husband, taking turns, as a way to bond and make memories."], "keywords": ["husband", "video games", "bonding", "memories"], "entities": ["Deborah"]}
+{"turn_id": "D19:12", "facts": [], "keywords": ["gaming", "question"], "entities": ["Jolene"]}
+{"turn_id": "D19:13", "facts": ["Deborah and her husband prefer to play detective games together."], "keywords": ["detective games", "husband", "gaming preference"], "entities": ["Deborah"]}
+{"turn_id": "D19:14", "facts": [], "keywords": ["question", "activities"], "entities": ["Jolene"]}
+{"turn_id": "D19:15", "facts": ["Deborah and her husband also enjoyed spending time outdoors and exploring nature together."], "keywords": ["husband", "outdoors", "nature"], "entities": ["Deborah"]}
+{"turn_id": "D19:16", "facts": [], "keywords": ["outdoors", "question"], "entities": ["Jolene"]}
+{"turn_id": "D19:17", "facts": ["Deborah loves a park near her house that has a forest trail and a beach, where she does yoga and reflects, and there is a special bench that holds meaning for her."], "keywords": ["park", "forest trail", "beach", "bench", "yoga"], "entities": ["Deborah"]}
+{"turn_id": "D19:18", "facts": [], "keywords": ["bench", "question"], "entities": ["Jolene"]}
+{"turn_id": "D19:19", "facts": ["The bench in Deborah's favorite park holds special memories of her and her mother, where they used to chat about dreams and life."], "keywords": ["bench", "mother", "memories", "park"], "entities": ["Deborah"]}
+{"turn_id": "D19:20", "facts": [], "keywords": ["question", "memories"], "entities": ["Jolene"]}
+{"turn_id": "D19:21", "facts": ["Deborah recalled watching a beautiful sunset in silence with her mother at the special bench, and she feels peace and gratitude whenever she returns there."], "keywords": ["sunset", "mother", "bench", "gratitude", "memory"], "entities": ["Deborah"]}
+{"turn_id": "D19:22", "facts": [], "keywords": ["comment", "gratitude"], "entities": ["Jolene"]}
+{"turn_id": "D19:23", "facts": [], "keywords": ["gratitude"], "entities": ["Deborah"]}
+{"turn_id": "D19:24", "facts": [], "keywords": ["comment"], "entities": ["Jolene"]}
+{"turn_id": "D20:1", "facts": ["On 2023-08-21, Jolene said she and her partner got a new console game the previous week, Battlefield 1."], "keywords": ["battlefield 1", "console", "gaming"], "entities": ["Jolene", "Battlefield 1"]}
+{"turn_id": "D20:2", "facts": ["Deborah recently visited a place that held a lot of memories and sat on the bench where she used to chat with her mother, which brought back a lot of emotions."], "keywords": ["bench", "mother", "memories", "emotions"], "entities": ["Deborah"]}
+{"turn_id": "D20:3", "facts": [], "keywords": ["question", "emotions"], "entities": ["Jolene"]}
+{"turn_id": "D20:4", "facts": ["Deborah said visiting the bench brought a mix of nostalgia, longing, and gratitude, and she brought flowers there."], "keywords": ["nostalgia", "flowers", "bench", "gratitude"], "entities": ["Deborah"]}
+{"turn_id": "D20:5", "facts": [], "keywords": ["question"], "entities": ["Jolene"]}
+{"turn_id": "D20:6", "facts": ["Deborah's mother loved flowers, which always made her happy, and she appreciated simple things in life."], "keywords": ["mother", "flowers", "happiness", "simplicity"], "entities": ["Deborah"]}
+{"turn_id": "D20:7", "facts": [], "keywords": ["question", "photo"], "entities": ["Jolene"]}
+{"turn_id": "D20:8", "facts": ["Deborah's mother appreciated flowers by taking it slow, seeing beauty in them, and finding joy."], "keywords": ["mother", "flowers", "appreciation"], "entities": ["Deborah"]}
+{"turn_id": "D20:9", "facts": [], "keywords": ["comment", "mindfulness"], "entities": ["Jolene"]}
+{"turn_id": "D20:10", "facts": [], "keywords": ["comment"], "entities": ["Deborah"]}
+{"turn_id": "D20:11", "facts": ["As of 2023-08-21, Jolene has been trying to do more yoga and meditation to relax and stay focused."], "keywords": ["yoga", "meditation", "focus", "relaxation"], "entities": ["Jolene"]}
+{"turn_id": "D20:12", "facts": ["Deborah said yoga, meditation, walks, and mindfulness help her find balance, inner peace, and stay grounded."], "keywords": ["yoga", "meditation", "walks", "mindfulness", "balance"], "entities": ["Deborah"]}
+{"turn_id": "D20:13", "facts": [], "keywords": ["comment", "walks"], "entities": ["Jolene"]}
+{"turn_id": "D20:14", "facts": [], "keywords": ["comment"], "entities": ["Deborah"]}
+{"turn_id": "D20:15", "facts": [], "keywords": ["comment", "recharge"], "entities": ["Jolene"]}
+{"turn_id": "D20:16", "facts": [], "keywords": ["comment"], "entities": ["Deborah"]}
+{"turn_id": "D20:17", "facts": [], "keywords": ["comment"], "entities": ["Jolene"]}
+{"turn_id": "D20:18", "facts": [], "keywords": ["yoga", "question"], "entities": ["Deborah"]}
+{"turn_id": "D20:19", "facts": ["Jolene's favorite yoga pose for rest is savasana (corpse pose), which she finds calming and helps her let go and surrender."], "keywords": ["savasana", "corpse pose", "yoga", "relaxation"], "entities": ["Jolene", "Savasana"]}
+{"turn_id": "D20:20", "facts": [], "keywords": ["yoga", "question"], "entities": ["Deborah"]}
+{"turn_id": "D20:21", "facts": ["As of 2023-08-21, Jolene has been doing yoga for 3 years, using it as a way to escape studying and work stress."], "keywords": ["yoga", "practice history", "stress relief"], "entities": ["Jolene"]}
+{"turn_id": "D20:22", "facts": [], "keywords": ["comment"], "entities": ["Deborah"]}
+{"turn_id": "D20:23", "facts": [], "keywords": ["comment", "zen"], "entities": ["Jolene"]}
+{"turn_id": "D20:24", "facts": [], "keywords": ["encouragement"], "entities": ["Deborah"]}
+{"turn_id": "D20:25", "facts": [], "keywords": ["gratitude"], "entities": ["Jolene"]}
+{"turn_id": "D20:26", "facts": [], "keywords": ["farewell"], "entities": ["Deborah"]}
+{"turn_id": "D21:1", "facts": ["On 2023-08-24, Deborah said that the previous week she went to a yoga retreat near her mother's place, which she found life-changing, connecting with nature and herself."], "keywords": ["yoga retreat", "mother", "nature", "self-discovery"], "entities": ["Deborah"]}
+{"turn_id": "D21:2", "facts": [], "keywords": ["comment", "question"], "entities": ["Jolene"]}
+{"turn_id": "D21:3", "facts": ["Deborah said nature and self-reflection have helped her see how beautiful every moment is and that she has been growing by listening to herself lately."], "keywords": ["nature", "self-reflection", "growth"], "entities": ["Deborah"]}
+{"turn_id": "D21:4", "facts": ["As of 2023-08-24, Jolene said life has been hectic but she is making satisfying strides toward her goals."], "keywords": ["goals", "progress", "busy"], "entities": ["Jolene"]}
+{"turn_id": "D21:5", "facts": [], "keywords": ["question", "achievements"], "entities": ["Deborah"]}
+{"turn_id": "D21:6", "facts": ["Jolene's goal is to be successful in her field and make a positive impact; she has been studying, attending workshops, and networking.", "Jolene recently presented at a virtual conference and received positive feedback, confirming she is on the right track."], "keywords": ["virtual conference", "networking", "career goals", "positive feedback"], "entities": ["Jolene"]}
+{"turn_id": "D21:7", "facts": [], "keywords": ["question", "feedback"], "entities": ["Deborah"]}
+{"turn_id": "D21:8", "facts": ["Jolene was thrilled by the positive feedback from her conference presentation, and is now focusing on studying, gaining experience, and considering more internships."], "keywords": ["conference", "feedback", "internships", "career"], "entities": ["Jolene"]}
+{"turn_id": "D21:9", "facts": [], "keywords": ["congratulations", "support"], "entities": ["Deborah"]}
+{"turn_id": "D21:10", "facts": [], "keywords": ["gratitude"], "entities": ["Jolene"]}
+{"turn_id": "D21:11", "facts": [], "keywords": ["encouragement"], "entities": ["Deborah"]}
+{"turn_id": "D21:12", "facts": [], "keywords": ["determination"], "entities": ["Jolene"]}
+{"turn_id": "D21:13", "facts": [], "keywords": ["encouragement"], "entities": ["Deborah"]}
+{"turn_id": "D21:14", "facts": [], "keywords": ["gratitude", "determination"], "entities": ["Jolene"]}
+{"turn_id": "D21:15", "facts": [], "keywords": ["encouragement"], "entities": ["Deborah"]}
+{"turn_id": "D21:16", "facts": [], "keywords": ["gratitude"], "entities": ["Jolene"]}
+{"turn_id": "D21:17", "facts": [], "keywords": ["support"], "entities": ["Deborah"]}
+{"turn_id": "D22:1", "facts": ["Deborah has been reflecting on her mother's influence on her, believing remembering loved ones is important."], "keywords": ["mother", "influence", "remembrance"], "entities": ["Deborah"]}
+{"turn_id": "D22:2", "facts": ["On 2023-08-26, Jolene said that the previous Friday (around 2023-08-25) she and her partner had an emotional conversation about how their loved ones influenced their values, which made them feel closer."], "keywords": ["partner", "values", "loved ones", "conversation"], "entities": ["Jolene"]}
+{"turn_id": "D22:3", "facts": [], "keywords": ["values", "question"], "entities": ["Deborah"]}
+{"turn_id": "D22:4", "facts": ["Jolene's mother always told her to never give up, teaching her perseverance and resilience.", "Jolene's partner's father taught them to stay determined; both values have influenced Jolene toward engineering and her partner toward creative endeavors."], "keywords": ["mother", "perseverance", "partner", "values", "resilience"], "entities": ["Jolene"]}
+{"turn_id": "D22:5", "facts": [], "keywords": ["question", "values"], "entities": ["Deborah"]}
+{"turn_id": "D22:6", "facts": ["Jolene wants to use her engineering talents to do good and solve important problems, keeping her mother's value of helping others in mind for her projects."], "keywords": ["engineering", "values", "helping others", "mother"], "entities": ["Jolene"]}
+{"turn_id": "D22:7", "facts": [], "keywords": ["question", "values"], "entities": ["Deborah"]}
+{"turn_id": "D22:8", "facts": ["Jolene aims to work on projects that make a real difference to communities, focusing on sustainable initiatives, environmental solutions, and getting involved with organizations focused on social causes."], "keywords": ["sustainability", "community impact", "social causes", "engineering"], "entities": ["Jolene"]}
+{"turn_id": "D22:9", "facts": [], "keywords": ["question", "plans"], "entities": ["Deborah"]}
+{"turn_id": "D22:10", "facts": ["One of Jolene's two priority future projects is developing renewable energy, like solar power, to help communities reduce dependence on non-renewables."], "keywords": ["renewable energy", "solar power", "project"], "entities": ["Jolene"]}
+{"turn_id": "D22:11", "facts": [], "keywords": ["comment", "inspiration"], "entities": ["Deborah"]}
+{"turn_id": "D22:12", "facts": ["Jolene's other priority future project is finding ways to supply clean water to people with limited access, aligning with her beliefs about sustainability."], "keywords": ["clean water", "sustainability", "project"], "entities": ["Jolene"]}
+{"turn_id": "D22:13", "facts": [], "keywords": ["encouragement", "yoga"], "entities": ["Deborah"]}
+{"turn_id": "D22:14", "facts": [], "keywords": ["question", "relaxation"], "entities": ["Jolene"]}
+{"turn_id": "D22:15", "facts": ["Deborah's tips for staying relaxed while studying are taking breaks, stretching or yoga, going for a walk, getting enough sleep, and self-care."], "keywords": ["relaxation", "yoga", "self-care", "sleep", "advice"], "entities": ["Deborah"]}
+{"turn_id": "D22:16", "facts": ["As of 2023-08-26, Jolene has been into yoga and meditation, which helps her recharge and relieve tension.", "Jolene and her partner are planning to go on a meditation retreat together to enhance their practice."], "keywords": ["yoga", "meditation", "partner", "retreat plans"], "entities": ["Jolene"]}
+{"turn_id": "D22:17", "facts": [], "keywords": ["question", "pets", "yoga"], "entities": ["Deborah"]}
+{"turn_id": "D22:18", "facts": ["Jolene said her snakes just watch her do yoga, and are good company that brings her a sense of calm."], "keywords": ["snakes", "yoga", "companionship", "calm"], "entities": ["Jolene"]}
+{"turn_id": "D22:19", "facts": ["Deborah still has her cats; one of them is named Luna."], "keywords": ["cats", "luna", "pet"], "entities": ["Deborah", "Luna"]}
+{"turn_id": "D22:20", "facts": [], "keywords": ["question", "cats"], "entities": ["Jolene"]}
+{"turn_id": "D22:21", "facts": ["Deborah's second cat is named Max; her cats bring lots of joy and peace to her home."], "keywords": ["cats", "max", "joy", "pet"], "entities": ["Deborah", "Max"]}
+{"turn_id": "D22:22", "facts": [], "keywords": ["question", "cats"], "entities": ["Jolene"]}
+{"turn_id": "D22:23", "facts": ["Deborah's cat Max originally belonged to her mother; Deborah took him in when her mother passed away."], "keywords": ["max", "mother", "cat", "inheritance"], "entities": ["Deborah", "Max"]}
+{"turn_id": "D22:24", "facts": [], "keywords": ["question", "cats"], "entities": ["Jolene"]}
+{"turn_id": "D22:25", "facts": ["Deborah adopted her cat Luna from a shelter."], "keywords": ["luna", "cat", "shelter", "adoption"], "entities": ["Deborah", "Luna"]}
+{"turn_id": "D22:26", "facts": [], "keywords": ["compliment"], "entities": ["Jolene"]}
+{"turn_id": "D22:27", "facts": ["Deborah's cat Max is 8 years old (as of 2023-08-26)."], "keywords": ["max", "cat", "age"], "entities": ["Deborah", "Max"]}
+{"turn_id": "D22:28", "facts": [], "keywords": ["question", "luna"], "entities": ["Jolene"]}
+{"turn_id": "D22:29", "facts": ["Deborah's cat Luna is 5 years old (as of 2023-08-26)."], "keywords": ["luna", "cat", "age"], "entities": ["Deborah", "Luna"]}
+{"turn_id": "D22:30", "facts": [], "keywords": ["compliment", "pets"], "entities": ["Jolene"]}
+{"turn_id": "D23:1", "facts": ["On 2023-08-30, Jolene said that the day before (2023-08-29) she and her partner returned from a trip to Rio de Janeiro, where they checked out yoga classes."], "keywords": ["rio de janeiro", "trip", "yoga", "partner"], "entities": ["Jolene", "Rio de Janeiro"]}
+{"turn_id": "D23:2", "facts": [], "keywords": ["question", "trip"], "entities": ["Deborah"]}
+{"turn_id": "D23:3", "facts": ["Jolene said her trip to Rio de Janeiro showed her different kinds of yoga and their backgrounds, and she and her partner visited a lot of cafes there."], "keywords": ["rio de janeiro", "yoga", "cafes", "travel"], "entities": ["Jolene"]}
+{"turn_id": "D23:4", "facts": ["On 2023-08-30, Deborah said that the previous month (around July 2023) she visited her mother's house, which holds a special place in her heart as a symbol of her mother's strength and love."], "keywords": ["mother", "house", "visit", "memory"], "entities": ["Deborah"]}
+{"turn_id": "D23:5", "facts": [], "keywords": ["question"], "entities": ["Jolene"]}
+{"turn_id": "D23:6", "facts": ["Deborah said visiting her mother's house brought back fond memories as she relaxed outside."], "keywords": ["mother", "house", "memories", "relaxation"], "entities": ["Deborah"]}
+{"turn_id": "D23:7", "facts": [], "keywords": ["comment"], "entities": ["Jolene"]}
+{"turn_id": "D23:8", "facts": [], "keywords": ["question", "relaxation"], "entities": ["Deborah"]}
+{"turn_id": "D23:9", "facts": ["Jolene goes to a nearby tranquil pond spot to meditate."], "keywords": ["meditation", "pond", "tranquil spot"], "entities": ["Jolene"]}
+{"turn_id": "D23:10", "facts": [], "keywords": ["question", "effect"], "entities": ["Deborah"]}
+{"turn_id": "D23:11", "facts": ["Jolene said meditating at her pond spot helps her make sense of everything and relieves stress, like a restart."], "keywords": ["meditation", "stress relief", "pond"], "entities": ["Jolene"]}
+{"turn_id": "D23:12", "facts": ["Deborah has a favorite lake spot where she likes to ponder and let things go."], "keywords": ["lake", "reflection", "favorite spot"], "entities": ["Deborah"]}
+{"turn_id": "D23:13", "facts": [], "keywords": ["question"], "entities": ["Jolene"]}
+{"turn_id": "D23:14", "facts": ["Deborah picked her lake spot for its soothing vibes and nice views, ideal for reflecting and letting go."], "keywords": ["lake", "reflection", "views"], "entities": ["Deborah"]}
+{"turn_id": "D23:15", "facts": ["Jolene shared a photo of an excursion in Rio de Janeiro where a group walked up a set of stairs."], "keywords": ["rio de janeiro", "excursion", "stairs"], "entities": ["Jolene", "Rio de Janeiro"]}
+{"turn_id": "D23:16", "facts": [], "keywords": ["question", "stairs"], "entities": ["Deborah"]}
+{"turn_id": "D23:17", "facts": ["Jolene visited an old temple in Rio de Janeiro with amazing stairs."], "keywords": ["temple", "rio de janeiro", "excursion"], "entities": ["Jolene", "Rio de Janeiro"]}
+{"turn_id": "D23:18", "facts": ["On 2023-08-30, Deborah said that three years earlier (around 2020) she was also in Rio de Janeiro and took a photo of a large stone structure with a mountain in the background during an excursion."], "keywords": ["rio de janeiro", "travel history", "excursion"], "entities": ["Deborah", "Rio de Janeiro"]}
+{"turn_id": "D23:19", "facts": [], "keywords": ["comment", "architecture"], "entities": ["Jolene"]}
+{"turn_id": "D23:20", "facts": ["Deborah said she enjoys exploring historical places and learning their stories."], "keywords": ["history", "exploration", "travel"], "entities": ["Deborah"]}
+{"turn_id": "D23:21", "facts": [], "keywords": ["question", "note"], "entities": ["Jolene"]}
+{"turn_id": "D23:22", "facts": ["Deborah has a note from a friend who has since passed away (or is otherwise unable to support her anymore) that says \"Let go of what no longer serves you,\" and she misses him."], "keywords": ["friend", "note", "quote", "loss"], "entities": ["Deborah"]}
+{"turn_id": "D23:23", "facts": [], "keywords": ["condolences", "quote"], "entities": ["Jolene"]}
+{"turn_id": "D23:24", "facts": [], "keywords": ["question", "quotes"], "entities": ["Deborah"]}
+{"turn_id": "D23:25", "facts": ["Jolene has a quote she found while browsing that reminds her to ditch negativity and focus on growing and being positive."], "keywords": ["quote", "positivity", "growth"], "entities": ["Jolene"]}
+{"turn_id": "D23:26", "facts": [], "keywords": ["comment", "improvement"], "entities": ["Deborah"]}
+{"turn_id": "D23:27", "facts": ["As of 2023-08-30, Jolene got a new plant."], "keywords": ["plant", "new"], "entities": ["Jolene"]}
+{"turn_id": "D23:28", "facts": [], "keywords": ["question", "plant"], "entities": ["Deborah"]}
+{"turn_id": "D23:29", "facts": ["Jolene got her new plant as a reminder to nurture herself and embrace fresh starts."], "keywords": ["plant", "self-nurture", "fresh start"], "entities": ["Jolene"]}
+{"turn_id": "D23:30", "facts": [], "keywords": ["encouragement"], "entities": ["Deborah"]}
+{"turn_id": "D23:31", "facts": [], "keywords": ["farewell", "gratitude"], "entities": ["Jolene"]}
+{"turn_id": "D23:32", "facts": [], "keywords": ["farewell"], "entities": ["Deborah"]}
+{"turn_id": "D24:1", "facts": ["On 2023-09-03, Deborah said that the previous week she went to an inspiring community event aimed at supporting each other."], "keywords": ["community event", "support", "connection"], "entities": ["Deborah"]}
+{"turn_id": "D24:2", "facts": ["As of 2023-09-03, Jolene has been focusing on studying and her relationship with her partner, taking little trips to the beach to relax together."], "keywords": ["studying", "partner", "beach trips", "relaxation"], "entities": ["Jolene"]}
+{"turn_id": "D24:3", "facts": ["On 2023-09-03, Deborah said that the previous Friday (around 2023-09-01) she went to a community meetup where people shared stories, which made her reflect on the importance of relationships."], "keywords": ["community meetup", "storytelling", "relationships"], "entities": ["Deborah"]}
+{"turn_id": "D24:4", "facts": ["Jolene said she is thankful for her partner right now, appreciating having someone encourage her goals."], "keywords": ["partner", "gratitude", "encouragement"], "entities": ["Jolene"]}
+{"turn_id": "D24:5", "facts": ["Deborah said her yoga friends have been like a second family to her.", "Deborah found an old photo from when she first started doing yoga, in which her mother, her biggest fan, would often come to her classes with her."], "keywords": ["yoga friends", "mother", "old photo", "support"], "entities": ["Deborah"]}
+{"turn_id": "D24:6", "facts": ["When Jolene was 10 years old, her parents got her a Nintendo game console, which started her passion for video games."], "keywords": ["nintendo", "childhood", "parents", "gaming origin"], "entities": ["Jolene"]}
+{"turn_id": "D24:7", "facts": [], "keywords": ["question", "gaming"], "entities": ["Deborah"]}
+{"turn_id": "D24:8", "facts": ["Jolene taught herself to play video games; her dad was always supportive and her mom would play games with her."], "keywords": ["gaming", "self-taught", "parents", "childhood"], "entities": ["Jolene"]}
+{"turn_id": "D24:9", "facts": [], "keywords": ["question", "favorite game"], "entities": ["Deborah"]}
+{"turn_id": "D24:10", "facts": ["One of Jolene's favorite games to play with her mom was \"Monster Hunter: World,\" which she loves for its immersive story and open-world gameplay."], "keywords": ["monster hunter world", "video game", "mother", "gaming"], "entities": ["Jolene", "Monster Hunter: World"]}
+{"turn_id": "D24:11", "facts": [], "keywords": ["comment", "gaming"], "entities": ["Deborah"]}
+{"turn_id": "D24:12", "facts": ["Jolene said gaming is her way to de-stress and take a break from life."], "keywords": ["gaming", "de-stress"], "entities": ["Jolene"]}
+{"turn_id": "D24:13", "facts": [], "keywords": ["question", "plans"], "entities": ["Deborah"]}
+{"turn_id": "D24:14", "facts": ["As of 2023-09-03, Jolene had a lot of finals coming up that month and had been studying hard, feeling stressed but planning to take a relaxing trip afterward."], "keywords": ["finals", "studying", "stress", "trip plans"], "entities": ["Jolene"]}
+{"turn_id": "D24:15", "facts": [], "keywords": ["encouragement", "support"], "entities": ["Deborah"]}
+{"turn_id": "D25:1", "facts": ["As of 2023-09-06, Jolene signed up for a meditation course at a retreat near a lake, which she plans to attend with her partner."], "keywords": ["meditation course", "retreat", "lake", "partner"], "entities": ["Jolene"]}
+{"turn_id": "D25:2", "facts": [], "keywords": ["encouragement", "excitement"], "entities": ["Deborah"]}
+{"turn_id": "D25:3", "facts": [], "keywords": ["comment", "health"], "entities": ["Jolene"]}
+{"turn_id": "D25:4", "facts": ["Deborah said meditation has become part of her daily routine and she can't imagine her life without it."], "keywords": ["meditation", "routine", "daily habit"], "entities": ["Deborah"]}
+{"turn_id": "D25:5", "facts": ["Jolene said meditation helps her stay balanced during her studies."], "keywords": ["meditation", "studies", "balance"], "entities": ["Jolene"]}
+{"turn_id": "D25:6", "facts": [], "keywords": ["question", "project"], "entities": ["Deborah"]}
+{"turn_id": "D25:7", "facts": ["As of 2023-09-06, Jolene said her project is tough but she's chugging along."], "keywords": ["project", "progress", "engineering"], "entities": ["Jolene"]}
+{"turn_id": "D25:8", "facts": [], "keywords": ["encouragement"], "entities": ["Deborah"]}
+{"turn_id": "D25:9", "facts": [], "keywords": ["gratitude"], "entities": ["Jolene"]}
+{"turn_id": "D25:10", "facts": [], "keywords": ["support"], "entities": ["Deborah"]}
+{"turn_id": "D25:11", "facts": [], "keywords": ["question"], "entities": ["Jolene"]}
+{"turn_id": "D25:12", "facts": ["Deborah shared a photo of a beautiful sunrise she recently saw again."], "keywords": ["sunrise", "beach", "photo"], "entities": ["Deborah"]}
+{"turn_id": "D25:13", "facts": ["Jolene said beach walks relax her."], "keywords": ["beach walks", "relaxation"], "entities": ["Jolene"]}
+{"turn_id": "D25:14", "facts": [], "keywords": ["question", "photo"], "entities": ["Deborah"]}
+{"turn_id": "D25:15", "facts": ["Deborah's sunrise photo reminded Jolene of her last beach getaway, which was chill and nice."], "keywords": ["beach getaway", "memory", "sunrise"], "entities": ["Jolene"]}
+{"turn_id": "D25:16", "facts": [], "keywords": ["comment", "memories"], "entities": ["Deborah"]}
+{"turn_id": "D25:17", "facts": ["Jolene expressed hope that she and Deborah could watch a sunrise together someday."], "keywords": ["sunrise", "plans", "friendship"], "entities": ["Jolene", "Deborah"]}
+{"turn_id": "D25:18", "facts": [], "keywords": ["comment"], "entities": ["Deborah"]}
+{"turn_id": "D25:19", "facts": [], "keywords": ["farewell"], "entities": ["Jolene"]}
+{"turn_id": "D25:20", "facts": [], "keywords": ["farewell"], "entities": ["Deborah"]}
+{"turn_id": "D26:1", "facts": ["On 2023-09-08, Deborah said a storm forced the cancellation of her yoga getaway that week."], "keywords": ["storm", "yoga getaway", "cancellation"], "entities": ["Deborah"]}
+{"turn_id": "D26:2", "facts": [], "keywords": ["condolences", "question"], "entities": ["Jolene"]}
+{"turn_id": "D26:3", "facts": ["Deborah said she was bummed her yoga getaway was cancelled due to a storm but found comfort in her work and spending time at home."], "keywords": ["yoga getaway", "disappointment", "comfort", "home"], "entities": ["Deborah"]}
+{"turn_id": "D26:4", "facts": ["As of 2023-09-08, Jolene and her partner are planning a camping trip to connect with nature and practice yoga."], "keywords": ["camping trip", "partner", "nature", "yoga"], "entities": ["Jolene"]}
+{"turn_id": "D26:5", "facts": [], "keywords": ["question", "scheduling"], "entities": ["Deborah"]}
+{"turn_id": "D26:6", "facts": ["Jolene keeps a routine with a schedule for classes, studying, and personal time; self-care activities like yoga and meditation help her stay balanced."], "keywords": ["routine", "schedule", "self-care", "balance"], "entities": ["Jolene"]}
+{"turn_id": "D26:7", "facts": [], "keywords": ["interest", "routine"], "entities": ["Deborah"]}
+{"turn_id": "D26:8", "facts": [], "keywords": ["offer", "routine"], "entities": ["Jolene"]}
+{"turn_id": "D26:9", "facts": [], "keywords": ["plans", "coffee date"], "entities": ["Deborah"]}
+{"turn_id": "D26:10", "facts": ["Jolene invited Deborah to meet up at a cafe the following Monday to try fresh pastries."], "keywords": ["cafe", "pastries", "plans", "coffee date"], "entities": ["Jolene"]}
+{"turn_id": "D26:11", "facts": [], "keywords": ["scheduling", "cafe"], "entities": ["Deborah"]}
+{"turn_id": "D26:12", "facts": ["Jolene proposed meeting Deborah for coffee on Wednesday at 4pm."], "keywords": ["scheduling", "coffee", "wednesday"], "entities": ["Jolene"]}
+{"turn_id": "D26:13", "facts": ["Deborah shared a photo of a hidden coffee shop near her that she likes."], "keywords": ["coffee shop", "hidden gem"], "entities": ["Deborah"]}
+{"turn_id": "D26:14", "facts": [], "keywords": ["comment", "coffee shop"], "entities": ["Jolene"]}
+{"turn_id": "D26:15", "facts": ["Deborah said she already had plans on the proposed Wednesday and could not meet then."], "keywords": ["scheduling conflict"], "entities": ["Deborah"]}
+{"turn_id": "D26:16", "facts": [], "keywords": ["scheduling"], "entities": ["Jolene"]}
+{"turn_id": "D26:17", "facts": [], "keywords": ["gratitude"], "entities": ["Deborah"]}
+{"turn_id": "D26:18", "facts": ["Jolene proposed meeting Deborah on Friday at 5pm, after she sorts out books from her bookcase."], "keywords": ["scheduling", "friday", "bookcase"], "entities": ["Jolene"]}
+{"turn_id": "D26:19", "facts": ["Deborah and Jolene agreed to meet for a coffee date the following week (Friday at 5pm)."], "keywords": ["coffee date", "plans", "confirmed"], "entities": ["Deborah", "Jolene"]}
+{"turn_id": "D26:20", "facts": [], "keywords": ["farewell", "excitement"], "entities": ["Jolene"]}
+{"turn_id": "D26:21", "facts": [], "keywords": ["books", "request"], "entities": ["Deborah"]}
+{"turn_id": "D27:1", "facts": ["On 2023-09-12, Jolene said that the previous weekend she and her partner traveled to a meditation retreat for a few weeks in Phuket, which helped her find inner peace through nature and reflection."], "keywords": ["phuket", "meditation retreat", "partner", "inner peace"], "entities": ["Jolene", "Phuket"]}
+{"turn_id": "D27:2", "facts": [], "keywords": ["question", "reflection"], "entities": ["Deborah"]}
+{"turn_id": "D27:3", "facts": ["At her Phuket retreat, Jolene reflected on what makes her happy and realized the importance of incorporating relaxation, self-care, and balance alongside her engineering studies."], "keywords": ["phuket", "reflection", "balance", "self-care"], "entities": ["Jolene"]}
+{"turn_id": "D27:4", "facts": [], "keywords": ["question", "retreat"], "entities": ["Deborah"]}
+{"turn_id": "D27:5", "facts": ["At the retreat, a session about releasing expectations and judgments to savor the present stood out to Jolene, reminding her not to only focus on the finish line but appreciate the journey."], "keywords": ["mindfulness", "present moment", "retreat", "goals"], "entities": ["Jolene"]}
+{"turn_id": "D27:6", "facts": [], "keywords": ["gratitude", "comment"], "entities": ["Deborah"]}
+{"turn_id": "D27:7", "facts": ["Jolene said she is trying to be more mindful and grateful for small things like the feeling of the sun or a good cup of coffee."], "keywords": ["mindfulness", "gratitude", "small joys"], "entities": ["Jolene"]}
+{"turn_id": "D27:8", "facts": [], "keywords": ["mindfulness", "gratitude", "comment"], "entities": ["Deborah"]}
+{"turn_id": "D27:9", "facts": ["Jolene said she is experiencing a new level of joy and happiness."], "keywords": ["joy", "happiness", "growth"], "entities": ["Jolene"]}
+{"turn_id": "D27:10", "facts": [], "keywords": ["encouragement"], "entities": ["Deborah"]}
+{"turn_id": "D27:11", "facts": [], "keywords": ["gratitude"], "entities": ["Jolene"]}
+{"turn_id": "D27:12", "facts": ["Deborah recently played a card game about cats where players draw cards from a deck to attack opponents, and plans to play it with Jolene."], "keywords": ["card game", "cats", "game night plans"], "entities": ["Deborah"]}
+{"turn_id": "D27:13", "facts": [], "keywords": ["excitement", "gaming"], "entities": ["Jolene"]}
+{"turn_id": "D28:1", "facts": ["As of 2023-09-15, Deborah reconnected with her late mother's old friends, whose stories about her mother made her tear up and feel lucky to have had her."], "keywords": ["mother", "friends", "reconnection", "memories"], "entities": ["Deborah"]}
+{"turn_id": "D28:2", "facts": [], "keywords": ["comment", "comfort"], "entities": ["Jolene"]}
+{"turn_id": "D28:3", "facts": ["Deborah said hearing new stories about her late mother from her mother's friends was emotional, a mix of happy and sad, but overall comforting."], "keywords": ["mother", "emotions", "stories"], "entities": ["Deborah"]}
+{"turn_id": "D28:4", "facts": [], "keywords": ["comment", "emotions"], "entities": ["Jolene"]}
+{"turn_id": "D28:5", "facts": ["Deborah said learning about her mother's life through her friends' eyes gave her a deeper appreciation of her mother."], "keywords": ["mother", "appreciation", "perspective"], "entities": ["Deborah"]}
+{"turn_id": "D28:6", "facts": [], "keywords": ["question", "reminiscing"], "entities": ["Jolene"]}
+{"turn_id": "D28:7", "facts": ["Deborah and her mother's friends reminisced and looked through old photos of her mother together."], "keywords": ["photos", "reminiscing", "mother's friends"], "entities": ["Deborah"]}
+{"turn_id": "D28:8", "facts": [], "keywords": ["comment", "nostalgia"], "entities": ["Jolene"]}
+{"turn_id": "D28:9", "facts": ["Deborah said photos and memories remind her of how strong love is and how amazing human relationships can be."], "keywords": ["photos", "memories", "love", "relationships"], "entities": ["Deborah"]}
+{"turn_id": "D28:10", "facts": [], "keywords": ["question", "beach"], "entities": ["Jolene"]}
+{"turn_id": "D28:11", "facts": ["Deborah got married at a special beach where she also discovered her love for surfing."], "keywords": ["wedding", "beach", "surfing", "marriage"], "entities": ["Deborah"]}
+{"turn_id": "D28:12", "facts": [], "keywords": ["comment"], "entities": ["Jolene"]}
+{"turn_id": "D28:13", "facts": ["Deborah shared another photo from one of her yoga classes on the beach."], "keywords": ["yoga class", "beach", "photo"], "entities": ["Deborah"]}
+{"turn_id": "D28:14", "facts": [], "keywords": ["question", "yoga"], "entities": ["Jolene"]}
+{"turn_id": "D28:15", "facts": ["Deborah said doing yoga on the beach is peaceful and the perfect way for her to take care of herself, thanks to the ocean, sand, and fresh air."], "keywords": ["yoga", "beach", "self-care", "peace"], "entities": ["Deborah"]}
+{"turn_id": "D28:16", "facts": ["Jolene likes creating her own serene yoga space with candles and oils, and she and her partner tried a new flower-based style of meditation in Thailand."], "keywords": ["yoga space", "candles", "oils", "flower meditation", "thailand"], "entities": ["Jolene", "Thailand"]}
+{"turn_id": "D28:17", "facts": [], "keywords": ["comment"], "entities": ["Deborah"]}
+{"turn_id": "D28:18", "facts": ["Jolene uses essential oils and soft, soothing music to create a peaceful atmosphere for yoga or meditation, which helps her chill out and center herself."], "keywords": ["essential oils", "music", "yoga", "meditation"], "entities": ["Jolene"]}
+{"turn_id": "D28:19", "facts": [], "keywords": ["comment", "environment"], "entities": ["Deborah"]}
+{"turn_id": "D28:20", "facts": ["Jolene said creating a safe, chill environment is key to enhancing her yoga/meditation practice and mood."], "keywords": ["environment", "yoga", "mood"], "entities": ["Jolene"]}
+{"turn_id": "D28:21", "facts": [], "keywords": ["question", "relaxation space"], "entities": ["Deborah"]}
+{"turn_id": "D28:22", "facts": ["Jolene's room is her little haven for peace and rest, where she usually goes to relax and recharge after a busy day."], "keywords": ["room", "relaxation", "haven"], "entities": ["Jolene"]}
+{"turn_id": "D28:23", "facts": [], "keywords": ["comment"], "entities": ["Deborah"]}
+{"turn_id": "D28:24", "facts": ["Jolene shared a photo of one of her pet snakes keeping her company."], "keywords": ["snake", "pet", "companionship"], "entities": ["Jolene"]}
+{"turn_id": "D28:25", "facts": [], "keywords": ["question", "pets"], "entities": ["Deborah"]}
+{"turn_id": "D28:26", "facts": ["As of 2023-09-15, Jolene has had her snake Susie for two years."], "keywords": ["susie", "snake", "pet duration"], "entities": ["Jolene", "Susie"]}
+{"turn_id": "D28:27", "facts": [], "keywords": ["comment", "pets"], "entities": ["Deborah"]}
+{"turn_id": "D28:28", "facts": ["Jolene considers Susie a great companion."], "keywords": ["susie", "companionship"], "entities": ["Jolene", "Susie"]}
+{"turn_id": "D28:29", "facts": [], "keywords": ["comment", "pets"], "entities": ["Deborah"]}
+{"turn_id": "D28:30", "facts": [], "keywords": ["comment", "pets"], "entities": ["Jolene"]}
+{"turn_id": "D29:1", "facts": ["On 2023-09-17, Deborah said that the day before (2023-09-16) she and her neighbor ran a free community gardening class that people of all ages joined."], "keywords": ["gardening class", "community", "neighbor", "volunteering"], "entities": ["Deborah"]}
+{"turn_id": "D29:2", "facts": [], "keywords": ["encouragement"], "entities": ["Jolene"]}
+{"turn_id": "D29:3", "facts": ["Deborah said she loves sharing her passion for plants and helping people take care of the world through gardening."], "keywords": ["gardening", "plants", "passion", "community"], "entities": ["Deborah"]}
+{"turn_id": "D29:4", "facts": ["On 2023-09-17, Jolene said that the previous Friday (around 2023-09-15) she and her partner tried a scuba diving lesson and found a cool dive spot, and she hopes to become a certified diver one day."], "keywords": ["scuba diving", "partner", "adventure", "certification goal"], "entities": ["Jolene"]}
+{"turn_id": "D29:5", "facts": ["Deborah said she has been interested in underwater life but hasn't tried scuba diving yet.", "On 2023-09-17, Deborah said that the previous Sunday (around 2023-09-10) she visited her mother's old house and sat on a bench, feeling as if she could feel her mother's presence."], "keywords": ["scuba diving", "mother", "old house", "bench", "presence"], "entities": ["Deborah"]}
+{"turn_id": "D29:6", "facts": [], "keywords": ["question", "memories"], "entities": ["Jolene"]}
+{"turn_id": "D29:7", "facts": ["Deborah's mother had a big passion for cooking and would make meals full of love and warmth for the family."], "keywords": ["mother", "cooking", "memories", "passion"], "entities": ["Deborah"]}
+{"turn_id": "D29:8", "facts": [], "keywords": ["question", "cooking memories"], "entities": ["Jolene"]}
+{"turn_id": "D29:9", "facts": ["Deborah's best memory of cooking with her mother is her mother baking pineapple birthday cakes for her as a kid, which always made her feel special."], "keywords": ["pineapple cake", "birthday", "mother", "childhood memory"], "entities": ["Deborah"]}
+{"turn_id": "D29:10", "facts": [], "keywords": ["comment"], "entities": ["Jolene"]}
+{"turn_id": "D29:11", "facts": [], "keywords": ["question", "baking"], "entities": ["Deborah"]}
+{"turn_id": "D29:12", "facts": ["Jolene used to bake cookies with someone close to her."], "keywords": ["cookies", "baking", "memory"], "entities": ["Jolene"]}
+{"turn_id": "D29:13", "facts": [], "keywords": ["question", "cookies"], "entities": ["Deborah"]}
+{"turn_id": "D29:14", "facts": ["Jolene's favorite cookie to make is a warm, gooey chocolate chip cookie with a soft, buttery texture."], "keywords": ["chocolate chip cookies", "baking preference"], "entities": ["Jolene"]}
+{"turn_id": "D29:15", "facts": [], "keywords": ["comment", "cookies"], "entities": ["Deborah"]}
+{"turn_id": "D29:16", "facts": [], "keywords": ["sharing", "book"], "entities": ["Jolene"]}
+{"turn_id": "D29:17", "facts": [], "keywords": ["question", "book"], "entities": ["Deborah"]}
+{"turn_id": "D29:18", "facts": ["Jolene said a particular book takes her to another world when she reads it."], "keywords": ["reading", "escapism", "book"], "entities": ["Jolene"]}
+{"turn_id": "D29:19", "facts": ["Deborah has a big bookshelf in her living room."], "keywords": ["bookshelf", "living room", "books"], "entities": ["Deborah"]}
+{"turn_id": "D29:20", "facts": [], "keywords": ["comment"], "entities": ["Jolene"]}
+{"turn_id": "D29:21", "facts": ["Deborah said having a bookshelf space is important for her to escape reality and relax with a book."], "keywords": ["bookshelf", "relaxation", "reading"], "entities": ["Deborah"]}
+{"turn_id": "D29:22", "facts": ["Jolene's bathroom has an aesthetic vibe, and she once read a self-discovery book there that really resonated with her."], "keywords": ["bathroom", "self-discovery book", "reading"], "entities": ["Jolene"]}
+{"turn_id": "D29:23", "facts": [], "keywords": ["comment", "cozy nook"], "entities": ["Deborah"]}
+{"turn_id": "D29:24", "facts": [], "keywords": ["question", "surfing"], "entities": ["Jolene"]}
+{"turn_id": "D29:25", "facts": ["Deborah has surfed before and shared a photo confirming it."], "keywords": ["surfing", "confirmed", "ocean"], "entities": ["Deborah"]}
+{"turn_id": "D29:26", "facts": ["As of 2023-09-17, Jolene had never tried surfing."], "keywords": ["surfing", "never tried"], "entities": ["Jolene"]}
+{"turn_id": "D29:27", "facts": ["Deborah suggested she and Jolene try surfing together sometime."], "keywords": ["surfing", "plans", "friendship"], "entities": ["Deborah", "Jolene"]}
+{"turn_id": "D29:28", "facts": [], "keywords": ["surfing", "surfboard", "humor"], "entities": ["Jolene"]}
+{"turn_id": "D29:29", "facts": [], "keywords": ["question", "surfing"], "entities": ["Deborah"]}
+{"turn_id": "D29:30", "facts": ["As of 2023-09-17, Jolene had just started learning about surfing but had not gone yet, and invited Deborah to come with her sometime."], "keywords": ["surfing", "learning", "invitation"], "entities": ["Jolene"]}
+{"turn_id": "D29:31", "facts": ["Deborah and Jolene agreed to go surfing together soon."], "keywords": ["surfing", "plans", "adventure"], "entities": ["Deborah", "Jolene"]}
+{"turn_id": "D29:32", "facts": [], "keywords": ["scheduling", "surfing"], "entities": ["Jolene"]}
+{"turn_id": "D29:33", "facts": [], "keywords": ["scheduling", "excitement"], "entities": ["Deborah"]}
+{"turn_id": "D29:34", "facts": ["Deborah and Jolene planned to go surfing together the following month (around October 2023), pending Jolene checking her schedule."], "keywords": ["surfing", "plans", "next month"], "entities": ["Jolene", "Deborah"]}
+{"turn_id": "D30:1", "facts": ["On 2023-09-20, Deborah said she recently had a great time at a music festival with friends, and that music reminds her of her mother's soothing voice singing lullabies to her."], "keywords": ["music festival", "friends", "mother", "lullabies", "memory"], "entities": ["Deborah"]}
+{"turn_id": "D30:2", "facts": ["Jolene attended a music festival with her partner the previous year (2022), which she called her way of expressing herself and getting away from stress.", "As of 2023-09-20, Jolene and her partner had just returned from a trip together."], "keywords": ["music festival", "partner", "self-expression", "trip"], "entities": ["Jolene"]}
+{"turn_id": "D30:3", "facts": [], "keywords": ["question", "trip"], "entities": ["Deborah"]}
+{"turn_id": "D30:4", "facts": ["Jolene and her partner went on a yoga retreat trip where they watched a beautiful sunrise light up the sky during yoga, which made them feel alive and grateful."], "keywords": ["yoga retreat", "sunrise", "partner", "gratitude"], "entities": ["Jolene"]}
+{"turn_id": "D30:5", "facts": [], "keywords": ["question", "feelings"], "entities": ["Deborah"]}
+{"turn_id": "D30:6", "facts": ["Jolene said doing yoga with the sunrise backdrop made her feel connected to nature and herself, incredibly peaceful and thankful."], "keywords": ["yoga", "nature", "connection", "gratitude"], "entities": ["Jolene"]}
+{"turn_id": "D30:7", "facts": [], "keywords": ["question", "nature"], "entities": ["Deborah"]}
+{"turn_id": "D30:8", "facts": ["Jolene recalled a hike with her partner where they came across a waterfall oasis that felt peaceful and made her worries disappear."], "keywords": ["hike", "waterfall", "partner", "memory"], "entities": ["Jolene"]}
+{"turn_id": "D30:9", "facts": [], "keywords": ["question", "plans"], "entities": ["Deborah"]}
+{"turn_id": "D30:10", "facts": ["As of 2023-09-20, Jolene planned to get out in nature again the following month (around October 2023)."], "keywords": ["nature", "plans", "reconnecting"], "entities": ["Jolene"]}
+{"turn_id": "D30:11", "facts": ["Deborah loves a blossom tree near her home that blooms magically every spring."], "keywords": ["blossom tree", "spring", "nature", "home"], "entities": ["Deborah"]}
+{"turn_id": "D30:12", "facts": [], "keywords": ["question", "blossom tree"], "entities": ["Jolene"]}
+{"turn_id": "D30:13", "facts": ["Deborah said watching the blossom tree bloom each spring feels like admiring nature's artwork, filling her with awe and appreciation for life, and reminding her there's hope for growth even in tough times."], "keywords": ["blossom tree", "awe", "growth", "hope"], "entities": ["Deborah"]}
+{"turn_id": "D30:14", "facts": ["Jolene shared a photo of a plant growing out of a corner of a building as a visual representation of resilience, reminding her she can keep growing through obstacles."], "keywords": ["plant", "resilience", "growth", "photo"], "entities": ["Jolene"]}
+{"turn_id": "D30:15", "facts": [], "keywords": ["comment", "resilience"], "entities": ["Deborah"]}
+{"turn_id": "D30:16", "facts": ["Jolene said appreciating small things helps her remember there's always something positive to hold onto, even in tough times."], "keywords": ["gratitude", "small things", "positivity"], "entities": ["Jolene"]}
+{"turn_id": "D30:17", "facts": [], "keywords": ["gratitude", "comment"], "entities": ["Deborah"]}
+{"turn_id": "D30:18", "facts": [], "keywords": ["farewell", "gratitude"], "entities": ["Jolene"]}
