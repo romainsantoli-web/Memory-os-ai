@@ -1,81 +1,80 @@
 {
   "version": "4.0.1",
-  "source_commit": "b58d0f4405e87ad6fcfce26df88ce8b124e274d7",
-  "source_date_epoch": 1791547200,
+  "source_commit": "0bf2d3f20150186084cdf64d6128fd3fadec1661",
+  "source_date_epoch": 1791541306,
   "release_ready": false,
-  "open_blockers": [
-    "A6-R1",
-    "A6-R2",
-    "A6-R3",
-    "A6-R4",
-    "A6-R5",
-    "A6-R6",
-    "A6-R7"
-  ],
+  "open_blockers": [],
+  "checks": {
+    "a6_review": "passed",
+    "adversarial_probe": "passed",
+    "v3": "passed",
+    "v4": "passed",
+    "lint": "passed",
+    "twine_strict": "passed",
+    "wheel_install": "passed",
+    "sdist_install": "passed",
+    "wheel_smoke": "passed",
+    "sdist_smoke": "passed"
+  },
   "artifacts": [
     {
       "name": "memory_os_ai-4.0.1-py3-none-any.whl",
-      "bytes": 281780,
-      "sha256": "9b619d619cd0fe3e865c140e035ff35d27baadbc3ea54f12874eb3720a35f6d6"
+      "bytes": 299566,
+      "sha256": "343ab2bae898b2458608e6017ed4e5994befdb25322250437b8ce66e63c4412a"
     },
     {
       "name": "memory_os_ai-4.0.1.tar.gz",
-      "bytes": 410330,
-      "sha256": "dac3e0c070642831c98dcdee030a33beb7c4a4bc1e5849d16de943bfd972d4c8"
+      "bytes": 437935,
+      "sha256": "1f161568f5228cefc6cc46d30f3291678ff5db61cd96a75eb5cb5a29bbc57b2e"
     }
   ],
-  "qualification": {
+  "installed_relay_scripts_sha256": {
+    "runner": "ce52cd4047b051330eef42c011e58a0d022700b9af731cf456d0d913bac909ab",
+    "case": "6278f6af1d31ba7ee371a6e39adb5c005f373c2900eb22695903cf39459befee"
+  },
+  "evidence": {
     "v3": {
-      "passed": 470,
+      "passed": 478,
       "coverage": 82.0
     },
     "v4": {
-      "passed": 736,
-      "coverage": 87.2,
-      "includes_cached_minilm_semantic_test": true
+      "passed": 795,
+      "coverage": 86.72,
+      "cached_semantic_test": true
     },
-    "ops_unit": 16,
-    "project_ci_lint": "passed",
-    "twine_check_strict": "passed",
-    "wheel_install_and_pip_check": "passed",
-    "sdist_install_and_pip_check": "passed",
-    "installed_package_smoke_wheel": "FAILED at relay-unavailable R7; preceding three MCP servers and six admin commands passed",
-    "installed_package_smoke_sdist": "FAILED at relay-unavailable R7; preceding three MCP servers and six admin commands passed",
-    "tcp_not_executed_on_this_tip": 9,
-    "python_tested": "3.11.14",
-    "python_3_12": "not executed",
+    "ops_unit": 75,
+    "gate_regression_tests": 8,
+    "tcp_source": {
+      "passed_reported_by_claude": 10,
+      "source_commit": "6d3f749602814756822aaaf99ab3a8df7d669338",
+      "report": "/Users/romain/memory-os-local/reviews/claude_response_A6_v2.md",
+      "runtime_sources_unchanged_after_integration": true
+    },
+    "python": "3.11.14",
     "models_downloaded": false,
-    "production_writes": false
+    "production_modified": false,
+    "dependency_downloads": false,
+    "platform": "macOS-15.3-arm64-arm-64bit"
   },
-  "proofs": [
-    "tests-v3.log",
-    "tests-v4.log",
-    "coverage-v3.json",
-    "coverage-v4.json",
-    "lint.log",
-    "build.log",
-    "twine-check.log",
-    "wheel-install.log",
-    "sdist-install.log",
-    "wheel-smoke.log",
-    "sdist-smoke.log",
-    "relay-unavailable-R7.log"
-  ],
-  "proof_file_sha256": {
-    "tests-v3.log": "52753c75b2a909d69ca32e72d6cc3a64ed1fab54372251d69fa92ccf3c29a7be",
-    "tests-v4.log": "cbbce6d5d0c16a18a0e13e5e98f7d0b48b9460476b19a7f414ee0572e32c369a",
-    "coverage-v3.json": "7f6f96881146ecb0ebe3634359b35ce77a9b8ce2deda4f9ca5c2675dcd7b2a99",
-    "coverage-v4.json": "afe68a8cea415e883504b47a362049a103dbacbc9ecedd82729aa342af8cd9cf",
+  "proof_sha256": {
+    "tests-v4.log": "710d1ae15578254c4481bfa5ae61eded8379b9bbc8304f3c36e1e164ff647b7f",
+    "tests-v3.log": "cfbc8b6444b693dacffd916b876c4744ac39ec0dfadf7a8e78fec2dd44dbd3f7",
+    "environments.json": "d48f8c18d80b21707ac4f85a98aee718f5efa1775920b34de3c227b9435e6ed2",
+    "sdist-smoke.log": "a68b42b8e62d0e9e978f163665d8596af65cdc3b871bb4b60def35e337d1cbcb",
     "lint.log": "d63ab3df51a50c66f9c57056288c7d4faf9dce413552d89215714320ac2b748e",
-    "build.log": "320a29da0a5c7165d6179a3c74305a85ebce707beadb546ae572a43e5a5a90e1",
-    "twine-check.log": "7275a345d6baa801152ada46e22aaaa6100f886b50ce80bbca3daba335b6141f",
-    "wheel-install.log": "fc7ca171f26bd463eedaa3448a6fe02c7c8a61f4228b480a6f1bd89a6a2a9909",
-    "sdist-install.log": "09f77325eea26f80af34fbf81509588b9029d1be278175b1ba6a9bcab90a7117",
-    "wheel-smoke.log": "b6f88d7d7493963d607f2cbd09698392b984e2935a666834a5639e9265d986f3",
-    "sdist-smoke.log": "db2f8f4dc954e3bb1c60e076fd8f6c058a4219071accf36bd2671f76e4c8cd79",
-    "relay-unavailable-R7.log": "a3732809c921376cf9f2dda3208f334e91c3bc4665142fdc1376c05b6c550ffd"
+    "wheel-install.log": "19e01de64af296d325f971764322b7406dfeff305ab1ff1d7e1115b9d1271a54",
+    "sdist-install.log": "78c9043a29b0a7684ac7d72590adcec2bb7100a24777b412ce16d1a15d451598",
+    "wheel-smoke.log": "601f73b40ff3ca65ead93fe7398bf01fcfa96c81821246bb93eb6d6c20d76340",
+    "coverage-v3.json": "bd8a1d06f12ee23967ceffcc24670e61234ed2ba7663fa38ed33bc837eedd7f9",
+    ".coverage-v3": "7c25da5501995e53176439dc585b4a5ef9d3585907115f65ab53e441d1b46964",
+    ".coverage-v4": "a4f0e45fabbc6c5a86ab978804a75ce2db757dbb819ab9599f28be978155b0c9",
+    "twine-check.log": "fec3d8b8a16b52ff9b1c73c6968248d955563e641fa95e5cffb4465c3d5ed2dd",
+    "coverage-v4.json": "c06baef71fd4bb3926e81a853ddb7e21a4426e8c253db5143a2e46b6ec81637b",
+    "SHA256SUMS": "1744fe6ba261e2cd6bb86dc9e306b2f4304b4108d547ff82d9a093ed61f35041",
+    "build.log": "9690dc39721093aae1f6ba556e705928e8069083778f3830f7dae4dce7305594"
   },
-  "adversarial_probe_exit": 1,
-  "installed_dependencies": "copied to private /tmp pool from existing qualified venv; no dependency/model downloads, no editable-project hooks",
-  "ops_branch_integrated": "966eca5fff5001e4e91ce17d9dc4d01f8994c570"
+  "pending_at_build": [
+    "installed wheel relay round-trip + failure/reconnection",
+    "installed sdist relay round-trip + failure/reconnection"
+  ]
 }
