@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "plan_id": "INC-001-001b-v1",
+  "review_source": "claude_review_P0_codex_v1.md (2026-10-09)",
+  "targets": [
+    {
+      "incident": "INC-001",
+      "target_id": "0513280149a649e6a744f0a29c95682a",
+      "invalidated_by": "e116128b7985433bb1605ea7cab5605b",
+      "project": "Memory-os-ai"
+    },
+    {
+      "incident": "INC-001",
+      "target_id": "b474b5cfca5a446db7916cb8d60dc64d",
+      "invalidated_by": "e116128b7985433bb1605ea7cab5605b",
+      "project": "Memory-os-ai"
+    },
+    {
+      "incident": "INC-001",
+      "target_id": "d829272605044f25b85ed1e4d15875ce",
+      "invalidated_by": "e116128b7985433bb1605ea7cab5605b",
+      "project": "Memory-os-ai"
+    },
+    {
+      "incident": "INC-001",
+      "target_id": "b6034e5343154b61b558f1a632bc4f0c",
+      "invalidated_by": "e116128b7985433bb1605ea7cab5605b",
+      "project": "Memory-os-ai"
+    },
+    {
+      "incident": "INC-001",
+      "target_id": "2c2546b5c8e94ada80e900eab07e20e9",
+      "invalidated_by": "e116128b7985433bb1605ea7cab5605b",
+      "project": "Memory-os-ai"
+    },
+    {
+      "incident": "INC-001",
+      "target_id": "14ef45923aef49cd84853e3bfa8c45e8",
+      "invalidated_by": "e116128b7985433bb1605ea7cab5605b",
+      "project": "Memory-os-ai"
+    },
+    {
+      "incident": "INC-001",
+      "target_id": "539f1faa61c94d78aa8d359ca010e1cc",
+      "invalidated_by": "e116128b7985433bb1605ea7cab5605b",
+      "project": "Memory-os-ai"
+    },
+    {
+      "incident": "INC-001",
+      "target_id": "7d59e8ab47114f5ba65eb551dbbb3104",
+      "invalidated_by": "e116128b7985433bb1605ea7cab5605b",
+      "project": "Memory-os-ai"
+    },
+    {
+      "incident": "INC-001",
+      "target_id": "3508868143ed4634b9fc1523cac5bc32",
+      "invalidated_by": "e116128b7985433bb1605ea7cab5605b",
+      "project": "Memory-os-ai"
+    },
+    {
+      "incident": "INC-001b",
+      "target_id": "4b686f4c17d742f7b224857d1aa4faab",
+      "invalidated_by": "fe3dee99beb34080b395a743e9d9d13b",
+      "project": "mamba-lob-binance"
+    },
+    {
+      "incident": "INC-001b",
+      "target_id": "660785e62af648429f50d7ee8e3a4275",
+      "invalidated_by": "3479acdb480249b0b20b44cf871422d1",
+      "project": "mamba-lob-binance"
+    },
+    {
+      "incident": "INC-001b",
+      "target_id": "2adf7ebd62e64e158bc7e6cb58918a45",
+      "invalidated_by": "a8ae6808dc3f43f1b0c7fbcd3b1f7d84",
+      "project": "mamba-lob-binance"
+    }
+  ]
+}
